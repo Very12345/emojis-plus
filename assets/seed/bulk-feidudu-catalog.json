@@ -1,0 +1,5125 @@
+[
+  {
+    "id": "bulk-feidudu-web-27",
+    "name": "肥嘟嘟 · 这是壮嘟嘟",
+    "character": "肥嘟嘟",
+    "filename": "bulk-feidudu/27_buff.jpg",
+    "action": "举起肌肉手臂",
+    "emotion": [
+      "自信",
+      "调皮"
+    ],
+    "scenes": [
+      "群聊",
+      "朋友互动",
+      "完成作业",
+      "放假"
+    ],
+    "examples": [
+      "这题拿下了",
+      "今天状态不错"
+    ],
+    "existing_text": "这是壮嘟嘟",
+    "intensity": 3,
+    "source_type": "reference",
+    "author": "美团袋鼠形象；具体网络二创作者待核实",
+    "source_url": "https://feidudu.org/",
+    "source_note": "公开嘟嘟墙转载的黄色袋鼠肥嘟嘟系列，具体二创作者、首发及授权未核实。原文件保留，不代表网站为原作者。 含原有固定文字时应在额外留白配字，不覆盖原字；装扮/形体变体均在动作标签说明。 未访问该站交易、合约或登录功能。",
+    "role": "subject",
+    "is_cutout": false,
+    "templates": [
+      "top",
+      "bottom",
+      "split",
+      "frame",
+      "grid",
+      "message",
+      "poster",
+      "side",
+      "polaroid",
+      "bubble",
+      "dialogue",
+      "spotlight",
+      "comic",
+      "subtitle",
+      "note",
+      "window",
+      "ticket",
+      "medal",
+      "scene"
+    ]
+  },
+  {
+    "id": "bulk-feidudu-web-28",
+    "name": "肥嘟嘟 · 这是奶嘟嘟",
+    "character": "肥嘟嘟",
+    "filename": "bulk-feidudu/28_milk.jpg",
+    "action": "挺着肚子坐着",
+    "emotion": [
+      "满足",
+      "调皮"
+    ],
+    "scenes": [
+      "群聊",
+      "收到通知",
+      "吐槽"
+    ],
+    "examples": [
+      "让我想想",
+      "你再说一遍"
+    ],
+    "existing_text": "这是奶嘟嘟",
+    "intensity": 3,
+    "source_type": "reference",
+    "author": "美团袋鼠形象；具体网络二创作者待核实",
+    "source_url": "https://feidudu.org/",
+    "source_note": "公开嘟嘟墙转载的黄色袋鼠肥嘟嘟系列，具体二创作者、首发及授权未核实。原文件保留，不代表网站为原作者。 含原有固定文字时应在额外留白配字，不覆盖原字；装扮/形体变体均在动作标签说明。 未访问该站交易、合约或登录功能。",
+    "role": "subject",
+    "is_cutout": false,
+    "templates": [
+      "top",
+      "bottom",
+      "split",
+      "frame",
+      "grid",
+      "message",
+      "poster",
+      "side",
+      "polaroid",
+      "bubble",
+      "dialogue",
+      "spotlight",
+      "comic",
+      "subtitle",
+      "note",
+      "window",
+      "ticket",
+      "medal",
+      "scene"
+    ]
+  },
+  {
+    "id": "bulk-feidudu-web-29",
+    "name": "肥嘟嘟 · 这是瘦嘟嘟",
+    "character": "肥嘟嘟",
+    "filename": "bulk-feidudu/29_skinny.jpg",
+    "action": "瘦削身体坐着",
+    "emotion": [
+      "委屈",
+      "调皮"
+    ],
+    "scenes": [
+      "群聊",
+      "收到通知",
+      "吐槽"
+    ],
+    "examples": [
+      "让我想想",
+      "你再说一遍"
+    ],
+    "existing_text": "这是瘦嘟嘟",
+    "intensity": 3,
+    "source_type": "reference",
+    "author": "美团袋鼠形象；具体网络二创作者待核实",
+    "source_url": "https://feidudu.org/",
+    "source_note": "公开嘟嘟墙转载的黄色袋鼠肥嘟嘟系列，具体二创作者、首发及授权未核实。原文件保留，不代表网站为原作者。 含原有固定文字时应在额外留白配字，不覆盖原字；装扮/形体变体均在动作标签说明。 未访问该站交易、合约或登录功能。",
+    "role": "subject",
+    "is_cutout": false,
+    "templates": [
+      "top",
+      "bottom",
+      "split",
+      "frame",
+      "grid",
+      "message",
+      "poster",
+      "side",
+      "polaroid",
+      "bubble",
+      "dialogue",
+      "spotlight",
+      "comic",
+      "subtitle",
+      "note",
+      "window",
+      "ticket",
+      "medal",
+      "scene"
+    ]
+  },
+  {
+    "id": "bulk-feidudu-web-30",
+    "name": "肥嘟嘟 · 这是胖嘟嘟",
+    "character": "肥嘟嘟",
+    "filename": "bulk-feidudu/30_fat.jpg",
+    "action": "变成胖圆身体站着",
+    "emotion": [
+      "放松",
+      "调皮"
+    ],
+    "scenes": [
+      "群聊",
+      "收到通知",
+      "吐槽"
+    ],
+    "examples": [
+      "让我想想",
+      "你再说一遍"
+    ],
+    "existing_text": "这是胖嘟嘟",
+    "intensity": 3,
+    "source_type": "reference",
+    "author": "美团袋鼠形象；具体网络二创作者待核实",
+    "source_url": "https://feidudu.org/",
+    "source_note": "公开嘟嘟墙转载的黄色袋鼠肥嘟嘟系列，具体二创作者、首发及授权未核实。原文件保留，不代表网站为原作者。 含原有固定文字时应在额外留白配字，不覆盖原字；装扮/形体变体均在动作标签说明。 未访问该站交易、合约或登录功能。",
+    "role": "subject",
+    "is_cutout": false,
+    "templates": [
+      "top",
+      "bottom",
+      "split",
+      "frame",
+      "grid",
+      "message",
+      "poster",
+      "side",
+      "polaroid",
+      "bubble",
+      "dialogue",
+      "spotlight",
+      "comic",
+      "subtitle",
+      "note",
+      "window",
+      "ticket",
+      "medal",
+      "scene"
+    ]
+  },
+  {
+    "id": "bulk-feidudu-web-31",
+    "name": "肥嘟嘟 · 这是圆嘟嘟",
+    "character": "肥嘟嘟",
+    "filename": "bulk-feidudu/31_round.jpg",
+    "action": "球形圆身体坐着",
+    "emotion": [
+      "放松",
+      "调皮"
+    ],
+    "scenes": [
+      "群聊",
+      "收到通知",
+      "吐槽"
+    ],
+    "examples": [
+      "让我想想",
+      "你再说一遍"
+    ],
+    "existing_text": "这是圆嘟嘟",
+    "intensity": 3,
+    "source_type": "reference",
+    "author": "美团袋鼠形象；具体网络二创作者待核实",
+    "source_url": "https://feidudu.org/",
+    "source_note": "公开嘟嘟墙转载的黄色袋鼠肥嘟嘟系列，具体二创作者、首发及授权未核实。原文件保留，不代表网站为原作者。 含原有固定文字时应在额外留白配字，不覆盖原字；装扮/形体变体均在动作标签说明。 未访问该站交易、合约或登录功能。",
+    "role": "subject",
+    "is_cutout": false,
+    "templates": [
+      "top",
+      "bottom",
+      "split",
+      "frame",
+      "grid",
+      "message",
+      "poster",
+      "side",
+      "polaroid",
+      "bubble",
+      "dialogue",
+      "spotlight",
+      "comic",
+      "subtitle",
+      "note",
+      "window",
+      "ticket",
+      "medal",
+      "scene"
+    ]
+  },
+  {
+    "id": "bulk-feidudu-web-32",
+    "name": "肥嘟嘟 · 这是贪吃嘟",
+    "character": "肥嘟嘟",
+    "filename": "bulk-feidudu/32_eat.jpg",
+    "action": "举冰棍和饮料坐着",
+    "emotion": [
+      "开心",
+      "调皮"
+    ],
+    "scenes": [
+      "群聊",
+      "朋友互动",
+      "完成作业",
+      "放假"
+    ],
+    "examples": [
+      "这题拿下了",
+      "今天状态不错"
+    ],
+    "existing_text": "这是贪吃嘟",
+    "intensity": 3,
+    "source_type": "reference",
+    "author": "美团袋鼠形象；具体网络二创作者待核实",
+    "source_url": "https://feidudu.org/",
+    "source_note": "公开嘟嘟墙转载的黄色袋鼠肥嘟嘟系列，具体二创作者、首发及授权未核实。原文件保留，不代表网站为原作者。 含原有固定文字时应在额外留白配字，不覆盖原字；装扮/形体变体均在动作标签说明。 未访问该站交易、合约或登录功能。",
+    "role": "subject",
+    "is_cutout": false,
+    "templates": [
+      "top",
+      "bottom",
+      "split",
+      "frame",
+      "grid",
+      "message",
+      "poster",
+      "side",
+      "polaroid",
+      "bubble",
+      "dialogue",
+      "spotlight",
+      "comic",
+      "subtitle",
+      "note",
+      "window",
+      "ticket",
+      "medal",
+      "scene"
+    ]
+  },
+  {
+    "id": "bulk-feidudu-web-33",
+    "name": "肥嘟嘟 · 这是匪嘟嘟",
+    "character": "肥嘟嘟",
+    "filename": "bulk-feidudu/33_bandit.jpg",
+    "action": "戴黑面罩背外卖箱站着",
+    "emotion": [
+      "自信",
+      "调皮"
+    ],
+    "scenes": [
+      "群聊",
+      "朋友互动",
+      "完成作业",
+      "放假"
+    ],
+    "examples": [
+      "这题拿下了",
+      "今天状态不错"
+    ],
+    "existing_text": "这是匪嘟嘟",
+    "intensity": 3,
+    "source_type": "reference",
+    "author": "美团袋鼠形象；具体网络二创作者待核实",
+    "source_url": "https://feidudu.org/",
+    "source_note": "公开嘟嘟墙转载的黄色袋鼠肥嘟嘟系列，具体二创作者、首发及授权未核实。原文件保留，不代表网站为原作者。 含原有固定文字时应在额外留白配字，不覆盖原字；装扮/形体变体均在动作标签说明。 未访问该站交易、合约或登录功能。",
+    "role": "subject",
+    "is_cutout": false,
+    "templates": [
+      "top",
+      "bottom",
+      "split",
+      "frame",
+      "grid",
+      "message",
+      "poster",
+      "side",
+      "polaroid",
+      "bubble",
+      "dialogue",
+      "spotlight",
+      "comic",
+      "subtitle",
+      "note",
+      "window",
+      "ticket",
+      "medal",
+      "scene"
+    ]
+  },
+  {
+    "id": "bulk-feidudu-web-34",
+    "name": "肥嘟嘟 · 这是黑嘟嘟",
+    "character": "肥嘟嘟",
+    "filename": "bulk-feidudu/34_black.jpg",
+    "action": "黑色身体站着",
+    "emotion": [
+      "淡定",
+      "调皮"
+    ],
+    "scenes": [
+      "群聊",
+      "收到通知",
+      "吐槽"
+    ],
+    "examples": [
+      "让我想想",
+      "你再说一遍"
+    ],
+    "existing_text": "这是黑嘟嘟",
+    "intensity": 3,
+    "source_type": "reference",
+    "author": "美团袋鼠形象；具体网络二创作者待核实",
+    "source_url": "https://feidudu.org/",
+    "source_note": "公开嘟嘟墙转载的黄色袋鼠肥嘟嘟系列，具体二创作者、首发及授权未核实。原文件保留，不代表网站为原作者。 含原有固定文字时应在额外留白配字，不覆盖原字；装扮/形体变体均在动作标签说明。 未访问该站交易、合约或登录功能。",
+    "role": "subject",
+    "is_cutout": false,
+    "templates": [
+      "top",
+      "bottom",
+      "split",
+      "frame",
+      "grid",
+      "message",
+      "poster",
+      "side",
+      "polaroid",
+      "bubble",
+      "dialogue",
+      "spotlight",
+      "comic",
+      "subtitle",
+      "note",
+      "window",
+      "ticket",
+      "medal",
+      "scene"
+    ]
+  },
+  {
+    "id": "bulk-feidudu-web-35",
+    "name": "肥嘟嘟 · 这是百事嘟",
+    "character": "肥嘟嘟",
+    "filename": "bulk-feidudu/35_pepsi.jpg",
+    "action": "蓝色身体印有百事图样",
+    "emotion": [
+      "调皮",
+      "得意"
+    ],
+    "scenes": [
+      "群聊",
+      "朋友互动",
+      "完成作业",
+      "放假"
+    ],
+    "examples": [
+      "这题拿下了",
+      "今天状态不错"
+    ],
+    "existing_text": "这是百事嘟",
+    "intensity": 3,
+    "source_type": "reference",
+    "author": "美团袋鼠形象；具体网络二创作者待核实",
+    "source_url": "https://feidudu.org/",
+    "source_note": "公开嘟嘟墙转载的黄色袋鼠肥嘟嘟系列，具体二创作者、首发及授权未核实。原文件保留，不代表网站为原作者。 含原有固定文字时应在额外留白配字，不覆盖原字；装扮/形体变体均在动作标签说明。 未访问该站交易、合约或登录功能。",
+    "role": "subject",
+    "is_cutout": false,
+    "templates": [
+      "top",
+      "bottom",
+      "split",
+      "frame",
+      "grid",
+      "message",
+      "poster",
+      "side",
+      "polaroid",
+      "bubble",
+      "dialogue",
+      "spotlight",
+      "comic",
+      "subtitle",
+      "note",
+      "window",
+      "ticket",
+      "medal",
+      "scene"
+    ]
+  },
+  {
+    "id": "bulk-feidudu-web-36",
+    "name": "肥嘟嘟 · 你真是傻嘟嘟的",
+    "character": "肥嘟嘟",
+    "filename": "bulk-feidudu/36_dummy.jpg",
+    "action": "脸上贴着黑白表情",
+    "emotion": [
+      "无语",
+      "调皮"
+    ],
+    "scenes": [
+      "群聊",
+      "收到通知",
+      "吐槽"
+    ],
+    "examples": [
+      "让我想想",
+      "你再说一遍"
+    ],
+    "existing_text": "你真是傻嘟嘟的",
+    "intensity": 3,
+    "source_type": "reference",
+    "author": "美团袋鼠形象；具体网络二创作者待核实",
+    "source_url": "https://feidudu.org/",
+    "source_note": "公开嘟嘟墙转载的黄色袋鼠肥嘟嘟系列，具体二创作者、首发及授权未核实。原文件保留，不代表网站为原作者。 含原有固定文字时应在额外留白配字，不覆盖原字；装扮/形体变体均在动作标签说明。 未访问该站交易、合约或登录功能。",
+    "role": "subject",
+    "is_cutout": false,
+    "templates": [
+      "top",
+      "bottom",
+      "split",
+      "frame",
+      "grid",
+      "message",
+      "poster",
+      "side",
+      "polaroid",
+      "bubble",
+      "dialogue",
+      "spotlight",
+      "comic",
+      "subtitle",
+      "note",
+      "window",
+      "ticket",
+      "medal",
+      "scene"
+    ]
+  },
+  {
+    "id": "bulk-feidudu-web-37",
+    "name": "肥嘟嘟 · 这是镭射嘟",
+    "character": "肥嘟嘟",
+    "filename": "bulk-feidudu/37_laser.jpg",
+    "action": "双眼发出蓝色镭射光",
+    "emotion": [
+      "生气",
+      "调皮"
+    ],
+    "scenes": [
+      "群聊",
+      "收到通知",
+      "吐槽"
+    ],
+    "examples": [
+      "让我想想",
+      "你再说一遍"
+    ],
+    "existing_text": "这是镭射嘟",
+    "intensity": 3,
+    "source_type": "reference",
+    "author": "美团袋鼠形象；具体网络二创作者待核实",
+    "source_url": "https://feidudu.org/",
+    "source_note": "公开嘟嘟墙转载的黄色袋鼠肥嘟嘟系列，具体二创作者、首发及授权未核实。原文件保留，不代表网站为原作者。 含原有固定文字时应在额外留白配字，不覆盖原字；装扮/形体变体均在动作标签说明。 未访问该站交易、合约或登录功能。",
+    "role": "subject",
+    "is_cutout": false,
+    "templates": [
+      "top",
+      "bottom",
+      "split",
+      "frame",
+      "grid",
+      "message",
+      "poster",
+      "side",
+      "polaroid",
+      "bubble",
+      "dialogue",
+      "spotlight",
+      "comic",
+      "subtitle",
+      "note",
+      "window",
+      "ticket",
+      "medal",
+      "scene"
+    ]
+  },
+  {
+    "id": "bulk-feidudu-web-38",
+    "name": "肥嘟嘟 · 这是火影嘟",
+    "character": "肥嘟嘟",
+    "filename": "bulk-feidudu/38_naruto.jpg",
+    "action": "戴护额双手比耶的火影装扮",
+    "emotion": [
+      "得意",
+      "调皮"
+    ],
+    "scenes": [
+      "群聊",
+      "朋友互动",
+      "完成作业",
+      "放假"
+    ],
+    "examples": [
+      "这题拿下了",
+      "今天状态不错"
+    ],
+    "existing_text": "这是火影嘟",
+    "intensity": 3,
+    "source_type": "reference",
+    "author": "美团袋鼠形象；具体网络二创作者待核实",
+    "source_url": "https://feidudu.org/",
+    "source_note": "公开嘟嘟墙转载的黄色袋鼠肥嘟嘟系列，具体二创作者、首发及授权未核实。原文件保留，不代表网站为原作者。 含原有固定文字时应在额外留白配字，不覆盖原字；装扮/形体变体均在动作标签说明。 未访问该站交易、合约或登录功能。",
+    "role": "subject",
+    "is_cutout": false,
+    "templates": [
+      "top",
+      "bottom",
+      "split",
+      "frame",
+      "grid",
+      "message",
+      "poster",
+      "side",
+      "polaroid",
+      "bubble",
+      "dialogue",
+      "spotlight",
+      "comic",
+      "subtitle",
+      "note",
+      "window",
+      "ticket",
+      "medal",
+      "scene"
+    ]
+  },
+  {
+    "id": "bulk-feidudu-web-39",
+    "name": "肥嘟嘟 · 这是蕾丝嘟",
+    "character": "肥嘟嘟",
+    "filename": "bulk-feidudu/39_lace.jpg",
+    "action": "穿黑色蕾丝装戴眼罩",
+    "emotion": [
+      "可爱",
+      "调皮"
+    ],
+    "scenes": [
+      "群聊",
+      "收到通知",
+      "吐槽"
+    ],
+    "examples": [
+      "让我想想",
+      "你再说一遍"
+    ],
+    "existing_text": "这是蕾丝嘟",
+    "intensity": 3,
+    "source_type": "reference",
+    "author": "美团袋鼠形象；具体网络二创作者待核实",
+    "source_url": "https://feidudu.org/",
+    "source_note": "公开嘟嘟墙转载的黄色袋鼠肥嘟嘟系列，具体二创作者、首发及授权未核实。原文件保留，不代表网站为原作者。 含原有固定文字时应在额外留白配字，不覆盖原字；装扮/形体变体均在动作标签说明。 未访问该站交易、合约或登录功能。",
+    "role": "subject",
+    "is_cutout": false,
+    "templates": [
+      "top",
+      "bottom",
+      "split",
+      "frame",
+      "grid",
+      "message",
+      "poster",
+      "side",
+      "polaroid",
+      "bubble",
+      "dialogue",
+      "spotlight",
+      "comic",
+      "subtitle",
+      "note",
+      "window",
+      "ticket",
+      "medal",
+      "scene"
+    ]
+  },
+  {
+    "id": "bulk-feidudu-web-40",
+    "name": "肥嘟嘟 · 这是三角嘟",
+    "character": "肥嘟嘟",
+    "filename": "bulk-feidudu/40_tactical.jpg",
+    "action": "戴头盔背战术装备",
+    "emotion": [
+      "自信",
+      "调皮"
+    ],
+    "scenes": [
+      "群聊",
+      "朋友互动",
+      "完成作业",
+      "放假"
+    ],
+    "examples": [
+      "这题拿下了",
+      "今天状态不错"
+    ],
+    "existing_text": "这是三角嘟",
+    "intensity": 3,
+    "source_type": "reference",
+    "author": "美团袋鼠形象；具体网络二创作者待核实",
+    "source_url": "https://feidudu.org/",
+    "source_note": "公开嘟嘟墙转载的黄色袋鼠肥嘟嘟系列，具体二创作者、首发及授权未核实。原文件保留，不代表网站为原作者。 含原有固定文字时应在额外留白配字，不覆盖原字；装扮/形体变体均在动作标签说明。 未访问该站交易、合约或登录功能。",
+    "role": "subject",
+    "is_cutout": false,
+    "templates": [
+      "top",
+      "bottom",
+      "split",
+      "frame",
+      "grid",
+      "message",
+      "poster",
+      "side",
+      "polaroid",
+      "bubble",
+      "dialogue",
+      "spotlight",
+      "comic",
+      "subtitle",
+      "note",
+      "window",
+      "ticket",
+      "medal",
+      "scene"
+    ]
+  },
+  {
+    "id": "bulk-feidudu-web-41",
+    "name": "肥嘟嘟 · 这是刀盾嘟",
+    "character": "肥嘟嘟",
+    "filename": "bulk-feidudu/41_sword.jpg",
+    "action": "手持剑盾站着",
+    "emotion": [
+      "自信",
+      "调皮"
+    ],
+    "scenes": [
+      "群聊",
+      "朋友互动",
+      "完成作业",
+      "放假"
+    ],
+    "examples": [
+      "这题拿下了",
+      "今天状态不错"
+    ],
+    "existing_text": "这是刀盾嘟",
+    "intensity": 3,
+    "source_type": "reference",
+    "author": "美团袋鼠形象；具体网络二创作者待核实",
+    "source_url": "https://feidudu.org/",
+    "source_note": "公开嘟嘟墙转载的黄色袋鼠肥嘟嘟系列，具体二创作者、首发及授权未核实。原文件保留，不代表网站为原作者。 含原有固定文字时应在额外留白配字，不覆盖原字；装扮/形体变体均在动作标签说明。 未访问该站交易、合约或登录功能。",
+    "role": "subject",
+    "is_cutout": false,
+    "templates": [
+      "top",
+      "bottom",
+      "split",
+      "frame",
+      "grid",
+      "message",
+      "poster",
+      "side",
+      "polaroid",
+      "bubble",
+      "dialogue",
+      "spotlight",
+      "comic",
+      "subtitle",
+      "note",
+      "window",
+      "ticket",
+      "medal",
+      "scene"
+    ]
+  },
+  {
+    "id": "bulk-feidudu-web-42",
+    "name": "肥嘟嘟 · 你胆子真的肥嘟嘟呀",
+    "character": "肥嘟嘟",
+    "filename": "bulk-feidudu/42_huge.jpg",
+    "action": "超大圆肚子与小脑袋",
+    "emotion": [
+      "得意",
+      "调皮"
+    ],
+    "scenes": [
+      "群聊",
+      "朋友互动",
+      "完成作业",
+      "放假"
+    ],
+    "examples": [
+      "这题拿下了",
+      "今天状态不错"
+    ],
+    "existing_text": "你胆子真的肥嘟嘟呀",
+    "intensity": 3,
+    "source_type": "reference",
+    "author": "美团袋鼠形象；具体网络二创作者待核实",
+    "source_url": "https://feidudu.org/",
+    "source_note": "公开嘟嘟墙转载的黄色袋鼠肥嘟嘟系列，具体二创作者、首发及授权未核实。原文件保留，不代表网站为原作者。 含原有固定文字时应在额外留白配字，不覆盖原字；装扮/形体变体均在动作标签说明。 未访问该站交易、合约或登录功能。",
+    "role": "subject",
+    "is_cutout": false,
+    "templates": [
+      "top",
+      "bottom",
+      "split",
+      "frame",
+      "grid",
+      "message",
+      "poster",
+      "side",
+      "polaroid",
+      "bubble",
+      "dialogue",
+      "spotlight",
+      "comic",
+      "subtitle",
+      "note",
+      "window",
+      "ticket",
+      "medal",
+      "scene"
+    ]
+  },
+  {
+    "id": "bulk-feidudu-web-43",
+    "name": "肥嘟嘟 · 知豆了",
+    "character": "肥嘟嘟",
+    "filename": "bulk-feidudu/43_know.jpg",
+    "action": "抬头凝视的脸部特写",
+    "emotion": [
+      "理解",
+      "调皮"
+    ],
+    "scenes": [
+      "群聊",
+      "收到通知",
+      "吐槽"
+    ],
+    "examples": [
+      "让我想想",
+      "你再说一遍"
+    ],
+    "existing_text": "知豆了",
+    "intensity": 3,
+    "source_type": "reference",
+    "author": "美团袋鼠形象；具体网络二创作者待核实",
+    "source_url": "https://feidudu.org/",
+    "source_note": "公开嘟嘟墙转载的黄色袋鼠肥嘟嘟系列，具体二创作者、首发及授权未核实。原文件保留，不代表网站为原作者。 含原有固定文字时应在额外留白配字，不覆盖原字；装扮/形体变体均在动作标签说明。 未访问该站交易、合约或登录功能。",
+    "role": "subject",
+    "is_cutout": false,
+    "templates": [
+      "top",
+      "bottom",
+      "split",
+      "frame",
+      "grid",
+      "message",
+      "poster",
+      "side",
+      "polaroid",
+      "bubble",
+      "dialogue",
+      "spotlight",
+      "comic",
+      "subtitle",
+      "note",
+      "window",
+      "ticket",
+      "medal",
+      "scene"
+    ]
+  },
+  {
+    "id": "bulk-feidudu-web-02",
+    "name": "肥嘟嘟 · 我抽烂你屁股",
+    "character": "肥嘟嘟",
+    "filename": "bulk-feidudu/02_whip.png",
+    "action": "举鞭子追着另一只袋鼠",
+    "emotion": [
+      "生气",
+      "调皮"
+    ],
+    "scenes": [
+      "群聊",
+      "收到通知",
+      "吐槽"
+    ],
+    "examples": [
+      "让我想想",
+      "你再说一遍"
+    ],
+    "existing_text": "胆子真是肥嘟嘟 我抽烂你屁股",
+    "intensity": 3,
+    "source_type": "reference",
+    "author": "美团袋鼠形象；具体网络二创作者待核实",
+    "source_url": "https://feidudu.org/",
+    "source_note": "公开嘟嘟墙转载的黄色袋鼠肥嘟嘟系列，具体二创作者、首发及授权未核实。原文件保留，不代表网站为原作者。 含原有固定文字时应在额外留白配字，不覆盖原字；装扮/形体变体均在动作标签说明。 未访问该站交易、合约或登录功能。",
+    "role": "subject",
+    "is_cutout": false,
+    "templates": [
+      "top",
+      "bottom",
+      "split",
+      "frame",
+      "grid",
+      "message",
+      "poster",
+      "side",
+      "polaroid",
+      "bubble",
+      "dialogue",
+      "spotlight",
+      "comic",
+      "subtitle",
+      "note",
+      "window",
+      "ticket",
+      "medal",
+      "scene"
+    ]
+  },
+  {
+    "id": "bulk-feidudu-web-03",
+    "name": "肥嘟嘟 · 有本事干死我",
+    "character": "肥嘟嘟",
+    "filename": "bulk-feidudu/03_gan_si_wo.png",
+    "action": "坐在地上回头",
+    "emotion": [
+      "调皮",
+      "得意"
+    ],
+    "scenes": [
+      "群聊",
+      "朋友互动",
+      "完成作业",
+      "放假"
+    ],
+    "examples": [
+      "这题拿下了",
+      "今天状态不错"
+    ],
+    "existing_text": "我胆子就是肥嘟嘟的 有本事干死我",
+    "intensity": 3,
+    "source_type": "reference",
+    "author": "美团袋鼠形象；具体网络二创作者待核实",
+    "source_url": "https://feidudu.org/",
+    "source_note": "公开嘟嘟墙转载的黄色袋鼠肥嘟嘟系列，具体二创作者、首发及授权未核实。原文件保留，不代表网站为原作者。 含原有固定文字时应在额外留白配字，不覆盖原字；装扮/形体变体均在动作标签说明。 未访问该站交易、合约或登录功能。",
+    "role": "subject",
+    "is_cutout": false,
+    "templates": [
+      "top",
+      "bottom",
+      "split",
+      "frame",
+      "grid",
+      "message",
+      "poster",
+      "side",
+      "polaroid",
+      "bubble",
+      "dialogue",
+      "spotlight",
+      "comic",
+      "subtitle",
+      "note",
+      "window",
+      "ticket",
+      "medal",
+      "scene"
+    ]
+  },
+  {
+    "id": "bulk-feidudu-web-04",
+    "name": "肥嘟嘟 · 我的胆子就是肥嘟嘟",
+    "character": "肥嘟嘟",
+    "filename": "bulk-feidudu/04_peace.png",
+    "action": "吐舌双手比耶",
+    "emotion": [
+      "开心",
+      "调皮"
+    ],
+    "scenes": [
+      "群聊",
+      "朋友互动",
+      "完成作业",
+      "放假"
+    ],
+    "examples": [
+      "这题拿下了",
+      "今天状态不错"
+    ],
+    "existing_text": "我的胆子就是肥嘟嘟",
+    "intensity": 3,
+    "source_type": "reference",
+    "author": "美团袋鼠形象；具体网络二创作者待核实",
+    "source_url": "https://feidudu.org/",
+    "source_note": "公开嘟嘟墙转载的黄色袋鼠肥嘟嘟系列，具体二创作者、首发及授权未核实。原文件保留，不代表网站为原作者。 含原有固定文字时应在额外留白配字，不覆盖原字；装扮/形体变体均在动作标签说明。 未访问该站交易、合约或登录功能。",
+    "role": "subject",
+    "is_cutout": false,
+    "templates": [
+      "top",
+      "bottom",
+      "split",
+      "frame",
+      "grid",
+      "message",
+      "poster",
+      "side",
+      "polaroid",
+      "bubble",
+      "dialogue",
+      "spotlight",
+      "comic",
+      "subtitle",
+      "note",
+      "window",
+      "ticket",
+      "medal",
+      "scene"
+    ]
+  },
+  {
+    "id": "bulk-feidudu-web-05",
+    "name": "肥嘟嘟 · 胆子真是肥嘟嘟",
+    "character": "肥嘟嘟",
+    "filename": "bulk-feidudu/05_stand.png",
+    "action": "垂手站着",
+    "emotion": [
+      "无辜",
+      "调皮"
+    ],
+    "scenes": [
+      "群聊",
+      "收到通知",
+      "吐槽"
+    ],
+    "examples": [
+      "让我想想",
+      "你再说一遍"
+    ],
+    "existing_text": "胆子真是肥嘟嘟",
+    "intensity": 3,
+    "source_type": "reference",
+    "author": "美团袋鼠形象；具体网络二创作者待核实",
+    "source_url": "https://feidudu.org/",
+    "source_note": "公开嘟嘟墙转载的黄色袋鼠肥嘟嘟系列，具体二创作者、首发及授权未核实。原文件保留，不代表网站为原作者。 含原有固定文字时应在额外留白配字，不覆盖原字；装扮/形体变体均在动作标签说明。 未访问该站交易、合约或登录功能。",
+    "role": "subject",
+    "is_cutout": false,
+    "templates": [
+      "top",
+      "bottom",
+      "split",
+      "frame",
+      "grid",
+      "message",
+      "poster",
+      "side",
+      "polaroid",
+      "bubble",
+      "dialogue",
+      "spotlight",
+      "comic",
+      "subtitle",
+      "note",
+      "window",
+      "ticket",
+      "medal",
+      "scene"
+    ]
+  },
+  {
+    "id": "bulk-feidudu-web-06",
+    "name": "肥嘟嘟 · 你胆子真是肥嘟嘟啊",
+    "character": "肥嘟嘟",
+    "filename": "bulk-feidudu/06_dog.png",
+    "action": "四脚站立抬头",
+    "emotion": [
+      "疑惑",
+      "调皮"
+    ],
+    "scenes": [
+      "群聊",
+      "收到通知",
+      "吐槽"
+    ],
+    "examples": [
+      "让我想想",
+      "你再说一遍"
+    ],
+    "existing_text": "你胆子真是肥嘟嘟啊",
+    "intensity": 3,
+    "source_type": "reference",
+    "author": "美团袋鼠形象；具体网络二创作者待核实",
+    "source_url": "https://feidudu.org/",
+    "source_note": "公开嘟嘟墙转载的黄色袋鼠肥嘟嘟系列，具体二创作者、首发及授权未核实。原文件保留，不代表网站为原作者。 含原有固定文字时应在额外留白配字，不覆盖原字；装扮/形体变体均在动作标签说明。 未访问该站交易、合约或登录功能。",
+    "role": "subject",
+    "is_cutout": false,
+    "templates": [
+      "top",
+      "bottom",
+      "split",
+      "frame",
+      "grid",
+      "message",
+      "poster",
+      "side",
+      "polaroid",
+      "bubble",
+      "dialogue",
+      "spotlight",
+      "comic",
+      "subtitle",
+      "note",
+      "window",
+      "ticket",
+      "medal",
+      "scene"
+    ]
+  },
+  {
+    "id": "bulk-feidudu-web-07",
+    "name": "肥嘟嘟 · 墨镜双V",
+    "character": "肥嘟嘟",
+    "filename": "bulk-feidudu/07_cool_peace.png",
+    "action": "戴眼罩吐舌双手比耶",
+    "emotion": [
+      "得意",
+      "调皮"
+    ],
+    "scenes": [
+      "群聊",
+      "朋友互动",
+      "完成作业",
+      "放假"
+    ],
+    "examples": [
+      "这题拿下了",
+      "今天状态不错"
+    ],
+    "existing_text": "你胆子真是肥嘟嘟的",
+    "intensity": 3,
+    "source_type": "reference",
+    "author": "美团袋鼠形象；具体网络二创作者待核实",
+    "source_url": "https://feidudu.org/",
+    "source_note": "公开嘟嘟墙转载的黄色袋鼠肥嘟嘟系列，具体二创作者、首发及授权未核实。原文件保留，不代表网站为原作者。 含原有固定文字时应在额外留白配字，不覆盖原字；装扮/形体变体均在动作标签说明。 未访问该站交易、合约或登录功能。",
+    "role": "subject",
+    "is_cutout": false,
+    "templates": [
+      "top",
+      "bottom",
+      "split",
+      "frame",
+      "grid",
+      "message",
+      "poster",
+      "side",
+      "polaroid",
+      "bubble",
+      "dialogue",
+      "spotlight",
+      "comic",
+      "subtitle",
+      "note",
+      "window",
+      "ticket",
+      "medal",
+      "scene"
+    ]
+  },
+  {
+    "id": "bulk-feidudu-web-08",
+    "name": "肥嘟嘟 · 我的胆子就是肥嘟嘟的！",
+    "character": "肥嘟嘟",
+    "filename": "bulk-feidudu/08_muscle.png",
+    "action": "举起双臂展示肌肉",
+    "emotion": [
+      "自信",
+      "调皮"
+    ],
+    "scenes": [
+      "群聊",
+      "朋友互动",
+      "完成作业",
+      "放假"
+    ],
+    "examples": [
+      "这题拿下了",
+      "今天状态不错"
+    ],
+    "existing_text": "我的胆子就是肥嘟嘟的！",
+    "intensity": 3,
+    "source_type": "reference",
+    "author": "美团袋鼠形象；具体网络二创作者待核实",
+    "source_url": "https://feidudu.org/",
+    "source_note": "公开嘟嘟墙转载的黄色袋鼠肥嘟嘟系列，具体二创作者、首发及授权未核实。原文件保留，不代表网站为原作者。 含原有固定文字时应在额外留白配字，不覆盖原字；装扮/形体变体均在动作标签说明。 未访问该站交易、合约或登录功能。",
+    "role": "subject",
+    "is_cutout": false,
+    "templates": [
+      "top",
+      "bottom",
+      "split",
+      "frame",
+      "grid",
+      "message",
+      "poster",
+      "side",
+      "polaroid",
+      "bubble",
+      "dialogue",
+      "spotlight",
+      "comic",
+      "subtitle",
+      "note",
+      "window",
+      "ticket",
+      "medal",
+      "scene"
+    ]
+  },
+  {
+    "id": "bulk-feidudu-web-09",
+    "name": "肥嘟嘟 · 为什么不回我消息",
+    "character": "肥嘟嘟",
+    "filename": "bulk-feidudu/09_walk.png",
+    "action": "牵着小袋鼠回头",
+    "emotion": [
+      "委屈",
+      "调皮"
+    ],
+    "scenes": [
+      "群聊",
+      "收到通知",
+      "吐槽"
+    ],
+    "examples": [
+      "让我想想",
+      "你再说一遍"
+    ],
+    "existing_text": "为什么不回我消息",
+    "intensity": 3,
+    "source_type": "reference",
+    "author": "美团袋鼠形象；具体网络二创作者待核实",
+    "source_url": "https://feidudu.org/",
+    "source_note": "公开嘟嘟墙转载的黄色袋鼠肥嘟嘟系列，具体二创作者、首发及授权未核实。原文件保留，不代表网站为原作者。 含原有固定文字时应在额外留白配字，不覆盖原字；装扮/形体变体均在动作标签说明。 未访问该站交易、合约或登录功能。",
+    "role": "subject",
+    "is_cutout": false,
+    "templates": [
+      "top",
+      "bottom",
+      "split",
+      "frame",
+      "grid",
+      "message",
+      "poster",
+      "side",
+      "polaroid",
+      "bubble",
+      "dialogue",
+      "spotlight",
+      "comic",
+      "subtitle",
+      "note",
+      "window",
+      "ticket",
+      "medal",
+      "scene"
+    ]
+  },
+  {
+    "id": "bulk-feidudu-web-10",
+    "name": "肥嘟嘟 · 我的胆子就是肥嘟嘟的",
+    "character": "肥嘟嘟",
+    "filename": "bulk-feidudu/10_sit_dog.png",
+    "action": "抬头四足站着",
+    "emotion": [
+      "自信",
+      "调皮"
+    ],
+    "scenes": [
+      "群聊",
+      "朋友互动",
+      "完成作业",
+      "放假"
+    ],
+    "examples": [
+      "这题拿下了",
+      "今天状态不错"
+    ],
+    "existing_text": "我的胆子就是肥嘟嘟的",
+    "intensity": 3,
+    "source_type": "reference",
+    "author": "美团袋鼠形象；具体网络二创作者待核实",
+    "source_url": "https://feidudu.org/",
+    "source_note": "公开嘟嘟墙转载的黄色袋鼠肥嘟嘟系列，具体二创作者、首发及授权未核实。原文件保留，不代表网站为原作者。 含原有固定文字时应在额外留白配字，不覆盖原字；装扮/形体变体均在动作标签说明。 未访问该站交易、合约或登录功能。",
+    "role": "subject",
+    "is_cutout": false,
+    "templates": [
+      "top",
+      "bottom",
+      "split",
+      "frame",
+      "grid",
+      "message",
+      "poster",
+      "side",
+      "polaroid",
+      "bubble",
+      "dialogue",
+      "spotlight",
+      "comic",
+      "subtitle",
+      "note",
+      "window",
+      "ticket",
+      "medal",
+      "scene"
+    ]
+  },
+  {
+    "id": "bulk-feidudu-web-11",
+    "name": "肥嘟嘟 · 墨镜坐",
+    "character": "肥嘟嘟",
+    "filename": "bulk-feidudu/11_cool_sit.png",
+    "action": "戴眼罩吐舌坐着",
+    "emotion": [
+      "调皮",
+      "得意"
+    ],
+    "scenes": [
+      "群聊",
+      "朋友互动",
+      "完成作业",
+      "放假"
+    ],
+    "examples": [
+      "这题拿下了",
+      "今天状态不错"
+    ],
+    "existing_text": "胆子真是肥嘟嘟的",
+    "intensity": 3,
+    "source_type": "reference",
+    "author": "美团袋鼠形象；具体网络二创作者待核实",
+    "source_url": "https://feidudu.org/",
+    "source_note": "公开嘟嘟墙转载的黄色袋鼠肥嘟嘟系列，具体二创作者、首发及授权未核实。原文件保留，不代表网站为原作者。 含原有固定文字时应在额外留白配字，不覆盖原字；装扮/形体变体均在动作标签说明。 未访问该站交易、合约或登录功能。",
+    "role": "subject",
+    "is_cutout": false,
+    "templates": [
+      "top",
+      "bottom",
+      "split",
+      "frame",
+      "grid",
+      "message",
+      "poster",
+      "side",
+      "polaroid",
+      "bubble",
+      "dialogue",
+      "spotlight",
+      "comic",
+      "subtitle",
+      "note",
+      "window",
+      "ticket",
+      "medal",
+      "scene"
+    ]
+  },
+  {
+    "id": "bulk-feidudu-web-12",
+    "name": "肥嘟嘟 · 黑发眼镜",
+    "character": "肥嘟嘟",
+    "filename": "bulk-feidudu/12_glasses.png",
+    "action": "黑发戴眼镜的脸部特写",
+    "emotion": [
+      "淡定",
+      "调皮"
+    ],
+    "scenes": [
+      "群聊",
+      "收到通知",
+      "吐槽"
+    ],
+    "examples": [
+      "让我想想",
+      "你再说一遍"
+    ],
+    "existing_text": "胆子真是肥嘟嘟的",
+    "intensity": 3,
+    "source_type": "reference",
+    "author": "美团袋鼠形象；具体网络二创作者待核实",
+    "source_url": "https://feidudu.org/",
+    "source_note": "公开嘟嘟墙转载的黄色袋鼠肥嘟嘟系列，具体二创作者、首发及授权未核实。原文件保留，不代表网站为原作者。 含原有固定文字时应在额外留白配字，不覆盖原字；装扮/形体变体均在动作标签说明。 未访问该站交易、合约或登录功能。",
+    "role": "subject",
+    "is_cutout": false,
+    "templates": [
+      "top",
+      "bottom",
+      "split",
+      "frame",
+      "grid",
+      "message",
+      "poster",
+      "side",
+      "polaroid",
+      "bubble",
+      "dialogue",
+      "spotlight",
+      "comic",
+      "subtitle",
+      "note",
+      "window",
+      "ticket",
+      "medal",
+      "scene"
+    ]
+  },
+  {
+    "id": "bulk-feidudu-web-13",
+    "name": "肥嘟嘟 · 红头巾",
+    "character": "肥嘟嘟",
+    "filename": "bulk-feidudu/13_headband.png",
+    "action": "系红头巾长发的脸部特写",
+    "emotion": [
+      "可爱",
+      "调皮"
+    ],
+    "scenes": [
+      "群聊",
+      "收到通知",
+      "吐槽"
+    ],
+    "examples": [
+      "让我想想",
+      "你再说一遍"
+    ],
+    "existing_text": "胆子真是肥嘟嘟",
+    "intensity": 3,
+    "source_type": "reference",
+    "author": "美团袋鼠形象；具体网络二创作者待核实",
+    "source_url": "https://feidudu.org/",
+    "source_note": "公开嘟嘟墙转载的黄色袋鼠肥嘟嘟系列，具体二创作者、首发及授权未核实。原文件保留，不代表网站为原作者。 含原有固定文字时应在额外留白配字，不覆盖原字；装扮/形体变体均在动作标签说明。 未访问该站交易、合约或登录功能。",
+    "role": "subject",
+    "is_cutout": false,
+    "templates": [
+      "top",
+      "bottom",
+      "split",
+      "frame",
+      "grid",
+      "message",
+      "poster",
+      "side",
+      "polaroid",
+      "bubble",
+      "dialogue",
+      "spotlight",
+      "comic",
+      "subtitle",
+      "note",
+      "window",
+      "ticket",
+      "medal",
+      "scene"
+    ]
+  },
+  {
+    "id": "bulk-feidudu-web-14",
+    "name": "肥嘟嘟 · 银发",
+    "character": "肥嘟嘟",
+    "filename": "bulk-feidudu/14_grey.png",
+    "action": "银发紫眼的脸部特写",
+    "emotion": [
+      "惊讶",
+      "调皮"
+    ],
+    "scenes": [
+      "群聊",
+      "收到通知",
+      "吐槽"
+    ],
+    "examples": [
+      "让我想想",
+      "你再说一遍"
+    ],
+    "existing_text": "胆子真是肥嘟嘟的",
+    "intensity": 3,
+    "source_type": "reference",
+    "author": "美团袋鼠形象；具体网络二创作者待核实",
+    "source_url": "https://feidudu.org/",
+    "source_note": "公开嘟嘟墙转载的黄色袋鼠肥嘟嘟系列，具体二创作者、首发及授权未核实。原文件保留，不代表网站为原作者。 含原有固定文字时应在额外留白配字，不覆盖原字；装扮/形体变体均在动作标签说明。 未访问该站交易、合约或登录功能。",
+    "role": "subject",
+    "is_cutout": false,
+    "templates": [
+      "top",
+      "bottom",
+      "split",
+      "frame",
+      "grid",
+      "message",
+      "poster",
+      "side",
+      "polaroid",
+      "bubble",
+      "dialogue",
+      "spotlight",
+      "comic",
+      "subtitle",
+      "note",
+      "window",
+      "ticket",
+      "medal",
+      "scene"
+    ]
+  },
+  {
+    "id": "bulk-feidudu-web-15",
+    "name": "肥嘟嘟 · 墨燃你胆子真是肥嘟嘟啊",
+    "character": "肥嘟嘟",
+    "filename": "bulk-feidudu/15_moran.png",
+    "action": "长发盘发坐着",
+    "emotion": [
+      "调皮",
+      "得意"
+    ],
+    "scenes": [
+      "群聊",
+      "朋友互动",
+      "完成作业",
+      "放假"
+    ],
+    "examples": [
+      "这题拿下了",
+      "今天状态不错"
+    ],
+    "existing_text": "墨燃你胆子真是肥嘟嘟啊",
+    "intensity": 3,
+    "source_type": "reference",
+    "author": "美团袋鼠形象；具体网络二创作者待核实",
+    "source_url": "https://feidudu.org/",
+    "source_note": "公开嘟嘟墙转载的黄色袋鼠肥嘟嘟系列，具体二创作者、首发及授权未核实。原文件保留，不代表网站为原作者。 含原有固定文字时应在额外留白配字，不覆盖原字；装扮/形体变体均在动作标签说明。 未访问该站交易、合约或登录功能。",
+    "role": "subject",
+    "is_cutout": false,
+    "templates": [
+      "top",
+      "bottom",
+      "split",
+      "frame",
+      "grid",
+      "message",
+      "poster",
+      "side",
+      "polaroid",
+      "bubble",
+      "dialogue",
+      "spotlight",
+      "comic",
+      "subtitle",
+      "note",
+      "window",
+      "ticket",
+      "medal",
+      "scene"
+    ]
+  },
+  {
+    "id": "bulk-feidudu-web-22",
+    "name": "肥嘟嘟 · 滑雪肥嘟嘟",
+    "character": "肥嘟嘟",
+    "filename": "bulk-feidudu/22_ski.jpg",
+    "action": "戴滑雪镜背着滑雪板站着",
+    "emotion": [
+      "期待",
+      "调皮"
+    ],
+    "scenes": [
+      "群聊",
+      "收到通知",
+      "吐槽"
+    ],
+    "examples": [
+      "让我想想",
+      "你再说一遍"
+    ],
+    "existing_text": "",
+    "intensity": 3,
+    "source_type": "reference",
+    "author": "美团袋鼠形象；具体网络二创作者待核实",
+    "source_url": "https://feidudu.org/",
+    "source_note": "公开嘟嘟墙转载的黄色袋鼠肥嘟嘟系列，具体二创作者、首发及授权未核实。原文件保留，不代表网站为原作者。 含原有固定文字时应在额外留白配字，不覆盖原字；装扮/形体变体均在动作标签说明。 未访问该站交易、合约或登录功能。",
+    "role": "subject",
+    "is_cutout": false,
+    "templates": [
+      "top",
+      "bottom",
+      "split",
+      "frame",
+      "grid",
+      "message",
+      "poster",
+      "side",
+      "polaroid",
+      "bubble",
+      "dialogue",
+      "spotlight",
+      "comic",
+      "subtitle",
+      "note",
+      "window",
+      "ticket",
+      "medal",
+      "scene"
+    ]
+  },
+  {
+    "id": "bulk-feidudu-v1-004",
+    "name": "肥嘟嘟 · 抬膝跳跃，吐舌摆臂",
+    "character": "肥嘟嘟",
+    "filename": "bulk-feidudu/video-1-004.jpg",
+    "action": "抬膝跳跃，吐舌摆臂",
+    "emotion": [
+      "开心",
+      "调皮"
+    ],
+    "scenes": [
+      "群聊",
+      "朋友互动",
+      "完成作业",
+      "放假"
+    ],
+    "examples": [
+      "这题拿下了",
+      "今天状态不错"
+    ],
+    "existing_text": "",
+    "intensity": 3,
+    "source_type": "reference",
+    "author": "美团袋鼠形象；具体网络二创作者待核实",
+    "source_url": "https://feidudu.org/",
+    "source_note": "公开嘟嘟墙转载的黄色袋鼠肥嘟嘟系列，具体二创作者、首发及授权未核实。原文件保留，不代表网站为原作者。 从该页公开舞蹈视频1的0.4秒处提取的实际动作静帧；视频二创画面，可能含生成式图像痕迹，不冒充美团官方动画。 未访问该站交易、合约或登录功能。",
+    "role": "subject",
+    "is_cutout": false,
+    "templates": [
+      "top",
+      "bottom",
+      "split",
+      "frame",
+      "grid",
+      "message",
+      "poster",
+      "side",
+      "polaroid",
+      "bubble",
+      "dialogue",
+      "spotlight",
+      "comic",
+      "subtitle",
+      "note",
+      "window",
+      "ticket",
+      "medal",
+      "scene"
+    ]
+  },
+  {
+    "id": "bulk-feidudu-v1-011",
+    "name": "肥嘟嘟 · 侧身抬腿跳跃",
+    "character": "肥嘟嘟",
+    "filename": "bulk-feidudu/video-1-011.jpg",
+    "action": "侧身抬腿跳跃",
+    "emotion": [
+      "开心",
+      "调皮"
+    ],
+    "scenes": [
+      "群聊",
+      "朋友互动",
+      "完成作业",
+      "放假"
+    ],
+    "examples": [
+      "这题拿下了",
+      "今天状态不错"
+    ],
+    "existing_text": "",
+    "intensity": 3,
+    "source_type": "reference",
+    "author": "美团袋鼠形象；具体网络二创作者待核实",
+    "source_url": "https://feidudu.org/",
+    "source_note": "公开嘟嘟墙转载的黄色袋鼠肥嘟嘟系列，具体二创作者、首发及授权未核实。原文件保留，不代表网站为原作者。 从该页公开舞蹈视频1的1.1秒处提取的实际动作静帧；视频二创画面，可能含生成式图像痕迹，不冒充美团官方动画。 未访问该站交易、合约或登录功能。",
+    "role": "subject",
+    "is_cutout": false,
+    "templates": [
+      "top",
+      "bottom",
+      "split",
+      "frame",
+      "grid",
+      "message",
+      "poster",
+      "side",
+      "polaroid",
+      "bubble",
+      "dialogue",
+      "spotlight",
+      "comic",
+      "subtitle",
+      "note",
+      "window",
+      "ticket",
+      "medal",
+      "scene"
+    ]
+  },
+  {
+    "id": "bulk-feidudu-v1-018",
+    "name": "肥嘟嘟 · 回头摆尾抬膝",
+    "character": "肥嘟嘟",
+    "filename": "bulk-feidudu/video-1-018.jpg",
+    "action": "回头摆尾抬膝",
+    "emotion": [
+      "开心",
+      "调皮"
+    ],
+    "scenes": [
+      "群聊",
+      "朋友互动",
+      "完成作业",
+      "放假"
+    ],
+    "examples": [
+      "这题拿下了",
+      "今天状态不错"
+    ],
+    "existing_text": "",
+    "intensity": 3,
+    "source_type": "reference",
+    "author": "美团袋鼠形象；具体网络二创作者待核实",
+    "source_url": "https://feidudu.org/",
+    "source_note": "公开嘟嘟墙转载的黄色袋鼠肥嘟嘟系列，具体二创作者、首发及授权未核实。原文件保留，不代表网站为原作者。 从该页公开舞蹈视频1的1.8秒处提取的实际动作静帧；视频二创画面，可能含生成式图像痕迹，不冒充美团官方动画。 未访问该站交易、合约或登录功能。",
+    "role": "subject",
+    "is_cutout": false,
+    "templates": [
+      "top",
+      "bottom",
+      "split",
+      "frame",
+      "grid",
+      "message",
+      "poster",
+      "side",
+      "polaroid",
+      "bubble",
+      "dialogue",
+      "spotlight",
+      "comic",
+      "subtitle",
+      "note",
+      "window",
+      "ticket",
+      "medal",
+      "scene"
+    ]
+  },
+  {
+    "id": "bulk-feidudu-v1-025",
+    "name": "肥嘟嘟 · 背对镜头抬腿",
+    "character": "肥嘟嘟",
+    "filename": "bulk-feidudu/video-1-025.jpg",
+    "action": "背对镜头抬腿",
+    "emotion": [
+      "开心",
+      "调皮"
+    ],
+    "scenes": [
+      "群聊",
+      "朋友互动",
+      "完成作业",
+      "放假"
+    ],
+    "examples": [
+      "这题拿下了",
+      "今天状态不错"
+    ],
+    "existing_text": "",
+    "intensity": 3,
+    "source_type": "reference",
+    "author": "美团袋鼠形象；具体网络二创作者待核实",
+    "source_url": "https://feidudu.org/",
+    "source_note": "公开嘟嘟墙转载的黄色袋鼠肥嘟嘟系列，具体二创作者、首发及授权未核实。原文件保留，不代表网站为原作者。 从该页公开舞蹈视频1的2.5秒处提取的实际动作静帧；视频二创画面，可能含生成式图像痕迹，不冒充美团官方动画。 未访问该站交易、合约或登录功能。",
+    "role": "subject",
+    "is_cutout": false,
+    "templates": [
+      "top",
+      "bottom",
+      "split",
+      "frame",
+      "grid",
+      "message",
+      "poster",
+      "side",
+      "polaroid",
+      "bubble",
+      "dialogue",
+      "spotlight",
+      "comic",
+      "subtitle",
+      "note",
+      "window",
+      "ticket",
+      "medal",
+      "scene"
+    ]
+  },
+  {
+    "id": "bulk-feidudu-v1-032",
+    "name": "肥嘟嘟 · 侧身落脚摆臂",
+    "character": "肥嘟嘟",
+    "filename": "bulk-feidudu/video-1-032.jpg",
+    "action": "侧身落脚摆臂",
+    "emotion": [
+      "开心",
+      "调皮"
+    ],
+    "scenes": [
+      "群聊",
+      "朋友互动",
+      "完成作业",
+      "放假"
+    ],
+    "examples": [
+      "这题拿下了",
+      "今天状态不错"
+    ],
+    "existing_text": "",
+    "intensity": 3,
+    "source_type": "reference",
+    "author": "美团袋鼠形象；具体网络二创作者待核实",
+    "source_url": "https://feidudu.org/",
+    "source_note": "公开嘟嘟墙转载的黄色袋鼠肥嘟嘟系列，具体二创作者、首发及授权未核实。原文件保留，不代表网站为原作者。 从该页公开舞蹈视频1的3.2秒处提取的实际动作静帧；视频二创画面，可能含生成式图像痕迹，不冒充美团官方动画。 未访问该站交易、合约或登录功能。",
+    "role": "subject",
+    "is_cutout": false,
+    "templates": [
+      "top",
+      "bottom",
+      "split",
+      "frame",
+      "grid",
+      "message",
+      "poster",
+      "side",
+      "polaroid",
+      "bubble",
+      "dialogue",
+      "spotlight",
+      "comic",
+      "subtitle",
+      "note",
+      "window",
+      "ticket",
+      "medal",
+      "scene"
+    ]
+  },
+  {
+    "id": "bulk-feidudu-v1-039",
+    "name": "肥嘟嘟 · 侧身转头摆臂",
+    "character": "肥嘟嘟",
+    "filename": "bulk-feidudu/video-1-039.jpg",
+    "action": "侧身转头摆臂",
+    "emotion": [
+      "开心",
+      "调皮"
+    ],
+    "scenes": [
+      "群聊",
+      "朋友互动",
+      "完成作业",
+      "放假"
+    ],
+    "examples": [
+      "这题拿下了",
+      "今天状态不错"
+    ],
+    "existing_text": "",
+    "intensity": 3,
+    "source_type": "reference",
+    "author": "美团袋鼠形象；具体网络二创作者待核实",
+    "source_url": "https://feidudu.org/",
+    "source_note": "公开嘟嘟墙转载的黄色袋鼠肥嘟嘟系列，具体二创作者、首发及授权未核实。原文件保留，不代表网站为原作者。 从该页公开舞蹈视频1的3.9秒处提取的实际动作静帧；视频二创画面，可能含生成式图像痕迹，不冒充美团官方动画。 未访问该站交易、合约或登录功能。",
+    "role": "subject",
+    "is_cutout": false,
+    "templates": [
+      "top",
+      "bottom",
+      "split",
+      "frame",
+      "grid",
+      "message",
+      "poster",
+      "side",
+      "polaroid",
+      "bubble",
+      "dialogue",
+      "spotlight",
+      "comic",
+      "subtitle",
+      "note",
+      "window",
+      "ticket",
+      "medal",
+      "scene"
+    ]
+  },
+  {
+    "id": "bulk-feidudu-v1-046",
+    "name": "肥嘟嘟 · 仰头张臂起跳",
+    "character": "肥嘟嘟",
+    "filename": "bulk-feidudu/video-1-046.jpg",
+    "action": "仰头张臂起跳",
+    "emotion": [
+      "开心",
+      "调皮"
+    ],
+    "scenes": [
+      "群聊",
+      "朋友互动",
+      "完成作业",
+      "放假"
+    ],
+    "examples": [
+      "这题拿下了",
+      "今天状态不错"
+    ],
+    "existing_text": "",
+    "intensity": 3,
+    "source_type": "reference",
+    "author": "美团袋鼠形象；具体网络二创作者待核实",
+    "source_url": "https://feidudu.org/",
+    "source_note": "公开嘟嘟墙转载的黄色袋鼠肥嘟嘟系列，具体二创作者、首发及授权未核实。原文件保留，不代表网站为原作者。 从该页公开舞蹈视频1的4.6秒处提取的实际动作静帧；视频二创画面，可能含生成式图像痕迹，不冒充美团官方动画。 未访问该站交易、合约或登录功能。",
+    "role": "subject",
+    "is_cutout": false,
+    "templates": [
+      "top",
+      "bottom",
+      "split",
+      "frame",
+      "grid",
+      "message",
+      "poster",
+      "side",
+      "polaroid",
+      "bubble",
+      "dialogue",
+      "spotlight",
+      "comic",
+      "subtitle",
+      "note",
+      "window",
+      "ticket",
+      "medal",
+      "scene"
+    ]
+  },
+  {
+    "id": "bulk-feidudu-v1-053",
+    "name": "肥嘟嘟 · 张臂侧身跳跃",
+    "character": "肥嘟嘟",
+    "filename": "bulk-feidudu/video-1-053.jpg",
+    "action": "张臂侧身跳跃",
+    "emotion": [
+      "开心",
+      "调皮"
+    ],
+    "scenes": [
+      "群聊",
+      "朋友互动",
+      "完成作业",
+      "放假"
+    ],
+    "examples": [
+      "这题拿下了",
+      "今天状态不错"
+    ],
+    "existing_text": "",
+    "intensity": 3,
+    "source_type": "reference",
+    "author": "美团袋鼠形象；具体网络二创作者待核实",
+    "source_url": "https://feidudu.org/",
+    "source_note": "公开嘟嘟墙转载的黄色袋鼠肥嘟嘟系列，具体二创作者、首发及授权未核实。原文件保留，不代表网站为原作者。 从该页公开舞蹈视频1的5.3秒处提取的实际动作静帧；视频二创画面，可能含生成式图像痕迹，不冒充美团官方动画。 未访问该站交易、合约或登录功能。",
+    "role": "subject",
+    "is_cutout": false,
+    "templates": [
+      "top",
+      "bottom",
+      "split",
+      "frame",
+      "grid",
+      "message",
+      "poster",
+      "side",
+      "polaroid",
+      "bubble",
+      "dialogue",
+      "spotlight",
+      "comic",
+      "subtitle",
+      "note",
+      "window",
+      "ticket",
+      "medal",
+      "scene"
+    ]
+  },
+  {
+    "id": "bulk-feidudu-v1-060",
+    "name": "肥嘟嘟 · 身体侧倾张开手臂",
+    "character": "肥嘟嘟",
+    "filename": "bulk-feidudu/video-1-060.jpg",
+    "action": "身体侧倾张开手臂",
+    "emotion": [
+      "开心",
+      "调皮"
+    ],
+    "scenes": [
+      "群聊",
+      "朋友互动",
+      "完成作业",
+      "放假"
+    ],
+    "examples": [
+      "这题拿下了",
+      "今天状态不错"
+    ],
+    "existing_text": "",
+    "intensity": 3,
+    "source_type": "reference",
+    "author": "美团袋鼠形象；具体网络二创作者待核实",
+    "source_url": "https://feidudu.org/",
+    "source_note": "公开嘟嘟墙转载的黄色袋鼠肥嘟嘟系列，具体二创作者、首发及授权未核实。原文件保留，不代表网站为原作者。 从该页公开舞蹈视频1的6.0秒处提取的实际动作静帧；视频二创画面，可能含生成式图像痕迹，不冒充美团官方动画。 未访问该站交易、合约或登录功能。",
+    "role": "subject",
+    "is_cutout": false,
+    "templates": [
+      "top",
+      "bottom",
+      "split",
+      "frame",
+      "grid",
+      "message",
+      "poster",
+      "side",
+      "polaroid",
+      "bubble",
+      "dialogue",
+      "spotlight",
+      "comic",
+      "subtitle",
+      "note",
+      "window",
+      "ticket",
+      "medal",
+      "scene"
+    ]
+  },
+  {
+    "id": "bulk-feidudu-v1-081",
+    "name": "肥嘟嘟 · 背面空中横跃",
+    "character": "肥嘟嘟",
+    "filename": "bulk-feidudu/video-1-081.jpg",
+    "action": "背面空中横跃",
+    "emotion": [
+      "开心",
+      "调皮"
+    ],
+    "scenes": [
+      "群聊",
+      "朋友互动",
+      "完成作业",
+      "放假"
+    ],
+    "examples": [
+      "这题拿下了",
+      "今天状态不错"
+    ],
+    "existing_text": "",
+    "intensity": 3,
+    "source_type": "reference",
+    "author": "美团袋鼠形象；具体网络二创作者待核实",
+    "source_url": "https://feidudu.org/",
+    "source_note": "公开嘟嘟墙转载的黄色袋鼠肥嘟嘟系列，具体二创作者、首发及授权未核实。原文件保留，不代表网站为原作者。 从该页公开舞蹈视频1的8.1秒处提取的实际动作静帧；视频二创画面，可能含生成式图像痕迹，不冒充美团官方动画。 未访问该站交易、合约或登录功能。",
+    "role": "subject",
+    "is_cutout": false,
+    "templates": [
+      "top",
+      "bottom",
+      "split",
+      "frame",
+      "grid",
+      "message",
+      "poster",
+      "side",
+      "polaroid",
+      "bubble",
+      "dialogue",
+      "spotlight",
+      "comic",
+      "subtitle",
+      "note",
+      "window",
+      "ticket",
+      "medal",
+      "scene"
+    ]
+  },
+  {
+    "id": "bulk-feidudu-v1-088",
+    "name": "肥嘟嘟 · 背对镜头弯腰",
+    "character": "肥嘟嘟",
+    "filename": "bulk-feidudu/video-1-088.jpg",
+    "action": "背对镜头弯腰",
+    "emotion": [
+      "开心",
+      "调皮"
+    ],
+    "scenes": [
+      "群聊",
+      "朋友互动",
+      "完成作业",
+      "放假"
+    ],
+    "examples": [
+      "这题拿下了",
+      "今天状态不错"
+    ],
+    "existing_text": "",
+    "intensity": 3,
+    "source_type": "reference",
+    "author": "美团袋鼠形象；具体网络二创作者待核实",
+    "source_url": "https://feidudu.org/",
+    "source_note": "公开嘟嘟墙转载的黄色袋鼠肥嘟嘟系列，具体二创作者、首发及授权未核实。原文件保留，不代表网站为原作者。 从该页公开舞蹈视频1的8.8秒处提取的实际动作静帧；视频二创画面，可能含生成式图像痕迹，不冒充美团官方动画。 未访问该站交易、合约或登录功能。",
+    "role": "subject",
+    "is_cutout": false,
+    "templates": [
+      "top",
+      "bottom",
+      "split",
+      "frame",
+      "grid",
+      "message",
+      "poster",
+      "side",
+      "polaroid",
+      "bubble",
+      "dialogue",
+      "spotlight",
+      "comic",
+      "subtitle",
+      "note",
+      "window",
+      "ticket",
+      "medal",
+      "scene"
+    ]
+  },
+  {
+    "id": "bulk-feidudu-v1-095",
+    "name": "肥嘟嘟 · 背面侧身伸腿",
+    "character": "肥嘟嘟",
+    "filename": "bulk-feidudu/video-1-095.jpg",
+    "action": "背面侧身伸腿",
+    "emotion": [
+      "开心",
+      "调皮"
+    ],
+    "scenes": [
+      "群聊",
+      "朋友互动",
+      "完成作业",
+      "放假"
+    ],
+    "examples": [
+      "这题拿下了",
+      "今天状态不错"
+    ],
+    "existing_text": "",
+    "intensity": 3,
+    "source_type": "reference",
+    "author": "美团袋鼠形象；具体网络二创作者待核实",
+    "source_url": "https://feidudu.org/",
+    "source_note": "公开嘟嘟墙转载的黄色袋鼠肥嘟嘟系列，具体二创作者、首发及授权未核实。原文件保留，不代表网站为原作者。 从该页公开舞蹈视频1的9.5秒处提取的实际动作静帧；视频二创画面，可能含生成式图像痕迹，不冒充美团官方动画。 未访问该站交易、合约或登录功能。",
+    "role": "subject",
+    "is_cutout": false,
+    "templates": [
+      "top",
+      "bottom",
+      "split",
+      "frame",
+      "grid",
+      "message",
+      "poster",
+      "side",
+      "polaroid",
+      "bubble",
+      "dialogue",
+      "spotlight",
+      "comic",
+      "subtitle",
+      "note",
+      "window",
+      "ticket",
+      "medal",
+      "scene"
+    ]
+  },
+  {
+    "id": "bulk-feidudu-v1-102",
+    "name": "肥嘟嘟 · 正面张手站着",
+    "character": "肥嘟嘟",
+    "filename": "bulk-feidudu/video-1-102.jpg",
+    "action": "正面张手站着",
+    "emotion": [
+      "开心",
+      "调皮"
+    ],
+    "scenes": [
+      "群聊",
+      "朋友互动",
+      "完成作业",
+      "放假"
+    ],
+    "examples": [
+      "这题拿下了",
+      "今天状态不错"
+    ],
+    "existing_text": "",
+    "intensity": 3,
+    "source_type": "reference",
+    "author": "美团袋鼠形象；具体网络二创作者待核实",
+    "source_url": "https://feidudu.org/",
+    "source_note": "公开嘟嘟墙转载的黄色袋鼠肥嘟嘟系列，具体二创作者、首发及授权未核实。原文件保留，不代表网站为原作者。 从该页公开舞蹈视频1的10.2秒处提取的实际动作静帧；视频二创画面，可能含生成式图像痕迹，不冒充美团官方动画。 未访问该站交易、合约或登录功能。",
+    "role": "subject",
+    "is_cutout": false,
+    "templates": [
+      "top",
+      "bottom",
+      "split",
+      "frame",
+      "grid",
+      "message",
+      "poster",
+      "side",
+      "polaroid",
+      "bubble",
+      "dialogue",
+      "spotlight",
+      "comic",
+      "subtitle",
+      "note",
+      "window",
+      "ticket",
+      "medal",
+      "scene"
+    ]
+  },
+  {
+    "id": "bulk-feidudu-v1-109",
+    "name": "肥嘟嘟 · 一脚前踏侧身摆手",
+    "character": "肥嘟嘟",
+    "filename": "bulk-feidudu/video-1-109.jpg",
+    "action": "一脚前踏侧身摆手",
+    "emotion": [
+      "开心",
+      "调皮"
+    ],
+    "scenes": [
+      "群聊",
+      "朋友互动",
+      "完成作业",
+      "放假"
+    ],
+    "examples": [
+      "这题拿下了",
+      "今天状态不错"
+    ],
+    "existing_text": "",
+    "intensity": 3,
+    "source_type": "reference",
+    "author": "美团袋鼠形象；具体网络二创作者待核实",
+    "source_url": "https://feidudu.org/",
+    "source_note": "公开嘟嘟墙转载的黄色袋鼠肥嘟嘟系列，具体二创作者、首发及授权未核实。原文件保留，不代表网站为原作者。 从该页公开舞蹈视频1的10.9秒处提取的实际动作静帧；视频二创画面，可能含生成式图像痕迹，不冒充美团官方动画。 未访问该站交易、合约或登录功能。",
+    "role": "subject",
+    "is_cutout": false,
+    "templates": [
+      "top",
+      "bottom",
+      "split",
+      "frame",
+      "grid",
+      "message",
+      "poster",
+      "side",
+      "polaroid",
+      "bubble",
+      "dialogue",
+      "spotlight",
+      "comic",
+      "subtitle",
+      "note",
+      "window",
+      "ticket",
+      "medal",
+      "scene"
+    ]
+  },
+  {
+    "id": "bulk-feidudu-v1-116",
+    "name": "肥嘟嘟 · 双脚张开歪头吐舌",
+    "character": "肥嘟嘟",
+    "filename": "bulk-feidudu/video-1-116.jpg",
+    "action": "双脚张开歪头吐舌",
+    "emotion": [
+      "开心",
+      "调皮"
+    ],
+    "scenes": [
+      "群聊",
+      "朋友互动",
+      "完成作业",
+      "放假"
+    ],
+    "examples": [
+      "这题拿下了",
+      "今天状态不错"
+    ],
+    "existing_text": "",
+    "intensity": 3,
+    "source_type": "reference",
+    "author": "美团袋鼠形象；具体网络二创作者待核实",
+    "source_url": "https://feidudu.org/",
+    "source_note": "公开嘟嘟墙转载的黄色袋鼠肥嘟嘟系列，具体二创作者、首发及授权未核实。原文件保留，不代表网站为原作者。 从该页公开舞蹈视频1的11.6秒处提取的实际动作静帧；视频二创画面，可能含生成式图像痕迹，不冒充美团官方动画。 未访问该站交易、合约或登录功能。",
+    "role": "subject",
+    "is_cutout": false,
+    "templates": [
+      "top",
+      "bottom",
+      "split",
+      "frame",
+      "grid",
+      "message",
+      "poster",
+      "side",
+      "polaroid",
+      "bubble",
+      "dialogue",
+      "spotlight",
+      "comic",
+      "subtitle",
+      "note",
+      "window",
+      "ticket",
+      "medal",
+      "scene"
+    ]
+  },
+  {
+    "id": "bulk-feidudu-v1-130",
+    "name": "肥嘟嘟 · 正面吐舌张嘴",
+    "character": "肥嘟嘟",
+    "filename": "bulk-feidudu/video-1-130.jpg",
+    "action": "正面吐舌张嘴",
+    "emotion": [
+      "开心",
+      "调皮"
+    ],
+    "scenes": [
+      "群聊",
+      "朋友互动",
+      "完成作业",
+      "放假"
+    ],
+    "examples": [
+      "这题拿下了",
+      "今天状态不错"
+    ],
+    "existing_text": "",
+    "intensity": 3,
+    "source_type": "reference",
+    "author": "美团袋鼠形象；具体网络二创作者待核实",
+    "source_url": "https://feidudu.org/",
+    "source_note": "公开嘟嘟墙转载的黄色袋鼠肥嘟嘟系列，具体二创作者、首发及授权未核实。原文件保留，不代表网站为原作者。 从该页公开舞蹈视频1的13.0秒处提取的实际动作静帧；视频二创画面，可能含生成式图像痕迹，不冒充美团官方动画。 未访问该站交易、合约或登录功能。",
+    "role": "subject",
+    "is_cutout": false,
+    "templates": [
+      "top",
+      "bottom",
+      "split",
+      "frame",
+      "grid",
+      "message",
+      "poster",
+      "side",
+      "polaroid",
+      "bubble",
+      "dialogue",
+      "spotlight",
+      "comic",
+      "subtitle",
+      "note",
+      "window",
+      "ticket",
+      "medal",
+      "scene"
+    ]
+  },
+  {
+    "id": "bulk-feidudu-v1-137",
+    "name": "肥嘟嘟 · 侧身挥手吐舌",
+    "character": "肥嘟嘟",
+    "filename": "bulk-feidudu/video-1-137.jpg",
+    "action": "侧身挥手吐舌",
+    "emotion": [
+      "开心",
+      "调皮"
+    ],
+    "scenes": [
+      "群聊",
+      "朋友互动",
+      "完成作业",
+      "放假"
+    ],
+    "examples": [
+      "这题拿下了",
+      "今天状态不错"
+    ],
+    "existing_text": "",
+    "intensity": 3,
+    "source_type": "reference",
+    "author": "美团袋鼠形象；具体网络二创作者待核实",
+    "source_url": "https://feidudu.org/",
+    "source_note": "公开嘟嘟墙转载的黄色袋鼠肥嘟嘟系列，具体二创作者、首发及授权未核实。原文件保留，不代表网站为原作者。 从该页公开舞蹈视频1的13.7秒处提取的实际动作静帧；视频二创画面，可能含生成式图像痕迹，不冒充美团官方动画。 未访问该站交易、合约或登录功能。",
+    "role": "subject",
+    "is_cutout": false,
+    "templates": [
+      "top",
+      "bottom",
+      "split",
+      "frame",
+      "grid",
+      "message",
+      "poster",
+      "side",
+      "polaroid",
+      "bubble",
+      "dialogue",
+      "spotlight",
+      "comic",
+      "subtitle",
+      "note",
+      "window",
+      "ticket",
+      "medal",
+      "scene"
+    ]
+  },
+  {
+    "id": "bulk-feidudu-v1-144",
+    "name": "肥嘟嘟 · 正面双臂张开",
+    "character": "肥嘟嘟",
+    "filename": "bulk-feidudu/video-1-144.jpg",
+    "action": "正面双臂张开",
+    "emotion": [
+      "开心",
+      "调皮"
+    ],
+    "scenes": [
+      "群聊",
+      "朋友互动",
+      "完成作业",
+      "放假"
+    ],
+    "examples": [
+      "这题拿下了",
+      "今天状态不错"
+    ],
+    "existing_text": "",
+    "intensity": 3,
+    "source_type": "reference",
+    "author": "美团袋鼠形象；具体网络二创作者待核实",
+    "source_url": "https://feidudu.org/",
+    "source_note": "公开嘟嘟墙转载的黄色袋鼠肥嘟嘟系列，具体二创作者、首发及授权未核实。原文件保留，不代表网站为原作者。 从该页公开舞蹈视频1的14.4秒处提取的实际动作静帧；视频二创画面，可能含生成式图像痕迹，不冒充美团官方动画。 未访问该站交易、合约或登录功能。",
+    "role": "subject",
+    "is_cutout": false,
+    "templates": [
+      "top",
+      "bottom",
+      "split",
+      "frame",
+      "grid",
+      "message",
+      "poster",
+      "side",
+      "polaroid",
+      "bubble",
+      "dialogue",
+      "spotlight",
+      "comic",
+      "subtitle",
+      "note",
+      "window",
+      "ticket",
+      "medal",
+      "scene"
+    ]
+  },
+  {
+    "id": "bulk-feidudu-v2-004",
+    "name": "肥嘟嘟 · 一脚踮起双臂张开",
+    "character": "肥嘟嘟",
+    "filename": "bulk-feidudu/video-2-004.jpg",
+    "action": "一脚踮起双臂张开",
+    "emotion": [
+      "开心",
+      "调皮"
+    ],
+    "scenes": [
+      "群聊",
+      "朋友互动",
+      "完成作业",
+      "放假"
+    ],
+    "examples": [
+      "这题拿下了",
+      "今天状态不错"
+    ],
+    "existing_text": "",
+    "intensity": 3,
+    "source_type": "reference",
+    "author": "美团袋鼠形象；具体网络二创作者待核实",
+    "source_url": "https://feidudu.org/",
+    "source_note": "公开嘟嘟墙转载的黄色袋鼠肥嘟嘟系列，具体二创作者、首发及授权未核实。原文件保留，不代表网站为原作者。 从该页公开舞蹈视频2的0.4秒处提取的实际动作静帧；视频二创画面，可能含生成式图像痕迹，不冒充美团官方动画。 未访问该站交易、合约或登录功能。",
+    "role": "subject",
+    "is_cutout": false,
+    "templates": [
+      "top",
+      "bottom",
+      "split",
+      "frame",
+      "grid",
+      "message",
+      "poster",
+      "side",
+      "polaroid",
+      "bubble",
+      "dialogue",
+      "spotlight",
+      "comic",
+      "subtitle",
+      "note",
+      "window",
+      "ticket",
+      "medal",
+      "scene"
+    ]
+  },
+  {
+    "id": "bulk-feidudu-v2-018",
+    "name": "肥嘟嘟 · 双手合在胸前",
+    "character": "肥嘟嘟",
+    "filename": "bulk-feidudu/video-2-018.jpg",
+    "action": "双手合在胸前",
+    "emotion": [
+      "开心",
+      "调皮"
+    ],
+    "scenes": [
+      "群聊",
+      "朋友互动",
+      "完成作业",
+      "放假"
+    ],
+    "examples": [
+      "这题拿下了",
+      "今天状态不错"
+    ],
+    "existing_text": "",
+    "intensity": 3,
+    "source_type": "reference",
+    "author": "美团袋鼠形象；具体网络二创作者待核实",
+    "source_url": "https://feidudu.org/",
+    "source_note": "公开嘟嘟墙转载的黄色袋鼠肥嘟嘟系列，具体二创作者、首发及授权未核实。原文件保留，不代表网站为原作者。 从该页公开舞蹈视频2的1.8秒处提取的实际动作静帧；视频二创画面，可能含生成式图像痕迹，不冒充美团官方动画。 未访问该站交易、合约或登录功能。",
+    "role": "subject",
+    "is_cutout": false,
+    "templates": [
+      "top",
+      "bottom",
+      "split",
+      "frame",
+      "grid",
+      "message",
+      "poster",
+      "side",
+      "polaroid",
+      "bubble",
+      "dialogue",
+      "spotlight",
+      "comic",
+      "subtitle",
+      "note",
+      "window",
+      "ticket",
+      "medal",
+      "scene"
+    ]
+  },
+  {
+    "id": "bulk-feidudu-v2-025",
+    "name": "肥嘟嘟 · 侧身张开手臂",
+    "character": "肥嘟嘟",
+    "filename": "bulk-feidudu/video-2-025.jpg",
+    "action": "侧身张开手臂",
+    "emotion": [
+      "开心",
+      "调皮"
+    ],
+    "scenes": [
+      "群聊",
+      "朋友互动",
+      "完成作业",
+      "放假"
+    ],
+    "examples": [
+      "这题拿下了",
+      "今天状态不错"
+    ],
+    "existing_text": "",
+    "intensity": 3,
+    "source_type": "reference",
+    "author": "美团袋鼠形象；具体网络二创作者待核实",
+    "source_url": "https://feidudu.org/",
+    "source_note": "公开嘟嘟墙转载的黄色袋鼠肥嘟嘟系列，具体二创作者、首发及授权未核实。原文件保留，不代表网站为原作者。 从该页公开舞蹈视频2的2.5秒处提取的实际动作静帧；视频二创画面，可能含生成式图像痕迹，不冒充美团官方动画。 未访问该站交易、合约或登录功能。",
+    "role": "subject",
+    "is_cutout": false,
+    "templates": [
+      "top",
+      "bottom",
+      "split",
+      "frame",
+      "grid",
+      "message",
+      "poster",
+      "side",
+      "polaroid",
+      "bubble",
+      "dialogue",
+      "spotlight",
+      "comic",
+      "subtitle",
+      "note",
+      "window",
+      "ticket",
+      "medal",
+      "scene"
+    ]
+  },
+  {
+    "id": "bulk-feidudu-v2-032",
+    "name": "肥嘟嘟 · 向侧边转头张臂",
+    "character": "肥嘟嘟",
+    "filename": "bulk-feidudu/video-2-032.jpg",
+    "action": "向侧边转头张臂",
+    "emotion": [
+      "开心",
+      "调皮"
+    ],
+    "scenes": [
+      "群聊",
+      "朋友互动",
+      "完成作业",
+      "放假"
+    ],
+    "examples": [
+      "这题拿下了",
+      "今天状态不错"
+    ],
+    "existing_text": "",
+    "intensity": 3,
+    "source_type": "reference",
+    "author": "美团袋鼠形象；具体网络二创作者待核实",
+    "source_url": "https://feidudu.org/",
+    "source_note": "公开嘟嘟墙转载的黄色袋鼠肥嘟嘟系列，具体二创作者、首发及授权未核实。原文件保留，不代表网站为原作者。 从该页公开舞蹈视频2的3.2秒处提取的实际动作静帧；视频二创画面，可能含生成式图像痕迹，不冒充美团官方动画。 未访问该站交易、合约或登录功能。",
+    "role": "subject",
+    "is_cutout": false,
+    "templates": [
+      "top",
+      "bottom",
+      "split",
+      "frame",
+      "grid",
+      "message",
+      "poster",
+      "side",
+      "polaroid",
+      "bubble",
+      "dialogue",
+      "spotlight",
+      "comic",
+      "subtitle",
+      "note",
+      "window",
+      "ticket",
+      "medal",
+      "scene"
+    ]
+  },
+  {
+    "id": "bulk-feidudu-v2-039",
+    "name": "肥嘟嘟 · 抬起双手在胸前",
+    "character": "肥嘟嘟",
+    "filename": "bulk-feidudu/video-2-039.jpg",
+    "action": "抬起双手在胸前",
+    "emotion": [
+      "开心",
+      "调皮"
+    ],
+    "scenes": [
+      "群聊",
+      "朋友互动",
+      "完成作业",
+      "放假"
+    ],
+    "examples": [
+      "这题拿下了",
+      "今天状态不错"
+    ],
+    "existing_text": "",
+    "intensity": 3,
+    "source_type": "reference",
+    "author": "美团袋鼠形象；具体网络二创作者待核实",
+    "source_url": "https://feidudu.org/",
+    "source_note": "公开嘟嘟墙转载的黄色袋鼠肥嘟嘟系列，具体二创作者、首发及授权未核实。原文件保留，不代表网站为原作者。 从该页公开舞蹈视频2的3.9秒处提取的实际动作静帧；视频二创画面，可能含生成式图像痕迹，不冒充美团官方动画。 未访问该站交易、合约或登录功能。",
+    "role": "subject",
+    "is_cutout": false,
+    "templates": [
+      "top",
+      "bottom",
+      "split",
+      "frame",
+      "grid",
+      "message",
+      "poster",
+      "side",
+      "polaroid",
+      "bubble",
+      "dialogue",
+      "spotlight",
+      "comic",
+      "subtitle",
+      "note",
+      "window",
+      "ticket",
+      "medal",
+      "scene"
+    ]
+  },
+  {
+    "id": "bulk-feidudu-v2-053",
+    "name": "肥嘟嘟 · 双臂交叉歪头",
+    "character": "肥嘟嘟",
+    "filename": "bulk-feidudu/video-2-053.jpg",
+    "action": "双臂交叉歪头",
+    "emotion": [
+      "开心",
+      "调皮"
+    ],
+    "scenes": [
+      "群聊",
+      "朋友互动",
+      "完成作业",
+      "放假"
+    ],
+    "examples": [
+      "这题拿下了",
+      "今天状态不错"
+    ],
+    "existing_text": "",
+    "intensity": 3,
+    "source_type": "reference",
+    "author": "美团袋鼠形象；具体网络二创作者待核实",
+    "source_url": "https://feidudu.org/",
+    "source_note": "公开嘟嘟墙转载的黄色袋鼠肥嘟嘟系列，具体二创作者、首发及授权未核实。原文件保留，不代表网站为原作者。 从该页公开舞蹈视频2的5.3秒处提取的实际动作静帧；视频二创画面，可能含生成式图像痕迹，不冒充美团官方动画。 未访问该站交易、合约或登录功能。",
+    "role": "subject",
+    "is_cutout": false,
+    "templates": [
+      "top",
+      "bottom",
+      "split",
+      "frame",
+      "grid",
+      "message",
+      "poster",
+      "side",
+      "polaroid",
+      "bubble",
+      "dialogue",
+      "spotlight",
+      "comic",
+      "subtitle",
+      "note",
+      "window",
+      "ticket",
+      "medal",
+      "scene"
+    ]
+  },
+  {
+    "id": "bulk-feidudu-v2-060",
+    "name": "肥嘟嘟 · 向前摆手迈步",
+    "character": "肥嘟嘟",
+    "filename": "bulk-feidudu/video-2-060.jpg",
+    "action": "向前摆手迈步",
+    "emotion": [
+      "开心",
+      "调皮"
+    ],
+    "scenes": [
+      "群聊",
+      "朋友互动",
+      "完成作业",
+      "放假"
+    ],
+    "examples": [
+      "这题拿下了",
+      "今天状态不错"
+    ],
+    "existing_text": "",
+    "intensity": 3,
+    "source_type": "reference",
+    "author": "美团袋鼠形象；具体网络二创作者待核实",
+    "source_url": "https://feidudu.org/",
+    "source_note": "公开嘟嘟墙转载的黄色袋鼠肥嘟嘟系列，具体二创作者、首发及授权未核实。原文件保留，不代表网站为原作者。 从该页公开舞蹈视频2的6.0秒处提取的实际动作静帧；视频二创画面，可能含生成式图像痕迹，不冒充美团官方动画。 未访问该站交易、合约或登录功能。",
+    "role": "subject",
+    "is_cutout": false,
+    "templates": [
+      "top",
+      "bottom",
+      "split",
+      "frame",
+      "grid",
+      "message",
+      "poster",
+      "side",
+      "polaroid",
+      "bubble",
+      "dialogue",
+      "spotlight",
+      "comic",
+      "subtitle",
+      "note",
+      "window",
+      "ticket",
+      "medal",
+      "scene"
+    ]
+  },
+  {
+    "id": "bulk-feidudu-v2-067",
+    "name": "肥嘟嘟 · 侧身双手叉腰",
+    "character": "肥嘟嘟",
+    "filename": "bulk-feidudu/video-2-067.jpg",
+    "action": "侧身双手叉腰",
+    "emotion": [
+      "开心",
+      "调皮"
+    ],
+    "scenes": [
+      "群聊",
+      "朋友互动",
+      "完成作业",
+      "放假"
+    ],
+    "examples": [
+      "这题拿下了",
+      "今天状态不错"
+    ],
+    "existing_text": "",
+    "intensity": 3,
+    "source_type": "reference",
+    "author": "美团袋鼠形象；具体网络二创作者待核实",
+    "source_url": "https://feidudu.org/",
+    "source_note": "公开嘟嘟墙转载的黄色袋鼠肥嘟嘟系列，具体二创作者、首发及授权未核实。原文件保留，不代表网站为原作者。 从该页公开舞蹈视频2的6.7秒处提取的实际动作静帧；视频二创画面，可能含生成式图像痕迹，不冒充美团官方动画。 未访问该站交易、合约或登录功能。",
+    "role": "subject",
+    "is_cutout": false,
+    "templates": [
+      "top",
+      "bottom",
+      "split",
+      "frame",
+      "grid",
+      "message",
+      "poster",
+      "side",
+      "polaroid",
+      "bubble",
+      "dialogue",
+      "spotlight",
+      "comic",
+      "subtitle",
+      "note",
+      "window",
+      "ticket",
+      "medal",
+      "scene"
+    ]
+  },
+  {
+    "id": "bulk-feidudu-v2-074",
+    "name": "肥嘟嘟 · 正面张臂站着",
+    "character": "肥嘟嘟",
+    "filename": "bulk-feidudu/video-2-074.jpg",
+    "action": "正面张臂站着",
+    "emotion": [
+      "开心",
+      "调皮"
+    ],
+    "scenes": [
+      "群聊",
+      "朋友互动",
+      "完成作业",
+      "放假"
+    ],
+    "examples": [
+      "这题拿下了",
+      "今天状态不错"
+    ],
+    "existing_text": "",
+    "intensity": 3,
+    "source_type": "reference",
+    "author": "美团袋鼠形象；具体网络二创作者待核实",
+    "source_url": "https://feidudu.org/",
+    "source_note": "公开嘟嘟墙转载的黄色袋鼠肥嘟嘟系列，具体二创作者、首发及授权未核实。原文件保留，不代表网站为原作者。 从该页公开舞蹈视频2的7.4秒处提取的实际动作静帧；视频二创画面，可能含生成式图像痕迹，不冒充美团官方动画。 未访问该站交易、合约或登录功能。",
+    "role": "subject",
+    "is_cutout": false,
+    "templates": [
+      "top",
+      "bottom",
+      "split",
+      "frame",
+      "grid",
+      "message",
+      "poster",
+      "side",
+      "polaroid",
+      "bubble",
+      "dialogue",
+      "spotlight",
+      "comic",
+      "subtitle",
+      "note",
+      "window",
+      "ticket",
+      "medal",
+      "scene"
+    ]
+  },
+  {
+    "id": "bulk-feidudu-v2-081",
+    "name": "肥嘟嘟 · 双手放在脑后抬膝",
+    "character": "肥嘟嘟",
+    "filename": "bulk-feidudu/video-2-081.jpg",
+    "action": "双手放在脑后抬膝",
+    "emotion": [
+      "开心",
+      "调皮"
+    ],
+    "scenes": [
+      "群聊",
+      "朋友互动",
+      "完成作业",
+      "放假"
+    ],
+    "examples": [
+      "这题拿下了",
+      "今天状态不错"
+    ],
+    "existing_text": "",
+    "intensity": 3,
+    "source_type": "reference",
+    "author": "美团袋鼠形象；具体网络二创作者待核实",
+    "source_url": "https://feidudu.org/",
+    "source_note": "公开嘟嘟墙转载的黄色袋鼠肥嘟嘟系列，具体二创作者、首发及授权未核实。原文件保留，不代表网站为原作者。 从该页公开舞蹈视频2的8.1秒处提取的实际动作静帧；视频二创画面，可能含生成式图像痕迹，不冒充美团官方动画。 未访问该站交易、合约或登录功能。",
+    "role": "subject",
+    "is_cutout": false,
+    "templates": [
+      "top",
+      "bottom",
+      "split",
+      "frame",
+      "grid",
+      "message",
+      "poster",
+      "side",
+      "polaroid",
+      "bubble",
+      "dialogue",
+      "spotlight",
+      "comic",
+      "subtitle",
+      "note",
+      "window",
+      "ticket",
+      "medal",
+      "scene"
+    ]
+  },
+  {
+    "id": "bulk-feidudu-v2-088",
+    "name": "肥嘟嘟 · 双手叉腰正面站着",
+    "character": "肥嘟嘟",
+    "filename": "bulk-feidudu/video-2-088.jpg",
+    "action": "双手叉腰正面站着",
+    "emotion": [
+      "开心",
+      "调皮"
+    ],
+    "scenes": [
+      "群聊",
+      "朋友互动",
+      "完成作业",
+      "放假"
+    ],
+    "examples": [
+      "这题拿下了",
+      "今天状态不错"
+    ],
+    "existing_text": "",
+    "intensity": 3,
+    "source_type": "reference",
+    "author": "美团袋鼠形象；具体网络二创作者待核实",
+    "source_url": "https://feidudu.org/",
+    "source_note": "公开嘟嘟墙转载的黄色袋鼠肥嘟嘟系列，具体二创作者、首发及授权未核实。原文件保留，不代表网站为原作者。 从该页公开舞蹈视频2的8.8秒处提取的实际动作静帧；视频二创画面，可能含生成式图像痕迹，不冒充美团官方动画。 未访问该站交易、合约或登录功能。",
+    "role": "subject",
+    "is_cutout": false,
+    "templates": [
+      "top",
+      "bottom",
+      "split",
+      "frame",
+      "grid",
+      "message",
+      "poster",
+      "side",
+      "polaroid",
+      "bubble",
+      "dialogue",
+      "spotlight",
+      "comic",
+      "subtitle",
+      "note",
+      "window",
+      "ticket",
+      "medal",
+      "scene"
+    ]
+  },
+  {
+    "id": "bulk-feidudu-v2-095",
+    "name": "肥嘟嘟 · 斜身歪头抬手",
+    "character": "肥嘟嘟",
+    "filename": "bulk-feidudu/video-2-095.jpg",
+    "action": "斜身歪头抬手",
+    "emotion": [
+      "开心",
+      "调皮"
+    ],
+    "scenes": [
+      "群聊",
+      "朋友互动",
+      "完成作业",
+      "放假"
+    ],
+    "examples": [
+      "这题拿下了",
+      "今天状态不错"
+    ],
+    "existing_text": "",
+    "intensity": 3,
+    "source_type": "reference",
+    "author": "美团袋鼠形象；具体网络二创作者待核实",
+    "source_url": "https://feidudu.org/",
+    "source_note": "公开嘟嘟墙转载的黄色袋鼠肥嘟嘟系列，具体二创作者、首发及授权未核实。原文件保留，不代表网站为原作者。 从该页公开舞蹈视频2的9.5秒处提取的实际动作静帧；视频二创画面，可能含生成式图像痕迹，不冒充美团官方动画。 未访问该站交易、合约或登录功能。",
+    "role": "subject",
+    "is_cutout": false,
+    "templates": [
+      "top",
+      "bottom",
+      "split",
+      "frame",
+      "grid",
+      "message",
+      "poster",
+      "side",
+      "polaroid",
+      "bubble",
+      "dialogue",
+      "spotlight",
+      "comic",
+      "subtitle",
+      "note",
+      "window",
+      "ticket",
+      "medal",
+      "scene"
+    ]
+  },
+  {
+    "id": "bulk-feidudu-v3-018",
+    "name": "肥嘟嘟 · 胸前蜷起双手单脚站立",
+    "character": "肥嘟嘟",
+    "filename": "bulk-feidudu/video-3-018.jpg",
+    "action": "胸前蜷起双手单脚站立",
+    "emotion": [
+      "开心",
+      "调皮"
+    ],
+    "scenes": [
+      "群聊",
+      "朋友互动",
+      "完成作业",
+      "放假"
+    ],
+    "examples": [
+      "这题拿下了",
+      "今天状态不错"
+    ],
+    "existing_text": "",
+    "intensity": 3,
+    "source_type": "reference",
+    "author": "美团袋鼠形象；具体网络二创作者待核实",
+    "source_url": "https://feidudu.org/",
+    "source_note": "公开嘟嘟墙转载的黄色袋鼠肥嘟嘟系列，具体二创作者、首发及授权未核实。原文件保留，不代表网站为原作者。 从该页公开舞蹈视频3的1.8秒处提取的实际动作静帧；视频二创画面，可能含生成式图像痕迹，不冒充美团官方动画。 未访问该站交易、合约或登录功能。",
+    "role": "subject",
+    "is_cutout": false,
+    "templates": [
+      "top",
+      "bottom",
+      "split",
+      "frame",
+      "grid",
+      "message",
+      "poster",
+      "side",
+      "polaroid",
+      "bubble",
+      "dialogue",
+      "spotlight",
+      "comic",
+      "subtitle",
+      "note",
+      "window",
+      "ticket",
+      "medal",
+      "scene"
+    ]
+  },
+  {
+    "id": "bulk-feidudu-v3-025",
+    "name": "肥嘟嘟 · 双脚交叉，双手放胸前",
+    "character": "肥嘟嘟",
+    "filename": "bulk-feidudu/video-3-025.jpg",
+    "action": "双脚交叉，双手放胸前",
+    "emotion": [
+      "开心",
+      "调皮"
+    ],
+    "scenes": [
+      "群聊",
+      "朋友互动",
+      "完成作业",
+      "放假"
+    ],
+    "examples": [
+      "这题拿下了",
+      "今天状态不错"
+    ],
+    "existing_text": "",
+    "intensity": 3,
+    "source_type": "reference",
+    "author": "美团袋鼠形象；具体网络二创作者待核实",
+    "source_url": "https://feidudu.org/",
+    "source_note": "公开嘟嘟墙转载的黄色袋鼠肥嘟嘟系列，具体二创作者、首发及授权未核实。原文件保留，不代表网站为原作者。 从该页公开舞蹈视频3的2.5秒处提取的实际动作静帧；视频二创画面，可能含生成式图像痕迹，不冒充美团官方动画。 未访问该站交易、合约或登录功能。",
+    "role": "subject",
+    "is_cutout": false,
+    "templates": [
+      "top",
+      "bottom",
+      "split",
+      "frame",
+      "grid",
+      "message",
+      "poster",
+      "side",
+      "polaroid",
+      "bubble",
+      "dialogue",
+      "spotlight",
+      "comic",
+      "subtitle",
+      "note",
+      "window",
+      "ticket",
+      "medal",
+      "scene"
+    ]
+  },
+  {
+    "id": "bulk-feidudu-v3-032",
+    "name": "肥嘟嘟 · 身体倾斜蹲下",
+    "character": "肥嘟嘟",
+    "filename": "bulk-feidudu/video-3-032.jpg",
+    "action": "身体倾斜蹲下",
+    "emotion": [
+      "开心",
+      "调皮"
+    ],
+    "scenes": [
+      "群聊",
+      "朋友互动",
+      "完成作业",
+      "放假"
+    ],
+    "examples": [
+      "这题拿下了",
+      "今天状态不错"
+    ],
+    "existing_text": "",
+    "intensity": 3,
+    "source_type": "reference",
+    "author": "美团袋鼠形象；具体网络二创作者待核实",
+    "source_url": "https://feidudu.org/",
+    "source_note": "公开嘟嘟墙转载的黄色袋鼠肥嘟嘟系列，具体二创作者、首发及授权未核实。原文件保留，不代表网站为原作者。 从该页公开舞蹈视频3的3.2秒处提取的实际动作静帧；视频二创画面，可能含生成式图像痕迹，不冒充美团官方动画。 未访问该站交易、合约或登录功能。",
+    "role": "subject",
+    "is_cutout": false,
+    "templates": [
+      "top",
+      "bottom",
+      "split",
+      "frame",
+      "grid",
+      "message",
+      "poster",
+      "side",
+      "polaroid",
+      "bubble",
+      "dialogue",
+      "spotlight",
+      "comic",
+      "subtitle",
+      "note",
+      "window",
+      "ticket",
+      "medal",
+      "scene"
+    ]
+  },
+  {
+    "id": "bulk-feidudu-v3-039",
+    "name": "肥嘟嘟 · 侧歪脑袋摆臂",
+    "character": "肥嘟嘟",
+    "filename": "bulk-feidudu/video-3-039.jpg",
+    "action": "侧歪脑袋摆臂",
+    "emotion": [
+      "开心",
+      "调皮"
+    ],
+    "scenes": [
+      "群聊",
+      "朋友互动",
+      "完成作业",
+      "放假"
+    ],
+    "examples": [
+      "这题拿下了",
+      "今天状态不错"
+    ],
+    "existing_text": "",
+    "intensity": 3,
+    "source_type": "reference",
+    "author": "美团袋鼠形象；具体网络二创作者待核实",
+    "source_url": "https://feidudu.org/",
+    "source_note": "公开嘟嘟墙转载的黄色袋鼠肥嘟嘟系列，具体二创作者、首发及授权未核实。原文件保留，不代表网站为原作者。 从该页公开舞蹈视频3的3.9秒处提取的实际动作静帧；视频二创画面，可能含生成式图像痕迹，不冒充美团官方动画。 未访问该站交易、合约或登录功能。",
+    "role": "subject",
+    "is_cutout": false,
+    "templates": [
+      "top",
+      "bottom",
+      "split",
+      "frame",
+      "grid",
+      "message",
+      "poster",
+      "side",
+      "polaroid",
+      "bubble",
+      "dialogue",
+      "spotlight",
+      "comic",
+      "subtitle",
+      "note",
+      "window",
+      "ticket",
+      "medal",
+      "scene"
+    ]
+  },
+  {
+    "id": "bulk-feidudu-v3-046",
+    "name": "肥嘟嘟 · 侧身单脚站着",
+    "character": "肥嘟嘟",
+    "filename": "bulk-feidudu/video-3-046.jpg",
+    "action": "侧身单脚站着",
+    "emotion": [
+      "开心",
+      "调皮"
+    ],
+    "scenes": [
+      "群聊",
+      "朋友互动",
+      "完成作业",
+      "放假"
+    ],
+    "examples": [
+      "这题拿下了",
+      "今天状态不错"
+    ],
+    "existing_text": "",
+    "intensity": 3,
+    "source_type": "reference",
+    "author": "美团袋鼠形象；具体网络二创作者待核实",
+    "source_url": "https://feidudu.org/",
+    "source_note": "公开嘟嘟墙转载的黄色袋鼠肥嘟嘟系列，具体二创作者、首发及授权未核实。原文件保留，不代表网站为原作者。 从该页公开舞蹈视频3的4.6秒处提取的实际动作静帧；视频二创画面，可能含生成式图像痕迹，不冒充美团官方动画。 未访问该站交易、合约或登录功能。",
+    "role": "subject",
+    "is_cutout": false,
+    "templates": [
+      "top",
+      "bottom",
+      "split",
+      "frame",
+      "grid",
+      "message",
+      "poster",
+      "side",
+      "polaroid",
+      "bubble",
+      "dialogue",
+      "spotlight",
+      "comic",
+      "subtitle",
+      "note",
+      "window",
+      "ticket",
+      "medal",
+      "scene"
+    ]
+  },
+  {
+    "id": "bulk-feidudu-v3-053",
+    "name": "肥嘟嘟 · 侧身挥手踮脚",
+    "character": "肥嘟嘟",
+    "filename": "bulk-feidudu/video-3-053.jpg",
+    "action": "侧身挥手踮脚",
+    "emotion": [
+      "开心",
+      "调皮"
+    ],
+    "scenes": [
+      "群聊",
+      "朋友互动",
+      "完成作业",
+      "放假"
+    ],
+    "examples": [
+      "这题拿下了",
+      "今天状态不错"
+    ],
+    "existing_text": "",
+    "intensity": 3,
+    "source_type": "reference",
+    "author": "美团袋鼠形象；具体网络二创作者待核实",
+    "source_url": "https://feidudu.org/",
+    "source_note": "公开嘟嘟墙转载的黄色袋鼠肥嘟嘟系列，具体二创作者、首发及授权未核实。原文件保留，不代表网站为原作者。 从该页公开舞蹈视频3的5.3秒处提取的实际动作静帧；视频二创画面，可能含生成式图像痕迹，不冒充美团官方动画。 未访问该站交易、合约或登录功能。",
+    "role": "subject",
+    "is_cutout": false,
+    "templates": [
+      "top",
+      "bottom",
+      "split",
+      "frame",
+      "grid",
+      "message",
+      "poster",
+      "side",
+      "polaroid",
+      "bubble",
+      "dialogue",
+      "spotlight",
+      "comic",
+      "subtitle",
+      "note",
+      "window",
+      "ticket",
+      "medal",
+      "scene"
+    ]
+  },
+  {
+    "id": "bulk-feidudu-v3-060",
+    "name": "肥嘟嘟 · 伸出一只脚摆手",
+    "character": "肥嘟嘟",
+    "filename": "bulk-feidudu/video-3-060.jpg",
+    "action": "伸出一只脚摆手",
+    "emotion": [
+      "开心",
+      "调皮"
+    ],
+    "scenes": [
+      "群聊",
+      "朋友互动",
+      "完成作业",
+      "放假"
+    ],
+    "examples": [
+      "这题拿下了",
+      "今天状态不错"
+    ],
+    "existing_text": "",
+    "intensity": 3,
+    "source_type": "reference",
+    "author": "美团袋鼠形象；具体网络二创作者待核实",
+    "source_url": "https://feidudu.org/",
+    "source_note": "公开嘟嘟墙转载的黄色袋鼠肥嘟嘟系列，具体二创作者、首发及授权未核实。原文件保留，不代表网站为原作者。 从该页公开舞蹈视频3的6.0秒处提取的实际动作静帧；视频二创画面，可能含生成式图像痕迹，不冒充美团官方动画。 未访问该站交易、合约或登录功能。",
+    "role": "subject",
+    "is_cutout": false,
+    "templates": [
+      "top",
+      "bottom",
+      "split",
+      "frame",
+      "grid",
+      "message",
+      "poster",
+      "side",
+      "polaroid",
+      "bubble",
+      "dialogue",
+      "spotlight",
+      "comic",
+      "subtitle",
+      "note",
+      "window",
+      "ticket",
+      "medal",
+      "scene"
+    ]
+  },
+  {
+    "id": "bulk-feidudu-v3-067",
+    "name": "肥嘟嘟 · 仰头张臂转身",
+    "character": "肥嘟嘟",
+    "filename": "bulk-feidudu/video-3-067.jpg",
+    "action": "仰头张臂转身",
+    "emotion": [
+      "开心",
+      "调皮"
+    ],
+    "scenes": [
+      "群聊",
+      "朋友互动",
+      "完成作业",
+      "放假"
+    ],
+    "examples": [
+      "这题拿下了",
+      "今天状态不错"
+    ],
+    "existing_text": "",
+    "intensity": 3,
+    "source_type": "reference",
+    "author": "美团袋鼠形象；具体网络二创作者待核实",
+    "source_url": "https://feidudu.org/",
+    "source_note": "公开嘟嘟墙转载的黄色袋鼠肥嘟嘟系列，具体二创作者、首发及授权未核实。原文件保留，不代表网站为原作者。 从该页公开舞蹈视频3的6.7秒处提取的实际动作静帧；视频二创画面，可能含生成式图像痕迹，不冒充美团官方动画。 未访问该站交易、合约或登录功能。",
+    "role": "subject",
+    "is_cutout": false,
+    "templates": [
+      "top",
+      "bottom",
+      "split",
+      "frame",
+      "grid",
+      "message",
+      "poster",
+      "side",
+      "polaroid",
+      "bubble",
+      "dialogue",
+      "spotlight",
+      "comic",
+      "subtitle",
+      "note",
+      "window",
+      "ticket",
+      "medal",
+      "scene"
+    ]
+  },
+  {
+    "id": "bulk-feidudu-v4-060",
+    "name": "肥嘟嘟 · 抬手摸额头",
+    "character": "肥嘟嘟",
+    "filename": "bulk-feidudu/video-4-060.jpg",
+    "action": "抬手摸额头",
+    "emotion": [
+      "疑惑",
+      "调皮"
+    ],
+    "scenes": [
+      "群聊",
+      "收到通知",
+      "吐槽"
+    ],
+    "examples": [
+      "让我想想",
+      "你再说一遍"
+    ],
+    "existing_text": "",
+    "intensity": 3,
+    "source_type": "reference",
+    "author": "美团袋鼠形象；具体网络二创作者待核实",
+    "source_url": "https://feidudu.org/",
+    "source_note": "公开嘟嘟墙转载的黄色袋鼠肥嘟嘟系列，具体二创作者、首发及授权未核实。原文件保留，不代表网站为原作者。 从该页公开舞蹈视频4的6.0秒处提取的实际动作静帧；视频二创画面，可能含生成式图像痕迹，不冒充美团官方动画。 未访问该站交易、合约或登录功能。",
+    "role": "subject",
+    "is_cutout": false,
+    "templates": [
+      "top",
+      "bottom",
+      "split",
+      "frame",
+      "grid",
+      "message",
+      "poster",
+      "side",
+      "polaroid",
+      "bubble",
+      "dialogue",
+      "spotlight",
+      "comic",
+      "subtitle",
+      "note",
+      "window",
+      "ticket",
+      "medal",
+      "scene"
+    ]
+  },
+  {
+    "id": "bulk-feidudu-v4-074",
+    "name": "肥嘟嘟 · 右手放在头侧",
+    "character": "肥嘟嘟",
+    "filename": "bulk-feidudu/video-4-074.jpg",
+    "action": "右手放在头侧",
+    "emotion": [
+      "疑惑",
+      "调皮"
+    ],
+    "scenes": [
+      "群聊",
+      "收到通知",
+      "吐槽"
+    ],
+    "examples": [
+      "让我想想",
+      "你再说一遍"
+    ],
+    "existing_text": "",
+    "intensity": 3,
+    "source_type": "reference",
+    "author": "美团袋鼠形象；具体网络二创作者待核实",
+    "source_url": "https://feidudu.org/",
+    "source_note": "公开嘟嘟墙转载的黄色袋鼠肥嘟嘟系列，具体二创作者、首发及授权未核实。原文件保留，不代表网站为原作者。 从该页公开舞蹈视频4的7.4秒处提取的实际动作静帧；视频二创画面，可能含生成式图像痕迹，不冒充美团官方动画。 未访问该站交易、合约或登录功能。",
+    "role": "subject",
+    "is_cutout": false,
+    "templates": [
+      "top",
+      "bottom",
+      "split",
+      "frame",
+      "grid",
+      "message",
+      "poster",
+      "side",
+      "polaroid",
+      "bubble",
+      "dialogue",
+      "spotlight",
+      "comic",
+      "subtitle",
+      "note",
+      "window",
+      "ticket",
+      "medal",
+      "scene"
+    ]
+  },
+  {
+    "id": "bulk-feidudu-v4-088",
+    "name": "肥嘟嘟 · 正面垂手站着",
+    "character": "肥嘟嘟",
+    "filename": "bulk-feidudu/video-4-088.jpg",
+    "action": "正面垂手站着",
+    "emotion": [
+      "疑惑",
+      "调皮"
+    ],
+    "scenes": [
+      "群聊",
+      "收到通知",
+      "吐槽"
+    ],
+    "examples": [
+      "让我想想",
+      "你再说一遍"
+    ],
+    "existing_text": "",
+    "intensity": 3,
+    "source_type": "reference",
+    "author": "美团袋鼠形象；具体网络二创作者待核实",
+    "source_url": "https://feidudu.org/",
+    "source_note": "公开嘟嘟墙转载的黄色袋鼠肥嘟嘟系列，具体二创作者、首发及授权未核实。原文件保留，不代表网站为原作者。 从该页公开舞蹈视频4的8.8秒处提取的实际动作静帧；视频二创画面，可能含生成式图像痕迹，不冒充美团官方动画。 未访问该站交易、合约或登录功能。",
+    "role": "subject",
+    "is_cutout": false,
+    "templates": [
+      "top",
+      "bottom",
+      "split",
+      "frame",
+      "grid",
+      "message",
+      "poster",
+      "side",
+      "polaroid",
+      "bubble",
+      "dialogue",
+      "spotlight",
+      "comic",
+      "subtitle",
+      "note",
+      "window",
+      "ticket",
+      "medal",
+      "scene"
+    ]
+  },
+  {
+    "id": "bulk-feidudu-v4-095",
+    "name": "肥嘟嘟 · 正面斜头垂手",
+    "character": "肥嘟嘟",
+    "filename": "bulk-feidudu/video-4-095.jpg",
+    "action": "正面斜头垂手",
+    "emotion": [
+      "疑惑",
+      "调皮"
+    ],
+    "scenes": [
+      "群聊",
+      "收到通知",
+      "吐槽"
+    ],
+    "examples": [
+      "让我想想",
+      "你再说一遍"
+    ],
+    "existing_text": "",
+    "intensity": 3,
+    "source_type": "reference",
+    "author": "美团袋鼠形象；具体网络二创作者待核实",
+    "source_url": "https://feidudu.org/",
+    "source_note": "公开嘟嘟墙转载的黄色袋鼠肥嘟嘟系列，具体二创作者、首发及授权未核实。原文件保留，不代表网站为原作者。 从该页公开舞蹈视频4的9.5秒处提取的实际动作静帧；视频二创画面，可能含生成式图像痕迹，不冒充美团官方动画。 未访问该站交易、合约或登录功能。",
+    "role": "subject",
+    "is_cutout": false,
+    "templates": [
+      "top",
+      "bottom",
+      "split",
+      "frame",
+      "grid",
+      "message",
+      "poster",
+      "side",
+      "polaroid",
+      "bubble",
+      "dialogue",
+      "spotlight",
+      "comic",
+      "subtitle",
+      "note",
+      "window",
+      "ticket",
+      "medal",
+      "scene"
+    ]
+  },
+  {
+    "id": "bulk-feidudu-v4-102",
+    "name": "肥嘟嘟 · 歪头垂手",
+    "character": "肥嘟嘟",
+    "filename": "bulk-feidudu/video-4-102.jpg",
+    "action": "歪头垂手",
+    "emotion": [
+      "疑惑",
+      "调皮"
+    ],
+    "scenes": [
+      "群聊",
+      "收到通知",
+      "吐槽"
+    ],
+    "examples": [
+      "让我想想",
+      "你再说一遍"
+    ],
+    "existing_text": "",
+    "intensity": 3,
+    "source_type": "reference",
+    "author": "美团袋鼠形象；具体网络二创作者待核实",
+    "source_url": "https://feidudu.org/",
+    "source_note": "公开嘟嘟墙转载的黄色袋鼠肥嘟嘟系列，具体二创作者、首发及授权未核实。原文件保留，不代表网站为原作者。 从该页公开舞蹈视频4的10.2秒处提取的实际动作静帧；视频二创画面，可能含生成式图像痕迹，不冒充美团官方动画。 未访问该站交易、合约或登录功能。",
+    "role": "subject",
+    "is_cutout": false,
+    "templates": [
+      "top",
+      "bottom",
+      "split",
+      "frame",
+      "grid",
+      "message",
+      "poster",
+      "side",
+      "polaroid",
+      "bubble",
+      "dialogue",
+      "spotlight",
+      "comic",
+      "subtitle",
+      "note",
+      "window",
+      "ticket",
+      "medal",
+      "scene"
+    ]
+  },
+  {
+    "id": "bulk-feidudu-v4-109",
+    "name": "肥嘟嘟 · 正面张开双手",
+    "character": "肥嘟嘟",
+    "filename": "bulk-feidudu/video-4-109.jpg",
+    "action": "正面张开双手",
+    "emotion": [
+      "疑惑",
+      "调皮"
+    ],
+    "scenes": [
+      "群聊",
+      "收到通知",
+      "吐槽"
+    ],
+    "examples": [
+      "让我想想",
+      "你再说一遍"
+    ],
+    "existing_text": "",
+    "intensity": 3,
+    "source_type": "reference",
+    "author": "美团袋鼠形象；具体网络二创作者待核实",
+    "source_url": "https://feidudu.org/",
+    "source_note": "公开嘟嘟墙转载的黄色袋鼠肥嘟嘟系列，具体二创作者、首发及授权未核实。原文件保留，不代表网站为原作者。 从该页公开舞蹈视频4的10.9秒处提取的实际动作静帧；视频二创画面，可能含生成式图像痕迹，不冒充美团官方动画。 未访问该站交易、合约或登录功能。",
+    "role": "subject",
+    "is_cutout": false,
+    "templates": [
+      "top",
+      "bottom",
+      "split",
+      "frame",
+      "grid",
+      "message",
+      "poster",
+      "side",
+      "polaroid",
+      "bubble",
+      "dialogue",
+      "spotlight",
+      "comic",
+      "subtitle",
+      "note",
+      "window",
+      "ticket",
+      "medal",
+      "scene"
+    ]
+  },
+  {
+    "id": "bulk-feidudu-v4-116",
+    "name": "肥嘟嘟 · 双臂交叉在胸前",
+    "character": "肥嘟嘟",
+    "filename": "bulk-feidudu/video-4-116.jpg",
+    "action": "双臂交叉在胸前",
+    "emotion": [
+      "疑惑",
+      "调皮"
+    ],
+    "scenes": [
+      "群聊",
+      "收到通知",
+      "吐槽"
+    ],
+    "examples": [
+      "让我想想",
+      "你再说一遍"
+    ],
+    "existing_text": "",
+    "intensity": 3,
+    "source_type": "reference",
+    "author": "美团袋鼠形象；具体网络二创作者待核实",
+    "source_url": "https://feidudu.org/",
+    "source_note": "公开嘟嘟墙转载的黄色袋鼠肥嘟嘟系列，具体二创作者、首发及授权未核实。原文件保留，不代表网站为原作者。 从该页公开舞蹈视频4的11.6秒处提取的实际动作静帧；视频二创画面，可能含生成式图像痕迹，不冒充美团官方动画。 未访问该站交易、合约或登录功能。",
+    "role": "subject",
+    "is_cutout": false,
+    "templates": [
+      "top",
+      "bottom",
+      "split",
+      "frame",
+      "grid",
+      "message",
+      "poster",
+      "side",
+      "polaroid",
+      "bubble",
+      "dialogue",
+      "spotlight",
+      "comic",
+      "subtitle",
+      "note",
+      "window",
+      "ticket",
+      "medal",
+      "scene"
+    ]
+  },
+  {
+    "id": "bulk-feidudu-v4-123",
+    "name": "肥嘟嘟 · 横着摆动前臂",
+    "character": "肥嘟嘟",
+    "filename": "bulk-feidudu/video-4-123.jpg",
+    "action": "横着摆动前臂",
+    "emotion": [
+      "疑惑",
+      "调皮"
+    ],
+    "scenes": [
+      "群聊",
+      "收到通知",
+      "吐槽"
+    ],
+    "examples": [
+      "让我想想",
+      "你再说一遍"
+    ],
+    "existing_text": "",
+    "intensity": 3,
+    "source_type": "reference",
+    "author": "美团袋鼠形象；具体网络二创作者待核实",
+    "source_url": "https://feidudu.org/",
+    "source_note": "公开嘟嘟墙转载的黄色袋鼠肥嘟嘟系列，具体二创作者、首发及授权未核实。原文件保留，不代表网站为原作者。 从该页公开舞蹈视频4的12.3秒处提取的实际动作静帧；视频二创画面，可能含生成式图像痕迹，不冒充美团官方动画。 未访问该站交易、合约或登录功能。",
+    "role": "subject",
+    "is_cutout": false,
+    "templates": [
+      "top",
+      "bottom",
+      "split",
+      "frame",
+      "grid",
+      "message",
+      "poster",
+      "side",
+      "polaroid",
+      "bubble",
+      "dialogue",
+      "spotlight",
+      "comic",
+      "subtitle",
+      "note",
+      "window",
+      "ticket",
+      "medal",
+      "scene"
+    ]
+  },
+  {
+    "id": "bulk-feidudu-v4-130",
+    "name": "肥嘟嘟 · 双手举过头顶握拳",
+    "character": "肥嘟嘟",
+    "filename": "bulk-feidudu/video-4-130.jpg",
+    "action": "双手举过头顶握拳",
+    "emotion": [
+      "疑惑",
+      "调皮"
+    ],
+    "scenes": [
+      "群聊",
+      "收到通知",
+      "吐槽"
+    ],
+    "examples": [
+      "让我想想",
+      "你再说一遍"
+    ],
+    "existing_text": "",
+    "intensity": 3,
+    "source_type": "reference",
+    "author": "美团袋鼠形象；具体网络二创作者待核实",
+    "source_url": "https://feidudu.org/",
+    "source_note": "公开嘟嘟墙转载的黄色袋鼠肥嘟嘟系列，具体二创作者、首发及授权未核实。原文件保留，不代表网站为原作者。 从该页公开舞蹈视频4的13.0秒处提取的实际动作静帧；视频二创画面，可能含生成式图像痕迹，不冒充美团官方动画。 未访问该站交易、合约或登录功能。",
+    "role": "subject",
+    "is_cutout": false,
+    "templates": [
+      "top",
+      "bottom",
+      "split",
+      "frame",
+      "grid",
+      "message",
+      "poster",
+      "side",
+      "polaroid",
+      "bubble",
+      "dialogue",
+      "spotlight",
+      "comic",
+      "subtitle",
+      "note",
+      "window",
+      "ticket",
+      "medal",
+      "scene"
+    ]
+  },
+  {
+    "id": "bulk-feidudu-v4-144",
+    "name": "肥嘟嘟 · 双手在头顶合拢",
+    "character": "肥嘟嘟",
+    "filename": "bulk-feidudu/video-4-144.jpg",
+    "action": "双手在头顶合拢",
+    "emotion": [
+      "疑惑",
+      "调皮"
+    ],
+    "scenes": [
+      "群聊",
+      "收到通知",
+      "吐槽"
+    ],
+    "examples": [
+      "让我想想",
+      "你再说一遍"
+    ],
+    "existing_text": "",
+    "intensity": 3,
+    "source_type": "reference",
+    "author": "美团袋鼠形象；具体网络二创作者待核实",
+    "source_url": "https://feidudu.org/",
+    "source_note": "公开嘟嘟墙转载的黄色袋鼠肥嘟嘟系列，具体二创作者、首发及授权未核实。原文件保留，不代表网站为原作者。 从该页公开舞蹈视频4的14.4秒处提取的实际动作静帧；视频二创画面，可能含生成式图像痕迹，不冒充美团官方动画。 未访问该站交易、合约或登录功能。",
+    "role": "subject",
+    "is_cutout": false,
+    "templates": [
+      "top",
+      "bottom",
+      "split",
+      "frame",
+      "grid",
+      "message",
+      "poster",
+      "side",
+      "polaroid",
+      "bubble",
+      "dialogue",
+      "spotlight",
+      "comic",
+      "subtitle",
+      "note",
+      "window",
+      "ticket",
+      "medal",
+      "scene"
+    ]
+  },
+  {
+    "id": "bulk-feidudu-v5-018",
+    "name": "肥嘟嘟 · 旁边站小黄鸭，双手放胸前抬腿",
+    "character": "肥嘟嘟",
+    "filename": "bulk-feidudu/video-5-018.jpg",
+    "action": "旁边站小黄鸭，双手放胸前抬腿",
+    "emotion": [
+      "开心",
+      "调皮"
+    ],
+    "scenes": [
+      "群聊",
+      "朋友互动",
+      "完成作业",
+      "放假"
+    ],
+    "examples": [
+      "这题拿下了",
+      "今天状态不错"
+    ],
+    "existing_text": "",
+    "intensity": 3,
+    "source_type": "reference",
+    "author": "美团袋鼠形象；具体网络二创作者待核实",
+    "source_url": "https://feidudu.org/",
+    "source_note": "公开嘟嘟墙转载的黄色袋鼠肥嘟嘟系列，具体二创作者、首发及授权未核实。原文件保留，不代表网站为原作者。 从该页公开舞蹈视频5的1.8秒处提取的实际动作静帧；视频二创画面，可能含生成式图像痕迹，不冒充美团官方动画。 未访问该站交易、合约或登录功能。",
+    "role": "subject",
+    "is_cutout": false,
+    "templates": [
+      "top",
+      "bottom",
+      "split",
+      "frame",
+      "grid",
+      "message",
+      "poster",
+      "side",
+      "polaroid",
+      "bubble",
+      "dialogue",
+      "spotlight",
+      "comic",
+      "subtitle",
+      "note",
+      "window",
+      "ticket",
+      "medal",
+      "scene"
+    ]
+  },
+  {
+    "id": "bulk-feidudu-v5-025",
+    "name": "肥嘟嘟 · 与小黄鸭一起，单脚站立",
+    "character": "肥嘟嘟",
+    "filename": "bulk-feidudu/video-5-025.jpg",
+    "action": "与小黄鸭一起，单脚站立",
+    "emotion": [
+      "开心",
+      "调皮"
+    ],
+    "scenes": [
+      "群聊",
+      "朋友互动",
+      "完成作业",
+      "放假"
+    ],
+    "examples": [
+      "这题拿下了",
+      "今天状态不错"
+    ],
+    "existing_text": "",
+    "intensity": 3,
+    "source_type": "reference",
+    "author": "美团袋鼠形象；具体网络二创作者待核实",
+    "source_url": "https://feidudu.org/",
+    "source_note": "公开嘟嘟墙转载的黄色袋鼠肥嘟嘟系列，具体二创作者、首发及授权未核实。原文件保留，不代表网站为原作者。 从该页公开舞蹈视频5的2.5秒处提取的实际动作静帧；视频二创画面，可能含生成式图像痕迹，不冒充美团官方动画。 未访问该站交易、合约或登录功能。",
+    "role": "subject",
+    "is_cutout": false,
+    "templates": [
+      "top",
+      "bottom",
+      "split",
+      "frame",
+      "grid",
+      "message",
+      "poster",
+      "side",
+      "polaroid",
+      "bubble",
+      "dialogue",
+      "spotlight",
+      "comic",
+      "subtitle",
+      "note",
+      "window",
+      "ticket",
+      "medal",
+      "scene"
+    ]
+  },
+  {
+    "id": "bulk-feidudu-v5-032",
+    "name": "肥嘟嘟 · 与小黄鸭一起蹲下",
+    "character": "肥嘟嘟",
+    "filename": "bulk-feidudu/video-5-032.jpg",
+    "action": "与小黄鸭一起蹲下",
+    "emotion": [
+      "开心",
+      "调皮"
+    ],
+    "scenes": [
+      "群聊",
+      "朋友互动",
+      "完成作业",
+      "放假"
+    ],
+    "examples": [
+      "这题拿下了",
+      "今天状态不错"
+    ],
+    "existing_text": "",
+    "intensity": 3,
+    "source_type": "reference",
+    "author": "美团袋鼠形象；具体网络二创作者待核实",
+    "source_url": "https://feidudu.org/",
+    "source_note": "公开嘟嘟墙转载的黄色袋鼠肥嘟嘟系列，具体二创作者、首发及授权未核实。原文件保留，不代表网站为原作者。 从该页公开舞蹈视频5的3.2秒处提取的实际动作静帧；视频二创画面，可能含生成式图像痕迹，不冒充美团官方动画。 未访问该站交易、合约或登录功能。",
+    "role": "subject",
+    "is_cutout": false,
+    "templates": [
+      "top",
+      "bottom",
+      "split",
+      "frame",
+      "grid",
+      "message",
+      "poster",
+      "side",
+      "polaroid",
+      "bubble",
+      "dialogue",
+      "spotlight",
+      "comic",
+      "subtitle",
+      "note",
+      "window",
+      "ticket",
+      "medal",
+      "scene"
+    ]
+  },
+  {
+    "id": "bulk-feidudu-v5-039",
+    "name": "肥嘟嘟 · 带着小黄鸭歪头摆臂",
+    "character": "肥嘟嘟",
+    "filename": "bulk-feidudu/video-5-039.jpg",
+    "action": "带着小黄鸭歪头摆臂",
+    "emotion": [
+      "开心",
+      "调皮"
+    ],
+    "scenes": [
+      "群聊",
+      "朋友互动",
+      "完成作业",
+      "放假"
+    ],
+    "examples": [
+      "这题拿下了",
+      "今天状态不错"
+    ],
+    "existing_text": "",
+    "intensity": 3,
+    "source_type": "reference",
+    "author": "美团袋鼠形象；具体网络二创作者待核实",
+    "source_url": "https://feidudu.org/",
+    "source_note": "公开嘟嘟墙转载的黄色袋鼠肥嘟嘟系列，具体二创作者、首发及授权未核实。原文件保留，不代表网站为原作者。 从该页公开舞蹈视频5的3.9秒处提取的实际动作静帧；视频二创画面，可能含生成式图像痕迹，不冒充美团官方动画。 未访问该站交易、合约或登录功能。",
+    "role": "subject",
+    "is_cutout": false,
+    "templates": [
+      "top",
+      "bottom",
+      "split",
+      "frame",
+      "grid",
+      "message",
+      "poster",
+      "side",
+      "polaroid",
+      "bubble",
+      "dialogue",
+      "spotlight",
+      "comic",
+      "subtitle",
+      "note",
+      "window",
+      "ticket",
+      "medal",
+      "scene"
+    ]
+  },
+  {
+    "id": "bulk-feidudu-v5-046",
+    "name": "肥嘟嘟 · 小黄鸭在身后，踮脚转身",
+    "character": "肥嘟嘟",
+    "filename": "bulk-feidudu/video-5-046.jpg",
+    "action": "小黄鸭在身后，踮脚转身",
+    "emotion": [
+      "开心",
+      "调皮"
+    ],
+    "scenes": [
+      "群聊",
+      "朋友互动",
+      "完成作业",
+      "放假"
+    ],
+    "examples": [
+      "这题拿下了",
+      "今天状态不错"
+    ],
+    "existing_text": "",
+    "intensity": 3,
+    "source_type": "reference",
+    "author": "美团袋鼠形象；具体网络二创作者待核实",
+    "source_url": "https://feidudu.org/",
+    "source_note": "公开嘟嘟墙转载的黄色袋鼠肥嘟嘟系列，具体二创作者、首发及授权未核实。原文件保留，不代表网站为原作者。 从该页公开舞蹈视频5的4.6秒处提取的实际动作静帧；视频二创画面，可能含生成式图像痕迹，不冒充美团官方动画。 未访问该站交易、合约或登录功能。",
+    "role": "subject",
+    "is_cutout": false,
+    "templates": [
+      "top",
+      "bottom",
+      "split",
+      "frame",
+      "grid",
+      "message",
+      "poster",
+      "side",
+      "polaroid",
+      "bubble",
+      "dialogue",
+      "spotlight",
+      "comic",
+      "subtitle",
+      "note",
+      "window",
+      "ticket",
+      "medal",
+      "scene"
+    ]
+  },
+  {
+    "id": "bulk-feidudu-v5-053",
+    "name": "肥嘟嘟 · 小黄鸭跟在身后，侧身挥手",
+    "character": "肥嘟嘟",
+    "filename": "bulk-feidudu/video-5-053.jpg",
+    "action": "小黄鸭跟在身后，侧身挥手",
+    "emotion": [
+      "开心",
+      "调皮"
+    ],
+    "scenes": [
+      "群聊",
+      "朋友互动",
+      "完成作业",
+      "放假"
+    ],
+    "examples": [
+      "这题拿下了",
+      "今天状态不错"
+    ],
+    "existing_text": "",
+    "intensity": 3,
+    "source_type": "reference",
+    "author": "美团袋鼠形象；具体网络二创作者待核实",
+    "source_url": "https://feidudu.org/",
+    "source_note": "公开嘟嘟墙转载的黄色袋鼠肥嘟嘟系列，具体二创作者、首发及授权未核实。原文件保留，不代表网站为原作者。 从该页公开舞蹈视频5的5.3秒处提取的实际动作静帧；视频二创画面，可能含生成式图像痕迹，不冒充美团官方动画。 未访问该站交易、合约或登录功能。",
+    "role": "subject",
+    "is_cutout": false,
+    "templates": [
+      "top",
+      "bottom",
+      "split",
+      "frame",
+      "grid",
+      "message",
+      "poster",
+      "side",
+      "polaroid",
+      "bubble",
+      "dialogue",
+      "spotlight",
+      "comic",
+      "subtitle",
+      "note",
+      "window",
+      "ticket",
+      "medal",
+      "scene"
+    ]
+  },
+  {
+    "id": "bulk-feidudu-v5-060",
+    "name": "肥嘟嘟 · 与小黄鸭一起，单脚伸出",
+    "character": "肥嘟嘟",
+    "filename": "bulk-feidudu/video-5-060.jpg",
+    "action": "与小黄鸭一起，单脚伸出",
+    "emotion": [
+      "开心",
+      "调皮"
+    ],
+    "scenes": [
+      "群聊",
+      "朋友互动",
+      "完成作业",
+      "放假"
+    ],
+    "examples": [
+      "这题拿下了",
+      "今天状态不错"
+    ],
+    "existing_text": "",
+    "intensity": 3,
+    "source_type": "reference",
+    "author": "美团袋鼠形象；具体网络二创作者待核实",
+    "source_url": "https://feidudu.org/",
+    "source_note": "公开嘟嘟墙转载的黄色袋鼠肥嘟嘟系列，具体二创作者、首发及授权未核实。原文件保留，不代表网站为原作者。 从该页公开舞蹈视频5的6.0秒处提取的实际动作静帧；视频二创画面，可能含生成式图像痕迹，不冒充美团官方动画。 未访问该站交易、合约或登录功能。",
+    "role": "subject",
+    "is_cutout": false,
+    "templates": [
+      "top",
+      "bottom",
+      "split",
+      "frame",
+      "grid",
+      "message",
+      "poster",
+      "side",
+      "polaroid",
+      "bubble",
+      "dialogue",
+      "spotlight",
+      "comic",
+      "subtitle",
+      "note",
+      "window",
+      "ticket",
+      "medal",
+      "scene"
+    ]
+  },
+  {
+    "id": "bulk-feidudu-v5-067",
+    "name": "肥嘟嘟 · 带小黄鸭仰头转身",
+    "character": "肥嘟嘟",
+    "filename": "bulk-feidudu/video-5-067.jpg",
+    "action": "带小黄鸭仰头转身",
+    "emotion": [
+      "开心",
+      "调皮"
+    ],
+    "scenes": [
+      "群聊",
+      "朋友互动",
+      "完成作业",
+      "放假"
+    ],
+    "examples": [
+      "这题拿下了",
+      "今天状态不错"
+    ],
+    "existing_text": "",
+    "intensity": 3,
+    "source_type": "reference",
+    "author": "美团袋鼠形象；具体网络二创作者待核实",
+    "source_url": "https://feidudu.org/",
+    "source_note": "公开嘟嘟墙转载的黄色袋鼠肥嘟嘟系列，具体二创作者、首发及授权未核实。原文件保留，不代表网站为原作者。 从该页公开舞蹈视频5的6.7秒处提取的实际动作静帧；视频二创画面，可能含生成式图像痕迹，不冒充美团官方动画。 未访问该站交易、合约或登录功能。",
+    "role": "subject",
+    "is_cutout": false,
+    "templates": [
+      "top",
+      "bottom",
+      "split",
+      "frame",
+      "grid",
+      "message",
+      "poster",
+      "side",
+      "polaroid",
+      "bubble",
+      "dialogue",
+      "spotlight",
+      "comic",
+      "subtitle",
+      "note",
+      "window",
+      "ticket",
+      "medal",
+      "scene"
+    ]
+  },
+  {
+    "id": "bulk-feidudu-v6-004",
+    "name": "肥嘟嘟 · 屋顶张开双臂",
+    "character": "肥嘟嘟",
+    "filename": "bulk-feidudu/video-6-004.jpg",
+    "action": "屋顶张开双臂",
+    "emotion": [
+      "开心",
+      "调皮"
+    ],
+    "scenes": [
+      "群聊",
+      "朋友互动",
+      "完成作业",
+      "放假"
+    ],
+    "examples": [
+      "这题拿下了",
+      "今天状态不错"
+    ],
+    "existing_text": "",
+    "intensity": 3,
+    "source_type": "reference",
+    "author": "美团袋鼠形象；具体网络二创作者待核实",
+    "source_url": "https://feidudu.org/",
+    "source_note": "公开嘟嘟墙转载的黄色袋鼠肥嘟嘟系列，具体二创作者、首发及授权未核实。原文件保留，不代表网站为原作者。 从该页公开舞蹈视频6的0.4秒处提取的实际动作静帧；视频二创画面，可能含生成式图像痕迹，不冒充美团官方动画。 未访问该站交易、合约或登录功能。",
+    "role": "subject",
+    "is_cutout": false,
+    "templates": [
+      "top",
+      "bottom",
+      "split",
+      "frame",
+      "grid",
+      "message",
+      "poster",
+      "side",
+      "polaroid",
+      "bubble",
+      "dialogue",
+      "spotlight",
+      "comic",
+      "subtitle",
+      "note",
+      "window",
+      "ticket",
+      "medal",
+      "scene"
+    ]
+  },
+  {
+    "id": "bulk-feidudu-v6-018",
+    "name": "肥嘟嘟 · 屋顶伸双手向前",
+    "character": "肥嘟嘟",
+    "filename": "bulk-feidudu/video-6-018.jpg",
+    "action": "屋顶伸双手向前",
+    "emotion": [
+      "开心",
+      "调皮"
+    ],
+    "scenes": [
+      "群聊",
+      "朋友互动",
+      "完成作业",
+      "放假"
+    ],
+    "examples": [
+      "这题拿下了",
+      "今天状态不错"
+    ],
+    "existing_text": "",
+    "intensity": 3,
+    "source_type": "reference",
+    "author": "美团袋鼠形象；具体网络二创作者待核实",
+    "source_url": "https://feidudu.org/",
+    "source_note": "公开嘟嘟墙转载的黄色袋鼠肥嘟嘟系列，具体二创作者、首发及授权未核实。原文件保留，不代表网站为原作者。 从该页公开舞蹈视频6的1.8秒处提取的实际动作静帧；视频二创画面，可能含生成式图像痕迹，不冒充美团官方动画。 未访问该站交易、合约或登录功能。",
+    "role": "subject",
+    "is_cutout": false,
+    "templates": [
+      "top",
+      "bottom",
+      "split",
+      "frame",
+      "grid",
+      "message",
+      "poster",
+      "side",
+      "polaroid",
+      "bubble",
+      "dialogue",
+      "spotlight",
+      "comic",
+      "subtitle",
+      "note",
+      "window",
+      "ticket",
+      "medal",
+      "scene"
+    ]
+  },
+  {
+    "id": "bulk-feidudu-v6-025",
+    "name": "肥嘟嘟 · 屋顶向右伸出一只手",
+    "character": "肥嘟嘟",
+    "filename": "bulk-feidudu/video-6-025.jpg",
+    "action": "屋顶向右伸出一只手",
+    "emotion": [
+      "开心",
+      "调皮"
+    ],
+    "scenes": [
+      "群聊",
+      "朋友互动",
+      "完成作业",
+      "放假"
+    ],
+    "examples": [
+      "这题拿下了",
+      "今天状态不错"
+    ],
+    "existing_text": "",
+    "intensity": 3,
+    "source_type": "reference",
+    "author": "美团袋鼠形象；具体网络二创作者待核实",
+    "source_url": "https://feidudu.org/",
+    "source_note": "公开嘟嘟墙转载的黄色袋鼠肥嘟嘟系列，具体二创作者、首发及授权未核实。原文件保留，不代表网站为原作者。 从该页公开舞蹈视频6的2.5秒处提取的实际动作静帧；视频二创画面，可能含生成式图像痕迹，不冒充美团官方动画。 未访问该站交易、合约或登录功能。",
+    "role": "subject",
+    "is_cutout": false,
+    "templates": [
+      "top",
+      "bottom",
+      "split",
+      "frame",
+      "grid",
+      "message",
+      "poster",
+      "side",
+      "polaroid",
+      "bubble",
+      "dialogue",
+      "spotlight",
+      "comic",
+      "subtitle",
+      "note",
+      "window",
+      "ticket",
+      "medal",
+      "scene"
+    ]
+  },
+  {
+    "id": "bulk-feidudu-v6-039",
+    "name": "肥嘟嘟 · 屋顶向左张开手臂",
+    "character": "肥嘟嘟",
+    "filename": "bulk-feidudu/video-6-039.jpg",
+    "action": "屋顶向左张开手臂",
+    "emotion": [
+      "开心",
+      "调皮"
+    ],
+    "scenes": [
+      "群聊",
+      "朋友互动",
+      "完成作业",
+      "放假"
+    ],
+    "examples": [
+      "这题拿下了",
+      "今天状态不错"
+    ],
+    "existing_text": "",
+    "intensity": 3,
+    "source_type": "reference",
+    "author": "美团袋鼠形象；具体网络二创作者待核实",
+    "source_url": "https://feidudu.org/",
+    "source_note": "公开嘟嘟墙转载的黄色袋鼠肥嘟嘟系列，具体二创作者、首发及授权未核实。原文件保留，不代表网站为原作者。 从该页公开舞蹈视频6的3.9秒处提取的实际动作静帧；视频二创画面，可能含生成式图像痕迹，不冒充美团官方动画。 未访问该站交易、合约或登录功能。",
+    "role": "subject",
+    "is_cutout": false,
+    "templates": [
+      "top",
+      "bottom",
+      "split",
+      "frame",
+      "grid",
+      "message",
+      "poster",
+      "side",
+      "polaroid",
+      "bubble",
+      "dialogue",
+      "spotlight",
+      "comic",
+      "subtitle",
+      "note",
+      "window",
+      "ticket",
+      "medal",
+      "scene"
+    ]
+  },
+  {
+    "id": "bulk-feidudu-v6-046",
+    "name": "肥嘟嘟 · 屋顶垂手侧身站着",
+    "character": "肥嘟嘟",
+    "filename": "bulk-feidudu/video-6-046.jpg",
+    "action": "屋顶垂手侧身站着",
+    "emotion": [
+      "开心",
+      "调皮"
+    ],
+    "scenes": [
+      "群聊",
+      "朋友互动",
+      "完成作业",
+      "放假"
+    ],
+    "examples": [
+      "这题拿下了",
+      "今天状态不错"
+    ],
+    "existing_text": "",
+    "intensity": 3,
+    "source_type": "reference",
+    "author": "美团袋鼠形象；具体网络二创作者待核实",
+    "source_url": "https://feidudu.org/",
+    "source_note": "公开嘟嘟墙转载的黄色袋鼠肥嘟嘟系列，具体二创作者、首发及授权未核实。原文件保留，不代表网站为原作者。 从该页公开舞蹈视频6的4.6秒处提取的实际动作静帧；视频二创画面，可能含生成式图像痕迹，不冒充美团官方动画。 未访问该站交易、合约或登录功能。",
+    "role": "subject",
+    "is_cutout": false,
+    "templates": [
+      "top",
+      "bottom",
+      "split",
+      "frame",
+      "grid",
+      "message",
+      "poster",
+      "side",
+      "polaroid",
+      "bubble",
+      "dialogue",
+      "spotlight",
+      "comic",
+      "subtitle",
+      "note",
+      "window",
+      "ticket",
+      "medal",
+      "scene"
+    ]
+  },
+  {
+    "id": "bulk-feidudu-v6-060",
+    "name": "肥嘟嘟 · 屋顶一只手放到下巴",
+    "character": "肥嘟嘟",
+    "filename": "bulk-feidudu/video-6-060.jpg",
+    "action": "屋顶一只手放到下巴",
+    "emotion": [
+      "开心",
+      "调皮"
+    ],
+    "scenes": [
+      "群聊",
+      "朋友互动",
+      "完成作业",
+      "放假"
+    ],
+    "examples": [
+      "这题拿下了",
+      "今天状态不错"
+    ],
+    "existing_text": "",
+    "intensity": 3,
+    "source_type": "reference",
+    "author": "美团袋鼠形象；具体网络二创作者待核实",
+    "source_url": "https://feidudu.org/",
+    "source_note": "公开嘟嘟墙转载的黄色袋鼠肥嘟嘟系列，具体二创作者、首发及授权未核实。原文件保留，不代表网站为原作者。 从该页公开舞蹈视频6的6.0秒处提取的实际动作静帧；视频二创画面，可能含生成式图像痕迹，不冒充美团官方动画。 未访问该站交易、合约或登录功能。",
+    "role": "subject",
+    "is_cutout": false,
+    "templates": [
+      "top",
+      "bottom",
+      "split",
+      "frame",
+      "grid",
+      "message",
+      "poster",
+      "side",
+      "polaroid",
+      "bubble",
+      "dialogue",
+      "spotlight",
+      "comic",
+      "subtitle",
+      "note",
+      "window",
+      "ticket",
+      "medal",
+      "scene"
+    ]
+  },
+  {
+    "id": "bulk-feidudu-v6-074",
+    "name": "肥嘟嘟 · 屋顶正面垂手站着",
+    "character": "肥嘟嘟",
+    "filename": "bulk-feidudu/video-6-074.jpg",
+    "action": "屋顶正面垂手站着",
+    "emotion": [
+      "开心",
+      "调皮"
+    ],
+    "scenes": [
+      "群聊",
+      "朋友互动",
+      "完成作业",
+      "放假"
+    ],
+    "examples": [
+      "这题拿下了",
+      "今天状态不错"
+    ],
+    "existing_text": "",
+    "intensity": 3,
+    "source_type": "reference",
+    "author": "美团袋鼠形象；具体网络二创作者待核实",
+    "source_url": "https://feidudu.org/",
+    "source_note": "公开嘟嘟墙转载的黄色袋鼠肥嘟嘟系列，具体二创作者、首发及授权未核实。原文件保留，不代表网站为原作者。 从该页公开舞蹈视频6的7.4秒处提取的实际动作静帧；视频二创画面，可能含生成式图像痕迹，不冒充美团官方动画。 未访问该站交易、合约或登录功能。",
+    "role": "subject",
+    "is_cutout": false,
+    "templates": [
+      "top",
+      "bottom",
+      "split",
+      "frame",
+      "grid",
+      "message",
+      "poster",
+      "side",
+      "polaroid",
+      "bubble",
+      "dialogue",
+      "spotlight",
+      "comic",
+      "subtitle",
+      "note",
+      "window",
+      "ticket",
+      "medal",
+      "scene"
+    ]
+  },
+  {
+    "id": "bulk-feidudu-v6-081",
+    "name": "肥嘟嘟 · 屋顶双手放在胸前",
+    "character": "肥嘟嘟",
+    "filename": "bulk-feidudu/video-6-081.jpg",
+    "action": "屋顶双手放在胸前",
+    "emotion": [
+      "开心",
+      "调皮"
+    ],
+    "scenes": [
+      "群聊",
+      "朋友互动",
+      "完成作业",
+      "放假"
+    ],
+    "examples": [
+      "这题拿下了",
+      "今天状态不错"
+    ],
+    "existing_text": "",
+    "intensity": 3,
+    "source_type": "reference",
+    "author": "美团袋鼠形象；具体网络二创作者待核实",
+    "source_url": "https://feidudu.org/",
+    "source_note": "公开嘟嘟墙转载的黄色袋鼠肥嘟嘟系列，具体二创作者、首发及授权未核实。原文件保留，不代表网站为原作者。 从该页公开舞蹈视频6的8.1秒处提取的实际动作静帧；视频二创画面，可能含生成式图像痕迹，不冒充美团官方动画。 未访问该站交易、合约或登录功能。",
+    "role": "subject",
+    "is_cutout": false,
+    "templates": [
+      "top",
+      "bottom",
+      "split",
+      "frame",
+      "grid",
+      "message",
+      "poster",
+      "side",
+      "polaroid",
+      "bubble",
+      "dialogue",
+      "spotlight",
+      "comic",
+      "subtitle",
+      "note",
+      "window",
+      "ticket",
+      "medal",
+      "scene"
+    ]
+  },
+  {
+    "id": "bulk-feidudu-v6-088",
+    "name": "肥嘟嘟 · 屋顶抬手到头侧",
+    "character": "肥嘟嘟",
+    "filename": "bulk-feidudu/video-6-088.jpg",
+    "action": "屋顶抬手到头侧",
+    "emotion": [
+      "开心",
+      "调皮"
+    ],
+    "scenes": [
+      "群聊",
+      "朋友互动",
+      "完成作业",
+      "放假"
+    ],
+    "examples": [
+      "这题拿下了",
+      "今天状态不错"
+    ],
+    "existing_text": "",
+    "intensity": 3,
+    "source_type": "reference",
+    "author": "美团袋鼠形象；具体网络二创作者待核实",
+    "source_url": "https://feidudu.org/",
+    "source_note": "公开嘟嘟墙转载的黄色袋鼠肥嘟嘟系列，具体二创作者、首发及授权未核实。原文件保留，不代表网站为原作者。 从该页公开舞蹈视频6的8.8秒处提取的实际动作静帧；视频二创画面，可能含生成式图像痕迹，不冒充美团官方动画。 未访问该站交易、合约或登录功能。",
+    "role": "subject",
+    "is_cutout": false,
+    "templates": [
+      "top",
+      "bottom",
+      "split",
+      "frame",
+      "grid",
+      "message",
+      "poster",
+      "side",
+      "polaroid",
+      "bubble",
+      "dialogue",
+      "spotlight",
+      "comic",
+      "subtitle",
+      "note",
+      "window",
+      "ticket",
+      "medal",
+      "scene"
+    ]
+  },
+  {
+    "id": "bulk-feidudu-v6-095",
+    "name": "肥嘟嘟 · 屋顶展开双臂",
+    "character": "肥嘟嘟",
+    "filename": "bulk-feidudu/video-6-095.jpg",
+    "action": "屋顶展开双臂",
+    "emotion": [
+      "开心",
+      "调皮"
+    ],
+    "scenes": [
+      "群聊",
+      "朋友互动",
+      "完成作业",
+      "放假"
+    ],
+    "examples": [
+      "这题拿下了",
+      "今天状态不错"
+    ],
+    "existing_text": "",
+    "intensity": 3,
+    "source_type": "reference",
+    "author": "美团袋鼠形象；具体网络二创作者待核实",
+    "source_url": "https://feidudu.org/",
+    "source_note": "公开嘟嘟墙转载的黄色袋鼠肥嘟嘟系列，具体二创作者、首发及授权未核实。原文件保留，不代表网站为原作者。 从该页公开舞蹈视频6的9.5秒处提取的实际动作静帧；视频二创画面，可能含生成式图像痕迹，不冒充美团官方动画。 未访问该站交易、合约或登录功能。",
+    "role": "subject",
+    "is_cutout": false,
+    "templates": [
+      "top",
+      "bottom",
+      "split",
+      "frame",
+      "grid",
+      "message",
+      "poster",
+      "side",
+      "polaroid",
+      "bubble",
+      "dialogue",
+      "spotlight",
+      "comic",
+      "subtitle",
+      "note",
+      "window",
+      "ticket",
+      "medal",
+      "scene"
+    ]
+  },
+  {
+    "id": "bulk-feidudu-v6-109",
+    "name": "肥嘟嘟 · 屋顶举手挥舞",
+    "character": "肥嘟嘟",
+    "filename": "bulk-feidudu/video-6-109.jpg",
+    "action": "屋顶举手挥舞",
+    "emotion": [
+      "开心",
+      "调皮"
+    ],
+    "scenes": [
+      "群聊",
+      "朋友互动",
+      "完成作业",
+      "放假"
+    ],
+    "examples": [
+      "这题拿下了",
+      "今天状态不错"
+    ],
+    "existing_text": "",
+    "intensity": 3,
+    "source_type": "reference",
+    "author": "美团袋鼠形象；具体网络二创作者待核实",
+    "source_url": "https://feidudu.org/",
+    "source_note": "公开嘟嘟墙转载的黄色袋鼠肥嘟嘟系列，具体二创作者、首发及授权未核实。原文件保留，不代表网站为原作者。 从该页公开舞蹈视频6的10.9秒处提取的实际动作静帧；视频二创画面，可能含生成式图像痕迹，不冒充美团官方动画。 未访问该站交易、合约或登录功能。",
+    "role": "subject",
+    "is_cutout": false,
+    "templates": [
+      "top",
+      "bottom",
+      "split",
+      "frame",
+      "grid",
+      "message",
+      "poster",
+      "side",
+      "polaroid",
+      "bubble",
+      "dialogue",
+      "spotlight",
+      "comic",
+      "subtitle",
+      "note",
+      "window",
+      "ticket",
+      "medal",
+      "scene"
+    ]
+  },
+  {
+    "id": "bulk-feidudu-v6-116",
+    "name": "肥嘟嘟 · 屋顶一只手高高举起",
+    "character": "肥嘟嘟",
+    "filename": "bulk-feidudu/video-6-116.jpg",
+    "action": "屋顶一只手高高举起",
+    "emotion": [
+      "开心",
+      "调皮"
+    ],
+    "scenes": [
+      "群聊",
+      "朋友互动",
+      "完成作业",
+      "放假"
+    ],
+    "examples": [
+      "这题拿下了",
+      "今天状态不错"
+    ],
+    "existing_text": "",
+    "intensity": 3,
+    "source_type": "reference",
+    "author": "美团袋鼠形象；具体网络二创作者待核实",
+    "source_url": "https://feidudu.org/",
+    "source_note": "公开嘟嘟墙转载的黄色袋鼠肥嘟嘟系列，具体二创作者、首发及授权未核实。原文件保留，不代表网站为原作者。 从该页公开舞蹈视频6的11.6秒处提取的实际动作静帧；视频二创画面，可能含生成式图像痕迹，不冒充美团官方动画。 未访问该站交易、合约或登录功能。",
+    "role": "subject",
+    "is_cutout": false,
+    "templates": [
+      "top",
+      "bottom",
+      "split",
+      "frame",
+      "grid",
+      "message",
+      "poster",
+      "side",
+      "polaroid",
+      "bubble",
+      "dialogue",
+      "spotlight",
+      "comic",
+      "subtitle",
+      "note",
+      "window",
+      "ticket",
+      "medal",
+      "scene"
+    ]
+  },
+  {
+    "id": "bulk-feidudu-v6-130",
+    "name": "肥嘟嘟 · 屋顶双臂交叉",
+    "character": "肥嘟嘟",
+    "filename": "bulk-feidudu/video-6-130.jpg",
+    "action": "屋顶双臂交叉",
+    "emotion": [
+      "开心",
+      "调皮"
+    ],
+    "scenes": [
+      "群聊",
+      "朋友互动",
+      "完成作业",
+      "放假"
+    ],
+    "examples": [
+      "这题拿下了",
+      "今天状态不错"
+    ],
+    "existing_text": "",
+    "intensity": 3,
+    "source_type": "reference",
+    "author": "美团袋鼠形象；具体网络二创作者待核实",
+    "source_url": "https://feidudu.org/",
+    "source_note": "公开嘟嘟墙转载的黄色袋鼠肥嘟嘟系列，具体二创作者、首发及授权未核实。原文件保留，不代表网站为原作者。 从该页公开舞蹈视频6的13.0秒处提取的实际动作静帧；视频二创画面，可能含生成式图像痕迹，不冒充美团官方动画。 未访问该站交易、合约或登录功能。",
+    "role": "subject",
+    "is_cutout": false,
+    "templates": [
+      "top",
+      "bottom",
+      "split",
+      "frame",
+      "grid",
+      "message",
+      "poster",
+      "side",
+      "polaroid",
+      "bubble",
+      "dialogue",
+      "spotlight",
+      "comic",
+      "subtitle",
+      "note",
+      "window",
+      "ticket",
+      "medal",
+      "scene"
+    ]
+  },
+  {
+    "id": "bulk-feidudu-v6-137",
+    "name": "肥嘟嘟 · 屋顶单臂平举",
+    "character": "肥嘟嘟",
+    "filename": "bulk-feidudu/video-6-137.jpg",
+    "action": "屋顶单臂平举",
+    "emotion": [
+      "开心",
+      "调皮"
+    ],
+    "scenes": [
+      "群聊",
+      "朋友互动",
+      "完成作业",
+      "放假"
+    ],
+    "examples": [
+      "这题拿下了",
+      "今天状态不错"
+    ],
+    "existing_text": "",
+    "intensity": 3,
+    "source_type": "reference",
+    "author": "美团袋鼠形象；具体网络二创作者待核实",
+    "source_url": "https://feidudu.org/",
+    "source_note": "公开嘟嘟墙转载的黄色袋鼠肥嘟嘟系列，具体二创作者、首发及授权未核实。原文件保留，不代表网站为原作者。 从该页公开舞蹈视频6的13.7秒处提取的实际动作静帧；视频二创画面，可能含生成式图像痕迹，不冒充美团官方动画。 未访问该站交易、合约或登录功能。",
+    "role": "subject",
+    "is_cutout": false,
+    "templates": [
+      "top",
+      "bottom",
+      "split",
+      "frame",
+      "grid",
+      "message",
+      "poster",
+      "side",
+      "polaroid",
+      "bubble",
+      "dialogue",
+      "spotlight",
+      "comic",
+      "subtitle",
+      "note",
+      "window",
+      "ticket",
+      "medal",
+      "scene"
+    ]
+  },
+  {
+    "id": "bulk-feidudu-v6-144",
+    "name": "肥嘟嘟 · 屋顶双手向侧边推出",
+    "character": "肥嘟嘟",
+    "filename": "bulk-feidudu/video-6-144.jpg",
+    "action": "屋顶双手向侧边推出",
+    "emotion": [
+      "开心",
+      "调皮"
+    ],
+    "scenes": [
+      "群聊",
+      "朋友互动",
+      "完成作业",
+      "放假"
+    ],
+    "examples": [
+      "这题拿下了",
+      "今天状态不错"
+    ],
+    "existing_text": "",
+    "intensity": 3,
+    "source_type": "reference",
+    "author": "美团袋鼠形象；具体网络二创作者待核实",
+    "source_url": "https://feidudu.org/",
+    "source_note": "公开嘟嘟墙转载的黄色袋鼠肥嘟嘟系列，具体二创作者、首发及授权未核实。原文件保留，不代表网站为原作者。 从该页公开舞蹈视频6的14.4秒处提取的实际动作静帧；视频二创画面，可能含生成式图像痕迹，不冒充美团官方动画。 未访问该站交易、合约或登录功能。",
+    "role": "subject",
+    "is_cutout": false,
+    "templates": [
+      "top",
+      "bottom",
+      "split",
+      "frame",
+      "grid",
+      "message",
+      "poster",
+      "side",
+      "polaroid",
+      "bubble",
+      "dialogue",
+      "spotlight",
+      "comic",
+      "subtitle",
+      "note",
+      "window",
+      "ticket",
+      "medal",
+      "scene"
+    ]
+  }
+]

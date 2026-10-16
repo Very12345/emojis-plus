@@ -1,0 +1,20 @@
+node_modules/
+dist/
+.venv/
+__pycache__/
+.pytest_cache/
+*.pyc
+data/
+.env
+*.log
+*.tsbuildinfo
+public/library/
+public/previews/
+.local-server.json
+.deployment/
+# The source publication helper stages only the reviewed files needed by the build.
+backend/
+evals/
+examples/
+assets/programmatic-test/
+assets/seed/**

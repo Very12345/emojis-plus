@@ -1,0 +1,754 @@
+[
+  {
+    "id": "web-batiao-01",
+    "name": "呆猫八条 · 气场全开",
+    "character": "呆猫八条",
+    "filename": "web-other/web-batiao-01.png",
+    "action": "眯眼站立，身旁散发紫色气场",
+    "emotion": [
+      "自信",
+      "嫌弃"
+    ],
+    "scenes": [
+      "群聊",
+      "吐槽"
+    ],
+    "examples": [
+      "让我来",
+      "今天气场两米八"
+    ],
+    "existing_text": "",
+    "intensity": 3,
+    "source_type": "reference",
+    "author": "呆猫八条（转载页标注 Roro）",
+    "source_url": "https://getstickerpack.com/stickers/silly-cat-batiao-1",
+    "source_note": "网络公开收集的完整原文件，未经抠图、去字、换底或重绘；此版本为不透明背景，不能作为透明主体使用。具体二创作者与使用授权待核实。 转载整包贡献者 ahriietta，不等于原作者；原作者账号呆猫八条：https://www.sina.cn/media/7950264034。该账号公开简介声明头像壁纸表情包可自用、原创 IP 禁商用、搬运需注明原创出处；本项目未独立取得二改或再分发授权。",
+    "role": "subject",
+    "is_cutout": false,
+    "templates": [
+      "top",
+      "bottom",
+      "split",
+      "frame",
+      "grid",
+      "message",
+      "poster",
+      "side",
+      "polaroid",
+      "bubble",
+      "dialogue",
+      "spotlight"
+    ]
+  },
+  {
+    "id": "web-batiao-02",
+    "name": "呆猫八条 · 小骄傲",
+    "character": "呆猫八条",
+    "filename": "web-other/web-batiao-02.png",
+    "action": "闭眼挺胸，身旁闪着金色星光",
+    "emotion": [
+      "自信",
+      "开心"
+    ],
+    "scenes": [
+      "完成作业",
+      "夸夸"
+    ],
+    "examples": [
+      "这题我会",
+      "有被自己帅到"
+    ],
+    "existing_text": "",
+    "intensity": 3,
+    "source_type": "reference",
+    "author": "呆猫八条（转载页标注 Roro）",
+    "source_url": "https://getstickerpack.com/stickers/silly-cat-batiao-1",
+    "source_note": "网络公开收集的完整原文件，未经抠图、去字、换底或重绘；此版本为不透明背景，不能作为透明主体使用。具体二创作者与使用授权待核实。 转载整包贡献者 ahriietta，不等于原作者；原作者账号呆猫八条：https://www.sina.cn/media/7950264034。该账号公开简介声明头像壁纸表情包可自用、原创 IP 禁商用、搬运需注明原创出处；本项目未独立取得二改或再分发授权。",
+    "role": "subject",
+    "is_cutout": false,
+    "templates": [
+      "top",
+      "bottom",
+      "split",
+      "frame",
+      "grid",
+      "message",
+      "poster",
+      "side",
+      "polaroid",
+      "bubble",
+      "dialogue",
+      "spotlight"
+    ]
+  },
+  {
+    "id": "web-batiao-03",
+    "name": "呆猫八条 · 趴着等待",
+    "character": "呆猫八条",
+    "filename": "web-other/web-batiao-03.png",
+    "action": "趴在地上抬起圆圆的大眼睛",
+    "emotion": [
+      "期待",
+      "委屈"
+    ],
+    "scenes": [
+      "等回复",
+      "求助"
+    ],
+    "examples": [
+      "能不能帮帮我",
+      "等一个消息"
+    ],
+    "existing_text": "",
+    "intensity": 2,
+    "source_type": "reference",
+    "author": "呆猫八条（转载页标注 Roro）",
+    "source_url": "https://getstickerpack.com/stickers/silly-cat-batiao-1",
+    "source_note": "网络公开收集的完整原文件，未经抠图、去字、换底或重绘；此版本为不透明背景，不能作为透明主体使用。具体二创作者与使用授权待核实。 转载整包贡献者 ahriietta，不等于原作者；原作者账号呆猫八条：https://www.sina.cn/media/7950264034。该账号公开简介声明头像壁纸表情包可自用、原创 IP 禁商用、搬运需注明原创出处；本项目未独立取得二改或再分发授权。",
+    "role": "subject",
+    "is_cutout": false,
+    "templates": [
+      "top",
+      "bottom",
+      "split",
+      "frame",
+      "grid",
+      "message",
+      "poster",
+      "side",
+      "polaroid",
+      "bubble",
+      "dialogue",
+      "spotlight"
+    ]
+  },
+  {
+    "id": "web-batiao-04",
+    "name": "呆猫八条 · 生气走开",
+    "character": "呆猫八条",
+    "filename": "web-other/web-batiao-04.png",
+    "action": "背过身子，头上冒出红色怒气",
+    "emotion": [
+      "生气",
+      "委屈"
+    ],
+    "scenes": [
+      "群聊",
+      "朋友玩笑"
+    ],
+    "examples": [
+      "哼，不理你了",
+      "我先走一步"
+    ],
+    "existing_text": "",
+    "intensity": 4,
+    "source_type": "reference",
+    "author": "呆猫八条（转载页标注 Roro）",
+    "source_url": "https://getstickerpack.com/stickers/silly-cat-batiao-1",
+    "source_note": "网络公开收集的完整原文件，未经抠图、去字、换底或重绘；此版本为不透明背景，不能作为透明主体使用。具体二创作者与使用授权待核实。 转载整包贡献者 ahriietta，不等于原作者；原作者账号呆猫八条：https://www.sina.cn/media/7950264034。该账号公开简介声明头像壁纸表情包可自用、原创 IP 禁商用、搬运需注明原创出处；本项目未独立取得二改或再分发授权。",
+    "role": "subject",
+    "is_cutout": false,
+    "templates": [
+      "top",
+      "bottom",
+      "split",
+      "frame",
+      "grid",
+      "message",
+      "poster",
+      "side",
+      "polaroid",
+      "bubble",
+      "dialogue",
+      "spotlight"
+    ]
+  },
+  {
+    "id": "web-batiao-07",
+    "name": "呆猫八条 · 满脸问号",
+    "character": "呆猫八条",
+    "filename": "web-other/web-batiao-07.png",
+    "action": "歪头睁大眼睛，头顶冒出问号",
+    "emotion": [
+      "疑惑",
+      "困惑"
+    ],
+    "scenes": [
+      "收到通知",
+      "作业",
+      "代码调试"
+    ],
+    "examples": [
+      "发生什么事了",
+      "这个需求认真的吗"
+    ],
+    "existing_text": "",
+    "intensity": 2,
+    "source_type": "reference",
+    "author": "呆猫八条（转载页标注 Roro）",
+    "source_url": "https://getstickerpack.com/stickers/silly-cat-batiao-1",
+    "source_note": "网络公开收集的完整原文件，未经抠图、去字、换底或重绘；此版本为不透明背景，不能作为透明主体使用。具体二创作者与使用授权待核实。 转载整包贡献者 ahriietta，不等于原作者；原作者账号呆猫八条：https://www.sina.cn/media/7950264034。该账号公开简介声明头像壁纸表情包可自用、原创 IP 禁商用、搬运需注明原创出处；本项目未独立取得二改或再分发授权。",
+    "role": "subject",
+    "is_cutout": false,
+    "templates": [
+      "top",
+      "bottom",
+      "split",
+      "frame",
+      "grid",
+      "message",
+      "poster",
+      "side",
+      "polaroid",
+      "bubble",
+      "dialogue",
+      "spotlight"
+    ]
+  },
+  {
+    "id": "web-batiao-12",
+    "name": "呆猫八条 · 戳戳手指",
+    "character": "呆猫八条",
+    "filename": "web-other/web-batiao-12.png",
+    "action": "两只前爪在胸前对着戳手指",
+    "emotion": [
+      "害羞",
+      "期待"
+    ],
+    "scenes": [
+      "请求帮助",
+      "约饭"
+    ],
+    "examples": [
+      "那个，可以吗",
+      "有件小事想请你帮忙"
+    ],
+    "existing_text": "",
+    "intensity": 2,
+    "source_type": "reference",
+    "author": "呆猫八条（转载页标注 Roro）",
+    "source_url": "https://getstickerpack.com/stickers/silly-cat-batiao-1",
+    "source_note": "网络公开收集的完整原文件，未经抠图、去字、换底或重绘；此版本为不透明背景，不能作为透明主体使用。具体二创作者与使用授权待核实。 转载整包贡献者 ahriietta，不等于原作者；原作者账号呆猫八条：https://www.sina.cn/media/7950264034。该账号公开简介声明头像壁纸表情包可自用、原创 IP 禁商用、搬运需注明原创出处；本项目未独立取得二改或再分发授权。",
+    "role": "subject",
+    "is_cutout": false,
+    "templates": [
+      "top",
+      "bottom",
+      "split",
+      "frame",
+      "grid",
+      "message",
+      "poster",
+      "side",
+      "polaroid",
+      "bubble",
+      "dialogue",
+      "spotlight"
+    ]
+  },
+  {
+    "id": "web-feidudu-02",
+    "name": "肥嘟嘟 · 躺平爽歪歪",
+    "character": "肥嘟嘟",
+    "filename": "web-other/web-feidudu-02.jpg",
+    "action": "黄色袋鼠仰躺着，把双爪搭在肚子上",
+    "emotion": [
+      "放松",
+      "开心"
+    ],
+    "scenes": [
+      "放假",
+      "下课",
+      "休息"
+    ],
+    "examples": [
+      "终于可以休息了",
+      "今天直接躺平"
+    ],
+    "existing_text": "生活真是爽歪歪",
+    "intensity": 2,
+    "source_type": "reference",
+    "author": "美团袋鼠形象；具体二创作者待核实",
+    "source_url": "https://www.sina.cn/news/detail/5337303985950047.html",
+    "source_note": "网络公开收集的完整原文件，未经抠图、去字、换底或重绘；此版本为不透明背景，不能作为透明主体使用。具体二创作者与使用授权待核实。 转载整理者：依知兔砸zzz（不等于原作者）。 原图含固定文字，新配字应放额外留白，不能覆盖替换。",
+    "role": "subject",
+    "is_cutout": false,
+    "templates": [
+      "top",
+      "bottom",
+      "split",
+      "frame",
+      "grid",
+      "message",
+      "poster",
+      "side",
+      "polaroid",
+      "bubble",
+      "dialogue",
+      "spotlight"
+    ]
+  },
+  {
+    "id": "web-feidudu-03",
+    "name": "肥嘟嘟 · 何意味",
+    "character": "肥嘟嘟",
+    "filename": "web-other/web-feidudu-03.jpg",
+    "action": "黄色袋鼠用前爪托腮，头上浮着一个问号",
+    "emotion": [
+      "疑惑",
+      "怀疑"
+    ],
+    "scenes": [
+      "离谱消息",
+      "收到通知",
+      "群聊"
+    ],
+    "examples": [
+      "你再说一遍",
+      "这是什么意思"
+    ],
+    "existing_text": "何意味",
+    "intensity": 3,
+    "source_type": "reference",
+    "author": "美团袋鼠形象；具体二创作者待核实",
+    "source_url": "https://www.sina.cn/news/detail/5337303985950047.html",
+    "source_note": "网络公开收集的完整原文件，未经抠图、去字、换底或重绘；此版本为不透明背景，不能作为透明主体使用。具体二创作者与使用授权待核实。 转载整理者：依知兔砸zzz（不等于原作者）。 原图含固定文字，新配字应放额外留白，不能覆盖替换。",
+    "role": "subject",
+    "is_cutout": false,
+    "templates": [
+      "top",
+      "bottom",
+      "split",
+      "frame",
+      "grid",
+      "message",
+      "poster",
+      "side",
+      "polaroid",
+      "bubble",
+      "dialogue",
+      "spotlight"
+    ]
+  },
+  {
+    "id": "web-feidudu-04",
+    "name": "肥嘟嘟 · 有事别找我",
+    "character": "肥嘟嘟",
+    "filename": "web-other/web-feidudu-04.jpg",
+    "action": "黄色袋鼠垂眉低头看手机",
+    "emotion": [
+      "忙碌",
+      "无语"
+    ],
+    "scenes": [
+      "作业",
+      "赶ddl",
+      "忙碌"
+    ],
+    "examples": [
+      "让我先忙完",
+      "现在不在线"
+    ],
+    "existing_text": "有事别找我",
+    "intensity": 3,
+    "source_type": "reference",
+    "author": "美团袋鼠形象；具体二创作者待核实",
+    "source_url": "https://www.sina.cn/news/detail/5337303985950047.html",
+    "source_note": "网络公开收集的完整原文件，未经抠图、去字、换底或重绘；此版本为不透明背景，不能作为透明主体使用。具体二创作者与使用授权待核实。 转载整理者：依知兔砸zzz（不等于原作者）。 原图含固定文字，新配字应放额外留白，不能覆盖替换。",
+    "role": "subject",
+    "is_cutout": false,
+    "templates": [
+      "top",
+      "bottom",
+      "split",
+      "frame",
+      "grid",
+      "message",
+      "poster",
+      "side",
+      "polaroid",
+      "bubble",
+      "dialogue",
+      "spotlight"
+    ]
+  },
+  {
+    "id": "web-feidudu-05",
+    "name": "肥嘟嘟 · 别吓我",
+    "character": "肥嘟嘟",
+    "filename": "web-other/web-feidudu-05.jpg",
+    "action": "黄色袋鼠张开嘴，前爪抱在胸前",
+    "emotion": [
+      "害怕",
+      "惊讶"
+    ],
+    "scenes": [
+      "出分",
+      "考试",
+      "临时改安排"
+    ],
+    "examples": [
+      "这个通知太突然了",
+      "别吓我啊"
+    ],
+    "existing_text": "别吓萌萌的我",
+    "intensity": 4,
+    "source_type": "reference",
+    "author": "美团袋鼠形象；具体二创作者待核实",
+    "source_url": "https://www.sina.cn/news/detail/5337303985950047.html",
+    "source_note": "网络公开收集的完整原文件，未经抠图、去字、换底或重绘；此版本为不透明背景，不能作为透明主体使用。具体二创作者与使用授权待核实。 转载整理者：依知兔砸zzz（不等于原作者）。 原图含固定文字，新配字应放额外留白，不能覆盖替换。",
+    "role": "subject",
+    "is_cutout": false,
+    "templates": [
+      "top",
+      "bottom",
+      "split",
+      "frame",
+      "grid",
+      "message",
+      "poster",
+      "side",
+      "polaroid",
+      "bubble",
+      "dialogue",
+      "spotlight"
+    ]
+  },
+  {
+    "id": "web-feidudu-08",
+    "name": "肥嘟嘟 · 气呼呼",
+    "character": "肥嘟嘟",
+    "filename": "web-other/web-feidudu-08.jpg",
+    "action": "黄色袋鼠双爪叉腰，竖着眉毛发火",
+    "emotion": [
+      "生气",
+      "无语"
+    ],
+    "scenes": [
+      "朋友玩笑",
+      "催回复",
+      "吐槽"
+    ],
+    "examples": [
+      "真的有点生气了",
+      "你看看你干的好事"
+    ],
+    "existing_text": "老子真是气呼呼",
+    "intensity": 4,
+    "source_type": "reference",
+    "author": "美团袋鼠形象；具体二创作者待核实",
+    "source_url": "https://www.sina.cn/news/detail/5337303985950047.html",
+    "source_note": "网络公开收集的完整原文件，未经抠图、去字、换底或重绘；此版本为不透明背景，不能作为透明主体使用。具体二创作者与使用授权待核实。 转载整理者：依知兔砸zzz（不等于原作者）。 原图含固定文字，新配字应放额外留白，不能覆盖替换。",
+    "role": "subject",
+    "is_cutout": false,
+    "templates": [
+      "top",
+      "bottom",
+      "split",
+      "frame",
+      "grid",
+      "message",
+      "poster",
+      "side",
+      "polaroid",
+      "bubble",
+      "dialogue",
+      "spotlight"
+    ]
+  },
+  {
+    "id": "web-feidudu-09",
+    "name": "肥嘟嘟 · 委屈屈",
+    "character": "肥嘟嘟",
+    "filename": "web-other/web-feidudu-09.jpg",
+    "action": "黄色袋鼠用双爪托着脸，眉毛下垂",
+    "emotion": [
+      "委屈",
+      "难过"
+    ],
+    "scenes": [
+      "求安慰",
+      "考试",
+      "日常"
+    ],
+    "examples": [
+      "今天需要一点安慰",
+      "怎么又是我"
+    ],
+    "existing_text": "心情真是委屈屈",
+    "intensity": 3,
+    "source_type": "reference",
+    "author": "美团袋鼠形象；具体二创作者待核实",
+    "source_url": "https://www.sina.cn/news/detail/5337303985950047.html",
+    "source_note": "网络公开收集的完整原文件，未经抠图、去字、换底或重绘；此版本为不透明背景，不能作为透明主体使用。具体二创作者与使用授权待核实。 转载整理者：依知兔砸zzz（不等于原作者）。 原图含固定文字，新配字应放额外留白，不能覆盖替换。",
+    "role": "subject",
+    "is_cutout": false,
+    "templates": [
+      "top",
+      "bottom",
+      "split",
+      "frame",
+      "grid",
+      "message",
+      "poster",
+      "side",
+      "polaroid",
+      "bubble",
+      "dialogue",
+      "spotlight"
+    ]
+  },
+  {
+    "id": "web-shark-01",
+    "name": "小鲨鱼 · 真的狗",
+    "character": "小鲨鱼",
+    "filename": "web-other/web-shark-01.jpg",
+    "action": "蓝灰色小鲨鱼穿着黄色狗狗兜帽，张嘴哭诉",
+    "emotion": [
+      "委屈",
+      "无语"
+    ],
+    "scenes": [
+      "吐槽",
+      "作业",
+      "考试"
+    ],
+    "examples": [
+      "这个安排也太离谱了",
+      "说好的一点点呢"
+    ],
+    "existing_text": "真的狗",
+    "intensity": 4,
+    "source_type": "reference",
+    "author": "待核实",
+    "source_url": "https://www.qqan.com/article/article_307209_1.html",
+    "source_note": "网络公开收集的完整原文件，未经抠图、去字、换底或重绘；此版本为不透明背景，不能作为透明主体使用。具体二创作者与使用授权待核实。 转载整理者：腾牛个性网网友整理（不等于原作者）。 原图含固定文字，新配字应放额外留白，不能覆盖替换。",
+    "role": "subject",
+    "is_cutout": false,
+    "templates": [
+      "top",
+      "bottom",
+      "split",
+      "frame",
+      "grid",
+      "message",
+      "poster",
+      "side",
+      "polaroid",
+      "bubble",
+      "dialogue",
+      "spotlight"
+    ]
+  },
+  {
+    "id": "web-shark-02",
+    "name": "小鲨鱼 · 记仇",
+    "character": "小鲨鱼",
+    "filename": "web-other/web-shark-02.jpg",
+    "action": "蓝灰色小鲨鱼抱着纸用笔写字，张嘴碎碎念",
+    "emotion": [
+      "调侃",
+      "生气"
+    ],
+    "scenes": [
+      "朋友玩笑",
+      "群聊",
+      "记事"
+    ],
+    "examples": [
+      "这事我记住了",
+      "小本本加一"
+    ],
+    "existing_text": "记仇",
+    "intensity": 3,
+    "source_type": "reference",
+    "author": "待核实",
+    "source_url": "https://www.qqan.com/article/article_307209_1.html",
+    "source_note": "网络公开收集的完整原文件，未经抠图、去字、换底或重绘；此版本为不透明背景，不能作为透明主体使用。具体二创作者与使用授权待核实。 转载整理者：腾牛个性网网友整理（不等于原作者）。 原图含固定文字，新配字应放额外留白，不能覆盖替换。",
+    "role": "subject",
+    "is_cutout": false,
+    "templates": [
+      "top",
+      "bottom",
+      "split",
+      "frame",
+      "grid",
+      "message",
+      "poster",
+      "side",
+      "polaroid",
+      "bubble",
+      "dialogue",
+      "spotlight"
+    ]
+  },
+  {
+    "id": "web-shark-04",
+    "name": "小鲨鱼 · 哈哈哈",
+    "character": "小鲨鱼",
+    "filename": "web-other/web-shark-04.jpg",
+    "action": "蓝灰色小鲨鱼张嘴仰头大笑",
+    "emotion": [
+      "开心",
+      "大笑"
+    ],
+    "scenes": [
+      "群聊",
+      "看到笑话",
+      "下课"
+    ],
+    "examples": [
+      "这下真的笑出声",
+      "今天的快乐有了"
+    ],
+    "existing_text": "哈哈哈哈",
+    "intensity": 4,
+    "source_type": "reference",
+    "author": "待核实",
+    "source_url": "https://www.qqan.com/article/article_307209_1.html",
+    "source_note": "网络公开收集的完整原文件，未经抠图、去字、换底或重绘；此版本为不透明背景，不能作为透明主体使用。具体二创作者与使用授权待核实。 转载整理者：腾牛个性网网友整理（不等于原作者）。 原图含固定文字，新配字应放额外留白，不能覆盖替换。",
+    "role": "subject",
+    "is_cutout": false,
+    "templates": [
+      "top",
+      "bottom",
+      "split",
+      "frame",
+      "grid",
+      "message",
+      "poster",
+      "side",
+      "polaroid",
+      "bubble",
+      "dialogue",
+      "spotlight"
+    ]
+  },
+  {
+    "id": "web-shark-05",
+    "name": "小鲨鱼 · 烦",
+    "character": "小鲨鱼",
+    "filename": "web-other/web-shark-05.jpg",
+    "action": "蓝灰色小鲨鱼趴着扶脸，皱着眉毛",
+    "emotion": [
+      "无语",
+      "疲惫"
+    ],
+    "scenes": [
+      "作业堆积",
+      "早八",
+      "吐槽"
+    ],
+    "examples": [
+      "让我静静",
+      "又要开始了吗"
+    ],
+    "existing_text": "烦",
+    "intensity": 3,
+    "source_type": "reference",
+    "author": "待核实",
+    "source_url": "https://www.qqan.com/article/article_307209_1.html",
+    "source_note": "网络公开收集的完整原文件，未经抠图、去字、换底或重绘；此版本为不透明背景，不能作为透明主体使用。具体二创作者与使用授权待核实。 转载整理者：腾牛个性网网友整理（不等于原作者）。 原图含固定文字，新配字应放额外留白，不能覆盖替换。",
+    "role": "subject",
+    "is_cutout": false,
+    "templates": [
+      "top",
+      "bottom",
+      "split",
+      "frame",
+      "grid",
+      "message",
+      "poster",
+      "side",
+      "polaroid",
+      "bubble",
+      "dialogue",
+      "spotlight"
+    ]
+  },
+  {
+    "id": "web-shark-06",
+    "name": "小鲨鱼 · 面壁",
+    "character": "小鲨鱼",
+    "filename": "web-other/web-shark-06.jpg",
+    "action": "蓝灰色小鲨鱼背对画面，面向墙角低着头",
+    "emotion": [
+      "自闭",
+      "难过",
+      "疲惫"
+    ],
+    "scenes": [
+      "考试",
+      "写作业",
+      "社恐"
+    ],
+    "examples": [
+      "先让我面壁一会儿",
+      "今天不想说话"
+    ],
+    "existing_text": "",
+    "intensity": 3,
+    "source_type": "reference",
+    "author": "待核实",
+    "source_url": "https://www.qqan.com/article/article_307209_1.html",
+    "source_note": "网络公开收集的完整原文件，未经抠图、去字、换底或重绘；此版本为不透明背景，不能作为透明主体使用。具体二创作者与使用授权待核实。 转载整理者：腾牛个性网网友整理（不等于原作者）。",
+    "role": "subject",
+    "is_cutout": false,
+    "templates": [
+      "top",
+      "bottom",
+      "split",
+      "frame",
+      "grid",
+      "message",
+      "poster",
+      "side",
+      "polaroid",
+      "bubble",
+      "dialogue",
+      "spotlight"
+    ]
+  },
+  {
+    "id": "web-shark-08",
+    "name": "小鲨鱼 · 迷之自信",
+    "character": "小鲨鱼",
+    "filename": "web-other/web-shark-08.jpg",
+    "action": "蓝灰色小鲨鱼闭眼仰头，身旁飘着两朵小花",
+    "emotion": [
+      "自信",
+      "开心"
+    ],
+    "scenes": [
+      "考试前",
+      "完成作业",
+      "自我鼓励"
+    ],
+    "examples": [
+      "没问题我可以",
+      "这次一定行"
+    ],
+    "existing_text": "迷之自信",
+    "intensity": 3,
+    "source_type": "reference",
+    "author": "待核实",
+    "source_url": "https://www.qqan.com/article/article_307209_1.html",
+    "source_note": "网络公开收集的完整原文件，未经抠图、去字、换底或重绘；此版本为不透明背景，不能作为透明主体使用。具体二创作者与使用授权待核实。 转载整理者：腾牛个性网网友整理（不等于原作者）。 原图含固定文字，新配字应放额外留白，不能覆盖替换。",
+    "role": "subject",
+    "is_cutout": false,
+    "templates": [
+      "top",
+      "bottom",
+      "split",
+      "frame",
+      "grid",
+      "message",
+      "poster",
+      "side",
+      "polaroid",
+      "bubble",
+      "dialogue",
+      "spotlight"
+    ]
+  }
+]

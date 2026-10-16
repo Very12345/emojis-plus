@@ -1,0 +1,6213 @@
+[
+  {
+    "id": "bulk-nailong-000",
+    "name": "奶蛙 · 床上看手机大笑",
+    "character": "奶蛙",
+    "filename": "bulk-nailong/nailong-000.gif",
+    "enabled": true,
+    "action": "床上看手机大笑",
+    "emotion": [
+      "开心",
+      "搞怪"
+    ],
+    "scenes": [
+      "日常聊天",
+      "群聊互动",
+      "休息",
+      "早八",
+      "摆烂"
+    ],
+    "examples": [
+      "让我看看怎么个事",
+      "今天的精神状态"
+    ],
+    "intensity": 3,
+    "existing_text": "",
+    "source_type": "reference",
+    "author": "奶蛙二创作者待核实；原型奶龙第七印象",
+    "source_url": "https://github.com/GGGeeeooorrrgggeee/nailong-memes/blob/faff7a463622d83bfd4ef62e04220675b41db49d/gif/07CB725BFF5CF864A174C53876C7967A.gif",
+    "source_note": "公开社区图库收集；仓库名 nailong 不是角色身份依据。本批为小头大肚、成人比例、黑色细长手指的奶蛙网络二创，不是官方圆头短肢粉掌垫的原版奶龙。包含三维二创及 AI 风格重制。图库整理者 George 不等于原作者；具体二创作者与授权待核实。原型奶龙由第七印象创作。保留原图、原GIF。",
+    "role": "subject",
+    "is_cutout": false,
+    "templates": [
+      "top",
+      "bottom",
+      "split",
+      "frame",
+      "grid",
+      "message",
+      "poster",
+      "side",
+      "polaroid",
+      "bubble",
+      "dialogue",
+      "spotlight",
+      "comic",
+      "subtitle",
+      "note",
+      "window",
+      "ticket",
+      "medal",
+      "scene"
+    ]
+  },
+  {
+    "id": "bulk-nailong-002",
+    "name": "奶蛙 · 餐厅摆手",
+    "character": "奶蛙",
+    "filename": "bulk-nailong/nailong-002.gif",
+    "enabled": true,
+    "action": "餐厅摆手",
+    "emotion": [
+      "平静",
+      "无语"
+    ],
+    "scenes": [
+      "日常聊天",
+      "群聊互动"
+    ],
+    "examples": [
+      "让我看看怎么个事",
+      "今天的精神状态"
+    ],
+    "intensity": 2,
+    "existing_text": "",
+    "source_type": "reference",
+    "author": "奶蛙二创作者待核实；原型奶龙第七印象",
+    "source_url": "https://github.com/GGGeeeooorrrgggeee/nailong-memes/blob/faff7a463622d83bfd4ef62e04220675b41db49d/gif/12D820C4E9A66D565BF151F2F7A9A285.gif",
+    "source_note": "公开社区图库收集；仓库名 nailong 不是角色身份依据。本批为小头大肚、成人比例、黑色细长手指的奶蛙网络二创，不是官方圆头短肢粉掌垫的原版奶龙。包含三维二创及 AI 风格重制。图库整理者 George 不等于原作者；具体二创作者与授权待核实。原型奶龙由第七印象创作。保留原图、原GIF。",
+    "role": "subject",
+    "is_cutout": false,
+    "templates": [
+      "top",
+      "bottom",
+      "split",
+      "frame",
+      "grid",
+      "message",
+      "poster",
+      "side",
+      "polaroid",
+      "bubble",
+      "dialogue",
+      "spotlight",
+      "comic",
+      "subtitle",
+      "note",
+      "window",
+      "ticket",
+      "medal",
+      "scene"
+    ]
+  },
+  {
+    "id": "bulk-nailong-003",
+    "name": "奶蛙 · 黑衣墨镜张开双臂",
+    "character": "奶蛙",
+    "filename": "bulk-nailong/nailong-003.gif",
+    "enabled": true,
+    "action": "黑衣墨镜张开双臂",
+    "emotion": [
+      "平静",
+      "无语"
+    ],
+    "scenes": [
+      "日常聊天",
+      "群聊互动"
+    ],
+    "examples": [
+      "让我看看怎么个事",
+      "今天的精神状态"
+    ],
+    "intensity": 2,
+    "existing_text": "",
+    "source_type": "reference",
+    "author": "奶蛙二创作者待核实；原型奶龙第七印象",
+    "source_url": "https://github.com/GGGeeeooorrrgggeee/nailong-memes/blob/faff7a463622d83bfd4ef62e04220675b41db49d/gif/16BC804964B6A2D2374FDFBED57922AA.gif",
+    "source_note": "公开社区图库收集；仓库名 nailong 不是角色身份依据。本批为小头大肚、成人比例、黑色细长手指的奶蛙网络二创，不是官方圆头短肢粉掌垫的原版奶龙。包含三维二创及 AI 风格重制。图库整理者 George 不等于原作者；具体二创作者与授权待核实。原型奶龙由第七印象创作。保留原图、原GIF。",
+    "role": "subject",
+    "is_cutout": false,
+    "templates": [
+      "top",
+      "bottom",
+      "split",
+      "frame",
+      "grid",
+      "message",
+      "poster",
+      "side",
+      "polaroid",
+      "bubble",
+      "dialogue",
+      "spotlight",
+      "comic",
+      "subtitle",
+      "note",
+      "window",
+      "ticket",
+      "medal",
+      "scene"
+    ]
+  },
+  {
+    "id": "bulk-nailong-005",
+    "name": "奶蛙 · 闭眼咧嘴大笑",
+    "character": "奶蛙",
+    "filename": "bulk-nailong/nailong-005.gif",
+    "enabled": true,
+    "action": "闭眼咧嘴大笑",
+    "emotion": [
+      "开心",
+      "搞怪"
+    ],
+    "scenes": [
+      "日常聊天",
+      "群聊互动"
+    ],
+    "examples": [
+      "让我看看怎么个事",
+      "今天的精神状态"
+    ],
+    "intensity": 3,
+    "existing_text": "",
+    "source_type": "reference",
+    "author": "奶蛙二创作者待核实；原型奶龙第七印象",
+    "source_url": "https://github.com/GGGeeeooorrrgggeee/nailong-memes/blob/faff7a463622d83bfd4ef62e04220675b41db49d/gif/1E2690DF5AE2DF8CC315B482CC5D506C.gif",
+    "source_note": "公开社区图库收集；仓库名 nailong 不是角色身份依据。本批为小头大肚、成人比例、黑色细长手指的奶蛙网络二创，不是官方圆头短肢粉掌垫的原版奶龙。包含三维二创及 AI 风格重制。图库整理者 George 不等于原作者；具体二创作者与授权待核实。原型奶龙由第七印象创作。保留原图、原GIF。",
+    "role": "subject",
+    "is_cutout": false,
+    "templates": [
+      "top",
+      "bottom",
+      "split",
+      "frame",
+      "grid",
+      "message",
+      "poster",
+      "side",
+      "polaroid",
+      "bubble",
+      "dialogue",
+      "spotlight",
+      "comic",
+      "subtitle",
+      "note",
+      "window",
+      "ticket",
+      "medal",
+      "scene"
+    ]
+  },
+  {
+    "id": "bulk-nailong-006",
+    "name": "奶蛙 · 树林倒挂",
+    "character": "奶蛙",
+    "filename": "bulk-nailong/nailong-006.gif",
+    "enabled": false,
+    "action": "树林倒挂",
+    "emotion": [
+      "平静",
+      "无语"
+    ],
+    "scenes": [
+      "日常聊天",
+      "群聊互动"
+    ],
+    "examples": [
+      "让我看看怎么个事",
+      "今天的精神状态"
+    ],
+    "intensity": 2,
+    "existing_text": "",
+    "source_type": "reference",
+    "author": "奶蛙二创作者待核实；原型奶龙第七印象",
+    "source_url": "https://github.com/GGGeeeooorrrgggeee/nailong-memes/blob/faff7a463622d83bfd4ef62e04220675b41db49d/gif/1FFFA75A91645BD09184050F92C62510.gif",
+    "source_note": "公开社区图库收集；仓库名 nailong 不是角色身份依据。本批为小头大肚、成人比例、黑色细长手指的奶蛙网络二创，不是官方圆头短肢粉掌垫的原版奶龙。包含三维二创及 AI 风格重制。图库整理者 George 不等于原作者；具体二创作者与授权待核实。原型奶龙由第七印象创作。保留原图、原GIF。 本图身份存疑，暂不启用。",
+    "role": "subject",
+    "is_cutout": false,
+    "templates": [
+      "top",
+      "bottom",
+      "split",
+      "frame",
+      "grid",
+      "message",
+      "poster",
+      "side",
+      "polaroid",
+      "bubble",
+      "dialogue",
+      "spotlight",
+      "comic",
+      "subtitle",
+      "note",
+      "window",
+      "ticket",
+      "medal",
+      "scene"
+    ]
+  },
+  {
+    "id": "bulk-nailong-008",
+    "name": "奶蛙 · 比心站立",
+    "character": "奶蛙",
+    "filename": "bulk-nailong/nailong-008.gif",
+    "enabled": true,
+    "action": "比心站立",
+    "emotion": [
+      "可爱",
+      "期待"
+    ],
+    "scenes": [
+      "日常聊天",
+      "群聊互动"
+    ],
+    "examples": [
+      "让我看看怎么个事",
+      "今天的精神状态"
+    ],
+    "intensity": 2,
+    "existing_text": "",
+    "source_type": "reference",
+    "author": "奶蛙二创作者待核实；原型奶龙第七印象",
+    "source_url": "https://github.com/GGGeeeooorrrgggeee/nailong-memes/blob/faff7a463622d83bfd4ef62e04220675b41db49d/gif/242B39C1E5E91DB01ED6285F86D2D5FD.gif",
+    "source_note": "公开社区图库收集；仓库名 nailong 不是角色身份依据。本批为小头大肚、成人比例、黑色细长手指的奶蛙网络二创，不是官方圆头短肢粉掌垫的原版奶龙。包含三维二创及 AI 风格重制。图库整理者 George 不等于原作者；具体二创作者与授权待核实。原型奶龙由第七印象创作。保留原图、原GIF。",
+    "role": "subject",
+    "is_cutout": false,
+    "templates": [
+      "top",
+      "bottom",
+      "split",
+      "frame",
+      "grid",
+      "message",
+      "poster",
+      "side",
+      "polaroid",
+      "bubble",
+      "dialogue",
+      "spotlight",
+      "comic",
+      "subtitle",
+      "note",
+      "window",
+      "ticket",
+      "medal",
+      "scene"
+    ]
+  },
+  {
+    "id": "bulk-nailong-009",
+    "name": "奶蛙 · 黑底蹲姿",
+    "character": "奶蛙",
+    "filename": "bulk-nailong/nailong-009.gif",
+    "enabled": true,
+    "action": "黑底蹲姿",
+    "emotion": [
+      "平静",
+      "无语"
+    ],
+    "scenes": [
+      "日常聊天",
+      "群聊互动"
+    ],
+    "examples": [
+      "让我看看怎么个事",
+      "今天的精神状态"
+    ],
+    "intensity": 2,
+    "existing_text": "",
+    "source_type": "reference",
+    "author": "奶蛙二创作者待核实；原型奶龙第七印象",
+    "source_url": "https://github.com/GGGeeeooorrrgggeee/nailong-memes/blob/faff7a463622d83bfd4ef62e04220675b41db49d/gif/2CFD9B600855849B4388B5C6F8E206AA.gif",
+    "source_note": "公开社区图库收集；仓库名 nailong 不是角色身份依据。本批为小头大肚、成人比例、黑色细长手指的奶蛙网络二创，不是官方圆头短肢粉掌垫的原版奶龙。包含三维二创及 AI 风格重制。图库整理者 George 不等于原作者；具体二创作者与授权待核实。原型奶龙由第七印象创作。保留原图、原GIF。",
+    "role": "subject",
+    "is_cutout": false,
+    "templates": [
+      "top",
+      "bottom",
+      "split",
+      "frame",
+      "grid",
+      "message",
+      "poster",
+      "side",
+      "polaroid",
+      "bubble",
+      "dialogue",
+      "spotlight",
+      "comic",
+      "subtitle",
+      "note",
+      "window",
+      "ticket",
+      "medal",
+      "scene"
+    ]
+  },
+  {
+    "id": "bulk-nailong-010",
+    "name": "奶蛙 · 门前合掌",
+    "character": "奶蛙",
+    "filename": "bulk-nailong/nailong-010.gif",
+    "enabled": true,
+    "action": "门前合掌",
+    "emotion": [
+      "可爱",
+      "期待"
+    ],
+    "scenes": [
+      "日常聊天",
+      "群聊互动"
+    ],
+    "examples": [
+      "让我看看怎么个事",
+      "今天的精神状态"
+    ],
+    "intensity": 2,
+    "existing_text": "",
+    "source_type": "reference",
+    "author": "奶蛙二创作者待核实；原型奶龙第七印象",
+    "source_url": "https://github.com/GGGeeeooorrrgggeee/nailong-memes/blob/faff7a463622d83bfd4ef62e04220675b41db49d/gif/2D013ED5B643FE61B1ACF09D305DEFE6.gif",
+    "source_note": "公开社区图库收集；仓库名 nailong 不是角色身份依据。本批为小头大肚、成人比例、黑色细长手指的奶蛙网络二创，不是官方圆头短肢粉掌垫的原版奶龙。包含三维二创及 AI 风格重制。图库整理者 George 不等于原作者；具体二创作者与授权待核实。原型奶龙由第七印象创作。保留原图、原GIF。",
+    "role": "subject",
+    "is_cutout": false,
+    "templates": [
+      "top",
+      "bottom",
+      "split",
+      "frame",
+      "grid",
+      "message",
+      "poster",
+      "side",
+      "polaroid",
+      "bubble",
+      "dialogue",
+      "spotlight",
+      "comic",
+      "subtitle",
+      "note",
+      "window",
+      "ticket",
+      "medal",
+      "scene"
+    ]
+  },
+  {
+    "id": "bulk-nailong-011",
+    "name": "奶蛙 · 面对披萨",
+    "character": "奶蛙",
+    "filename": "bulk-nailong/nailong-011.gif",
+    "enabled": true,
+    "action": "面对披萨",
+    "emotion": [
+      "平静",
+      "无语"
+    ],
+    "scenes": [
+      "日常聊天",
+      "群聊互动",
+      "约饭",
+      "食堂"
+    ],
+    "examples": [
+      "让我看看怎么个事",
+      "今天的精神状态"
+    ],
+    "intensity": 2,
+    "existing_text": "",
+    "source_type": "reference",
+    "author": "奶蛙二创作者待核实；原型奶龙第七印象",
+    "source_url": "https://github.com/GGGeeeooorrrgggeee/nailong-memes/blob/faff7a463622d83bfd4ef62e04220675b41db49d/gif/2F48FFDB934E7316BBB539EA5D962CA6.gif",
+    "source_note": "公开社区图库收集；仓库名 nailong 不是角色身份依据。本批为小头大肚、成人比例、黑色细长手指的奶蛙网络二创，不是官方圆头短肢粉掌垫的原版奶龙。包含三维二创及 AI 风格重制。图库整理者 George 不等于原作者；具体二创作者与授权待核实。原型奶龙由第七印象创作。保留原图、原GIF。",
+    "role": "subject",
+    "is_cutout": false,
+    "templates": [
+      "top",
+      "bottom",
+      "split",
+      "frame",
+      "grid",
+      "message",
+      "poster",
+      "side",
+      "polaroid",
+      "bubble",
+      "dialogue",
+      "spotlight",
+      "comic",
+      "subtitle",
+      "note",
+      "window",
+      "ticket",
+      "medal",
+      "scene"
+    ]
+  },
+  {
+    "id": "bulk-nailong-012",
+    "name": "奶蛙 · 双龙墨镜搭肩",
+    "character": "奶蛙",
+    "filename": "bulk-nailong/nailong-012.gif",
+    "enabled": true,
+    "action": "双龙墨镜搭肩",
+    "emotion": [
+      "平静",
+      "无语"
+    ],
+    "scenes": [
+      "日常聊天",
+      "群聊互动"
+    ],
+    "examples": [
+      "让我看看怎么个事",
+      "今天的精神状态"
+    ],
+    "intensity": 2,
+    "existing_text": "",
+    "source_type": "reference",
+    "author": "奶蛙二创作者待核实；原型奶龙第七印象",
+    "source_url": "https://github.com/GGGeeeooorrrgggeee/nailong-memes/blob/faff7a463622d83bfd4ef62e04220675b41db49d/gif/331C5C5BE697444FA909DD31A650A455.gif",
+    "source_note": "公开社区图库收集；仓库名 nailong 不是角色身份依据。本批为小头大肚、成人比例、黑色细长手指的奶蛙网络二创，不是官方圆头短肢粉掌垫的原版奶龙。包含三维二创及 AI 风格重制。图库整理者 George 不等于原作者；具体二创作者与授权待核实。原型奶龙由第七印象创作。保留原图、原GIF。",
+    "role": "subject",
+    "is_cutout": false,
+    "templates": [
+      "top",
+      "bottom",
+      "split",
+      "frame",
+      "grid",
+      "message",
+      "poster",
+      "side",
+      "polaroid",
+      "bubble",
+      "dialogue",
+      "spotlight",
+      "comic",
+      "subtitle",
+      "note",
+      "window",
+      "ticket",
+      "medal",
+      "scene"
+    ]
+  },
+  {
+    "id": "bulk-nailong-013",
+    "name": "奶蛙 · 图书馆踢腿",
+    "character": "奶蛙",
+    "filename": "bulk-nailong/nailong-013.gif",
+    "enabled": true,
+    "action": "图书馆踢腿",
+    "emotion": [
+      "平静",
+      "无语"
+    ],
+    "scenes": [
+      "日常聊天",
+      "群聊互动",
+      "学习",
+      "上课"
+    ],
+    "examples": [
+      "让我看看怎么个事",
+      "今天的精神状态"
+    ],
+    "intensity": 2,
+    "existing_text": "",
+    "source_type": "reference",
+    "author": "奶蛙二创作者待核实；原型奶龙第七印象",
+    "source_url": "https://github.com/GGGeeeooorrrgggeee/nailong-memes/blob/faff7a463622d83bfd4ef62e04220675b41db49d/gif/348963EF7BADCBE42385C7CCC267BEC5.gif",
+    "source_note": "公开社区图库收集；仓库名 nailong 不是角色身份依据。本批为小头大肚、成人比例、黑色细长手指的奶蛙网络二创，不是官方圆头短肢粉掌垫的原版奶龙。包含三维二创及 AI 风格重制。图库整理者 George 不等于原作者；具体二创作者与授权待核实。原型奶龙由第七印象创作。保留原图、原GIF。",
+    "role": "subject",
+    "is_cutout": false,
+    "templates": [
+      "top",
+      "bottom",
+      "split",
+      "frame",
+      "grid",
+      "message",
+      "poster",
+      "side",
+      "polaroid",
+      "bubble",
+      "dialogue",
+      "spotlight",
+      "comic",
+      "subtitle",
+      "note",
+      "window",
+      "ticket",
+      "medal",
+      "scene"
+    ]
+  },
+  {
+    "id": "bulk-nailong-014",
+    "name": "奶蛙 · 楼梯摊手",
+    "character": "奶蛙",
+    "filename": "bulk-nailong/nailong-014.gif",
+    "enabled": true,
+    "action": "楼梯摊手",
+    "emotion": [
+      "平静",
+      "无语"
+    ],
+    "scenes": [
+      "日常聊天",
+      "群聊互动"
+    ],
+    "examples": [
+      "让我看看怎么个事",
+      "今天的精神状态"
+    ],
+    "intensity": 2,
+    "existing_text": "",
+    "source_type": "reference",
+    "author": "奶蛙二创作者待核实；原型奶龙第七印象",
+    "source_url": "https://github.com/GGGeeeooorrrgggeee/nailong-memes/blob/faff7a463622d83bfd4ef62e04220675b41db49d/gif/3C708525E65DE3783D1951BA5695388D.gif",
+    "source_note": "公开社区图库收集；仓库名 nailong 不是角色身份依据。本批为小头大肚、成人比例、黑色细长手指的奶蛙网络二创，不是官方圆头短肢粉掌垫的原版奶龙。包含三维二创及 AI 风格重制。图库整理者 George 不等于原作者；具体二创作者与授权待核实。原型奶龙由第七印象创作。保留原图、原GIF。",
+    "role": "subject",
+    "is_cutout": false,
+    "templates": [
+      "top",
+      "bottom",
+      "split",
+      "frame",
+      "grid",
+      "message",
+      "poster",
+      "side",
+      "polaroid",
+      "bubble",
+      "dialogue",
+      "spotlight",
+      "comic",
+      "subtitle",
+      "note",
+      "window",
+      "ticket",
+      "medal",
+      "scene"
+    ]
+  },
+  {
+    "id": "bulk-nailong-015",
+    "name": "奶蛙 · 双手捂嘴",
+    "character": "奶蛙",
+    "filename": "bulk-nailong/nailong-015.gif",
+    "enabled": true,
+    "action": "双手捂嘴",
+    "emotion": [
+      "平静",
+      "无语"
+    ],
+    "scenes": [
+      "日常聊天",
+      "群聊互动"
+    ],
+    "examples": [
+      "让我看看怎么个事",
+      "今天的精神状态"
+    ],
+    "intensity": 2,
+    "existing_text": "",
+    "source_type": "reference",
+    "author": "奶蛙二创作者待核实；原型奶龙第七印象",
+    "source_url": "https://github.com/GGGeeeooorrrgggeee/nailong-memes/blob/faff7a463622d83bfd4ef62e04220675b41db49d/gif/3D2E7030061ED8EFBB3E62A57742BA23.gif",
+    "source_note": "公开社区图库收集；仓库名 nailong 不是角色身份依据。本批为小头大肚、成人比例、黑色细长手指的奶蛙网络二创，不是官方圆头短肢粉掌垫的原版奶龙。包含三维二创及 AI 风格重制。图库整理者 George 不等于原作者；具体二创作者与授权待核实。原型奶龙由第七印象创作。保留原图、原GIF。",
+    "role": "subject",
+    "is_cutout": false,
+    "templates": [
+      "top",
+      "bottom",
+      "split",
+      "frame",
+      "grid",
+      "message",
+      "poster",
+      "side",
+      "polaroid",
+      "bubble",
+      "dialogue",
+      "spotlight",
+      "comic",
+      "subtitle",
+      "note",
+      "window",
+      "ticket",
+      "medal",
+      "scene"
+    ]
+  },
+  {
+    "id": "bulk-nailong-016",
+    "name": "奶蛙 · 客厅抬手",
+    "character": "奶蛙",
+    "filename": "bulk-nailong/nailong-016.gif",
+    "enabled": true,
+    "action": "客厅抬手",
+    "emotion": [
+      "平静",
+      "无语"
+    ],
+    "scenes": [
+      "日常聊天",
+      "群聊互动"
+    ],
+    "examples": [
+      "让我看看怎么个事",
+      "今天的精神状态"
+    ],
+    "intensity": 2,
+    "existing_text": "",
+    "source_type": "reference",
+    "author": "奶蛙二创作者待核实；原型奶龙第七印象",
+    "source_url": "https://github.com/GGGeeeooorrrgggeee/nailong-memes/blob/faff7a463622d83bfd4ef62e04220675b41db49d/gif/492C0E9C3FF29DCAA5412B446C1E2F8D.gif",
+    "source_note": "公开社区图库收集；仓库名 nailong 不是角色身份依据。本批为小头大肚、成人比例、黑色细长手指的奶蛙网络二创，不是官方圆头短肢粉掌垫的原版奶龙。包含三维二创及 AI 风格重制。图库整理者 George 不等于原作者；具体二创作者与授权待核实。原型奶龙由第七印象创作。保留原图、原GIF。",
+    "role": "subject",
+    "is_cutout": false,
+    "templates": [
+      "top",
+      "bottom",
+      "split",
+      "frame",
+      "grid",
+      "message",
+      "poster",
+      "side",
+      "polaroid",
+      "bubble",
+      "dialogue",
+      "spotlight",
+      "comic",
+      "subtitle",
+      "note",
+      "window",
+      "ticket",
+      "medal",
+      "scene"
+    ]
+  },
+  {
+    "id": "bulk-nailong-017",
+    "name": "奶蛙 · 路边跳舞",
+    "character": "奶蛙",
+    "filename": "bulk-nailong/nailong-017.gif",
+    "enabled": true,
+    "action": "路边跳舞",
+    "emotion": [
+      "开心",
+      "搞怪"
+    ],
+    "scenes": [
+      "日常聊天",
+      "群聊互动"
+    ],
+    "examples": [
+      "让我看看怎么个事",
+      "今天的精神状态"
+    ],
+    "intensity": 2,
+    "existing_text": "",
+    "source_type": "reference",
+    "author": "奶蛙二创作者待核实；原型奶龙第七印象",
+    "source_url": "https://github.com/GGGeeeooorrrgggeee/nailong-memes/blob/faff7a463622d83bfd4ef62e04220675b41db49d/gif/52CB7542D601951C00D137E87F1BF6D1.gif",
+    "source_note": "公开社区图库收集；仓库名 nailong 不是角色身份依据。本批为小头大肚、成人比例、黑色细长手指的奶蛙网络二创，不是官方圆头短肢粉掌垫的原版奶龙。包含三维二创及 AI 风格重制。图库整理者 George 不等于原作者；具体二创作者与授权待核实。原型奶龙由第七印象创作。保留原图、原GIF。",
+    "role": "subject",
+    "is_cutout": false,
+    "templates": [
+      "top",
+      "bottom",
+      "split",
+      "frame",
+      "grid",
+      "message",
+      "poster",
+      "side",
+      "polaroid",
+      "bubble",
+      "dialogue",
+      "spotlight",
+      "comic",
+      "subtitle",
+      "note",
+      "window",
+      "ticket",
+      "medal",
+      "scene"
+    ]
+  },
+  {
+    "id": "bulk-nailong-018",
+    "name": "奶蛙 · 侧身转头",
+    "character": "奶蛙",
+    "filename": "bulk-nailong/nailong-018.gif",
+    "enabled": true,
+    "action": "侧身转头",
+    "emotion": [
+      "平静",
+      "无语"
+    ],
+    "scenes": [
+      "日常聊天",
+      "群聊互动"
+    ],
+    "examples": [
+      "让我看看怎么个事",
+      "今天的精神状态"
+    ],
+    "intensity": 2,
+    "existing_text": "",
+    "source_type": "reference",
+    "author": "奶蛙二创作者待核实；原型奶龙第七印象",
+    "source_url": "https://github.com/GGGeeeooorrrgggeee/nailong-memes/blob/faff7a463622d83bfd4ef62e04220675b41db49d/gif/544A6B77E2FB2CEB8A21D665ADE9B67A.gif",
+    "source_note": "公开社区图库收集；仓库名 nailong 不是角色身份依据。本批为小头大肚、成人比例、黑色细长手指的奶蛙网络二创，不是官方圆头短肢粉掌垫的原版奶龙。包含三维二创及 AI 风格重制。图库整理者 George 不等于原作者；具体二创作者与授权待核实。原型奶龙由第七印象创作。保留原图、原GIF。",
+    "role": "subject",
+    "is_cutout": false,
+    "templates": [
+      "top",
+      "bottom",
+      "split",
+      "frame",
+      "grid",
+      "message",
+      "poster",
+      "side",
+      "polaroid",
+      "bubble",
+      "dialogue",
+      "spotlight",
+      "comic",
+      "subtitle",
+      "note",
+      "window",
+      "ticket",
+      "medal",
+      "scene"
+    ]
+  },
+  {
+    "id": "bulk-nailong-019",
+    "name": "奶蛙 · 横空踢腿",
+    "character": "奶蛙",
+    "filename": "bulk-nailong/nailong-019.gif",
+    "enabled": true,
+    "action": "横空踢腿",
+    "emotion": [
+      "平静",
+      "无语"
+    ],
+    "scenes": [
+      "日常聊天",
+      "群聊互动"
+    ],
+    "examples": [
+      "让我看看怎么个事",
+      "今天的精神状态"
+    ],
+    "intensity": 2,
+    "existing_text": "",
+    "source_type": "reference",
+    "author": "奶蛙二创作者待核实；原型奶龙第七印象",
+    "source_url": "https://github.com/GGGeeeooorrrgggeee/nailong-memes/blob/faff7a463622d83bfd4ef62e04220675b41db49d/gif/561104D6641630163307F69453126EF1.gif",
+    "source_note": "公开社区图库收集；仓库名 nailong 不是角色身份依据。本批为小头大肚、成人比例、黑色细长手指的奶蛙网络二创，不是官方圆头短肢粉掌垫的原版奶龙。包含三维二创及 AI 风格重制。图库整理者 George 不等于原作者；具体二创作者与授权待核实。原型奶龙由第七印象创作。保留原图、原GIF。",
+    "role": "subject",
+    "is_cutout": false,
+    "templates": [
+      "top",
+      "bottom",
+      "split",
+      "frame",
+      "grid",
+      "message",
+      "poster",
+      "side",
+      "polaroid",
+      "bubble",
+      "dialogue",
+      "spotlight",
+      "comic",
+      "subtitle",
+      "note",
+      "window",
+      "ticket",
+      "medal",
+      "scene"
+    ]
+  },
+  {
+    "id": "bulk-nailong-020",
+    "name": "奶蛙 · 沙发大笑",
+    "character": "奶蛙",
+    "filename": "bulk-nailong/nailong-020.gif",
+    "enabled": true,
+    "action": "沙发大笑",
+    "emotion": [
+      "开心",
+      "搞怪"
+    ],
+    "scenes": [
+      "日常聊天",
+      "群聊互动",
+      "休息",
+      "早八",
+      "摆烂"
+    ],
+    "examples": [
+      "让我看看怎么个事",
+      "今天的精神状态"
+    ],
+    "intensity": 3,
+    "existing_text": "",
+    "source_type": "reference",
+    "author": "奶蛙二创作者待核实；原型奶龙第七印象",
+    "source_url": "https://github.com/GGGeeeooorrrgggeee/nailong-memes/blob/faff7a463622d83bfd4ef62e04220675b41db49d/gif/5AE5E51882D1B81F043948457759AEDE.gif",
+    "source_note": "公开社区图库收集；仓库名 nailong 不是角色身份依据。本批为小头大肚、成人比例、黑色细长手指的奶蛙网络二创，不是官方圆头短肢粉掌垫的原版奶龙。包含三维二创及 AI 风格重制。图库整理者 George 不等于原作者；具体二创作者与授权待核实。原型奶龙由第七印象创作。保留原图、原GIF。",
+    "role": "subject",
+    "is_cutout": false,
+    "templates": [
+      "top",
+      "bottom",
+      "split",
+      "frame",
+      "grid",
+      "message",
+      "poster",
+      "side",
+      "polaroid",
+      "bubble",
+      "dialogue",
+      "spotlight",
+      "comic",
+      "subtitle",
+      "note",
+      "window",
+      "ticket",
+      "medal",
+      "scene"
+    ]
+  },
+  {
+    "id": "bulk-nailong-022",
+    "name": "奶蛙 · 草地扭动",
+    "character": "奶蛙",
+    "filename": "bulk-nailong/nailong-022.gif",
+    "enabled": true,
+    "action": "草地扭动",
+    "emotion": [
+      "平静",
+      "无语"
+    ],
+    "scenes": [
+      "日常聊天",
+      "群聊互动"
+    ],
+    "examples": [
+      "让我看看怎么个事",
+      "今天的精神状态"
+    ],
+    "intensity": 2,
+    "existing_text": "",
+    "source_type": "reference",
+    "author": "奶蛙二创作者待核实；原型奶龙第七印象",
+    "source_url": "https://github.com/GGGeeeooorrrgggeee/nailong-memes/blob/faff7a463622d83bfd4ef62e04220675b41db49d/gif/5E38945AF7C45F4A670B49E8BF1C6742.gif",
+    "source_note": "公开社区图库收集；仓库名 nailong 不是角色身份依据。本批为小头大肚、成人比例、黑色细长手指的奶蛙网络二创，不是官方圆头短肢粉掌垫的原版奶龙。包含三维二创及 AI 风格重制。图库整理者 George 不等于原作者；具体二创作者与授权待核实。原型奶龙由第七印象创作。保留原图、原GIF。",
+    "role": "subject",
+    "is_cutout": false,
+    "templates": [
+      "top",
+      "bottom",
+      "split",
+      "frame",
+      "grid",
+      "message",
+      "poster",
+      "side",
+      "polaroid",
+      "bubble",
+      "dialogue",
+      "spotlight",
+      "comic",
+      "subtitle",
+      "note",
+      "window",
+      "ticket",
+      "medal",
+      "scene"
+    ]
+  },
+  {
+    "id": "bulk-nailong-024",
+    "name": "奶蛙 · 天空落下",
+    "character": "奶蛙",
+    "filename": "bulk-nailong/nailong-024.gif",
+    "enabled": false,
+    "action": "天空落下",
+    "emotion": [
+      "平静",
+      "无语"
+    ],
+    "scenes": [
+      "日常聊天",
+      "群聊互动"
+    ],
+    "examples": [
+      "让我看看怎么个事",
+      "今天的精神状态"
+    ],
+    "intensity": 2,
+    "existing_text": "",
+    "source_type": "reference",
+    "author": "奶蛙二创作者待核实；原型奶龙第七印象",
+    "source_url": "https://github.com/GGGeeeooorrrgggeee/nailong-memes/blob/faff7a463622d83bfd4ef62e04220675b41db49d/gif/5F3832CEB835B150E076CB589A53C604.gif",
+    "source_note": "公开社区图库收集；仓库名 nailong 不是角色身份依据。本批为小头大肚、成人比例、黑色细长手指的奶蛙网络二创，不是官方圆头短肢粉掌垫的原版奶龙。包含三维二创及 AI 风格重制。图库整理者 George 不等于原作者；具体二创作者与授权待核实。原型奶龙由第七印象创作。保留原图、原GIF。 本图身份存疑，暂不启用。",
+    "role": "subject",
+    "is_cutout": false,
+    "templates": [
+      "top",
+      "bottom",
+      "split",
+      "frame",
+      "grid",
+      "message",
+      "poster",
+      "side",
+      "polaroid",
+      "bubble",
+      "dialogue",
+      "spotlight",
+      "comic",
+      "subtitle",
+      "note",
+      "window",
+      "ticket",
+      "medal",
+      "scene"
+    ]
+  },
+  {
+    "id": "bulk-nailong-025",
+    "name": "奶蛙 · 白云背景摆手",
+    "character": "奶蛙",
+    "filename": "bulk-nailong/nailong-025.gif",
+    "enabled": true,
+    "action": "白云背景摆手",
+    "emotion": [
+      "平静",
+      "无语"
+    ],
+    "scenes": [
+      "日常聊天",
+      "群聊互动"
+    ],
+    "examples": [
+      "让我看看怎么个事",
+      "今天的精神状态"
+    ],
+    "intensity": 2,
+    "existing_text": "",
+    "source_type": "reference",
+    "author": "奶蛙二创作者待核实；原型奶龙第七印象",
+    "source_url": "https://github.com/GGGeeeooorrrgggeee/nailong-memes/blob/faff7a463622d83bfd4ef62e04220675b41db49d/gif/605BAA8FD694ADB2082F5A3D97AB90A2.gif",
+    "source_note": "公开社区图库收集；仓库名 nailong 不是角色身份依据。本批为小头大肚、成人比例、黑色细长手指的奶蛙网络二创，不是官方圆头短肢粉掌垫的原版奶龙。包含三维二创及 AI 风格重制。图库整理者 George 不等于原作者；具体二创作者与授权待核实。原型奶龙由第七印象创作。保留原图、原GIF。",
+    "role": "subject",
+    "is_cutout": false,
+    "templates": [
+      "top",
+      "bottom",
+      "split",
+      "frame",
+      "grid",
+      "message",
+      "poster",
+      "side",
+      "polaroid",
+      "bubble",
+      "dialogue",
+      "spotlight",
+      "comic",
+      "subtitle",
+      "note",
+      "window",
+      "ticket",
+      "medal",
+      "scene"
+    ]
+  },
+  {
+    "id": "bulk-nailong-026",
+    "name": "奶蛙 · 双龙穿装扮",
+    "character": "奶蛙",
+    "filename": "bulk-nailong/nailong-026.gif",
+    "enabled": true,
+    "action": "双龙穿装扮",
+    "emotion": [
+      "平静",
+      "无语"
+    ],
+    "scenes": [
+      "日常聊天",
+      "群聊互动"
+    ],
+    "examples": [
+      "让我看看怎么个事",
+      "今天的精神状态"
+    ],
+    "intensity": 2,
+    "existing_text": "",
+    "source_type": "reference",
+    "author": "奶蛙二创作者待核实；原型奶龙第七印象",
+    "source_url": "https://github.com/GGGeeeooorrrgggeee/nailong-memes/blob/faff7a463622d83bfd4ef62e04220675b41db49d/gif/62FCAA82A90DAEE421B94B47A038A56D.gif",
+    "source_note": "公开社区图库收集；仓库名 nailong 不是角色身份依据。本批为小头大肚、成人比例、黑色细长手指的奶蛙网络二创，不是官方圆头短肢粉掌垫的原版奶龙。包含三维二创及 AI 风格重制。图库整理者 George 不等于原作者；具体二创作者与授权待核实。原型奶龙由第七印象创作。保留原图、原GIF。",
+    "role": "subject",
+    "is_cutout": false,
+    "templates": [
+      "top",
+      "bottom",
+      "split",
+      "frame",
+      "grid",
+      "message",
+      "poster",
+      "side",
+      "polaroid",
+      "bubble",
+      "dialogue",
+      "spotlight",
+      "comic",
+      "subtitle",
+      "note",
+      "window",
+      "ticket",
+      "medal",
+      "scene"
+    ]
+  },
+  {
+    "id": "bulk-nailong-027",
+    "name": "奶蛙 · 张开双脚摆手",
+    "character": "奶蛙",
+    "filename": "bulk-nailong/nailong-027.gif",
+    "enabled": true,
+    "action": "张开双脚摆手",
+    "emotion": [
+      "平静",
+      "无语"
+    ],
+    "scenes": [
+      "日常聊天",
+      "群聊互动"
+    ],
+    "examples": [
+      "让我看看怎么个事",
+      "今天的精神状态"
+    ],
+    "intensity": 2,
+    "existing_text": "",
+    "source_type": "reference",
+    "author": "奶蛙二创作者待核实；原型奶龙第七印象",
+    "source_url": "https://github.com/GGGeeeooorrrgggeee/nailong-memes/blob/faff7a463622d83bfd4ef62e04220675b41db49d/gif/69A7BCB8AE5029DB0D6A1B510F593019.gif",
+    "source_note": "公开社区图库收集；仓库名 nailong 不是角色身份依据。本批为小头大肚、成人比例、黑色细长手指的奶蛙网络二创，不是官方圆头短肢粉掌垫的原版奶龙。包含三维二创及 AI 风格重制。图库整理者 George 不等于原作者；具体二创作者与授权待核实。原型奶龙由第七印象创作。保留原图、原GIF。",
+    "role": "subject",
+    "is_cutout": false,
+    "templates": [
+      "top",
+      "bottom",
+      "split",
+      "frame",
+      "grid",
+      "message",
+      "poster",
+      "side",
+      "polaroid",
+      "bubble",
+      "dialogue",
+      "spotlight",
+      "comic",
+      "subtitle",
+      "note",
+      "window",
+      "ticket",
+      "medal",
+      "scene"
+    ]
+  },
+  {
+    "id": "bulk-nailong-029",
+    "name": "奶蛙 · 球场举手",
+    "character": "奶蛙",
+    "filename": "bulk-nailong/nailong-029.gif",
+    "enabled": true,
+    "action": "球场举手",
+    "emotion": [
+      "平静",
+      "无语"
+    ],
+    "scenes": [
+      "日常聊天",
+      "群聊互动"
+    ],
+    "examples": [
+      "让我看看怎么个事",
+      "今天的精神状态"
+    ],
+    "intensity": 2,
+    "existing_text": "",
+    "source_type": "reference",
+    "author": "奶蛙二创作者待核实；原型奶龙第七印象",
+    "source_url": "https://github.com/GGGeeeooorrrgggeee/nailong-memes/blob/faff7a463622d83bfd4ef62e04220675b41db49d/gif/6DA134391338AE145F644EDA2784BDB3.gif",
+    "source_note": "公开社区图库收集；仓库名 nailong 不是角色身份依据。本批为小头大肚、成人比例、黑色细长手指的奶蛙网络二创，不是官方圆头短肢粉掌垫的原版奶龙。包含三维二创及 AI 风格重制。图库整理者 George 不等于原作者；具体二创作者与授权待核实。原型奶龙由第七印象创作。保留原图、原GIF。",
+    "role": "subject",
+    "is_cutout": false,
+    "templates": [
+      "top",
+      "bottom",
+      "split",
+      "frame",
+      "grid",
+      "message",
+      "poster",
+      "side",
+      "polaroid",
+      "bubble",
+      "dialogue",
+      "spotlight",
+      "comic",
+      "subtitle",
+      "note",
+      "window",
+      "ticket",
+      "medal",
+      "scene"
+    ]
+  },
+  {
+    "id": "bulk-nailong-030",
+    "name": "奶蛙 · 摔倒自行车旁",
+    "character": "奶蛙",
+    "filename": "bulk-nailong/nailong-030.gif",
+    "enabled": true,
+    "action": "摔倒自行车旁",
+    "emotion": [
+      "平静",
+      "无语"
+    ],
+    "scenes": [
+      "日常聊天",
+      "群聊互动"
+    ],
+    "examples": [
+      "让我看看怎么个事",
+      "今天的精神状态"
+    ],
+    "intensity": 2,
+    "existing_text": "",
+    "source_type": "reference",
+    "author": "奶蛙二创作者待核实；原型奶龙第七印象",
+    "source_url": "https://github.com/GGGeeeooorrrgggeee/nailong-memes/blob/faff7a463622d83bfd4ef62e04220675b41db49d/gif/6DC389945E3C7EB4B1535FB17895AD2E.gif",
+    "source_note": "公开社区图库收集；仓库名 nailong 不是角色身份依据。本批为小头大肚、成人比例、黑色细长手指的奶蛙网络二创，不是官方圆头短肢粉掌垫的原版奶龙。包含三维二创及 AI 风格重制。图库整理者 George 不等于原作者；具体二创作者与授权待核实。原型奶龙由第七印象创作。保留原图、原GIF。",
+    "role": "subject",
+    "is_cutout": false,
+    "templates": [
+      "top",
+      "bottom",
+      "split",
+      "frame",
+      "grid",
+      "message",
+      "poster",
+      "side",
+      "polaroid",
+      "bubble",
+      "dialogue",
+      "spotlight",
+      "comic",
+      "subtitle",
+      "note",
+      "window",
+      "ticket",
+      "medal",
+      "scene"
+    ]
+  },
+  {
+    "id": "bulk-nailong-031",
+    "name": "奶蛙 · 背身扭动",
+    "character": "奶蛙",
+    "filename": "bulk-nailong/nailong-031.gif",
+    "enabled": true,
+    "action": "背身扭动",
+    "emotion": [
+      "平静",
+      "无语"
+    ],
+    "scenes": [
+      "日常聊天",
+      "群聊互动"
+    ],
+    "examples": [
+      "让我看看怎么个事",
+      "今天的精神状态"
+    ],
+    "intensity": 2,
+    "existing_text": "",
+    "source_type": "reference",
+    "author": "奶蛙二创作者待核实；原型奶龙第七印象",
+    "source_url": "https://github.com/GGGeeeooorrrgggeee/nailong-memes/blob/faff7a463622d83bfd4ef62e04220675b41db49d/gif/6E3C0B3E4571D461D666DF139C8917BC.gif",
+    "source_note": "公开社区图库收集；仓库名 nailong 不是角色身份依据。本批为小头大肚、成人比例、黑色细长手指的奶蛙网络二创，不是官方圆头短肢粉掌垫的原版奶龙。包含三维二创及 AI 风格重制。图库整理者 George 不等于原作者；具体二创作者与授权待核实。原型奶龙由第七印象创作。保留原图、原GIF。",
+    "role": "subject",
+    "is_cutout": false,
+    "templates": [
+      "top",
+      "bottom",
+      "split",
+      "frame",
+      "grid",
+      "message",
+      "poster",
+      "side",
+      "polaroid",
+      "bubble",
+      "dialogue",
+      "spotlight",
+      "comic",
+      "subtitle",
+      "note",
+      "window",
+      "ticket",
+      "medal",
+      "scene"
+    ]
+  },
+  {
+    "id": "bulk-nailong-032",
+    "name": "奶蛙 · 健身房躺平",
+    "character": "奶蛙",
+    "filename": "bulk-nailong/nailong-032.gif",
+    "enabled": true,
+    "action": "健身房躺平",
+    "emotion": [
+      "平静",
+      "无语"
+    ],
+    "scenes": [
+      "日常聊天",
+      "群聊互动",
+      "休息",
+      "早八",
+      "摆烂"
+    ],
+    "examples": [
+      "让我看看怎么个事",
+      "今天的精神状态"
+    ],
+    "intensity": 2,
+    "existing_text": "",
+    "source_type": "reference",
+    "author": "奶蛙二创作者待核实；原型奶龙第七印象",
+    "source_url": "https://github.com/GGGeeeooorrrgggeee/nailong-memes/blob/faff7a463622d83bfd4ef62e04220675b41db49d/gif/6F28D2311BAF9756AAFB2785CA413FA9.gif",
+    "source_note": "公开社区图库收集；仓库名 nailong 不是角色身份依据。本批为小头大肚、成人比例、黑色细长手指的奶蛙网络二创，不是官方圆头短肢粉掌垫的原版奶龙。包含三维二创及 AI 风格重制。图库整理者 George 不等于原作者；具体二创作者与授权待核实。原型奶龙由第七印象创作。保留原图、原GIF。",
+    "role": "subject",
+    "is_cutout": false,
+    "templates": [
+      "top",
+      "bottom",
+      "split",
+      "frame",
+      "grid",
+      "message",
+      "poster",
+      "side",
+      "polaroid",
+      "bubble",
+      "dialogue",
+      "spotlight",
+      "comic",
+      "subtitle",
+      "note",
+      "window",
+      "ticket",
+      "medal",
+      "scene"
+    ]
+  },
+  {
+    "id": "bulk-nailong-033",
+    "name": "奶蛙 · 坐轮椅",
+    "character": "奶蛙",
+    "filename": "bulk-nailong/nailong-033.gif",
+    "enabled": true,
+    "action": "坐轮椅",
+    "emotion": [
+      "平静",
+      "无语"
+    ],
+    "scenes": [
+      "日常聊天",
+      "群聊互动"
+    ],
+    "examples": [
+      "让我看看怎么个事",
+      "今天的精神状态"
+    ],
+    "intensity": 2,
+    "existing_text": "",
+    "source_type": "reference",
+    "author": "奶蛙二创作者待核实；原型奶龙第七印象",
+    "source_url": "https://github.com/GGGeeeooorrrgggeee/nailong-memes/blob/faff7a463622d83bfd4ef62e04220675b41db49d/gif/6F91055B6FFD248B37F53F514E4AEA84.gif",
+    "source_note": "公开社区图库收集；仓库名 nailong 不是角色身份依据。本批为小头大肚、成人比例、黑色细长手指的奶蛙网络二创，不是官方圆头短肢粉掌垫的原版奶龙。包含三维二创及 AI 风格重制。图库整理者 George 不等于原作者；具体二创作者与授权待核实。原型奶龙由第七印象创作。保留原图、原GIF。",
+    "role": "subject",
+    "is_cutout": false,
+    "templates": [
+      "top",
+      "bottom",
+      "split",
+      "frame",
+      "grid",
+      "message",
+      "poster",
+      "side",
+      "polaroid",
+      "bubble",
+      "dialogue",
+      "spotlight",
+      "comic",
+      "subtitle",
+      "note",
+      "window",
+      "ticket",
+      "medal",
+      "scene"
+    ]
+  },
+  {
+    "id": "bulk-nailong-034",
+    "name": "奶蛙 · 浴室举手",
+    "character": "奶蛙",
+    "filename": "bulk-nailong/nailong-034.gif",
+    "enabled": true,
+    "action": "浴室举手",
+    "emotion": [
+      "平静",
+      "无语"
+    ],
+    "scenes": [
+      "日常聊天",
+      "群聊互动"
+    ],
+    "examples": [
+      "让我看看怎么个事",
+      "今天的精神状态"
+    ],
+    "intensity": 2,
+    "existing_text": "",
+    "source_type": "reference",
+    "author": "奶蛙二创作者待核实；原型奶龙第七印象",
+    "source_url": "https://github.com/GGGeeeooorrrgggeee/nailong-memes/blob/faff7a463622d83bfd4ef62e04220675b41db49d/gif/709E19ABFB57806DB40DC9F40BBC455B.gif",
+    "source_note": "公开社区图库收集；仓库名 nailong 不是角色身份依据。本批为小头大肚、成人比例、黑色细长手指的奶蛙网络二创，不是官方圆头短肢粉掌垫的原版奶龙。包含三维二创及 AI 风格重制。图库整理者 George 不等于原作者；具体二创作者与授权待核实。原型奶龙由第七印象创作。保留原图、原GIF。",
+    "role": "subject",
+    "is_cutout": false,
+    "templates": [
+      "top",
+      "bottom",
+      "split",
+      "frame",
+      "grid",
+      "message",
+      "poster",
+      "side",
+      "polaroid",
+      "bubble",
+      "dialogue",
+      "spotlight",
+      "comic",
+      "subtitle",
+      "note",
+      "window",
+      "ticket",
+      "medal",
+      "scene"
+    ]
+  },
+  {
+    "id": "bulk-nailong-035",
+    "name": "奶蛙 · 云间飞行",
+    "character": "奶蛙",
+    "filename": "bulk-nailong/nailong-035.gif",
+    "enabled": true,
+    "action": "云间飞行",
+    "emotion": [
+      "平静",
+      "无语"
+    ],
+    "scenes": [
+      "日常聊天",
+      "群聊互动"
+    ],
+    "examples": [
+      "让我看看怎么个事",
+      "今天的精神状态"
+    ],
+    "intensity": 2,
+    "existing_text": "",
+    "source_type": "reference",
+    "author": "奶蛙二创作者待核实；原型奶龙第七印象",
+    "source_url": "https://github.com/GGGeeeooorrrgggeee/nailong-memes/blob/faff7a463622d83bfd4ef62e04220675b41db49d/gif/71808EA8C5342D504532E0BE5F57F8C7.gif",
+    "source_note": "公开社区图库收集；仓库名 nailong 不是角色身份依据。本批为小头大肚、成人比例、黑色细长手指的奶蛙网络二创，不是官方圆头短肢粉掌垫的原版奶龙。包含三维二创及 AI 风格重制。图库整理者 George 不等于原作者；具体二创作者与授权待核实。原型奶龙由第七印象创作。保留原图、原GIF。",
+    "role": "subject",
+    "is_cutout": false,
+    "templates": [
+      "top",
+      "bottom",
+      "split",
+      "frame",
+      "grid",
+      "message",
+      "poster",
+      "side",
+      "polaroid",
+      "bubble",
+      "dialogue",
+      "spotlight",
+      "comic",
+      "subtitle",
+      "note",
+      "window",
+      "ticket",
+      "medal",
+      "scene"
+    ]
+  },
+  {
+    "id": "bulk-nailong-036",
+    "name": "奶蛙 · 海边开怀",
+    "character": "奶蛙",
+    "filename": "bulk-nailong/nailong-036.gif",
+    "enabled": true,
+    "action": "海边开怀",
+    "emotion": [
+      "平静",
+      "无语"
+    ],
+    "scenes": [
+      "日常聊天",
+      "群聊互动"
+    ],
+    "examples": [
+      "让我看看怎么个事",
+      "今天的精神状态"
+    ],
+    "intensity": 2,
+    "existing_text": "",
+    "source_type": "reference",
+    "author": "奶蛙二创作者待核实；原型奶龙第七印象",
+    "source_url": "https://github.com/GGGeeeooorrrgggeee/nailong-memes/blob/faff7a463622d83bfd4ef62e04220675b41db49d/gif/72116EAFBB7D8CE4AB445766FD88C152.gif",
+    "source_note": "公开社区图库收集；仓库名 nailong 不是角色身份依据。本批为小头大肚、成人比例、黑色细长手指的奶蛙网络二创，不是官方圆头短肢粉掌垫的原版奶龙。包含三维二创及 AI 风格重制。图库整理者 George 不等于原作者；具体二创作者与授权待核实。原型奶龙由第七印象创作。保留原图、原GIF。",
+    "role": "subject",
+    "is_cutout": false,
+    "templates": [
+      "top",
+      "bottom",
+      "split",
+      "frame",
+      "grid",
+      "message",
+      "poster",
+      "side",
+      "polaroid",
+      "bubble",
+      "dialogue",
+      "spotlight",
+      "comic",
+      "subtitle",
+      "note",
+      "window",
+      "ticket",
+      "medal",
+      "scene"
+    ]
+  },
+  {
+    "id": "bulk-nailong-037",
+    "name": "奶蛙 · 趴着飞行",
+    "character": "奶蛙",
+    "filename": "bulk-nailong/nailong-037.gif",
+    "enabled": true,
+    "action": "趴着飞行",
+    "emotion": [
+      "平静",
+      "无语"
+    ],
+    "scenes": [
+      "日常聊天",
+      "群聊互动"
+    ],
+    "examples": [
+      "让我看看怎么个事",
+      "今天的精神状态"
+    ],
+    "intensity": 2,
+    "existing_text": "",
+    "source_type": "reference",
+    "author": "奶蛙二创作者待核实；原型奶龙第七印象",
+    "source_url": "https://github.com/GGGeeeooorrrgggeee/nailong-memes/blob/faff7a463622d83bfd4ef62e04220675b41db49d/gif/74B04107B41A03251A17952FB7E3B466.gif",
+    "source_note": "公开社区图库收集；仓库名 nailong 不是角色身份依据。本批为小头大肚、成人比例、黑色细长手指的奶蛙网络二创，不是官方圆头短肢粉掌垫的原版奶龙。包含三维二创及 AI 风格重制。图库整理者 George 不等于原作者；具体二创作者与授权待核实。原型奶龙由第七印象创作。保留原图、原GIF。",
+    "role": "subject",
+    "is_cutout": false,
+    "templates": [
+      "top",
+      "bottom",
+      "split",
+      "frame",
+      "grid",
+      "message",
+      "poster",
+      "side",
+      "polaroid",
+      "bubble",
+      "dialogue",
+      "spotlight",
+      "comic",
+      "subtitle",
+      "note",
+      "window",
+      "ticket",
+      "medal",
+      "scene"
+    ]
+  },
+  {
+    "id": "bulk-nailong-038",
+    "name": "奶蛙 · 单手敬礼",
+    "character": "奶蛙",
+    "filename": "bulk-nailong/nailong-038.gif",
+    "enabled": false,
+    "action": "单手敬礼",
+    "emotion": [
+      "平静",
+      "无语"
+    ],
+    "scenes": [
+      "日常聊天",
+      "群聊互动"
+    ],
+    "examples": [
+      "让我看看怎么个事",
+      "今天的精神状态"
+    ],
+    "intensity": 2,
+    "existing_text": "",
+    "source_type": "reference",
+    "author": "奶蛙二创作者待核实；原型奶龙第七印象",
+    "source_url": "https://github.com/GGGeeeooorrrgggeee/nailong-memes/blob/faff7a463622d83bfd4ef62e04220675b41db49d/gif/79F6C69BFA5CBD8AE41EDE97346290E9.gif",
+    "source_note": "公开社区图库收集；仓库名 nailong 不是角色身份依据。本批为小头大肚、成人比例、黑色细长手指的奶蛙网络二创，不是官方圆头短肢粉掌垫的原版奶龙。包含三维二创及 AI 风格重制。图库整理者 George 不等于原作者；具体二创作者与授权待核实。原型奶龙由第七印象创作。保留原图、原GIF。 本图身份存疑，暂不启用。",
+    "role": "subject",
+    "is_cutout": false,
+    "templates": [
+      "top",
+      "bottom",
+      "split",
+      "frame",
+      "grid",
+      "message",
+      "poster",
+      "side",
+      "polaroid",
+      "bubble",
+      "dialogue",
+      "spotlight",
+      "comic",
+      "subtitle",
+      "note",
+      "window",
+      "ticket",
+      "medal",
+      "scene"
+    ]
+  },
+  {
+    "id": "bulk-nailong-039",
+    "name": "奶蛙 · 抱头大笑",
+    "character": "奶蛙",
+    "filename": "bulk-nailong/nailong-039.gif",
+    "enabled": true,
+    "action": "抱头大笑",
+    "emotion": [
+      "开心",
+      "搞怪"
+    ],
+    "scenes": [
+      "日常聊天",
+      "群聊互动"
+    ],
+    "examples": [
+      "让我看看怎么个事",
+      "今天的精神状态"
+    ],
+    "intensity": 3,
+    "existing_text": "",
+    "source_type": "reference",
+    "author": "奶蛙二创作者待核实；原型奶龙第七印象",
+    "source_url": "https://github.com/GGGeeeooorrrgggeee/nailong-memes/blob/faff7a463622d83bfd4ef62e04220675b41db49d/gif/7A07ECC7411B238C82F44FF1AACAD612.gif",
+    "source_note": "公开社区图库收集；仓库名 nailong 不是角色身份依据。本批为小头大肚、成人比例、黑色细长手指的奶蛙网络二创，不是官方圆头短肢粉掌垫的原版奶龙。包含三维二创及 AI 风格重制。图库整理者 George 不等于原作者；具体二创作者与授权待核实。原型奶龙由第七印象创作。保留原图、原GIF。",
+    "role": "subject",
+    "is_cutout": false,
+    "templates": [
+      "top",
+      "bottom",
+      "split",
+      "frame",
+      "grid",
+      "message",
+      "poster",
+      "side",
+      "polaroid",
+      "bubble",
+      "dialogue",
+      "spotlight",
+      "comic",
+      "subtitle",
+      "note",
+      "window",
+      "ticket",
+      "medal",
+      "scene"
+    ]
+  },
+  {
+    "id": "bulk-nailong-040",
+    "name": "奶蛙 · 墙边拍肚皮",
+    "character": "奶蛙",
+    "filename": "bulk-nailong/nailong-040.gif",
+    "enabled": false,
+    "action": "墙边拍肚皮",
+    "emotion": [
+      "平静",
+      "无语"
+    ],
+    "scenes": [
+      "日常聊天",
+      "群聊互动"
+    ],
+    "examples": [
+      "让我看看怎么个事",
+      "今天的精神状态"
+    ],
+    "intensity": 2,
+    "existing_text": "",
+    "source_type": "reference",
+    "author": "奶蛙二创作者待核实；原型奶龙第七印象",
+    "source_url": "https://github.com/GGGeeeooorrrgggeee/nailong-memes/blob/faff7a463622d83bfd4ef62e04220675b41db49d/gif/7E1F0A5097A6EF4BC5D48728A872FF9B.gif",
+    "source_note": "公开社区图库收集；仓库名 nailong 不是角色身份依据。本批为小头大肚、成人比例、黑色细长手指的奶蛙网络二创，不是官方圆头短肢粉掌垫的原版奶龙。包含三维二创及 AI 风格重制。图库整理者 George 不等于原作者；具体二创作者与授权待核实。原型奶龙由第七印象创作。保留原图、原GIF。 本图身份存疑，暂不启用。",
+    "role": "subject",
+    "is_cutout": false,
+    "templates": [
+      "top",
+      "bottom",
+      "split",
+      "frame",
+      "grid",
+      "message",
+      "poster",
+      "side",
+      "polaroid",
+      "bubble",
+      "dialogue",
+      "spotlight",
+      "comic",
+      "subtitle",
+      "note",
+      "window",
+      "ticket",
+      "medal",
+      "scene"
+    ]
+  },
+  {
+    "id": "bulk-nailong-041",
+    "name": "奶蛙 · 车内拍镜头",
+    "character": "奶蛙",
+    "filename": "bulk-nailong/nailong-041.gif",
+    "enabled": true,
+    "action": "车内拍镜头",
+    "emotion": [
+      "平静",
+      "无语"
+    ],
+    "scenes": [
+      "日常聊天",
+      "群聊互动"
+    ],
+    "examples": [
+      "让我看看怎么个事",
+      "今天的精神状态"
+    ],
+    "intensity": 2,
+    "existing_text": "",
+    "source_type": "reference",
+    "author": "奶蛙二创作者待核实；原型奶龙第七印象",
+    "source_url": "https://github.com/GGGeeeooorrrgggeee/nailong-memes/blob/faff7a463622d83bfd4ef62e04220675b41db49d/gif/8114153C1B2AE768A5433C2002E97DFF.gif",
+    "source_note": "公开社区图库收集；仓库名 nailong 不是角色身份依据。本批为小头大肚、成人比例、黑色细长手指的奶蛙网络二创，不是官方圆头短肢粉掌垫的原版奶龙。包含三维二创及 AI 风格重制。图库整理者 George 不等于原作者；具体二创作者与授权待核实。原型奶龙由第七印象创作。保留原图、原GIF。",
+    "role": "subject",
+    "is_cutout": false,
+    "templates": [
+      "top",
+      "bottom",
+      "split",
+      "frame",
+      "grid",
+      "message",
+      "poster",
+      "side",
+      "polaroid",
+      "bubble",
+      "dialogue",
+      "spotlight",
+      "comic",
+      "subtitle",
+      "note",
+      "window",
+      "ticket",
+      "medal",
+      "scene"
+    ]
+  },
+  {
+    "id": "bulk-nailong-042",
+    "name": "奶蛙 · 集体跳舞",
+    "character": "奶蛙",
+    "filename": "bulk-nailong/nailong-042.gif",
+    "enabled": true,
+    "action": "集体跳舞",
+    "emotion": [
+      "开心",
+      "搞怪"
+    ],
+    "scenes": [
+      "日常聊天",
+      "群聊互动"
+    ],
+    "examples": [
+      "让我看看怎么个事",
+      "今天的精神状态"
+    ],
+    "intensity": 2,
+    "existing_text": "",
+    "source_type": "reference",
+    "author": "奶蛙二创作者待核实；原型奶龙第七印象",
+    "source_url": "https://github.com/GGGeeeooorrrgggeee/nailong-memes/blob/faff7a463622d83bfd4ef62e04220675b41db49d/gif/84849E212E1AEE2CD87D2239CEC69967.gif",
+    "source_note": "公开社区图库收集；仓库名 nailong 不是角色身份依据。本批为小头大肚、成人比例、黑色细长手指的奶蛙网络二创，不是官方圆头短肢粉掌垫的原版奶龙。包含三维二创及 AI 风格重制。图库整理者 George 不等于原作者；具体二创作者与授权待核实。原型奶龙由第七印象创作。保留原图、原GIF。",
+    "role": "subject",
+    "is_cutout": false,
+    "templates": [
+      "top",
+      "bottom",
+      "split",
+      "frame",
+      "grid",
+      "message",
+      "poster",
+      "side",
+      "polaroid",
+      "bubble",
+      "dialogue",
+      "spotlight",
+      "comic",
+      "subtitle",
+      "note",
+      "window",
+      "ticket",
+      "medal",
+      "scene"
+    ]
+  },
+  {
+    "id": "bulk-nailong-043",
+    "name": "奶蛙 · 走廊背影",
+    "character": "奶蛙",
+    "filename": "bulk-nailong/nailong-043.gif",
+    "enabled": true,
+    "action": "走廊背影",
+    "emotion": [
+      "平静",
+      "无语"
+    ],
+    "scenes": [
+      "日常聊天",
+      "群聊互动"
+    ],
+    "examples": [
+      "让我看看怎么个事",
+      "今天的精神状态"
+    ],
+    "intensity": 2,
+    "existing_text": "",
+    "source_type": "reference",
+    "author": "奶蛙二创作者待核实；原型奶龙第七印象",
+    "source_url": "https://github.com/GGGeeeooorrrgggeee/nailong-memes/blob/faff7a463622d83bfd4ef62e04220675b41db49d/gif/8D66CA035EC0E318F3827150D3706E5D.gif",
+    "source_note": "公开社区图库收集；仓库名 nailong 不是角色身份依据。本批为小头大肚、成人比例、黑色细长手指的奶蛙网络二创，不是官方圆头短肢粉掌垫的原版奶龙。包含三维二创及 AI 风格重制。图库整理者 George 不等于原作者；具体二创作者与授权待核实。原型奶龙由第七印象创作。保留原图、原GIF。",
+    "role": "subject",
+    "is_cutout": false,
+    "templates": [
+      "top",
+      "bottom",
+      "split",
+      "frame",
+      "grid",
+      "message",
+      "poster",
+      "side",
+      "polaroid",
+      "bubble",
+      "dialogue",
+      "spotlight",
+      "comic",
+      "subtitle",
+      "note",
+      "window",
+      "ticket",
+      "medal",
+      "scene"
+    ]
+  },
+  {
+    "id": "bulk-nailong-044",
+    "name": "奶蛙 · 低头握拳",
+    "character": "奶蛙",
+    "filename": "bulk-nailong/nailong-044.gif",
+    "enabled": true,
+    "action": "低头握拳",
+    "emotion": [
+      "平静",
+      "无语"
+    ],
+    "scenes": [
+      "日常聊天",
+      "群聊互动"
+    ],
+    "examples": [
+      "让我看看怎么个事",
+      "今天的精神状态"
+    ],
+    "intensity": 2,
+    "existing_text": "",
+    "source_type": "reference",
+    "author": "奶蛙二创作者待核实；原型奶龙第七印象",
+    "source_url": "https://github.com/GGGeeeooorrrgggeee/nailong-memes/blob/faff7a463622d83bfd4ef62e04220675b41db49d/gif/9337EA0772D5F796F3D2353D02572405.gif",
+    "source_note": "公开社区图库收集；仓库名 nailong 不是角色身份依据。本批为小头大肚、成人比例、黑色细长手指的奶蛙网络二创，不是官方圆头短肢粉掌垫的原版奶龙。包含三维二创及 AI 风格重制。图库整理者 George 不等于原作者；具体二创作者与授权待核实。原型奶龙由第七印象创作。保留原图、原GIF。",
+    "role": "subject",
+    "is_cutout": false,
+    "templates": [
+      "top",
+      "bottom",
+      "split",
+      "frame",
+      "grid",
+      "message",
+      "poster",
+      "side",
+      "polaroid",
+      "bubble",
+      "dialogue",
+      "spotlight",
+      "comic",
+      "subtitle",
+      "note",
+      "window",
+      "ticket",
+      "medal",
+      "scene"
+    ]
+  },
+  {
+    "id": "bulk-nailong-045",
+    "name": "奶蛙 · 车边摇摆",
+    "character": "奶蛙",
+    "filename": "bulk-nailong/nailong-045.gif",
+    "enabled": true,
+    "action": "车边摇摆",
+    "emotion": [
+      "平静",
+      "无语"
+    ],
+    "scenes": [
+      "日常聊天",
+      "群聊互动"
+    ],
+    "examples": [
+      "让我看看怎么个事",
+      "今天的精神状态"
+    ],
+    "intensity": 2,
+    "existing_text": "",
+    "source_type": "reference",
+    "author": "奶蛙二创作者待核实；原型奶龙第七印象",
+    "source_url": "https://github.com/GGGeeeooorrrgggeee/nailong-memes/blob/faff7a463622d83bfd4ef62e04220675b41db49d/gif/941AF224805AFB1ED534C2A42ADB8EF4.gif",
+    "source_note": "公开社区图库收集；仓库名 nailong 不是角色身份依据。本批为小头大肚、成人比例、黑色细长手指的奶蛙网络二创，不是官方圆头短肢粉掌垫的原版奶龙。包含三维二创及 AI 风格重制。图库整理者 George 不等于原作者；具体二创作者与授权待核实。原型奶龙由第七印象创作。保留原图、原GIF。",
+    "role": "subject",
+    "is_cutout": false,
+    "templates": [
+      "top",
+      "bottom",
+      "split",
+      "frame",
+      "grid",
+      "message",
+      "poster",
+      "side",
+      "polaroid",
+      "bubble",
+      "dialogue",
+      "spotlight",
+      "comic",
+      "subtitle",
+      "note",
+      "window",
+      "ticket",
+      "medal",
+      "scene"
+    ]
+  },
+  {
+    "id": "bulk-nailong-046",
+    "name": "奶蛙 · 西装走出电梯",
+    "character": "奶蛙",
+    "filename": "bulk-nailong/nailong-046.gif",
+    "enabled": true,
+    "action": "西装走出电梯",
+    "emotion": [
+      "平静",
+      "无语"
+    ],
+    "scenes": [
+      "日常聊天",
+      "群聊互动"
+    ],
+    "examples": [
+      "让我看看怎么个事",
+      "今天的精神状态"
+    ],
+    "intensity": 2,
+    "existing_text": "",
+    "source_type": "reference",
+    "author": "奶蛙二创作者待核实；原型奶龙第七印象",
+    "source_url": "https://github.com/GGGeeeooorrrgggeee/nailong-memes/blob/faff7a463622d83bfd4ef62e04220675b41db49d/gif/9752F1FA52E15DFB3DD5D0A7C5D52EDD.gif",
+    "source_note": "公开社区图库收集；仓库名 nailong 不是角色身份依据。本批为小头大肚、成人比例、黑色细长手指的奶蛙网络二创，不是官方圆头短肢粉掌垫的原版奶龙。包含三维二创及 AI 风格重制。图库整理者 George 不等于原作者；具体二创作者与授权待核实。原型奶龙由第七印象创作。保留原图、原GIF。",
+    "role": "subject",
+    "is_cutout": false,
+    "templates": [
+      "top",
+      "bottom",
+      "split",
+      "frame",
+      "grid",
+      "message",
+      "poster",
+      "side",
+      "polaroid",
+      "bubble",
+      "dialogue",
+      "spotlight",
+      "comic",
+      "subtitle",
+      "note",
+      "window",
+      "ticket",
+      "medal",
+      "scene"
+    ]
+  },
+  {
+    "id": "bulk-nailong-048",
+    "name": "奶蛙 · 趴在同伴身上",
+    "character": "奶蛙",
+    "filename": "bulk-nailong/nailong-048.gif",
+    "enabled": false,
+    "action": "趴在同伴身上",
+    "emotion": [
+      "平静",
+      "无语"
+    ],
+    "scenes": [
+      "日常聊天",
+      "群聊互动"
+    ],
+    "examples": [
+      "让我看看怎么个事",
+      "今天的精神状态"
+    ],
+    "intensity": 2,
+    "existing_text": "",
+    "source_type": "reference",
+    "author": "奶蛙二创作者待核实；原型奶龙第七印象",
+    "source_url": "https://github.com/GGGeeeooorrrgggeee/nailong-memes/blob/faff7a463622d83bfd4ef62e04220675b41db49d/gif/9BED7F5237830E48A60B44BA62765A35.gif",
+    "source_note": "公开社区图库收集；仓库名 nailong 不是角色身份依据。本批为小头大肚、成人比例、黑色细长手指的奶蛙网络二创，不是官方圆头短肢粉掌垫的原版奶龙。包含三维二创及 AI 风格重制。图库整理者 George 不等于原作者；具体二创作者与授权待核实。原型奶龙由第七印象创作。保留原图、原GIF。 本图身份存疑，暂不启用。",
+    "role": "subject",
+    "is_cutout": false,
+    "templates": [
+      "top",
+      "bottom",
+      "split",
+      "frame",
+      "grid",
+      "message",
+      "poster",
+      "side",
+      "polaroid",
+      "bubble",
+      "dialogue",
+      "spotlight",
+      "comic",
+      "subtitle",
+      "note",
+      "window",
+      "ticket",
+      "medal",
+      "scene"
+    ]
+  },
+  {
+    "id": "bulk-nailong-049",
+    "name": "奶蛙 · 马路奔跑",
+    "character": "奶蛙",
+    "filename": "bulk-nailong/nailong-049.gif",
+    "enabled": true,
+    "action": "马路奔跑",
+    "emotion": [
+      "平静",
+      "无语"
+    ],
+    "scenes": [
+      "日常聊天",
+      "群聊互动"
+    ],
+    "examples": [
+      "让我看看怎么个事",
+      "今天的精神状态"
+    ],
+    "intensity": 2,
+    "existing_text": "",
+    "source_type": "reference",
+    "author": "奶蛙二创作者待核实；原型奶龙第七印象",
+    "source_url": "https://github.com/GGGeeeooorrrgggeee/nailong-memes/blob/faff7a463622d83bfd4ef62e04220675b41db49d/gif/9DE033DCF63AB64C8CE32A908C8D9142.gif",
+    "source_note": "公开社区图库收集；仓库名 nailong 不是角色身份依据。本批为小头大肚、成人比例、黑色细长手指的奶蛙网络二创，不是官方圆头短肢粉掌垫的原版奶龙。包含三维二创及 AI 风格重制。图库整理者 George 不等于原作者；具体二创作者与授权待核实。原型奶龙由第七印象创作。保留原图、原GIF。",
+    "role": "subject",
+    "is_cutout": false,
+    "templates": [
+      "top",
+      "bottom",
+      "split",
+      "frame",
+      "grid",
+      "message",
+      "poster",
+      "side",
+      "polaroid",
+      "bubble",
+      "dialogue",
+      "spotlight",
+      "comic",
+      "subtitle",
+      "note",
+      "window",
+      "ticket",
+      "medal",
+      "scene"
+    ]
+  },
+  {
+    "id": "bulk-nailong-050",
+    "name": "奶蛙 · 捂嘴偷笑",
+    "character": "奶蛙",
+    "filename": "bulk-nailong/nailong-050.gif",
+    "enabled": true,
+    "action": "捂嘴偷笑",
+    "emotion": [
+      "开心",
+      "搞怪"
+    ],
+    "scenes": [
+      "日常聊天",
+      "群聊互动"
+    ],
+    "examples": [
+      "让我看看怎么个事",
+      "今天的精神状态"
+    ],
+    "intensity": 3,
+    "existing_text": "",
+    "source_type": "reference",
+    "author": "奶蛙二创作者待核实；原型奶龙第七印象",
+    "source_url": "https://github.com/GGGeeeooorrrgggeee/nailong-memes/blob/faff7a463622d83bfd4ef62e04220675b41db49d/gif/A22F0FA6F1B3A40CACAE57E16D6FF36B.gif",
+    "source_note": "公开社区图库收集；仓库名 nailong 不是角色身份依据。本批为小头大肚、成人比例、黑色细长手指的奶蛙网络二创，不是官方圆头短肢粉掌垫的原版奶龙。包含三维二创及 AI 风格重制。图库整理者 George 不等于原作者；具体二创作者与授权待核实。原型奶龙由第七印象创作。保留原图、原GIF。",
+    "role": "subject",
+    "is_cutout": false,
+    "templates": [
+      "top",
+      "bottom",
+      "split",
+      "frame",
+      "grid",
+      "message",
+      "poster",
+      "side",
+      "polaroid",
+      "bubble",
+      "dialogue",
+      "spotlight",
+      "comic",
+      "subtitle",
+      "note",
+      "window",
+      "ticket",
+      "medal",
+      "scene"
+    ]
+  },
+  {
+    "id": "bulk-nailong-052",
+    "name": "奶蛙 · 肚皮特写",
+    "character": "奶蛙",
+    "filename": "bulk-nailong/nailong-052.gif",
+    "enabled": true,
+    "action": "肚皮特写",
+    "emotion": [
+      "平静",
+      "无语"
+    ],
+    "scenes": [
+      "日常聊天",
+      "群聊互动"
+    ],
+    "examples": [
+      "让我看看怎么个事",
+      "今天的精神状态"
+    ],
+    "intensity": 2,
+    "existing_text": "",
+    "source_type": "reference",
+    "author": "奶蛙二创作者待核实；原型奶龙第七印象",
+    "source_url": "https://github.com/GGGeeeooorrrgggeee/nailong-memes/blob/faff7a463622d83bfd4ef62e04220675b41db49d/gif/A64461696D60A45333A5BD61A0C9F8DC.gif",
+    "source_note": "公开社区图库收集；仓库名 nailong 不是角色身份依据。本批为小头大肚、成人比例、黑色细长手指的奶蛙网络二创，不是官方圆头短肢粉掌垫的原版奶龙。包含三维二创及 AI 风格重制。图库整理者 George 不等于原作者；具体二创作者与授权待核实。原型奶龙由第七印象创作。保留原图、原GIF。",
+    "role": "subject",
+    "is_cutout": false,
+    "templates": [
+      "top",
+      "bottom",
+      "split",
+      "frame",
+      "grid",
+      "message",
+      "poster",
+      "side",
+      "polaroid",
+      "bubble",
+      "dialogue",
+      "spotlight",
+      "comic",
+      "subtitle",
+      "note",
+      "window",
+      "ticket",
+      "medal",
+      "scene"
+    ]
+  },
+  {
+    "id": "bulk-nailong-053",
+    "name": "奶蛙 · 街头倒立",
+    "character": "奶蛙",
+    "filename": "bulk-nailong/nailong-053.gif",
+    "enabled": true,
+    "action": "街头倒立",
+    "emotion": [
+      "平静",
+      "无语"
+    ],
+    "scenes": [
+      "日常聊天",
+      "群聊互动"
+    ],
+    "examples": [
+      "让我看看怎么个事",
+      "今天的精神状态"
+    ],
+    "intensity": 2,
+    "existing_text": "",
+    "source_type": "reference",
+    "author": "奶蛙二创作者待核实；原型奶龙第七印象",
+    "source_url": "https://github.com/GGGeeeooorrrgggeee/nailong-memes/blob/faff7a463622d83bfd4ef62e04220675b41db49d/gif/A98366210683ACF2FE59959D4E63F43A.gif",
+    "source_note": "公开社区图库收集；仓库名 nailong 不是角色身份依据。本批为小头大肚、成人比例、黑色细长手指的奶蛙网络二创，不是官方圆头短肢粉掌垫的原版奶龙。包含三维二创及 AI 风格重制。图库整理者 George 不等于原作者；具体二创作者与授权待核实。原型奶龙由第七印象创作。保留原图、原GIF。",
+    "role": "subject",
+    "is_cutout": false,
+    "templates": [
+      "top",
+      "bottom",
+      "split",
+      "frame",
+      "grid",
+      "message",
+      "poster",
+      "side",
+      "polaroid",
+      "bubble",
+      "dialogue",
+      "spotlight",
+      "comic",
+      "subtitle",
+      "note",
+      "window",
+      "ticket",
+      "medal",
+      "scene"
+    ]
+  },
+  {
+    "id": "bulk-nailong-054",
+    "name": "奶蛙 · 草坪侧身",
+    "character": "奶蛙",
+    "filename": "bulk-nailong/nailong-054.gif",
+    "enabled": true,
+    "action": "草坪侧身",
+    "emotion": [
+      "平静",
+      "无语"
+    ],
+    "scenes": [
+      "日常聊天",
+      "群聊互动"
+    ],
+    "examples": [
+      "让我看看怎么个事",
+      "今天的精神状态"
+    ],
+    "intensity": 2,
+    "existing_text": "",
+    "source_type": "reference",
+    "author": "奶蛙二创作者待核实；原型奶龙第七印象",
+    "source_url": "https://github.com/GGGeeeooorrrgggeee/nailong-memes/blob/faff7a463622d83bfd4ef62e04220675b41db49d/gif/AD789BB80C1BAFA19B8916AC2F82AF7D.gif",
+    "source_note": "公开社区图库收集；仓库名 nailong 不是角色身份依据。本批为小头大肚、成人比例、黑色细长手指的奶蛙网络二创，不是官方圆头短肢粉掌垫的原版奶龙。包含三维二创及 AI 风格重制。图库整理者 George 不等于原作者；具体二创作者与授权待核实。原型奶龙由第七印象创作。保留原图、原GIF。",
+    "role": "subject",
+    "is_cutout": false,
+    "templates": [
+      "top",
+      "bottom",
+      "split",
+      "frame",
+      "grid",
+      "message",
+      "poster",
+      "side",
+      "polaroid",
+      "bubble",
+      "dialogue",
+      "spotlight",
+      "comic",
+      "subtitle",
+      "note",
+      "window",
+      "ticket",
+      "medal",
+      "scene"
+    ]
+  },
+  {
+    "id": "bulk-nailong-055",
+    "name": "奶蛙 · 课堂捂嘴",
+    "character": "奶蛙",
+    "filename": "bulk-nailong/nailong-055.gif",
+    "enabled": true,
+    "action": "课堂捂嘴",
+    "emotion": [
+      "平静",
+      "无语"
+    ],
+    "scenes": [
+      "日常聊天",
+      "群聊互动",
+      "学习",
+      "上课"
+    ],
+    "examples": [
+      "让我看看怎么个事",
+      "今天的精神状态"
+    ],
+    "intensity": 2,
+    "existing_text": "",
+    "source_type": "reference",
+    "author": "奶蛙二创作者待核实；原型奶龙第七印象",
+    "source_url": "https://github.com/GGGeeeooorrrgggeee/nailong-memes/blob/faff7a463622d83bfd4ef62e04220675b41db49d/gif/AE78EC8BCCF3D684D704305AB76DB254.gif",
+    "source_note": "公开社区图库收集；仓库名 nailong 不是角色身份依据。本批为小头大肚、成人比例、黑色细长手指的奶蛙网络二创，不是官方圆头短肢粉掌垫的原版奶龙。包含三维二创及 AI 风格重制。图库整理者 George 不等于原作者；具体二创作者与授权待核实。原型奶龙由第七印象创作。保留原图、原GIF。",
+    "role": "subject",
+    "is_cutout": false,
+    "templates": [
+      "top",
+      "bottom",
+      "split",
+      "frame",
+      "grid",
+      "message",
+      "poster",
+      "side",
+      "polaroid",
+      "bubble",
+      "dialogue",
+      "spotlight",
+      "comic",
+      "subtitle",
+      "note",
+      "window",
+      "ticket",
+      "medal",
+      "scene"
+    ]
+  },
+  {
+    "id": "bulk-nailong-056",
+    "name": "奶蛙 · 双龙面对面大笑",
+    "character": "奶蛙",
+    "filename": "bulk-nailong/nailong-056.gif",
+    "enabled": true,
+    "action": "双龙面对面大笑",
+    "emotion": [
+      "开心",
+      "搞怪"
+    ],
+    "scenes": [
+      "日常聊天",
+      "群聊互动"
+    ],
+    "examples": [
+      "让我看看怎么个事",
+      "今天的精神状态"
+    ],
+    "intensity": 3,
+    "existing_text": "",
+    "source_type": "reference",
+    "author": "奶蛙二创作者待核实；原型奶龙第七印象",
+    "source_url": "https://github.com/GGGeeeooorrrgggeee/nailong-memes/blob/faff7a463622d83bfd4ef62e04220675b41db49d/gif/B0319270EAAEA60248D73A3EEFE31554.gif",
+    "source_note": "公开社区图库收集；仓库名 nailong 不是角色身份依据。本批为小头大肚、成人比例、黑色细长手指的奶蛙网络二创，不是官方圆头短肢粉掌垫的原版奶龙。包含三维二创及 AI 风格重制。图库整理者 George 不等于原作者；具体二创作者与授权待核实。原型奶龙由第七印象创作。保留原图、原GIF。",
+    "role": "subject",
+    "is_cutout": false,
+    "templates": [
+      "top",
+      "bottom",
+      "split",
+      "frame",
+      "grid",
+      "message",
+      "poster",
+      "side",
+      "polaroid",
+      "bubble",
+      "dialogue",
+      "spotlight",
+      "comic",
+      "subtitle",
+      "note",
+      "window",
+      "ticket",
+      "medal",
+      "scene"
+    ]
+  },
+  {
+    "id": "bulk-nailong-057",
+    "name": "奶蛙 · 手持自拍杆",
+    "character": "奶蛙",
+    "filename": "bulk-nailong/nailong-057.gif",
+    "enabled": true,
+    "action": "手持自拍杆",
+    "emotion": [
+      "平静",
+      "无语"
+    ],
+    "scenes": [
+      "日常聊天",
+      "群聊互动"
+    ],
+    "examples": [
+      "让我看看怎么个事",
+      "今天的精神状态"
+    ],
+    "intensity": 2,
+    "existing_text": "",
+    "source_type": "reference",
+    "author": "奶蛙二创作者待核实；原型奶龙第七印象",
+    "source_url": "https://github.com/GGGeeeooorrrgggeee/nailong-memes/blob/faff7a463622d83bfd4ef62e04220675b41db49d/gif/C165854113012560E7979E3A4AF597AF.gif",
+    "source_note": "公开社区图库收集；仓库名 nailong 不是角色身份依据。本批为小头大肚、成人比例、黑色细长手指的奶蛙网络二创，不是官方圆头短肢粉掌垫的原版奶龙。包含三维二创及 AI 风格重制。图库整理者 George 不等于原作者；具体二创作者与授权待核实。原型奶龙由第七印象创作。保留原图、原GIF。",
+    "role": "subject",
+    "is_cutout": false,
+    "templates": [
+      "top",
+      "bottom",
+      "split",
+      "frame",
+      "grid",
+      "message",
+      "poster",
+      "side",
+      "polaroid",
+      "bubble",
+      "dialogue",
+      "spotlight",
+      "comic",
+      "subtitle",
+      "note",
+      "window",
+      "ticket",
+      "medal",
+      "scene"
+    ]
+  },
+  {
+    "id": "bulk-nailong-058",
+    "name": "奶蛙 · 弯腰抱肚",
+    "character": "奶蛙",
+    "filename": "bulk-nailong/nailong-058.gif",
+    "enabled": true,
+    "action": "弯腰抱肚",
+    "emotion": [
+      "平静",
+      "无语"
+    ],
+    "scenes": [
+      "日常聊天",
+      "群聊互动"
+    ],
+    "examples": [
+      "让我看看怎么个事",
+      "今天的精神状态"
+    ],
+    "intensity": 2,
+    "existing_text": "",
+    "source_type": "reference",
+    "author": "奶蛙二创作者待核实；原型奶龙第七印象",
+    "source_url": "https://github.com/GGGeeeooorrrgggeee/nailong-memes/blob/faff7a463622d83bfd4ef62e04220675b41db49d/gif/C209129A7D64057C2D36E9CED0501B7A.gif",
+    "source_note": "公开社区图库收集；仓库名 nailong 不是角色身份依据。本批为小头大肚、成人比例、黑色细长手指的奶蛙网络二创，不是官方圆头短肢粉掌垫的原版奶龙。包含三维二创及 AI 风格重制。图库整理者 George 不等于原作者；具体二创作者与授权待核实。原型奶龙由第七印象创作。保留原图、原GIF。",
+    "role": "subject",
+    "is_cutout": true,
+    "templates": [
+      "top",
+      "bottom",
+      "split",
+      "frame",
+      "flower",
+      "grid",
+      "message",
+      "poster",
+      "side",
+      "polaroid",
+      "bubble",
+      "dialogue",
+      "spotlight",
+      "comic",
+      "subtitle",
+      "note",
+      "window",
+      "ticket",
+      "medal",
+      "scene"
+    ]
+  },
+  {
+    "id": "bulk-nailong-060",
+    "name": "奶蛙 · 缩在被窝",
+    "character": "奶蛙",
+    "filename": "bulk-nailong/nailong-060.gif",
+    "enabled": true,
+    "action": "缩在被窝",
+    "emotion": [
+      "平静",
+      "无语"
+    ],
+    "scenes": [
+      "日常聊天",
+      "群聊互动",
+      "休息",
+      "早八",
+      "摆烂"
+    ],
+    "examples": [
+      "让我看看怎么个事",
+      "今天的精神状态"
+    ],
+    "intensity": 2,
+    "existing_text": "",
+    "source_type": "reference",
+    "author": "奶蛙二创作者待核实；原型奶龙第七印象",
+    "source_url": "https://github.com/GGGeeeooorrrgggeee/nailong-memes/blob/faff7a463622d83bfd4ef62e04220675b41db49d/gif/C4BCECA4E97A07A92C1751A8D93E227B.gif",
+    "source_note": "公开社区图库收集；仓库名 nailong 不是角色身份依据。本批为小头大肚、成人比例、黑色细长手指的奶蛙网络二创，不是官方圆头短肢粉掌垫的原版奶龙。包含三维二创及 AI 风格重制。图库整理者 George 不等于原作者；具体二创作者与授权待核实。原型奶龙由第七印象创作。保留原图、原GIF。",
+    "role": "subject",
+    "is_cutout": false,
+    "templates": [
+      "top",
+      "bottom",
+      "split",
+      "frame",
+      "grid",
+      "message",
+      "poster",
+      "side",
+      "polaroid",
+      "bubble",
+      "dialogue",
+      "spotlight",
+      "comic",
+      "subtitle",
+      "note",
+      "window",
+      "ticket",
+      "medal",
+      "scene"
+    ]
+  },
+  {
+    "id": "bulk-nailong-061",
+    "name": "奶蛙 · 举起调料瓶",
+    "character": "奶蛙",
+    "filename": "bulk-nailong/nailong-061.gif",
+    "enabled": true,
+    "action": "举起调料瓶",
+    "emotion": [
+      "平静",
+      "无语"
+    ],
+    "scenes": [
+      "日常聊天",
+      "群聊互动",
+      "约饭",
+      "食堂"
+    ],
+    "examples": [
+      "让我看看怎么个事",
+      "今天的精神状态"
+    ],
+    "intensity": 2,
+    "existing_text": "",
+    "source_type": "reference",
+    "author": "奶蛙二创作者待核实；原型奶龙第七印象",
+    "source_url": "https://github.com/GGGeeeooorrrgggeee/nailong-memes/blob/faff7a463622d83bfd4ef62e04220675b41db49d/gif/C818B7AB164236821ADFEF7D49517AE5.gif",
+    "source_note": "公开社区图库收集；仓库名 nailong 不是角色身份依据。本批为小头大肚、成人比例、黑色细长手指的奶蛙网络二创，不是官方圆头短肢粉掌垫的原版奶龙。包含三维二创及 AI 风格重制。图库整理者 George 不等于原作者；具体二创作者与授权待核实。原型奶龙由第七印象创作。保留原图、原GIF。",
+    "role": "subject",
+    "is_cutout": false,
+    "templates": [
+      "top",
+      "bottom",
+      "split",
+      "frame",
+      "grid",
+      "message",
+      "poster",
+      "side",
+      "polaroid",
+      "bubble",
+      "dialogue",
+      "spotlight",
+      "comic",
+      "subtitle",
+      "note",
+      "window",
+      "ticket",
+      "medal",
+      "scene"
+    ]
+  },
+  {
+    "id": "bulk-nailong-062",
+    "name": "奶蛙 · 叉腰张嘴",
+    "character": "奶蛙",
+    "filename": "bulk-nailong/nailong-062.gif",
+    "enabled": true,
+    "action": "叉腰张嘴",
+    "emotion": [
+      "平静",
+      "无语"
+    ],
+    "scenes": [
+      "日常聊天",
+      "群聊互动"
+    ],
+    "examples": [
+      "让我看看怎么个事",
+      "今天的精神状态"
+    ],
+    "intensity": 2,
+    "existing_text": "",
+    "source_type": "reference",
+    "author": "奶蛙二创作者待核实；原型奶龙第七印象",
+    "source_url": "https://github.com/GGGeeeooorrrgggeee/nailong-memes/blob/faff7a463622d83bfd4ef62e04220675b41db49d/gif/CA9163BA0A8E0F66CB1A6A836D741703.gif",
+    "source_note": "公开社区图库收集；仓库名 nailong 不是角色身份依据。本批为小头大肚、成人比例、黑色细长手指的奶蛙网络二创，不是官方圆头短肢粉掌垫的原版奶龙。包含三维二创及 AI 风格重制。图库整理者 George 不等于原作者；具体二创作者与授权待核实。原型奶龙由第七印象创作。保留原图、原GIF。",
+    "role": "subject",
+    "is_cutout": false,
+    "templates": [
+      "top",
+      "bottom",
+      "split",
+      "frame",
+      "grid",
+      "message",
+      "poster",
+      "side",
+      "polaroid",
+      "bubble",
+      "dialogue",
+      "spotlight",
+      "comic",
+      "subtitle",
+      "note",
+      "window",
+      "ticket",
+      "medal",
+      "scene"
+    ]
+  },
+  {
+    "id": "bulk-nailong-063",
+    "name": "奶蛙 · 球场单手摆动",
+    "character": "奶蛙",
+    "filename": "bulk-nailong/nailong-063.gif",
+    "enabled": true,
+    "action": "球场单手摆动",
+    "emotion": [
+      "平静",
+      "无语"
+    ],
+    "scenes": [
+      "日常聊天",
+      "群聊互动"
+    ],
+    "examples": [
+      "让我看看怎么个事",
+      "今天的精神状态"
+    ],
+    "intensity": 2,
+    "existing_text": "",
+    "source_type": "reference",
+    "author": "奶蛙二创作者待核实；原型奶龙第七印象",
+    "source_url": "https://github.com/GGGeeeooorrrgggeee/nailong-memes/blob/faff7a463622d83bfd4ef62e04220675b41db49d/gif/CD6514E927142183B92C75CB0EAF6F63.gif",
+    "source_note": "公开社区图库收集；仓库名 nailong 不是角色身份依据。本批为小头大肚、成人比例、黑色细长手指的奶蛙网络二创，不是官方圆头短肢粉掌垫的原版奶龙。包含三维二创及 AI 风格重制。图库整理者 George 不等于原作者；具体二创作者与授权待核实。原型奶龙由第七印象创作。保留原图、原GIF。",
+    "role": "subject",
+    "is_cutout": false,
+    "templates": [
+      "top",
+      "bottom",
+      "split",
+      "frame",
+      "grid",
+      "message",
+      "poster",
+      "side",
+      "polaroid",
+      "bubble",
+      "dialogue",
+      "spotlight",
+      "comic",
+      "subtitle",
+      "note",
+      "window",
+      "ticket",
+      "medal",
+      "scene"
+    ]
+  },
+  {
+    "id": "bulk-nailong-064",
+    "name": "奶蛙 · 贴脸大笑",
+    "character": "奶蛙",
+    "filename": "bulk-nailong/nailong-064.gif",
+    "enabled": false,
+    "action": "贴脸大笑",
+    "emotion": [
+      "开心",
+      "搞怪"
+    ],
+    "scenes": [
+      "日常聊天",
+      "群聊互动"
+    ],
+    "examples": [
+      "让我看看怎么个事",
+      "今天的精神状态"
+    ],
+    "intensity": 3,
+    "existing_text": "",
+    "source_type": "reference",
+    "author": "奶蛙二创作者待核实；原型奶龙第七印象",
+    "source_url": "https://github.com/GGGeeeooorrrgggeee/nailong-memes/blob/faff7a463622d83bfd4ef62e04220675b41db49d/gif/D046006C8E6A57F1C4B8FB044F387401.gif",
+    "source_note": "公开社区图库收集；仓库名 nailong 不是角色身份依据。本批为小头大肚、成人比例、黑色细长手指的奶蛙网络二创，不是官方圆头短肢粉掌垫的原版奶龙。包含三维二创及 AI 风格重制。图库整理者 George 不等于原作者；具体二创作者与授权待核实。原型奶龙由第七印象创作。保留原图、原GIF。 本图身份存疑，暂不启用。",
+    "role": "subject",
+    "is_cutout": false,
+    "templates": [
+      "top",
+      "bottom",
+      "split",
+      "frame",
+      "grid",
+      "message",
+      "poster",
+      "side",
+      "polaroid",
+      "bubble",
+      "dialogue",
+      "spotlight",
+      "comic",
+      "subtitle",
+      "note",
+      "window",
+      "ticket",
+      "medal",
+      "scene"
+    ]
+  },
+  {
+    "id": "bulk-nailong-065",
+    "name": "奶蛙 · 双手点赞",
+    "character": "奶蛙",
+    "filename": "bulk-nailong/nailong-065.gif",
+    "enabled": true,
+    "action": "双手点赞",
+    "emotion": [
+      "可爱",
+      "期待"
+    ],
+    "scenes": [
+      "日常聊天",
+      "群聊互动"
+    ],
+    "examples": [
+      "让我看看怎么个事",
+      "今天的精神状态"
+    ],
+    "intensity": 2,
+    "existing_text": "",
+    "source_type": "reference",
+    "author": "奶蛙二创作者待核实；原型奶龙第七印象",
+    "source_url": "https://github.com/GGGeeeooorrrgggeee/nailong-memes/blob/faff7a463622d83bfd4ef62e04220675b41db49d/gif/D7BB82FDCEFE4304DEFC2DC1CC132655.gif",
+    "source_note": "公开社区图库收集；仓库名 nailong 不是角色身份依据。本批为小头大肚、成人比例、黑色细长手指的奶蛙网络二创，不是官方圆头短肢粉掌垫的原版奶龙。包含三维二创及 AI 风格重制。图库整理者 George 不等于原作者；具体二创作者与授权待核实。原型奶龙由第七印象创作。保留原图、原GIF。",
+    "role": "subject",
+    "is_cutout": false,
+    "templates": [
+      "top",
+      "bottom",
+      "split",
+      "frame",
+      "grid",
+      "message",
+      "poster",
+      "side",
+      "polaroid",
+      "bubble",
+      "dialogue",
+      "spotlight",
+      "comic",
+      "subtitle",
+      "note",
+      "window",
+      "ticket",
+      "medal",
+      "scene"
+    ]
+  },
+  {
+    "id": "bulk-nailong-066",
+    "name": "奶蛙 · 跟着同伴跳舞",
+    "character": "奶蛙",
+    "filename": "bulk-nailong/nailong-066.gif",
+    "enabled": true,
+    "action": "跟着同伴跳舞",
+    "emotion": [
+      "开心",
+      "搞怪"
+    ],
+    "scenes": [
+      "日常聊天",
+      "群聊互动"
+    ],
+    "examples": [
+      "让我看看怎么个事",
+      "今天的精神状态"
+    ],
+    "intensity": 2,
+    "existing_text": "",
+    "source_type": "reference",
+    "author": "奶蛙二创作者待核实；原型奶龙第七印象",
+    "source_url": "https://github.com/GGGeeeooorrrgggeee/nailong-memes/blob/faff7a463622d83bfd4ef62e04220675b41db49d/gif/D872D41D31DB746B56517AC405BD9E97.gif",
+    "source_note": "公开社区图库收集；仓库名 nailong 不是角色身份依据。本批为小头大肚、成人比例、黑色细长手指的奶蛙网络二创，不是官方圆头短肢粉掌垫的原版奶龙。包含三维二创及 AI 风格重制。图库整理者 George 不等于原作者；具体二创作者与授权待核实。原型奶龙由第七印象创作。保留原图、原GIF。",
+    "role": "subject",
+    "is_cutout": false,
+    "templates": [
+      "top",
+      "bottom",
+      "split",
+      "frame",
+      "grid",
+      "message",
+      "poster",
+      "side",
+      "polaroid",
+      "bubble",
+      "dialogue",
+      "spotlight",
+      "comic",
+      "subtitle",
+      "note",
+      "window",
+      "ticket",
+      "medal",
+      "scene"
+    ]
+  },
+  {
+    "id": "bulk-nailong-067",
+    "name": "奶蛙 · 裙装跳舞",
+    "character": "奶蛙",
+    "filename": "bulk-nailong/nailong-067.gif",
+    "enabled": true,
+    "action": "裙装跳舞",
+    "emotion": [
+      "开心",
+      "搞怪"
+    ],
+    "scenes": [
+      "日常聊天",
+      "群聊互动"
+    ],
+    "examples": [
+      "让我看看怎么个事",
+      "今天的精神状态"
+    ],
+    "intensity": 2,
+    "existing_text": "",
+    "source_type": "reference",
+    "author": "奶蛙二创作者待核实；原型奶龙第七印象",
+    "source_url": "https://github.com/GGGeeeooorrrgggeee/nailong-memes/blob/faff7a463622d83bfd4ef62e04220675b41db49d/gif/DCB2738F44E173139EA899F95E80FA15.gif",
+    "source_note": "公开社区图库收集；仓库名 nailong 不是角色身份依据。本批为小头大肚、成人比例、黑色细长手指的奶蛙网络二创，不是官方圆头短肢粉掌垫的原版奶龙。包含三维二创及 AI 风格重制。图库整理者 George 不等于原作者；具体二创作者与授权待核实。原型奶龙由第七印象创作。保留原图、原GIF。",
+    "role": "subject",
+    "is_cutout": false,
+    "templates": [
+      "top",
+      "bottom",
+      "split",
+      "frame",
+      "grid",
+      "message",
+      "poster",
+      "side",
+      "polaroid",
+      "bubble",
+      "dialogue",
+      "spotlight",
+      "comic",
+      "subtitle",
+      "note",
+      "window",
+      "ticket",
+      "medal",
+      "scene"
+    ]
+  },
+  {
+    "id": "bulk-nailong-068",
+    "name": "奶蛙 · 红墙前摆手",
+    "character": "奶蛙",
+    "filename": "bulk-nailong/nailong-068.gif",
+    "enabled": true,
+    "action": "红墙前摆手",
+    "emotion": [
+      "平静",
+      "无语"
+    ],
+    "scenes": [
+      "日常聊天",
+      "群聊互动"
+    ],
+    "examples": [
+      "让我看看怎么个事",
+      "今天的精神状态"
+    ],
+    "intensity": 2,
+    "existing_text": "",
+    "source_type": "reference",
+    "author": "奶蛙二创作者待核实；原型奶龙第七印象",
+    "source_url": "https://github.com/GGGeeeooorrrgggeee/nailong-memes/blob/faff7a463622d83bfd4ef62e04220675b41db49d/gif/DE0551037468BF854CF698D5F99ADE84.gif",
+    "source_note": "公开社区图库收集；仓库名 nailong 不是角色身份依据。本批为小头大肚、成人比例、黑色细长手指的奶蛙网络二创，不是官方圆头短肢粉掌垫的原版奶龙。包含三维二创及 AI 风格重制。图库整理者 George 不等于原作者；具体二创作者与授权待核实。原型奶龙由第七印象创作。保留原图、原GIF。",
+    "role": "subject",
+    "is_cutout": false,
+    "templates": [
+      "top",
+      "bottom",
+      "split",
+      "frame",
+      "grid",
+      "message",
+      "poster",
+      "side",
+      "polaroid",
+      "bubble",
+      "dialogue",
+      "spotlight",
+      "comic",
+      "subtitle",
+      "note",
+      "window",
+      "ticket",
+      "medal",
+      "scene"
+    ]
+  },
+  {
+    "id": "bulk-nailong-069",
+    "name": "奶蛙 · 仰头侧脸",
+    "character": "奶蛙",
+    "filename": "bulk-nailong/nailong-069.gif",
+    "enabled": true,
+    "action": "仰头侧脸",
+    "emotion": [
+      "平静",
+      "无语"
+    ],
+    "scenes": [
+      "日常聊天",
+      "群聊互动"
+    ],
+    "examples": [
+      "让我看看怎么个事",
+      "今天的精神状态"
+    ],
+    "intensity": 2,
+    "existing_text": "",
+    "source_type": "reference",
+    "author": "奶蛙二创作者待核实；原型奶龙第七印象",
+    "source_url": "https://github.com/GGGeeeooorrrgggeee/nailong-memes/blob/faff7a463622d83bfd4ef62e04220675b41db49d/gif/DE57718E973362F92B4DB8D619B0B072.gif",
+    "source_note": "公开社区图库收集；仓库名 nailong 不是角色身份依据。本批为小头大肚、成人比例、黑色细长手指的奶蛙网络二创，不是官方圆头短肢粉掌垫的原版奶龙。包含三维二创及 AI 风格重制。图库整理者 George 不等于原作者；具体二创作者与授权待核实。原型奶龙由第七印象创作。保留原图、原GIF。",
+    "role": "subject",
+    "is_cutout": false,
+    "templates": [
+      "top",
+      "bottom",
+      "split",
+      "frame",
+      "grid",
+      "message",
+      "poster",
+      "side",
+      "polaroid",
+      "bubble",
+      "dialogue",
+      "spotlight",
+      "comic",
+      "subtitle",
+      "note",
+      "window",
+      "ticket",
+      "medal",
+      "scene"
+    ]
+  },
+  {
+    "id": "bulk-nailong-071",
+    "name": "奶蛙 · 蹲坐大笑",
+    "character": "奶蛙",
+    "filename": "bulk-nailong/nailong-071.gif",
+    "enabled": true,
+    "action": "蹲坐大笑",
+    "emotion": [
+      "开心",
+      "搞怪"
+    ],
+    "scenes": [
+      "日常聊天",
+      "群聊互动"
+    ],
+    "examples": [
+      "让我看看怎么个事",
+      "今天的精神状态"
+    ],
+    "intensity": 3,
+    "existing_text": "",
+    "source_type": "reference",
+    "author": "奶蛙二创作者待核实；原型奶龙第七印象",
+    "source_url": "https://github.com/GGGeeeooorrrgggeee/nailong-memes/blob/faff7a463622d83bfd4ef62e04220675b41db49d/gif/E21219FE5409935F94D2BFA8B43E0726.gif",
+    "source_note": "公开社区图库收集；仓库名 nailong 不是角色身份依据。本批为小头大肚、成人比例、黑色细长手指的奶蛙网络二创，不是官方圆头短肢粉掌垫的原版奶龙。包含三维二创及 AI 风格重制。图库整理者 George 不等于原作者；具体二创作者与授权待核实。原型奶龙由第七印象创作。保留原图、原GIF。",
+    "role": "subject",
+    "is_cutout": false,
+    "templates": [
+      "top",
+      "bottom",
+      "split",
+      "frame",
+      "grid",
+      "message",
+      "poster",
+      "side",
+      "polaroid",
+      "bubble",
+      "dialogue",
+      "spotlight",
+      "comic",
+      "subtitle",
+      "note",
+      "window",
+      "ticket",
+      "medal",
+      "scene"
+    ]
+  },
+  {
+    "id": "bulk-nailong-073",
+    "name": "奶蛙 · 海滩奔跑",
+    "character": "奶蛙",
+    "filename": "bulk-nailong/nailong-073.gif",
+    "enabled": true,
+    "action": "海滩奔跑",
+    "emotion": [
+      "平静",
+      "无语"
+    ],
+    "scenes": [
+      "日常聊天",
+      "群聊互动"
+    ],
+    "examples": [
+      "让我看看怎么个事",
+      "今天的精神状态"
+    ],
+    "intensity": 2,
+    "existing_text": "",
+    "source_type": "reference",
+    "author": "奶蛙二创作者待核实；原型奶龙第七印象",
+    "source_url": "https://github.com/GGGeeeooorrrgggeee/nailong-memes/blob/faff7a463622d83bfd4ef62e04220675b41db49d/gif/E3C08F67A9F633C707E6B922EAA038B5.gif",
+    "source_note": "公开社区图库收集；仓库名 nailong 不是角色身份依据。本批为小头大肚、成人比例、黑色细长手指的奶蛙网络二创，不是官方圆头短肢粉掌垫的原版奶龙。包含三维二创及 AI 风格重制。图库整理者 George 不等于原作者；具体二创作者与授权待核实。原型奶龙由第七印象创作。保留原图、原GIF。",
+    "role": "subject",
+    "is_cutout": false,
+    "templates": [
+      "top",
+      "bottom",
+      "split",
+      "frame",
+      "grid",
+      "message",
+      "poster",
+      "side",
+      "polaroid",
+      "bubble",
+      "dialogue",
+      "spotlight",
+      "comic",
+      "subtitle",
+      "note",
+      "window",
+      "ticket",
+      "medal",
+      "scene"
+    ]
+  },
+  {
+    "id": "bulk-nailong-074",
+    "name": "奶蛙 · 双龙捧腹",
+    "character": "奶蛙",
+    "filename": "bulk-nailong/nailong-074.gif",
+    "enabled": true,
+    "action": "双龙捧腹",
+    "emotion": [
+      "平静",
+      "无语"
+    ],
+    "scenes": [
+      "日常聊天",
+      "群聊互动"
+    ],
+    "examples": [
+      "让我看看怎么个事",
+      "今天的精神状态"
+    ],
+    "intensity": 2,
+    "existing_text": "",
+    "source_type": "reference",
+    "author": "奶蛙二创作者待核实；原型奶龙第七印象",
+    "source_url": "https://github.com/GGGeeeooorrrgggeee/nailong-memes/blob/faff7a463622d83bfd4ef62e04220675b41db49d/gif/E85E803CBBCE980B18ABAFC5083F645C.gif",
+    "source_note": "公开社区图库收集；仓库名 nailong 不是角色身份依据。本批为小头大肚、成人比例、黑色细长手指的奶蛙网络二创，不是官方圆头短肢粉掌垫的原版奶龙。包含三维二创及 AI 风格重制。图库整理者 George 不等于原作者；具体二创作者与授权待核实。原型奶龙由第七印象创作。保留原图、原GIF。",
+    "role": "subject",
+    "is_cutout": false,
+    "templates": [
+      "top",
+      "bottom",
+      "split",
+      "frame",
+      "grid",
+      "message",
+      "poster",
+      "side",
+      "polaroid",
+      "bubble",
+      "dialogue",
+      "spotlight",
+      "comic",
+      "subtitle",
+      "note",
+      "window",
+      "ticket",
+      "medal",
+      "scene"
+    ]
+  },
+  {
+    "id": "bulk-nailong-075",
+    "name": "奶蛙 · 双龙屋顶跳跃",
+    "character": "奶蛙",
+    "filename": "bulk-nailong/nailong-075.gif",
+    "enabled": true,
+    "action": "双龙屋顶跳跃",
+    "emotion": [
+      "开心",
+      "搞怪"
+    ],
+    "scenes": [
+      "日常聊天",
+      "群聊互动"
+    ],
+    "examples": [
+      "让我看看怎么个事",
+      "今天的精神状态"
+    ],
+    "intensity": 2,
+    "existing_text": "",
+    "source_type": "reference",
+    "author": "奶蛙二创作者待核实；原型奶龙第七印象",
+    "source_url": "https://github.com/GGGeeeooorrrgggeee/nailong-memes/blob/faff7a463622d83bfd4ef62e04220675b41db49d/gif/ECED6ECA533B6C18E7310F81AB7698B6.gif",
+    "source_note": "公开社区图库收集；仓库名 nailong 不是角色身份依据。本批为小头大肚、成人比例、黑色细长手指的奶蛙网络二创，不是官方圆头短肢粉掌垫的原版奶龙。包含三维二创及 AI 风格重制。图库整理者 George 不等于原作者；具体二创作者与授权待核实。原型奶龙由第七印象创作。保留原图、原GIF。",
+    "role": "subject",
+    "is_cutout": false,
+    "templates": [
+      "top",
+      "bottom",
+      "split",
+      "frame",
+      "grid",
+      "message",
+      "poster",
+      "side",
+      "polaroid",
+      "bubble",
+      "dialogue",
+      "spotlight",
+      "comic",
+      "subtitle",
+      "note",
+      "window",
+      "ticket",
+      "medal",
+      "scene"
+    ]
+  },
+  {
+    "id": "bulk-nailong-076",
+    "name": "奶蛙 · 夜晚舞蹈",
+    "character": "奶蛙",
+    "filename": "bulk-nailong/nailong-076.gif",
+    "enabled": true,
+    "action": "夜晚舞蹈",
+    "emotion": [
+      "开心",
+      "搞怪"
+    ],
+    "scenes": [
+      "日常聊天",
+      "群聊互动"
+    ],
+    "examples": [
+      "让我看看怎么个事",
+      "今天的精神状态"
+    ],
+    "intensity": 2,
+    "existing_text": "",
+    "source_type": "reference",
+    "author": "奶蛙二创作者待核实；原型奶龙第七印象",
+    "source_url": "https://github.com/GGGeeeooorrrgggeee/nailong-memes/blob/faff7a463622d83bfd4ef62e04220675b41db49d/gif/F1520BD8CD600B54D8F6CDE1791DEF0F.gif",
+    "source_note": "公开社区图库收集；仓库名 nailong 不是角色身份依据。本批为小头大肚、成人比例、黑色细长手指的奶蛙网络二创，不是官方圆头短肢粉掌垫的原版奶龙。包含三维二创及 AI 风格重制。图库整理者 George 不等于原作者；具体二创作者与授权待核实。原型奶龙由第七印象创作。保留原图、原GIF。",
+    "role": "subject",
+    "is_cutout": false,
+    "templates": [
+      "top",
+      "bottom",
+      "split",
+      "frame",
+      "grid",
+      "message",
+      "poster",
+      "side",
+      "polaroid",
+      "bubble",
+      "dialogue",
+      "spotlight",
+      "comic",
+      "subtitle",
+      "note",
+      "window",
+      "ticket",
+      "medal",
+      "scene"
+    ]
+  },
+  {
+    "id": "bulk-nailong-077",
+    "name": "奶蛙 · 抱肚皮笑",
+    "character": "奶蛙",
+    "filename": "bulk-nailong/nailong-077.gif",
+    "enabled": true,
+    "action": "抱肚皮笑",
+    "emotion": [
+      "开心",
+      "搞怪"
+    ],
+    "scenes": [
+      "日常聊天",
+      "群聊互动"
+    ],
+    "examples": [
+      "让我看看怎么个事",
+      "今天的精神状态"
+    ],
+    "intensity": 3,
+    "existing_text": "",
+    "source_type": "reference",
+    "author": "奶蛙二创作者待核实；原型奶龙第七印象",
+    "source_url": "https://github.com/GGGeeeooorrrgggeee/nailong-memes/blob/faff7a463622d83bfd4ef62e04220675b41db49d/gif/F475B20F5A62A21216D7CD3ECA0832BC.gif",
+    "source_note": "公开社区图库收集；仓库名 nailong 不是角色身份依据。本批为小头大肚、成人比例、黑色细长手指的奶蛙网络二创，不是官方圆头短肢粉掌垫的原版奶龙。包含三维二创及 AI 风格重制。图库整理者 George 不等于原作者；具体二创作者与授权待核实。原型奶龙由第七印象创作。保留原图、原GIF。",
+    "role": "subject",
+    "is_cutout": false,
+    "templates": [
+      "top",
+      "bottom",
+      "split",
+      "frame",
+      "grid",
+      "message",
+      "poster",
+      "side",
+      "polaroid",
+      "bubble",
+      "dialogue",
+      "spotlight",
+      "comic",
+      "subtitle",
+      "note",
+      "window",
+      "ticket",
+      "medal",
+      "scene"
+    ]
+  },
+  {
+    "id": "bulk-nailong-078",
+    "name": "奶蛙 · 蓝天下前伸手",
+    "character": "奶蛙",
+    "filename": "bulk-nailong/nailong-078.gif",
+    "enabled": true,
+    "action": "蓝天下前伸手",
+    "emotion": [
+      "平静",
+      "无语"
+    ],
+    "scenes": [
+      "日常聊天",
+      "群聊互动"
+    ],
+    "examples": [
+      "让我看看怎么个事",
+      "今天的精神状态"
+    ],
+    "intensity": 2,
+    "existing_text": "",
+    "source_type": "reference",
+    "author": "奶蛙二创作者待核实；原型奶龙第七印象",
+    "source_url": "https://github.com/GGGeeeooorrrgggeee/nailong-memes/blob/faff7a463622d83bfd4ef62e04220675b41db49d/gif/FB5F53789A850052E19C19F1FA136A51.gif",
+    "source_note": "公开社区图库收集；仓库名 nailong 不是角色身份依据。本批为小头大肚、成人比例、黑色细长手指的奶蛙网络二创，不是官方圆头短肢粉掌垫的原版奶龙。包含三维二创及 AI 风格重制。图库整理者 George 不等于原作者；具体二创作者与授权待核实。原型奶龙由第七印象创作。保留原图、原GIF。",
+    "role": "subject",
+    "is_cutout": false,
+    "templates": [
+      "top",
+      "bottom",
+      "split",
+      "frame",
+      "grid",
+      "message",
+      "poster",
+      "side",
+      "polaroid",
+      "bubble",
+      "dialogue",
+      "spotlight",
+      "comic",
+      "subtitle",
+      "note",
+      "window",
+      "ticket",
+      "medal",
+      "scene"
+    ]
+  },
+  {
+    "id": "bulk-nailong-080",
+    "name": "奶蛙 · 躺平打滚",
+    "character": "奶蛙",
+    "filename": "bulk-nailong/nailong-080.gif",
+    "enabled": false,
+    "action": "躺平打滚",
+    "emotion": [
+      "平静",
+      "无语"
+    ],
+    "scenes": [
+      "日常聊天",
+      "群聊互动",
+      "休息",
+      "早八",
+      "摆烂"
+    ],
+    "examples": [
+      "让我看看怎么个事",
+      "今天的精神状态"
+    ],
+    "intensity": 2,
+    "existing_text": "",
+    "source_type": "reference",
+    "author": "奶蛙二创作者待核实；原型奶龙第七印象",
+    "source_url": "https://github.com/GGGeeeooorrrgggeee/nailong-memes/blob/faff7a463622d83bfd4ef62e04220675b41db49d/gif/FDB82F7AF37B14CC7D21EB1FFBF7F9B6.gif",
+    "source_note": "公开社区图库收集；仓库名 nailong 不是角色身份依据。本批为小头大肚、成人比例、黑色细长手指的奶蛙网络二创，不是官方圆头短肢粉掌垫的原版奶龙。包含三维二创及 AI 风格重制。图库整理者 George 不等于原作者；具体二创作者与授权待核实。原型奶龙由第七印象创作。保留原图、原GIF。 本图身份存疑，暂不启用。",
+    "role": "subject",
+    "is_cutout": false,
+    "templates": [
+      "top",
+      "bottom",
+      "split",
+      "frame",
+      "grid",
+      "message",
+      "poster",
+      "side",
+      "polaroid",
+      "bubble",
+      "dialogue",
+      "spotlight",
+      "comic",
+      "subtitle",
+      "note",
+      "window",
+      "ticket",
+      "medal",
+      "scene"
+    ]
+  },
+  {
+    "id": "bulk-nailong-081",
+    "name": "奶蛙 · 模糊集体舞",
+    "character": "奶蛙",
+    "filename": "bulk-nailong/nailong-081.gif",
+    "enabled": true,
+    "action": "模糊集体舞",
+    "emotion": [
+      "开心",
+      "搞怪"
+    ],
+    "scenes": [
+      "日常聊天",
+      "群聊互动"
+    ],
+    "examples": [
+      "让我看看怎么个事",
+      "今天的精神状态"
+    ],
+    "intensity": 2,
+    "existing_text": "",
+    "source_type": "reference",
+    "author": "奶蛙二创作者待核实；原型奶龙第七印象",
+    "source_url": "https://github.com/GGGeeeooorrrgggeee/nailong-memes/blob/faff7a463622d83bfd4ef62e04220675b41db49d/gif/FF9CE62FBD54E31E45A2DA4D4FBBAA9F.gif",
+    "source_note": "公开社区图库收集；仓库名 nailong 不是角色身份依据。本批为小头大肚、成人比例、黑色细长手指的奶蛙网络二创，不是官方圆头短肢粉掌垫的原版奶龙。包含三维二创及 AI 风格重制。图库整理者 George 不等于原作者；具体二创作者与授权待核实。原型奶龙由第七印象创作。保留原图、原GIF。",
+    "role": "subject",
+    "is_cutout": false,
+    "templates": [
+      "top",
+      "bottom",
+      "split",
+      "frame",
+      "grid",
+      "message",
+      "poster",
+      "side",
+      "polaroid",
+      "bubble",
+      "dialogue",
+      "spotlight",
+      "comic",
+      "subtitle",
+      "note",
+      "window",
+      "ticket",
+      "medal",
+      "scene"
+    ]
+  },
+  {
+    "id": "bulk-nailong-082",
+    "name": "奶蛙 · 和同伴自拍",
+    "character": "奶蛙",
+    "filename": "bulk-nailong/nailong-082.gif",
+    "enabled": true,
+    "action": "和同伴自拍",
+    "emotion": [
+      "平静",
+      "无语"
+    ],
+    "scenes": [
+      "日常聊天",
+      "群聊互动"
+    ],
+    "examples": [
+      "让我看看怎么个事",
+      "今天的精神状态"
+    ],
+    "intensity": 2,
+    "existing_text": "",
+    "source_type": "reference",
+    "author": "奶蛙二创作者待核实；原型奶龙第七印象",
+    "source_url": "https://github.com/GGGeeeooorrrgggeee/nailong-memes/blob/faff7a463622d83bfd4ef62e04220675b41db49d/gif/FFFC2EAC8A8DA120ABC5DFC49BE9F8AB.gif",
+    "source_note": "公开社区图库收集；仓库名 nailong 不是角色身份依据。本批为小头大肚、成人比例、黑色细长手指的奶蛙网络二创，不是官方圆头短肢粉掌垫的原版奶龙。包含三维二创及 AI 风格重制。图库整理者 George 不等于原作者；具体二创作者与授权待核实。原型奶龙由第七印象创作。保留原图、原GIF。",
+    "role": "subject",
+    "is_cutout": false,
+    "templates": [
+      "top",
+      "bottom",
+      "split",
+      "frame",
+      "grid",
+      "message",
+      "poster",
+      "side",
+      "polaroid",
+      "bubble",
+      "dialogue",
+      "spotlight",
+      "comic",
+      "subtitle",
+      "note",
+      "window",
+      "ticket",
+      "medal",
+      "scene"
+    ]
+  },
+  {
+    "id": "bulk-nailong-083",
+    "name": "奶蛙 · 西装领舞",
+    "character": "奶蛙",
+    "filename": "bulk-nailong/nailong-083.jpg",
+    "enabled": true,
+    "action": "西装领舞",
+    "emotion": [
+      "开心",
+      "搞怪"
+    ],
+    "scenes": [
+      "日常聊天",
+      "群聊互动"
+    ],
+    "examples": [
+      "让我看看怎么个事",
+      "今天的精神状态"
+    ],
+    "intensity": 2,
+    "existing_text": "",
+    "source_type": "reference",
+    "author": "奶蛙二创作者待核实；原型奶龙第七印象",
+    "source_url": "https://github.com/GGGeeeooorrrgggeee/nailong-memes/blob/faff7a463622d83bfd4ef62e04220675b41db49d/images/01BEF394F197C969AF1D293C2B86B75E.jpg",
+    "source_note": "公开社区图库收集；仓库名 nailong 不是角色身份依据。本批为小头大肚、成人比例、黑色细长手指的奶蛙网络二创，不是官方圆头短肢粉掌垫的原版奶龙。包含三维二创及 AI 风格重制。图库整理者 George 不等于原作者；具体二创作者与授权待核实。原型奶龙由第七印象创作。保留原图、原GIF。",
+    "role": "subject",
+    "is_cutout": false,
+    "templates": [
+      "top",
+      "bottom",
+      "split",
+      "frame",
+      "grid",
+      "message",
+      "poster",
+      "side",
+      "polaroid",
+      "bubble",
+      "dialogue",
+      "spotlight",
+      "comic",
+      "subtitle",
+      "note",
+      "window",
+      "ticket",
+      "medal",
+      "scene"
+    ]
+  },
+  {
+    "id": "bulk-nailong-084",
+    "name": "奶蛙 · 窗前坐着",
+    "character": "奶蛙",
+    "filename": "bulk-nailong/nailong-084.jpg",
+    "enabled": true,
+    "action": "窗前坐着",
+    "emotion": [
+      "平静",
+      "无语"
+    ],
+    "scenes": [
+      "日常聊天",
+      "群聊互动"
+    ],
+    "examples": [
+      "让我看看怎么个事",
+      "今天的精神状态"
+    ],
+    "intensity": 2,
+    "existing_text": "",
+    "source_type": "reference",
+    "author": "奶蛙二创作者待核实；原型奶龙第七印象",
+    "source_url": "https://github.com/GGGeeeooorrrgggeee/nailong-memes/blob/faff7a463622d83bfd4ef62e04220675b41db49d/images/0276905B9B3699DA5E7BADACAC991B79.jpg",
+    "source_note": "公开社区图库收集；仓库名 nailong 不是角色身份依据。本批为小头大肚、成人比例、黑色细长手指的奶蛙网络二创，不是官方圆头短肢粉掌垫的原版奶龙。包含三维二创及 AI 风格重制。图库整理者 George 不等于原作者；具体二创作者与授权待核实。原型奶龙由第七印象创作。保留原图、原GIF。",
+    "role": "subject",
+    "is_cutout": false,
+    "templates": [
+      "top",
+      "bottom",
+      "split",
+      "frame",
+      "grid",
+      "message",
+      "poster",
+      "side",
+      "polaroid",
+      "bubble",
+      "dialogue",
+      "spotlight",
+      "comic",
+      "subtitle",
+      "note",
+      "window",
+      "ticket",
+      "medal",
+      "scene"
+    ]
+  },
+  {
+    "id": "bulk-nailong-085",
+    "name": "奶蛙 · 黑底端坐",
+    "character": "奶蛙",
+    "filename": "bulk-nailong/nailong-085.jpg",
+    "enabled": true,
+    "action": "黑底端坐",
+    "emotion": [
+      "平静",
+      "无语"
+    ],
+    "scenes": [
+      "日常聊天",
+      "群聊互动"
+    ],
+    "examples": [
+      "让我看看怎么个事",
+      "今天的精神状态"
+    ],
+    "intensity": 2,
+    "existing_text": "",
+    "source_type": "reference",
+    "author": "奶蛙二创作者待核实；原型奶龙第七印象",
+    "source_url": "https://github.com/GGGeeeooorrrgggeee/nailong-memes/blob/faff7a463622d83bfd4ef62e04220675b41db49d/images/0338FE8BF05E7938B3F905DE7F0E1320.jpg",
+    "source_note": "公开社区图库收集；仓库名 nailong 不是角色身份依据。本批为小头大肚、成人比例、黑色细长手指的奶蛙网络二创，不是官方圆头短肢粉掌垫的原版奶龙。包含三维二创及 AI 风格重制。图库整理者 George 不等于原作者；具体二创作者与授权待核实。原型奶龙由第七印象创作。保留原图、原GIF。",
+    "role": "subject",
+    "is_cutout": false,
+    "templates": [
+      "top",
+      "bottom",
+      "split",
+      "frame",
+      "grid",
+      "message",
+      "poster",
+      "side",
+      "polaroid",
+      "bubble",
+      "dialogue",
+      "spotlight",
+      "comic",
+      "subtitle",
+      "note",
+      "window",
+      "ticket",
+      "medal",
+      "scene"
+    ]
+  },
+  {
+    "id": "bulk-nailong-086",
+    "name": "奶蛙 · 夜晚望月",
+    "character": "奶蛙",
+    "filename": "bulk-nailong/nailong-086.jpg",
+    "enabled": true,
+    "action": "夜晚望月",
+    "emotion": [
+      "平静",
+      "无语"
+    ],
+    "scenes": [
+      "日常聊天",
+      "群聊互动"
+    ],
+    "examples": [
+      "让我看看怎么个事",
+      "今天的精神状态"
+    ],
+    "intensity": 2,
+    "existing_text": "",
+    "source_type": "reference",
+    "author": "奶蛙二创作者待核实；原型奶龙第七印象",
+    "source_url": "https://github.com/GGGeeeooorrrgggeee/nailong-memes/blob/faff7a463622d83bfd4ef62e04220675b41db49d/images/0c733330296f568a6cb97af3b7364dd8.jpg",
+    "source_note": "公开社区图库收集；仓库名 nailong 不是角色身份依据。本批为小头大肚、成人比例、黑色细长手指的奶蛙网络二创，不是官方圆头短肢粉掌垫的原版奶龙。包含三维二创及 AI 风格重制。图库整理者 George 不等于原作者；具体二创作者与授权待核实。原型奶龙由第七印象创作。保留原图、原GIF。",
+    "role": "subject",
+    "is_cutout": false,
+    "templates": [
+      "top",
+      "bottom",
+      "split",
+      "frame",
+      "grid",
+      "message",
+      "poster",
+      "side",
+      "polaroid",
+      "bubble",
+      "dialogue",
+      "spotlight",
+      "comic",
+      "subtitle",
+      "note",
+      "window",
+      "ticket",
+      "medal",
+      "scene"
+    ]
+  },
+  {
+    "id": "bulk-nailong-087",
+    "name": "奶蛙 · 桌前看书",
+    "character": "奶蛙",
+    "filename": "bulk-nailong/nailong-087.jpg",
+    "enabled": true,
+    "action": "桌前看书",
+    "emotion": [
+      "平静",
+      "无语"
+    ],
+    "scenes": [
+      "日常聊天",
+      "群聊互动",
+      "学习",
+      "上课"
+    ],
+    "examples": [
+      "让我看看怎么个事",
+      "今天的精神状态"
+    ],
+    "intensity": 2,
+    "existing_text": "",
+    "source_type": "reference",
+    "author": "奶蛙二创作者待核实；原型奶龙第七印象",
+    "source_url": "https://github.com/GGGeeeooorrrgggeee/nailong-memes/blob/faff7a463622d83bfd4ef62e04220675b41db49d/images/0e7aa11d6d5d00ba12a24e147bb02654.jpg",
+    "source_note": "公开社区图库收集；仓库名 nailong 不是角色身份依据。本批为小头大肚、成人比例、黑色细长手指的奶蛙网络二创，不是官方圆头短肢粉掌垫的原版奶龙。包含三维二创及 AI 风格重制。图库整理者 George 不等于原作者；具体二创作者与授权待核实。原型奶龙由第七印象创作。保留原图、原GIF。",
+    "role": "subject",
+    "is_cutout": false,
+    "templates": [
+      "top",
+      "bottom",
+      "split",
+      "frame",
+      "grid",
+      "message",
+      "poster",
+      "side",
+      "polaroid",
+      "bubble",
+      "dialogue",
+      "spotlight",
+      "comic",
+      "subtitle",
+      "note",
+      "window",
+      "ticket",
+      "medal",
+      "scene"
+    ]
+  },
+  {
+    "id": "bulk-nailong-088",
+    "name": "奶蛙 · 桌前双手合拢",
+    "character": "奶蛙",
+    "filename": "bulk-nailong/nailong-088.jpg",
+    "enabled": true,
+    "action": "桌前双手合拢",
+    "emotion": [
+      "平静",
+      "无语"
+    ],
+    "scenes": [
+      "日常聊天",
+      "群聊互动"
+    ],
+    "examples": [
+      "让我看看怎么个事",
+      "今天的精神状态"
+    ],
+    "intensity": 2,
+    "existing_text": "",
+    "source_type": "reference",
+    "author": "奶蛙二创作者待核实；原型奶龙第七印象",
+    "source_url": "https://github.com/GGGeeeooorrrgggeee/nailong-memes/blob/faff7a463622d83bfd4ef62e04220675b41db49d/images/0e8bf92c86516402967aa5200ccec00e.jpg",
+    "source_note": "公开社区图库收集；仓库名 nailong 不是角色身份依据。本批为小头大肚、成人比例、黑色细长手指的奶蛙网络二创，不是官方圆头短肢粉掌垫的原版奶龙。包含三维二创及 AI 风格重制。图库整理者 George 不等于原作者；具体二创作者与授权待核实。原型奶龙由第七印象创作。保留原图、原GIF。",
+    "role": "subject",
+    "is_cutout": false,
+    "templates": [
+      "top",
+      "bottom",
+      "split",
+      "frame",
+      "grid",
+      "message",
+      "poster",
+      "side",
+      "polaroid",
+      "bubble",
+      "dialogue",
+      "spotlight",
+      "comic",
+      "subtitle",
+      "note",
+      "window",
+      "ticket",
+      "medal",
+      "scene"
+    ]
+  },
+  {
+    "id": "bulk-nailong-089",
+    "name": "奶蛙 · 握拳站立",
+    "character": "奶蛙",
+    "filename": "bulk-nailong/nailong-089.jpg",
+    "enabled": true,
+    "action": "握拳站立",
+    "emotion": [
+      "平静",
+      "无语"
+    ],
+    "scenes": [
+      "日常聊天",
+      "群聊互动"
+    ],
+    "examples": [
+      "让我看看怎么个事",
+      "今天的精神状态"
+    ],
+    "intensity": 2,
+    "existing_text": "",
+    "source_type": "reference",
+    "author": "奶蛙二创作者待核实；原型奶龙第七印象",
+    "source_url": "https://github.com/GGGeeeooorrrgggeee/nailong-memes/blob/faff7a463622d83bfd4ef62e04220675b41db49d/images/11B0AD0BE894AE929291EF5B7BA119C6.jpg",
+    "source_note": "公开社区图库收集；仓库名 nailong 不是角色身份依据。本批为小头大肚、成人比例、黑色细长手指的奶蛙网络二创，不是官方圆头短肢粉掌垫的原版奶龙。包含三维二创及 AI 风格重制。图库整理者 George 不等于原作者；具体二创作者与授权待核实。原型奶龙由第七印象创作。保留原图、原GIF。",
+    "role": "subject",
+    "is_cutout": false,
+    "templates": [
+      "top",
+      "bottom",
+      "split",
+      "frame",
+      "grid",
+      "message",
+      "poster",
+      "side",
+      "polaroid",
+      "bubble",
+      "dialogue",
+      "spotlight",
+      "comic",
+      "subtitle",
+      "note",
+      "window",
+      "ticket",
+      "medal",
+      "scene"
+    ]
+  },
+  {
+    "id": "bulk-nailong-090",
+    "name": "奶蛙 · 双龙拥抱",
+    "character": "奶蛙",
+    "filename": "bulk-nailong/nailong-090.jpg",
+    "enabled": true,
+    "action": "双龙拥抱",
+    "emotion": [
+      "平静",
+      "无语"
+    ],
+    "scenes": [
+      "日常聊天",
+      "群聊互动"
+    ],
+    "examples": [
+      "让我看看怎么个事",
+      "今天的精神状态"
+    ],
+    "intensity": 2,
+    "existing_text": "",
+    "source_type": "reference",
+    "author": "奶蛙二创作者待核实；原型奶龙第七印象",
+    "source_url": "https://github.com/GGGeeeooorrrgggeee/nailong-memes/blob/faff7a463622d83bfd4ef62e04220675b41db49d/images/17C62A7AC359814D375A7FC37382DD4A.jpg",
+    "source_note": "公开社区图库收集；仓库名 nailong 不是角色身份依据。本批为小头大肚、成人比例、黑色细长手指的奶蛙网络二创，不是官方圆头短肢粉掌垫的原版奶龙。包含三维二创及 AI 风格重制。图库整理者 George 不等于原作者；具体二创作者与授权待核实。原型奶龙由第七印象创作。保留原图、原GIF。",
+    "role": "subject",
+    "is_cutout": false,
+    "templates": [
+      "top",
+      "bottom",
+      "split",
+      "frame",
+      "grid",
+      "message",
+      "poster",
+      "side",
+      "polaroid",
+      "bubble",
+      "dialogue",
+      "spotlight",
+      "comic",
+      "subtitle",
+      "note",
+      "window",
+      "ticket",
+      "medal",
+      "scene"
+    ]
+  },
+  {
+    "id": "bulk-nailong-091",
+    "name": "奶蛙 · 黑衣捂脸",
+    "character": "奶蛙",
+    "filename": "bulk-nailong/nailong-091.jpg",
+    "enabled": true,
+    "action": "黑衣捂脸",
+    "emotion": [
+      "平静",
+      "无语"
+    ],
+    "scenes": [
+      "日常聊天",
+      "群聊互动"
+    ],
+    "examples": [
+      "让我看看怎么个事",
+      "今天的精神状态"
+    ],
+    "intensity": 2,
+    "existing_text": "",
+    "source_type": "reference",
+    "author": "奶蛙二创作者待核实；原型奶龙第七印象",
+    "source_url": "https://github.com/GGGeeeooorrrgggeee/nailong-memes/blob/faff7a463622d83bfd4ef62e04220675b41db49d/images/1a3dc8c7531025275e8625ba9b6e38cc.jpg",
+    "source_note": "公开社区图库收集；仓库名 nailong 不是角色身份依据。本批为小头大肚、成人比例、黑色细长手指的奶蛙网络二创，不是官方圆头短肢粉掌垫的原版奶龙。包含三维二创及 AI 风格重制。图库整理者 George 不等于原作者；具体二创作者与授权待核实。原型奶龙由第七印象创作。保留原图、原GIF。",
+    "role": "subject",
+    "is_cutout": false,
+    "templates": [
+      "top",
+      "bottom",
+      "split",
+      "frame",
+      "grid",
+      "message",
+      "poster",
+      "side",
+      "polaroid",
+      "bubble",
+      "dialogue",
+      "spotlight",
+      "comic",
+      "subtitle",
+      "note",
+      "window",
+      "ticket",
+      "medal",
+      "scene"
+    ]
+  },
+  {
+    "id": "bulk-nailong-092",
+    "name": "奶蛙 · 正脸微笑",
+    "character": "奶蛙",
+    "filename": "bulk-nailong/nailong-092.jpg",
+    "enabled": true,
+    "action": "正脸微笑",
+    "emotion": [
+      "开心",
+      "搞怪"
+    ],
+    "scenes": [
+      "日常聊天",
+      "群聊互动"
+    ],
+    "examples": [
+      "让我看看怎么个事",
+      "今天的精神状态"
+    ],
+    "intensity": 3,
+    "existing_text": "",
+    "source_type": "reference",
+    "author": "奶蛙二创作者待核实；原型奶龙第七印象",
+    "source_url": "https://github.com/GGGeeeooorrrgggeee/nailong-memes/blob/faff7a463622d83bfd4ef62e04220675b41db49d/images/1d58f5bc64278dd82fa9738670c6a7ce.jpg",
+    "source_note": "公开社区图库收集；仓库名 nailong 不是角色身份依据。本批为小头大肚、成人比例、黑色细长手指的奶蛙网络二创，不是官方圆头短肢粉掌垫的原版奶龙。包含三维二创及 AI 风格重制。图库整理者 George 不等于原作者；具体二创作者与授权待核实。原型奶龙由第七印象创作。保留原图、原GIF。",
+    "role": "subject",
+    "is_cutout": false,
+    "templates": [
+      "top",
+      "bottom",
+      "split",
+      "frame",
+      "grid",
+      "message",
+      "poster",
+      "side",
+      "polaroid",
+      "bubble",
+      "dialogue",
+      "spotlight",
+      "comic",
+      "subtitle",
+      "note",
+      "window",
+      "ticket",
+      "medal",
+      "scene"
+    ]
+  },
+  {
+    "id": "bulk-nailong-093",
+    "name": "奶蛙 · 抱臂站立",
+    "character": "奶蛙",
+    "filename": "bulk-nailong/nailong-093.jpg",
+    "enabled": true,
+    "action": "抱臂站立",
+    "emotion": [
+      "平静",
+      "无语"
+    ],
+    "scenes": [
+      "日常聊天",
+      "群聊互动"
+    ],
+    "examples": [
+      "让我看看怎么个事",
+      "今天的精神状态"
+    ],
+    "intensity": 2,
+    "existing_text": "",
+    "source_type": "reference",
+    "author": "奶蛙二创作者待核实；原型奶龙第七印象",
+    "source_url": "https://github.com/GGGeeeooorrrgggeee/nailong-memes/blob/faff7a463622d83bfd4ef62e04220675b41db49d/images/274d629bfa4fc646138fe36ea27f3f35.jpg",
+    "source_note": "公开社区图库收集；仓库名 nailong 不是角色身份依据。本批为小头大肚、成人比例、黑色细长手指的奶蛙网络二创，不是官方圆头短肢粉掌垫的原版奶龙。包含三维二创及 AI 风格重制。图库整理者 George 不等于原作者；具体二创作者与授权待核实。原型奶龙由第七印象创作。保留原图、原GIF。",
+    "role": "subject",
+    "is_cutout": false,
+    "templates": [
+      "top",
+      "bottom",
+      "split",
+      "frame",
+      "grid",
+      "message",
+      "poster",
+      "side",
+      "polaroid",
+      "bubble",
+      "dialogue",
+      "spotlight",
+      "comic",
+      "subtitle",
+      "note",
+      "window",
+      "ticket",
+      "medal",
+      "scene"
+    ]
+  },
+  {
+    "id": "bulk-nailong-094",
+    "name": "奶蛙 · 倒立支撑",
+    "character": "奶蛙",
+    "filename": "bulk-nailong/nailong-094.jpg",
+    "enabled": true,
+    "action": "倒立支撑",
+    "emotion": [
+      "平静",
+      "无语"
+    ],
+    "scenes": [
+      "日常聊天",
+      "群聊互动"
+    ],
+    "examples": [
+      "让我看看怎么个事",
+      "今天的精神状态"
+    ],
+    "intensity": 2,
+    "existing_text": "",
+    "source_type": "reference",
+    "author": "奶蛙二创作者待核实；原型奶龙第七印象",
+    "source_url": "https://github.com/GGGeeeooorrrgggeee/nailong-memes/blob/faff7a463622d83bfd4ef62e04220675b41db49d/images/2EC91AB5920CA4C4DA480F5EFD0DA10E.jpg",
+    "source_note": "公开社区图库收集；仓库名 nailong 不是角色身份依据。本批为小头大肚、成人比例、黑色细长手指的奶蛙网络二创，不是官方圆头短肢粉掌垫的原版奶龙。包含三维二创及 AI 风格重制。图库整理者 George 不等于原作者；具体二创作者与授权待核实。原型奶龙由第七印象创作。保留原图、原GIF。",
+    "role": "subject",
+    "is_cutout": false,
+    "templates": [
+      "top",
+      "bottom",
+      "split",
+      "frame",
+      "grid",
+      "message",
+      "poster",
+      "side",
+      "polaroid",
+      "bubble",
+      "dialogue",
+      "spotlight",
+      "comic",
+      "subtitle",
+      "note",
+      "window",
+      "ticket",
+      "medal",
+      "scene"
+    ]
+  },
+  {
+    "id": "bulk-nailong-095",
+    "name": "奶蛙 · 单手招呼",
+    "character": "奶蛙",
+    "filename": "bulk-nailong/nailong-095.jpg",
+    "enabled": true,
+    "action": "单手招呼",
+    "emotion": [
+      "可爱",
+      "期待"
+    ],
+    "scenes": [
+      "日常聊天",
+      "群聊互动"
+    ],
+    "examples": [
+      "让我看看怎么个事",
+      "今天的精神状态"
+    ],
+    "intensity": 2,
+    "existing_text": "",
+    "source_type": "reference",
+    "author": "奶蛙二创作者待核实；原型奶龙第七印象",
+    "source_url": "https://github.com/GGGeeeooorrrgggeee/nailong-memes/blob/faff7a463622d83bfd4ef62e04220675b41db49d/images/367aaf3f9b80de98d1da27597d9156fe.jpg",
+    "source_note": "公开社区图库收集；仓库名 nailong 不是角色身份依据。本批为小头大肚、成人比例、黑色细长手指的奶蛙网络二创，不是官方圆头短肢粉掌垫的原版奶龙。包含三维二创及 AI 风格重制。图库整理者 George 不等于原作者；具体二创作者与授权待核实。原型奶龙由第七印象创作。保留原图、原GIF。",
+    "role": "subject",
+    "is_cutout": false,
+    "templates": [
+      "top",
+      "bottom",
+      "split",
+      "frame",
+      "grid",
+      "message",
+      "poster",
+      "side",
+      "polaroid",
+      "bubble",
+      "dialogue",
+      "spotlight",
+      "comic",
+      "subtitle",
+      "note",
+      "window",
+      "ticket",
+      "medal",
+      "scene"
+    ]
+  },
+  {
+    "id": "bulk-nailong-096",
+    "name": "奶蛙 · 肌肉自拍",
+    "character": "奶蛙",
+    "filename": "bulk-nailong/nailong-096.jpg",
+    "enabled": true,
+    "action": "肌肉自拍",
+    "emotion": [
+      "平静",
+      "无语"
+    ],
+    "scenes": [
+      "日常聊天",
+      "群聊互动"
+    ],
+    "examples": [
+      "让我看看怎么个事",
+      "今天的精神状态"
+    ],
+    "intensity": 2,
+    "existing_text": "",
+    "source_type": "reference",
+    "author": "奶蛙二创作者待核实；原型奶龙第七印象",
+    "source_url": "https://github.com/GGGeeeooorrrgggeee/nailong-memes/blob/faff7a463622d83bfd4ef62e04220675b41db49d/images/3ad61068fb49ee9fdcae1f3ce05fd5fc.jpg",
+    "source_note": "公开社区图库收集；仓库名 nailong 不是角色身份依据。本批为小头大肚、成人比例、黑色细长手指的奶蛙网络二创，不是官方圆头短肢粉掌垫的原版奶龙。包含三维二创及 AI 风格重制。图库整理者 George 不等于原作者；具体二创作者与授权待核实。原型奶龙由第七印象创作。保留原图、原GIF。",
+    "role": "subject",
+    "is_cutout": false,
+    "templates": [
+      "top",
+      "bottom",
+      "split",
+      "frame",
+      "grid",
+      "message",
+      "poster",
+      "side",
+      "polaroid",
+      "bubble",
+      "dialogue",
+      "spotlight",
+      "comic",
+      "subtitle",
+      "note",
+      "window",
+      "ticket",
+      "medal",
+      "scene"
+    ]
+  },
+  {
+    "id": "bulk-nailong-097",
+    "name": "奶蛙 · 黑发西装",
+    "character": "奶蛙",
+    "filename": "bulk-nailong/nailong-097.jpg",
+    "enabled": true,
+    "action": "黑发西装",
+    "emotion": [
+      "平静",
+      "无语"
+    ],
+    "scenes": [
+      "日常聊天",
+      "群聊互动"
+    ],
+    "examples": [
+      "让我看看怎么个事",
+      "今天的精神状态"
+    ],
+    "intensity": 2,
+    "existing_text": "",
+    "source_type": "reference",
+    "author": "奶蛙二创作者待核实；原型奶龙第七印象",
+    "source_url": "https://github.com/GGGeeeooorrrgggeee/nailong-memes/blob/faff7a463622d83bfd4ef62e04220675b41db49d/images/3e458fec9f5579feacc8f07b1348f1cb.jpg",
+    "source_note": "公开社区图库收集；仓库名 nailong 不是角色身份依据。本批为小头大肚、成人比例、黑色细长手指的奶蛙网络二创，不是官方圆头短肢粉掌垫的原版奶龙。包含三维二创及 AI 风格重制。图库整理者 George 不等于原作者；具体二创作者与授权待核实。原型奶龙由第七印象创作。保留原图、原GIF。",
+    "role": "subject",
+    "is_cutout": false,
+    "templates": [
+      "top",
+      "bottom",
+      "split",
+      "frame",
+      "grid",
+      "message",
+      "poster",
+      "side",
+      "polaroid",
+      "bubble",
+      "dialogue",
+      "spotlight",
+      "comic",
+      "subtitle",
+      "note",
+      "window",
+      "ticket",
+      "medal",
+      "scene"
+    ]
+  },
+  {
+    "id": "bulk-nailong-098",
+    "name": "奶蛙 · 红背心合掌",
+    "character": "奶蛙",
+    "filename": "bulk-nailong/nailong-098.jpg",
+    "enabled": true,
+    "action": "红背心合掌",
+    "emotion": [
+      "可爱",
+      "期待"
+    ],
+    "scenes": [
+      "日常聊天",
+      "群聊互动"
+    ],
+    "examples": [
+      "让我看看怎么个事",
+      "今天的精神状态"
+    ],
+    "intensity": 2,
+    "existing_text": "",
+    "source_type": "reference",
+    "author": "奶蛙二创作者待核实；原型奶龙第七印象",
+    "source_url": "https://github.com/GGGeeeooorrrgggeee/nailong-memes/blob/faff7a463622d83bfd4ef62e04220675b41db49d/images/411FA1BE7F709A95AF5060D15217801F.jpg",
+    "source_note": "公开社区图库收集；仓库名 nailong 不是角色身份依据。本批为小头大肚、成人比例、黑色细长手指的奶蛙网络二创，不是官方圆头短肢粉掌垫的原版奶龙。包含三维二创及 AI 风格重制。图库整理者 George 不等于原作者；具体二创作者与授权待核实。原型奶龙由第七印象创作。保留原图、原GIF。",
+    "role": "subject",
+    "is_cutout": false,
+    "templates": [
+      "top",
+      "bottom",
+      "split",
+      "frame",
+      "grid",
+      "message",
+      "poster",
+      "side",
+      "polaroid",
+      "bubble",
+      "dialogue",
+      "spotlight",
+      "comic",
+      "subtitle",
+      "note",
+      "window",
+      "ticket",
+      "medal",
+      "scene"
+    ]
+  },
+  {
+    "id": "bulk-nailong-099",
+    "name": "奶蛙 · 侧脸无语",
+    "character": "奶蛙",
+    "filename": "bulk-nailong/nailong-099.jpg",
+    "enabled": true,
+    "action": "侧脸无语",
+    "emotion": [
+      "平静",
+      "无语"
+    ],
+    "scenes": [
+      "日常聊天",
+      "群聊互动"
+    ],
+    "examples": [
+      "让我看看怎么个事",
+      "今天的精神状态"
+    ],
+    "intensity": 2,
+    "existing_text": "",
+    "source_type": "reference",
+    "author": "奶蛙二创作者待核实；原型奶龙第七印象",
+    "source_url": "https://github.com/GGGeeeooorrrgggeee/nailong-memes/blob/faff7a463622d83bfd4ef62e04220675b41db49d/images/44e00ccd3afeb944a97d08027d202d47.jpg",
+    "source_note": "公开社区图库收集；仓库名 nailong 不是角色身份依据。本批为小头大肚、成人比例、黑色细长手指的奶蛙网络二创，不是官方圆头短肢粉掌垫的原版奶龙。包含三维二创及 AI 风格重制。图库整理者 George 不等于原作者；具体二创作者与授权待核实。原型奶龙由第七印象创作。保留原图、原GIF。",
+    "role": "subject",
+    "is_cutout": false,
+    "templates": [
+      "top",
+      "bottom",
+      "split",
+      "frame",
+      "grid",
+      "message",
+      "poster",
+      "side",
+      "polaroid",
+      "bubble",
+      "dialogue",
+      "spotlight",
+      "comic",
+      "subtitle",
+      "note",
+      "window",
+      "ticket",
+      "medal",
+      "scene"
+    ]
+  },
+  {
+    "id": "bulk-nailong-100",
+    "name": "奶蛙 · 张嘴大笑特写",
+    "character": "奶蛙",
+    "filename": "bulk-nailong/nailong-100.jpg",
+    "enabled": true,
+    "action": "张嘴大笑特写",
+    "emotion": [
+      "开心",
+      "搞怪"
+    ],
+    "scenes": [
+      "日常聊天",
+      "群聊互动"
+    ],
+    "examples": [
+      "让我看看怎么个事",
+      "今天的精神状态"
+    ],
+    "intensity": 3,
+    "existing_text": "",
+    "source_type": "reference",
+    "author": "奶蛙二创作者待核实；原型奶龙第七印象",
+    "source_url": "https://github.com/GGGeeeooorrrgggeee/nailong-memes/blob/faff7a463622d83bfd4ef62e04220675b41db49d/images/4f24b3ec7d290217f2e867df6a659a69.jpg",
+    "source_note": "公开社区图库收集；仓库名 nailong 不是角色身份依据。本批为小头大肚、成人比例、黑色细长手指的奶蛙网络二创，不是官方圆头短肢粉掌垫的原版奶龙。包含三维二创及 AI 风格重制。图库整理者 George 不等于原作者；具体二创作者与授权待核实。原型奶龙由第七印象创作。保留原图、原GIF。",
+    "role": "subject",
+    "is_cutout": false,
+    "templates": [
+      "top",
+      "bottom",
+      "split",
+      "frame",
+      "grid",
+      "message",
+      "poster",
+      "side",
+      "polaroid",
+      "bubble",
+      "dialogue",
+      "spotlight",
+      "comic",
+      "subtitle",
+      "note",
+      "window",
+      "ticket",
+      "medal",
+      "scene"
+    ]
+  },
+  {
+    "id": "bulk-nailong-101",
+    "name": "奶蛙 · 举手欢呼",
+    "character": "奶蛙",
+    "filename": "bulk-nailong/nailong-101.jpg",
+    "enabled": true,
+    "action": "举手欢呼",
+    "emotion": [
+      "开心",
+      "搞怪"
+    ],
+    "scenes": [
+      "日常聊天",
+      "群聊互动"
+    ],
+    "examples": [
+      "让我看看怎么个事",
+      "今天的精神状态"
+    ],
+    "intensity": 2,
+    "existing_text": "",
+    "source_type": "reference",
+    "author": "奶蛙二创作者待核实；原型奶龙第七印象",
+    "source_url": "https://github.com/GGGeeeooorrrgggeee/nailong-memes/blob/faff7a463622d83bfd4ef62e04220675b41db49d/images/5149D45A84B61F3D538EB7F4BD8EF57C.jpg",
+    "source_note": "公开社区图库收集；仓库名 nailong 不是角色身份依据。本批为小头大肚、成人比例、黑色细长手指的奶蛙网络二创，不是官方圆头短肢粉掌垫的原版奶龙。包含三维二创及 AI 风格重制。图库整理者 George 不等于原作者；具体二创作者与授权待核实。原型奶龙由第七印象创作。保留原图、原GIF。",
+    "role": "subject",
+    "is_cutout": true,
+    "templates": [
+      "top",
+      "bottom",
+      "split",
+      "frame",
+      "flower",
+      "grid",
+      "message",
+      "poster",
+      "side",
+      "polaroid",
+      "bubble",
+      "dialogue",
+      "spotlight",
+      "comic",
+      "subtitle",
+      "note",
+      "window",
+      "ticket",
+      "medal",
+      "scene"
+    ]
+  },
+  {
+    "id": "bulk-nailong-102",
+    "name": "奶蛙 · 叉腰站立",
+    "character": "奶蛙",
+    "filename": "bulk-nailong/nailong-102.jpg",
+    "enabled": true,
+    "action": "叉腰站立",
+    "emotion": [
+      "平静",
+      "无语"
+    ],
+    "scenes": [
+      "日常聊天",
+      "群聊互动"
+    ],
+    "examples": [
+      "让我看看怎么个事",
+      "今天的精神状态"
+    ],
+    "intensity": 2,
+    "existing_text": "",
+    "source_type": "reference",
+    "author": "奶蛙二创作者待核实；原型奶龙第七印象",
+    "source_url": "https://github.com/GGGeeeooorrrgggeee/nailong-memes/blob/faff7a463622d83bfd4ef62e04220675b41db49d/images/522b5f888cffd66abd8bd705e6598bad.jpg",
+    "source_note": "公开社区图库收集；仓库名 nailong 不是角色身份依据。本批为小头大肚、成人比例、黑色细长手指的奶蛙网络二创，不是官方圆头短肢粉掌垫的原版奶龙。包含三维二创及 AI 风格重制。图库整理者 George 不等于原作者；具体二创作者与授权待核实。原型奶龙由第七印象创作。保留原图、原GIF。",
+    "role": "subject",
+    "is_cutout": false,
+    "templates": [
+      "top",
+      "bottom",
+      "split",
+      "frame",
+      "grid",
+      "message",
+      "poster",
+      "side",
+      "polaroid",
+      "bubble",
+      "dialogue",
+      "spotlight",
+      "comic",
+      "subtitle",
+      "note",
+      "window",
+      "ticket",
+      "medal",
+      "scene"
+    ]
+  },
+  {
+    "id": "bulk-nailong-103",
+    "name": "奶蛙 · 拿着手机笑",
+    "character": "奶蛙",
+    "filename": "bulk-nailong/nailong-103.jpg",
+    "enabled": true,
+    "action": "拿着手机笑",
+    "emotion": [
+      "开心",
+      "搞怪"
+    ],
+    "scenes": [
+      "日常聊天",
+      "群聊互动"
+    ],
+    "examples": [
+      "让我看看怎么个事",
+      "今天的精神状态"
+    ],
+    "intensity": 3,
+    "existing_text": "",
+    "source_type": "reference",
+    "author": "奶蛙二创作者待核实；原型奶龙第七印象",
+    "source_url": "https://github.com/GGGeeeooorrrgggeee/nailong-memes/blob/faff7a463622d83bfd4ef62e04220675b41db49d/images/55B6F1B1FC5DCD1CAE8B611BAB2C6DF9.jpg",
+    "source_note": "公开社区图库收集；仓库名 nailong 不是角色身份依据。本批为小头大肚、成人比例、黑色细长手指的奶蛙网络二创，不是官方圆头短肢粉掌垫的原版奶龙。包含三维二创及 AI 风格重制。图库整理者 George 不等于原作者；具体二创作者与授权待核实。原型奶龙由第七印象创作。保留原图、原GIF。",
+    "role": "subject",
+    "is_cutout": false,
+    "templates": [
+      "top",
+      "bottom",
+      "split",
+      "frame",
+      "grid",
+      "message",
+      "poster",
+      "side",
+      "polaroid",
+      "bubble",
+      "dialogue",
+      "spotlight",
+      "comic",
+      "subtitle",
+      "note",
+      "window",
+      "ticket",
+      "medal",
+      "scene"
+    ]
+  },
+  {
+    "id": "bulk-nailong-104",
+    "name": "奶蛙 · 双手托脸",
+    "character": "奶蛙",
+    "filename": "bulk-nailong/nailong-104.jpg",
+    "enabled": true,
+    "action": "双手托脸",
+    "emotion": [
+      "平静",
+      "无语"
+    ],
+    "scenes": [
+      "日常聊天",
+      "群聊互动"
+    ],
+    "examples": [
+      "让我看看怎么个事",
+      "今天的精神状态"
+    ],
+    "intensity": 2,
+    "existing_text": "",
+    "source_type": "reference",
+    "author": "奶蛙二创作者待核实；原型奶龙第七印象",
+    "source_url": "https://github.com/GGGeeeooorrrgggeee/nailong-memes/blob/faff7a463622d83bfd4ef62e04220675b41db49d/images/61919F0C50F97AC3AB7A476C4E893102.jpg",
+    "source_note": "公开社区图库收集；仓库名 nailong 不是角色身份依据。本批为小头大肚、成人比例、黑色细长手指的奶蛙网络二创，不是官方圆头短肢粉掌垫的原版奶龙。包含三维二创及 AI 风格重制。图库整理者 George 不等于原作者；具体二创作者与授权待核实。原型奶龙由第七印象创作。保留原图、原GIF。",
+    "role": "subject",
+    "is_cutout": false,
+    "templates": [
+      "top",
+      "bottom",
+      "split",
+      "frame",
+      "grid",
+      "message",
+      "poster",
+      "side",
+      "polaroid",
+      "bubble",
+      "dialogue",
+      "spotlight",
+      "comic",
+      "subtitle",
+      "note",
+      "window",
+      "ticket",
+      "medal",
+      "scene"
+    ]
+  },
+  {
+    "id": "bulk-nailong-105",
+    "name": "奶蛙 · 撑伞站立",
+    "character": "奶蛙",
+    "filename": "bulk-nailong/nailong-105.jpg",
+    "enabled": true,
+    "action": "撑伞站立",
+    "emotion": [
+      "平静",
+      "无语"
+    ],
+    "scenes": [
+      "日常聊天",
+      "群聊互动"
+    ],
+    "examples": [
+      "让我看看怎么个事",
+      "今天的精神状态"
+    ],
+    "intensity": 2,
+    "existing_text": "",
+    "source_type": "reference",
+    "author": "奶蛙二创作者待核实；原型奶龙第七印象",
+    "source_url": "https://github.com/GGGeeeooorrrgggeee/nailong-memes/blob/faff7a463622d83bfd4ef62e04220675b41db49d/images/62d1e4fcd3ecbd0ffb263d90fb46990a.jpg",
+    "source_note": "公开社区图库收集；仓库名 nailong 不是角色身份依据。本批为小头大肚、成人比例、黑色细长手指的奶蛙网络二创，不是官方圆头短肢粉掌垫的原版奶龙。包含三维二创及 AI 风格重制。图库整理者 George 不等于原作者；具体二创作者与授权待核实。原型奶龙由第七印象创作。保留原图、原GIF。",
+    "role": "subject",
+    "is_cutout": false,
+    "templates": [
+      "top",
+      "bottom",
+      "split",
+      "frame",
+      "grid",
+      "message",
+      "poster",
+      "side",
+      "polaroid",
+      "bubble",
+      "dialogue",
+      "spotlight",
+      "comic",
+      "subtitle",
+      "note",
+      "window",
+      "ticket",
+      "medal",
+      "scene"
+    ]
+  },
+  {
+    "id": "bulk-nailong-107",
+    "name": "奶蛙 · 球衣震惊",
+    "character": "奶蛙",
+    "filename": "bulk-nailong/nailong-107.jpg",
+    "enabled": true,
+    "action": "球衣震惊",
+    "emotion": [
+      "平静",
+      "无语"
+    ],
+    "scenes": [
+      "日常聊天",
+      "群聊互动"
+    ],
+    "examples": [
+      "让我看看怎么个事",
+      "今天的精神状态"
+    ],
+    "intensity": 2,
+    "existing_text": "",
+    "source_type": "reference",
+    "author": "奶蛙二创作者待核实；原型奶龙第七印象",
+    "source_url": "https://github.com/GGGeeeooorrrgggeee/nailong-memes/blob/faff7a463622d83bfd4ef62e04220675b41db49d/images/706DF161165F0563317CFE4122C88A3D.jpg",
+    "source_note": "公开社区图库收集；仓库名 nailong 不是角色身份依据。本批为小头大肚、成人比例、黑色细长手指的奶蛙网络二创，不是官方圆头短肢粉掌垫的原版奶龙。包含三维二创及 AI 风格重制。图库整理者 George 不等于原作者；具体二创作者与授权待核实。原型奶龙由第七印象创作。保留原图、原GIF。",
+    "role": "subject",
+    "is_cutout": false,
+    "templates": [
+      "top",
+      "bottom",
+      "split",
+      "frame",
+      "grid",
+      "message",
+      "poster",
+      "side",
+      "polaroid",
+      "bubble",
+      "dialogue",
+      "spotlight",
+      "comic",
+      "subtitle",
+      "note",
+      "window",
+      "ticket",
+      "medal",
+      "scene"
+    ]
+  },
+  {
+    "id": "bulk-nailong-108",
+    "name": "奶蛙 · 粽子装扮",
+    "character": "奶蛙",
+    "filename": "bulk-nailong/nailong-108.jpg",
+    "enabled": true,
+    "action": "粽子装扮",
+    "emotion": [
+      "平静",
+      "无语"
+    ],
+    "scenes": [
+      "日常聊天",
+      "群聊互动"
+    ],
+    "examples": [
+      "让我看看怎么个事",
+      "今天的精神状态"
+    ],
+    "intensity": 2,
+    "existing_text": "",
+    "source_type": "reference",
+    "author": "奶蛙二创作者待核实；原型奶龙第七印象",
+    "source_url": "https://github.com/GGGeeeooorrrgggeee/nailong-memes/blob/faff7a463622d83bfd4ef62e04220675b41db49d/images/7121A97E5877372581D658620B3703F8.jpg",
+    "source_note": "公开社区图库收集；仓库名 nailong 不是角色身份依据。本批为小头大肚、成人比例、黑色细长手指的奶蛙网络二创，不是官方圆头短肢粉掌垫的原版奶龙。包含三维二创及 AI 风格重制。图库整理者 George 不等于原作者；具体二创作者与授权待核实。原型奶龙由第七印象创作。保留原图、原GIF。",
+    "role": "subject",
+    "is_cutout": false,
+    "templates": [
+      "top",
+      "bottom",
+      "split",
+      "frame",
+      "grid",
+      "message",
+      "poster",
+      "side",
+      "polaroid",
+      "bubble",
+      "dialogue",
+      "spotlight",
+      "comic",
+      "subtitle",
+      "note",
+      "window",
+      "ticket",
+      "medal",
+      "scene"
+    ]
+  },
+  {
+    "id": "bulk-nailong-109",
+    "name": "奶蛙 · 盘腿打坐",
+    "character": "奶蛙",
+    "filename": "bulk-nailong/nailong-109.jpg",
+    "enabled": true,
+    "action": "盘腿打坐",
+    "emotion": [
+      "平静",
+      "无语"
+    ],
+    "scenes": [
+      "日常聊天",
+      "群聊互动"
+    ],
+    "examples": [
+      "让我看看怎么个事",
+      "今天的精神状态"
+    ],
+    "intensity": 2,
+    "existing_text": "",
+    "source_type": "reference",
+    "author": "奶蛙二创作者待核实；原型奶龙第七印象",
+    "source_url": "https://github.com/GGGeeeooorrrgggeee/nailong-memes/blob/faff7a463622d83bfd4ef62e04220675b41db49d/images/72d3a232a303424396473b3c287223ec.jpg",
+    "source_note": "公开社区图库收集；仓库名 nailong 不是角色身份依据。本批为小头大肚、成人比例、黑色细长手指的奶蛙网络二创，不是官方圆头短肢粉掌垫的原版奶龙。包含三维二创及 AI 风格重制。图库整理者 George 不等于原作者；具体二创作者与授权待核实。原型奶龙由第七印象创作。保留原图、原GIF。",
+    "role": "subject",
+    "is_cutout": false,
+    "templates": [
+      "top",
+      "bottom",
+      "split",
+      "frame",
+      "grid",
+      "message",
+      "poster",
+      "side",
+      "polaroid",
+      "bubble",
+      "dialogue",
+      "spotlight",
+      "comic",
+      "subtitle",
+      "note",
+      "window",
+      "ticket",
+      "medal",
+      "scene"
+    ]
+  },
+  {
+    "id": "bulk-nailong-110",
+    "name": "奶蛙 · 合掌求救",
+    "character": "奶蛙",
+    "filename": "bulk-nailong/nailong-110.jpg",
+    "enabled": true,
+    "action": "合掌求救",
+    "emotion": [
+      "可爱",
+      "期待"
+    ],
+    "scenes": [
+      "日常聊天",
+      "群聊互动"
+    ],
+    "examples": [
+      "让我看看怎么个事",
+      "今天的精神状态"
+    ],
+    "intensity": 2,
+    "existing_text": "神 你会拯救我吗",
+    "source_type": "reference",
+    "author": "奶蛙二创作者待核实；原型奶龙第七印象",
+    "source_url": "https://github.com/GGGeeeooorrrgggeee/nailong-memes/blob/faff7a463622d83bfd4ef62e04220675b41db49d/images/72E448096D3CA4BD448DBBD129CD520B.jpg",
+    "source_note": "公开社区图库收集；仓库名 nailong 不是角色身份依据。本批为小头大肚、成人比例、黑色细长手指的奶蛙网络二创，不是官方圆头短肢粉掌垫的原版奶龙。包含三维二创及 AI 风格重制。图库整理者 George 不等于原作者；具体二创作者与授权待核实。原型奶龙由第七印象创作。保留原图、原GIF。",
+    "role": "subject",
+    "is_cutout": false,
+    "templates": [
+      "top",
+      "bottom",
+      "split",
+      "frame",
+      "grid",
+      "message",
+      "poster",
+      "side",
+      "polaroid",
+      "bubble",
+      "dialogue",
+      "spotlight",
+      "comic",
+      "subtitle",
+      "note",
+      "window",
+      "ticket",
+      "medal",
+      "scene"
+    ]
+  },
+  {
+    "id": "bulk-nailong-111",
+    "name": "奶蛙 · 袈裟合掌",
+    "character": "奶蛙",
+    "filename": "bulk-nailong/nailong-111.jpg",
+    "enabled": true,
+    "action": "袈裟合掌",
+    "emotion": [
+      "可爱",
+      "期待"
+    ],
+    "scenes": [
+      "日常聊天",
+      "群聊互动"
+    ],
+    "examples": [
+      "让我看看怎么个事",
+      "今天的精神状态"
+    ],
+    "intensity": 2,
+    "existing_text": "",
+    "source_type": "reference",
+    "author": "奶蛙二创作者待核实；原型奶龙第七印象",
+    "source_url": "https://github.com/GGGeeeooorrrgggeee/nailong-memes/blob/faff7a463622d83bfd4ef62e04220675b41db49d/images/7491282117e61e5fcc0f4872bc0151d5.jpg",
+    "source_note": "公开社区图库收集；仓库名 nailong 不是角色身份依据。本批为小头大肚、成人比例、黑色细长手指的奶蛙网络二创，不是官方圆头短肢粉掌垫的原版奶龙。包含三维二创及 AI 风格重制。图库整理者 George 不等于原作者；具体二创作者与授权待核实。原型奶龙由第七印象创作。保留原图、原GIF。",
+    "role": "subject",
+    "is_cutout": false,
+    "templates": [
+      "top",
+      "bottom",
+      "split",
+      "frame",
+      "grid",
+      "message",
+      "poster",
+      "side",
+      "polaroid",
+      "bubble",
+      "dialogue",
+      "spotlight",
+      "comic",
+      "subtitle",
+      "note",
+      "window",
+      "ticket",
+      "medal",
+      "scene"
+    ]
+  },
+  {
+    "id": "bulk-nailong-113",
+    "name": "奶蛙 · 警服站立",
+    "character": "奶蛙",
+    "filename": "bulk-nailong/nailong-113.jpg",
+    "enabled": true,
+    "action": "警服站立",
+    "emotion": [
+      "平静",
+      "无语"
+    ],
+    "scenes": [
+      "日常聊天",
+      "群聊互动"
+    ],
+    "examples": [
+      "让我看看怎么个事",
+      "今天的精神状态"
+    ],
+    "intensity": 2,
+    "existing_text": "",
+    "source_type": "reference",
+    "author": "奶蛙二创作者待核实；原型奶龙第七印象",
+    "source_url": "https://github.com/GGGeeeooorrrgggeee/nailong-memes/blob/faff7a463622d83bfd4ef62e04220675b41db49d/images/8eca876e50b8fcaed66f3301158085ea.jpg",
+    "source_note": "公开社区图库收集；仓库名 nailong 不是角色身份依据。本批为小头大肚、成人比例、黑色细长手指的奶蛙网络二创，不是官方圆头短肢粉掌垫的原版奶龙。包含三维二创及 AI 风格重制。图库整理者 George 不等于原作者；具体二创作者与授权待核实。原型奶龙由第七印象创作。保留原图、原GIF。",
+    "role": "subject",
+    "is_cutout": false,
+    "templates": [
+      "top",
+      "bottom",
+      "split",
+      "frame",
+      "grid",
+      "message",
+      "poster",
+      "side",
+      "polaroid",
+      "bubble",
+      "dialogue",
+      "spotlight",
+      "comic",
+      "subtitle",
+      "note",
+      "window",
+      "ticket",
+      "medal",
+      "scene"
+    ]
+  },
+  {
+    "id": "bulk-nailong-114",
+    "name": "奶蛙 · 沙发瘫坐",
+    "character": "奶蛙",
+    "filename": "bulk-nailong/nailong-114.jpg",
+    "enabled": true,
+    "action": "沙发瘫坐",
+    "emotion": [
+      "平静",
+      "无语"
+    ],
+    "scenes": [
+      "日常聊天",
+      "群聊互动",
+      "休息",
+      "早八",
+      "摆烂"
+    ],
+    "examples": [
+      "让我看看怎么个事",
+      "今天的精神状态"
+    ],
+    "intensity": 2,
+    "existing_text": "",
+    "source_type": "reference",
+    "author": "奶蛙二创作者待核实；原型奶龙第七印象",
+    "source_url": "https://github.com/GGGeeeooorrrgggeee/nailong-memes/blob/faff7a463622d83bfd4ef62e04220675b41db49d/images/925F19D8F5DBBF3C30074373248C48E7.jpg",
+    "source_note": "公开社区图库收集；仓库名 nailong 不是角色身份依据。本批为小头大肚、成人比例、黑色细长手指的奶蛙网络二创，不是官方圆头短肢粉掌垫的原版奶龙。包含三维二创及 AI 风格重制。图库整理者 George 不等于原作者；具体二创作者与授权待核实。原型奶龙由第七印象创作。保留原图、原GIF。",
+    "role": "subject",
+    "is_cutout": false,
+    "templates": [
+      "top",
+      "bottom",
+      "split",
+      "frame",
+      "grid",
+      "message",
+      "poster",
+      "side",
+      "polaroid",
+      "bubble",
+      "dialogue",
+      "spotlight",
+      "comic",
+      "subtitle",
+      "note",
+      "window",
+      "ticket",
+      "medal",
+      "scene"
+    ]
+  },
+  {
+    "id": "bulk-nailong-115",
+    "name": "奶蛙 · 垂眼委屈",
+    "character": "奶蛙",
+    "filename": "bulk-nailong/nailong-115.jpg",
+    "enabled": true,
+    "action": "垂眼委屈",
+    "emotion": [
+      "平静",
+      "无语"
+    ],
+    "scenes": [
+      "日常聊天",
+      "群聊互动"
+    ],
+    "examples": [
+      "让我看看怎么个事",
+      "今天的精神状态"
+    ],
+    "intensity": 2,
+    "existing_text": "",
+    "source_type": "reference",
+    "author": "奶蛙二创作者待核实；原型奶龙第七印象",
+    "source_url": "https://github.com/GGGeeeooorrrgggeee/nailong-memes/blob/faff7a463622d83bfd4ef62e04220675b41db49d/images/93fd379de0b7ef1f00274e53cb6f02a0.jpg",
+    "source_note": "公开社区图库收集；仓库名 nailong 不是角色身份依据。本批为小头大肚、成人比例、黑色细长手指的奶蛙网络二创，不是官方圆头短肢粉掌垫的原版奶龙。包含三维二创及 AI 风格重制。图库整理者 George 不等于原作者；具体二创作者与授权待核实。原型奶龙由第七印象创作。保留原图、原GIF。",
+    "role": "subject",
+    "is_cutout": false,
+    "templates": [
+      "top",
+      "bottom",
+      "split",
+      "frame",
+      "grid",
+      "message",
+      "poster",
+      "side",
+      "polaroid",
+      "bubble",
+      "dialogue",
+      "spotlight",
+      "comic",
+      "subtitle",
+      "note",
+      "window",
+      "ticket",
+      "medal",
+      "scene"
+    ]
+  },
+  {
+    "id": "bulk-nailong-116",
+    "name": "奶蛙 · 迎着阳光站立",
+    "character": "奶蛙",
+    "filename": "bulk-nailong/nailong-116.jpg",
+    "enabled": true,
+    "action": "迎着阳光站立",
+    "emotion": [
+      "平静",
+      "无语"
+    ],
+    "scenes": [
+      "日常聊天",
+      "群聊互动"
+    ],
+    "examples": [
+      "让我看看怎么个事",
+      "今天的精神状态"
+    ],
+    "intensity": 2,
+    "existing_text": "",
+    "source_type": "reference",
+    "author": "奶蛙二创作者待核实；原型奶龙第七印象",
+    "source_url": "https://github.com/GGGeeeooorrrgggeee/nailong-memes/blob/faff7a463622d83bfd4ef62e04220675b41db49d/images/95FC9A89A381170E0A7E7886A72F46DE.jpg",
+    "source_note": "公开社区图库收集；仓库名 nailong 不是角色身份依据。本批为小头大肚、成人比例、黑色细长手指的奶蛙网络二创，不是官方圆头短肢粉掌垫的原版奶龙。包含三维二创及 AI 风格重制。图库整理者 George 不等于原作者；具体二创作者与授权待核实。原型奶龙由第七印象创作。保留原图、原GIF。",
+    "role": "subject",
+    "is_cutout": false,
+    "templates": [
+      "top",
+      "bottom",
+      "split",
+      "frame",
+      "grid",
+      "message",
+      "poster",
+      "side",
+      "polaroid",
+      "bubble",
+      "dialogue",
+      "spotlight",
+      "comic",
+      "subtitle",
+      "note",
+      "window",
+      "ticket",
+      "medal",
+      "scene"
+    ]
+  },
+  {
+    "id": "bulk-nailong-117",
+    "name": "奶蛙 · 被窝侧躺",
+    "character": "奶蛙",
+    "filename": "bulk-nailong/nailong-117.jpg",
+    "enabled": true,
+    "action": "被窝侧躺",
+    "emotion": [
+      "平静",
+      "无语"
+    ],
+    "scenes": [
+      "日常聊天",
+      "群聊互动",
+      "休息",
+      "早八",
+      "摆烂"
+    ],
+    "examples": [
+      "让我看看怎么个事",
+      "今天的精神状态"
+    ],
+    "intensity": 2,
+    "existing_text": "",
+    "source_type": "reference",
+    "author": "奶蛙二创作者待核实；原型奶龙第七印象",
+    "source_url": "https://github.com/GGGeeeooorrrgggeee/nailong-memes/blob/faff7a463622d83bfd4ef62e04220675b41db49d/images/99963a6cf5275926dc244c510168b156.jpg",
+    "source_note": "公开社区图库收集；仓库名 nailong 不是角色身份依据。本批为小头大肚、成人比例、黑色细长手指的奶蛙网络二创，不是官方圆头短肢粉掌垫的原版奶龙。包含三维二创及 AI 风格重制。图库整理者 George 不等于原作者；具体二创作者与授权待核实。原型奶龙由第七印象创作。保留原图、原GIF。",
+    "role": "subject",
+    "is_cutout": false,
+    "templates": [
+      "top",
+      "bottom",
+      "split",
+      "frame",
+      "grid",
+      "message",
+      "poster",
+      "side",
+      "polaroid",
+      "bubble",
+      "dialogue",
+      "spotlight",
+      "comic",
+      "subtitle",
+      "note",
+      "window",
+      "ticket",
+      "medal",
+      "scene"
+    ]
+  },
+  {
+    "id": "bulk-nailong-118",
+    "name": "奶蛙 · 双手抱头",
+    "character": "奶蛙",
+    "filename": "bulk-nailong/nailong-118.jpg",
+    "enabled": true,
+    "action": "双手抱头",
+    "emotion": [
+      "平静",
+      "无语"
+    ],
+    "scenes": [
+      "日常聊天",
+      "群聊互动"
+    ],
+    "examples": [
+      "让我看看怎么个事",
+      "今天的精神状态"
+    ],
+    "intensity": 2,
+    "existing_text": "",
+    "source_type": "reference",
+    "author": "奶蛙二创作者待核实；原型奶龙第七印象",
+    "source_url": "https://github.com/GGGeeeooorrrgggeee/nailong-memes/blob/faff7a463622d83bfd4ef62e04220675b41db49d/images/9A640FCE9DD95746A6254806682D3395.jpg",
+    "source_note": "公开社区图库收集；仓库名 nailong 不是角色身份依据。本批为小头大肚、成人比例、黑色细长手指的奶蛙网络二创，不是官方圆头短肢粉掌垫的原版奶龙。包含三维二创及 AI 风格重制。图库整理者 George 不等于原作者；具体二创作者与授权待核实。原型奶龙由第七印象创作。保留原图、原GIF。",
+    "role": "subject",
+    "is_cutout": false,
+    "templates": [
+      "top",
+      "bottom",
+      "split",
+      "frame",
+      "grid",
+      "message",
+      "poster",
+      "side",
+      "polaroid",
+      "bubble",
+      "dialogue",
+      "spotlight",
+      "comic",
+      "subtitle",
+      "note",
+      "window",
+      "ticket",
+      "medal",
+      "scene"
+    ]
+  },
+  {
+    "id": "bulk-nailong-119",
+    "name": "奶蛙 · 摸下巴思考",
+    "character": "奶蛙",
+    "filename": "bulk-nailong/nailong-119.jpg",
+    "enabled": true,
+    "action": "摸下巴思考",
+    "emotion": [
+      "平静",
+      "无语"
+    ],
+    "scenes": [
+      "日常聊天",
+      "群聊互动"
+    ],
+    "examples": [
+      "让我看看怎么个事",
+      "今天的精神状态"
+    ],
+    "intensity": 2,
+    "existing_text": "",
+    "source_type": "reference",
+    "author": "奶蛙二创作者待核实；原型奶龙第七印象",
+    "source_url": "https://github.com/GGGeeeooorrrgggeee/nailong-memes/blob/faff7a463622d83bfd4ef62e04220675b41db49d/images/ab34eac91ff98aabeb3683b2be81c017.jpg",
+    "source_note": "公开社区图库收集；仓库名 nailong 不是角色身份依据。本批为小头大肚、成人比例、黑色细长手指的奶蛙网络二创，不是官方圆头短肢粉掌垫的原版奶龙。包含三维二创及 AI 风格重制。图库整理者 George 不等于原作者；具体二创作者与授权待核实。原型奶龙由第七印象创作。保留原图、原GIF。",
+    "role": "subject",
+    "is_cutout": false,
+    "templates": [
+      "top",
+      "bottom",
+      "split",
+      "frame",
+      "grid",
+      "message",
+      "poster",
+      "side",
+      "polaroid",
+      "bubble",
+      "dialogue",
+      "spotlight",
+      "comic",
+      "subtitle",
+      "note",
+      "window",
+      "ticket",
+      "medal",
+      "scene"
+    ]
+  },
+  {
+    "id": "bulk-nailong-122",
+    "name": "奶蛙 · 手持手机大笑",
+    "character": "奶蛙",
+    "filename": "bulk-nailong/nailong-122.jpg",
+    "enabled": true,
+    "action": "手持手机大笑",
+    "emotion": [
+      "开心",
+      "搞怪"
+    ],
+    "scenes": [
+      "日常聊天",
+      "群聊互动"
+    ],
+    "examples": [
+      "让我看看怎么个事",
+      "今天的精神状态"
+    ],
+    "intensity": 3,
+    "existing_text": "",
+    "source_type": "reference",
+    "author": "奶蛙二创作者待核实；原型奶龙第七印象",
+    "source_url": "https://github.com/GGGeeeooorrrgggeee/nailong-memes/blob/faff7a463622d83bfd4ef62e04220675b41db49d/images/B25A9251B83C7B06077223A9D4A546D0.jpg",
+    "source_note": "公开社区图库收集；仓库名 nailong 不是角色身份依据。本批为小头大肚、成人比例、黑色细长手指的奶蛙网络二创，不是官方圆头短肢粉掌垫的原版奶龙。包含三维二创及 AI 风格重制。图库整理者 George 不等于原作者；具体二创作者与授权待核实。原型奶龙由第七印象创作。保留原图、原GIF。",
+    "role": "subject",
+    "is_cutout": false,
+    "templates": [
+      "top",
+      "bottom",
+      "split",
+      "frame",
+      "grid",
+      "message",
+      "poster",
+      "side",
+      "polaroid",
+      "bubble",
+      "dialogue",
+      "spotlight",
+      "comic",
+      "subtitle",
+      "note",
+      "window",
+      "ticket",
+      "medal",
+      "scene"
+    ]
+  },
+  {
+    "id": "bulk-nailong-124",
+    "name": "奶蛙 · 摊开双手腾空",
+    "character": "奶蛙",
+    "filename": "bulk-nailong/nailong-124.jpg",
+    "enabled": true,
+    "action": "摊开双手腾空",
+    "emotion": [
+      "平静",
+      "无语"
+    ],
+    "scenes": [
+      "日常聊天",
+      "群聊互动"
+    ],
+    "examples": [
+      "让我看看怎么个事",
+      "今天的精神状态"
+    ],
+    "intensity": 2,
+    "existing_text": "",
+    "source_type": "reference",
+    "author": "奶蛙二创作者待核实；原型奶龙第七印象",
+    "source_url": "https://github.com/GGGeeeooorrrgggeee/nailong-memes/blob/faff7a463622d83bfd4ef62e04220675b41db49d/images/bff75a7ca42493021f1c0bcfc3792748.jpg",
+    "source_note": "公开社区图库收集；仓库名 nailong 不是角色身份依据。本批为小头大肚、成人比例、黑色细长手指的奶蛙网络二创，不是官方圆头短肢粉掌垫的原版奶龙。包含三维二创及 AI 风格重制。图库整理者 George 不等于原作者；具体二创作者与授权待核实。原型奶龙由第七印象创作。保留原图、原GIF。",
+    "role": "subject",
+    "is_cutout": false,
+    "templates": [
+      "top",
+      "bottom",
+      "split",
+      "frame",
+      "grid",
+      "message",
+      "poster",
+      "side",
+      "polaroid",
+      "bubble",
+      "dialogue",
+      "spotlight",
+      "comic",
+      "subtitle",
+      "note",
+      "window",
+      "ticket",
+      "medal",
+      "scene"
+    ]
+  },
+  {
+    "id": "bulk-nailong-125",
+    "name": "奶蛙 · 车里读报",
+    "character": "奶蛙",
+    "filename": "bulk-nailong/nailong-125.jpg",
+    "enabled": true,
+    "action": "车里读报",
+    "emotion": [
+      "平静",
+      "无语"
+    ],
+    "scenes": [
+      "日常聊天",
+      "群聊互动"
+    ],
+    "examples": [
+      "让我看看怎么个事",
+      "今天的精神状态"
+    ],
+    "intensity": 2,
+    "existing_text": "报纸版面文字（不清晰）",
+    "source_type": "reference",
+    "author": "奶蛙二创作者待核实；原型奶龙第七印象",
+    "source_url": "https://github.com/GGGeeeooorrrgggeee/nailong-memes/blob/faff7a463622d83bfd4ef62e04220675b41db49d/images/BFF843C22EEF7E55B51266303184764A.jpg",
+    "source_note": "公开社区图库收集；仓库名 nailong 不是角色身份依据。本批为小头大肚、成人比例、黑色细长手指的奶蛙网络二创，不是官方圆头短肢粉掌垫的原版奶龙。包含三维二创及 AI 风格重制。图库整理者 George 不等于原作者；具体二创作者与授权待核实。原型奶龙由第七印象创作。保留原图、原GIF。",
+    "role": "subject",
+    "is_cutout": false,
+    "templates": [
+      "top",
+      "bottom",
+      "split",
+      "frame",
+      "grid",
+      "message",
+      "poster",
+      "side",
+      "polaroid",
+      "bubble",
+      "dialogue",
+      "spotlight",
+      "comic",
+      "subtitle",
+      "note",
+      "window",
+      "ticket",
+      "medal",
+      "scene"
+    ]
+  },
+  {
+    "id": "bulk-nailong-126",
+    "name": "奶蛙 · 窗边看同伴",
+    "character": "奶蛙",
+    "filename": "bulk-nailong/nailong-126.jpg",
+    "enabled": true,
+    "action": "窗边看同伴",
+    "emotion": [
+      "平静",
+      "无语"
+    ],
+    "scenes": [
+      "日常聊天",
+      "群聊互动"
+    ],
+    "examples": [
+      "让我看看怎么个事",
+      "今天的精神状态"
+    ],
+    "intensity": 2,
+    "existing_text": "",
+    "source_type": "reference",
+    "author": "奶蛙二创作者待核实；原型奶龙第七印象",
+    "source_url": "https://github.com/GGGeeeooorrrgggeee/nailong-memes/blob/faff7a463622d83bfd4ef62e04220675b41db49d/images/c573ce6a7df1929b070c16179c340001.jpg",
+    "source_note": "公开社区图库收集；仓库名 nailong 不是角色身份依据。本批为小头大肚、成人比例、黑色细长手指的奶蛙网络二创，不是官方圆头短肢粉掌垫的原版奶龙。包含三维二创及 AI 风格重制。图库整理者 George 不等于原作者；具体二创作者与授权待核实。原型奶龙由第七印象创作。保留原图、原GIF。",
+    "role": "subject",
+    "is_cutout": false,
+    "templates": [
+      "top",
+      "bottom",
+      "split",
+      "frame",
+      "grid",
+      "message",
+      "poster",
+      "side",
+      "polaroid",
+      "bubble",
+      "dialogue",
+      "spotlight",
+      "comic",
+      "subtitle",
+      "note",
+      "window",
+      "ticket",
+      "medal",
+      "scene"
+    ]
+  },
+  {
+    "id": "bulk-nailong-127",
+    "name": "奶蛙 · 近景委屈",
+    "character": "奶蛙",
+    "filename": "bulk-nailong/nailong-127.jpg",
+    "enabled": true,
+    "action": "近景委屈",
+    "emotion": [
+      "平静",
+      "无语"
+    ],
+    "scenes": [
+      "日常聊天",
+      "群聊互动"
+    ],
+    "examples": [
+      "让我看看怎么个事",
+      "今天的精神状态"
+    ],
+    "intensity": 2,
+    "existing_text": "",
+    "source_type": "reference",
+    "author": "奶蛙二创作者待核实；原型奶龙第七印象",
+    "source_url": "https://github.com/GGGeeeooorrrgggeee/nailong-memes/blob/faff7a463622d83bfd4ef62e04220675b41db49d/images/c7dd8b96b538c95880cb9accbca14efb.jpg",
+    "source_note": "公开社区图库收集；仓库名 nailong 不是角色身份依据。本批为小头大肚、成人比例、黑色细长手指的奶蛙网络二创，不是官方圆头短肢粉掌垫的原版奶龙。包含三维二创及 AI 风格重制。图库整理者 George 不等于原作者；具体二创作者与授权待核实。原型奶龙由第七印象创作。保留原图、原GIF。",
+    "role": "subject",
+    "is_cutout": false,
+    "templates": [
+      "top",
+      "bottom",
+      "split",
+      "frame",
+      "grid",
+      "message",
+      "poster",
+      "side",
+      "polaroid",
+      "bubble",
+      "dialogue",
+      "spotlight",
+      "comic",
+      "subtitle",
+      "note",
+      "window",
+      "ticket",
+      "medal",
+      "scene"
+    ]
+  },
+  {
+    "id": "bulk-nailong-128",
+    "name": "奶蛙 · 桌边喝饮料",
+    "character": "奶蛙",
+    "filename": "bulk-nailong/nailong-128.jpg",
+    "enabled": true,
+    "action": "桌边喝饮料",
+    "emotion": [
+      "平静",
+      "无语"
+    ],
+    "scenes": [
+      "日常聊天",
+      "群聊互动",
+      "约饭",
+      "食堂"
+    ],
+    "examples": [
+      "让我看看怎么个事",
+      "今天的精神状态"
+    ],
+    "intensity": 2,
+    "existing_text": "",
+    "source_type": "reference",
+    "author": "奶蛙二创作者待核实；原型奶龙第七印象",
+    "source_url": "https://github.com/GGGeeeooorrrgggeee/nailong-memes/blob/faff7a463622d83bfd4ef62e04220675b41db49d/images/cb2672b213af70e46fe94e856d404674.jpg",
+    "source_note": "公开社区图库收集；仓库名 nailong 不是角色身份依据。本批为小头大肚、成人比例、黑色细长手指的奶蛙网络二创，不是官方圆头短肢粉掌垫的原版奶龙。包含三维二创及 AI 风格重制。图库整理者 George 不等于原作者；具体二创作者与授权待核实。原型奶龙由第七印象创作。保留原图、原GIF。",
+    "role": "subject",
+    "is_cutout": false,
+    "templates": [
+      "top",
+      "bottom",
+      "split",
+      "frame",
+      "grid",
+      "message",
+      "poster",
+      "side",
+      "polaroid",
+      "bubble",
+      "dialogue",
+      "spotlight",
+      "comic",
+      "subtitle",
+      "note",
+      "window",
+      "ticket",
+      "medal",
+      "scene"
+    ]
+  },
+  {
+    "id": "bulk-nailong-129",
+    "name": "奶蛙 · 合掌微笑",
+    "character": "奶蛙",
+    "filename": "bulk-nailong/nailong-129.jpg",
+    "enabled": true,
+    "action": "合掌微笑",
+    "emotion": [
+      "开心",
+      "搞怪"
+    ],
+    "scenes": [
+      "日常聊天",
+      "群聊互动"
+    ],
+    "examples": [
+      "让我看看怎么个事",
+      "今天的精神状态"
+    ],
+    "intensity": 3,
+    "existing_text": "",
+    "source_type": "reference",
+    "author": "奶蛙二创作者待核实；原型奶龙第七印象",
+    "source_url": "https://github.com/GGGeeeooorrrgggeee/nailong-memes/blob/faff7a463622d83bfd4ef62e04220675b41db49d/images/cc7e81700e377f5ae9266d07cca6af9c.jpg",
+    "source_note": "公开社区图库收集；仓库名 nailong 不是角色身份依据。本批为小头大肚、成人比例、黑色细长手指的奶蛙网络二创，不是官方圆头短肢粉掌垫的原版奶龙。包含三维二创及 AI 风格重制。图库整理者 George 不等于原作者；具体二创作者与授权待核实。原型奶龙由第七印象创作。保留原图、原GIF。",
+    "role": "subject",
+    "is_cutout": false,
+    "templates": [
+      "top",
+      "bottom",
+      "split",
+      "frame",
+      "grid",
+      "message",
+      "poster",
+      "side",
+      "polaroid",
+      "bubble",
+      "dialogue",
+      "spotlight",
+      "comic",
+      "subtitle",
+      "note",
+      "window",
+      "ticket",
+      "medal",
+      "scene"
+    ]
+  },
+  {
+    "id": "bulk-nailong-130",
+    "name": "奶蛙 · 脸颊涂鸦",
+    "character": "奶蛙",
+    "filename": "bulk-nailong/nailong-130.jpg",
+    "enabled": true,
+    "action": "脸颊涂鸦",
+    "emotion": [
+      "平静",
+      "无语"
+    ],
+    "scenes": [
+      "日常聊天",
+      "群聊互动"
+    ],
+    "examples": [
+      "让我看看怎么个事",
+      "今天的精神状态"
+    ],
+    "intensity": 2,
+    "existing_text": "脸颊涂鸦文字",
+    "source_type": "reference",
+    "author": "奶蛙二创作者待核实；原型奶龙第七印象",
+    "source_url": "https://github.com/GGGeeeooorrrgggeee/nailong-memes/blob/faff7a463622d83bfd4ef62e04220675b41db49d/images/cdc8baf08a03f76841089cedd31564eb.jpg",
+    "source_note": "公开社区图库收集；仓库名 nailong 不是角色身份依据。本批为小头大肚、成人比例、黑色细长手指的奶蛙网络二创，不是官方圆头短肢粉掌垫的原版奶龙。包含三维二创及 AI 风格重制。图库整理者 George 不等于原作者；具体二创作者与授权待核实。原型奶龙由第七印象创作。保留原图、原GIF。",
+    "role": "subject",
+    "is_cutout": false,
+    "templates": [
+      "top",
+      "bottom",
+      "split",
+      "frame",
+      "grid",
+      "message",
+      "poster",
+      "side",
+      "polaroid",
+      "bubble",
+      "dialogue",
+      "spotlight",
+      "comic",
+      "subtitle",
+      "note",
+      "window",
+      "ticket",
+      "medal",
+      "scene"
+    ]
+  },
+  {
+    "id": "bulk-nailong-131",
+    "name": "奶蛙 · 手持奶龙小牌",
+    "character": "奶蛙",
+    "filename": "bulk-nailong/nailong-131.jpg",
+    "enabled": true,
+    "action": "手持奶龙小牌",
+    "emotion": [
+      "平静",
+      "无语"
+    ],
+    "scenes": [
+      "日常聊天",
+      "群聊互动"
+    ],
+    "examples": [
+      "让我看看怎么个事",
+      "今天的精神状态"
+    ],
+    "intensity": 2,
+    "existing_text": "奶龙",
+    "source_type": "reference",
+    "author": "奶蛙二创作者待核实；原型奶龙第七印象",
+    "source_url": "https://github.com/GGGeeeooorrrgggeee/nailong-memes/blob/faff7a463622d83bfd4ef62e04220675b41db49d/images/CF0E9EB8A8B36AC7C06F03F2B955794A.jpg",
+    "source_note": "公开社区图库收集；仓库名 nailong 不是角色身份依据。本批为小头大肚、成人比例、黑色细长手指的奶蛙网络二创，不是官方圆头短肢粉掌垫的原版奶龙。包含三维二创及 AI 风格重制。图库整理者 George 不等于原作者；具体二创作者与授权待核实。原型奶龙由第七印象创作。保留原图、原GIF。",
+    "role": "subject",
+    "is_cutout": false,
+    "templates": [
+      "top",
+      "bottom",
+      "split",
+      "frame",
+      "grid",
+      "message",
+      "poster",
+      "side",
+      "polaroid",
+      "bubble",
+      "dialogue",
+      "spotlight",
+      "comic",
+      "subtitle",
+      "note",
+      "window",
+      "ticket",
+      "medal",
+      "scene"
+    ]
+  },
+  {
+    "id": "bulk-nailong-132",
+    "name": "奶蛙 · 仰头捧腹",
+    "character": "奶蛙",
+    "filename": "bulk-nailong/nailong-132.jpg",
+    "enabled": true,
+    "action": "仰头捧腹",
+    "emotion": [
+      "平静",
+      "无语"
+    ],
+    "scenes": [
+      "日常聊天",
+      "群聊互动"
+    ],
+    "examples": [
+      "让我看看怎么个事",
+      "今天的精神状态"
+    ],
+    "intensity": 2,
+    "existing_text": "",
+    "source_type": "reference",
+    "author": "奶蛙二创作者待核实；原型奶龙第七印象",
+    "source_url": "https://github.com/GGGeeeooorrrgggeee/nailong-memes/blob/faff7a463622d83bfd4ef62e04220675b41db49d/images/D42412FFAEA2B67AC6CA9EBE53B53768.jpg",
+    "source_note": "公开社区图库收集；仓库名 nailong 不是角色身份依据。本批为小头大肚、成人比例、黑色细长手指的奶蛙网络二创，不是官方圆头短肢粉掌垫的原版奶龙。包含三维二创及 AI 风格重制。图库整理者 George 不等于原作者；具体二创作者与授权待核实。原型奶龙由第七印象创作。保留原图、原GIF。",
+    "role": "subject",
+    "is_cutout": false,
+    "templates": [
+      "top",
+      "bottom",
+      "split",
+      "frame",
+      "grid",
+      "message",
+      "poster",
+      "side",
+      "polaroid",
+      "bubble",
+      "dialogue",
+      "spotlight",
+      "comic",
+      "subtitle",
+      "note",
+      "window",
+      "ticket",
+      "medal",
+      "scene"
+    ]
+  },
+  {
+    "id": "bulk-nailong-133",
+    "name": "奶蛙 · 戴耳机发呆",
+    "character": "奶蛙",
+    "filename": "bulk-nailong/nailong-133.jpg",
+    "enabled": true,
+    "action": "戴耳机发呆",
+    "emotion": [
+      "平静",
+      "无语"
+    ],
+    "scenes": [
+      "日常聊天",
+      "群聊互动"
+    ],
+    "examples": [
+      "让我看看怎么个事",
+      "今天的精神状态"
+    ],
+    "intensity": 2,
+    "existing_text": "",
+    "source_type": "reference",
+    "author": "奶蛙二创作者待核实；原型奶龙第七印象",
+    "source_url": "https://github.com/GGGeeeooorrrgggeee/nailong-memes/blob/faff7a463622d83bfd4ef62e04220675b41db49d/images/d58e05b385d5a4811802255a499659d6.jpg",
+    "source_note": "公开社区图库收集；仓库名 nailong 不是角色身份依据。本批为小头大肚、成人比例、黑色细长手指的奶蛙网络二创，不是官方圆头短肢粉掌垫的原版奶龙。包含三维二创及 AI 风格重制。图库整理者 George 不等于原作者；具体二创作者与授权待核实。原型奶龙由第七印象创作。保留原图、原GIF。",
+    "role": "subject",
+    "is_cutout": false,
+    "templates": [
+      "top",
+      "bottom",
+      "split",
+      "frame",
+      "grid",
+      "message",
+      "poster",
+      "side",
+      "polaroid",
+      "bubble",
+      "dialogue",
+      "spotlight",
+      "comic",
+      "subtitle",
+      "note",
+      "window",
+      "ticket",
+      "medal",
+      "scene"
+    ]
+  },
+  {
+    "id": "bulk-nailong-134",
+    "name": "奶蛙 · 惊讶张嘴特写",
+    "character": "奶蛙",
+    "filename": "bulk-nailong/nailong-134.jpg",
+    "enabled": true,
+    "action": "惊讶张嘴特写",
+    "emotion": [
+      "平静",
+      "无语"
+    ],
+    "scenes": [
+      "日常聊天",
+      "群聊互动"
+    ],
+    "examples": [
+      "让我看看怎么个事",
+      "今天的精神状态"
+    ],
+    "intensity": 2,
+    "existing_text": "",
+    "source_type": "reference",
+    "author": "奶蛙二创作者待核实；原型奶龙第七印象",
+    "source_url": "https://github.com/GGGeeeooorrrgggeee/nailong-memes/blob/faff7a463622d83bfd4ef62e04220675b41db49d/images/d8faa0faea83b8b8ea865d265c634cf2.jpg",
+    "source_note": "公开社区图库收集；仓库名 nailong 不是角色身份依据。本批为小头大肚、成人比例、黑色细长手指的奶蛙网络二创，不是官方圆头短肢粉掌垫的原版奶龙。包含三维二创及 AI 风格重制。图库整理者 George 不等于原作者；具体二创作者与授权待核实。原型奶龙由第七印象创作。保留原图、原GIF。",
+    "role": "subject",
+    "is_cutout": false,
+    "templates": [
+      "top",
+      "bottom",
+      "split",
+      "frame",
+      "grid",
+      "message",
+      "poster",
+      "side",
+      "polaroid",
+      "bubble",
+      "dialogue",
+      "spotlight",
+      "comic",
+      "subtitle",
+      "note",
+      "window",
+      "ticket",
+      "medal",
+      "scene"
+    ]
+  },
+  {
+    "id": "bulk-nailong-135",
+    "name": "奶蛙 · 侧脸微笑",
+    "character": "奶蛙",
+    "filename": "bulk-nailong/nailong-135.jpg",
+    "enabled": true,
+    "action": "侧脸微笑",
+    "emotion": [
+      "开心",
+      "搞怪"
+    ],
+    "scenes": [
+      "日常聊天",
+      "群聊互动"
+    ],
+    "examples": [
+      "让我看看怎么个事",
+      "今天的精神状态"
+    ],
+    "intensity": 3,
+    "existing_text": "",
+    "source_type": "reference",
+    "author": "奶蛙二创作者待核实；原型奶龙第七印象",
+    "source_url": "https://github.com/GGGeeeooorrrgggeee/nailong-memes/blob/faff7a463622d83bfd4ef62e04220675b41db49d/images/daeaf989a265314fd5f4ad59a15c4477.jpg",
+    "source_note": "公开社区图库收集；仓库名 nailong 不是角色身份依据。本批为小头大肚、成人比例、黑色细长手指的奶蛙网络二创，不是官方圆头短肢粉掌垫的原版奶龙。包含三维二创及 AI 风格重制。图库整理者 George 不等于原作者；具体二创作者与授权待核实。原型奶龙由第七印象创作。保留原图、原GIF。",
+    "role": "subject",
+    "is_cutout": false,
+    "templates": [
+      "top",
+      "bottom",
+      "split",
+      "frame",
+      "grid",
+      "message",
+      "poster",
+      "side",
+      "polaroid",
+      "bubble",
+      "dialogue",
+      "spotlight",
+      "comic",
+      "subtitle",
+      "note",
+      "window",
+      "ticket",
+      "medal",
+      "scene"
+    ]
+  },
+  {
+    "id": "bulk-nailong-136",
+    "name": "奶蛙 · 雨窗前发呆",
+    "character": "奶蛙",
+    "filename": "bulk-nailong/nailong-136.jpg",
+    "enabled": true,
+    "action": "雨窗前发呆",
+    "emotion": [
+      "平静",
+      "无语"
+    ],
+    "scenes": [
+      "日常聊天",
+      "群聊互动"
+    ],
+    "examples": [
+      "让我看看怎么个事",
+      "今天的精神状态"
+    ],
+    "intensity": 2,
+    "existing_text": "",
+    "source_type": "reference",
+    "author": "奶蛙二创作者待核实；原型奶龙第七印象",
+    "source_url": "https://github.com/GGGeeeooorrrgggeee/nailong-memes/blob/faff7a463622d83bfd4ef62e04220675b41db49d/images/dbc89314110546c4eed49d450be60a8b.jpg",
+    "source_note": "公开社区图库收集；仓库名 nailong 不是角色身份依据。本批为小头大肚、成人比例、黑色细长手指的奶蛙网络二创，不是官方圆头短肢粉掌垫的原版奶龙。包含三维二创及 AI 风格重制。图库整理者 George 不等于原作者；具体二创作者与授权待核实。原型奶龙由第七印象创作。保留原图、原GIF。",
+    "role": "subject",
+    "is_cutout": false,
+    "templates": [
+      "top",
+      "bottom",
+      "split",
+      "frame",
+      "grid",
+      "message",
+      "poster",
+      "side",
+      "polaroid",
+      "bubble",
+      "dialogue",
+      "spotlight",
+      "comic",
+      "subtitle",
+      "note",
+      "window",
+      "ticket",
+      "medal",
+      "scene"
+    ]
+  },
+  {
+    "id": "bulk-nailong-137",
+    "name": "奶蛙 · 树林侧身",
+    "character": "奶蛙",
+    "filename": "bulk-nailong/nailong-137.jpg",
+    "enabled": true,
+    "action": "树林侧身",
+    "emotion": [
+      "平静",
+      "无语"
+    ],
+    "scenes": [
+      "日常聊天",
+      "群聊互动"
+    ],
+    "examples": [
+      "让我看看怎么个事",
+      "今天的精神状态"
+    ],
+    "intensity": 2,
+    "existing_text": "",
+    "source_type": "reference",
+    "author": "奶蛙二创作者待核实；原型奶龙第七印象",
+    "source_url": "https://github.com/GGGeeeooorrrgggeee/nailong-memes/blob/faff7a463622d83bfd4ef62e04220675b41db49d/images/DE76C737EF8412635C642BB19FB3F332.jpg",
+    "source_note": "公开社区图库收集；仓库名 nailong 不是角色身份依据。本批为小头大肚、成人比例、黑色细长手指的奶蛙网络二创，不是官方圆头短肢粉掌垫的原版奶龙。包含三维二创及 AI 风格重制。图库整理者 George 不等于原作者；具体二创作者与授权待核实。原型奶龙由第七印象创作。保留原图、原GIF。",
+    "role": "subject",
+    "is_cutout": false,
+    "templates": [
+      "top",
+      "bottom",
+      "split",
+      "frame",
+      "grid",
+      "message",
+      "poster",
+      "side",
+      "polaroid",
+      "bubble",
+      "dialogue",
+      "spotlight",
+      "comic",
+      "subtitle",
+      "note",
+      "window",
+      "ticket",
+      "medal",
+      "scene"
+    ]
+  },
+  {
+    "id": "bulk-nailong-139",
+    "name": "奶蛙 · 端盘吃饭",
+    "character": "奶蛙",
+    "filename": "bulk-nailong/nailong-139.jpg",
+    "enabled": true,
+    "action": "端盘吃饭",
+    "emotion": [
+      "平静",
+      "无语"
+    ],
+    "scenes": [
+      "日常聊天",
+      "群聊互动",
+      "约饭",
+      "食堂"
+    ],
+    "examples": [
+      "让我看看怎么个事",
+      "今天的精神状态"
+    ],
+    "intensity": 2,
+    "existing_text": "美团拼好饭",
+    "source_type": "reference",
+    "author": "奶蛙二创作者待核实；原型奶龙第七印象",
+    "source_url": "https://github.com/GGGeeeooorrrgggeee/nailong-memes/blob/faff7a463622d83bfd4ef62e04220675b41db49d/images/E314D78C748F0646029B5D69AFEC59B9.jpg",
+    "source_note": "公开社区图库收集；仓库名 nailong 不是角色身份依据。本批为小头大肚、成人比例、黑色细长手指的奶蛙网络二创，不是官方圆头短肢粉掌垫的原版奶龙。包含三维二创及 AI 风格重制。图库整理者 George 不等于原作者；具体二创作者与授权待核实。原型奶龙由第七印象创作。保留原图、原GIF。",
+    "role": "subject",
+    "is_cutout": false,
+    "templates": [
+      "top",
+      "bottom",
+      "split",
+      "frame",
+      "grid",
+      "message",
+      "poster",
+      "side",
+      "polaroid",
+      "bubble",
+      "dialogue",
+      "spotlight",
+      "comic",
+      "subtitle",
+      "note",
+      "window",
+      "ticket",
+      "medal",
+      "scene"
+    ]
+  },
+  {
+    "id": "bulk-nailong-140",
+    "name": "奶蛙 · 戴眼镜",
+    "character": "奶蛙",
+    "filename": "bulk-nailong/nailong-140.jpg",
+    "enabled": true,
+    "action": "戴眼镜",
+    "emotion": [
+      "平静",
+      "无语"
+    ],
+    "scenes": [
+      "日常聊天",
+      "群聊互动"
+    ],
+    "examples": [
+      "让我看看怎么个事",
+      "今天的精神状态"
+    ],
+    "intensity": 2,
+    "existing_text": "",
+    "source_type": "reference",
+    "author": "奶蛙二创作者待核实；原型奶龙第七印象",
+    "source_url": "https://github.com/GGGeeeooorrrgggeee/nailong-memes/blob/faff7a463622d83bfd4ef62e04220675b41db49d/images/ef135a10fa8d09d6268fcc9b03758c68.jpg",
+    "source_note": "公开社区图库收集；仓库名 nailong 不是角色身份依据。本批为小头大肚、成人比例、黑色细长手指的奶蛙网络二创，不是官方圆头短肢粉掌垫的原版奶龙。包含三维二创及 AI 风格重制。图库整理者 George 不等于原作者；具体二创作者与授权待核实。原型奶龙由第七印象创作。保留原图、原GIF。",
+    "role": "subject",
+    "is_cutout": false,
+    "templates": [
+      "top",
+      "bottom",
+      "split",
+      "frame",
+      "grid",
+      "message",
+      "poster",
+      "side",
+      "polaroid",
+      "bubble",
+      "dialogue",
+      "spotlight",
+      "comic",
+      "subtitle",
+      "note",
+      "window",
+      "ticket",
+      "medal",
+      "scene"
+    ]
+  },
+  {
+    "id": "bulk-nailong-141",
+    "name": "奶蛙 · 举起大手掌",
+    "character": "奶蛙",
+    "filename": "bulk-nailong/nailong-141.jpg",
+    "enabled": true,
+    "action": "举起大手掌",
+    "emotion": [
+      "平静",
+      "无语"
+    ],
+    "scenes": [
+      "日常聊天",
+      "群聊互动"
+    ],
+    "examples": [
+      "让我看看怎么个事",
+      "今天的精神状态"
+    ],
+    "intensity": 2,
+    "existing_text": "",
+    "source_type": "reference",
+    "author": "奶蛙二创作者待核实；原型奶龙第七印象",
+    "source_url": "https://github.com/GGGeeeooorrrgggeee/nailong-memes/blob/faff7a463622d83bfd4ef62e04220675b41db49d/images/f4a92c91d3291c98476a6cf297b5d09d.jpg",
+    "source_note": "公开社区图库收集；仓库名 nailong 不是角色身份依据。本批为小头大肚、成人比例、黑色细长手指的奶蛙网络二创，不是官方圆头短肢粉掌垫的原版奶龙。包含三维二创及 AI 风格重制。图库整理者 George 不等于原作者；具体二创作者与授权待核实。原型奶龙由第七印象创作。保留原图、原GIF。",
+    "role": "subject",
+    "is_cutout": false,
+    "templates": [
+      "top",
+      "bottom",
+      "split",
+      "frame",
+      "grid",
+      "message",
+      "poster",
+      "side",
+      "polaroid",
+      "bubble",
+      "dialogue",
+      "spotlight",
+      "comic",
+      "subtitle",
+      "note",
+      "window",
+      "ticket",
+      "medal",
+      "scene"
+    ]
+  },
+  {
+    "id": "bulk-nailong-142",
+    "name": "奶蛙 · 来电接听",
+    "character": "奶蛙",
+    "filename": "bulk-nailong/nailong-142.jpg",
+    "enabled": true,
+    "action": "来电接听",
+    "emotion": [
+      "平静",
+      "无语"
+    ],
+    "scenes": [
+      "日常聊天",
+      "群聊互动"
+    ],
+    "examples": [
+      "让我看看怎么个事",
+      "今天的精神状态"
+    ],
+    "intensity": 2,
+    "existing_text": "来电界面接听/挂断图标",
+    "source_type": "reference",
+    "author": "奶蛙二创作者待核实；原型奶龙第七印象",
+    "source_url": "https://github.com/GGGeeeooorrrgggeee/nailong-memes/blob/faff7a463622d83bfd4ef62e04220675b41db49d/images/f55bba1656311e56ee5ca10263a19c67.jpg",
+    "source_note": "公开社区图库收集；仓库名 nailong 不是角色身份依据。本批为小头大肚、成人比例、黑色细长手指的奶蛙网络二创，不是官方圆头短肢粉掌垫的原版奶龙。包含三维二创及 AI 风格重制。图库整理者 George 不等于原作者；具体二创作者与授权待核实。原型奶龙由第七印象创作。保留原图、原GIF。",
+    "role": "subject",
+    "is_cutout": false,
+    "templates": [
+      "top",
+      "bottom",
+      "split",
+      "frame",
+      "grid",
+      "message",
+      "poster",
+      "side",
+      "polaroid",
+      "bubble",
+      "dialogue",
+      "spotlight",
+      "comic",
+      "subtitle",
+      "note",
+      "window",
+      "ticket",
+      "medal",
+      "scene"
+    ]
+  },
+  {
+    "id": "bulk-nailong-143",
+    "name": "奶蛙 · 坐马桶",
+    "character": "奶蛙",
+    "filename": "bulk-nailong/nailong-143.jpg",
+    "enabled": true,
+    "action": "坐马桶",
+    "emotion": [
+      "平静",
+      "无语"
+    ],
+    "scenes": [
+      "日常聊天",
+      "群聊互动"
+    ],
+    "examples": [
+      "让我看看怎么个事",
+      "今天的精神状态"
+    ],
+    "intensity": 2,
+    "existing_text": "",
+    "source_type": "reference",
+    "author": "奶蛙二创作者待核实；原型奶龙第七印象",
+    "source_url": "https://github.com/GGGeeeooorrrgggeee/nailong-memes/blob/faff7a463622d83bfd4ef62e04220675b41db49d/images/FE0E8371F1EDD553C3B74E9E2EDC17DD.jpg",
+    "source_note": "公开社区图库收集；仓库名 nailong 不是角色身份依据。本批为小头大肚、成人比例、黑色细长手指的奶蛙网络二创，不是官方圆头短肢粉掌垫的原版奶龙。包含三维二创及 AI 风格重制。图库整理者 George 不等于原作者；具体二创作者与授权待核实。原型奶龙由第七印象创作。保留原图、原GIF。",
+    "role": "subject",
+    "is_cutout": false,
+    "templates": [
+      "top",
+      "bottom",
+      "split",
+      "frame",
+      "grid",
+      "message",
+      "poster",
+      "side",
+      "polaroid",
+      "bubble",
+      "dialogue",
+      "spotlight",
+      "comic",
+      "subtitle",
+      "note",
+      "window",
+      "ticket",
+      "medal",
+      "scene"
+    ]
+  }
+]

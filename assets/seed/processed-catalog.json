@@ -1,0 +1,273 @@
+[
+  {
+    "id": "nun-cutout-v2",
+    "action": "眯眼皱眉，露出不满而疲惫的表情",
+    "intensity": 3,
+    "name": "猫耳修女 · 抠图透明版",
+    "character": "猫耳修女",
+    "filename": "processed/nun-cutout-v2.png",
+    "emotion": [
+      "无语",
+      "不满",
+      "疲惫"
+    ],
+    "scenes": [
+      "信息科学",
+      "计算机手册",
+      "代码调试",
+      "作业",
+      "校园吐槽"
+    ],
+    "examples": [
+      "编译过了，但我没过",
+      "手册里明明写了"
+    ],
+    "existing_text": "",
+    "source_type": "user_original",
+    "author": "可爱大笨蛋",
+    "source_url": "",
+    "source_note": "用户提供。按用户说明记录作者为可爱大笨蛋，背景为编写校内计算机手册、信息科学相关。保留原始上传图，不作独立权属认证。 在原图基础上用 ImageGen 做透明主体加工；保留原图，移除外部背景及配字。属于AI加工派生，并非作者提供的原生透明图，可能有细节偏差。",
+    "derived_from": "nun",
+    "is_cutout": true,
+    "templates": [
+      "top",
+      "bottom",
+      "split",
+      "frame",
+      "flower",
+      "grid",
+      "message",
+      "poster",
+      "side",
+      "polaroid",
+      "bubble",
+      "dialogue",
+      "spotlight"
+    ]
+  },
+  {
+    "id": "worm-cutout-v2",
+    "action": "趴卧着瞪大眼睛，嘴角下垂",
+    "intensity": 4,
+    "name": "毛毛虫 · 抠图透明版",
+    "character": "毛毛虫",
+    "filename": "processed/worm-cutout-v2.png",
+    "emotion": [
+      "绝望",
+      "难过",
+      "疲惫"
+    ],
+    "scenes": [
+      "期末",
+      "作业堆积",
+      "考试",
+      "生活吐槽"
+    ],
+    "examples": [
+      "还有五个作业没交",
+      "明天就考试了"
+    ],
+    "existing_text": "",
+    "source_type": "user_original",
+    "author": "用户提供（作者待补充）",
+    "source_url": "",
+    "source_note": "用户提供，并按用户指定作为原创素材处理。原图已有文字，不能在其上替换文案。 在原图基础上用 ImageGen 做透明主体加工；保留原图，移除外部背景及配字。属于AI加工派生，并非作者提供的原生透明图，可能有细节偏差。",
+    "derived_from": "worm",
+    "is_cutout": true,
+    "templates": [
+      "top",
+      "bottom",
+      "split",
+      "frame",
+      "flower",
+      "grid",
+      "message",
+      "poster",
+      "side",
+      "polaroid",
+      "bubble",
+      "dialogue",
+      "spotlight"
+    ]
+  },
+  {
+    "id": "feidudu-cutout-v2",
+    "action": "用无辜的眼神假装警告对方",
+    "intensity": 3,
+    "name": "肥嘟嘟 · 抠图透明版",
+    "character": "肥嘟嘟",
+    "filename": "processed/feidudu-cutout-v2.png",
+    "emotion": [
+      "生气",
+      "调侃",
+      "警告"
+    ],
+    "scenes": [
+      "催回复",
+      "朋友玩笑",
+      "群聊",
+      "迟到"
+    ],
+    "examples": [
+      "还不回消息是吧",
+      "谁把我的晚饭拿走了"
+    ],
+    "existing_text": "",
+    "source_type": "reference",
+    "author": "待核实",
+    "source_url": "https://fs.img4399.com/bbs/202609/9/2026002549236/gJD9Mo6H0P.360x432.jpg~740x0",
+    "source_note": "按用户指定的肥嘟嘟表情收录，带有固定原始字幕。新文字应放在额外留白区，不能替换原有字。 在原图基础上用 ImageGen 做透明主体加工；保留原图，移除外部背景及配字。属于AI加工派生，并非作者提供的原生透明图，可能有细节偏差。",
+    "derived_from": "feidudu",
+    "is_cutout": true,
+    "templates": [
+      "top",
+      "bottom",
+      "split",
+      "frame",
+      "flower",
+      "grid",
+      "message",
+      "poster",
+      "side",
+      "polaroid",
+      "bubble",
+      "dialogue",
+      "spotlight"
+    ]
+  },
+  {
+    "id": "batiao-cutout-v2",
+    "action": "撇嘴托腮，眯着眼睛思考",
+    "intensity": 3,
+    "name": "呆猫八条 · 抠图透明版",
+    "character": "呆猫八条",
+    "filename": "processed/batiao-cutout-v2.png",
+    "emotion": [
+      "怀疑",
+      "思考",
+      "无语"
+    ],
+    "scenes": [
+      "作业",
+      "代码调试",
+      "思考",
+      "疑惑"
+    ],
+    "examples": [
+      "让我看看哪里不对",
+      "这个逻辑有点意思"
+    ],
+    "existing_text": "",
+    "source_type": "reference",
+    "author": "待核实（转载页标注 Roro／呆猫八条）",
+    "source_url": "https://getstickerpack.com/stickers/silly-cat-batiao-1",
+    "source_note": "用户提供原图，未裁剪改绘。系列识别和作者信息来自前述转载线索，尚未核到作者首发。 在原图基础上用 ImageGen 做透明主体加工；保留原图，移除外部背景及配字。属于AI加工派生，并非作者提供的原生透明图，可能有细节偏差。",
+    "derived_from": "batiao",
+    "is_cutout": true,
+    "templates": [
+      "top",
+      "bottom",
+      "split",
+      "frame",
+      "flower",
+      "grid",
+      "message",
+      "poster",
+      "side",
+      "polaroid",
+      "bubble",
+      "dialogue",
+      "spotlight"
+    ]
+  },
+  {
+    "id": "shark-cutout-v2",
+    "action": "抱着食物抬头哭泣，委屈地求助",
+    "intensity": 4,
+    "name": "小鲨鱼 · 抠图透明版",
+    "character": "小鲨鱼",
+    "filename": "processed/shark-cutout-v2.png",
+    "emotion": [
+      "委屈",
+      "求助",
+      "难过"
+    ],
+    "scenes": [
+      "考试",
+      "期末",
+      "求捞",
+      "作业"
+    ],
+    "examples": [
+      "这次真的不会了",
+      "给我一点平时分吧"
+    ],
+    "existing_text": "",
+    "source_type": "reference",
+    "author": "待核实",
+    "source_url": "",
+    "source_note": "用户提供原图，未裁剪改绘；原作者及具体系列尚未核实。原图已有文字，新配字使用额外留白。 在原图基础上用 ImageGen 做透明主体加工；保留原图，移除外部背景及配字。属于AI加工派生，并非作者提供的原生透明图，可能有细节偏差。",
+    "derived_from": "shark",
+    "is_cutout": true,
+    "templates": [
+      "top",
+      "bottom",
+      "split",
+      "frame",
+      "flower",
+      "grid",
+      "message",
+      "poster",
+      "side",
+      "polaroid",
+      "bubble",
+      "dialogue",
+      "spotlight"
+    ]
+  },
+  {
+    "id": "naidan-cutout-v2",
+    "name": "奶蛋 · 抠图透明版",
+    "character": "奶蛋",
+    "filename": "processed/naidan-cutout-v2.png",
+    "action": "圆圆的奶蛋面对镜头，呆呆站立",
+    "emotion": [
+      "呆萌",
+      "迷茫",
+      "无辜"
+    ],
+    "scenes": [
+      "发呆",
+      "等通知",
+      "打招呼"
+    ],
+    "examples": [
+      "我在，但我没听懂",
+      "一个安静的小朋友"
+    ],
+    "existing_text": "",
+    "intensity": 1,
+    "source_type": "reference",
+    "author": "待核实",
+    "source_url": "https://github.com/musemantic/NaiLoong/blob/ab974a47c2a5e731a22ff9f5a7f23f60e62c3fd9/assets/memes/naiwa_0040.png",
+    "role": "subject",
+    "is_cutout": true,
+    "templates": [
+      "top",
+      "bottom",
+      "split",
+      "frame",
+      "flower",
+      "grid",
+      "message",
+      "poster",
+      "side",
+      "polaroid",
+      "bubble",
+      "dialogue",
+      "spotlight"
+    ],
+    "source_note": "网络公开收集，索引来源奶-hub（https://nai-hub.com/）；GitHub 贡献者 musemantic，贡献者不等于原作者，形象及二创作者、具体使用授权待核实。完整原文件未修改。下载地址：https://raw.githubusercontent.com/musemantic/NaiLoong/ab974a47c2a5e731a22ff9f5a7f23f60e62c3fd9/assets/memes/naiwa_0040.png 在原图基础上用 ImageGen 做透明主体加工；保留原图，移除外部背景及配字。属于AI加工派生，并非作者提供的原生透明图，可能有细节偏差。",
+    "derived_from": "web-naidan-0040"
+  }
+]

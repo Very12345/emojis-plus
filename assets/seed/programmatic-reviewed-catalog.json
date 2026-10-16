@@ -1,0 +1,368 @@
+[
+  {
+    "id": "niulai-program-cutout",
+    "action": "挑眉侧目，怀疑地看着对方",
+    "intensity": 4,
+    "name": "牛来 · 侧目 · 程序透明版",
+    "character": "牛来",
+    "filename": "processed/niulai-program-cutout.png",
+    "emotion": [
+      "无语",
+      "怀疑",
+      "嫌弃"
+    ],
+    "scenes": [
+      "临时改安排",
+      "离谱消息",
+      "吐槽",
+      "群聊"
+    ],
+    "examples": [
+      "你再说一遍？",
+      "这安排认真的吗"
+    ],
+    "existing_text": "",
+    "source_type": "reference",
+    "author": "待核实",
+    "source_url": "https://q6.itc.cn/q_70/images03/20260819/2d720b0365d947e98dd05f61f3be5e3c.png",
+    "source_note": "按用户指定的牛来角色收录网络公开截图，保留原有左上角文字。具体作品来源及权属待补充。 程序rembg u2net透明派生，未重绘角色，原图保留；Codex视觉复核通过：牛头及上身轮廓完整，原左上角文字已去除。 已对程序遮罩作alpha-floor=32弱背景鬼影清理（保留渐变边缘），原图未修改。",
+    "role": "subject",
+    "is_cutout": true,
+    "derived_from": "niulai",
+    "enabled": true,
+    "templates": [
+      "top",
+      "bottom",
+      "split",
+      "frame",
+      "flower",
+      "grid",
+      "message",
+      "poster",
+      "side",
+      "polaroid",
+      "bubble",
+      "dialogue",
+      "spotlight",
+      "comic",
+      "subtitle",
+      "note",
+      "window",
+      "ticket",
+      "medal",
+      "scene"
+    ]
+  },
+  {
+    "id": "meowl-user-program-cutout",
+    "action": "小小一只站着，安静地看着前方",
+    "intensity": 1,
+    "name": "Meowl · 用户提供小图 · 程序透明版",
+    "character": "Meowl",
+    "filename": "processed/meowl-user-program-cutout.png",
+    "emotion": [
+      "呆萌",
+      "平静",
+      "困惑"
+    ],
+    "scenes": [
+      "发呆",
+      "等待",
+      "已读",
+      "早八"
+    ],
+    "examples": [
+      "我在听",
+      "人到了，魂还没有"
+    ],
+    "existing_text": "",
+    "source_type": "reference",
+    "author": "待核实",
+    "source_url": "",
+    "source_note": "用户提供的聊天截图原图，保留灰色背景与原始构图，未裁剪改绘。 程序rembg u2net透明派生，未重绘角色，原图保留；Codex视觉复核通过：主体完整；源图主体像素很小，放大仍会模糊。 已对程序遮罩作alpha-floor=32弱背景鬼影清理（保留渐变边缘），原图未修改。",
+    "role": "subject",
+    "is_cutout": true,
+    "derived_from": "meowl-user",
+    "enabled": true,
+    "templates": [
+      "top",
+      "bottom",
+      "split",
+      "frame",
+      "flower",
+      "grid",
+      "message",
+      "poster",
+      "side",
+      "polaroid",
+      "bubble",
+      "dialogue",
+      "spotlight",
+      "comic",
+      "subtitle",
+      "note",
+      "window",
+      "ticket",
+      "medal",
+      "scene"
+    ]
+  },
+  {
+    "id": "web-meowl-scene-3-program-cutout",
+    "name": "Meowl · 沙地抬头 · 程序透明版",
+    "character": "Meowl",
+    "filename": "processed/web-meowl-scene-3-program-cutout.png",
+    "action": "头顶小花的猫头鹰站在沙土坡上，抬头看向前方",
+    "emotion": [
+      "呆萌",
+      "好奇",
+      "迷茫"
+    ],
+    "scenes": [
+      "没听懂",
+      "上课",
+      "等回复"
+    ],
+    "examples": [
+      "我好像听懂了，又好像没有",
+      "然后呢？"
+    ],
+    "existing_text": "",
+    "intensity": 2,
+    "source_type": "reference",
+    "author": "猪猫可乐（原图水印，归属待核实）",
+    "source_url": "https://knowyourmeme.com/photos/3139717-meowl",
+    "source_note": "网络公开收集，来自 Know Your Meme 的 Meowl Weibo 图片集，收录者 Owen，来源标注为 Weibo；原图含猪猫可乐/weibo.com/zhumaokele 水印。不同场景与猫脸的猫头鹰合成图，作者归属和使用授权待核实，完整保留水印、配字和背景，非本项目重采样变体。 原文件下载地址：https://i.kym-cdn.com/photos/images/original/003/139/717/276.png 程序rembg u2net透明派生，未重绘角色，原图保留；Codex视觉复核通过：主体完整，脚边地面已基本移除。 已对程序遮罩作alpha-floor=32弱背景鬼影清理（保留渐变边缘），原图未修改。",
+    "role": "subject",
+    "is_cutout": true,
+    "templates": [
+      "top",
+      "bottom",
+      "split",
+      "frame",
+      "flower",
+      "grid",
+      "message",
+      "poster",
+      "side",
+      "polaroid",
+      "bubble",
+      "dialogue",
+      "spotlight",
+      "comic",
+      "subtitle",
+      "note",
+      "window",
+      "ticket",
+      "medal",
+      "scene"
+    ],
+    "derived_from": "web-meowl-scene-3",
+    "enabled": true
+  },
+  {
+    "id": "web-naiwa-0046-program-cutout",
+    "name": "奶蛙 · 对镜自拍 · 程序透明版",
+    "character": "奶蛙",
+    "filename": "processed/web-naiwa-0046-program-cutout.png",
+    "action": "举起手机，在镜子前自拍",
+    "emotion": [
+      "自信",
+      "得意"
+    ],
+    "scenes": [
+      "自拍",
+      "报平安",
+      "出门"
+    ],
+    "examples": [
+      "今日状态良好",
+      "这张就当证件照了"
+    ],
+    "existing_text": "",
+    "intensity": 2,
+    "source_type": "reference",
+    "author": "待核实",
+    "source_url": "https://github.com/musemantic/NaiLoong/blob/ab974a47c2a5e731a22ff9f5a7f23f60e62c3fd9/assets/memes/naiwa_0046.jpg",
+    "role": "subject",
+    "is_cutout": true,
+    "templates": [
+      "top",
+      "bottom",
+      "split",
+      "frame",
+      "flower",
+      "grid",
+      "message",
+      "poster",
+      "side",
+      "polaroid",
+      "bubble",
+      "dialogue",
+      "spotlight",
+      "comic",
+      "subtitle",
+      "note",
+      "window",
+      "ticket",
+      "medal",
+      "scene"
+    ],
+    "source_note": "网络公开收集，索引来源奶-hub（https://nai-hub.com/）；GitHub 贡献者 musemantic，贡献者不等于原作者，形象及二创作者、具体使用授权待核实。完整原文件未修改。下载地址：https://raw.githubusercontent.com/musemantic/NaiLoong/ab974a47c2a5e731a22ff9f5a7f23f60e62c3fd9/assets/memes/naiwa_0046.jpg 程序rembg u2net透明派生，未重绘角色，原图保留；Codex视觉复核通过：自拍角色及其手机完整，原底部边框文字已去除。 已对程序遮罩作alpha-floor=32弱背景鬼影清理（保留渐变边缘），原图未修改。",
+    "derived_from": "web-naiwa-0046",
+    "enabled": true
+  },
+  {
+    "id": "bulk-cow-BV1fBgg6pEDv-t0243-program-cutout",
+    "name": "牛来 · 低头站立 · 程序透明版",
+    "character": "牛来",
+    "filename": "processed/bulk-cow-BV1fBgg6pEDv-t0243-program-cutout.png",
+    "emotion": [
+      "疲惫",
+      "无语"
+    ],
+    "scenes": [
+      "早八",
+      "等人"
+    ],
+    "examples": [
+      "人已经到位了"
+    ],
+    "action": "俯视镜头下，金黄色牛在地面上低头站立",
+    "intensity": 2,
+    "existing_text": "",
+    "source_type": "reference",
+    "author": "待核实",
+    "source_url": "https://www.bilibili.com/video/BV1fBgg6pEDv/?t=243",
+    "source_note": "牛来相关评论视频展示的低多边形角色镜头，保留原画面、字幕和水印；通过公开视频转录，非官方高清剧照，视频中各镜头的原始版本归属待核实。UP主：奇思Cheers。抽帧时间 243 秒；至少相隔6秒并跨场景/朝向筛选，不用相邻重复帧凑数。 原素材下载地址：https://upos-sz-estgoss.bilivideo.com/upgcxcode/19/82/40928348219/40928348219-1-16.mp4?e=ig8euxZM2rNcNbRVhwdVhwdlhWdVhwdVhoNvNC8BqJIzNbfqXBvEqxTEto8BTrNvN0GvT90W5JZMkX_YN0MvXg8gNEV4NC8xNEV4N03eN0B5tZlqNxTEto8BTrNvNeZVuJ10Kj_g2UB02J0mN0B5tZlqNCNEto8BTrNvNC7MTX502C8f2jmMQJ6mqF2fka1mqx6gqj0eN0B599M=&og=ali&oi=0x240e06040792e3a7d0258f87144d6f27&mid=0&deadline=1792050595&uipk=5&trid=03de7f5d01d2464d8175e34bed17d78u&platform=pc&nbs=1&gen=playurlv3&os=estgoss&upsig=cf25289999cf33faccc33f37d10e0d3f&uparams=e,og,oi,mid,deadline,uipk,trid,platform,nbs,gen,os&bvc=vod&nettype=0&bw=317426&lrs=0&f=u_0_0&qn_dyeid=cd5ad192394da0ee00fe1c806ad06983&agrr=0&buvid=&build=0&dl=0&orderid=0,3 程序rembg u2net透明派生，未重绘角色，原图保留；Codex视觉复核通过：已确认全身主体完整、字幕在mask之外，视频截图程序抠图，原视频帧独立保留。 已对程序遮罩作alpha-floor=32弱背景鬼影清理（保留渐变边缘），原图未修改。",
+    "role": "subject",
+    "is_cutout": true,
+    "templates": [
+      "top",
+      "bottom",
+      "split",
+      "frame",
+      "flower",
+      "grid",
+      "message",
+      "poster",
+      "side",
+      "polaroid",
+      "bubble",
+      "dialogue",
+      "spotlight",
+      "comic",
+      "subtitle",
+      "note",
+      "window",
+      "ticket",
+      "medal",
+      "scene"
+    ],
+    "derived_from": "bulk-cow-BV1fBgg6pEDv-t0243",
+    "enabled": true
+  },
+  {
+    "id": "bulk-cow-BV1fBgg6pEDv-t0249-program-cutout",
+    "name": "牛来 · 转身离开 · 程序透明版",
+    "character": "牛来",
+    "filename": "processed/bulk-cow-BV1fBgg6pEDv-t0249-program-cutout.png",
+    "emotion": [
+      "平静",
+      "无奈"
+    ],
+    "scenes": [
+      "离开群聊",
+      "下课"
+    ],
+    "examples": [
+      "我先走一步"
+    ],
+    "action": "棕色小牛在绿色山丘前侧身转向远处",
+    "intensity": 2,
+    "existing_text": "",
+    "source_type": "reference",
+    "author": "待核实",
+    "source_url": "https://www.bilibili.com/video/BV1fBgg6pEDv/?t=249",
+    "source_note": "牛来相关评论视频展示的低多边形角色镜头，保留原画面、字幕和水印；通过公开视频转录，非官方高清剧照，视频中各镜头的原始版本归属待核实。UP主：奇思Cheers。抽帧时间 249 秒；至少相隔6秒并跨场景/朝向筛选，不用相邻重复帧凑数。 原素材下载地址：https://upos-sz-estgoss.bilivideo.com/upgcxcode/19/82/40928348219/40928348219-1-16.mp4?e=ig8euxZM2rNcNbRVhwdVhwdlhWdVhwdVhoNvNC8BqJIzNbfqXBvEqxTEto8BTrNvN0GvT90W5JZMkX_YN0MvXg8gNEV4NC8xNEV4N03eN0B5tZlqNxTEto8BTrNvNeZVuJ10Kj_g2UB02J0mN0B5tZlqNCNEto8BTrNvNC7MTX502C8f2jmMQJ6mqF2fka1mqx6gqj0eN0B599M=&og=ali&oi=0x240e06040792e3a7d0258f87144d6f27&mid=0&deadline=1792050595&uipk=5&trid=03de7f5d01d2464d8175e34bed17d78u&platform=pc&nbs=1&gen=playurlv3&os=estgoss&upsig=cf25289999cf33faccc33f37d10e0d3f&uparams=e,og,oi,mid,deadline,uipk,trid,platform,nbs,gen,os&bvc=vod&nettype=0&bw=317426&lrs=0&f=u_0_0&qn_dyeid=cd5ad192394da0ee00fe1c806ad06983&agrr=0&buvid=&build=0&dl=0&orderid=0,3 程序rembg u2net透明派生，未重绘角色，原图保留；Codex视觉复核通过：已确认侧身小牛主体完整、字幕已被mask移除，视频截图程序抠图，原视频帧独立保留。 已对程序遮罩作alpha-floor=32弱背景鬼影清理（保留渐变边缘），原图未修改。",
+    "role": "subject",
+    "is_cutout": true,
+    "templates": [
+      "top",
+      "bottom",
+      "split",
+      "frame",
+      "flower",
+      "grid",
+      "message",
+      "poster",
+      "side",
+      "polaroid",
+      "bubble",
+      "dialogue",
+      "spotlight",
+      "comic",
+      "subtitle",
+      "note",
+      "window",
+      "ticket",
+      "medal",
+      "scene"
+    ],
+    "derived_from": "bulk-cow-BV1fBgg6pEDv-t0249",
+    "enabled": true
+  },
+  {
+    "id": "bulk-cow-BV1fBgg6pEDv-t0261-program-cutout",
+    "name": "牛来 · 站立与躺平双牛组合 · 程序透明版",
+    "character": "牛来",
+    "filename": "processed/bulk-cow-BV1fBgg6pEDv-t0261-program-cutout.png",
+    "emotion": [
+      "无语",
+      "躺平",
+      "困惑"
+    ],
+    "scenes": [
+      "对比状态",
+      "躺平",
+      "集体摆烂"
+    ],
+    "examples": [
+      "我们俩的精神状态",
+      "一个站着，一个躺平"
+    ],
+    "action": "一只牛站立，另一只牛躺在右侧，两只牛作为一个整体透明组合",
+    "intensity": 2,
+    "existing_text": "",
+    "source_type": "reference",
+    "author": "待核实",
+    "source_url": "https://www.bilibili.com/video/BV1fBgg6pEDv/?t=261",
+    "source_note": "牛来相关评论视频展示的低多边形角色镜头，保留原画面、字幕和水印；通过公开视频转录，非官方高清剧照，视频中各镜头的原始版本归属待核实。UP主：奇思Cheers。抽帧时间 261 秒；至少相隔6秒并跨场景/朝向筛选，不用相邻重复帧凑数。 原素材下载地址：https://upos-sz-estgoss.bilivideo.com/upgcxcode/19/82/40928348219/40928348219-1-16.mp4?e=ig8euxZM2rNcNbRVhwdVhwdlhWdVhwdVhoNvNC8BqJIzNbfqXBvEqxTEto8BTrNvN0GvT90W5JZMkX_YN0MvXg8gNEV4NC8xNEV4N03eN0B5tZlqNxTEto8BTrNvNeZVuJ10Kj_g2UB02J0mN0B5tZlqNCNEto8BTrNvNC7MTX502C8f2jmMQJ6mqF2fka1mqx6gqj0eN0B599M=&og=ali&oi=0x240e06040792e3a7d0258f87144d6f27&mid=0&deadline=1792050595&uipk=5&trid=03de7f5d01d2464d8175e34bed17d78u&platform=pc&nbs=1&gen=playurlv3&os=estgoss&upsig=cf25289999cf33faccc33f37d10e0d3f&uparams=e,og,oi,mid,deadline,uipk,trid,platform,nbs,gen,os&bvc=vod&nettype=0&bw=317426&lrs=0&f=u_0_0&qn_dyeid=cd5ad192394da0ee00fe1c806ad06983&agrr=0&buvid=&build=0&dl=0&orderid=0,3 程序rembg u2net透明派生，未重绘角色，原图保留；Codex视觉复核通过：已确认是两只牛的整体透明组合，字幕未被保留；两只角色不可在这个素材内部独立拖动。视频截图程序抠图，原视频帧独立保留。 已对程序遮罩作alpha-floor=32弱背景鬼影清理（保留渐变边缘），原图未修改。",
+    "role": "subject",
+    "is_cutout": true,
+    "templates": [
+      "top",
+      "bottom",
+      "split",
+      "frame",
+      "flower",
+      "grid",
+      "message",
+      "poster",
+      "side",
+      "polaroid",
+      "bubble",
+      "dialogue",
+      "spotlight",
+      "comic",
+      "subtitle",
+      "note",
+      "window",
+      "ticket",
+      "medal",
+      "scene"
+    ],
+    "derived_from": "bulk-cow-BV1fBgg6pEDv-t0261",
+    "enabled": true
+  }
+]

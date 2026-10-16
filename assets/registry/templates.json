@@ -1,0 +1,4433 @@
+{
+  "schema_version": 1,
+  "templates": [
+    {
+      "id": "top",
+      "name": "顶部配字",
+      "description": "先说重点，再看表情",
+      "layout_id": "top",
+      "requires_transparency": false,
+      "supports_embedded": true,
+      "defaults": {
+        "font_style": "plain",
+        "font_size": 36
+      },
+      "sample": {
+        "text": "收到，脑子稍后处理"
+      },
+      "motions": [],
+      "category_id": "classic",
+      "subcategory_id": "classic-caption",
+      "tags": [
+        "校园",
+        "聊天"
+      ]
+    },
+    {
+      "id": "bottom",
+      "name": "底部配字",
+      "description": "经典留白，直接表达",
+      "layout_id": "bottom",
+      "requires_transparency": false,
+      "supports_embedded": true,
+      "defaults": {
+        "font_style": "plain",
+        "font_size": 36
+      },
+      "sample": {
+        "text": "让我先缓一缓"
+      },
+      "motions": [],
+      "category_id": "classic",
+      "subcategory_id": "classic-caption",
+      "tags": [
+        "校园",
+        "聊天"
+      ]
+    },
+    {
+      "id": "split",
+      "name": "上下双行",
+      "description": "上下呼应，反差加倍",
+      "layout_id": "split",
+      "requires_transparency": false,
+      "supports_embedded": false,
+      "defaults": {
+        "font_style": "plain",
+        "font_size": 36
+      },
+      "sample": {
+        "text": "以为很简单",
+        "secondary_text": "结果并不是"
+      },
+      "motions": [],
+      "category_id": "classic",
+      "subcategory_id": "classic-caption",
+      "tags": [
+        "校园",
+        "聊天"
+      ]
+    },
+    {
+      "id": "frame",
+      "name": "外部白边",
+      "description": "多留一点呼吸的空间",
+      "layout_id": "frame",
+      "requires_transparency": false,
+      "supports_embedded": true,
+      "defaults": {
+        "font_style": "plain",
+        "font_size": 36
+      },
+      "sample": {
+        "text": "今天也有认真生活"
+      },
+      "motions": [],
+      "category_id": "classic",
+      "subcategory_id": "classic-caption",
+      "tags": [
+        "校园",
+        "聊天"
+      ]
+    },
+    {
+      "id": "flower",
+      "name": "角色开花",
+      "description": "用透明主体替代花瓣",
+      "layout_id": "flower",
+      "requires_transparency": true,
+      "supports_embedded": true,
+      "defaults": {
+        "font_style": "plain",
+        "font_size": 32,
+        "format": "gif",
+        "size": 256,
+        "petals": 6,
+        "text_placement": "embedded"
+      },
+      "sample": {
+        "text": "开开心心",
+        "text_placement": "embedded",
+        "font_style": "plain",
+        "background": "#fff6d9",
+        "font_size": 30
+      },
+      "motions": [
+        {
+          "effect_id": "spin",
+          "target": "composition",
+          "strength": 1,
+          "speed": 1
+        }
+      ],
+      "category_id": "classic",
+      "subcategory_id": "classic-composition",
+      "tags": [
+        "校园",
+        "聊天"
+      ]
+    },
+    {
+      "id": "grid",
+      "name": "复制阵列",
+      "description": "同一角色组成九宫格",
+      "layout_id": "grid",
+      "requires_transparency": false,
+      "supports_embedded": true,
+      "defaults": {
+        "font_style": "plain",
+        "font_size": 36
+      },
+      "sample": {
+        "text": "全员低电量运行"
+      },
+      "motions": [],
+      "category_id": "classic",
+      "subcategory_id": "classic-composition",
+      "tags": [
+        "校园",
+        "聊天"
+      ]
+    },
+    {
+      "id": "message",
+      "name": "角色发言",
+      "description": "让角色或校园符号说出这句话",
+      "layout_id": "message",
+      "requires_transparency": false,
+      "supports_embedded": false,
+      "defaults": {
+        "font_style": "plain",
+        "font_size": 36
+      },
+      "sample": {
+        "text": "我先说一句",
+        "speaker_name": "今日发言"
+      },
+      "motions": [],
+      "category_id": "classic",
+      "subcategory_id": "classic-caption",
+      "tags": [
+        "校园",
+        "聊天"
+      ]
+    },
+    {
+      "id": "poster",
+      "name": "大字海报",
+      "description": "上方大字，角色在下方回应",
+      "layout_id": "poster",
+      "requires_transparency": false,
+      "supports_embedded": false,
+      "defaults": {
+        "font_style": "plain",
+        "font_size": 36
+      },
+      "sample": {
+        "text": "今日暂停营业",
+        "font_size": 58,
+        "font_style": "bold",
+        "background_style": "rays",
+        "background": "#fff4d7"
+      },
+      "motions": [],
+      "category_id": "classic",
+      "subcategory_id": "classic-caption",
+      "tags": [
+        "校园",
+        "聊天"
+      ]
+    },
+    {
+      "id": "side",
+      "name": "左图右字",
+      "description": "并排说重点，也适合竖排文字",
+      "layout_id": "side",
+      "requires_transparency": false,
+      "supports_embedded": false,
+      "defaults": {
+        "font_style": "plain",
+        "font_size": 36
+      },
+      "sample": {
+        "text": "我先缓一缓",
+        "text_layout": "vertical",
+        "font_size": 54,
+        "font_family": "xiaowei"
+      },
+      "motions": [],
+      "category_id": "classic",
+      "subcategory_id": "classic-caption",
+      "tags": [
+        "校园",
+        "聊天"
+      ]
+    },
+    {
+      "id": "polaroid",
+      "name": "拍立得",
+      "description": "相片边框与手写配字",
+      "layout_id": "polaroid",
+      "requires_transparency": false,
+      "supports_embedded": false,
+      "defaults": {
+        "font_style": "plain",
+        "font_size": 36
+      },
+      "sample": {
+        "text": "快乐值得留念",
+        "font_family": "kuaile",
+        "background": "#e6eddc"
+      },
+      "motions": [],
+      "category_id": "classic",
+      "subcategory_id": "classic-caption",
+      "tags": [
+        "校园",
+        "聊天"
+      ]
+    },
+    {
+      "id": "bubble",
+      "name": "气泡心声",
+      "description": "把心里话放进对话气泡",
+      "layout_id": "bubble",
+      "requires_transparency": false,
+      "supports_embedded": false,
+      "defaults": {
+        "font_style": "plain",
+        "font_size": 36
+      },
+      "sample": {
+        "text": "你先说，我先想想"
+      },
+      "motions": [],
+      "category_id": "classic",
+      "subcategory_id": "classic-caption",
+      "tags": [
+        "校园",
+        "聊天"
+      ]
+    },
+    {
+      "id": "dialogue",
+      "name": "双人对话",
+      "description": "一问一答，两个角色相互接话",
+      "layout_id": "dialogue",
+      "requires_transparency": false,
+      "supports_embedded": false,
+      "defaults": {
+        "font_style": "plain",
+        "font_size": 36
+      },
+      "sample": {
+        "text": "作业写完了吗？",
+        "secondary_text": "先别问这么难的问题"
+      },
+      "motions": [],
+      "category_id": "classic",
+      "subcategory_id": "classic-caption",
+      "tags": [
+        "校园",
+        "聊天"
+      ]
+    },
+    {
+      "id": "spotlight",
+      "name": "聚光舞台",
+      "description": "角色站在聚光灯下表达",
+      "layout_id": "spotlight",
+      "requires_transparency": false,
+      "supports_embedded": false,
+      "defaults": {
+        "font_style": "plain",
+        "font_size": 36
+      },
+      "sample": {
+        "text": "接下来由我表演硬撑",
+        "background": "#24382f",
+        "text_color": "#fff8d9",
+        "font_style": "bold"
+      },
+      "motions": [],
+      "category_id": "classic",
+      "subcategory_id": "classic-composition",
+      "tags": [
+        "校园",
+        "聊天"
+      ]
+    },
+    {
+      "id": "comic",
+      "name": "漫画双格",
+      "description": "同一角色的前后反应，配两句反差文案",
+      "layout_id": "comic",
+      "requires_transparency": false,
+      "supports_embedded": false,
+      "defaults": {
+        "font_style": "plain",
+        "font_size": 36
+      },
+      "sample": {
+        "text": "刚开始的我",
+        "secondary_text": "五分钟后的我",
+        "background": "#e9eadf"
+      },
+      "motions": [],
+      "category_id": "classic",
+      "subcategory_id": "classic-caption",
+      "tags": [
+        "校园",
+        "聊天"
+      ]
+    },
+    {
+      "id": "subtitle",
+      "name": "电影字幕",
+      "description": "大幅画面与深色字幕条",
+      "layout_id": "subtitle",
+      "requires_transparency": false,
+      "supports_embedded": false,
+      "defaults": {
+        "font_style": "plain",
+        "font_size": 36
+      },
+      "sample": {
+        "text": "这件事，说来话长",
+        "background": "#e0e8dd",
+        "font_family": "serif"
+      },
+      "motions": [],
+      "category_id": "classic",
+      "subcategory_id": "classic-caption",
+      "tags": [
+        "校园",
+        "聊天"
+      ]
+    },
+    {
+      "id": "note",
+      "name": "心情便签",
+      "description": "把一句心事贴在便签纸上",
+      "layout_id": "note",
+      "requires_transparency": false,
+      "supports_embedded": false,
+      "defaults": {
+        "font_style": "plain",
+        "font_size": 36
+      },
+      "sample": {
+        "text": "给自己一点时间",
+        "background": "#e3ebd8",
+        "font_family": "mashan",
+        "font_size": 42
+      },
+      "motions": [],
+      "category_id": "classic",
+      "subcategory_id": "classic-caption",
+      "tags": [
+        "校园",
+        "聊天"
+      ]
+    },
+    {
+      "id": "window",
+      "name": "脑内弹窗",
+      "description": "角色出现在一张消息弹窗里",
+      "layout_id": "window",
+      "requires_transparency": false,
+      "supports_embedded": false,
+      "defaults": {
+        "font_style": "plain",
+        "font_size": 36
+      },
+      "sample": {
+        "text": "脑子暂时没有响应",
+        "background": "#e7edf2",
+        "font_family": "sans"
+      },
+      "motions": [],
+      "category_id": "classic",
+      "subcategory_id": "classic-caption",
+      "tags": [
+        "校园",
+        "聊天"
+      ]
+    },
+    {
+      "id": "ticket",
+      "name": "角色入场券",
+      "description": "带齿孔的票券，记录今天的状态",
+      "layout_id": "ticket",
+      "requires_transparency": false,
+      "supports_embedded": false,
+      "defaults": {
+        "font_style": "plain",
+        "font_size": 36
+      },
+      "sample": {
+        "text": "今天也要开心",
+        "background": "#e6ecdf",
+        "font_family": "xiaowei",
+        "text_layout": "vertical",
+        "font_size": 48
+      },
+      "motions": [],
+      "category_id": "classic",
+      "subcategory_id": "classic-caption",
+      "tags": [
+        "校园",
+        "聊天"
+      ]
+    },
+    {
+      "id": "medal",
+      "name": "圆形徽章",
+      "description": "角色被圆框与飘带围住",
+      "layout_id": "medal",
+      "requires_transparency": false,
+      "supports_embedded": false,
+      "defaults": {
+        "font_style": "plain",
+        "font_size": 36
+      },
+      "sample": {
+        "text": "努力生活奖",
+        "font_family": "xiaowei",
+        "font_size": 44,
+        "background": "#f7f3df"
+      },
+      "motions": [],
+      "category_id": "classic",
+      "subcategory_id": "classic-composition",
+      "tags": [
+        "校园",
+        "聊天"
+      ]
+    },
+    {
+      "id": "scene",
+      "name": "场景合影",
+      "description": "独立场景背景与多个角色一起入镜",
+      "layout_id": "scene",
+      "requires_transparency": false,
+      "supports_embedded": false,
+      "defaults": {
+        "font_style": "plain",
+        "font_size": 36
+      },
+      "sample": {
+        "text": "今天一起出发",
+        "primary_x": 0.5,
+        "primary_y": 0.62,
+        "primary_scale": 0.6,
+        "background_style": "gradient",
+        "background": "#deedcb",
+        "background_secondary": "#accd8f",
+        "font_style": "bold"
+      },
+      "motions": [],
+      "category_id": "classic",
+      "subcategory_id": "classic-composition",
+      "tags": [
+        "校园",
+        "聊天"
+      ]
+    },
+    {
+      "id": "cast-duo",
+      "name": "双人同框",
+      "description": "2个人物独立选角和站位，可继续调整状态、位置与动效",
+      "layout_id": "scene",
+      "cast": [
+        {
+          "x": 0.27,
+          "y": 0.63,
+          "scale": 0.46,
+          "rotation": 0
+        },
+        {
+          "x": 0.73,
+          "y": 0.63,
+          "scale": 0.46,
+          "rotation": 0
+        }
+      ],
+      "min_characters": 2,
+      "max_characters": 2,
+      "defaults": {
+        "font_style": "plain",
+        "font_size": 36,
+        "text_placement": "caption"
+      },
+      "sample": {
+        "text": "一起出去透口气"
+      },
+      "motions": [],
+      "category_id": "classic",
+      "subcategory_id": "classic-cast",
+      "tags": [
+        "校园",
+        "聊天"
+      ]
+    },
+    {
+      "id": "cast-chat",
+      "name": "双人接话",
+      "description": "2个人物独立选角和站位，可继续调整状态、位置与动效",
+      "layout_id": "cast-chat-layout",
+      "cast": [
+        {
+          "x": 0.27,
+          "y": 0.63,
+          "scale": 0.46,
+          "rotation": 0
+        },
+        {
+          "x": 0.73,
+          "y": 0.63,
+          "scale": 0.46,
+          "rotation": 0
+        }
+      ],
+      "min_characters": 2,
+      "max_characters": 2,
+      "defaults": {
+        "font_style": "plain",
+        "font_size": 36,
+        "text_placement": "caption"
+      },
+      "sample": {
+        "text": "学校又有新安排",
+        "secondary_text": "等一下，我还没缓过来"
+      },
+      "motions": [],
+      "category_id": "classic",
+      "subcategory_id": "classic-cast",
+      "tags": [
+        "校园",
+        "聊天"
+      ]
+    },
+    {
+      "id": "cast-trio",
+      "name": "三人合影",
+      "description": "3个人物独立选角和站位，可继续调整状态、位置与动效",
+      "layout_id": "scene",
+      "cast": [
+        {
+          "x": 0.2,
+          "y": 0.63,
+          "scale": 0.32,
+          "rotation": 0
+        },
+        {
+          "x": 0.5,
+          "y": 0.63,
+          "scale": 0.32,
+          "rotation": 0
+        },
+        {
+          "x": 0.8,
+          "y": 0.63,
+          "scale": 0.32,
+          "rotation": 0
+        }
+      ],
+      "min_characters": 3,
+      "max_characters": 3,
+      "defaults": {
+        "font_style": "plain",
+        "font_size": 36,
+        "text_placement": "caption"
+      },
+      "sample": {
+        "text": "我们三个凑齐了"
+      },
+      "motions": [],
+      "category_id": "classic",
+      "subcategory_id": "classic-cast",
+      "tags": [
+        "校园",
+        "聊天"
+      ]
+    },
+    {
+      "id": "cast-quad",
+      "name": "四人开会",
+      "description": "4个人物独立选角和站位，可继续调整状态、位置与动效",
+      "layout_id": "scene",
+      "cast": [
+        {
+          "x": 0.27,
+          "y": 0.29,
+          "scale": 0.39,
+          "rotation": 0
+        },
+        {
+          "x": 0.73,
+          "y": 0.29,
+          "scale": 0.39,
+          "rotation": 0
+        },
+        {
+          "x": 0.27,
+          "y": 0.73,
+          "scale": 0.39,
+          "rotation": 0
+        },
+        {
+          "x": 0.73,
+          "y": 0.73,
+          "scale": 0.39,
+          "rotation": 0
+        }
+      ],
+      "min_characters": 4,
+      "max_characters": 4,
+      "defaults": {
+        "font_style": "plain",
+        "font_size": 36,
+        "text_placement": "caption"
+      },
+      "sample": {
+        "text": "大家都来说两句"
+      },
+      "motions": [],
+      "category_id": "classic",
+      "subcategory_id": "classic-cast",
+      "tags": [
+        "校园",
+        "聊天"
+      ]
+    },
+    {
+      "id": "cast-six",
+      "name": "六人群像",
+      "description": "6个人物独立选角和站位，可继续调整状态、位置与动效",
+      "layout_id": "scene",
+      "cast": [
+        {
+          "x": 0.19,
+          "y": 0.28,
+          "scale": 0.29,
+          "rotation": 0
+        },
+        {
+          "x": 0.5,
+          "y": 0.28,
+          "scale": 0.29,
+          "rotation": 0
+        },
+        {
+          "x": 0.81,
+          "y": 0.28,
+          "scale": 0.29,
+          "rotation": 0
+        },
+        {
+          "x": 0.19,
+          "y": 0.73,
+          "scale": 0.29,
+          "rotation": 0
+        },
+        {
+          "x": 0.5,
+          "y": 0.73,
+          "scale": 0.29,
+          "rotation": 0
+        },
+        {
+          "x": 0.81,
+          "y": 0.73,
+          "scale": 0.29,
+          "rotation": 0
+        }
+      ],
+      "min_characters": 6,
+      "max_characters": 6,
+      "defaults": {
+        "font_style": "plain",
+        "font_size": 36,
+        "text_placement": "caption"
+      },
+      "sample": {
+        "text": "全员到齐，准备出发"
+      },
+      "motions": [],
+      "category_id": "classic",
+      "subcategory_id": "classic-cast",
+      "tags": [
+        "校园",
+        "聊天"
+      ]
+    },
+    {
+      "id": "cast-dance",
+      "name": "全员摇摆",
+      "description": "4个人物独立选角和站位，可继续调整状态、位置与动效",
+      "layout_id": "scene",
+      "cast": [
+        {
+          "x": 0.27,
+          "y": 0.31,
+          "scale": 0.35,
+          "rotation": -5
+        },
+        {
+          "x": 0.73,
+          "y": 0.31,
+          "scale": 0.35,
+          "rotation": 5
+        },
+        {
+          "x": 0.27,
+          "y": 0.7,
+          "scale": 0.35,
+          "rotation": -5
+        },
+        {
+          "x": 0.73,
+          "y": 0.7,
+          "scale": 0.35,
+          "rotation": 5
+        }
+      ],
+      "min_characters": 4,
+      "max_characters": 6,
+      "defaults": {
+        "font_style": "plain",
+        "font_size": 36,
+        "text_placement": "caption",
+        "format": "gif",
+        "size": 256
+      },
+      "sample": {
+        "text": "下课了，一起动两下"
+      },
+      "motions": [
+        {
+          "effect_id": "breathe",
+          "target": "composition",
+          "strength": 0.5,
+          "speed": 1
+        },
+        {
+          "effect_id": "rotate",
+          "target": "composition",
+          "strength": 0.1,
+          "speed": 1
+        }
+      ],
+      "category_id": "classic",
+      "subcategory_id": "classic-cast",
+      "tags": [
+        "校园",
+        "聊天"
+      ]
+    },
+    {
+      "id": "motion-jelly",
+      "name": "果冻回弹",
+      "description": "压扁后两次衰减回弹",
+      "category_id": "reaction",
+      "subcategory_id": "reaction-elastic",
+      "tags": [
+        "聊天",
+        "校园"
+      ],
+      "layout_id": "motion-stage",
+      "requires_transparency": true,
+      "supports_embedded": false,
+      "defaults": {
+        "format": "gif",
+        "size": 256,
+        "text_placement": "caption"
+      },
+      "sample": {
+        "text": "我先缓一缓",
+        "background": "#f4f6ec",
+        "font_size": 36
+      },
+      "motions": [],
+      "animation": {
+        "handler": "jelly",
+        "duration_ms": 2000,
+        "poster_time": 0.42,
+        "tracks": [],
+        "props": [],
+        "parameters": [
+          "strength"
+        ]
+      },
+      "cast": [
+        {
+          "x": 0.5,
+          "y": 0.5,
+          "scale": 1,
+          "rotation": 0
+        }
+      ],
+      "min_characters": 1,
+      "max_characters": 1
+    },
+    {
+      "id": "motion-push",
+      "name": "侧推回弹",
+      "description": "横向受推后弹回站位",
+      "category_id": "reaction",
+      "subcategory_id": "reaction-elastic",
+      "tags": [
+        "聊天",
+        "校园"
+      ],
+      "layout_id": "motion-stage",
+      "requires_transparency": true,
+      "supports_embedded": false,
+      "defaults": {
+        "format": "gif",
+        "size": 256,
+        "text_placement": "caption"
+      },
+      "sample": {
+        "text": "我先缓一缓",
+        "background": "#f4f6ec",
+        "font_size": 36
+      },
+      "motions": [],
+      "animation": {
+        "handler": "push",
+        "duration_ms": 2000,
+        "poster_time": 0.42,
+        "tracks": [
+          {
+            "actor": 0,
+            "keyframes": [
+              {
+                "time": 0
+              },
+              {
+                "time": 0.18,
+                "x": 0.18,
+                "angle": -12
+              },
+              {
+                "time": 0.42,
+                "x": -0.07,
+                "angle": 5
+              },
+              {
+                "time": 0.66,
+                "x": 0.025,
+                "angle": -2
+              },
+              {
+                "time": 1
+              }
+            ]
+          }
+        ],
+        "props": [],
+        "parameters": [
+          "strength"
+        ]
+      },
+      "cast": [
+        {
+          "x": 0.5,
+          "y": 0.5,
+          "scale": 1,
+          "rotation": 0
+        }
+      ],
+      "min_characters": 1,
+      "max_characters": 1
+    },
+    {
+      "id": "motion-charge",
+      "name": "蓄力起跳",
+      "description": "下蹲蓄力、起跳、压缩落地",
+      "category_id": "reaction",
+      "subcategory_id": "reaction-elastic",
+      "tags": [
+        "聊天",
+        "校园"
+      ],
+      "layout_id": "motion-stage",
+      "requires_transparency": true,
+      "supports_embedded": false,
+      "defaults": {
+        "format": "gif",
+        "size": 256,
+        "text_placement": "caption"
+      },
+      "sample": {
+        "text": "我先缓一缓",
+        "background": "#f4f6ec",
+        "font_size": 36
+      },
+      "motions": [],
+      "animation": {
+        "handler": "charge",
+        "duration_ms": 2000,
+        "poster_time": 0.42,
+        "tracks": [],
+        "props": [],
+        "parameters": [
+          "strength"
+        ]
+      },
+      "cast": [
+        {
+          "x": 0.5,
+          "y": 0.5,
+          "scale": 1,
+          "rotation": 0
+        }
+      ],
+      "min_characters": 1,
+      "max_characters": 1
+    },
+    {
+      "id": "motion-drop",
+      "name": "重力坠落",
+      "description": "高处落下后压扁恢复",
+      "category_id": "reaction",
+      "subcategory_id": "reaction-elastic",
+      "tags": [
+        "聊天",
+        "校园"
+      ],
+      "layout_id": "motion-stage",
+      "requires_transparency": true,
+      "supports_embedded": false,
+      "defaults": {
+        "format": "gif",
+        "size": 256,
+        "text_placement": "caption"
+      },
+      "sample": {
+        "text": "我先缓一缓",
+        "background": "#f4f6ec",
+        "font_size": 36
+      },
+      "motions": [],
+      "animation": {
+        "handler": "drop",
+        "duration_ms": 2000,
+        "poster_time": 0.42,
+        "tracks": [],
+        "props": [],
+        "parameters": [
+          "strength"
+        ]
+      },
+      "cast": [
+        {
+          "x": 0.5,
+          "y": 0.5,
+          "scale": 1,
+          "rotation": 0
+        }
+      ],
+      "min_characters": 1,
+      "max_characters": 1
+    },
+    {
+      "id": "motion-shock",
+      "name": "震惊后退",
+      "description": "突然放大、停顿后退缩",
+      "category_id": "reaction",
+      "subcategory_id": "reaction-emotion",
+      "tags": [
+        "聊天",
+        "校园"
+      ],
+      "layout_id": "motion-stage",
+      "requires_transparency": true,
+      "supports_embedded": false,
+      "defaults": {
+        "format": "gif",
+        "size": 256,
+        "text_placement": "caption"
+      },
+      "sample": {
+        "text": "我先缓一缓",
+        "background": "#f4f6ec",
+        "font_size": 36
+      },
+      "motions": [],
+      "animation": {
+        "handler": "shock",
+        "duration_ms": 2000,
+        "poster_time": 0.42,
+        "tracks": [],
+        "props": [],
+        "parameters": [
+          "strength"
+        ]
+      },
+      "cast": [
+        {
+          "x": 0.5,
+          "y": 0.5,
+          "scale": 1,
+          "rotation": 0
+        }
+      ],
+      "min_characters": 1,
+      "max_characters": 1
+    },
+    {
+      "id": "motion-puff",
+      "name": "气鼓鼓",
+      "description": "膨胀后短促颠动",
+      "category_id": "reaction",
+      "subcategory_id": "reaction-emotion",
+      "tags": [
+        "聊天",
+        "校园"
+      ],
+      "layout_id": "motion-stage",
+      "requires_transparency": true,
+      "supports_embedded": false,
+      "defaults": {
+        "format": "gif",
+        "size": 256,
+        "text_placement": "caption"
+      },
+      "sample": {
+        "text": "我先缓一缓",
+        "background": "#f4f6ec",
+        "font_size": 36
+      },
+      "motions": [],
+      "animation": {
+        "handler": "puff",
+        "duration_ms": 2000,
+        "poster_time": 0.42,
+        "tracks": [],
+        "props": [],
+        "parameters": [
+          "strength"
+        ]
+      },
+      "cast": [
+        {
+          "x": 0.5,
+          "y": 0.5,
+          "scale": 1,
+          "rotation": 0
+        }
+      ],
+      "min_characters": 1,
+      "max_characters": 1
+    },
+    {
+      "id": "motion-tired",
+      "name": "低电量瘫软",
+      "description": "缓慢下沉变扁再恢复",
+      "category_id": "reaction",
+      "subcategory_id": "reaction-emotion",
+      "tags": [
+        "聊天",
+        "校园",
+        "疲惫"
+      ],
+      "layout_id": "motion-stage",
+      "requires_transparency": true,
+      "supports_embedded": false,
+      "defaults": {
+        "format": "gif",
+        "size": 256,
+        "text_placement": "caption"
+      },
+      "sample": {
+        "text": "我先缓一缓",
+        "background": "#f4f6ec",
+        "font_size": 36
+      },
+      "motions": [],
+      "animation": {
+        "handler": "tired",
+        "duration_ms": 2000,
+        "poster_time": 0.42,
+        "tracks": [],
+        "props": [],
+        "parameters": [
+          "strength"
+        ]
+      },
+      "cast": [
+        {
+          "x": 0.5,
+          "y": 0.5,
+          "scale": 1,
+          "rotation": 0
+        }
+      ],
+      "min_characters": 1,
+      "max_characters": 1
+    },
+    {
+      "id": "motion-nod",
+      "name": "困困点头",
+      "description": "前倾点头后突然惊醒",
+      "category_id": "reaction",
+      "subcategory_id": "reaction-emotion",
+      "tags": [
+        "聊天",
+        "校园",
+        "疲惫"
+      ],
+      "layout_id": "motion-stage",
+      "requires_transparency": true,
+      "supports_embedded": false,
+      "defaults": {
+        "format": "gif",
+        "size": 256,
+        "text_placement": "caption"
+      },
+      "sample": {
+        "text": "我先缓一缓",
+        "background": "#f4f6ec",
+        "font_size": 36
+      },
+      "motions": [],
+      "animation": {
+        "handler": "nod",
+        "duration_ms": 2000,
+        "poster_time": 0.42,
+        "tracks": [],
+        "props": [],
+        "parameters": [
+          "strength"
+        ]
+      },
+      "cast": [
+        {
+          "x": 0.5,
+          "y": 0.5,
+          "scale": 1,
+          "rotation": 0
+        }
+      ],
+      "min_characters": 1,
+      "max_characters": 1
+    },
+    {
+      "id": "motion-step",
+      "name": "左右踏步",
+      "description": "侧移落地时交替压缩",
+      "category_id": "reaction",
+      "subcategory_id": "reaction-rhythm",
+      "tags": [
+        "聊天",
+        "校园"
+      ],
+      "layout_id": "motion-stage",
+      "requires_transparency": true,
+      "supports_embedded": false,
+      "defaults": {
+        "format": "gif",
+        "size": 256,
+        "text_placement": "caption"
+      },
+      "sample": {
+        "text": "我先缓一缓",
+        "background": "#f4f6ec",
+        "font_size": 36
+      },
+      "motions": [],
+      "animation": {
+        "handler": "step",
+        "duration_ms": 2000,
+        "poster_time": 0.42,
+        "tracks": [],
+        "props": [],
+        "parameters": [
+          "strength"
+        ]
+      },
+      "cast": [
+        {
+          "x": 0.5,
+          "y": 0.5,
+          "scale": 1,
+          "rotation": 0
+        }
+      ],
+      "min_characters": 1,
+      "max_characters": 1
+    },
+    {
+      "id": "motion-roly",
+      "name": "不倒翁",
+      "description": "绕底部支点左右摇摆",
+      "category_id": "reaction",
+      "subcategory_id": "reaction-rhythm",
+      "tags": [
+        "聊天",
+        "校园"
+      ],
+      "layout_id": "motion-stage",
+      "requires_transparency": true,
+      "supports_embedded": false,
+      "defaults": {
+        "format": "gif",
+        "size": 256,
+        "text_placement": "caption"
+      },
+      "sample": {
+        "text": "我先缓一缓",
+        "background": "#f4f6ec",
+        "font_size": 36
+      },
+      "motions": [],
+      "animation": {
+        "handler": "roly",
+        "duration_ms": 2000,
+        "poster_time": 0.42,
+        "tracks": [],
+        "props": [],
+        "parameters": [
+          "strength"
+        ]
+      },
+      "cast": [
+        {
+          "x": 0.5,
+          "y": 0.5,
+          "scale": 1,
+          "rotation": 0
+        }
+      ],
+      "min_characters": 1,
+      "max_characters": 1
+    },
+    {
+      "id": "motion-slide",
+      "name": "左右滑步",
+      "description": "沿扁椭圆踏出滑步",
+      "category_id": "reaction",
+      "subcategory_id": "reaction-rhythm",
+      "tags": [
+        "聊天",
+        "校园"
+      ],
+      "layout_id": "motion-stage",
+      "requires_transparency": true,
+      "supports_embedded": false,
+      "defaults": {
+        "format": "gif",
+        "size": 256,
+        "text_placement": "caption"
+      },
+      "sample": {
+        "text": "我先缓一缓",
+        "background": "#f4f6ec",
+        "font_size": 36
+      },
+      "motions": [],
+      "animation": {
+        "handler": "slide",
+        "duration_ms": 2000,
+        "poster_time": 0.42,
+        "tracks": [],
+        "props": [],
+        "parameters": [
+          "strength"
+        ]
+      },
+      "cast": [
+        {
+          "x": 0.5,
+          "y": 0.5,
+          "scale": 1,
+          "rotation": 0
+        }
+      ],
+      "min_characters": 1,
+      "max_characters": 1
+    },
+    {
+      "id": "motion-triple",
+      "name": "卡点三连",
+      "description": "左、中、右三段跳动",
+      "category_id": "reaction",
+      "subcategory_id": "reaction-rhythm",
+      "tags": [
+        "聊天",
+        "校园"
+      ],
+      "layout_id": "motion-stage",
+      "requires_transparency": true,
+      "supports_embedded": false,
+      "defaults": {
+        "format": "gif",
+        "size": 256,
+        "text_placement": "caption"
+      },
+      "sample": {
+        "text": "我先缓一缓",
+        "background": "#f4f6ec",
+        "font_size": 36
+      },
+      "motions": [],
+      "animation": {
+        "handler": "triple",
+        "duration_ms": 2000,
+        "poster_time": 0.42,
+        "tracks": [],
+        "props": [],
+        "parameters": [
+          "strength"
+        ]
+      },
+      "cast": [
+        {
+          "x": 0.5,
+          "y": 0.5,
+          "scale": 1,
+          "rotation": 0
+        }
+      ],
+      "min_characters": 1,
+      "max_characters": 1
+    },
+    {
+      "id": "motion-peek-bottom",
+      "name": "下缘探头",
+      "description": "从下沿探出、停留后缩回",
+      "category_id": "entrance",
+      "subcategory_id": "entrance-peek",
+      "tags": [
+        "聊天",
+        "校园"
+      ],
+      "layout_id": "motion-stage",
+      "requires_transparency": true,
+      "supports_embedded": false,
+      "defaults": {
+        "format": "gif",
+        "size": 256,
+        "text_placement": "caption"
+      },
+      "sample": {
+        "text": "我来啦",
+        "background": "#f4f6ec",
+        "font_size": 36
+      },
+      "motions": [],
+      "animation": {
+        "handler": "peek-bottom",
+        "duration_ms": 3000,
+        "poster_time": 0.42,
+        "tracks": [],
+        "props": [],
+        "parameters": [
+          "strength"
+        ]
+      },
+      "cast": [
+        {
+          "x": 0.5,
+          "y": 0.5,
+          "scale": 1,
+          "rotation": 0
+        }
+      ],
+      "min_characters": 1,
+      "max_characters": 1
+    },
+    {
+      "id": "motion-peek-side",
+      "name": "侧边偷看",
+      "description": "从侧边探头后迅速缩回",
+      "category_id": "entrance",
+      "subcategory_id": "entrance-peek",
+      "tags": [
+        "聊天",
+        "校园"
+      ],
+      "layout_id": "motion-stage",
+      "requires_transparency": true,
+      "supports_embedded": false,
+      "defaults": {
+        "format": "gif",
+        "size": 256,
+        "text_placement": "caption"
+      },
+      "sample": {
+        "text": "我来啦",
+        "background": "#f4f6ec",
+        "font_size": 36
+      },
+      "motions": [],
+      "animation": {
+        "handler": "peek-side",
+        "duration_ms": 3000,
+        "poster_time": 0.42,
+        "tracks": [],
+        "props": [],
+        "parameters": [
+          "strength",
+          "direction"
+        ]
+      },
+      "cast": [
+        {
+          "x": 0.5,
+          "y": 0.5,
+          "scale": 1,
+          "rotation": 0
+        }
+      ],
+      "min_characters": 1,
+      "max_characters": 1
+    },
+    {
+      "id": "motion-curtain",
+      "name": "拉开帷幕",
+      "description": "左右幕布打开再合拢",
+      "category_id": "entrance",
+      "subcategory_id": "entrance-peek",
+      "tags": [
+        "聊天",
+        "校园"
+      ],
+      "layout_id": "motion-stage",
+      "requires_transparency": true,
+      "supports_embedded": false,
+      "defaults": {
+        "format": "gif",
+        "size": 256,
+        "text_placement": "caption"
+      },
+      "sample": {
+        "text": "我来啦",
+        "background": "#f4f6ec",
+        "font_size": 36
+      },
+      "motions": [],
+      "animation": {
+        "handler": "curtain",
+        "duration_ms": 3000,
+        "poster_time": 0.42,
+        "tracks": [],
+        "props": [
+          "curtain"
+        ],
+        "parameters": [
+          "strength",
+          "prop_color"
+        ]
+      },
+      "cast": [
+        {
+          "x": 0.5,
+          "y": 0.5,
+          "scale": 1,
+          "rotation": 0
+        }
+      ],
+      "min_characters": 1,
+      "max_characters": 1
+    },
+    {
+      "id": "motion-window-pop",
+      "name": "窗口冒泡",
+      "description": "角色从圆角小窗口升起",
+      "category_id": "entrance",
+      "subcategory_id": "entrance-peek",
+      "tags": [
+        "聊天",
+        "校园"
+      ],
+      "layout_id": "motion-stage",
+      "requires_transparency": true,
+      "supports_embedded": false,
+      "defaults": {
+        "format": "gif",
+        "size": 256,
+        "text_placement": "caption"
+      },
+      "sample": {
+        "text": "我来啦",
+        "background": "#f4f6ec",
+        "font_size": 36
+      },
+      "motions": [],
+      "animation": {
+        "handler": "window-pop",
+        "duration_ms": 3000,
+        "poster_time": 0.42,
+        "tracks": [],
+        "props": [
+          "window"
+        ],
+        "parameters": [
+          "strength",
+          "prop_color"
+        ]
+      },
+      "cast": [
+        {
+          "x": 0.5,
+          "y": 0.5,
+          "scale": 1,
+          "rotation": 0
+        }
+      ],
+      "min_characters": 1,
+      "max_characters": 1
+    },
+    {
+      "id": "motion-zoom",
+      "name": "突然凑近",
+      "description": "快速冲近镜头、停顿后退回",
+      "category_id": "entrance",
+      "subcategory_id": "entrance-arrival",
+      "tags": [
+        "聊天",
+        "校园"
+      ],
+      "layout_id": "motion-stage",
+      "requires_transparency": true,
+      "supports_embedded": false,
+      "defaults": {
+        "format": "gif",
+        "size": 256,
+        "text_placement": "caption"
+      },
+      "sample": {
+        "text": "我来啦",
+        "background": "#f4f6ec",
+        "font_size": 36
+      },
+      "motions": [],
+      "animation": {
+        "handler": "zoom",
+        "duration_ms": 3000,
+        "poster_time": 0.42,
+        "tracks": [],
+        "props": [],
+        "parameters": [
+          "strength"
+        ]
+      },
+      "cast": [
+        {
+          "x": 0.5,
+          "y": 0.5,
+          "scale": 1,
+          "rotation": 0
+        }
+      ],
+      "min_characters": 1,
+      "max_characters": 1
+    },
+    {
+      "id": "motion-launch",
+      "name": "弹射入场",
+      "description": "从下方弹入后两次回弹",
+      "category_id": "entrance",
+      "subcategory_id": "entrance-arrival",
+      "tags": [
+        "聊天",
+        "校园"
+      ],
+      "layout_id": "motion-stage",
+      "requires_transparency": true,
+      "supports_embedded": false,
+      "defaults": {
+        "format": "gif",
+        "size": 256,
+        "text_placement": "caption"
+      },
+      "sample": {
+        "text": "我来啦",
+        "background": "#f4f6ec",
+        "font_size": 36
+      },
+      "motions": [],
+      "animation": {
+        "handler": "launch",
+        "duration_ms": 3000,
+        "poster_time": 0.42,
+        "tracks": [],
+        "props": [],
+        "parameters": [
+          "strength"
+        ]
+      },
+      "cast": [
+        {
+          "x": 0.5,
+          "y": 0.5,
+          "scale": 1,
+          "rotation": 0
+        }
+      ],
+      "min_characters": 1,
+      "max_characters": 1
+    },
+    {
+      "id": "motion-spin-in",
+      "name": "旋转落位",
+      "description": "旋转缩放后稳定落位",
+      "category_id": "entrance",
+      "subcategory_id": "entrance-arrival",
+      "tags": [
+        "聊天",
+        "校园"
+      ],
+      "layout_id": "motion-stage",
+      "requires_transparency": true,
+      "supports_embedded": false,
+      "defaults": {
+        "format": "gif",
+        "size": 256,
+        "text_placement": "caption"
+      },
+      "sample": {
+        "text": "我来啦",
+        "background": "#f4f6ec",
+        "font_size": 36
+      },
+      "motions": [],
+      "animation": {
+        "handler": "spin-in",
+        "duration_ms": 3000,
+        "poster_time": 0.42,
+        "tracks": [],
+        "props": [],
+        "parameters": [
+          "strength"
+        ]
+      },
+      "cast": [
+        {
+          "x": 0.5,
+          "y": 0.5,
+          "scale": 1,
+          "rotation": 0
+        }
+      ],
+      "min_characters": 1,
+      "max_characters": 1
+    },
+    {
+      "id": "motion-brake",
+      "name": "急刹入场",
+      "description": "横向滑入后前倾急停",
+      "category_id": "entrance",
+      "subcategory_id": "entrance-arrival",
+      "tags": [
+        "聊天",
+        "校园"
+      ],
+      "layout_id": "motion-stage",
+      "requires_transparency": true,
+      "supports_embedded": false,
+      "defaults": {
+        "format": "gif",
+        "size": 256,
+        "text_placement": "caption"
+      },
+      "sample": {
+        "text": "我来啦",
+        "background": "#f4f6ec",
+        "font_size": 36
+      },
+      "motions": [],
+      "animation": {
+        "handler": "brake",
+        "duration_ms": 3000,
+        "poster_time": 0.42,
+        "tracks": [],
+        "props": [],
+        "parameters": [
+          "strength",
+          "direction"
+        ]
+      },
+      "cast": [
+        {
+          "x": 0.5,
+          "y": 0.5,
+          "scale": 1,
+          "rotation": 0
+        }
+      ],
+      "min_characters": 1,
+      "max_characters": 1
+    },
+    {
+      "id": "motion-ascend",
+      "name": "原地升天",
+      "description": "向上漂浮淡出后回归",
+      "category_id": "entrance",
+      "subcategory_id": "entrance-exit",
+      "tags": [
+        "聊天",
+        "校园"
+      ],
+      "layout_id": "motion-stage",
+      "requires_transparency": true,
+      "supports_embedded": false,
+      "defaults": {
+        "format": "gif",
+        "size": 256,
+        "text_placement": "caption"
+      },
+      "sample": {
+        "text": "我来啦",
+        "background": "#f4f6ec",
+        "font_size": 36
+      },
+      "motions": [],
+      "animation": {
+        "handler": "ascend",
+        "duration_ms": 3000,
+        "poster_time": 0.42,
+        "tracks": [],
+        "props": [],
+        "parameters": [
+          "strength"
+        ]
+      },
+      "cast": [
+        {
+          "x": 0.5,
+          "y": 0.5,
+          "scale": 1,
+          "rotation": 0
+        }
+      ],
+      "min_characters": 1,
+      "max_characters": 1
+    },
+    {
+      "id": "motion-burrow",
+      "name": "钻地逃跑",
+      "description": "压缩后钻入地洞",
+      "category_id": "entrance",
+      "subcategory_id": "entrance-exit",
+      "tags": [
+        "聊天",
+        "校园"
+      ],
+      "layout_id": "motion-stage",
+      "requires_transparency": true,
+      "supports_embedded": false,
+      "defaults": {
+        "format": "gif",
+        "size": 256,
+        "text_placement": "caption"
+      },
+      "sample": {
+        "text": "我来啦",
+        "background": "#f4f6ec",
+        "font_size": 36
+      },
+      "motions": [],
+      "animation": {
+        "handler": "burrow",
+        "duration_ms": 3000,
+        "poster_time": 0.42,
+        "tracks": [],
+        "props": [
+          "hole"
+        ],
+        "parameters": [
+          "strength",
+          "prop_color"
+        ]
+      },
+      "cast": [
+        {
+          "x": 0.5,
+          "y": 0.5,
+          "scale": 1,
+          "rotation": 0
+        }
+      ],
+      "min_characters": 1,
+      "max_characters": 1
+    },
+    {
+      "id": "motion-escape",
+      "name": "变小溜走",
+      "description": "沿斜线缩小退场",
+      "category_id": "entrance",
+      "subcategory_id": "entrance-exit",
+      "tags": [
+        "聊天",
+        "校园"
+      ],
+      "layout_id": "motion-stage",
+      "requires_transparency": true,
+      "supports_embedded": false,
+      "defaults": {
+        "format": "gif",
+        "size": 256,
+        "text_placement": "caption"
+      },
+      "sample": {
+        "text": "我来啦",
+        "background": "#f4f6ec",
+        "font_size": 36
+      },
+      "motions": [],
+      "animation": {
+        "handler": "escape",
+        "duration_ms": 3000,
+        "poster_time": 0.42,
+        "tracks": [],
+        "props": [],
+        "parameters": [
+          "strength",
+          "direction"
+        ]
+      },
+      "cast": [
+        {
+          "x": 0.5,
+          "y": 0.5,
+          "scale": 1,
+          "rotation": 0
+        }
+      ],
+      "min_characters": 1,
+      "max_characters": 1
+    },
+    {
+      "id": "motion-portal",
+      "name": "传送门穿梭",
+      "description": "进入一侧圆门再从另一侧出现",
+      "category_id": "entrance",
+      "subcategory_id": "entrance-exit",
+      "tags": [
+        "聊天",
+        "校园"
+      ],
+      "layout_id": "motion-stage",
+      "requires_transparency": true,
+      "supports_embedded": false,
+      "defaults": {
+        "format": "gif",
+        "size": 256,
+        "text_placement": "caption"
+      },
+      "sample": {
+        "text": "我来啦",
+        "background": "#f4f6ec",
+        "font_size": 36
+      },
+      "motions": [],
+      "animation": {
+        "handler": "portal",
+        "duration_ms": 3000,
+        "poster_time": 0.42,
+        "tracks": [],
+        "props": [
+          "portals"
+        ],
+        "parameters": [
+          "strength",
+          "direction",
+          "prop_color"
+        ]
+      },
+      "cast": [
+        {
+          "x": 0.5,
+          "y": 0.5,
+          "scale": 1,
+          "rotation": 0
+        }
+      ],
+      "min_characters": 1,
+      "max_characters": 1
+    },
+    {
+      "id": "motion-dash-trail",
+      "name": "残影冲刺",
+      "description": "冲刺留下逐渐消失的残影",
+      "category_id": "clones",
+      "subcategory_id": "clones-echo",
+      "tags": [
+        "聊天",
+        "抽象"
+      ],
+      "layout_id": "motion-stage",
+      "requires_transparency": true,
+      "supports_embedded": false,
+      "defaults": {
+        "format": "gif",
+        "size": 256,
+        "text_placement": "caption"
+      },
+      "sample": {
+        "text": "精神状态分裂中",
+        "background": "#f4f6ec",
+        "font_size": 36
+      },
+      "motions": [],
+      "animation": {
+        "handler": "dash-trail",
+        "duration_ms": 2000,
+        "poster_time": 0.42,
+        "tracks": [],
+        "props": [],
+        "parameters": [
+          "strength",
+          "copies",
+          "direction"
+        ]
+      },
+      "cast": [
+        {
+          "x": 0.5,
+          "y": 0.5,
+          "scale": 1,
+          "rotation": 0
+        }
+      ],
+      "min_characters": 1,
+      "max_characters": 1
+    },
+    {
+      "id": "motion-sway-trail",
+      "name": "残像摇摆",
+      "description": "两侧残像延迟跟随主体",
+      "category_id": "clones",
+      "subcategory_id": "clones-echo",
+      "tags": [
+        "聊天",
+        "抽象"
+      ],
+      "layout_id": "motion-stage",
+      "requires_transparency": true,
+      "supports_embedded": false,
+      "defaults": {
+        "format": "gif",
+        "size": 256,
+        "text_placement": "caption"
+      },
+      "sample": {
+        "text": "精神状态分裂中",
+        "background": "#f4f6ec",
+        "font_size": 36
+      },
+      "motions": [],
+      "animation": {
+        "handler": "sway-trail",
+        "duration_ms": 2000,
+        "poster_time": 0.42,
+        "tracks": [],
+        "props": [],
+        "parameters": [
+          "strength",
+          "copies",
+          "direction"
+        ]
+      },
+      "cast": [
+        {
+          "x": 0.5,
+          "y": 0.5,
+          "scale": 1,
+          "rotation": 0
+        }
+      ],
+      "min_characters": 1,
+      "max_characters": 1
+    },
+    {
+      "id": "motion-echo-zoom",
+      "name": "回声放大",
+      "description": "透明轮廓逐层向外扩散",
+      "category_id": "clones",
+      "subcategory_id": "clones-echo",
+      "tags": [
+        "聊天",
+        "抽象"
+      ],
+      "layout_id": "motion-stage",
+      "requires_transparency": true,
+      "supports_embedded": false,
+      "defaults": {
+        "format": "gif",
+        "size": 256,
+        "text_placement": "caption"
+      },
+      "sample": {
+        "text": "精神状态分裂中",
+        "background": "#f4f6ec",
+        "font_size": 36
+      },
+      "motions": [],
+      "animation": {
+        "handler": "echo-zoom",
+        "duration_ms": 2000,
+        "poster_time": 0.42,
+        "tracks": [],
+        "props": [],
+        "parameters": [
+          "strength",
+          "copies"
+        ]
+      },
+      "cast": [
+        {
+          "x": 0.5,
+          "y": 0.5,
+          "scale": 1,
+          "rotation": 0
+        }
+      ],
+      "min_characters": 1,
+      "max_characters": 1
+    },
+    {
+      "id": "motion-pop-clones",
+      "name": "弹出分身",
+      "description": "副本依次从主体弹出",
+      "category_id": "clones",
+      "subcategory_id": "clones-echo",
+      "tags": [
+        "聊天",
+        "抽象"
+      ],
+      "layout_id": "motion-stage",
+      "requires_transparency": true,
+      "supports_embedded": false,
+      "defaults": {
+        "format": "gif",
+        "size": 256,
+        "text_placement": "caption"
+      },
+      "sample": {
+        "text": "精神状态分裂中",
+        "background": "#f4f6ec",
+        "font_size": 36
+      },
+      "motions": [],
+      "animation": {
+        "handler": "pop-clones",
+        "duration_ms": 2000,
+        "poster_time": 0.42,
+        "tracks": [],
+        "props": [],
+        "parameters": [
+          "strength",
+          "copies",
+          "direction"
+        ]
+      },
+      "cast": [
+        {
+          "x": 0.5,
+          "y": 0.5,
+          "scale": 1,
+          "rotation": 0
+        }
+      ],
+      "min_characters": 1,
+      "max_characters": 1
+    },
+    {
+      "id": "motion-orbit",
+      "name": "分身转圈",
+      "description": "副本保持正立沿圆周公转",
+      "category_id": "clones",
+      "subcategory_id": "clones-orbit",
+      "tags": [
+        "聊天",
+        "抽象"
+      ],
+      "layout_id": "motion-stage",
+      "requires_transparency": true,
+      "supports_embedded": false,
+      "defaults": {
+        "format": "gif",
+        "size": 256,
+        "text_placement": "caption"
+      },
+      "sample": {
+        "text": "精神状态分裂中",
+        "background": "#f4f6ec",
+        "font_size": 36
+      },
+      "motions": [],
+      "animation": {
+        "handler": "orbit",
+        "duration_ms": 2000,
+        "poster_time": 0.42,
+        "tracks": [],
+        "props": [],
+        "parameters": [
+          "strength",
+          "copies",
+          "direction"
+        ]
+      },
+      "cast": [
+        {
+          "x": 0.5,
+          "y": 0.5,
+          "scale": 1,
+          "rotation": 0
+        }
+      ],
+      "min_characters": 1,
+      "max_characters": 1
+    },
+    {
+      "id": "motion-satellite",
+      "name": "卫星伴舞",
+      "description": "中心主体与三个卫星反向运动",
+      "category_id": "clones",
+      "subcategory_id": "clones-orbit",
+      "tags": [
+        "聊天",
+        "抽象"
+      ],
+      "layout_id": "motion-stage",
+      "requires_transparency": true,
+      "supports_embedded": false,
+      "defaults": {
+        "format": "gif",
+        "size": 256,
+        "text_placement": "caption"
+      },
+      "sample": {
+        "text": "精神状态分裂中",
+        "background": "#f4f6ec",
+        "font_size": 36
+      },
+      "motions": [],
+      "animation": {
+        "handler": "satellite",
+        "duration_ms": 2000,
+        "poster_time": 0.42,
+        "tracks": [],
+        "props": [],
+        "parameters": [
+          "strength",
+          "direction"
+        ]
+      },
+      "cast": [
+        {
+          "x": 0.5,
+          "y": 0.5,
+          "scale": 1,
+          "rotation": 0
+        }
+      ],
+      "min_characters": 1,
+      "max_characters": 1
+    },
+    {
+      "id": "motion-figure-eight",
+      "name": "八字巡游",
+      "description": "副本错开沿八字路径运动",
+      "category_id": "clones",
+      "subcategory_id": "clones-orbit",
+      "tags": [
+        "聊天",
+        "抽象"
+      ],
+      "layout_id": "motion-stage",
+      "requires_transparency": true,
+      "supports_embedded": false,
+      "defaults": {
+        "format": "gif",
+        "size": 256,
+        "text_placement": "caption"
+      },
+      "sample": {
+        "text": "精神状态分裂中",
+        "background": "#f4f6ec",
+        "font_size": 36
+      },
+      "motions": [],
+      "animation": {
+        "handler": "figure-eight",
+        "duration_ms": 2000,
+        "poster_time": 0.42,
+        "tracks": [],
+        "props": [],
+        "parameters": [
+          "strength",
+          "copies",
+          "direction"
+        ]
+      },
+      "cast": [
+        {
+          "x": 0.5,
+          "y": 0.5,
+          "scale": 1,
+          "rotation": 0
+        }
+      ],
+      "min_characters": 1,
+      "max_characters": 1
+    },
+    {
+      "id": "motion-spiral",
+      "name": "螺旋收拢",
+      "description": "旋转收拢至中心后再展开",
+      "category_id": "clones",
+      "subcategory_id": "clones-orbit",
+      "tags": [
+        "聊天",
+        "抽象"
+      ],
+      "layout_id": "motion-stage",
+      "requires_transparency": true,
+      "supports_embedded": false,
+      "defaults": {
+        "format": "gif",
+        "size": 256,
+        "text_placement": "caption"
+      },
+      "sample": {
+        "text": "精神状态分裂中",
+        "background": "#f4f6ec",
+        "font_size": 36
+      },
+      "motions": [],
+      "animation": {
+        "handler": "spiral",
+        "duration_ms": 2000,
+        "poster_time": 0.42,
+        "tracks": [],
+        "props": [],
+        "parameters": [
+          "strength",
+          "copies",
+          "direction"
+        ]
+      },
+      "cast": [
+        {
+          "x": 0.5,
+          "y": 0.5,
+          "scale": 1,
+          "rotation": 0
+        }
+      ],
+      "min_characters": 1,
+      "max_characters": 1
+    },
+    {
+      "id": "motion-clone-clap",
+      "name": "左右对拍",
+      "description": "两组副本交替靠近中心",
+      "category_id": "clones",
+      "subcategory_id": "clones-formation",
+      "tags": [
+        "聊天",
+        "抽象"
+      ],
+      "layout_id": "motion-stage",
+      "requires_transparency": true,
+      "supports_embedded": false,
+      "defaults": {
+        "format": "gif",
+        "size": 256,
+        "text_placement": "caption"
+      },
+      "sample": {
+        "text": "精神状态分裂中",
+        "background": "#f4f6ec",
+        "font_size": 36
+      },
+      "motions": [],
+      "animation": {
+        "handler": "clone-clap",
+        "duration_ms": 2000,
+        "poster_time": 0.42,
+        "tracks": [],
+        "props": [],
+        "parameters": [
+          "strength",
+          "copies"
+        ]
+      },
+      "cast": [
+        {
+          "x": 0.5,
+          "y": 0.5,
+          "scale": 1,
+          "rotation": 0
+        }
+      ],
+      "min_characters": 1,
+      "max_characters": 1
+    },
+    {
+      "id": "motion-ring-pulse",
+      "name": "环形追尾",
+      "description": "环形副本依次放大回落",
+      "category_id": "clones",
+      "subcategory_id": "clones-formation",
+      "tags": [
+        "聊天",
+        "抽象"
+      ],
+      "layout_id": "motion-stage",
+      "requires_transparency": true,
+      "supports_embedded": false,
+      "defaults": {
+        "format": "gif",
+        "size": 256,
+        "text_placement": "caption"
+      },
+      "sample": {
+        "text": "精神状态分裂中",
+        "background": "#f4f6ec",
+        "font_size": 36
+      },
+      "motions": [],
+      "animation": {
+        "handler": "ring-pulse",
+        "duration_ms": 2000,
+        "poster_time": 0.42,
+        "tracks": [],
+        "props": [],
+        "parameters": [
+          "strength",
+          "copies",
+          "direction"
+        ]
+      },
+      "cast": [
+        {
+          "x": 0.5,
+          "y": 0.5,
+          "scale": 1,
+          "rotation": 0
+        }
+      ],
+      "min_characters": 1,
+      "max_characters": 1
+    },
+    {
+      "id": "motion-merge",
+      "name": "分身合体",
+      "description": "外围副本汇聚成一个主体",
+      "category_id": "clones",
+      "subcategory_id": "clones-formation",
+      "tags": [
+        "聊天",
+        "抽象"
+      ],
+      "layout_id": "motion-stage",
+      "requires_transparency": true,
+      "supports_embedded": false,
+      "defaults": {
+        "format": "gif",
+        "size": 256,
+        "text_placement": "caption"
+      },
+      "sample": {
+        "text": "精神状态分裂中",
+        "background": "#f4f6ec",
+        "font_size": 36
+      },
+      "motions": [],
+      "animation": {
+        "handler": "merge",
+        "duration_ms": 2000,
+        "poster_time": 0.42,
+        "tracks": [],
+        "props": [],
+        "parameters": [
+          "strength",
+          "copies"
+        ]
+      },
+      "cast": [
+        {
+          "x": 0.5,
+          "y": 0.5,
+          "scale": 1,
+          "rotation": 0
+        }
+      ],
+      "min_characters": 1,
+      "max_characters": 1
+    },
+    {
+      "id": "motion-grid-relay",
+      "name": "九宫格接力",
+      "description": "逐格弹出、依次回落",
+      "category_id": "clones",
+      "subcategory_id": "clones-formation",
+      "tags": [
+        "聊天",
+        "抽象"
+      ],
+      "layout_id": "motion-stage",
+      "requires_transparency": true,
+      "supports_embedded": false,
+      "defaults": {
+        "format": "gif",
+        "size": 256,
+        "text_placement": "caption"
+      },
+      "sample": {
+        "text": "精神状态分裂中",
+        "background": "#f4f6ec",
+        "font_size": 36
+      },
+      "motions": [],
+      "animation": {
+        "handler": "grid-relay",
+        "duration_ms": 2000,
+        "poster_time": 0.42,
+        "tracks": [],
+        "props": [],
+        "parameters": [
+          "strength",
+          "direction"
+        ]
+      },
+      "cast": [
+        {
+          "x": 0.5,
+          "y": 0.5,
+          "scale": 1,
+          "rotation": 0
+        }
+      ],
+      "min_characters": 1,
+      "max_characters": 1
+    },
+    {
+      "id": "motion-pet",
+      "name": "摸摸脑袋",
+      "description": "手掌与主体压缩同步",
+      "category_id": "props",
+      "subcategory_id": "props-touch",
+      "tags": [
+        "聊天",
+        "安慰"
+      ],
+      "layout_id": "motion-stage",
+      "requires_transparency": true,
+      "supports_embedded": false,
+      "defaults": {
+        "format": "gif",
+        "size": 256,
+        "text_placement": "caption"
+      },
+      "sample": {
+        "text": "辛苦了，摸摸",
+        "background": "#f4f6ec",
+        "font_size": 36
+      },
+      "motions": [],
+      "animation": {
+        "handler": "pet",
+        "duration_ms": 2000,
+        "poster_time": 0.42,
+        "tracks": [],
+        "props": [
+          "hands"
+        ],
+        "parameters": [
+          "strength",
+          "prop_color"
+        ]
+      },
+      "cast": [
+        {
+          "x": 0.5,
+          "y": 0.5,
+          "scale": 1,
+          "rotation": 0
+        }
+      ],
+      "min_characters": 1,
+      "max_characters": 1
+    },
+    {
+      "id": "motion-cheek",
+      "name": "揉揉脸",
+      "description": "双手相向挤压主体",
+      "category_id": "props",
+      "subcategory_id": "props-touch",
+      "tags": [
+        "聊天",
+        "安慰"
+      ],
+      "layout_id": "motion-stage",
+      "requires_transparency": true,
+      "supports_embedded": false,
+      "defaults": {
+        "format": "gif",
+        "size": 256,
+        "text_placement": "caption"
+      },
+      "sample": {
+        "text": "今天也要开心",
+        "background": "#f4f6ec",
+        "font_size": 36
+      },
+      "motions": [],
+      "animation": {
+        "handler": "cheek",
+        "duration_ms": 2000,
+        "poster_time": 0.42,
+        "tracks": [],
+        "props": [
+          "hands"
+        ],
+        "parameters": [
+          "strength",
+          "prop_color"
+        ]
+      },
+      "cast": [
+        {
+          "x": 0.5,
+          "y": 0.5,
+          "scale": 1,
+          "rotation": 0
+        }
+      ],
+      "min_characters": 1,
+      "max_characters": 1
+    },
+    {
+      "id": "motion-shoulder",
+      "name": "拍拍肩膀",
+      "description": "侧拍肩膀时主体轻晃",
+      "category_id": "props",
+      "subcategory_id": "props-touch",
+      "tags": [
+        "聊天",
+        "安慰"
+      ],
+      "layout_id": "motion-stage",
+      "requires_transparency": true,
+      "supports_embedded": false,
+      "defaults": {
+        "format": "gif",
+        "size": 256,
+        "text_placement": "caption"
+      },
+      "sample": {
+        "text": "今天也要开心",
+        "background": "#f4f6ec",
+        "font_size": 36
+      },
+      "motions": [],
+      "animation": {
+        "handler": "shoulder",
+        "duration_ms": 2000,
+        "poster_time": 0.42,
+        "tracks": [],
+        "props": [
+          "hands"
+        ],
+        "parameters": [
+          "strength",
+          "prop_color"
+        ]
+      },
+      "cast": [
+        {
+          "x": 0.5,
+          "y": 0.5,
+          "scale": 1,
+          "rotation": 0
+        }
+      ],
+      "min_characters": 1,
+      "max_characters": 1
+    },
+    {
+      "id": "motion-lift",
+      "name": "掌心托举",
+      "description": "掌心托起主体再放回",
+      "category_id": "props",
+      "subcategory_id": "props-touch",
+      "tags": [
+        "聊天",
+        "安慰"
+      ],
+      "layout_id": "motion-stage",
+      "requires_transparency": true,
+      "supports_embedded": false,
+      "defaults": {
+        "format": "gif",
+        "size": 256,
+        "text_placement": "caption"
+      },
+      "sample": {
+        "text": "今天也要开心",
+        "background": "#f4f6ec",
+        "font_size": 36
+      },
+      "motions": [],
+      "animation": {
+        "handler": "lift",
+        "duration_ms": 2000,
+        "poster_time": 0.42,
+        "tracks": [],
+        "props": [
+          "hands"
+        ],
+        "parameters": [
+          "strength",
+          "prop_color"
+        ]
+      },
+      "cast": [
+        {
+          "x": 0.5,
+          "y": 0.5,
+          "scale": 1,
+          "rotation": 0
+        }
+      ],
+      "min_characters": 1,
+      "max_characters": 1
+    },
+    {
+      "id": "motion-hearts",
+      "name": "爱心喷泉",
+      "description": "爱心由下向上散开",
+      "category_id": "props",
+      "subcategory_id": "props-celebration",
+      "tags": [
+        "聊天",
+        "庆祝"
+      ],
+      "layout_id": "motion-stage",
+      "requires_transparency": true,
+      "supports_embedded": false,
+      "defaults": {
+        "format": "gif",
+        "size": 256,
+        "text_placement": "caption"
+      },
+      "sample": {
+        "text": "今天也要开心",
+        "background": "#f4f6ec",
+        "font_size": 36
+      },
+      "motions": [],
+      "animation": {
+        "handler": "hearts",
+        "duration_ms": 2000,
+        "poster_time": 0.42,
+        "tracks": [],
+        "props": [
+          "hearts"
+        ],
+        "parameters": [
+          "strength",
+          "prop_color"
+        ]
+      },
+      "cast": [
+        {
+          "x": 0.5,
+          "y": 0.5,
+          "scale": 1,
+          "rotation": 0
+        }
+      ],
+      "min_characters": 1,
+      "max_characters": 1
+    },
+    {
+      "id": "motion-stars",
+      "name": "星星欢呼",
+      "description": "星星从主体周围弹出",
+      "category_id": "props",
+      "subcategory_id": "props-celebration",
+      "tags": [
+        "聊天",
+        "庆祝"
+      ],
+      "layout_id": "motion-stage",
+      "requires_transparency": true,
+      "supports_embedded": false,
+      "defaults": {
+        "format": "gif",
+        "size": 256,
+        "text_placement": "caption"
+      },
+      "sample": {
+        "text": "今天也要开心",
+        "background": "#f4f6ec",
+        "font_size": 36
+      },
+      "motions": [],
+      "animation": {
+        "handler": "stars",
+        "duration_ms": 2000,
+        "poster_time": 0.42,
+        "tracks": [],
+        "props": [
+          "stars"
+        ],
+        "parameters": [
+          "strength",
+          "prop_color"
+        ]
+      },
+      "cast": [
+        {
+          "x": 0.5,
+          "y": 0.5,
+          "scale": 1,
+          "rotation": 0
+        }
+      ],
+      "min_characters": 1,
+      "max_characters": 1
+    },
+    {
+      "id": "motion-confetti",
+      "name": "纸屑庆祝",
+      "description": "彩纸缓慢旋转落下",
+      "category_id": "props",
+      "subcategory_id": "props-celebration",
+      "tags": [
+        "聊天",
+        "庆祝"
+      ],
+      "layout_id": "motion-stage",
+      "requires_transparency": true,
+      "supports_embedded": false,
+      "defaults": {
+        "format": "gif",
+        "size": 256,
+        "text_placement": "caption"
+      },
+      "sample": {
+        "text": "今天也要开心",
+        "background": "#f4f6ec",
+        "font_size": 36
+      },
+      "motions": [],
+      "animation": {
+        "handler": "confetti",
+        "duration_ms": 2000,
+        "poster_time": 0.42,
+        "tracks": [],
+        "props": [
+          "confetti"
+        ],
+        "parameters": [
+          "strength",
+          "prop_color"
+        ]
+      },
+      "cast": [
+        {
+          "x": 0.5,
+          "y": 0.5,
+          "scale": 1,
+          "rotation": 0
+        }
+      ],
+      "min_characters": 1,
+      "max_characters": 1
+    },
+    {
+      "id": "motion-fireworks",
+      "name": "礼花绽放",
+      "description": "身后绽开粒子花束",
+      "category_id": "props",
+      "subcategory_id": "props-celebration",
+      "tags": [
+        "聊天",
+        "庆祝"
+      ],
+      "layout_id": "motion-stage",
+      "requires_transparency": true,
+      "supports_embedded": false,
+      "defaults": {
+        "format": "gif",
+        "size": 256,
+        "text_placement": "caption"
+      },
+      "sample": {
+        "text": "今天也要开心",
+        "background": "#f4f6ec",
+        "font_size": 36
+      },
+      "motions": [],
+      "animation": {
+        "handler": "fireworks",
+        "duration_ms": 2000,
+        "poster_time": 0.42,
+        "tracks": [],
+        "props": [
+          "fireworks"
+        ],
+        "parameters": [
+          "strength",
+          "prop_color"
+        ]
+      },
+      "cast": [
+        {
+          "x": 0.5,
+          "y": 0.5,
+          "scale": 1,
+          "rotation": 0
+        }
+      ],
+      "min_characters": 1,
+      "max_characters": 1
+    },
+    {
+      "id": "motion-questions",
+      "name": "问号绕头",
+      "description": "问号沿头顶轨迹移动",
+      "category_id": "props",
+      "subcategory_id": "props-symbols",
+      "tags": [
+        "聊天",
+        "校园"
+      ],
+      "layout_id": "motion-stage",
+      "requires_transparency": true,
+      "supports_embedded": false,
+      "defaults": {
+        "format": "gif",
+        "size": 256,
+        "text_placement": "caption"
+      },
+      "sample": {
+        "text": "今天也要开心",
+        "background": "#f4f6ec",
+        "font_size": 36
+      },
+      "motions": [],
+      "animation": {
+        "handler": "questions",
+        "duration_ms": 2000,
+        "poster_time": 0.42,
+        "tracks": [],
+        "props": [
+          "questions"
+        ],
+        "parameters": [
+          "strength",
+          "prop_color"
+        ]
+      },
+      "cast": [
+        {
+          "x": 0.5,
+          "y": 0.5,
+          "scale": 1,
+          "rotation": 0
+        }
+      ],
+      "min_characters": 1,
+      "max_characters": 1
+    },
+    {
+      "id": "motion-sweat",
+      "name": "冷汗滑落",
+      "description": "汗滴逐渐出现并滑落",
+      "category_id": "props",
+      "subcategory_id": "props-symbols",
+      "tags": [
+        "聊天",
+        "校园"
+      ],
+      "layout_id": "motion-stage",
+      "requires_transparency": true,
+      "supports_embedded": false,
+      "defaults": {
+        "format": "gif",
+        "size": 256,
+        "text_placement": "caption"
+      },
+      "sample": {
+        "text": "今天也要开心",
+        "background": "#f4f6ec",
+        "font_size": 36
+      },
+      "motions": [],
+      "animation": {
+        "handler": "sweat",
+        "duration_ms": 2000,
+        "poster_time": 0.42,
+        "tracks": [],
+        "props": [
+          "sweat"
+        ],
+        "parameters": [
+          "strength",
+          "prop_color"
+        ]
+      },
+      "cast": [
+        {
+          "x": 0.5,
+          "y": 0.5,
+          "scale": 1,
+          "rotation": 0
+        }
+      ],
+      "min_characters": 1,
+      "max_characters": 1
+    },
+    {
+      "id": "motion-loading",
+      "name": "脑子加载",
+      "description": "角色组成加载环、中心显示文案",
+      "category_id": "props",
+      "subcategory_id": "props-symbols",
+      "tags": [
+        "聊天",
+        "校园",
+        "疲惫"
+      ],
+      "layout_id": "motion-loading",
+      "requires_transparency": true,
+      "supports_embedded": false,
+      "defaults": {
+        "format": "gif",
+        "size": 256,
+        "text_placement": "caption"
+      },
+      "sample": {
+        "text": "脑子加载中",
+        "background": "#f4f6ec",
+        "font_size": 32
+      },
+      "motions": [],
+      "animation": {
+        "handler": "loading",
+        "duration_ms": 2000,
+        "poster_time": 0.42,
+        "tracks": [],
+        "props": [],
+        "parameters": [
+          "strength",
+          "copies"
+        ]
+      },
+      "cast": [
+        {
+          "x": 0.5,
+          "y": 0.5,
+          "scale": 1,
+          "rotation": 0
+        }
+      ],
+      "min_characters": 1,
+      "max_characters": 1
+    },
+    {
+      "id": "motion-ghost",
+      "name": "灵魂出窍",
+      "description": "半透明轮廓从身体中浮出再归位",
+      "category_id": "props",
+      "subcategory_id": "props-symbols",
+      "tags": [
+        "聊天",
+        "校园"
+      ],
+      "layout_id": "motion-stage",
+      "requires_transparency": true,
+      "supports_embedded": false,
+      "defaults": {
+        "format": "gif",
+        "size": 256,
+        "text_placement": "caption"
+      },
+      "sample": {
+        "text": "今天也要开心",
+        "background": "#f4f6ec",
+        "font_size": 36
+      },
+      "motions": [],
+      "animation": {
+        "handler": "ghost",
+        "duration_ms": 2000,
+        "poster_time": 0.42,
+        "tracks": [],
+        "props": [
+          "ghost"
+        ],
+        "parameters": [
+          "strength",
+          "prop_color"
+        ]
+      },
+      "cast": [
+        {
+          "x": 0.5,
+          "y": 0.5,
+          "scale": 1,
+          "rotation": 0
+        }
+      ],
+      "min_characters": 1,
+      "max_characters": 1
+    },
+    {
+      "id": "motion-talk",
+      "name": "你一句我一句",
+      "description": "两人及对应气泡轮流响应",
+      "category_id": "duo",
+      "subcategory_id": "duo-speech",
+      "tags": [
+        "聊天",
+        "校园"
+      ],
+      "layout_id": "motion-speech",
+      "requires_transparency": true,
+      "supports_embedded": false,
+      "defaults": {
+        "format": "gif",
+        "size": 256,
+        "text_placement": "caption"
+      },
+      "sample": {
+        "text": "你先说",
+        "background": "#f4f6ec",
+        "font_size": 36,
+        "secondary_text": "我先想一想"
+      },
+      "motions": [],
+      "animation": {
+        "handler": "talk",
+        "duration_ms": 4000,
+        "poster_time": 0.42,
+        "tracks": [],
+        "props": [],
+        "parameters": [
+          "strength"
+        ]
+      },
+      "cast": [
+        {
+          "x": 0.26,
+          "y": 0.58,
+          "scale": 0.42,
+          "rotation": 0
+        },
+        {
+          "x": 0.74,
+          "y": 0.58,
+          "scale": 0.42,
+          "rotation": 0
+        }
+      ],
+      "min_characters": 2,
+      "max_characters": 2
+    },
+    {
+      "id": "motion-interrupt",
+      "name": "抢着发言",
+      "description": "两个气泡快速交替出现",
+      "category_id": "duo",
+      "subcategory_id": "duo-speech",
+      "tags": [
+        "聊天",
+        "校园"
+      ],
+      "layout_id": "motion-speech",
+      "requires_transparency": true,
+      "supports_embedded": false,
+      "defaults": {
+        "format": "gif",
+        "size": 256,
+        "text_placement": "caption"
+      },
+      "sample": {
+        "text": "你先说",
+        "background": "#f4f6ec",
+        "font_size": 36,
+        "secondary_text": "我先想一想"
+      },
+      "motions": [],
+      "animation": {
+        "handler": "interrupt",
+        "duration_ms": 4000,
+        "poster_time": 0.42,
+        "tracks": [],
+        "props": [],
+        "parameters": [
+          "strength"
+        ]
+      },
+      "cast": [
+        {
+          "x": 0.26,
+          "y": 0.58,
+          "scale": 0.42,
+          "rotation": 0
+        },
+        {
+          "x": 0.74,
+          "y": 0.58,
+          "scale": 0.42,
+          "rotation": 0
+        }
+      ],
+      "min_characters": 2,
+      "max_characters": 2
+    },
+    {
+      "id": "motion-repeat",
+      "name": "互相复读",
+      "description": "同一句文案依次传递",
+      "category_id": "duo",
+      "subcategory_id": "duo-speech",
+      "tags": [
+        "聊天",
+        "校园"
+      ],
+      "layout_id": "motion-speech",
+      "requires_transparency": true,
+      "supports_embedded": false,
+      "defaults": {
+        "format": "gif",
+        "size": 256,
+        "text_placement": "caption"
+      },
+      "sample": {
+        "text": "你先说",
+        "background": "#f4f6ec",
+        "font_size": 36,
+        "secondary_text": "我先想一想"
+      },
+      "motions": [],
+      "animation": {
+        "handler": "repeat",
+        "duration_ms": 4000,
+        "poster_time": 0.42,
+        "tracks": [],
+        "props": [],
+        "parameters": [
+          "strength"
+        ]
+      },
+      "cast": [
+        {
+          "x": 0.26,
+          "y": 0.58,
+          "scale": 0.42,
+          "rotation": 0
+        },
+        {
+          "x": 0.74,
+          "y": 0.58,
+          "scale": 0.42,
+          "rotation": 0
+        }
+      ],
+      "min_characters": 2,
+      "max_characters": 2
+    },
+    {
+      "id": "motion-silence",
+      "name": "同时沉默",
+      "description": "气泡收起、两人同步下沉",
+      "category_id": "duo",
+      "subcategory_id": "duo-speech",
+      "tags": [
+        "聊天",
+        "校园",
+        "疲惫"
+      ],
+      "layout_id": "motion-speech",
+      "requires_transparency": true,
+      "supports_embedded": false,
+      "defaults": {
+        "format": "gif",
+        "size": 256,
+        "text_placement": "caption"
+      },
+      "sample": {
+        "text": "你先说",
+        "background": "#f4f6ec",
+        "font_size": 36,
+        "secondary_text": "我先想一想"
+      },
+      "motions": [],
+      "animation": {
+        "handler": "silence",
+        "duration_ms": 4000,
+        "poster_time": 0.42,
+        "tracks": [],
+        "props": [],
+        "parameters": [
+          "strength"
+        ]
+      },
+      "cast": [
+        {
+          "x": 0.26,
+          "y": 0.58,
+          "scale": 0.42,
+          "rotation": 0
+        },
+        {
+          "x": 0.74,
+          "y": 0.58,
+          "scale": 0.42,
+          "rotation": 0
+        }
+      ],
+      "min_characters": 2,
+      "max_characters": 2
+    },
+    {
+      "id": "motion-bump",
+      "name": "轻轻碰头",
+      "description": "靠近接触后轻轻回弹",
+      "category_id": "duo",
+      "subcategory_id": "duo-contact",
+      "tags": [
+        "聊天",
+        "校园"
+      ],
+      "layout_id": "motion-stage",
+      "requires_transparency": true,
+      "supports_embedded": false,
+      "defaults": {
+        "format": "gif",
+        "size": 256,
+        "text_placement": "caption"
+      },
+      "sample": {
+        "text": "你先说",
+        "background": "#f4f6ec",
+        "font_size": 36
+      },
+      "motions": [],
+      "animation": {
+        "handler": "bump",
+        "duration_ms": 3000,
+        "poster_time": 0.42,
+        "tracks": [],
+        "props": [],
+        "parameters": [
+          "strength"
+        ]
+      },
+      "cast": [
+        {
+          "x": 0.26,
+          "y": 0.58,
+          "scale": 0.42,
+          "rotation": 0
+        },
+        {
+          "x": 0.74,
+          "y": 0.58,
+          "scale": 0.42,
+          "rotation": 0
+        }
+      ],
+      "min_characters": 2,
+      "max_characters": 2
+    },
+    {
+      "id": "motion-cuddle",
+      "name": "贴贴一下",
+      "description": "靠近后短暂停留再归位",
+      "category_id": "duo",
+      "subcategory_id": "duo-contact",
+      "tags": [
+        "聊天",
+        "校园"
+      ],
+      "layout_id": "motion-stage",
+      "requires_transparency": true,
+      "supports_embedded": false,
+      "defaults": {
+        "format": "gif",
+        "size": 256,
+        "text_placement": "caption"
+      },
+      "sample": {
+        "text": "你先说",
+        "background": "#f4f6ec",
+        "font_size": 36
+      },
+      "motions": [],
+      "animation": {
+        "handler": "cuddle",
+        "duration_ms": 3000,
+        "poster_time": 0.42,
+        "tracks": [],
+        "props": [],
+        "parameters": [
+          "strength"
+        ]
+      },
+      "cast": [
+        {
+          "x": 0.26,
+          "y": 0.58,
+          "scale": 0.42,
+          "rotation": 0
+        },
+        {
+          "x": 0.74,
+          "y": 0.58,
+          "scale": 0.42,
+          "rotation": 0
+        }
+      ],
+      "min_characters": 2,
+      "max_characters": 2
+    },
+    {
+      "id": "motion-cross",
+      "name": "擦肩而过",
+      "description": "前后层次交错穿行",
+      "category_id": "duo",
+      "subcategory_id": "duo-contact",
+      "tags": [
+        "聊天",
+        "校园"
+      ],
+      "layout_id": "motion-stage",
+      "requires_transparency": true,
+      "supports_embedded": false,
+      "defaults": {
+        "format": "gif",
+        "size": 256,
+        "text_placement": "caption"
+      },
+      "sample": {
+        "text": "你先说",
+        "background": "#f4f6ec",
+        "font_size": 36
+      },
+      "motions": [],
+      "animation": {
+        "handler": "cross",
+        "duration_ms": 3000,
+        "poster_time": 0.42,
+        "tracks": [],
+        "props": [],
+        "parameters": [
+          "strength"
+        ]
+      },
+      "cast": [
+        {
+          "x": 0.26,
+          "y": 0.58,
+          "scale": 0.42,
+          "rotation": 0
+        },
+        {
+          "x": 0.74,
+          "y": 0.58,
+          "scale": 0.42,
+          "rotation": 0
+        }
+      ],
+      "min_characters": 2,
+      "max_characters": 2
+    },
+    {
+      "id": "motion-repel",
+      "name": "互相弹开",
+      "description": "接触后向两侧弹回",
+      "category_id": "duo",
+      "subcategory_id": "duo-contact",
+      "tags": [
+        "聊天",
+        "校园"
+      ],
+      "layout_id": "motion-stage",
+      "requires_transparency": true,
+      "supports_embedded": false,
+      "defaults": {
+        "format": "gif",
+        "size": 256,
+        "text_placement": "caption"
+      },
+      "sample": {
+        "text": "你先说",
+        "background": "#f4f6ec",
+        "font_size": 36
+      },
+      "motions": [],
+      "animation": {
+        "handler": "repel",
+        "duration_ms": 3000,
+        "poster_time": 0.42,
+        "tracks": [],
+        "props": [],
+        "parameters": [
+          "strength"
+        ]
+      },
+      "cast": [
+        {
+          "x": 0.26,
+          "y": 0.58,
+          "scale": 0.42,
+          "rotation": 0
+        },
+        {
+          "x": 0.74,
+          "y": 0.58,
+          "scale": 0.42,
+          "rotation": 0
+        }
+      ],
+      "min_characters": 2,
+      "max_characters": 2
+    },
+    {
+      "id": "motion-chase",
+      "name": "追来追去",
+      "description": "两人沿椭圆路径前后追逐",
+      "category_id": "duo",
+      "subcategory_id": "duo-play",
+      "tags": [
+        "聊天",
+        "校园"
+      ],
+      "layout_id": "motion-stage",
+      "requires_transparency": true,
+      "supports_embedded": false,
+      "defaults": {
+        "format": "gif",
+        "size": 256,
+        "text_placement": "caption"
+      },
+      "sample": {
+        "text": "你先说",
+        "background": "#f4f6ec",
+        "font_size": 36
+      },
+      "motions": [],
+      "animation": {
+        "handler": "chase",
+        "duration_ms": 3000,
+        "poster_time": 0.42,
+        "tracks": [],
+        "props": [],
+        "parameters": [
+          "strength",
+          "direction"
+        ]
+      },
+      "cast": [
+        {
+          "x": 0.26,
+          "y": 0.58,
+          "scale": 0.42,
+          "rotation": 0
+        },
+        {
+          "x": 0.74,
+          "y": 0.58,
+          "scale": 0.42,
+          "rotation": 0
+        }
+      ],
+      "min_characters": 2,
+      "max_characters": 2
+    },
+    {
+      "id": "motion-up-down",
+      "name": "你起我落",
+      "description": "两个人物交替升降",
+      "category_id": "duo",
+      "subcategory_id": "duo-play",
+      "tags": [
+        "聊天",
+        "校园"
+      ],
+      "layout_id": "motion-stage",
+      "requires_transparency": true,
+      "supports_embedded": false,
+      "defaults": {
+        "format": "gif",
+        "size": 256,
+        "text_placement": "caption"
+      },
+      "sample": {
+        "text": "你先说",
+        "background": "#f4f6ec",
+        "font_size": 36
+      },
+      "motions": [],
+      "animation": {
+        "handler": "up-down",
+        "duration_ms": 3000,
+        "poster_time": 0.42,
+        "tracks": [],
+        "props": [],
+        "parameters": [
+          "strength"
+        ]
+      },
+      "cast": [
+        {
+          "x": 0.26,
+          "y": 0.58,
+          "scale": 0.42,
+          "rotation": 0
+        },
+        {
+          "x": 0.74,
+          "y": 0.58,
+          "scale": 0.42,
+          "rotation": 0
+        }
+      ],
+      "min_characters": 2,
+      "max_characters": 2
+    },
+    {
+      "id": "motion-heart-pass",
+      "name": "传递爱心",
+      "description": "爱心在两人之间往返",
+      "category_id": "duo",
+      "subcategory_id": "duo-play",
+      "tags": [
+        "聊天",
+        "校园"
+      ],
+      "layout_id": "motion-stage",
+      "requires_transparency": true,
+      "supports_embedded": false,
+      "defaults": {
+        "format": "gif",
+        "size": 256,
+        "text_placement": "caption"
+      },
+      "sample": {
+        "text": "你先说",
+        "background": "#f4f6ec",
+        "font_size": 36
+      },
+      "motions": [],
+      "animation": {
+        "handler": "heart-pass",
+        "duration_ms": 3000,
+        "poster_time": 0.42,
+        "tracks": [],
+        "props": [
+          "hearts"
+        ],
+        "parameters": [
+          "strength",
+          "prop_color"
+        ]
+      },
+      "cast": [
+        {
+          "x": 0.26,
+          "y": 0.58,
+          "scale": 0.42,
+          "rotation": 0
+        },
+        {
+          "x": 0.74,
+          "y": 0.58,
+          "scale": 0.42,
+          "rotation": 0
+        }
+      ],
+      "min_characters": 2,
+      "max_characters": 2
+    },
+    {
+      "id": "motion-seesaw",
+      "name": "跷跷板",
+      "description": "两人随板面交替抬升",
+      "category_id": "duo",
+      "subcategory_id": "duo-play",
+      "tags": [
+        "聊天",
+        "校园"
+      ],
+      "layout_id": "motion-stage",
+      "requires_transparency": true,
+      "supports_embedded": false,
+      "defaults": {
+        "format": "gif",
+        "size": 256,
+        "text_placement": "caption"
+      },
+      "sample": {
+        "text": "你先说",
+        "background": "#f4f6ec",
+        "font_size": 36
+      },
+      "motions": [],
+      "animation": {
+        "handler": "seesaw",
+        "duration_ms": 3000,
+        "poster_time": 0.42,
+        "tracks": [],
+        "props": [
+          "seesaw"
+        ],
+        "parameters": [
+          "strength",
+          "prop_color"
+        ]
+      },
+      "cast": [
+        {
+          "x": 0.26,
+          "y": 0.58,
+          "scale": 0.42,
+          "rotation": 0
+        },
+        {
+          "x": 0.74,
+          "y": 0.58,
+          "scale": 0.42,
+          "rotation": 0
+        }
+      ],
+      "min_characters": 2,
+      "max_characters": 2
+    },
+    {
+      "id": "motion-parade",
+      "name": "排队入场",
+      "description": "多人依次横向入场、出场",
+      "category_id": "ensemble",
+      "subcategory_id": "ensemble-parade",
+      "tags": [
+        "聊天",
+        "校园"
+      ],
+      "layout_id": "motion-stage",
+      "requires_transparency": true,
+      "supports_embedded": false,
+      "defaults": {
+        "format": "gif",
+        "size": 256,
+        "text_placement": "caption"
+      },
+      "sample": {
+        "text": "大家一起动起来",
+        "background": "#f4f6ec",
+        "font_size": 36
+      },
+      "motions": [],
+      "animation": {
+        "handler": "parade",
+        "duration_ms": 4000,
+        "poster_time": 0.42,
+        "tracks": [],
+        "props": [],
+        "parameters": [
+          "strength"
+        ]
+      },
+      "cast": [
+        {
+          "x": 0.27,
+          "y": 0.26,
+          "scale": 0.34,
+          "rotation": 0
+        },
+        {
+          "x": 0.73,
+          "y": 0.26,
+          "scale": 0.34,
+          "rotation": 0
+        },
+        {
+          "x": 0.27,
+          "y": 0.7,
+          "scale": 0.34,
+          "rotation": 0
+        },
+        {
+          "x": 0.73,
+          "y": 0.7,
+          "scale": 0.34,
+          "rotation": 0
+        }
+      ],
+      "min_characters": 2,
+      "max_characters": 6
+    },
+    {
+      "id": "motion-group-orbit",
+      "name": "环形巡游",
+      "description": "多人沿椭圆前后巡游",
+      "category_id": "ensemble",
+      "subcategory_id": "ensemble-parade",
+      "tags": [
+        "聊天",
+        "校园"
+      ],
+      "layout_id": "motion-stage",
+      "requires_transparency": true,
+      "supports_embedded": false,
+      "defaults": {
+        "format": "gif",
+        "size": 256,
+        "text_placement": "caption"
+      },
+      "sample": {
+        "text": "大家一起动起来",
+        "background": "#f4f6ec",
+        "font_size": 36
+      },
+      "motions": [],
+      "animation": {
+        "handler": "group-orbit",
+        "duration_ms": 4000,
+        "poster_time": 0.42,
+        "tracks": [],
+        "props": [],
+        "parameters": [
+          "strength",
+          "direction"
+        ]
+      },
+      "cast": [
+        {
+          "x": 0.27,
+          "y": 0.26,
+          "scale": 0.34,
+          "rotation": 0
+        },
+        {
+          "x": 0.73,
+          "y": 0.26,
+          "scale": 0.34,
+          "rotation": 0
+        },
+        {
+          "x": 0.27,
+          "y": 0.7,
+          "scale": 0.34,
+          "rotation": 0
+        },
+        {
+          "x": 0.73,
+          "y": 0.7,
+          "scale": 0.34,
+          "rotation": 0
+        }
+      ],
+      "min_characters": 2,
+      "max_characters": 6
+    },
+    {
+      "id": "motion-elevator",
+      "name": "电梯上下",
+      "description": "两组人物随窗口交替升降",
+      "category_id": "ensemble",
+      "subcategory_id": "ensemble-parade",
+      "tags": [
+        "聊天",
+        "校园"
+      ],
+      "layout_id": "motion-stage",
+      "requires_transparency": true,
+      "supports_embedded": false,
+      "defaults": {
+        "format": "gif",
+        "size": 256,
+        "text_placement": "caption"
+      },
+      "sample": {
+        "text": "大家一起动起来",
+        "background": "#f4f6ec",
+        "font_size": 36
+      },
+      "motions": [],
+      "animation": {
+        "handler": "elevator",
+        "duration_ms": 4000,
+        "poster_time": 0.42,
+        "tracks": [],
+        "props": [],
+        "parameters": [
+          "strength"
+        ]
+      },
+      "cast": [
+        {
+          "x": 0.27,
+          "y": 0.26,
+          "scale": 0.34,
+          "rotation": 0
+        },
+        {
+          "x": 0.73,
+          "y": 0.26,
+          "scale": 0.34,
+          "rotation": 0
+        },
+        {
+          "x": 0.27,
+          "y": 0.7,
+          "scale": 0.34,
+          "rotation": 0
+        },
+        {
+          "x": 0.73,
+          "y": 0.7,
+          "scale": 0.34,
+          "rotation": 0
+        }
+      ],
+      "min_characters": 2,
+      "max_characters": 6
+    },
+    {
+      "id": "motion-race",
+      "name": "跑马接力",
+      "description": "每人完成一段路后交给下一人",
+      "category_id": "ensemble",
+      "subcategory_id": "ensemble-parade",
+      "tags": [
+        "聊天",
+        "校园"
+      ],
+      "layout_id": "motion-stage",
+      "requires_transparency": true,
+      "supports_embedded": false,
+      "defaults": {
+        "format": "gif",
+        "size": 256,
+        "text_placement": "caption"
+      },
+      "sample": {
+        "text": "大家一起动起来",
+        "background": "#f4f6ec",
+        "font_size": 36
+      },
+      "motions": [],
+      "animation": {
+        "handler": "race",
+        "duration_ms": 4000,
+        "poster_time": 0.42,
+        "tracks": [],
+        "props": [],
+        "parameters": [
+          "strength"
+        ]
+      },
+      "cast": [
+        {
+          "x": 0.27,
+          "y": 0.26,
+          "scale": 0.34,
+          "rotation": 0
+        },
+        {
+          "x": 0.73,
+          "y": 0.26,
+          "scale": 0.34,
+          "rotation": 0
+        },
+        {
+          "x": 0.27,
+          "y": 0.7,
+          "scale": 0.34,
+          "rotation": 0
+        },
+        {
+          "x": 0.73,
+          "y": 0.7,
+          "scale": 0.34,
+          "rotation": 0
+        }
+      ],
+      "min_characters": 2,
+      "max_characters": 6
+    },
+    {
+      "id": "motion-wave",
+      "name": "接力蹦跳",
+      "description": "按人物顺序依次起跳",
+      "category_id": "ensemble",
+      "subcategory_id": "ensemble-team-rhythm",
+      "tags": [
+        "聊天",
+        "校园"
+      ],
+      "layout_id": "motion-stage",
+      "requires_transparency": true,
+      "supports_embedded": false,
+      "defaults": {
+        "format": "gif",
+        "size": 256,
+        "text_placement": "caption"
+      },
+      "sample": {
+        "text": "大家一起动起来",
+        "background": "#f4f6ec",
+        "font_size": 36
+      },
+      "motions": [],
+      "animation": {
+        "handler": "wave",
+        "duration_ms": 4000,
+        "poster_time": 0.42,
+        "tracks": [],
+        "props": [],
+        "parameters": [
+          "strength"
+        ]
+      },
+      "cast": [
+        {
+          "x": 0.27,
+          "y": 0.26,
+          "scale": 0.34,
+          "rotation": 0
+        },
+        {
+          "x": 0.73,
+          "y": 0.26,
+          "scale": 0.34,
+          "rotation": 0
+        },
+        {
+          "x": 0.27,
+          "y": 0.7,
+          "scale": 0.34,
+          "rotation": 0
+        },
+        {
+          "x": 0.73,
+          "y": 0.7,
+          "scale": 0.34,
+          "rotation": 0
+        }
+      ],
+      "min_characters": 2,
+      "max_characters": 6
+    },
+    {
+      "id": "motion-team-clap",
+      "name": "两队对拍",
+      "description": "两组人物交替向中心靠近",
+      "category_id": "ensemble",
+      "subcategory_id": "ensemble-team-rhythm",
+      "tags": [
+        "聊天",
+        "校园"
+      ],
+      "layout_id": "motion-stage",
+      "requires_transparency": true,
+      "supports_embedded": false,
+      "defaults": {
+        "format": "gif",
+        "size": 256,
+        "text_placement": "caption"
+      },
+      "sample": {
+        "text": "大家一起动起来",
+        "background": "#f4f6ec",
+        "font_size": 36
+      },
+      "motions": [],
+      "animation": {
+        "handler": "team-clap",
+        "duration_ms": 4000,
+        "poster_time": 0.42,
+        "tracks": [],
+        "props": [],
+        "parameters": [
+          "strength"
+        ]
+      },
+      "cast": [
+        {
+          "x": 0.27,
+          "y": 0.26,
+          "scale": 0.34,
+          "rotation": 0
+        },
+        {
+          "x": 0.73,
+          "y": 0.26,
+          "scale": 0.34,
+          "rotation": 0
+        },
+        {
+          "x": 0.27,
+          "y": 0.7,
+          "scale": 0.34,
+          "rotation": 0
+        },
+        {
+          "x": 0.73,
+          "y": 0.7,
+          "scale": 0.34,
+          "rotation": 0
+        }
+      ],
+      "min_characters": 2,
+      "max_characters": 6
+    },
+    {
+      "id": "motion-leader",
+      "name": "领舞回应",
+      "description": "中心人物领舞、其他人延迟回应",
+      "category_id": "ensemble",
+      "subcategory_id": "ensemble-team-rhythm",
+      "tags": [
+        "聊天",
+        "校园"
+      ],
+      "layout_id": "motion-stage",
+      "requires_transparency": true,
+      "supports_embedded": false,
+      "defaults": {
+        "format": "gif",
+        "size": 256,
+        "text_placement": "caption"
+      },
+      "sample": {
+        "text": "大家一起动起来",
+        "background": "#f4f6ec",
+        "font_size": 36
+      },
+      "motions": [],
+      "animation": {
+        "handler": "leader",
+        "duration_ms": 4000,
+        "poster_time": 0.42,
+        "tracks": [],
+        "props": [],
+        "parameters": [
+          "strength"
+        ]
+      },
+      "cast": [
+        {
+          "x": 0.27,
+          "y": 0.26,
+          "scale": 0.34,
+          "rotation": 0
+        },
+        {
+          "x": 0.73,
+          "y": 0.26,
+          "scale": 0.34,
+          "rotation": 0
+        },
+        {
+          "x": 0.27,
+          "y": 0.7,
+          "scale": 0.34,
+          "rotation": 0
+        },
+        {
+          "x": 0.73,
+          "y": 0.7,
+          "scale": 0.34,
+          "rotation": 0
+        }
+      ],
+      "min_characters": 2,
+      "max_characters": 6
+    },
+    {
+      "id": "motion-ripple",
+      "name": "多排涟漪",
+      "description": "动作由首排传递到最后一排",
+      "category_id": "ensemble",
+      "subcategory_id": "ensemble-team-rhythm",
+      "tags": [
+        "聊天",
+        "校园"
+      ],
+      "layout_id": "motion-stage",
+      "requires_transparency": true,
+      "supports_embedded": false,
+      "defaults": {
+        "format": "gif",
+        "size": 256,
+        "text_placement": "caption"
+      },
+      "sample": {
+        "text": "大家一起动起来",
+        "background": "#f4f6ec",
+        "font_size": 36
+      },
+      "motions": [],
+      "animation": {
+        "handler": "ripple",
+        "duration_ms": 4000,
+        "poster_time": 0.42,
+        "tracks": [],
+        "props": [],
+        "parameters": [
+          "strength"
+        ]
+      },
+      "cast": [
+        {
+          "x": 0.27,
+          "y": 0.26,
+          "scale": 0.34,
+          "rotation": 0
+        },
+        {
+          "x": 0.73,
+          "y": 0.26,
+          "scale": 0.34,
+          "rotation": 0
+        },
+        {
+          "x": 0.27,
+          "y": 0.7,
+          "scale": 0.34,
+          "rotation": 0
+        },
+        {
+          "x": 0.73,
+          "y": 0.7,
+          "scale": 0.34,
+          "rotation": 0
+        }
+      ],
+      "min_characters": 2,
+      "max_characters": 6
+    },
+    {
+      "id": "motion-gather",
+      "name": "中心集合",
+      "description": "外围人物向中心聚拢再归位",
+      "category_id": "ensemble",
+      "subcategory_id": "ensemble-reveal",
+      "tags": [
+        "聊天",
+        "校园"
+      ],
+      "layout_id": "motion-stage",
+      "requires_transparency": true,
+      "supports_embedded": false,
+      "defaults": {
+        "format": "gif",
+        "size": 256,
+        "text_placement": "caption"
+      },
+      "sample": {
+        "text": "大家一起动起来",
+        "background": "#f4f6ec",
+        "font_size": 36
+      },
+      "motions": [],
+      "animation": {
+        "handler": "gather",
+        "duration_ms": 4000,
+        "poster_time": 0.42,
+        "tracks": [],
+        "props": [],
+        "parameters": [
+          "strength"
+        ]
+      },
+      "cast": [
+        {
+          "x": 0.27,
+          "y": 0.26,
+          "scale": 0.34,
+          "rotation": 0
+        },
+        {
+          "x": 0.73,
+          "y": 0.26,
+          "scale": 0.34,
+          "rotation": 0
+        },
+        {
+          "x": 0.27,
+          "y": 0.7,
+          "scale": 0.34,
+          "rotation": 0
+        },
+        {
+          "x": 0.73,
+          "y": 0.7,
+          "scale": 0.34,
+          "rotation": 0
+        }
+      ],
+      "min_characters": 2,
+      "max_characters": 6
+    },
+    {
+      "id": "motion-spread",
+      "name": "散开亮相",
+      "description": "由中心散开到各自站位",
+      "category_id": "ensemble",
+      "subcategory_id": "ensemble-reveal",
+      "tags": [
+        "聊天",
+        "校园"
+      ],
+      "layout_id": "motion-stage",
+      "requires_transparency": true,
+      "supports_embedded": false,
+      "defaults": {
+        "format": "gif",
+        "size": 256,
+        "text_placement": "caption"
+      },
+      "sample": {
+        "text": "大家一起动起来",
+        "background": "#f4f6ec",
+        "font_size": 36
+      },
+      "motions": [],
+      "animation": {
+        "handler": "spread",
+        "duration_ms": 4000,
+        "poster_time": 0.42,
+        "tracks": [],
+        "props": [],
+        "parameters": [
+          "strength"
+        ]
+      },
+      "cast": [
+        {
+          "x": 0.27,
+          "y": 0.26,
+          "scale": 0.34,
+          "rotation": 0
+        },
+        {
+          "x": 0.73,
+          "y": 0.26,
+          "scale": 0.34,
+          "rotation": 0
+        },
+        {
+          "x": 0.27,
+          "y": 0.7,
+          "scale": 0.34,
+          "rotation": 0
+        },
+        {
+          "x": 0.73,
+          "y": 0.7,
+          "scale": 0.34,
+          "rotation": 0
+        }
+      ],
+      "min_characters": 2,
+      "max_characters": 6
+    },
+    {
+      "id": "motion-boards",
+      "name": "轮流举牌",
+      "description": "人物依次展示短句牌",
+      "category_id": "ensemble",
+      "subcategory_id": "ensemble-reveal",
+      "tags": [
+        "聊天",
+        "校园"
+      ],
+      "layout_id": "motion-stage",
+      "requires_transparency": true,
+      "supports_embedded": false,
+      "defaults": {
+        "format": "gif",
+        "size": 256,
+        "text_placement": "caption"
+      },
+      "sample": {
+        "text": "大家一起动起来",
+        "background": "#f4f6ec",
+        "font_size": 36
+      },
+      "motions": [],
+      "animation": {
+        "handler": "boards",
+        "duration_ms": 4000,
+        "poster_time": 0.42,
+        "tracks": [],
+        "props": [
+          "boards"
+        ],
+        "parameters": [
+          "strength",
+          "prop_color"
+        ]
+      },
+      "cast": [
+        {
+          "x": 0.27,
+          "y": 0.26,
+          "scale": 0.34,
+          "rotation": 0
+        },
+        {
+          "x": 0.73,
+          "y": 0.26,
+          "scale": 0.34,
+          "rotation": 0
+        },
+        {
+          "x": 0.27,
+          "y": 0.7,
+          "scale": 0.34,
+          "rotation": 0
+        },
+        {
+          "x": 0.73,
+          "y": 0.7,
+          "scale": 0.34,
+          "rotation": 0
+        }
+      ],
+      "min_characters": 2,
+      "max_characters": 6
+    },
+    {
+      "id": "motion-countdown",
+      "name": "合影倒数",
+      "description": "倒数后同步起跳并定格停留",
+      "category_id": "ensemble",
+      "subcategory_id": "ensemble-reveal",
+      "tags": [
+        "聊天",
+        "校园"
+      ],
+      "layout_id": "motion-stage",
+      "requires_transparency": true,
+      "supports_embedded": false,
+      "defaults": {
+        "format": "gif",
+        "size": 256,
+        "text_placement": "caption"
+      },
+      "sample": {
+        "text": "大家一起动起来",
+        "background": "#f4f6ec",
+        "font_size": 36
+      },
+      "motions": [],
+      "animation": {
+        "handler": "countdown",
+        "duration_ms": 4000,
+        "poster_time": 0.42,
+        "tracks": [],
+        "props": [],
+        "parameters": [
+          "strength"
+        ]
+      },
+      "cast": [
+        {
+          "x": 0.27,
+          "y": 0.26,
+          "scale": 0.34,
+          "rotation": 0
+        },
+        {
+          "x": 0.73,
+          "y": 0.26,
+          "scale": 0.34,
+          "rotation": 0
+        },
+        {
+          "x": 0.27,
+          "y": 0.7,
+          "scale": 0.34,
+          "rotation": 0
+        },
+        {
+          "x": 0.73,
+          "y": 0.7,
+          "scale": 0.34,
+          "rotation": 0
+        }
+      ],
+      "min_characters": 2,
+      "max_characters": 6
+    }
+  ]
+}

@@ -1,0 +1,103 @@
+{
+  "collected_at": "2026-10-15",
+  "source_repository": "https://github.com/google/fonts",
+  "fonts": [
+    {
+      "filename": "NotoSerifSC.ttf",
+      "family": "Noto Serif SC ExtraLight",
+      "variant": "Regular",
+      "source_url": "https://raw.githubusercontent.com/google/fonts/main/ofl/notoserifsc/NotoSerifSC%5Bwght%5D.ttf",
+      "upstream_directory": "https://github.com/google/fonts/tree/main/ofl/notoserifsc",
+      "sha256": "050080d9255a86808f2945bffac582b31ef32bc36411ce29563b4961670c66f9",
+      "size_bytes": 25125512,
+      "license_filename": "NotoSerifSC-OFL.txt",
+      "license_source_url": "https://raw.githubusercontent.com/google/fonts/main/ofl/notoserifsc/OFL.txt",
+      "license_sha256": "5e0da210fb04058a8c0087985d2d456b931c2579811a49655721d3cf0c36b6d6",
+      "cmap_codepoints": 30928,
+      "cjk_unified_codepoints": 27584,
+      "sample": "今天也要开开心心 我先缓一缓 学校又改安排了 老师菜菜捞捞 Hello 123！",
+      "sample_missing_characters": [],
+      "sample_fully_supported": true,
+      "variable_axes": [
+        {
+          "tag": "wght",
+          "min": 200.0,
+          "default": 200.0,
+          "max": 900.0
+        }
+      ]
+    },
+    {
+      "filename": "ZCOOLXiaoWei-Regular.ttf",
+      "family": "ZCOOL XiaoWei",
+      "variant": "Regular",
+      "source_url": "https://raw.githubusercontent.com/google/fonts/main/ofl/zcoolxiaowei/ZCOOLXiaoWei-Regular.ttf",
+      "upstream_directory": "https://github.com/google/fonts/tree/main/ofl/zcoolxiaowei",
+      "sha256": "a42b620140f493db42f741351dfbf343c0936d58588ee8004b8b2a218d997ff1",
+      "size_bytes": 6313808,
+      "license_filename": "ZCOOLXiaoWei-OFL.txt",
+      "license_source_url": "https://raw.githubusercontent.com/google/fonts/main/ofl/zcoolxiaowei/OFL.txt",
+      "license_sha256": "a094514ca57cf8f9c5e8d8d1adab5d8cd3a377297ff016f9df2c05b3ecd77f0a",
+      "cmap_codepoints": 7016,
+      "cjk_unified_codepoints": 6763,
+      "sample": "今天也要开开心心 我先缓一缓 学校又改安排了 老师菜菜捞捞 Hello 123！",
+      "sample_missing_characters": [],
+      "sample_fully_supported": true,
+      "variable_axes": []
+    },
+    {
+      "filename": "ZCOOLQingKeHuangYou-Regular.ttf",
+      "family": "ZCOOL QingKe HuangYou",
+      "variant": "Regular",
+      "source_url": "https://raw.githubusercontent.com/google/fonts/main/ofl/zcoolqingkehuangyou/ZCOOLQingKeHuangYou-Regular.ttf",
+      "upstream_directory": "https://github.com/google/fonts/tree/main/ofl/zcoolqingkehuangyou",
+      "sha256": "54f0c0df4308cd74cd0f2fd3494ae054dbc4a1fd6fa7d71f4807eb4cdd8b4136",
+      "size_bytes": 8328684,
+      "license_filename": "ZCOOLQingKeHuangYou-OFL.txt",
+      "license_source_url": "https://raw.githubusercontent.com/google/fonts/main/ofl/zcoolqingkehuangyou/OFL.txt",
+      "license_sha256": "f1bce31b817dee01c1e4ef8bc45d8ecb95f01f4abbf0a985007cb3cd0fd8123d",
+      "cmap_codepoints": 9429,
+      "cjk_unified_codepoints": 9176,
+      "sample": "今天也要开开心心 我先缓一缓 学校又改安排了 老师菜菜捞捞 Hello 123！",
+      "sample_missing_characters": [],
+      "sample_fully_supported": true,
+      "variable_axes": []
+    },
+    {
+      "filename": "MaShanZheng-Regular.ttf",
+      "family": "Ma Shan Zheng",
+      "variant": "Regular",
+      "source_url": "https://raw.githubusercontent.com/google/fonts/main/ofl/mashanzheng/MaShanZheng-Regular.ttf",
+      "upstream_directory": "https://github.com/google/fonts/tree/main/ofl/mashanzheng",
+      "sha256": "6d2546bb189c732a8ca29af9e22457b152387d158aa459e4ac2ce1e51788b7fb",
+      "size_bytes": 5857936,
+      "license_filename": "MaShanZheng-OFL.txt",
+      "license_source_url": "https://raw.githubusercontent.com/google/fonts/main/ofl/mashanzheng/OFL.txt",
+      "license_sha256": "d7bdb1cee215b689e23c2f95672a6084c790542170648267a55114103d756a08",
+      "cmap_codepoints": 7015,
+      "cjk_unified_codepoints": 6763,
+      "sample": "今天也要开开心心 我先缓一缓 学校又改安排了 老师菜菜捞捞 Hello 123！",
+      "sample_missing_characters": [],
+      "sample_fully_supported": true,
+      "variable_axes": []
+    },
+    {
+      "filename": "LongCang-Regular.ttf",
+      "family": "Long Cang",
+      "variant": "Regular",
+      "source_url": "https://raw.githubusercontent.com/google/fonts/main/ofl/longcang/LongCang-Regular.ttf",
+      "upstream_directory": "https://github.com/google/fonts/tree/main/ofl/longcang",
+      "sha256": "e5bf2c3f24ef2327c6f136d8f73e2f9dfdf44896fdbeb35a9515f44777bb91bc",
+      "size_bytes": 5162508,
+      "license_filename": "LongCang-OFL.txt",
+      "license_source_url": "https://raw.githubusercontent.com/google/fonts/main/ofl/longcang/OFL.txt",
+      "license_sha256": "603546b7219a94bb59bf8294458194a5010119486354092b66a09a3fd61aeacc",
+      "cmap_codepoints": 7015,
+      "cjk_unified_codepoints": 6763,
+      "sample": "今天也要开开心心 我先缓一缓 学校又改安排了 老师菜菜捞捞 Hello 123！",
+      "sample_missing_characters": [],
+      "sample_fully_supported": true,
+      "variable_axes": []
+    }
+  ]
+}

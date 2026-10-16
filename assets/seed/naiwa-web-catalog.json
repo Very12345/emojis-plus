@@ -1,0 +1,1108 @@
+[
+  {
+    "id": "web-naiwa-0031",
+    "name": "奶蛙 · 托腮",
+    "character": "奶蛙",
+    "filename": "web/naiwa-naiwa_0031.png",
+    "action": "双手托腮，蹲坐微笑",
+    "emotion": [
+      "期待",
+      "可爱",
+      "开心"
+    ],
+    "scenes": [
+      "等待回复",
+      "约饭",
+      "等下课"
+    ],
+    "examples": [
+      "然后呢然后呢",
+      "坐等好消息"
+    ],
+    "existing_text": "",
+    "intensity": 2,
+    "source_type": "reference",
+    "author": "待核实",
+    "source_url": "https://github.com/musemantic/NaiLoong/blob/ab974a47c2a5e731a22ff9f5a7f23f60e62c3fd9/assets/memes/naiwa_0031.png",
+    "role": "subject",
+    "is_cutout": true,
+    "templates": [
+      "top",
+      "bottom",
+      "split",
+      "frame",
+      "flower",
+      "grid",
+      "message",
+      "poster",
+      "side",
+      "polaroid",
+      "bubble",
+      "dialogue",
+      "spotlight"
+    ],
+    "source_note": "网络公开收集，索引来源奶-hub（https://nai-hub.com/）；GitHub 贡献者 musemantic，贡献者不等于原作者，形象及二创作者、具体使用授权待核实。完整原文件未修改。下载地址：https://raw.githubusercontent.com/musemantic/NaiLoong/ab974a47c2a5e731a22ff9f5a7f23f60e62c3fd9/assets/memes/naiwa_0031.png"
+  },
+  {
+    "id": "web-naiwa-0032",
+    "name": "奶蛙 · 来电",
+    "character": "奶蛙",
+    "filename": "web/naiwa-naiwa_0032.jpg",
+    "action": "站在来电界面中，等着接听",
+    "emotion": [
+      "期待",
+      "疑惑"
+    ],
+    "scenes": [
+      "找人",
+      "打电话",
+      "群聊"
+    ],
+    "examples": [
+      "呼叫我的饭搭子",
+      "人呢，接一下"
+    ],
+    "existing_text": "接听/挂断来电界面图标，无文字配文",
+    "intensity": 2,
+    "source_type": "reference",
+    "author": "待核实",
+    "source_url": "https://github.com/musemantic/NaiLoong/blob/ab974a47c2a5e731a22ff9f5a7f23f60e62c3fd9/assets/memes/naiwa_0032.jpg",
+    "role": "subject",
+    "is_cutout": false,
+    "templates": [
+      "top",
+      "bottom",
+      "split",
+      "frame",
+      "grid",
+      "message",
+      "poster",
+      "side",
+      "polaroid",
+      "bubble",
+      "dialogue",
+      "spotlight"
+    ],
+    "source_note": "网络公开收集，索引来源奶-hub（https://nai-hub.com/）；GitHub 贡献者 musemantic，贡献者不等于原作者，形象及二创作者、具体使用授权待核实。完整原文件未修改。下载地址：https://raw.githubusercontent.com/musemantic/NaiLoong/ab974a47c2a5e731a22ff9f5a7f23f60e62c3fd9/assets/memes/naiwa_0032.jpg"
+  },
+  {
+    "id": "web-naiwa-0037",
+    "name": "奶蛙 · 跳舞狂欢",
+    "character": "奶蛙",
+    "filename": "web/naiwa-naiwa_0037.jpg",
+    "action": "多只奶蛙拉起手，在蓝绿背景前跳舞",
+    "emotion": [
+      "开心",
+      "兴奋"
+    ],
+    "scenes": [
+      "庆祝",
+      "放假",
+      "结课"
+    ],
+    "examples": [
+      "今天的课上完啦",
+      "快乐是会传染的"
+    ],
+    "existing_text": "",
+    "intensity": 4,
+    "source_type": "reference",
+    "author": "待核实",
+    "source_url": "https://github.com/musemantic/NaiLoong/blob/ab974a47c2a5e731a22ff9f5a7f23f60e62c3fd9/assets/memes/naiwa_0037.jpg",
+    "role": "subject",
+    "is_cutout": false,
+    "templates": [
+      "top",
+      "bottom",
+      "split",
+      "frame",
+      "grid",
+      "message",
+      "poster",
+      "side",
+      "polaroid",
+      "bubble",
+      "dialogue",
+      "spotlight"
+    ],
+    "source_note": "网络公开收集，索引来源奶-hub（https://nai-hub.com/）；GitHub 贡献者 musemantic，贡献者不等于原作者，形象及二创作者、具体使用授权待核实。完整原文件未修改。下载地址：https://raw.githubusercontent.com/musemantic/NaiLoong/ab974a47c2a5e731a22ff9f5a7f23f60e62c3fd9/assets/memes/naiwa_0037.jpg"
+  },
+  {
+    "id": "web-naiwa-0038",
+    "name": "奶蛙 · 上课憋笑",
+    "character": "奶蛙",
+    "filename": "web/naiwa-naiwa_0038.jpg",
+    "action": "两只奶蛙坐在课桌旁，相视憋笑",
+    "emotion": [
+      "憋笑",
+      "开心"
+    ],
+    "scenes": [
+      "上课",
+      "朋友整活",
+      "群聊"
+    ],
+    "examples": [
+      "上课呢，先别笑",
+      "我已经很努力在忍了"
+    ],
+    "existing_text": "",
+    "intensity": 3,
+    "source_type": "reference",
+    "author": "待核实",
+    "source_url": "https://github.com/musemantic/NaiLoong/blob/ab974a47c2a5e731a22ff9f5a7f23f60e62c3fd9/assets/memes/naiwa_0038.jpg",
+    "role": "subject",
+    "is_cutout": false,
+    "templates": [
+      "top",
+      "bottom",
+      "split",
+      "frame",
+      "grid",
+      "message",
+      "poster",
+      "side",
+      "polaroid",
+      "bubble",
+      "dialogue",
+      "spotlight"
+    ],
+    "source_note": "网络公开收集，索引来源奶-hub（https://nai-hub.com/）；GitHub 贡献者 musemantic，贡献者不等于原作者，形象及二创作者、具体使用授权待核实。完整原文件未修改。下载地址：https://raw.githubusercontent.com/musemantic/NaiLoong/ab974a47c2a5e731a22ff9f5a7f23f60e62c3fd9/assets/memes/naiwa_0038.jpg"
+  },
+  {
+    "id": "web-naiwa-0046",
+    "name": "奶蛙 · 对镜自拍",
+    "character": "奶蛙",
+    "filename": "web/naiwa-naiwa_0046.jpg",
+    "action": "举起手机，在镜子前自拍",
+    "emotion": [
+      "自信",
+      "得意"
+    ],
+    "scenes": [
+      "自拍",
+      "报平安",
+      "出门"
+    ],
+    "examples": [
+      "今日状态良好",
+      "这张就当证件照了"
+    ],
+    "existing_text": "iQOO15 2439mm f/2.65 1/693s ISO71",
+    "intensity": 2,
+    "source_type": "reference",
+    "author": "待核实",
+    "source_url": "https://github.com/musemantic/NaiLoong/blob/ab974a47c2a5e731a22ff9f5a7f23f60e62c3fd9/assets/memes/naiwa_0046.jpg",
+    "role": "subject",
+    "is_cutout": false,
+    "templates": [
+      "top",
+      "bottom",
+      "split",
+      "frame",
+      "grid",
+      "message",
+      "poster",
+      "side",
+      "polaroid",
+      "bubble",
+      "dialogue",
+      "spotlight"
+    ],
+    "source_note": "网络公开收集，索引来源奶-hub（https://nai-hub.com/）；GitHub 贡献者 musemantic，贡献者不等于原作者，形象及二创作者、具体使用授权待核实。完整原文件未修改。下载地址：https://raw.githubusercontent.com/musemantic/NaiLoong/ab974a47c2a5e731a22ff9f5a7f23f60e62c3fd9/assets/memes/naiwa_0046.jpg"
+  },
+  {
+    "id": "web-naiwa-0049",
+    "name": "奶蛙 · emo",
+    "character": "奶蛙",
+    "filename": "web/naiwa-naiwa_0049.jpg",
+    "action": "垂着嘴角，眼睛含泪站立",
+    "emotion": [
+      "委屈",
+      "难过",
+      "无辜"
+    ],
+    "scenes": [
+      "被批评",
+      "安慰",
+      "求放过"
+    ],
+    "examples": [
+      "好吧，那我先难过一下",
+      "能不能对我温柔一点"
+    ],
+    "existing_text": "当你对我恶语相向的时候\n请注意 屏幕后面的我可是这样的：",
+    "intensity": 3,
+    "source_type": "reference",
+    "author": "待核实",
+    "source_url": "https://github.com/musemantic/NaiLoong/blob/ab974a47c2a5e731a22ff9f5a7f23f60e62c3fd9/assets/memes/naiwa_0049.jpg",
+    "role": "subject",
+    "is_cutout": false,
+    "templates": [
+      "top",
+      "bottom",
+      "split",
+      "frame",
+      "grid",
+      "message",
+      "poster",
+      "side",
+      "polaroid",
+      "bubble",
+      "dialogue",
+      "spotlight"
+    ],
+    "source_note": "网络公开收集，索引来源奶-hub（https://nai-hub.com/）；GitHub 贡献者 musemantic，贡献者不等于原作者，形象及二创作者、具体使用授权待核实。完整原文件未修改。下载地址：https://raw.githubusercontent.com/musemantic/NaiLoong/ab974a47c2a5e731a22ff9f5a7f23f60e62c3fd9/assets/memes/naiwa_0049.jpg"
+  },
+  {
+    "id": "web-naiwa-0060",
+    "name": "奶蛙 · 切换平静模式",
+    "character": "奶蛙",
+    "filename": "web/naiwa-naiwa_0060.jpg",
+    "action": "变成蓝色，安静地侧头站立",
+    "emotion": [
+      "平静",
+      "冷静",
+      "无语"
+    ],
+    "scenes": [
+      "冷处理",
+      "离谱消息",
+      "考试出分"
+    ],
+    "examples": [
+      "我现在非常平静",
+      "先冷静，再说话"
+    ],
+    "existing_text": "切换平静模式",
+    "intensity": 2,
+    "source_type": "reference",
+    "author": "待核实",
+    "source_url": "https://github.com/musemantic/NaiLoong/blob/76c07e04a8b217117b39a3b647751618c55bff0c/assets/memes/naiwa_0060.jpg",
+    "role": "subject",
+    "is_cutout": false,
+    "templates": [
+      "top",
+      "bottom",
+      "split",
+      "frame",
+      "grid",
+      "message",
+      "poster",
+      "side",
+      "polaroid",
+      "bubble",
+      "dialogue",
+      "spotlight"
+    ],
+    "source_note": "网络公开收集，索引来源奶-hub（https://nai-hub.com/）；GitHub 贡献者 musemantic，贡献者不等于原作者，形象及二创作者、具体使用授权待核实。完整原文件未修改。下载地址：https://raw.githubusercontent.com/musemantic/NaiLoong/76c07e04a8b217117b39a3b647751618c55bff0c/assets/memes/naiwa_0060.jpg"
+  },
+  {
+    "id": "web-naiwa-0062",
+    "name": "奶蛙 · 小奶蛙趴地凝视",
+    "character": "奶蛙",
+    "filename": "web/naiwa-naiwa_0062.jpg",
+    "action": "小小的奶蛙趴在地上，抬眼看人",
+    "emotion": [
+      "疲惫",
+      "可爱",
+      "委屈"
+    ],
+    "scenes": [
+      "早八",
+      "赶作业",
+      "累了"
+    ],
+    "examples": [
+      "让我在这里趴一会",
+      "电量只剩一点点"
+    ],
+    "existing_text": "",
+    "intensity": 2,
+    "source_type": "reference",
+    "author": "待核实",
+    "source_url": "https://github.com/musemantic/NaiLoong/blob/76c07e04a8b217117b39a3b647751618c55bff0c/assets/memes/naiwa_0062.jpg",
+    "role": "subject",
+    "is_cutout": false,
+    "templates": [
+      "top",
+      "bottom",
+      "split",
+      "frame",
+      "grid",
+      "message",
+      "poster",
+      "side",
+      "polaroid",
+      "bubble",
+      "dialogue",
+      "spotlight"
+    ],
+    "source_note": "网络公开收集，索引来源奶-hub（https://nai-hub.com/）；GitHub 贡献者 musemantic，贡献者不等于原作者，形象及二创作者、具体使用授权待核实。完整原文件未修改。下载地址：https://raw.githubusercontent.com/musemantic/NaiLoong/76c07e04a8b217117b39a3b647751618c55bff0c/assets/memes/naiwa_0062.jpg"
+  },
+  {
+    "id": "web-naiwa-0063",
+    "name": "奶蛙 · 深夜被窝刷手机",
+    "character": "奶蛙",
+    "filename": "web/naiwa-naiwa_0063.jpg",
+    "action": "在漆黑被窝中偷偷刷手机",
+    "emotion": [
+      "心虚",
+      "沉迷",
+      "疲惫"
+    ],
+    "scenes": [
+      "熬夜",
+      "睡前",
+      "摸鱼"
+    ],
+    "examples": [
+      "最后再看一分钟",
+      "说好早睡的我"
+    ],
+    "existing_text": "",
+    "intensity": 2,
+    "source_type": "reference",
+    "author": "待核实",
+    "source_url": "https://github.com/musemantic/NaiLoong/blob/76c07e04a8b217117b39a3b647751618c55bff0c/assets/memes/naiwa_0063.jpg",
+    "role": "subject",
+    "is_cutout": false,
+    "templates": [
+      "top",
+      "bottom",
+      "split",
+      "frame",
+      "grid",
+      "message",
+      "poster",
+      "side",
+      "polaroid",
+      "bubble",
+      "dialogue",
+      "spotlight"
+    ],
+    "source_note": "网络公开收集，索引来源奶-hub（https://nai-hub.com/）；GitHub 贡献者 musemantic，贡献者不等于原作者，形象及二创作者、具体使用授权待核实。完整原文件未修改。下载地址：https://raw.githubusercontent.com/musemantic/NaiLoong/76c07e04a8b217117b39a3b647751618c55bff0c/assets/memes/naiwa_0063.jpg"
+  },
+  {
+    "id": "web-naiwa-0064",
+    "name": "奶蛙 · 四个奶蛙陷入沉思",
+    "character": "奶蛙",
+    "filename": "web/naiwa-naiwa_0064.jpg",
+    "action": "四只奶蛙凑在一起，托腮沉思",
+    "emotion": [
+      "困惑",
+      "思考",
+      "迷茫"
+    ],
+    "scenes": [
+      "小组作业",
+      "讨论",
+      "选课"
+    ],
+    "examples": [
+      "我们四个也没想明白",
+      "先开个会研究一下"
+    ],
+    "existing_text": "",
+    "intensity": 2,
+    "source_type": "reference",
+    "author": "待核实",
+    "source_url": "https://github.com/musemantic/NaiLoong/blob/76c07e04a8b217117b39a3b647751618c55bff0c/assets/memes/naiwa_0064.jpg",
+    "role": "subject",
+    "is_cutout": false,
+    "templates": [
+      "top",
+      "bottom",
+      "split",
+      "frame",
+      "grid",
+      "message",
+      "poster",
+      "side",
+      "polaroid",
+      "bubble",
+      "dialogue",
+      "spotlight"
+    ],
+    "source_note": "网络公开收集，索引来源奶-hub（https://nai-hub.com/）；GitHub 贡献者 musemantic，贡献者不等于原作者，形象及二创作者、具体使用授权待核实。完整原文件未修改。下载地址：https://raw.githubusercontent.com/musemantic/NaiLoong/76c07e04a8b217117b39a3b647751618c55bff0c/assets/memes/naiwa_0064.jpg"
+  },
+  {
+    "id": "web-naiwa-0070",
+    "name": "奶蛙 · 倚靠现代建筑",
+    "character": "奶蛙",
+    "filename": "web/naiwa-naiwa_0070.jpg",
+    "action": "站在现代建筑前，抬头望向远处",
+    "emotion": [
+      "平静",
+      "期待"
+    ],
+    "scenes": [
+      "上学",
+      "打卡",
+      "等人"
+    ],
+    "examples": [
+      "到学校了",
+      "站在知识的门口"
+    ],
+    "existing_text": "",
+    "intensity": 1,
+    "source_type": "reference",
+    "author": "待核实",
+    "source_url": "https://github.com/musemantic/NaiLoong/blob/76c07e04a8b217117b39a3b647751618c55bff0c/assets/memes/naiwa_0070.jpg",
+    "role": "subject",
+    "is_cutout": false,
+    "templates": [
+      "top",
+      "bottom",
+      "split",
+      "frame",
+      "grid",
+      "message",
+      "poster",
+      "side",
+      "polaroid",
+      "bubble",
+      "dialogue",
+      "spotlight"
+    ],
+    "source_note": "网络公开收集，索引来源奶-hub（https://nai-hub.com/）；GitHub 贡献者 musemantic，贡献者不等于原作者，形象及二创作者、具体使用授权待核实。完整原文件未修改。下载地址：https://raw.githubusercontent.com/musemantic/NaiLoong/76c07e04a8b217117b39a3b647751618c55bff0c/assets/memes/naiwa_0070.jpg"
+  },
+  {
+    "id": "web-naiwa-0001",
+    "name": "奶蛙 · 写作业摸肚子",
+    "character": "奶蛙",
+    "filename": "web/naiwa-naiwa_0001.gif",
+    "action": "两只奶蛙坐在桌边，一只写作业另一只摸肚子",
+    "emotion": [
+      "困惑",
+      "无聊",
+      "摸鱼"
+    ],
+    "scenes": [
+      "赶作业",
+      "自习",
+      "小组作业"
+    ],
+    "examples": [
+      "人坐在桌前，心已经放假",
+      "作业写着写着就饿了"
+    ],
+    "existing_text": "",
+    "intensity": 2,
+    "source_type": "reference",
+    "author": "待核实",
+    "source_url": "https://github.com/Musemantic/NaiLoong/blob/8b5ba9fc738254dd52ffa08106c87c44ad54df1c/assets/memes/naiwa_0001.gif",
+    "role": "subject",
+    "is_cutout": false,
+    "templates": [
+      "top",
+      "bottom",
+      "split",
+      "frame",
+      "grid",
+      "message",
+      "poster",
+      "side",
+      "polaroid",
+      "bubble",
+      "dialogue",
+      "spotlight"
+    ],
+    "source_note": "网络公开收集，索引来源奶-hub（https://nai-hub.com/）；GitHub 贡献者 Musemantic，贡献者不等于原作者，形象及二创作者、具体使用授权待核实。完整原文件未修改。下载地址：https://raw.githubusercontent.com/musemantic/NaiLoong/8b5ba9fc738254dd52ffa08106c87c44ad54df1c/assets/memes/naiwa_0001.gif"
+  },
+  {
+    "id": "web-naiwa-0002",
+    "name": "奶蛙 · 跳舞",
+    "character": "奶蛙",
+    "filename": "web/naiwa-naiwa_0002.gif",
+    "action": "在客厅里来回摆臂跳舞",
+    "emotion": [
+      "开心",
+      "兴奋"
+    ],
+    "scenes": [
+      "周末",
+      "庆祝",
+      "快乐"
+    ],
+    "examples": [
+      "先跳一段再说",
+      "今天开心，不讲道理"
+    ],
+    "existing_text": "",
+    "intensity": 4,
+    "source_type": "reference",
+    "author": "待核实",
+    "source_url": "https://github.com/musemantic/NaiLoong/blob/7b3510220121bd0034b97f0005bd78b7b27c9303/assets/memes/naiwa_0002.gif",
+    "role": "subject",
+    "is_cutout": false,
+    "templates": [
+      "top",
+      "bottom",
+      "split",
+      "frame",
+      "grid",
+      "message",
+      "poster",
+      "side",
+      "polaroid",
+      "bubble",
+      "dialogue",
+      "spotlight"
+    ],
+    "source_note": "网络公开收集，索引来源奶-hub（https://nai-hub.com/）；GitHub 贡献者 musemantic，贡献者不等于原作者，形象及二创作者、具体使用授权待核实。完整原文件未修改。下载地址：https://raw.githubusercontent.com/musemantic/NaiLoong/7b3510220121bd0034b97f0005bd78b7b27c9303/assets/memes/naiwa_0002.gif"
+  },
+  {
+    "id": "web-naiwa-0008",
+    "name": "奶蛙 · 翻跟斗",
+    "character": "奶蛙",
+    "filename": "web/naiwa-naiwa_0008.gif",
+    "action": "走在街上，突然向前翻个跟斗",
+    "emotion": [
+      "兴奋",
+      "得意"
+    ],
+    "scenes": [
+      "整活",
+      "庆祝",
+      "交作业"
+    ],
+    "examples": [
+      "交完作业当场起飞",
+      "小小展示一下"
+    ],
+    "existing_text": "",
+    "intensity": 4,
+    "source_type": "reference",
+    "author": "待核实",
+    "source_url": "https://github.com/musemantic/NaiLoong/blob/7b3510220121bd0034b97f0005bd78b7b27c9303/assets/memes/naiwa_0008.gif",
+    "role": "subject",
+    "is_cutout": false,
+    "templates": [
+      "top",
+      "bottom",
+      "split",
+      "frame",
+      "grid",
+      "message",
+      "poster",
+      "side",
+      "polaroid",
+      "bubble",
+      "dialogue",
+      "spotlight"
+    ],
+    "source_note": "网络公开收集，索引来源奶-hub（https://nai-hub.com/）；GitHub 贡献者 musemantic，贡献者不等于原作者，形象及二创作者、具体使用授权待核实。完整原文件未修改。下载地址：https://raw.githubusercontent.com/musemantic/NaiLoong/7b3510220121bd0034b97f0005bd78b7b27c9303/assets/memes/naiwa_0008.gif"
+  },
+  {
+    "id": "web-naiwa-0010",
+    "name": "奶蛙 · 在田间悲伤跳舞",
+    "character": "奶蛙",
+    "filename": "web/naiwa-naiwa_0010.gif",
+    "action": "在阴天的田野间缓缓跳舞",
+    "emotion": [
+      "难过",
+      "失落",
+      "自嘲"
+    ],
+    "scenes": [
+      "考试失利",
+      "emo",
+      "一个人"
+    ],
+    "examples": [
+      "难过也要坚持营业",
+      "属于我的晴天还没到"
+    ],
+    "existing_text": "",
+    "intensity": 3,
+    "source_type": "reference",
+    "author": "待核实",
+    "source_url": "https://github.com/musemantic/NaiLoong/blob/7b3510220121bd0034b97f0005bd78b7b27c9303/assets/memes/naiwa_0010.gif",
+    "role": "subject",
+    "is_cutout": false,
+    "templates": [
+      "top",
+      "bottom",
+      "split",
+      "frame",
+      "grid",
+      "message",
+      "poster",
+      "side",
+      "polaroid",
+      "bubble",
+      "dialogue",
+      "spotlight"
+    ],
+    "source_note": "网络公开收集，索引来源奶-hub（https://nai-hub.com/）；GitHub 贡献者 musemantic，贡献者不等于原作者，形象及二创作者、具体使用授权待核实。完整原文件未修改。下载地址：https://raw.githubusercontent.com/musemantic/NaiLoong/7b3510220121bd0034b97f0005bd78b7b27c9303/assets/memes/naiwa_0010.gif 原 GIF 超过六秒，编辑器输出按现有六秒上限截取。"
+  },
+  {
+    "id": "web-naiwa-0011",
+    "name": "奶蛙 · 踢水桶脚被卡住",
+    "character": "奶蛙",
+    "filename": "web/naiwa-naiwa_0011.gif",
+    "action": "踢到水桶，脚卡在桶里，弯腰查看",
+    "emotion": [
+      "尴尬",
+      "崩溃",
+      "困惑"
+    ],
+    "scenes": [
+      "翻车",
+      "手滑",
+      "做实验"
+    ],
+    "examples": [
+      "事情开始变得不对劲",
+      "我好像把自己卡住了"
+    ],
+    "existing_text": "",
+    "intensity": 4,
+    "source_type": "reference",
+    "author": "待核实",
+    "source_url": "https://github.com/musemantic/NaiLoong/blob/7b3510220121bd0034b97f0005bd78b7b27c9303/assets/memes/naiwa_0011.gif",
+    "role": "subject",
+    "is_cutout": false,
+    "templates": [
+      "top",
+      "bottom",
+      "split",
+      "frame",
+      "grid",
+      "message",
+      "poster",
+      "side",
+      "polaroid",
+      "bubble",
+      "dialogue",
+      "spotlight"
+    ],
+    "source_note": "网络公开收集，索引来源奶-hub（https://nai-hub.com/）；GitHub 贡献者 musemantic，贡献者不等于原作者，形象及二创作者、具体使用授权待核实。完整原文件未修改。下载地址：https://raw.githubusercontent.com/musemantic/NaiLoong/7b3510220121bd0034b97f0005bd78b7b27c9303/assets/memes/naiwa_0011.gif 原 GIF 超过六秒，编辑器输出按现有六秒上限截取。"
+  },
+  {
+    "id": "web-naiwa-0013",
+    "name": "奶蛙 · 骑单车脚滑",
+    "character": "奶蛙",
+    "filename": "web/naiwa-naiwa_0013.gif",
+    "action": "骑单车时脚滑，身体晃动",
+    "emotion": [
+      "尴尬",
+      "紧张"
+    ],
+    "scenes": [
+      "赶课",
+      "迟到",
+      "翻车"
+    ],
+    "examples": [
+      "早八路上也不太顺利",
+      "差一点就稳住了"
+    ],
+    "existing_text": "",
+    "intensity": 3,
+    "source_type": "reference",
+    "author": "待核实",
+    "source_url": "https://github.com/musemantic/NaiLoong/blob/7b3510220121bd0034b97f0005bd78b7b27c9303/assets/memes/naiwa_0013.gif",
+    "role": "subject",
+    "is_cutout": false,
+    "templates": [
+      "top",
+      "bottom",
+      "split",
+      "frame",
+      "grid",
+      "message",
+      "poster",
+      "side",
+      "polaroid",
+      "bubble",
+      "dialogue",
+      "spotlight"
+    ],
+    "source_note": "网络公开收集，索引来源奶-hub（https://nai-hub.com/）；GitHub 贡献者 musemantic，贡献者不等于原作者，形象及二创作者、具体使用授权待核实。完整原文件未修改。下载地址：https://raw.githubusercontent.com/musemantic/NaiLoong/7b3510220121bd0034b97f0005bd78b7b27c9303/assets/memes/naiwa_0013.gif"
+  },
+  {
+    "id": "web-naiwa-0014",
+    "name": "奶蛙 · 看手机下楼滑倒",
+    "character": "奶蛙",
+    "filename": "web/naiwa-naiwa_0014.gif",
+    "action": "边看手机边下楼，突然滑倒",
+    "emotion": [
+      "尴尬",
+      "震惊"
+    ],
+    "scenes": [
+      "分心",
+      "手滑",
+      "翻车"
+    ],
+    "examples": [
+      "刚觉得一切尽在掌握",
+      "消息看完，人也下去了"
+    ],
+    "existing_text": "",
+    "intensity": 4,
+    "source_type": "reference",
+    "author": "待核实",
+    "source_url": "https://github.com/musemantic/NaiLoong/blob/7b3510220121bd0034b97f0005bd78b7b27c9303/assets/memes/naiwa_0014.gif",
+    "role": "subject",
+    "is_cutout": false,
+    "templates": [
+      "top",
+      "bottom",
+      "split",
+      "frame",
+      "grid",
+      "message",
+      "poster",
+      "side",
+      "polaroid",
+      "bubble",
+      "dialogue",
+      "spotlight"
+    ],
+    "source_note": "网络公开收集，索引来源奶-hub（https://nai-hub.com/）；GitHub 贡献者 musemantic，贡献者不等于原作者，形象及二创作者、具体使用授权待核实。完整原文件未修改。下载地址：https://raw.githubusercontent.com/musemantic/NaiLoong/7b3510220121bd0034b97f0005bd78b7b27c9303/assets/memes/naiwa_0014.gif 原 GIF 超过六秒，编辑器输出按现有六秒上限截取。"
+  },
+  {
+    "id": "web-naiwa-0018",
+    "name": "奶蛙 · 驾驶舱按按钮",
+    "character": "奶蛙",
+    "filename": "web/naiwa-naiwa_0018.gif",
+    "action": "坐在驾驶舱中，连续按下按钮并仰身",
+    "emotion": [
+      "紧张",
+      "得意",
+      "混乱"
+    ],
+    "scenes": [
+      "赶截止",
+      "写代码",
+      "操作失误"
+    ],
+    "examples": [
+      "别急，我在操作",
+      "这个按钮应该没事吧"
+    ],
+    "existing_text": "",
+    "intensity": 4,
+    "source_type": "reference",
+    "author": "待核实",
+    "source_url": "https://github.com/musemantic/NaiLoong/blob/ab974a47c2a5e731a22ff9f5a7f23f60e62c3fd9/assets/memes/naiwa_0018.gif",
+    "role": "subject",
+    "is_cutout": false,
+    "templates": [
+      "top",
+      "bottom",
+      "split",
+      "frame",
+      "grid",
+      "message",
+      "poster",
+      "side",
+      "polaroid",
+      "bubble",
+      "dialogue",
+      "spotlight"
+    ],
+    "source_note": "网络公开收集，索引来源奶-hub（https://nai-hub.com/）；GitHub 贡献者 musemantic，贡献者不等于原作者，形象及二创作者、具体使用授权待核实。完整原文件未修改。下载地址：https://raw.githubusercontent.com/musemantic/NaiLoong/ab974a47c2a5e731a22ff9f5a7f23f60e62c3fd9/assets/memes/naiwa_0018.gif"
+  },
+  {
+    "id": "web-naiwa-0019",
+    "name": "奶蛙 · 站立抖动微笑",
+    "character": "奶蛙",
+    "filename": "web/naiwa-naiwa_0019.gif",
+    "action": "奶蛙面对镜头，轻轻抖动微笑",
+    "emotion": [
+      "开心",
+      "期待",
+      "可爱"
+    ],
+    "scenes": [
+      "打招呼",
+      "签到",
+      "等回复"
+    ],
+    "examples": [
+      "我来了我来了",
+      "收到，正在开心"
+    ],
+    "existing_text": "",
+    "intensity": 2,
+    "source_type": "reference",
+    "author": "待核实",
+    "source_url": "https://github.com/musemantic/NaiLoong/blob/ab974a47c2a5e731a22ff9f5a7f23f60e62c3fd9/assets/memes/naiwa_0019.gif",
+    "role": "subject",
+    "is_cutout": false,
+    "templates": [
+      "top",
+      "bottom",
+      "split",
+      "frame",
+      "grid",
+      "message",
+      "poster",
+      "side",
+      "polaroid",
+      "bubble",
+      "dialogue",
+      "spotlight"
+    ],
+    "source_note": "网络公开收集，索引来源奶-hub（https://nai-hub.com/）；GitHub 贡献者 musemantic，贡献者不等于原作者，形象及二创作者、具体使用授权待核实。完整原文件未修改。下载地址：https://raw.githubusercontent.com/musemantic/NaiLoong/ab974a47c2a5e731a22ff9f5a7f23f60e62c3fd9/assets/memes/naiwa_0019.gif"
+  },
+  {
+    "id": "web-naiwa-0020",
+    "name": "奶蛙 · 河边钓鱼喝冰红茶",
+    "character": "奶蛙",
+    "filename": "web/naiwa-naiwa_0020.gif",
+    "action": "坐在河边钓鱼，抬手喝饮料",
+    "emotion": [
+      "悠闲",
+      "平静"
+    ],
+    "scenes": [
+      "摸鱼",
+      "周末",
+      "放空"
+    ],
+    "examples": [
+      "此刻只想认真摸鱼",
+      "今天的任务是休息"
+    ],
+    "existing_text": "",
+    "intensity": 1,
+    "source_type": "reference",
+    "author": "待核实",
+    "source_url": "https://github.com/musemantic/NaiLoong/blob/ab974a47c2a5e731a22ff9f5a7f23f60e62c3fd9/assets/memes/naiwa_0020.gif",
+    "role": "subject",
+    "is_cutout": false,
+    "templates": [
+      "top",
+      "bottom",
+      "split",
+      "frame",
+      "grid",
+      "message",
+      "poster",
+      "side",
+      "polaroid",
+      "bubble",
+      "dialogue",
+      "spotlight"
+    ],
+    "source_note": "网络公开收集，索引来源奶-hub（https://nai-hub.com/）；GitHub 贡献者 musemantic，贡献者不等于原作者，形象及二创作者、具体使用授权待核实。完整原文件未修改。下载地址：https://raw.githubusercontent.com/musemantic/NaiLoong/ab974a47c2a5e731a22ff9f5a7f23f60e62c3fd9/assets/memes/naiwa_0020.gif"
+  },
+  {
+    "id": "web-naiwa-0024",
+    "name": "奶蛙 · 在窗边大笑",
+    "character": "奶蛙",
+    "filename": "web/naiwa-naiwa_0024.gif",
+    "action": "站在窗边，突然张嘴仰头大笑",
+    "emotion": [
+      "大笑",
+      "兴奋"
+    ],
+    "scenes": [
+      "听笑话",
+      "朋友整活",
+      "庆祝"
+    ],
+    "examples": [
+      "这我是真绷不住了",
+      "让我先笑完这一阵"
+    ],
+    "existing_text": "",
+    "intensity": 5,
+    "source_type": "reference",
+    "author": "待核实",
+    "source_url": "https://github.com/musemantic/NaiLoong/blob/ab974a47c2a5e731a22ff9f5a7f23f60e62c3fd9/assets/memes/naiwa_0024.gif",
+    "role": "subject",
+    "is_cutout": false,
+    "templates": [
+      "top",
+      "bottom",
+      "split",
+      "frame",
+      "grid",
+      "message",
+      "poster",
+      "side",
+      "polaroid",
+      "bubble",
+      "dialogue",
+      "spotlight"
+    ],
+    "source_note": "网络公开收集，索引来源奶-hub（https://nai-hub.com/）；GitHub 贡献者 musemantic，贡献者不等于原作者，形象及二创作者、具体使用授权待核实。完整原文件未修改。下载地址：https://raw.githubusercontent.com/musemantic/NaiLoong/ab974a47c2a5e731a22ff9f5a7f23f60e62c3fd9/assets/memes/naiwa_0024.gif"
+  },
+  {
+    "id": "web-naiwa-0050",
+    "name": "奶蛙 · 在雨中思考人生",
+    "character": "奶蛙",
+    "filename": "web/naiwa-naiwa_0050.gif",
+    "action": "在大雨中倚着栏杆，低头思考",
+    "emotion": [
+      "难过",
+      "疲惫",
+      "无语"
+    ],
+    "scenes": [
+      "赶截止",
+      "考试后",
+      "临时改安排"
+    ],
+    "examples": [
+      "雨很大，脑子很空",
+      "我需要静一静"
+    ],
+    "existing_text": "",
+    "intensity": 3,
+    "source_type": "reference",
+    "author": "待核实",
+    "source_url": "https://github.com/musemantic/NaiLoong/blob/ab974a47c2a5e731a22ff9f5a7f23f60e62c3fd9/assets/memes/naiwa_0050.gif",
+    "role": "subject",
+    "is_cutout": false,
+    "templates": [
+      "top",
+      "bottom",
+      "split",
+      "frame",
+      "grid",
+      "message",
+      "poster",
+      "side",
+      "polaroid",
+      "bubble",
+      "dialogue",
+      "spotlight"
+    ],
+    "source_note": "网络公开收集，索引来源奶-hub（https://nai-hub.com/）；GitHub 贡献者 musemantic，贡献者不等于原作者，形象及二创作者、具体使用授权待核实。完整原文件未修改。下载地址：https://raw.githubusercontent.com/musemantic/NaiLoong/ab974a47c2a5e731a22ff9f5a7f23f60e62c3fd9/assets/memes/naiwa_0050.gif"
+  },
+  {
+    "id": "web-naidan-0040",
+    "name": "奶蛋 · 呆呆站立",
+    "character": "奶蛋",
+    "filename": "web/naidan-naiwa_0040.png",
+    "action": "圆圆的奶蛋面对镜头，呆呆站立",
+    "emotion": [
+      "呆萌",
+      "迷茫",
+      "无辜"
+    ],
+    "scenes": [
+      "发呆",
+      "等通知",
+      "打招呼"
+    ],
+    "examples": [
+      "我在，但我没听懂",
+      "一个安静的小朋友"
+    ],
+    "existing_text": "",
+    "intensity": 1,
+    "source_type": "reference",
+    "author": "待核实",
+    "source_url": "https://github.com/musemantic/NaiLoong/blob/ab974a47c2a5e731a22ff9f5a7f23f60e62c3fd9/assets/memes/naiwa_0040.png",
+    "role": "subject",
+    "is_cutout": false,
+    "templates": [
+      "top",
+      "bottom",
+      "split",
+      "frame",
+      "grid",
+      "message",
+      "poster",
+      "side",
+      "polaroid",
+      "bubble",
+      "dialogue",
+      "spotlight"
+    ],
+    "source_note": "网络公开收集，索引来源奶-hub（https://nai-hub.com/）；GitHub 贡献者 musemantic，贡献者不等于原作者，形象及二创作者、具体使用授权待核实。完整原文件未修改。下载地址：https://raw.githubusercontent.com/musemantic/NaiLoong/ab974a47c2a5e731a22ff9f5a7f23f60e62c3fd9/assets/memes/naiwa_0040.png"
+  },
+  {
+    "id": "web-naidan-0066",
+    "name": "奶蛋 · 双手抱胸自信微笑",
+    "character": "奶蛋",
+    "filename": "web/naidan-naiwa_0066.jpg",
+    "action": "奶蛋双手抱胸，眯眼自信微笑",
+    "emotion": [
+      "自信",
+      "得意"
+    ],
+    "scenes": [
+      "夸夸",
+      "交作业",
+      "做对题"
+    ],
+    "examples": [
+      "这题我会",
+      "这次稳稳拿下"
+    ],
+    "existing_text": "",
+    "intensity": 3,
+    "source_type": "reference",
+    "author": "待核实",
+    "source_url": "https://github.com/musemantic/NaiLoong/blob/76c07e04a8b217117b39a3b647751618c55bff0c/assets/memes/naiwa_0066.jpg",
+    "role": "subject",
+    "is_cutout": false,
+    "templates": [
+      "top",
+      "bottom",
+      "split",
+      "frame",
+      "grid",
+      "message",
+      "poster",
+      "side",
+      "polaroid",
+      "bubble",
+      "dialogue",
+      "spotlight"
+    ],
+    "source_note": "网络公开收集，索引来源奶-hub（https://nai-hub.com/）；GitHub 贡献者 musemantic，贡献者不等于原作者，形象及二创作者、具体使用授权待核实。完整原文件未修改。下载地址：https://raw.githubusercontent.com/musemantic/NaiLoong/76c07e04a8b217117b39a3b647751618c55bff0c/assets/memes/naiwa_0066.jpg"
+  },
+  {
+    "id": "web-naiwa-0058",
+    "name": "奶蛙 · 沙滩神龙在世涂鸦",
+    "character": "奶蛙",
+    "filename": "web/naiwa-naiwa_0058.jpg",
+    "action": "海边沙滩上画出奶蛙轮廓",
+    "emotion": [
+      "悠闲",
+      "快乐"
+    ],
+    "scenes": [
+      "放假",
+      "旅游",
+      "摸鱼"
+    ],
+    "examples": [
+      "课题先放放，我在海边",
+      "放假的形状已经有了"
+    ],
+    "existing_text": "神龙在世",
+    "intensity": 2,
+    "source_type": "reference",
+    "author": "待核实",
+    "source_url": "https://github.com/musemantic/NaiLoong/blob/76c07e04a8b217117b39a3b647751618c55bff0c/assets/memes/naiwa_0058.jpg",
+    "role": "subject",
+    "is_cutout": false,
+    "templates": [
+      "top",
+      "bottom",
+      "split",
+      "frame",
+      "grid",
+      "message",
+      "poster",
+      "side",
+      "polaroid",
+      "bubble",
+      "dialogue",
+      "spotlight"
+    ],
+    "source_note": "网络公开收集，索引来源奶-hub（https://nai-hub.com/）；GitHub 贡献者 musemantic，贡献者不等于原作者，形象及二创作者、具体使用授权待核实。完整原文件未修改。下载地址：https://raw.githubusercontent.com/musemantic/NaiLoong/76c07e04a8b217117b39a3b647751618c55bff0c/assets/memes/naiwa_0058.jpg"
+  }
+]

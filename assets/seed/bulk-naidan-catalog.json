@@ -1,0 +1,2605 @@
+[
+  {
+    "id": "bulk-naidan-bv1an8n6segp-001",
+    "name": "奶蛋 · 奶蛋与奶蛙站在废墟大厅",
+    "character": "奶蛋",
+    "filename": "bulk-naidan/BV1aN8n6sEGP-001.jpg",
+    "action": "奶蛋与奶蛙站在废墟大厅",
+    "emotion": [
+      "迷茫",
+      "期待"
+    ],
+    "scenes": [
+      "组队",
+      "选搭子"
+    ],
+    "examples": [
+      "选我，带你飞"
+    ],
+    "existing_text": "原视频字幕与平台水印（保留）",
+    "intensity": 3,
+    "source_type": "reference",
+    "author": "奶史_",
+    "source_url": "https://www.bilibili.com/video/BV1aN8n6sEGP/",
+    "source_note": "公开B站同人视频《选择奶蛋还是奶蛙？【AI全民制作人】》第1秒截图；发布者奶史_，来源声明含AI生成内容，不是奶龙官方原画。人工按蛋形身体与绿眼圈确认奶蛋；原视频画面、字幕及水印保留。该视频多帧不代表多份独立作品。",
+    "role": "subject",
+    "is_cutout": false,
+    "templates": [
+      "top",
+      "bottom",
+      "split",
+      "frame",
+      "grid",
+      "message",
+      "poster",
+      "side",
+      "polaroid",
+      "bubble",
+      "dialogue",
+      "spotlight",
+      "comic",
+      "subtitle",
+      "note",
+      "window",
+      "ticket",
+      "medal",
+      "scene"
+    ],
+    "enabled": true
+  },
+  {
+    "id": "bulk-naidan-bv1an8n6segp-109",
+    "name": "奶蛋 · 蛋形奶蛋独自站在大厅地面",
+    "character": "奶蛋",
+    "filename": "bulk-naidan/BV1aN8n6sEGP-109.jpg",
+    "action": "蛋形奶蛋独自站在大厅地面",
+    "emotion": [
+      "呆萌",
+      "平静"
+    ],
+    "scenes": [
+      "等待回复",
+      "等通知"
+    ],
+    "examples": [
+      "我在这里等"
+    ],
+    "existing_text": "原视频字幕与平台水印（保留）",
+    "intensity": 3,
+    "source_type": "reference",
+    "author": "奶史_",
+    "source_url": "https://www.bilibili.com/video/BV1aN8n6sEGP/",
+    "source_note": "公开B站同人视频《选择奶蛋还是奶蛙？【AI全民制作人】》第109秒截图；发布者奶史_，来源声明含AI生成内容，不是奶龙官方原画。人工按蛋形身体与绿眼圈确认奶蛋；原视频画面、字幕及水印保留。该视频多帧不代表多份独立作品。",
+    "role": "subject",
+    "is_cutout": false,
+    "templates": [
+      "top",
+      "bottom",
+      "split",
+      "frame",
+      "grid",
+      "message",
+      "poster",
+      "side",
+      "polaroid",
+      "bubble",
+      "dialogue",
+      "spotlight",
+      "comic",
+      "subtitle",
+      "note",
+      "window",
+      "ticket",
+      "medal",
+      "scene"
+    ],
+    "enabled": true
+  },
+  {
+    "id": "bulk-naidan-bv1an8n6segp-117",
+    "name": "奶蛋 · 奶蛋从暗处探头露出脸",
+    "character": "奶蛋",
+    "filename": "bulk-naidan/BV1aN8n6sEGP-117.jpg",
+    "action": "奶蛋从暗处探头露出脸",
+    "emotion": [
+      "好奇",
+      "疑惑"
+    ],
+    "scenes": [
+      "围观",
+      "偷看"
+    ],
+    "examples": [
+      "让我看看"
+    ],
+    "existing_text": "原视频字幕与平台水印（保留）",
+    "intensity": 3,
+    "source_type": "reference",
+    "author": "奶史_",
+    "source_url": "https://www.bilibili.com/video/BV1aN8n6sEGP/",
+    "source_note": "公开B站同人视频《选择奶蛋还是奶蛙？【AI全民制作人】》第117秒截图；发布者奶史_，来源声明含AI生成内容，不是奶龙官方原画。人工按蛋形身体与绿眼圈确认奶蛋；原视频画面、字幕及水印保留。该视频多帧不代表多份独立作品。",
+    "role": "subject",
+    "is_cutout": false,
+    "templates": [
+      "top",
+      "bottom",
+      "split",
+      "frame",
+      "grid",
+      "message",
+      "poster",
+      "side",
+      "polaroid",
+      "bubble",
+      "dialogue",
+      "spotlight",
+      "comic",
+      "subtitle",
+      "note",
+      "window",
+      "ticket",
+      "medal",
+      "scene"
+    ],
+    "enabled": true
+  },
+  {
+    "id": "bulk-naidan-bv1an8n6segp-133",
+    "name": "奶蛋 · 奶蛋走进伙伴云集的温暖宴会",
+    "character": "奶蛋",
+    "filename": "bulk-naidan/BV1aN8n6sEGP-133.jpg",
+    "action": "奶蛋走进伙伴云集的温暖宴会",
+    "emotion": [
+      "开心",
+      "放松"
+    ],
+    "scenes": [
+      "聚餐",
+      "下课"
+    ],
+    "examples": [
+      "开席啦"
+    ],
+    "existing_text": "原视频字幕与平台水印（保留）",
+    "intensity": 3,
+    "source_type": "reference",
+    "author": "奶史_",
+    "source_url": "https://www.bilibili.com/video/BV1aN8n6sEGP/",
+    "source_note": "公开B站同人视频《选择奶蛋还是奶蛙？【AI全民制作人】》第133秒截图；发布者奶史_，来源声明含AI生成内容，不是奶龙官方原画。人工按蛋形身体与绿眼圈确认奶蛋；原视频画面、字幕及水印保留。该视频多帧不代表多份独立作品。",
+    "role": "subject",
+    "is_cutout": false,
+    "templates": [
+      "top",
+      "bottom",
+      "split",
+      "frame",
+      "grid",
+      "message",
+      "poster",
+      "side",
+      "polaroid",
+      "bubble",
+      "dialogue",
+      "spotlight",
+      "comic",
+      "subtitle",
+      "note",
+      "window",
+      "ticket",
+      "medal",
+      "scene"
+    ],
+    "enabled": true
+  },
+  {
+    "id": "bulk-naidan-bv1k9ya6zeqm-001",
+    "name": "奶蛋 · 奶蛋和奶狗在ICPC赛场等待比赛",
+    "character": "奶蛋",
+    "filename": "bulk-naidan/BV1K9YA6zEqm-001.jpg",
+    "action": "奶蛋和奶狗在ICPC赛场等待比赛",
+    "emotion": [
+      "期待",
+      "自信"
+    ],
+    "scenes": [
+      "组队",
+      "竞赛"
+    ],
+    "examples": [
+      "队友已就位"
+    ],
+    "existing_text": "原视频字幕与平台水印（保留）",
+    "intensity": 3,
+    "source_type": "reference",
+    "author": "江湖EHの日常",
+    "source_url": "https://www.bilibili.com/video/BV1K9YA6zEqm/",
+    "source_note": "公开B站同人视频《选择奶蛋还是奶狗？【ICPC】》第1秒截图；发布者江湖EHの日常，来源声明含AI生成内容，不是奶龙官方原画。人工按蛋形身体与绿眼圈确认奶蛋；原视频画面、字幕及水印保留。该视频多帧不代表多份独立作品。",
+    "role": "subject",
+    "is_cutout": false,
+    "templates": [
+      "top",
+      "bottom",
+      "split",
+      "frame",
+      "grid",
+      "message",
+      "poster",
+      "side",
+      "polaroid",
+      "bubble",
+      "dialogue",
+      "spotlight",
+      "comic",
+      "subtitle",
+      "note",
+      "window",
+      "ticket",
+      "medal",
+      "scene"
+    ],
+    "enabled": true
+  },
+  {
+    "id": "bulk-naidan-bv1k9ya6zeqm-105",
+    "name": "奶蛋 · 奶蛋坐在电脑旁看着Accepted结果",
+    "character": "奶蛋",
+    "filename": "bulk-naidan/BV1K9YA6zEqm-105.jpg",
+    "action": "奶蛋坐在电脑旁看着Accepted结果",
+    "emotion": [
+      "开心",
+      "自信"
+    ],
+    "scenes": [
+      "编程",
+      "作业完成"
+    ],
+    "examples": [
+      "这题过了"
+    ],
+    "existing_text": "原视频字幕与平台水印（保留）",
+    "intensity": 3,
+    "source_type": "reference",
+    "author": "江湖EHの日常",
+    "source_url": "https://www.bilibili.com/video/BV1K9YA6zEqm/",
+    "source_note": "公开B站同人视频《选择奶蛋还是奶狗？【ICPC】》第105秒截图；发布者江湖EHの日常，来源声明含AI生成内容，不是奶龙官方原画。人工按蛋形身体与绿眼圈确认奶蛋；原视频画面、字幕及水印保留。该视频多帧不代表多份独立作品。",
+    "role": "subject",
+    "is_cutout": false,
+    "templates": [
+      "top",
+      "bottom",
+      "split",
+      "frame",
+      "grid",
+      "message",
+      "poster",
+      "side",
+      "polaroid",
+      "bubble",
+      "dialogue",
+      "spotlight",
+      "comic",
+      "subtitle",
+      "note",
+      "window",
+      "ticket",
+      "medal",
+      "scene"
+    ],
+    "enabled": true
+  },
+  {
+    "id": "bulk-naidan-bv1k9ya6zeqm-109",
+    "name": "奶蛋 · 奶蛋戴奖牌站在第一名领奖台",
+    "character": "奶蛋",
+    "filename": "bulk-naidan/BV1K9YA6zEqm-109.jpg",
+    "action": "奶蛋戴奖牌站在第一名领奖台",
+    "emotion": [
+      "得意",
+      "开心"
+    ],
+    "scenes": [
+      "比赛获奖",
+      "夸夸"
+    ],
+    "examples": [
+      "稳稳拿下"
+    ],
+    "existing_text": "原视频字幕与平台水印（保留）",
+    "intensity": 3,
+    "source_type": "reference",
+    "author": "江湖EHの日常",
+    "source_url": "https://www.bilibili.com/video/BV1K9YA6zEqm/",
+    "source_note": "公开B站同人视频《选择奶蛋还是奶狗？【ICPC】》第109秒截图；发布者江湖EHの日常，来源声明含AI生成内容，不是奶龙官方原画。人工按蛋形身体与绿眼圈确认奶蛋；原视频画面、字幕及水印保留。该视频多帧不代表多份独立作品。",
+    "role": "subject",
+    "is_cutout": false,
+    "templates": [
+      "top",
+      "bottom",
+      "split",
+      "frame",
+      "grid",
+      "message",
+      "poster",
+      "side",
+      "polaroid",
+      "bubble",
+      "dialogue",
+      "spotlight",
+      "comic",
+      "subtitle",
+      "note",
+      "window",
+      "ticket",
+      "medal",
+      "scene"
+    ],
+    "enabled": true
+  },
+  {
+    "id": "bulk-naidan-bv1sohs6fedc-005",
+    "name": "奶蛋 · 奶蛋独自在聚光灯下笑着张嘴",
+    "character": "奶蛋",
+    "filename": "bulk-naidan/BV1sohs6FEDc-005.jpg",
+    "action": "奶蛋独自在聚光灯下笑着张嘴",
+    "emotion": [
+      "开心",
+      "呆萌"
+    ],
+    "scenes": [
+      "打招呼",
+      "接话"
+    ],
+    "examples": [
+      "安迪！"
+    ],
+    "existing_text": "原视频字幕与平台水印（保留）",
+    "intensity": 3,
+    "source_type": "reference",
+    "author": "暖气杀手aaaa",
+    "source_url": "https://www.bilibili.com/video/BV1sohs6FEDc/",
+    "source_note": "公开B站同人视频《矿井里的奶蛋》第5秒截图；发布者暖气杀手aaaa，来源声明含AI生成内容，不是奶龙官方原画。人工按蛋形身体与绿眼圈确认奶蛋；原视频画面、字幕及水印保留。该视频多帧不代表多份独立作品。",
+    "role": "subject",
+    "is_cutout": false,
+    "templates": [
+      "top",
+      "bottom",
+      "split",
+      "frame",
+      "grid",
+      "message",
+      "poster",
+      "side",
+      "polaroid",
+      "bubble",
+      "dialogue",
+      "spotlight",
+      "comic",
+      "subtitle",
+      "note",
+      "window",
+      "ticket",
+      "medal",
+      "scene"
+    ],
+    "enabled": true
+  },
+  {
+    "id": "bulk-naidan-bv1sohs6fedc-013",
+    "name": "奶蛋 · 粉色伙伴抱着蛋形奶蛋",
+    "character": "奶蛋",
+    "filename": "bulk-naidan/BV1sohs6FEDc-013.jpg",
+    "action": "粉色伙伴抱着蛋形奶蛋",
+    "emotion": [
+      "放松",
+      "依赖"
+    ],
+    "scenes": [
+      "求带",
+      "求帮助"
+    ],
+    "examples": [
+      "这把靠你了"
+    ],
+    "existing_text": "原视频字幕与平台水印（保留）",
+    "intensity": 3,
+    "source_type": "reference",
+    "author": "暖气杀手aaaa",
+    "source_url": "https://www.bilibili.com/video/BV1sohs6FEDc/",
+    "source_note": "公开B站同人视频《矿井里的奶蛋》第13秒截图；发布者暖气杀手aaaa，来源声明含AI生成内容，不是奶龙官方原画。人工按蛋形身体与绿眼圈确认奶蛋；原视频画面、字幕及水印保留。该视频多帧不代表多份独立作品。",
+    "role": "subject",
+    "is_cutout": false,
+    "templates": [
+      "top",
+      "bottom",
+      "split",
+      "frame",
+      "grid",
+      "message",
+      "poster",
+      "side",
+      "polaroid",
+      "bubble",
+      "dialogue",
+      "spotlight",
+      "comic",
+      "subtitle",
+      "note",
+      "window",
+      "ticket",
+      "medal",
+      "scene"
+    ],
+    "enabled": true
+  },
+  {
+    "id": "bulk-naidan-bv1sohs6fedc-025",
+    "name": "奶蛋 · 奶蛋被粉色伙伴抱着，正面呆看",
+    "character": "奶蛋",
+    "filename": "bulk-naidan/BV1sohs6FEDc-025.jpg",
+    "action": "奶蛋被粉色伙伴抱着，正面呆看",
+    "emotion": [
+      "迷茫",
+      "无辜"
+    ],
+    "scenes": [
+      "没听懂",
+      "围观"
+    ],
+    "examples": [
+      "发生什么事了"
+    ],
+    "existing_text": "原视频字幕与平台水印（保留）",
+    "intensity": 3,
+    "source_type": "reference",
+    "author": "暖气杀手aaaa",
+    "source_url": "https://www.bilibili.com/video/BV1sohs6FEDc/",
+    "source_note": "公开B站同人视频《矿井里的奶蛋》第25秒截图；发布者暖气杀手aaaa，来源声明含AI生成内容，不是奶龙官方原画。人工按蛋形身体与绿眼圈确认奶蛋；原视频画面、字幕及水印保留。该视频多帧不代表多份独立作品。",
+    "role": "subject",
+    "is_cutout": false,
+    "templates": [
+      "top",
+      "bottom",
+      "split",
+      "frame",
+      "grid",
+      "message",
+      "poster",
+      "side",
+      "polaroid",
+      "bubble",
+      "dialogue",
+      "spotlight",
+      "comic",
+      "subtitle",
+      "note",
+      "window",
+      "ticket",
+      "medal",
+      "scene"
+    ],
+    "enabled": true
+  },
+  {
+    "id": "bulk-naidan-bv1sohs6fedc-033",
+    "name": "奶蛋 · 奶蛋被抓爪吊起，身体压扁拉长",
+    "character": "奶蛋",
+    "filename": "bulk-naidan/BV1sohs6FEDc-033.jpg",
+    "action": "奶蛋被抓爪吊起，身体压扁拉长",
+    "emotion": [
+      "惊讶",
+      "慌张"
+    ],
+    "scenes": [
+      "被抓包",
+      "赶作业"
+    ],
+    "examples": [
+      "我怎么又被抓了"
+    ],
+    "existing_text": "原视频字幕与平台水印（保留）",
+    "intensity": 3,
+    "source_type": "reference",
+    "author": "暖气杀手aaaa",
+    "source_url": "https://www.bilibili.com/video/BV1sohs6FEDc/",
+    "source_note": "公开B站同人视频《矿井里的奶蛋》第33秒截图；发布者暖气杀手aaaa，来源声明含AI生成内容，不是奶龙官方原画。人工按蛋形身体与绿眼圈确认奶蛋；原视频画面、字幕及水印保留。该视频多帧不代表多份独立作品。",
+    "role": "subject",
+    "is_cutout": false,
+    "templates": [
+      "top",
+      "bottom",
+      "split",
+      "frame",
+      "grid",
+      "message",
+      "poster",
+      "side",
+      "polaroid",
+      "bubble",
+      "dialogue",
+      "spotlight",
+      "comic",
+      "subtitle",
+      "note",
+      "window",
+      "ticket",
+      "medal",
+      "scene"
+    ],
+    "enabled": true
+  },
+  {
+    "id": "bulk-naidan-bv1sohs6fedc-045",
+    "name": "奶蛋 · 奶蛋从矿井机械上弹向空中",
+    "character": "奶蛋",
+    "filename": "bulk-naidan/BV1sohs6FEDc-045.jpg",
+    "action": "奶蛋从矿井机械上弹向空中",
+    "emotion": [
+      "开心",
+      "兴奋"
+    ],
+    "scenes": [
+      "放假",
+      "整活"
+    ],
+    "examples": [
+      "起飞咯"
+    ],
+    "existing_text": "原视频字幕与平台水印（保留）",
+    "intensity": 3,
+    "source_type": "reference",
+    "author": "暖气杀手aaaa",
+    "source_url": "https://www.bilibili.com/video/BV1sohs6FEDc/",
+    "source_note": "公开B站同人视频《矿井里的奶蛋》第45秒截图；发布者暖气杀手aaaa，来源声明含AI生成内容，不是奶龙官方原画。人工按蛋形身体与绿眼圈确认奶蛋；原视频画面、字幕及水印保留。该视频多帧不代表多份独立作品。",
+    "role": "subject",
+    "is_cutout": false,
+    "templates": [
+      "top",
+      "bottom",
+      "split",
+      "frame",
+      "grid",
+      "message",
+      "poster",
+      "side",
+      "polaroid",
+      "bubble",
+      "dialogue",
+      "spotlight",
+      "comic",
+      "subtitle",
+      "note",
+      "window",
+      "ticket",
+      "medal",
+      "scene"
+    ],
+    "enabled": true
+  },
+  {
+    "id": "bulk-naidan-bv1tbffzaejo-001",
+    "name": "奶蛋 · 一群奶蛋从木楼梯上排队走下",
+    "character": "奶蛋",
+    "filename": "bulk-naidan/BV1TBFfzaEJo-001.jpg",
+    "action": "一群奶蛋从木楼梯上排队走下",
+    "emotion": [
+      "开心",
+      "可爱"
+    ],
+    "scenes": [
+      "排队",
+      "集体活动"
+    ],
+    "examples": [
+      "奶蛋小队出动"
+    ],
+    "existing_text": "原视频字幕与平台水印（保留）",
+    "intensity": 3,
+    "source_type": "reference",
+    "author": "没见过神吗",
+    "source_url": "https://www.bilibili.com/video/BV1TBFfzaEJo/",
+    "source_note": "公开B站同人视频《奶蛋动物园开业了，孩子们玩得很开心》第1秒截图；发布者没见过神吗，来源声明含AI生成内容，不是奶龙官方原画。人工按蛋形身体与绿眼圈确认奶蛋；原视频画面、字幕及水印保留。该视频多帧不代表多份独立作品。",
+    "role": "subject",
+    "is_cutout": false,
+    "templates": [
+      "top",
+      "bottom",
+      "split",
+      "frame",
+      "grid",
+      "message",
+      "poster",
+      "side",
+      "polaroid",
+      "bubble",
+      "dialogue",
+      "spotlight",
+      "comic",
+      "subtitle",
+      "note",
+      "window",
+      "ticket",
+      "medal",
+      "scene"
+    ],
+    "enabled": true
+  },
+  {
+    "id": "bulk-naidan-bv1tbffzaejo-005",
+    "name": "奶蛋 · 奶蛋们在木栅栏旁被围观",
+    "character": "奶蛋",
+    "filename": "bulk-naidan/BV1TBFfzaEJo-005.jpg",
+    "action": "奶蛋们在木栅栏旁被围观",
+    "emotion": [
+      "呆萌",
+      "无辜"
+    ],
+    "scenes": [
+      "围观",
+      "打招呼"
+    ],
+    "examples": [
+      "大家看我干什么"
+    ],
+    "existing_text": "原视频字幕与平台水印（保留）",
+    "intensity": 3,
+    "source_type": "reference",
+    "author": "没见过神吗",
+    "source_url": "https://www.bilibili.com/video/BV1TBFfzaEJo/",
+    "source_note": "公开B站同人视频《奶蛋动物园开业了，孩子们玩得很开心》第5秒截图；发布者没见过神吗，来源声明含AI生成内容，不是奶龙官方原画。人工按蛋形身体与绿眼圈确认奶蛋；原视频画面、字幕及水印保留。该视频多帧不代表多份独立作品。",
+    "role": "subject",
+    "is_cutout": false,
+    "templates": [
+      "top",
+      "bottom",
+      "split",
+      "frame",
+      "grid",
+      "message",
+      "poster",
+      "side",
+      "polaroid",
+      "bubble",
+      "dialogue",
+      "spotlight",
+      "comic",
+      "subtitle",
+      "note",
+      "window",
+      "ticket",
+      "medal",
+      "scene"
+    ],
+    "enabled": true
+  },
+  {
+    "id": "bulk-naidan-bv14yto62esb-121",
+    "name": "奶蛋 · 奶蛋独自站在深蓝雪夜里",
+    "character": "奶蛋",
+    "filename": "bulk-naidan/BV14yto62ESb-121.jpg",
+    "action": "奶蛋独自站在深蓝雪夜里",
+    "emotion": [
+      "平静",
+      "孤独"
+    ],
+    "scenes": [
+      "晚安",
+      "等人"
+    ],
+    "examples": [
+      "我就静静待着"
+    ],
+    "existing_text": "原视频字幕与平台水印（保留）",
+    "intensity": 3,
+    "source_type": "reference",
+    "author": "奶史_",
+    "source_url": "https://www.bilibili.com/video/BV14yto62ESb/",
+    "source_note": "公开B站同人视频《选择奶蛋还是奶狗？【AI全民制作人】》第121秒截图；发布者奶史_，来源声明含AI生成内容，不是奶龙官方原画。人工按蛋形身体与绿眼圈确认奶蛋；原视频画面、字幕及水印保留。该视频多帧不代表多份独立作品。",
+    "role": "subject",
+    "is_cutout": false,
+    "templates": [
+      "top",
+      "bottom",
+      "split",
+      "frame",
+      "grid",
+      "message",
+      "poster",
+      "side",
+      "polaroid",
+      "bubble",
+      "dialogue",
+      "spotlight",
+      "comic",
+      "subtitle",
+      "note",
+      "window",
+      "ticket",
+      "medal",
+      "scene"
+    ],
+    "enabled": true
+  },
+  {
+    "id": "bulk-naidan-bv14yto62esb-129",
+    "name": "奶蛋 · 雪地里的奶蛋抬头望着天空",
+    "character": "奶蛋",
+    "filename": "bulk-naidan/BV14yto62ESb-129.jpg",
+    "action": "雪地里的奶蛋抬头望着天空",
+    "emotion": [
+      "期待",
+      "可爱"
+    ],
+    "scenes": [
+      "许愿",
+      "等放假"
+    ],
+    "examples": [
+      "愿望马上实现"
+    ],
+    "existing_text": "原视频字幕与平台水印（保留）",
+    "intensity": 3,
+    "source_type": "reference",
+    "author": "奶史_",
+    "source_url": "https://www.bilibili.com/video/BV14yto62ESb/",
+    "source_note": "公开B站同人视频《选择奶蛋还是奶狗？【AI全民制作人】》第129秒截图；发布者奶史_，来源声明含AI生成内容，不是奶龙官方原画。人工按蛋形身体与绿眼圈确认奶蛋；原视频画面、字幕及水印保留。该视频多帧不代表多份独立作品。",
+    "role": "subject",
+    "is_cutout": false,
+    "templates": [
+      "top",
+      "bottom",
+      "split",
+      "frame",
+      "grid",
+      "message",
+      "poster",
+      "side",
+      "polaroid",
+      "bubble",
+      "dialogue",
+      "spotlight",
+      "comic",
+      "subtitle",
+      "note",
+      "window",
+      "ticket",
+      "medal",
+      "scene"
+    ],
+    "enabled": true
+  },
+  {
+    "id": "bulk-naidan-bv14yto62esb-141",
+    "name": "奶蛋 · 奶蛋背对镜头面对远处汽车",
+    "character": "奶蛋",
+    "filename": "bulk-naidan/BV14yto62ESb-141.jpg",
+    "action": "奶蛋背对镜头面对远处汽车",
+    "emotion": [
+      "平静",
+      "期待"
+    ],
+    "scenes": [
+      "出发",
+      "回家"
+    ],
+    "examples": [
+      "该回家了"
+    ],
+    "existing_text": "原视频字幕与平台水印（保留）",
+    "intensity": 3,
+    "source_type": "reference",
+    "author": "奶史_",
+    "source_url": "https://www.bilibili.com/video/BV14yto62ESb/",
+    "source_note": "公开B站同人视频《选择奶蛋还是奶狗？【AI全民制作人】》第141秒截图；发布者奶史_，来源声明含AI生成内容，不是奶龙官方原画。人工按蛋形身体与绿眼圈确认奶蛋；原视频画面、字幕及水印保留。该视频多帧不代表多份独立作品。",
+    "role": "subject",
+    "is_cutout": false,
+    "templates": [
+      "top",
+      "bottom",
+      "split",
+      "frame",
+      "grid",
+      "message",
+      "poster",
+      "side",
+      "polaroid",
+      "bubble",
+      "dialogue",
+      "spotlight",
+      "comic",
+      "subtitle",
+      "note",
+      "window",
+      "ticket",
+      "medal",
+      "scene"
+    ],
+    "enabled": true
+  },
+  {
+    "id": "bulk-naidan-bv1e28b6nej7-001",
+    "name": "奶蛋 · 蛋形奶蛋和高个奶蛙站在走廊",
+    "character": "奶蛋",
+    "filename": "bulk-naidan/BV1E28B6nEJ7-001.jpg",
+    "action": "蛋形奶蛋和高个奶蛙站在走廊",
+    "emotion": [
+      "迷茫",
+      "期待"
+    ],
+    "scenes": [
+      "组队",
+      "夜班"
+    ],
+    "examples": [
+      "今晚谁陪我"
+    ],
+    "existing_text": "原视频字幕与平台水印（保留）",
+    "intensity": 3,
+    "source_type": "reference",
+    "author": "奇遇0007",
+    "source_url": "https://www.bilibili.com/video/BV1E28B6nEJ7/",
+    "source_note": "公开B站同人视频《选择一个同伴 #奶蛙 #奶蛋》第1秒截图；发布者奇遇0007，来源声明含AI生成内容，不是奶龙官方原画。人工按蛋形身体与绿眼圈确认奶蛋；原视频画面、字幕及水印保留。该视频多帧不代表多份独立作品。",
+    "role": "subject",
+    "is_cutout": false,
+    "templates": [
+      "top",
+      "bottom",
+      "split",
+      "frame",
+      "grid",
+      "message",
+      "poster",
+      "side",
+      "polaroid",
+      "bubble",
+      "dialogue",
+      "spotlight",
+      "comic",
+      "subtitle",
+      "note",
+      "window",
+      "ticket",
+      "medal",
+      "scene"
+    ],
+    "enabled": true
+  },
+  {
+    "id": "bulk-naidan-bv1e28b6nej7-097",
+    "name": "奶蛋 · 奶蛋站在走廊灯下咧嘴笑",
+    "character": "奶蛋",
+    "filename": "bulk-naidan/BV1E28B6nEJ7-097.jpg",
+    "action": "奶蛋站在走廊灯下咧嘴笑",
+    "emotion": [
+      "开心",
+      "呆萌"
+    ],
+    "scenes": [
+      "接话",
+      "惊喜"
+    ],
+    "examples": [
+      "终于轮到我了"
+    ],
+    "existing_text": "原视频字幕与平台水印（保留）",
+    "intensity": 3,
+    "source_type": "reference",
+    "author": "奇遇0007",
+    "source_url": "https://www.bilibili.com/video/BV1E28B6nEJ7/",
+    "source_note": "公开B站同人视频《选择一个同伴 #奶蛙 #奶蛋》第97秒截图；发布者奇遇0007，来源声明含AI生成内容，不是奶龙官方原画。人工按蛋形身体与绿眼圈确认奶蛋；原视频画面、字幕及水印保留。该视频多帧不代表多份独立作品。",
+    "role": "subject",
+    "is_cutout": false,
+    "templates": [
+      "top",
+      "bottom",
+      "split",
+      "frame",
+      "grid",
+      "message",
+      "poster",
+      "side",
+      "polaroid",
+      "bubble",
+      "dialogue",
+      "spotlight",
+      "comic",
+      "subtitle",
+      "note",
+      "window",
+      "ticket",
+      "medal",
+      "scene"
+    ],
+    "enabled": true
+  },
+  {
+    "id": "bulk-naidan-bv1kj8n6fenn-001",
+    "name": "奶蛋 · 奶蛋与长耳伙伴在昏暗大厅",
+    "character": "奶蛋",
+    "filename": "bulk-naidan/BV1kJ8N6fENn-001.jpg",
+    "action": "奶蛋与长耳伙伴在昏暗大厅",
+    "emotion": [
+      "好奇",
+      "期待"
+    ],
+    "scenes": [
+      "选搭子",
+      "组队"
+    ],
+    "examples": [
+      "带我一个"
+    ],
+    "existing_text": "原视频字幕与平台水印（保留）",
+    "intensity": 3,
+    "source_type": "reference",
+    "author": "一方鸟憨",
+    "source_url": "https://www.bilibili.com/video/BV1kJ8N6fENn/",
+    "source_note": "公开B站同人视频《选择你的同伴：美团老鼠还是奶蛋？》第1秒截图；发布者一方鸟憨，来源声明含AI生成内容，不是奶龙官方原画。人工按蛋形身体与绿眼圈确认奶蛋；原视频画面、字幕及水印保留。该视频多帧不代表多份独立作品。",
+    "role": "subject",
+    "is_cutout": false,
+    "templates": [
+      "top",
+      "bottom",
+      "split",
+      "frame",
+      "grid",
+      "message",
+      "poster",
+      "side",
+      "polaroid",
+      "bubble",
+      "dialogue",
+      "spotlight",
+      "comic",
+      "subtitle",
+      "note",
+      "window",
+      "ticket",
+      "medal",
+      "scene"
+    ],
+    "enabled": true
+  },
+  {
+    "id": "bulk-naidan-bv1kj8n6fenn-077",
+    "name": "奶蛋 · 小小奶蛋坐在地下车库的汽车上",
+    "character": "奶蛋",
+    "filename": "bulk-naidan/BV1kJ8N6fENn-077.jpg",
+    "action": "小小奶蛋坐在地下车库的汽车上",
+    "emotion": [
+      "平静",
+      "自信"
+    ],
+    "scenes": [
+      "赶路",
+      "接人"
+    ],
+    "examples": [
+      "我来接你"
+    ],
+    "existing_text": "原视频字幕与平台水印（保留）",
+    "intensity": 3,
+    "source_type": "reference",
+    "author": "一方鸟憨",
+    "source_url": "https://www.bilibili.com/video/BV1kJ8N6fENn/",
+    "source_note": "公开B站同人视频《选择你的同伴：美团老鼠还是奶蛋？》第77秒截图；发布者一方鸟憨，来源声明含AI生成内容，不是奶龙官方原画。人工按蛋形身体与绿眼圈确认奶蛋；原视频画面、字幕及水印保留。该视频多帧不代表多份独立作品。",
+    "role": "subject",
+    "is_cutout": false,
+    "templates": [
+      "top",
+      "bottom",
+      "split",
+      "frame",
+      "grid",
+      "message",
+      "poster",
+      "side",
+      "polaroid",
+      "bubble",
+      "dialogue",
+      "spotlight",
+      "comic",
+      "subtitle",
+      "note",
+      "window",
+      "ticket",
+      "medal",
+      "scene"
+    ],
+    "enabled": true
+  },
+  {
+    "id": "bulk-naidan-bv1kj8n6fenn-081",
+    "name": "奶蛋 · 奶蛋坐在跑车上正面对着镜头",
+    "character": "奶蛋",
+    "filename": "bulk-naidan/BV1kJ8N6fENn-081.jpg",
+    "action": "奶蛋坐在跑车上正面对着镜头",
+    "emotion": [
+      "得意",
+      "开心"
+    ],
+    "scenes": [
+      "出发",
+      "整活"
+    ],
+    "examples": [
+      "上车，出发"
+    ],
+    "existing_text": "原视频字幕与平台水印（保留）",
+    "intensity": 3,
+    "source_type": "reference",
+    "author": "一方鸟憨",
+    "source_url": "https://www.bilibili.com/video/BV1kJ8N6fENn/",
+    "source_note": "公开B站同人视频《选择你的同伴：美团老鼠还是奶蛋？》第81秒截图；发布者一方鸟憨，来源声明含AI生成内容，不是奶龙官方原画。人工按蛋形身体与绿眼圈确认奶蛋；原视频画面、字幕及水印保留。该视频多帧不代表多份独立作品。",
+    "role": "subject",
+    "is_cutout": false,
+    "templates": [
+      "top",
+      "bottom",
+      "split",
+      "frame",
+      "grid",
+      "message",
+      "poster",
+      "side",
+      "polaroid",
+      "bubble",
+      "dialogue",
+      "spotlight",
+      "comic",
+      "subtitle",
+      "note",
+      "window",
+      "ticket",
+      "medal",
+      "scene"
+    ],
+    "enabled": true
+  },
+  {
+    "id": "bulk-naidan-bv15lhh6hewe-001",
+    "name": "奶蛋 · 奶蛋在明亮客厅地毯上侧身蹦跳",
+    "character": "奶蛋",
+    "filename": "bulk-naidan/BV15LhH6hEwE-001.jpg",
+    "action": "奶蛋在明亮客厅地毯上侧身蹦跳",
+    "emotion": [
+      "开心",
+      "放松"
+    ],
+    "scenes": [
+      "下课",
+      "周末"
+    ],
+    "examples": [
+      "终于到家了"
+    ],
+    "existing_text": "原视频字幕与平台水印（保留）",
+    "intensity": 3,
+    "source_type": "reference",
+    "author": "神奇鼠妹",
+    "source_url": "https://www.bilibili.com/video/BV15LhH6hEwE/",
+    "source_note": "公开B站同人视频《在家里蹦蹦跳跳的奶蛋》第1秒截图；发布者神奇鼠妹，来源声明含AI生成内容，不是奶龙官方原画。人工按蛋形身体与绿眼圈确认奶蛋；原视频画面、字幕及水印保留。该视频多帧不代表多份独立作品。",
+    "role": "subject",
+    "is_cutout": false,
+    "templates": [
+      "top",
+      "bottom",
+      "split",
+      "frame",
+      "grid",
+      "message",
+      "poster",
+      "side",
+      "polaroid",
+      "bubble",
+      "dialogue",
+      "spotlight",
+      "comic",
+      "subtitle",
+      "note",
+      "window",
+      "ticket",
+      "medal",
+      "scene"
+    ],
+    "enabled": true
+  },
+  {
+    "id": "bulk-naidan-bv15lhh6hewe-005",
+    "name": "奶蛋 · 奶蛋在客厅蹦到镜头前",
+    "character": "奶蛋",
+    "filename": "bulk-naidan/BV15LhH6hEwE-005.jpg",
+    "action": "奶蛋在客厅蹦到镜头前",
+    "emotion": [
+      "兴奋",
+      "可爱"
+    ],
+    "scenes": [
+      "见面",
+      "打招呼"
+    ],
+    "examples": [
+      "我来啦"
+    ],
+    "existing_text": "原视频字幕与平台水印（保留）",
+    "intensity": 3,
+    "source_type": "reference",
+    "author": "神奇鼠妹",
+    "source_url": "https://www.bilibili.com/video/BV15LhH6hEwE/",
+    "source_note": "公开B站同人视频《在家里蹦蹦跳跳的奶蛋》第5秒截图；发布者神奇鼠妹，来源声明含AI生成内容，不是奶龙官方原画。人工按蛋形身体与绿眼圈确认奶蛋；原视频画面、字幕及水印保留。该视频多帧不代表多份独立作品。",
+    "role": "subject",
+    "is_cutout": false,
+    "templates": [
+      "top",
+      "bottom",
+      "split",
+      "frame",
+      "grid",
+      "message",
+      "poster",
+      "side",
+      "polaroid",
+      "bubble",
+      "dialogue",
+      "spotlight",
+      "comic",
+      "subtitle",
+      "note",
+      "window",
+      "ticket",
+      "medal",
+      "scene"
+    ],
+    "enabled": true
+  },
+  {
+    "id": "bulk-naidan-bv1dnzwbuezw-001",
+    "name": "奶蛋 · 戴头盔的奶蛋驾驶小赛车压弯",
+    "character": "奶蛋",
+    "filename": "bulk-naidan/BV1dnZWBuEzw-001.jpg",
+    "action": "戴头盔的奶蛋驾驶小赛车压弯",
+    "emotion": [
+      "自信",
+      "兴奋"
+    ],
+    "scenes": [
+      "赶路",
+      "赶DDL"
+    ],
+    "examples": [
+      "全速前进"
+    ],
+    "existing_text": "原视频字幕与平台水印（保留）",
+    "intensity": 3,
+    "source_type": "reference",
+    "author": "神有点人",
+    "source_url": "https://www.bilibili.com/video/BV1dnZWBuEzw/",
+    "source_note": "公开B站同人视频《奶蛋赛车》第1秒截图；发布者神有点人，来源声明含AI生成内容，不是奶龙官方原画。人工按蛋形身体与绿眼圈确认奶蛋；原视频画面、字幕及水印保留。该视频多帧不代表多份独立作品。",
+    "role": "subject",
+    "is_cutout": false,
+    "templates": [
+      "top",
+      "bottom",
+      "split",
+      "frame",
+      "grid",
+      "message",
+      "poster",
+      "side",
+      "polaroid",
+      "bubble",
+      "dialogue",
+      "spotlight",
+      "comic",
+      "subtitle",
+      "note",
+      "window",
+      "ticket",
+      "medal",
+      "scene"
+    ],
+    "enabled": true
+  },
+  {
+    "id": "bulk-naidan-bv1akeu6nenh-001",
+    "name": "奶蛋 · 一只手捏着奶蛋脸颊",
+    "character": "奶蛋",
+    "filename": "bulk-naidan/BV1akeu6NENh-001.jpg",
+    "action": "一只手捏着奶蛋脸颊",
+    "emotion": [
+      "委屈",
+      "呆萌"
+    ],
+    "scenes": [
+      "被捏脸",
+      "卖萌"
+    ],
+    "examples": [
+      "轻点捏嘛"
+    ],
+    "existing_text": "原视频字幕与平台水印（保留）",
+    "intensity": 3,
+    "source_type": "reference",
+    "author": "奶蛋厨-",
+    "source_url": "https://www.bilibili.com/video/BV1akeu6NENh/",
+    "source_note": "公开B站同人视频《解压奶蛋捏捏◉‿◉》第1秒截图；发布者奶蛋厨-，来源声明含AI生成内容，不是奶龙官方原画。人工按蛋形身体与绿眼圈确认奶蛋；原视频画面、字幕及水印保留。该视频多帧不代表多份独立作品。",
+    "role": "subject",
+    "is_cutout": false,
+    "templates": [
+      "top",
+      "bottom",
+      "split",
+      "frame",
+      "grid",
+      "message",
+      "poster",
+      "side",
+      "polaroid",
+      "bubble",
+      "dialogue",
+      "spotlight",
+      "comic",
+      "subtitle",
+      "note",
+      "window",
+      "ticket",
+      "medal",
+      "scene"
+    ],
+    "enabled": true
+  },
+  {
+    "id": "bulk-naidan-bv1akeu6nenh-013",
+    "name": "奶蛋 · 奶蛋被双手挤成长脸",
+    "character": "奶蛋",
+    "filename": "bulk-naidan/BV1akeu6NENh-013.jpg",
+    "action": "奶蛋被双手挤成长脸",
+    "emotion": [
+      "无语",
+      "委屈"
+    ],
+    "scenes": [
+      "压力",
+      "作业太多"
+    ],
+    "examples": [
+      "被生活挤扁了"
+    ],
+    "existing_text": "原视频字幕与平台水印（保留）",
+    "intensity": 3,
+    "source_type": "reference",
+    "author": "奶蛋厨-",
+    "source_url": "https://www.bilibili.com/video/BV1akeu6NENh/",
+    "source_note": "公开B站同人视频《解压奶蛋捏捏◉‿◉》第13秒截图；发布者奶蛋厨-，来源声明含AI生成内容，不是奶龙官方原画。人工按蛋形身体与绿眼圈确认奶蛋；原视频画面、字幕及水印保留。该视频多帧不代表多份独立作品。",
+    "role": "subject",
+    "is_cutout": false,
+    "templates": [
+      "top",
+      "bottom",
+      "split",
+      "frame",
+      "grid",
+      "message",
+      "poster",
+      "side",
+      "polaroid",
+      "bubble",
+      "dialogue",
+      "spotlight",
+      "comic",
+      "subtitle",
+      "note",
+      "window",
+      "ticket",
+      "medal",
+      "scene"
+    ],
+    "enabled": true
+  },
+  {
+    "id": "bulk-naidan-bv1akeu6nenh-021",
+    "name": "奶蛋 · 多个包装好的奶蛋捏捏摆在桌上",
+    "character": "奶蛋",
+    "filename": "bulk-naidan/BV1akeu6NENh-021.jpg",
+    "action": "多个包装好的奶蛋捏捏摆在桌上",
+    "emotion": [
+      "可爱",
+      "期待"
+    ],
+    "scenes": [
+      "收集",
+      "团建"
+    ],
+    "examples": [
+      "都是我的小伙伴"
+    ],
+    "existing_text": "原视频字幕与平台水印（保留）",
+    "intensity": 3,
+    "source_type": "reference",
+    "author": "奶蛋厨-",
+    "source_url": "https://www.bilibili.com/video/BV1akeu6NENh/",
+    "source_note": "公开B站同人视频《解压奶蛋捏捏◉‿◉》第21秒截图；发布者奶蛋厨-，来源声明含AI生成内容，不是奶龙官方原画。人工按蛋形身体与绿眼圈确认奶蛋；原视频画面、字幕及水印保留。该视频多帧不代表多份独立作品。",
+    "role": "subject",
+    "is_cutout": false,
+    "templates": [
+      "top",
+      "bottom",
+      "split",
+      "frame",
+      "grid",
+      "message",
+      "poster",
+      "side",
+      "polaroid",
+      "bubble",
+      "dialogue",
+      "spotlight",
+      "comic",
+      "subtitle",
+      "note",
+      "window",
+      "ticket",
+      "medal",
+      "scene"
+    ],
+    "enabled": true
+  },
+  {
+    "id": "bulk-naidan-bv1akeu6nenh-025",
+    "name": "奶蛋 · 奶蛋捏捏和许多动物造型摆在一起",
+    "character": "奶蛋",
+    "filename": "bulk-naidan/BV1akeu6NENh-025.jpg",
+    "action": "奶蛋捏捏和许多动物造型摆在一起",
+    "emotion": [
+      "开心",
+      "可爱"
+    ],
+    "scenes": [
+      "聚会",
+      "选角色"
+    ],
+    "examples": [
+      "今天选哪个"
+    ],
+    "existing_text": "原视频字幕与平台水印（保留）",
+    "intensity": 3,
+    "source_type": "reference",
+    "author": "奶蛋厨-",
+    "source_url": "https://www.bilibili.com/video/BV1akeu6NENh/",
+    "source_note": "公开B站同人视频《解压奶蛋捏捏◉‿◉》第25秒截图；发布者奶蛋厨-，来源声明含AI生成内容，不是奶龙官方原画。人工按蛋形身体与绿眼圈确认奶蛋；原视频画面、字幕及水印保留。该视频多帧不代表多份独立作品。",
+    "role": "subject",
+    "is_cutout": false,
+    "templates": [
+      "top",
+      "bottom",
+      "split",
+      "frame",
+      "grid",
+      "message",
+      "poster",
+      "side",
+      "polaroid",
+      "bubble",
+      "dialogue",
+      "spotlight",
+      "comic",
+      "subtitle",
+      "note",
+      "window",
+      "ticket",
+      "medal",
+      "scene"
+    ],
+    "enabled": true
+  },
+  {
+    "id": "bulk-naidan-bv1akeu6nenh-033",
+    "name": "奶蛋 · 手指戳着圆圆奶蛋玩偶的脸",
+    "character": "奶蛋",
+    "filename": "bulk-naidan/BV1akeu6NENh-033.jpg",
+    "action": "手指戳着圆圆奶蛋玩偶的脸",
+    "emotion": [
+      "呆萌",
+      "放松"
+    ],
+    "scenes": [
+      "解压",
+      "摸鱼"
+    ],
+    "examples": [
+      "戳一下再上课"
+    ],
+    "existing_text": "原视频字幕与平台水印（保留）",
+    "intensity": 3,
+    "source_type": "reference",
+    "author": "奶蛋厨-",
+    "source_url": "https://www.bilibili.com/video/BV1akeu6NENh/",
+    "source_note": "公开B站同人视频《解压奶蛋捏捏◉‿◉》第33秒截图；发布者奶蛋厨-，来源声明含AI生成内容，不是奶龙官方原画。人工按蛋形身体与绿眼圈确认奶蛋；原视频画面、字幕及水印保留。该视频多帧不代表多份独立作品。",
+    "role": "subject",
+    "is_cutout": false,
+    "templates": [
+      "top",
+      "bottom",
+      "split",
+      "frame",
+      "grid",
+      "message",
+      "poster",
+      "side",
+      "polaroid",
+      "bubble",
+      "dialogue",
+      "spotlight",
+      "comic",
+      "subtitle",
+      "note",
+      "window",
+      "ticket",
+      "medal",
+      "scene"
+    ],
+    "enabled": true
+  },
+  {
+    "id": "bulk-naidan-bv1akeu6nenh-041",
+    "name": "奶蛋 · 星形奶蛋捏捏摊在桌面",
+    "character": "奶蛋",
+    "filename": "bulk-naidan/BV1akeu6NENh-041.jpg",
+    "action": "星形奶蛋捏捏摊在桌面",
+    "emotion": [
+      "放松",
+      "无语"
+    ],
+    "scenes": [
+      "躺平",
+      "累了"
+    ],
+    "examples": [
+      "已经摊成一张饼"
+    ],
+    "existing_text": "原视频字幕与平台水印（保留）",
+    "intensity": 3,
+    "source_type": "reference",
+    "author": "奶蛋厨-",
+    "source_url": "https://www.bilibili.com/video/BV1akeu6NENh/",
+    "source_note": "公开B站同人视频《解压奶蛋捏捏◉‿◉》第41秒截图；发布者奶蛋厨-，来源声明含AI生成内容，不是奶龙官方原画。人工按蛋形身体与绿眼圈确认奶蛋；原视频画面、字幕及水印保留。该视频多帧不代表多份独立作品。",
+    "role": "subject",
+    "is_cutout": false,
+    "templates": [
+      "top",
+      "bottom",
+      "split",
+      "frame",
+      "grid",
+      "message",
+      "poster",
+      "side",
+      "polaroid",
+      "bubble",
+      "dialogue",
+      "spotlight",
+      "comic",
+      "subtitle",
+      "note",
+      "window",
+      "ticket",
+      "medal",
+      "scene"
+    ],
+    "enabled": true
+  },
+  {
+    "id": "bulk-naidan-bv1akeu6nenh-045",
+    "name": "奶蛋 · 星形奶蛋被双手拉成长条",
+    "character": "奶蛋",
+    "filename": "bulk-naidan/BV1akeu6NENh-045.jpg",
+    "action": "星形奶蛋被双手拉成长条",
+    "emotion": [
+      "慌张",
+      "无语"
+    ],
+    "scenes": [
+      "赶DDL",
+      "被拉扯"
+    ],
+    "examples": [
+      "不要再拉扯我了"
+    ],
+    "existing_text": "原视频字幕与平台水印（保留）",
+    "intensity": 3,
+    "source_type": "reference",
+    "author": "奶蛋厨-",
+    "source_url": "https://www.bilibili.com/video/BV1akeu6NENh/",
+    "source_note": "公开B站同人视频《解压奶蛋捏捏◉‿◉》第45秒截图；发布者奶蛋厨-，来源声明含AI生成内容，不是奶龙官方原画。人工按蛋形身体与绿眼圈确认奶蛋；原视频画面、字幕及水印保留。该视频多帧不代表多份独立作品。",
+    "role": "subject",
+    "is_cutout": false,
+    "templates": [
+      "top",
+      "bottom",
+      "split",
+      "frame",
+      "grid",
+      "message",
+      "poster",
+      "side",
+      "polaroid",
+      "bubble",
+      "dialogue",
+      "spotlight",
+      "comic",
+      "subtitle",
+      "note",
+      "window",
+      "ticket",
+      "medal",
+      "scene"
+    ],
+    "enabled": true
+  },
+  {
+    "id": "bulk-naidan-bv1qs846uea5-001",
+    "name": "奶蛋 · 蛋形奶蛋站在雨夜巷子里",
+    "character": "奶蛋",
+    "filename": "bulk-naidan/BV1qS846UEa5-001.jpg",
+    "action": "蛋形奶蛋站在雨夜巷子里",
+    "emotion": [
+      "孤独",
+      "期待"
+    ],
+    "scenes": [
+      "等人",
+      "求收留"
+    ],
+    "examples": [
+      "可以带我回家吗"
+    ],
+    "existing_text": "原视频字幕与平台水印（保留）",
+    "intensity": 3,
+    "source_type": "reference",
+    "author": "策束手无策",
+    "source_url": "https://www.bilibili.com/video/BV1qS846UEa5/",
+    "source_note": "公开B站同人视频《深夜回家捡到一个奶蛋……》第1秒截图；发布者策束手无策，来源声明含AI生成内容，不是奶龙官方原画。人工按蛋形身体与绿眼圈确认奶蛋；原视频画面、字幕及水印保留。该视频多帧不代表多份独立作品。",
+    "role": "subject",
+    "is_cutout": false,
+    "templates": [
+      "top",
+      "bottom",
+      "split",
+      "frame",
+      "grid",
+      "message",
+      "poster",
+      "side",
+      "polaroid",
+      "bubble",
+      "dialogue",
+      "spotlight",
+      "comic",
+      "subtitle",
+      "note",
+      "window",
+      "ticket",
+      "medal",
+      "scene"
+    ],
+    "enabled": true
+  },
+  {
+    "id": "bulk-naidan-bv1qs846uea5-009",
+    "name": "奶蛋 · 巷子里的奶蛋抬头望着镜头",
+    "character": "奶蛋",
+    "filename": "bulk-naidan/BV1qS846UEa5-009.jpg",
+    "action": "巷子里的奶蛋抬头望着镜头",
+    "emotion": [
+      "无辜",
+      "可爱"
+    ],
+    "scenes": [
+      "求帮助",
+      "撒娇"
+    ],
+    "examples": [
+      "看看我嘛"
+    ],
+    "existing_text": "原视频字幕与平台水印（保留）",
+    "intensity": 3,
+    "source_type": "reference",
+    "author": "策束手无策",
+    "source_url": "https://www.bilibili.com/video/BV1qS846UEa5/",
+    "source_note": "公开B站同人视频《深夜回家捡到一个奶蛋……》第9秒截图；发布者策束手无策，来源声明含AI生成内容，不是奶龙官方原画。人工按蛋形身体与绿眼圈确认奶蛋；原视频画面、字幕及水印保留。该视频多帧不代表多份独立作品。",
+    "role": "subject",
+    "is_cutout": false,
+    "templates": [
+      "top",
+      "bottom",
+      "split",
+      "frame",
+      "grid",
+      "message",
+      "poster",
+      "side",
+      "polaroid",
+      "bubble",
+      "dialogue",
+      "spotlight",
+      "comic",
+      "subtitle",
+      "note",
+      "window",
+      "ticket",
+      "medal",
+      "scene"
+    ],
+    "enabled": true
+  },
+  {
+    "id": "bulk-naidan-bv1qs846uea5-041",
+    "name": "奶蛋 · 厨房里有一群小奶蛋等开饭",
+    "character": "奶蛋",
+    "filename": "bulk-naidan/BV1qS846UEa5-041.jpg",
+    "action": "厨房里有一群小奶蛋等开饭",
+    "emotion": [
+      "开心",
+      "期待"
+    ],
+    "scenes": [
+      "吃饭",
+      "等外卖"
+    ],
+    "examples": [
+      "饭做好了吗"
+    ],
+    "existing_text": "原视频字幕与平台水印（保留）",
+    "intensity": 3,
+    "source_type": "reference",
+    "author": "策束手无策",
+    "source_url": "https://www.bilibili.com/video/BV1qS846UEa5/",
+    "source_note": "公开B站同人视频《深夜回家捡到一个奶蛋……》第41秒截图；发布者策束手无策，来源声明含AI生成内容，不是奶龙官方原画。人工按蛋形身体与绿眼圈确认奶蛋；原视频画面、字幕及水印保留。该视频多帧不代表多份独立作品。",
+    "role": "subject",
+    "is_cutout": false,
+    "templates": [
+      "top",
+      "bottom",
+      "split",
+      "frame",
+      "grid",
+      "message",
+      "poster",
+      "side",
+      "polaroid",
+      "bubble",
+      "dialogue",
+      "spotlight",
+      "comic",
+      "subtitle",
+      "note",
+      "window",
+      "ticket",
+      "medal",
+      "scene"
+    ],
+    "enabled": true
+  },
+  {
+    "id": "bulk-naidan-bv1qs846uea5-045",
+    "name": "奶蛋 · 奶蛋们围着锅等待食物",
+    "character": "奶蛋",
+    "filename": "bulk-naidan/BV1qS846UEa5-045.jpg",
+    "action": "奶蛋们围着锅等待食物",
+    "emotion": [
+      "期待",
+      "开心"
+    ],
+    "scenes": [
+      "聚餐",
+      "吃饭"
+    ],
+    "examples": [
+      "等不及开饭了"
+    ],
+    "existing_text": "原视频字幕与平台水印（保留）",
+    "intensity": 3,
+    "source_type": "reference",
+    "author": "策束手无策",
+    "source_url": "https://www.bilibili.com/video/BV1qS846UEa5/",
+    "source_note": "公开B站同人视频《深夜回家捡到一个奶蛋……》第45秒截图；发布者策束手无策，来源声明含AI生成内容，不是奶龙官方原画。人工按蛋形身体与绿眼圈确认奶蛋；原视频画面、字幕及水印保留。该视频多帧不代表多份独立作品。",
+    "role": "subject",
+    "is_cutout": false,
+    "templates": [
+      "top",
+      "bottom",
+      "split",
+      "frame",
+      "grid",
+      "message",
+      "poster",
+      "side",
+      "polaroid",
+      "bubble",
+      "dialogue",
+      "spotlight",
+      "comic",
+      "subtitle",
+      "note",
+      "window",
+      "ticket",
+      "medal",
+      "scene"
+    ],
+    "enabled": true
+  },
+  {
+    "id": "bulk-naidan-bv1yrgx6oek2-005",
+    "name": "奶蛋 · 短肢幼年奶蛋趴在草地上微笑",
+    "character": "奶蛋",
+    "filename": "bulk-naidan/BV1YRgx6oEk2-005.jpg",
+    "action": "短肢幼年奶蛋趴在草地上微笑",
+    "emotion": [
+      "可爱",
+      "开心"
+    ],
+    "scenes": [
+      "晒太阳",
+      "周末"
+    ],
+    "examples": [
+      "今天也慢慢来"
+    ],
+    "existing_text": "原视频字幕与平台水印（保留）",
+    "intensity": 3,
+    "source_type": "reference",
+    "author": "树苗爱骨粉",
+    "source_url": "https://www.bilibili.com/video/BV1YRgx6oEk2/",
+    "source_note": "公开B站同人视频《10月龄的奶蛋正在练习掌握四肢》第5秒截图；发布者树苗爱骨粉，来源声明含AI生成内容，不是奶龙官方原画。人工按蛋形身体与绿眼圈确认奶蛋；原视频画面、字幕及水印保留。该视频多帧不代表多份独立作品。",
+    "role": "subject",
+    "is_cutout": false,
+    "templates": [
+      "top",
+      "bottom",
+      "split",
+      "frame",
+      "grid",
+      "message",
+      "poster",
+      "side",
+      "polaroid",
+      "bubble",
+      "dialogue",
+      "spotlight",
+      "comic",
+      "subtitle",
+      "note",
+      "window",
+      "ticket",
+      "medal",
+      "scene"
+    ],
+    "enabled": true
+  },
+  {
+    "id": "bulk-naidan-bv1yrgx6oek2-009",
+    "name": "奶蛋 · 一群短肢小奶蛋在草地上爬行",
+    "character": "奶蛋",
+    "filename": "bulk-naidan/BV1YRgx6oEk2-009.jpg",
+    "action": "一群短肢小奶蛋在草地上爬行",
+    "emotion": [
+      "开心",
+      "可爱"
+    ],
+    "scenes": [
+      "团建",
+      "组队"
+    ],
+    "examples": [
+      "大家一起慢慢爬"
+    ],
+    "existing_text": "原视频字幕与平台水印（保留）",
+    "intensity": 3,
+    "source_type": "reference",
+    "author": "树苗爱骨粉",
+    "source_url": "https://www.bilibili.com/video/BV1YRgx6oEk2/",
+    "source_note": "公开B站同人视频《10月龄的奶蛋正在练习掌握四肢》第9秒截图；发布者树苗爱骨粉，来源声明含AI生成内容，不是奶龙官方原画。人工按蛋形身体与绿眼圈确认奶蛋；原视频画面、字幕及水印保留。该视频多帧不代表多份独立作品。",
+    "role": "subject",
+    "is_cutout": false,
+    "templates": [
+      "top",
+      "bottom",
+      "split",
+      "frame",
+      "grid",
+      "message",
+      "poster",
+      "side",
+      "polaroid",
+      "bubble",
+      "dialogue",
+      "spotlight",
+      "comic",
+      "subtitle",
+      "note",
+      "window",
+      "ticket",
+      "medal",
+      "scene"
+    ],
+    "enabled": true
+  },
+  {
+    "id": "bulk-naidan-bv1kdbq6oemk-001",
+    "name": "奶蛋 · 奶蛋和伙伴在邮轮旁的沙滩上",
+    "character": "奶蛋",
+    "filename": "bulk-naidan/BV1kdbQ6oEmK-001.jpg",
+    "action": "奶蛋和伙伴在邮轮旁的沙滩上",
+    "emotion": [
+      "期待",
+      "平静"
+    ],
+    "scenes": [
+      "出游",
+      "度假"
+    ],
+    "examples": [
+      "准备出发啦"
+    ],
+    "existing_text": "原视频字幕与平台水印（保留）",
+    "intensity": 3,
+    "source_type": "reference",
+    "author": "网友烤全羊",
+    "source_url": "https://www.bilibili.com/video/BV1kdbQ6oEmK/",
+    "source_note": "公开B站同人视频《不同音效下的奶蛋大喊安迪》第1秒截图；发布者网友烤全羊，来源声明含AI生成内容，不是奶龙官方原画。人工按蛋形身体与绿眼圈确认奶蛋；原视频画面、字幕及水印保留。该视频多帧不代表多份独立作品。",
+    "role": "subject",
+    "is_cutout": false,
+    "templates": [
+      "top",
+      "bottom",
+      "split",
+      "frame",
+      "grid",
+      "message",
+      "poster",
+      "side",
+      "polaroid",
+      "bubble",
+      "dialogue",
+      "spotlight",
+      "comic",
+      "subtitle",
+      "note",
+      "window",
+      "ticket",
+      "medal",
+      "scene"
+    ],
+    "enabled": true
+  },
+  {
+    "id": "bulk-naidan-bv1kdbq6oemk-009",
+    "name": "奶蛋 · 奶蛋在沙滩上张嘴笑",
+    "character": "奶蛋",
+    "filename": "bulk-naidan/BV1kdbQ6oEmK-009.jpg",
+    "action": "奶蛋在沙滩上张嘴笑",
+    "emotion": [
+      "开心",
+      "兴奋"
+    ],
+    "scenes": [
+      "大笑",
+      "惊喜"
+    ],
+    "examples": [
+      "哈哈，安迪！"
+    ],
+    "existing_text": "原视频字幕与平台水印（保留）",
+    "intensity": 3,
+    "source_type": "reference",
+    "author": "网友烤全羊",
+    "source_url": "https://www.bilibili.com/video/BV1kdbQ6oEmK/",
+    "source_note": "公开B站同人视频《不同音效下的奶蛋大喊安迪》第9秒截图；发布者网友烤全羊，来源声明含AI生成内容，不是奶龙官方原画。人工按蛋形身体与绿眼圈确认奶蛋；原视频画面、字幕及水印保留。该视频多帧不代表多份独立作品。",
+    "role": "subject",
+    "is_cutout": false,
+    "templates": [
+      "top",
+      "bottom",
+      "split",
+      "frame",
+      "grid",
+      "message",
+      "poster",
+      "side",
+      "polaroid",
+      "bubble",
+      "dialogue",
+      "spotlight",
+      "comic",
+      "subtitle",
+      "note",
+      "window",
+      "ticket",
+      "medal",
+      "scene"
+    ],
+    "enabled": true
+  },
+  {
+    "id": "bulk-naidan-bv1kdbq6oemk-033",
+    "name": "奶蛋 · 奶蛋张大嘴向前呼喊",
+    "character": "奶蛋",
+    "filename": "bulk-naidan/BV1kdbQ6oEmK-033.jpg",
+    "action": "奶蛋张大嘴向前呼喊",
+    "emotion": [
+      "兴奋",
+      "开心"
+    ],
+    "scenes": [
+      "呼叫队友",
+      "整活"
+    ],
+    "examples": [
+      "安——迪——"
+    ],
+    "existing_text": "原视频字幕与平台水印（保留）",
+    "intensity": 3,
+    "source_type": "reference",
+    "author": "网友烤全羊",
+    "source_url": "https://www.bilibili.com/video/BV1kdbQ6oEmK/",
+    "source_note": "公开B站同人视频《不同音效下的奶蛋大喊安迪》第33秒截图；发布者网友烤全羊，来源声明含AI生成内容，不是奶龙官方原画。人工按蛋形身体与绿眼圈确认奶蛋；原视频画面、字幕及水印保留。该视频多帧不代表多份独立作品。",
+    "role": "subject",
+    "is_cutout": false,
+    "templates": [
+      "top",
+      "bottom",
+      "split",
+      "frame",
+      "grid",
+      "message",
+      "poster",
+      "side",
+      "polaroid",
+      "bubble",
+      "dialogue",
+      "spotlight",
+      "comic",
+      "subtitle",
+      "note",
+      "window",
+      "ticket",
+      "medal",
+      "scene"
+    ],
+    "enabled": true
+  },
+  {
+    "id": "bulk-naidan-game-idle",
+    "name": "奶蛋 · 毛绒睡帽奶蛋抱枕站立",
+    "character": "奶蛋",
+    "filename": "bulk-naidan/game-idle.png",
+    "action": "毛绒睡帽奶蛋抱枕站立",
+    "emotion": [
+      "可爱",
+      "平静"
+    ],
+    "scenes": [
+      "睡前",
+      "打招呼"
+    ],
+    "examples": [
+      "准备休息啦"
+    ],
+    "existing_text": "",
+    "intensity": 3,
+    "source_type": "reference",
+    "author": "GitHub贡献者busgm666-cloud；角色及图像原作者待核实",
+    "source_url": "https://github.com/busgm666-cloud/naidan-slingshot/blob/main/assets/naidan_idle.png",
+    "source_note": "公开同人游戏奶蛋弹弓的毛绒睡帽皮肤，不是奶龙官方形象。原始文件自带真实透明通道，未重绘；各技能配色与图标由来源游戏提供，不冒充不同原版动作。",
+    "role": "subject",
+    "is_cutout": true,
+    "templates": [
+      "top",
+      "bottom",
+      "split",
+      "frame",
+      "flower",
+      "grid",
+      "message",
+      "poster",
+      "side",
+      "polaroid",
+      "bubble",
+      "dialogue",
+      "spotlight",
+      "comic",
+      "subtitle",
+      "note",
+      "window",
+      "ticket",
+      "medal",
+      "scene"
+    ],
+    "enabled": true
+  },
+  {
+    "id": "bulk-naidan-game-blink",
+    "name": "奶蛋 · 毛绒睡帽奶蛋闭眼抱枕",
+    "character": "奶蛋",
+    "filename": "bulk-naidan/game-blink.png",
+    "action": "毛绒睡帽奶蛋闭眼抱枕",
+    "emotion": [
+      "放松",
+      "困倦"
+    ],
+    "scenes": [
+      "晚安",
+      "休息"
+    ],
+    "examples": [
+      "先睡一小会"
+    ],
+    "existing_text": "",
+    "intensity": 3,
+    "source_type": "reference",
+    "author": "GitHub贡献者busgm666-cloud；角色及图像原作者待核实",
+    "source_url": "https://github.com/busgm666-cloud/naidan-slingshot/blob/main/assets/naidan_blink.png",
+    "source_note": "公开同人游戏奶蛋弹弓的毛绒睡帽皮肤，不是奶龙官方形象。原始文件自带真实透明通道，未重绘；各技能配色与图标由来源游戏提供，不冒充不同原版动作。",
+    "role": "subject",
+    "is_cutout": true,
+    "templates": [
+      "top",
+      "bottom",
+      "split",
+      "frame",
+      "flower",
+      "grid",
+      "message",
+      "poster",
+      "side",
+      "polaroid",
+      "bubble",
+      "dialogue",
+      "spotlight",
+      "comic",
+      "subtitle",
+      "note",
+      "window",
+      "ticket",
+      "medal",
+      "scene"
+    ],
+    "enabled": true
+  },
+  {
+    "id": "bulk-naidan-game-turn",
+    "name": "奶蛋 · 毛绒睡帽奶蛋侧身回望",
+    "character": "奶蛋",
+    "filename": "bulk-naidan/game-turn.png",
+    "action": "毛绒睡帽奶蛋侧身回望",
+    "emotion": [
+      "好奇",
+      "疑惑"
+    ],
+    "scenes": [
+      "回头",
+      "叫人"
+    ],
+    "examples": [
+      "你叫我吗"
+    ],
+    "existing_text": "",
+    "intensity": 3,
+    "source_type": "reference",
+    "author": "GitHub贡献者busgm666-cloud；角色及图像原作者待核实",
+    "source_url": "https://github.com/busgm666-cloud/naidan-slingshot/blob/main/assets/naidan_turn.png",
+    "source_note": "公开同人游戏奶蛋弹弓的毛绒睡帽皮肤，不是奶龙官方形象。原始文件自带真实透明通道，未重绘；各技能配色与图标由来源游戏提供，不冒充不同原版动作。",
+    "role": "subject",
+    "is_cutout": true,
+    "templates": [
+      "top",
+      "bottom",
+      "split",
+      "frame",
+      "flower",
+      "grid",
+      "message",
+      "poster",
+      "side",
+      "polaroid",
+      "bubble",
+      "dialogue",
+      "spotlight",
+      "comic",
+      "subtitle",
+      "note",
+      "window",
+      "ticket",
+      "medal",
+      "scene"
+    ],
+    "enabled": true
+  },
+  {
+    "id": "bulk-naidan-game-back",
+    "name": "奶蛋 · 紫色回旋技能奶蛋睡帽皮肤",
+    "character": "奶蛋",
+    "filename": "bulk-naidan/game-back.png",
+    "action": "紫色回旋技能奶蛋睡帽皮肤",
+    "emotion": [
+      "得意",
+      "自信"
+    ],
+    "scenes": [
+      "回来了",
+      "整活"
+    ],
+    "examples": [
+      "我又回来啦"
+    ],
+    "existing_text": "",
+    "intensity": 3,
+    "source_type": "reference",
+    "author": "GitHub贡献者busgm666-cloud；角色及图像原作者待核实",
+    "source_url": "https://github.com/busgm666-cloud/naidan-slingshot/blob/main/assets/naidan_back.png",
+    "source_note": "公开同人游戏奶蛋弹弓的毛绒睡帽皮肤，不是奶龙官方形象。原始文件自带真实透明通道，未重绘；各技能配色与图标由来源游戏提供，不冒充不同原版动作。",
+    "role": "subject",
+    "is_cutout": true,
+    "templates": [
+      "top",
+      "bottom",
+      "split",
+      "frame",
+      "flower",
+      "grid",
+      "message",
+      "poster",
+      "side",
+      "polaroid",
+      "bubble",
+      "dialogue",
+      "spotlight",
+      "comic",
+      "subtitle",
+      "note",
+      "window",
+      "ticket",
+      "medal",
+      "scene"
+    ],
+    "enabled": true
+  },
+  {
+    "id": "bulk-naidan-game-bomb",
+    "name": "奶蛋 · 黑色炸弹技能奶蛋睡帽皮肤",
+    "character": "奶蛋",
+    "filename": "bulk-naidan/game-bomb.png",
+    "action": "黑色炸弹技能奶蛋睡帽皮肤",
+    "emotion": [
+      "生气",
+      "兴奋"
+    ],
+    "scenes": [
+      "炸毛",
+      "整活"
+    ],
+    "examples": [
+      "要爆炸了"
+    ],
+    "existing_text": "",
+    "intensity": 3,
+    "source_type": "reference",
+    "author": "GitHub贡献者busgm666-cloud；角色及图像原作者待核实",
+    "source_url": "https://github.com/busgm666-cloud/naidan-slingshot/blob/main/assets/naidan_bomb.png",
+    "source_note": "公开同人游戏奶蛋弹弓的毛绒睡帽皮肤，不是奶龙官方形象。原始文件自带真实透明通道，未重绘；各技能配色与图标由来源游戏提供，不冒充不同原版动作。",
+    "role": "subject",
+    "is_cutout": true,
+    "templates": [
+      "top",
+      "bottom",
+      "split",
+      "frame",
+      "flower",
+      "grid",
+      "message",
+      "poster",
+      "side",
+      "polaroid",
+      "bubble",
+      "dialogue",
+      "spotlight",
+      "comic",
+      "subtitle",
+      "note",
+      "window",
+      "ticket",
+      "medal",
+      "scene"
+    ],
+    "enabled": true
+  },
+  {
+    "id": "bulk-naidan-game-dash",
+    "name": "奶蛋 · 青色闪电技能奶蛋睡帽皮肤",
+    "character": "奶蛋",
+    "filename": "bulk-naidan/game-dash.png",
+    "action": "青色闪电技能奶蛋睡帽皮肤",
+    "emotion": [
+      "兴奋",
+      "自信"
+    ],
+    "scenes": [
+      "冲刺",
+      "赶DDL"
+    ],
+    "examples": [
+      "这就加速"
+    ],
+    "existing_text": "",
+    "intensity": 3,
+    "source_type": "reference",
+    "author": "GitHub贡献者busgm666-cloud；角色及图像原作者待核实",
+    "source_url": "https://github.com/busgm666-cloud/naidan-slingshot/blob/main/assets/naidan_dash.png",
+    "source_note": "公开同人游戏奶蛋弹弓的毛绒睡帽皮肤，不是奶龙官方形象。原始文件自带真实透明通道，未重绘；各技能配色与图标由来源游戏提供，不冒充不同原版动作。",
+    "role": "subject",
+    "is_cutout": true,
+    "templates": [
+      "top",
+      "bottom",
+      "split",
+      "frame",
+      "flower",
+      "grid",
+      "message",
+      "poster",
+      "side",
+      "polaroid",
+      "bubble",
+      "dialogue",
+      "spotlight",
+      "comic",
+      "subtitle",
+      "note",
+      "window",
+      "ticket",
+      "medal",
+      "scene"
+    ],
+    "enabled": true
+  },
+  {
+    "id": "bulk-naidan-game-heavy",
+    "name": "奶蛋 · 米色重击技能奶蛋睡帽皮肤",
+    "character": "奶蛋",
+    "filename": "bulk-naidan/game-heavy.png",
+    "action": "米色重击技能奶蛋睡帽皮肤",
+    "emotion": [
+      "自信",
+      "坚定"
+    ],
+    "scenes": [
+      "下定决心",
+      "整活"
+    ],
+    "examples": [
+      "稳稳落地"
+    ],
+    "existing_text": "",
+    "intensity": 3,
+    "source_type": "reference",
+    "author": "GitHub贡献者busgm666-cloud；角色及图像原作者待核实",
+    "source_url": "https://github.com/busgm666-cloud/naidan-slingshot/blob/main/assets/naidan_heavy.png",
+    "source_note": "公开同人游戏奶蛋弹弓的毛绒睡帽皮肤，不是奶龙官方形象。原始文件自带真实透明通道，未重绘；各技能配色与图标由来源游戏提供，不冒充不同原版动作。",
+    "role": "subject",
+    "is_cutout": true,
+    "templates": [
+      "top",
+      "bottom",
+      "split",
+      "frame",
+      "flower",
+      "grid",
+      "message",
+      "poster",
+      "side",
+      "polaroid",
+      "bubble",
+      "dialogue",
+      "spotlight",
+      "comic",
+      "subtitle",
+      "note",
+      "window",
+      "ticket",
+      "medal",
+      "scene"
+    ],
+    "enabled": true
+  },
+  {
+    "id": "bulk-naidan-game-milk",
+    "name": "奶蛋 · 白色奶滴技能奶蛋睡帽皮肤",
+    "character": "奶蛋",
+    "filename": "bulk-naidan/game-milk.png",
+    "action": "白色奶滴技能奶蛋睡帽皮肤",
+    "emotion": [
+      "可爱",
+      "平静"
+    ],
+    "scenes": [
+      "补充能量",
+      "鼓励"
+    ],
+    "examples": [
+      "加点能量"
+    ],
+    "existing_text": "",
+    "intensity": 3,
+    "source_type": "reference",
+    "author": "GitHub贡献者busgm666-cloud；角色及图像原作者待核实",
+    "source_url": "https://github.com/busgm666-cloud/naidan-slingshot/blob/main/assets/naidan_milk.png",
+    "source_note": "公开同人游戏奶蛋弹弓的毛绒睡帽皮肤，不是奶龙官方形象。原始文件自带真实透明通道，未重绘；各技能配色与图标由来源游戏提供，不冒充不同原版动作。",
+    "role": "subject",
+    "is_cutout": true,
+    "templates": [
+      "top",
+      "bottom",
+      "split",
+      "frame",
+      "flower",
+      "grid",
+      "message",
+      "poster",
+      "side",
+      "polaroid",
+      "bubble",
+      "dialogue",
+      "spotlight",
+      "comic",
+      "subtitle",
+      "note",
+      "window",
+      "ticket",
+      "medal",
+      "scene"
+    ],
+    "enabled": true
+  },
+  {
+    "id": "bulk-naidan-game-seek",
+    "name": "奶蛋 · 粉色追踪技能奶蛋睡帽皮肤",
+    "character": "奶蛋",
+    "filename": "bulk-naidan/game-seek.png",
+    "action": "粉色追踪技能奶蛋睡帽皮肤",
+    "emotion": [
+      "好奇",
+      "自信"
+    ],
+    "scenes": [
+      "找人",
+      "锁定目标"
+    ],
+    "examples": [
+      "找到你了"
+    ],
+    "existing_text": "",
+    "intensity": 3,
+    "source_type": "reference",
+    "author": "GitHub贡献者busgm666-cloud；角色及图像原作者待核实",
+    "source_url": "https://github.com/busgm666-cloud/naidan-slingshot/blob/main/assets/naidan_seek.png",
+    "source_note": "公开同人游戏奶蛋弹弓的毛绒睡帽皮肤，不是奶龙官方形象。原始文件自带真实透明通道，未重绘；各技能配色与图标由来源游戏提供，不冒充不同原版动作。",
+    "role": "subject",
+    "is_cutout": true,
+    "templates": [
+      "top",
+      "bottom",
+      "split",
+      "frame",
+      "flower",
+      "grid",
+      "message",
+      "poster",
+      "side",
+      "polaroid",
+      "bubble",
+      "dialogue",
+      "spotlight",
+      "comic",
+      "subtitle",
+      "note",
+      "window",
+      "ticket",
+      "medal",
+      "scene"
+    ],
+    "enabled": true
+  },
+  {
+    "id": "bulk-naidan-game-split",
+    "name": "奶蛋 · 蓝色分裂技能奶蛋睡帽皮肤",
+    "character": "奶蛋",
+    "filename": "bulk-naidan/game-split.png",
+    "action": "蓝色分裂技能奶蛋睡帽皮肤",
+    "emotion": [
+      "开心",
+      "兴奋"
+    ],
+    "scenes": [
+      "组队",
+      "集合"
+    ],
+    "examples": [
+      "分头行动"
+    ],
+    "existing_text": "",
+    "intensity": 3,
+    "source_type": "reference",
+    "author": "GitHub贡献者busgm666-cloud；角色及图像原作者待核实",
+    "source_url": "https://github.com/busgm666-cloud/naidan-slingshot/blob/main/assets/naidan_split.png",
+    "source_note": "公开同人游戏奶蛋弹弓的毛绒睡帽皮肤，不是奶龙官方形象。原始文件自带真实透明通道，未重绘；各技能配色与图标由来源游戏提供，不冒充不同原版动作。",
+    "role": "subject",
+    "is_cutout": true,
+    "templates": [
+      "top",
+      "bottom",
+      "split",
+      "frame",
+      "flower",
+      "grid",
+      "message",
+      "poster",
+      "side",
+      "polaroid",
+      "bubble",
+      "dialogue",
+      "spotlight",
+      "comic",
+      "subtitle",
+      "note",
+      "window",
+      "ticket",
+      "medal",
+      "scene"
+    ],
+    "enabled": true
+  },
+  {
+    "id": "bulk-naidan-desktop-icon",
+    "name": "奶蛋 · 桌宠奶蛋正面微笑",
+    "character": "奶蛋",
+    "filename": "bulk-naidan/desktop-icon.png",
+    "action": "桌宠奶蛋正面微笑",
+    "emotion": [
+      "可爱",
+      "开心"
+    ],
+    "scenes": [
+      "打招呼",
+      "摸鱼"
+    ],
+    "examples": [
+      "我在这里蹦蹦跳跳"
+    ],
+    "existing_text": "",
+    "intensity": 3,
+    "source_type": "reference",
+    "author": "桌宠代码与绘制：liuchenwei285；角色形象参考网络",
+    "source_url": "https://github.com/liuchenwei285/naidan-desktop-pet/blob/main/build/icon-1024.png",
+    "source_note": "公开桌宠作者用Canvas手写绘制的奶蛋同人图像，代码MIT不覆盖角色形象；同人视觉与原梗图分开说明。完整原始PNG自带透明通道。",
+    "role": "subject",
+    "is_cutout": true,
+    "templates": [
+      "top",
+      "bottom",
+      "split",
+      "frame",
+      "flower",
+      "grid",
+      "message",
+      "poster",
+      "side",
+      "polaroid",
+      "bubble",
+      "dialogue",
+      "spotlight",
+      "comic",
+      "subtitle",
+      "note",
+      "window",
+      "ticket",
+      "medal",
+      "scene"
+    ],
+    "enabled": true
+  },
+  {
+    "id": "bulk-naidan-desktop-bounce",
+    "name": "奶蛋 · 桌宠奶蛋眨眼并Q弹蹦跳",
+    "character": "奶蛋",
+    "filename": "bulk-naidan/desktop-bounce.gif",
+    "action": "桌宠奶蛋眨眼并Q弹蹦跳",
+    "emotion": [
+      "可爱",
+      "开心"
+    ],
+    "scenes": [
+      "打招呼",
+      "摸鱼"
+    ],
+    "examples": [
+      "我在这里蹦蹦跳跳"
+    ],
+    "existing_text": "",
+    "intensity": 3,
+    "source_type": "reference",
+    "author": "桌宠代码与绘制：liuchenwei285；角色形象参考网络",
+    "source_url": "https://github.com/liuchenwei285/naidan-desktop-pet/blob/main/docs/preview-bounce.gif",
+    "source_note": "公开桌宠作者用Canvas手写绘制的奶蛋同人图像，代码MIT不覆盖角色形象；同人视觉与原梗图分开说明。完整原始GIF保留帧时长和循环，深色背景未删除。",
+    "role": "subject",
+    "is_cutout": false,
+    "templates": [
+      "top",
+      "bottom",
+      "split",
+      "frame",
+      "grid",
+      "message",
+      "poster",
+      "side",
+      "polaroid",
+      "bubble",
+      "dialogue",
+      "spotlight",
+      "comic",
+      "subtitle",
+      "note",
+      "window",
+      "ticket",
+      "medal",
+      "scene"
+    ],
+    "enabled": true
+  },
+  {
+    "id": "bulk-naidan-community-0065",
+    "name": "奶蛋 · 桌边整活",
+    "character": "奶蛋",
+    "filename": "bulk-naidan/naiwa_0065.jpg",
+    "action": "奶蛋在桌边拿卡片和吸管整活",
+    "emotion": [
+      "抽象",
+      "得意"
+    ],
+    "scenes": [
+      "朋友整活",
+      "离谱消息"
+    ],
+    "examples": [
+      "今天也很抽象"
+    ],
+    "existing_text": "",
+    "intensity": 3,
+    "source_type": "reference",
+    "author": "具体二创作者待核实；公开贡献者musemantic",
+    "source_url": "https://github.com/musemantic/NaiLoong/blob/76c07e04a8b217117b39a3b647751618c55bff0c/assets/memes/naiwa_0065.jpg",
+    "source_note": "奶-hub公开奶蛋索引第三张，原图无修改；索引原题“奶蛋在吸白砂糖，大家不要模仿”。保留网络整活语境，不将画面解释为健康或生活建议。",
+    "role": "subject",
+    "is_cutout": false,
+    "templates": [
+      "top",
+      "bottom",
+      "split",
+      "frame",
+      "grid",
+      "message",
+      "poster",
+      "side",
+      "polaroid",
+      "bubble",
+      "dialogue",
+      "spotlight",
+      "comic",
+      "subtitle",
+      "note",
+      "window",
+      "ticket",
+      "medal",
+      "scene"
+    ],
+    "enabled": true
+  }
+]

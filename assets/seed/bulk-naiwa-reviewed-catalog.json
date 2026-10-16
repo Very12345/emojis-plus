@@ -1,0 +1,1381 @@
+[
+  {
+    "id": "bulk-naiwa-hub-naiwa_0029-program-cutout",
+    "name": "奶蛙 · 摸肚子 · 程序透明版",
+    "character": "奶蛙",
+    "filename": "bulk-naiwa-masks/bulk-naiwa-hub-naiwa_0029-program-cutout.png",
+    "action": "奶蛙摸肚子",
+    "emotion": [
+      "平静"
+    ],
+    "scenes": [
+      "群聊",
+      "日常接话"
+    ],
+    "examples": [
+      "让我看看怎么个事"
+    ],
+    "intensity": 3,
+    "existing_text": "",
+    "source_type": "reference",
+    "source_url": "https://github.com/musemantic/NaiLoong/blob/ab974a47c2a5e731a22ff9f5a7f23f60e62c3fd9/assets/memes/naiwa_0029.jpg",
+    "source_note": "奶蛙网友二创合集公开原文件；标题由收集页提供，具体原作者与再分发授权未独立核实。 原文件：https://raw.githubusercontent.com/musemantic/NaiLoong/ab974a47c2a5e731a22ff9f5a7f23f60e62c3fd9/assets/memes/naiwa_0029.jpg 程序抠图派生（rembg:u2net），原图保留；自动alpha指标不等于人工主体完整性确认。 待复核：automatic_mask_requires_visual_review, existing_text_requires_visual_review。 人工对照审核通过；抠图中原配字已消失，保留原图供对照。",
+    "author": "待核实",
+    "is_cutout": true,
+    "templates": [
+      "top",
+      "bottom",
+      "split",
+      "frame",
+      "flower",
+      "grid",
+      "message",
+      "poster",
+      "side",
+      "polaroid",
+      "bubble",
+      "dialogue",
+      "spotlight",
+      "comic",
+      "subtitle",
+      "note",
+      "window",
+      "ticket",
+      "medal",
+      "scene"
+    ],
+    "role": "subject",
+    "derived_from": "bulk-naiwa-hub-naiwa_0029",
+    "enabled": true
+  },
+  {
+    "id": "bulk-naiwa-hub-naiwa_0042-program-cutout",
+    "name": "奶蛙 · @你的奶蛙朋友出来看看 · 程序透明版",
+    "character": "奶蛙",
+    "filename": "bulk-naiwa-masks/bulk-naiwa-hub-naiwa_0042-program-cutout.png",
+    "action": "@你的奶蛙朋友出来看看",
+    "emotion": [
+      "平静"
+    ],
+    "scenes": [
+      "群聊",
+      "日常接话"
+    ],
+    "examples": [
+      "让我看看怎么个事"
+    ],
+    "intensity": 3,
+    "existing_text": "",
+    "source_type": "reference",
+    "source_url": "https://github.com/musemantic/NaiLoong/blob/ab974a47c2a5e731a22ff9f5a7f23f60e62c3fd9/assets/memes/naiwa_0042.png",
+    "source_note": "奶蛙网友二创合集公开原文件；标题由收集页提供，具体原作者与再分发授权未独立核实。 原文件：https://raw.githubusercontent.com/musemantic/NaiLoong/ab974a47c2a5e731a22ff9f5a7f23f60e62c3fd9/assets/memes/naiwa_0042.png 程序抠图派生（rembg:u2net），原图保留；自动alpha指标不等于人工主体完整性确认。 待复核：automatic_mask_requires_visual_review。 人工对照审核通过；抠图中原配字已消失，保留原图供对照。",
+    "author": "待核实",
+    "is_cutout": true,
+    "templates": [
+      "top",
+      "bottom",
+      "split",
+      "frame",
+      "flower",
+      "grid",
+      "message",
+      "poster",
+      "side",
+      "polaroid",
+      "bubble",
+      "dialogue",
+      "spotlight",
+      "comic",
+      "subtitle",
+      "note",
+      "window",
+      "ticket",
+      "medal",
+      "scene"
+    ],
+    "role": "subject",
+    "derived_from": "bulk-naiwa-hub-naiwa_0042",
+    "enabled": true
+  },
+  {
+    "id": "bulk-naiwa-hub-naiwa_0051-program-cutout",
+    "name": "奶蛙 · 恶魔龙女刷手机大笑 · 程序透明版",
+    "character": "奶蛙",
+    "filename": "bulk-naiwa-masks/bulk-naiwa-hub-naiwa_0051-program-cutout.png",
+    "action": "奶蛙恶魔龙女刷手机大笑",
+    "emotion": [
+      "开心"
+    ],
+    "scenes": [
+      "群聊",
+      "日常接话"
+    ],
+    "examples": [
+      "让我看看怎么个事"
+    ],
+    "intensity": 3,
+    "existing_text": "",
+    "source_type": "reference",
+    "source_url": "https://github.com/musemantic/NaiLoong/blob/76c07e04a8b217117b39a3b647751618c55bff0c/assets/memes/naiwa_0051.jpg",
+    "source_note": "奶蛙网友二创合集公开原文件；标题由收集页提供，具体原作者与再分发授权未独立核实。 原文件：https://raw.githubusercontent.com/musemantic/NaiLoong/76c07e04a8b217117b39a3b647751618c55bff0c/assets/memes/naiwa_0051.jpg 程序抠图派生（rembg:u2net），原图保留；自动alpha指标不等于人工主体完整性确认。 待复核：automatic_mask_requires_visual_review。 人工对照审核通过；抠图中原配字已消失，保留原图供对照。",
+    "author": "待核实",
+    "is_cutout": true,
+    "templates": [
+      "top",
+      "bottom",
+      "split",
+      "frame",
+      "flower",
+      "grid",
+      "message",
+      "poster",
+      "side",
+      "polaroid",
+      "bubble",
+      "dialogue",
+      "spotlight",
+      "comic",
+      "subtitle",
+      "note",
+      "window",
+      "ticket",
+      "medal",
+      "scene"
+    ],
+    "role": "subject",
+    "derived_from": "bulk-naiwa-hub-naiwa_0051",
+    "enabled": true
+  },
+  {
+    "id": "bulk-naiwa-gallery-f-03-program-cutout",
+    "name": "奶蛙 · 沉思的奶蛙 · 程序透明版",
+    "character": "奶蛙",
+    "filename": "bulk-naiwa-masks/bulk-naiwa-gallery-f-03-program-cutout.png",
+    "action": "人间值得吗？奶蛙抱臂沉思三秒，得出结论：值得。",
+    "emotion": [
+      "疑惑",
+      "思考"
+    ],
+    "scenes": [
+      "核对通知",
+      "等回复"
+    ],
+    "examples": [
+      "让我想想"
+    ],
+    "intensity": 3,
+    "existing_text": "",
+    "source_type": "reference",
+    "source_url": "https://nailong-studio.github.io/NaiLong-Universe/#halls",
+    "source_note": "Nailong-Studio公开奶蛙同人馆藏，包含第三方AI艺术与场景二创；非官方奶龙形象、非本项目重绘。保留收集页及原文件链接，具体形象及图片授权待核实。 原文件：https://nailong-studio.github.io/NaiLong-Universe/assets/f-03.webp 程序抠图派生（rembg:u2net），原图保留；自动alpha指标不等于人工主体完整性确认。 待复核：automatic_mask_requires_visual_review。 人工对照审核通过；抠图中原配字已消失，保留原图供对照。",
+    "author": "Nailong-Studio（收集/二创署名）",
+    "is_cutout": true,
+    "templates": [
+      "top",
+      "bottom",
+      "split",
+      "frame",
+      "flower",
+      "grid",
+      "message",
+      "poster",
+      "side",
+      "polaroid",
+      "bubble",
+      "dialogue",
+      "spotlight",
+      "comic",
+      "subtitle",
+      "note",
+      "window",
+      "ticket",
+      "medal",
+      "scene"
+    ],
+    "role": "subject",
+    "derived_from": "bulk-naiwa-gallery-f-03",
+    "enabled": true
+  },
+  {
+    "id": "bulk-naiwa-gallery-f-04-program-cutout",
+    "name": "奶蛙 · 思考的奶蛙 · 程序透明版",
+    "character": "奶蛙",
+    "filename": "bulk-naiwa-masks/bulk-naiwa-gallery-f-04-program-cutout.png",
+    "action": "托腮的奶蛙正在参悟宇宙与布丁的终极关系——答案暂不公布。",
+    "emotion": [
+      "疑惑",
+      "思考"
+    ],
+    "scenes": [
+      "核对通知",
+      "等回复"
+    ],
+    "examples": [
+      "让我想想"
+    ],
+    "intensity": 3,
+    "existing_text": "",
+    "source_type": "reference",
+    "source_url": "https://nailong-studio.github.io/NaiLong-Universe/#halls",
+    "source_note": "Nailong-Studio公开奶蛙同人馆藏，包含第三方AI艺术与场景二创；非官方奶龙形象、非本项目重绘。保留收集页及原文件链接，具体形象及图片授权待核实。 原文件：https://nailong-studio.github.io/NaiLong-Universe/assets/f-04.webp 程序抠图派生（rembg:u2net），原图保留；自动alpha指标不等于人工主体完整性确认。 待复核：automatic_mask_requires_visual_review。 人工对照审核通过；抠图中原配字已消失，保留原图供对照。",
+    "author": "Nailong-Studio（收集/二创署名）",
+    "is_cutout": true,
+    "templates": [
+      "top",
+      "bottom",
+      "split",
+      "frame",
+      "flower",
+      "grid",
+      "message",
+      "poster",
+      "side",
+      "polaroid",
+      "bubble",
+      "dialogue",
+      "spotlight",
+      "comic",
+      "subtitle",
+      "note",
+      "window",
+      "ticket",
+      "medal",
+      "scene"
+    ],
+    "role": "subject",
+    "derived_from": "bulk-naiwa-gallery-f-04",
+    "enabled": true
+  },
+  {
+    "id": "bulk-naiwa-gallery-f-06-program-cutout",
+    "name": "奶蛙 · 震惊的奶蛙 · 程序透明版",
+    "character": "奶蛙",
+    "filename": "bulk-naiwa-masks/bulk-naiwa-gallery-f-06-program-cutout.png",
+    "action": "奶蛙震惊：原来快乐额度，真的可以无限透支。",
+    "emotion": [
+      "震惊",
+      "困惑"
+    ],
+    "scenes": [
+      "突发通知",
+      "群聊"
+    ],
+    "examples": [
+      "等等，我没听错吧"
+    ],
+    "intensity": 3,
+    "existing_text": "",
+    "source_type": "reference",
+    "source_url": "https://nailong-studio.github.io/NaiLong-Universe/#halls",
+    "source_note": "Nailong-Studio公开奶蛙同人馆藏，包含第三方AI艺术与场景二创；非官方奶龙形象、非本项目重绘。保留收集页及原文件链接，具体形象及图片授权待核实。 原文件：https://nailong-studio.github.io/NaiLong-Universe/assets/f-06.webp 程序抠图派生（rembg:u2net），原图保留；自动alpha指标不等于人工主体完整性确认。 待复核：automatic_mask_requires_visual_review。 人工对照审核通过；抠图中原配字已消失，保留原图供对照。",
+    "author": "Nailong-Studio（收集/二创署名）",
+    "is_cutout": true,
+    "templates": [
+      "top",
+      "bottom",
+      "split",
+      "frame",
+      "flower",
+      "grid",
+      "message",
+      "poster",
+      "side",
+      "polaroid",
+      "bubble",
+      "dialogue",
+      "spotlight",
+      "comic",
+      "subtitle",
+      "note",
+      "window",
+      "ticket",
+      "medal",
+      "scene"
+    ],
+    "role": "subject",
+    "derived_from": "bulk-naiwa-gallery-f-06",
+    "enabled": true
+  },
+  {
+    "id": "bulk-naiwa-gallery-f-07-program-cutout",
+    "name": "奶蛙 · 圣诞躺笑的奶蛙 · 程序透明版",
+    "character": "奶蛙",
+    "filename": "bulk-naiwa-masks/bulk-naiwa-gallery-f-07-program-cutout.png",
+    "action": "圣诞帽下，奶蛙躺平大笑——节日与软肚，是最佳拍档。",
+    "emotion": [
+      "疲惫",
+      "放松"
+    ],
+    "scenes": [
+      "早八",
+      "休息"
+    ],
+    "examples": [
+      "今天先躺一下"
+    ],
+    "intensity": 3,
+    "existing_text": "",
+    "source_type": "reference",
+    "source_url": "https://nailong-studio.github.io/NaiLong-Universe/#halls",
+    "source_note": "Nailong-Studio公开奶蛙同人馆藏，包含第三方AI艺术与场景二创；非官方奶龙形象、非本项目重绘。保留收集页及原文件链接，具体形象及图片授权待核实。 原文件：https://nailong-studio.github.io/NaiLong-Universe/assets/f-07.webp 程序抠图派生（rembg:u2net），原图保留；自动alpha指标不等于人工主体完整性确认。 待复核：automatic_mask_requires_visual_review。 人工对照审核通过；抠图中原配字已消失，保留原图供对照。",
+    "author": "Nailong-Studio（收集/二创署名）",
+    "is_cutout": true,
+    "templates": [
+      "top",
+      "bottom",
+      "split",
+      "frame",
+      "flower",
+      "grid",
+      "message",
+      "poster",
+      "side",
+      "polaroid",
+      "bubble",
+      "dialogue",
+      "spotlight",
+      "comic",
+      "subtitle",
+      "note",
+      "window",
+      "ticket",
+      "medal",
+      "scene"
+    ],
+    "role": "subject",
+    "derived_from": "bulk-naiwa-gallery-f-07",
+    "enabled": true
+  },
+  {
+    "id": "bulk-naiwa-gallery-f-10-program-cutout",
+    "name": "奶蛙 · 圣诞捧腹的奶蛙 · 程序透明版",
+    "character": "奶蛙",
+    "filename": "bulk-naiwa-masks/bulk-naiwa-gallery-f-10-program-cutout.png",
+    "action": "圣诞铃响，奶蛙捧腹——礼物可以迟到，快乐从不缺席。",
+    "emotion": [
+      "平静"
+    ],
+    "scenes": [
+      "群聊",
+      "日常接话"
+    ],
+    "examples": [
+      "让我看看怎么个事"
+    ],
+    "intensity": 3,
+    "existing_text": "",
+    "source_type": "reference",
+    "source_url": "https://nailong-studio.github.io/NaiLong-Universe/#halls",
+    "source_note": "Nailong-Studio公开奶蛙同人馆藏，包含第三方AI艺术与场景二创；非官方奶龙形象、非本项目重绘。保留收集页及原文件链接，具体形象及图片授权待核实。 原文件：https://nailong-studio.github.io/NaiLong-Universe/assets/f-10.webp 程序抠图派生（rembg:u2net），原图保留；自动alpha指标不等于人工主体完整性确认。 待复核：automatic_mask_requires_visual_review。 人工对照审核通过；抠图中原配字已消失，保留原图供对照。",
+    "author": "Nailong-Studio（收集/二创署名）",
+    "is_cutout": true,
+    "templates": [
+      "top",
+      "bottom",
+      "split",
+      "frame",
+      "flower",
+      "grid",
+      "message",
+      "poster",
+      "side",
+      "polaroid",
+      "bubble",
+      "dialogue",
+      "spotlight",
+      "comic",
+      "subtitle",
+      "note",
+      "window",
+      "ticket",
+      "medal",
+      "scene"
+    ],
+    "role": "subject",
+    "derived_from": "bulk-naiwa-gallery-f-10",
+    "enabled": true
+  },
+  {
+    "id": "bulk-naiwa-gallery-f-11-program-cutout",
+    "name": "奶蛙 · 戴圣诞帽双手交叠 · 程序透明版",
+    "character": "奶蛙",
+    "filename": "bulk-naiwa-masks/bulk-naiwa-gallery-f-11-program-cutout.png",
+    "action": "挥舞「奶家人」旗帜的奶蛙：入殿即家人，快乐共分享。",
+    "emotion": [
+      "平静"
+    ],
+    "scenes": [
+      "群聊",
+      "日常接话"
+    ],
+    "examples": [
+      "让我看看怎么个事"
+    ],
+    "intensity": 3,
+    "existing_text": "",
+    "source_type": "reference",
+    "source_url": "https://nailong-studio.github.io/NaiLong-Universe/#halls",
+    "source_note": "Nailong-Studio公开奶蛙同人馆藏，包含第三方AI艺术与场景二创；非官方奶龙形象、非本项目重绘。保留收集页及原文件链接，具体形象及图片授权待核实。 原文件：https://nailong-studio.github.io/NaiLong-Universe/assets/f-11.webp 程序抠图派生（rembg:u2net），原图保留；自动alpha指标不等于人工主体完整性确认。 待复核：automatic_mask_requires_visual_review。 人工对照审核通过；抠图中原配字已消失，保留原图供对照。",
+    "author": "Nailong-Studio（收集/二创署名）",
+    "is_cutout": true,
+    "templates": [
+      "top",
+      "bottom",
+      "split",
+      "frame",
+      "flower",
+      "grid",
+      "message",
+      "poster",
+      "side",
+      "polaroid",
+      "bubble",
+      "dialogue",
+      "spotlight",
+      "comic",
+      "subtitle",
+      "note",
+      "window",
+      "ticket",
+      "medal",
+      "scene"
+    ],
+    "role": "subject",
+    "derived_from": "bulk-naiwa-gallery-f-11",
+    "enabled": true
+  },
+  {
+    "id": "bulk-naiwa-gallery-f-12-program-cutout",
+    "name": "奶蛙 · 戴圣诞帽弯腰捧腹 · 程序透明版",
+    "character": "奶蛙",
+    "filename": "bulk-naiwa-masks/bulk-naiwa-gallery-f-12-program-cutout.png",
+    "action": "戴上圣诞帽的奶蛙，红白配色衬着黄脸。第十二号：圣诞氛围组提前上岗。",
+    "emotion": [
+      "平静"
+    ],
+    "scenes": [
+      "群聊",
+      "日常接话"
+    ],
+    "examples": [
+      "让我看看怎么个事"
+    ],
+    "intensity": 3,
+    "existing_text": "",
+    "source_type": "reference",
+    "source_url": "https://nailong-studio.github.io/NaiLong-Universe/#halls",
+    "source_note": "Nailong-Studio公开奶蛙同人馆藏，包含第三方AI艺术与场景二创；非官方奶龙形象、非本项目重绘。保留收集页及原文件链接，具体形象及图片授权待核实。 原文件：https://nailong-studio.github.io/NaiLong-Universe/assets/f-12.webp 程序抠图派生（rembg:u2net），原图保留；自动alpha指标不等于人工主体完整性确认。 待复核：automatic_mask_requires_visual_review。 人工对照审核通过；抠图中原配字已消失，保留原图供对照。",
+    "author": "Nailong-Studio（收集/二创署名）",
+    "is_cutout": true,
+    "templates": [
+      "top",
+      "bottom",
+      "split",
+      "frame",
+      "flower",
+      "grid",
+      "message",
+      "poster",
+      "side",
+      "polaroid",
+      "bubble",
+      "dialogue",
+      "spotlight",
+      "comic",
+      "subtitle",
+      "note",
+      "window",
+      "ticket",
+      "medal",
+      "scene"
+    ],
+    "role": "subject",
+    "derived_from": "bulk-naiwa-gallery-f-12",
+    "enabled": true
+  },
+  {
+    "id": "bulk-naiwa-gallery-f-22-program-cutout",
+    "name": "奶蛙 · 抱红心·奶蛙 · 程序透明版",
+    "character": "奶蛙",
+    "filename": "bulk-naiwa-masks/bulk-naiwa-gallery-f-22-program-cutout.png",
+    "action": "双手抱住红心，奶蛙咧嘴笑。第二十二号：把心捧给你，不收运费。",
+    "emotion": [
+      "开心",
+      "感谢"
+    ],
+    "scenes": [
+      "道谢",
+      "安慰"
+    ],
+    "examples": [
+      "给你一颗小小的心"
+    ],
+    "intensity": 3,
+    "existing_text": "",
+    "source_type": "reference",
+    "source_url": "https://nailong-studio.github.io/NaiLong-Universe/#halls",
+    "source_note": "Nailong-Studio公开奶蛙同人馆藏，包含第三方AI艺术与场景二创；非官方奶龙形象、非本项目重绘。保留收集页及原文件链接，具体形象及图片授权待核实。 原文件：https://nailong-studio.github.io/NaiLong-Universe/assets/f-22.webp 程序抠图派生（rembg:u2net），原图保留；自动alpha指标不等于人工主体完整性确认。 待复核：automatic_mask_requires_visual_review。 人工对照审核通过；抠图中原配字已消失，保留原图供对照。",
+    "author": "Nailong-Studio（收集/二创署名）",
+    "is_cutout": true,
+    "templates": [
+      "top",
+      "bottom",
+      "split",
+      "frame",
+      "flower",
+      "grid",
+      "message",
+      "poster",
+      "side",
+      "polaroid",
+      "bubble",
+      "dialogue",
+      "spotlight",
+      "comic",
+      "subtitle",
+      "note",
+      "window",
+      "ticket",
+      "medal",
+      "scene"
+    ],
+    "role": "subject",
+    "derived_from": "bulk-naiwa-gallery-f-22",
+    "enabled": true
+  },
+  {
+    "id": "bulk-naiwa-gallery-l-01-program-cutout",
+    "name": "奶蛙 · 弯腰大笑奶蛙 · 程序透明版",
+    "character": "奶蛙",
+    "filename": "bulk-naiwa-masks/bulk-naiwa-gallery-l-01-program-cutout.png",
+    "action": "躬着身子笑到直不起来，快乐重到需要弯腰托住。",
+    "emotion": [
+      "开心"
+    ],
+    "scenes": [
+      "群聊",
+      "日常接话"
+    ],
+    "examples": [
+      "让我看看怎么个事"
+    ],
+    "intensity": 3,
+    "existing_text": "",
+    "source_type": "reference",
+    "source_url": "https://nailong-studio.github.io/NaiLong-Universe/#halls",
+    "source_note": "Nailong-Studio公开奶蛙同人馆藏，包含第三方AI艺术与场景二创；非官方奶龙形象、非本项目重绘。保留收集页及原文件链接，具体形象及图片授权待核实。 原文件：https://raw.githubusercontent.com/Nailong-Studio/wallpaper/main/laugh-gallery/%E5%A5%B6%E8%9B%99-%E5%BC%AF%E8%85%B0%E5%A4%A7%E7%AC%91.png 程序抠图派生（rembg:u2net），原图保留；自动alpha指标不等于人工主体完整性确认。 待复核：automatic_mask_requires_visual_review。 人工对照审核通过；抠图中原配字已消失，保留原图供对照。",
+    "author": "Nailong-Studio（收集/二创署名）",
+    "is_cutout": true,
+    "templates": [
+      "top",
+      "bottom",
+      "split",
+      "frame",
+      "flower",
+      "grid",
+      "message",
+      "poster",
+      "side",
+      "polaroid",
+      "bubble",
+      "dialogue",
+      "spotlight",
+      "comic",
+      "subtitle",
+      "note",
+      "window",
+      "ticket",
+      "medal",
+      "scene"
+    ],
+    "role": "subject",
+    "derived_from": "bulk-naiwa-gallery-l-01",
+    "enabled": true
+  },
+  {
+    "id": "bulk-naiwa-gallery-l-02-program-cutout",
+    "name": "奶蛙 · 亮黄站姿奶蛙 · 程序透明版",
+    "character": "奶蛙",
+    "filename": "bulk-naiwa-masks/bulk-naiwa-gallery-l-02-program-cutout.png",
+    "action": "标准的亮黄站姿，绿眼圆睁——奶蛙最本真的模样。",
+    "emotion": [
+      "平静"
+    ],
+    "scenes": [
+      "群聊",
+      "日常接话"
+    ],
+    "examples": [
+      "让我看看怎么个事"
+    ],
+    "intensity": 3,
+    "existing_text": "",
+    "source_type": "reference",
+    "source_url": "https://nailong-studio.github.io/NaiLong-Universe/#halls",
+    "source_note": "Nailong-Studio公开奶蛙同人馆藏，包含第三方AI艺术与场景二创；非官方奶龙形象、非本项目重绘。保留收集页及原文件链接，具体形象及图片授权待核实。 原文件：https://raw.githubusercontent.com/Nailong-Studio/wallpaper/main/laugh-gallery/%E5%A5%B6%E8%9B%99-%E4%BA%AE%E9%BB%84%E7%AB%99%E5%A7%BF.png 程序抠图派生（rembg:u2net），原图保留；自动alpha指标不等于人工主体完整性确认。 待复核：automatic_mask_requires_visual_review。 人工对照审核通过；抠图中原配字已消失，保留原图供对照。",
+    "author": "Nailong-Studio（收集/二创署名）",
+    "is_cutout": true,
+    "templates": [
+      "top",
+      "bottom",
+      "split",
+      "frame",
+      "flower",
+      "grid",
+      "message",
+      "poster",
+      "side",
+      "polaroid",
+      "bubble",
+      "dialogue",
+      "spotlight",
+      "comic",
+      "subtitle",
+      "note",
+      "window",
+      "ticket",
+      "medal",
+      "scene"
+    ],
+    "role": "subject",
+    "derived_from": "bulk-naiwa-gallery-l-02",
+    "enabled": true
+  },
+  {
+    "id": "bulk-naiwa-gallery-l-03-program-cutout",
+    "name": "奶蛙 · 抱头大笑奶蛙 · 程序透明版",
+    "character": "奶蛙",
+    "filename": "bulk-naiwa-masks/bulk-naiwa-gallery-l-03-program-cutout.png",
+    "action": "双手抱头大笑，笑意从头顶炸开。",
+    "emotion": [
+      "开心"
+    ],
+    "scenes": [
+      "群聊",
+      "日常接话"
+    ],
+    "examples": [
+      "让我看看怎么个事"
+    ],
+    "intensity": 3,
+    "existing_text": "",
+    "source_type": "reference",
+    "source_url": "https://nailong-studio.github.io/NaiLong-Universe/#halls",
+    "source_note": "Nailong-Studio公开奶蛙同人馆藏，包含第三方AI艺术与场景二创；非官方奶龙形象、非本项目重绘。保留收集页及原文件链接，具体形象及图片授权待核实。 原文件：https://raw.githubusercontent.com/Nailong-Studio/wallpaper/main/laugh-gallery/%E5%A5%B6%E8%9B%99-%E6%8A%B1%E5%A4%B4%E5%A4%A7%E7%AC%91.png 程序抠图派生（rembg:u2net），原图保留；自动alpha指标不等于人工主体完整性确认。 待复核：automatic_mask_requires_visual_review。 人工对照审核通过；抠图中原配字已消失，保留原图供对照。",
+    "author": "Nailong-Studio（收集/二创署名）",
+    "is_cutout": true,
+    "templates": [
+      "top",
+      "bottom",
+      "split",
+      "frame",
+      "flower",
+      "grid",
+      "message",
+      "poster",
+      "side",
+      "polaroid",
+      "bubble",
+      "dialogue",
+      "spotlight",
+      "comic",
+      "subtitle",
+      "note",
+      "window",
+      "ticket",
+      "medal",
+      "scene"
+    ],
+    "role": "subject",
+    "derived_from": "bulk-naiwa-gallery-l-03",
+    "enabled": true
+  },
+  {
+    "id": "bulk-naiwa-gallery-l-04-program-cutout",
+    "name": "奶蛙 · 叉腰指点奶蛙 · 程序透明版",
+    "character": "奶蛙",
+    "filename": "bulk-naiwa-masks/bulk-naiwa-gallery-l-04-program-cutout.png",
+    "action": "叉腰指点，笑里带三分指点江山的豪气。",
+    "emotion": [
+      "平静"
+    ],
+    "scenes": [
+      "群聊",
+      "日常接话"
+    ],
+    "examples": [
+      "让我看看怎么个事"
+    ],
+    "intensity": 3,
+    "existing_text": "",
+    "source_type": "reference",
+    "source_url": "https://nailong-studio.github.io/NaiLong-Universe/#halls",
+    "source_note": "Nailong-Studio公开奶蛙同人馆藏，包含第三方AI艺术与场景二创；非官方奶龙形象、非本项目重绘。保留收集页及原文件链接，具体形象及图片授权待核实。 原文件：https://raw.githubusercontent.com/Nailong-Studio/wallpaper/main/laugh-gallery/%E5%A5%B6%E8%9B%99-%E5%8F%89%E8%85%B0%E6%8C%87%E7%82%B9.png 程序抠图派生（rembg:u2net），原图保留；自动alpha指标不等于人工主体完整性确认。 待复核：automatic_mask_requires_visual_review。 人工对照审核通过；抠图中原配字已消失，保留原图供对照。",
+    "author": "Nailong-Studio（收集/二创署名）",
+    "is_cutout": true,
+    "templates": [
+      "top",
+      "bottom",
+      "split",
+      "frame",
+      "flower",
+      "grid",
+      "message",
+      "poster",
+      "side",
+      "polaroid",
+      "bubble",
+      "dialogue",
+      "spotlight",
+      "comic",
+      "subtitle",
+      "note",
+      "window",
+      "ticket",
+      "medal",
+      "scene"
+    ],
+    "role": "subject",
+    "derived_from": "bulk-naiwa-gallery-l-04",
+    "enabled": true
+  },
+  {
+    "id": "bulk-naiwa-gallery-l-05-program-cutout",
+    "name": "奶蛙 · 指你大笑奶蛙 · 程序透明版",
+    "character": "奶蛙",
+    "filename": "bulk-naiwa-masks/bulk-naiwa-gallery-l-05-program-cutout.png",
+    "action": "伸出手指指向你，笑你，也笑自己。",
+    "emotion": [
+      "开心"
+    ],
+    "scenes": [
+      "群聊",
+      "日常接话"
+    ],
+    "examples": [
+      "让我看看怎么个事"
+    ],
+    "intensity": 3,
+    "existing_text": "",
+    "source_type": "reference",
+    "source_url": "https://nailong-studio.github.io/NaiLong-Universe/#halls",
+    "source_note": "Nailong-Studio公开奶蛙同人馆藏，包含第三方AI艺术与场景二创；非官方奶龙形象、非本项目重绘。保留收集页及原文件链接，具体形象及图片授权待核实。 原文件：https://raw.githubusercontent.com/Nailong-Studio/wallpaper/main/laugh-gallery/%E5%A5%B6%E8%9B%99-%E6%8C%87%E4%BD%A0%E5%A4%A7%E7%AC%91.png 程序抠图派生（rembg:u2net），原图保留；自动alpha指标不等于人工主体完整性确认。 待复核：automatic_mask_requires_visual_review。 人工对照审核通过；抠图中原配字已消失，保留原图供对照。",
+    "author": "Nailong-Studio（收集/二创署名）",
+    "is_cutout": true,
+    "templates": [
+      "top",
+      "bottom",
+      "split",
+      "frame",
+      "flower",
+      "grid",
+      "message",
+      "poster",
+      "side",
+      "polaroid",
+      "bubble",
+      "dialogue",
+      "spotlight",
+      "comic",
+      "subtitle",
+      "note",
+      "window",
+      "ticket",
+      "medal",
+      "scene"
+    ],
+    "role": "subject",
+    "derived_from": "bulk-naiwa-gallery-l-05",
+    "enabled": true
+  },
+  {
+    "id": "bulk-naiwa-gallery-l-06-program-cutout",
+    "name": "奶蛙 · 眯眼张嘴奶蛙 · 程序透明版",
+    "character": "奶蛙",
+    "filename": "bulk-naiwa-masks/bulk-naiwa-gallery-l-06-program-cutout.png",
+    "action": "眯眼张嘴，笑成一弯快乐的月牙。",
+    "emotion": [
+      "平静"
+    ],
+    "scenes": [
+      "群聊",
+      "日常接话"
+    ],
+    "examples": [
+      "让我看看怎么个事"
+    ],
+    "intensity": 3,
+    "existing_text": "",
+    "source_type": "reference",
+    "source_url": "https://nailong-studio.github.io/NaiLong-Universe/#halls",
+    "source_note": "Nailong-Studio公开奶蛙同人馆藏，包含第三方AI艺术与场景二创；非官方奶龙形象、非本项目重绘。保留收集页及原文件链接，具体形象及图片授权待核实。 原文件：https://raw.githubusercontent.com/Nailong-Studio/wallpaper/main/laugh-gallery/%E5%A5%B6%E8%9B%99-%E7%9C%AF%E7%9C%BC%E5%BC%A0%E5%98%B4.png 程序抠图派生（rembg:u2net），原图保留；自动alpha指标不等于人工主体完整性确认。 待复核：automatic_mask_requires_visual_review。 人工对照审核通过；抠图中原配字已消失，保留原图供对照。",
+    "author": "Nailong-Studio（收集/二创署名）",
+    "is_cutout": true,
+    "templates": [
+      "top",
+      "bottom",
+      "split",
+      "frame",
+      "flower",
+      "grid",
+      "message",
+      "poster",
+      "side",
+      "polaroid",
+      "bubble",
+      "dialogue",
+      "spotlight",
+      "comic",
+      "subtitle",
+      "note",
+      "window",
+      "ticket",
+      "medal",
+      "scene"
+    ],
+    "role": "subject",
+    "derived_from": "bulk-naiwa-gallery-l-06",
+    "enabled": true
+  },
+  {
+    "id": "bulk-naiwa-gallery-l-12-program-cutout",
+    "name": "奶蛙 · 圣诞老人奶蛙 · 程序透明版",
+    "character": "奶蛙",
+    "filename": "bulk-naiwa-masks/bulk-naiwa-gallery-l-12-program-cutout.png",
+    "action": "圣诞老人装束，双手交叠，节日的快乐提前送达。",
+    "emotion": [
+      "平静"
+    ],
+    "scenes": [
+      "群聊",
+      "日常接话"
+    ],
+    "examples": [
+      "让我看看怎么个事"
+    ],
+    "intensity": 3,
+    "existing_text": "",
+    "source_type": "reference",
+    "source_url": "https://nailong-studio.github.io/NaiLong-Universe/#halls",
+    "source_note": "Nailong-Studio公开奶蛙同人馆藏，包含第三方AI艺术与场景二创；非官方奶龙形象、非本项目重绘。保留收集页及原文件链接，具体形象及图片授权待核实。 原文件：https://raw.githubusercontent.com/Nailong-Studio/wallpaper/main/laugh-gallery/%E5%A5%B6%E8%9B%99-%E5%9C%A3%E8%AF%9E%E8%80%81%E4%BA%BA.png 程序抠图派生（rembg:u2net），原图保留；自动alpha指标不等于人工主体完整性确认。 待复核：automatic_mask_requires_visual_review。 人工对照审核通过；抠图中原配字已消失，保留原图供对照。",
+    "author": "Nailong-Studio（收集/二创署名）",
+    "is_cutout": true,
+    "templates": [
+      "top",
+      "bottom",
+      "split",
+      "frame",
+      "flower",
+      "grid",
+      "message",
+      "poster",
+      "side",
+      "polaroid",
+      "bubble",
+      "dialogue",
+      "spotlight",
+      "comic",
+      "subtitle",
+      "note",
+      "window",
+      "ticket",
+      "medal",
+      "scene"
+    ],
+    "role": "subject",
+    "derived_from": "bulk-naiwa-gallery-l-12",
+    "enabled": true
+  },
+  {
+    "id": "bulk-naiwa-gallery-l-13-program-cutout",
+    "name": "奶蛙 · 双V大笑奶蛙 · 程序透明版",
+    "character": "奶蛙",
+    "filename": "bulk-naiwa-masks/bulk-naiwa-gallery-l-13-program-cutout.png",
+    "action": "双手比出双 V，大笑的胜利者姿态。",
+    "emotion": [
+      "开心"
+    ],
+    "scenes": [
+      "群聊",
+      "日常接话"
+    ],
+    "examples": [
+      "让我看看怎么个事"
+    ],
+    "intensity": 3,
+    "existing_text": "",
+    "source_type": "reference",
+    "source_url": "https://nailong-studio.github.io/NaiLong-Universe/#halls",
+    "source_note": "Nailong-Studio公开奶蛙同人馆藏，包含第三方AI艺术与场景二创；非官方奶龙形象、非本项目重绘。保留收集页及原文件链接，具体形象及图片授权待核实。 原文件：https://raw.githubusercontent.com/Nailong-Studio/wallpaper/main/laugh-gallery/%E5%A5%B6%E8%9B%99-%E5%8F%8CV%E5%A4%A7%E7%AC%91.png 程序抠图派生（rembg:u2net），原图保留；自动alpha指标不等于人工主体完整性确认。 待复核：automatic_mask_requires_visual_review。 人工对照审核通过；抠图中原配字已消失，保留原图供对照。",
+    "author": "Nailong-Studio（收集/二创署名）",
+    "is_cutout": true,
+    "templates": [
+      "top",
+      "bottom",
+      "split",
+      "frame",
+      "flower",
+      "grid",
+      "message",
+      "poster",
+      "side",
+      "polaroid",
+      "bubble",
+      "dialogue",
+      "spotlight",
+      "comic",
+      "subtitle",
+      "note",
+      "window",
+      "ticket",
+      "medal",
+      "scene"
+    ],
+    "role": "subject",
+    "derived_from": "bulk-naiwa-gallery-l-13",
+    "enabled": true
+  },
+  {
+    "id": "bulk-naiwa-gallery-l-16-program-cutout",
+    "name": "奶蛙 · 狐面和服奶蛙 · 程序透明版",
+    "character": "奶蛙",
+    "filename": "bulk-naiwa-masks/bulk-naiwa-gallery-l-16-program-cutout.png",
+    "action": "狐狸面具配和服头纱，东瀛风的奶蛙也笑得端庄。",
+    "emotion": [
+      "平静"
+    ],
+    "scenes": [
+      "群聊",
+      "日常接话"
+    ],
+    "examples": [
+      "让我看看怎么个事"
+    ],
+    "intensity": 3,
+    "existing_text": "",
+    "source_type": "reference",
+    "source_url": "https://nailong-studio.github.io/NaiLong-Universe/#halls",
+    "source_note": "Nailong-Studio公开奶蛙同人馆藏，包含第三方AI艺术与场景二创；非官方奶龙形象、非本项目重绘。保留收集页及原文件链接，具体形象及图片授权待核实。 原文件：https://raw.githubusercontent.com/Nailong-Studio/wallpaper/main/laugh-gallery/%E5%A5%B6%E8%9B%99-%E7%8B%90%E9%9D%A2%E5%92%8C%E6%9C%8D.png 程序抠图派生（rembg:u2net），原图保留；自动alpha指标不等于人工主体完整性确认。 待复核：automatic_mask_requires_visual_review。 人工对照审核通过；抠图中原配字已消失，保留原图供对照。",
+    "author": "Nailong-Studio（收集/二创署名）",
+    "is_cutout": true,
+    "templates": [
+      "top",
+      "bottom",
+      "split",
+      "frame",
+      "flower",
+      "grid",
+      "message",
+      "poster",
+      "side",
+      "polaroid",
+      "bubble",
+      "dialogue",
+      "spotlight",
+      "comic",
+      "subtitle",
+      "note",
+      "window",
+      "ticket",
+      "medal",
+      "scene"
+    ],
+    "role": "subject",
+    "derived_from": "bulk-naiwa-gallery-l-16",
+    "enabled": true
+  },
+  {
+    "id": "bulk-naiwa-gallery-l-17-program-cutout",
+    "name": "奶蛙 · 哪吒奶蛙 · 程序透明版",
+    "character": "奶蛙",
+    "filename": "bulk-naiwa-masks/bulk-naiwa-gallery-l-17-program-cutout.png",
+    "action": "哪吒发髻、火焰纹、红马甲，神话里的奶蛙合掌大笑。",
+    "emotion": [
+      "平静"
+    ],
+    "scenes": [
+      "群聊",
+      "日常接话"
+    ],
+    "examples": [
+      "让我看看怎么个事"
+    ],
+    "intensity": 3,
+    "existing_text": "",
+    "source_type": "reference",
+    "source_url": "https://nailong-studio.github.io/NaiLong-Universe/#halls",
+    "source_note": "Nailong-Studio公开奶蛙同人馆藏，包含第三方AI艺术与场景二创；非官方奶龙形象、非本项目重绘。保留收集页及原文件链接，具体形象及图片授权待核实。 原文件：https://raw.githubusercontent.com/Nailong-Studio/wallpaper/main/laugh-gallery/%E5%A5%B6%E8%9B%99-%E5%93%AA%E5%90%92.png 程序抠图派生（rembg:u2net），原图保留；自动alpha指标不等于人工主体完整性确认。 待复核：automatic_mask_requires_visual_review。 人工对照审核通过；抠图中原配字已消失，保留原图供对照。",
+    "author": "Nailong-Studio（收集/二创署名）",
+    "is_cutout": true,
+    "templates": [
+      "top",
+      "bottom",
+      "split",
+      "frame",
+      "flower",
+      "grid",
+      "message",
+      "poster",
+      "side",
+      "polaroid",
+      "bubble",
+      "dialogue",
+      "spotlight",
+      "comic",
+      "subtitle",
+      "note",
+      "window",
+      "ticket",
+      "medal",
+      "scene"
+    ],
+    "role": "subject",
+    "derived_from": "bulk-naiwa-gallery-l-17",
+    "enabled": true
+  },
+  {
+    "id": "bulk-naiwa-gallery-l-18-program-cutout",
+    "name": "奶蛙 · 静站绿眼奶蛙 · 程序透明版",
+    "character": "奶蛙",
+    "filename": "bulk-naiwa-masks/bulk-naiwa-gallery-l-18-program-cutout.png",
+    "action": "安安静静站着，绿眼平静，笑藏在肚子里。",
+    "emotion": [
+      "平静"
+    ],
+    "scenes": [
+      "群聊",
+      "日常接话"
+    ],
+    "examples": [
+      "让我看看怎么个事"
+    ],
+    "intensity": 3,
+    "existing_text": "",
+    "source_type": "reference",
+    "source_url": "https://nailong-studio.github.io/NaiLong-Universe/#halls",
+    "source_note": "Nailong-Studio公开奶蛙同人馆藏，包含第三方AI艺术与场景二创；非官方奶龙形象、非本项目重绘。保留收集页及原文件链接，具体形象及图片授权待核实。 原文件：https://raw.githubusercontent.com/Nailong-Studio/wallpaper/main/laugh-gallery/%E5%A5%B6%E8%9B%99-%E9%9D%99%E7%AB%99%E7%BB%BF%E7%9C%BC.png 程序抠图派生（rembg:u2net），原图保留；自动alpha指标不等于人工主体完整性确认。 待复核：automatic_mask_requires_visual_review。 人工对照审核通过；抠图中原配字已消失，保留原图供对照。",
+    "author": "Nailong-Studio（收集/二创署名）",
+    "is_cutout": true,
+    "templates": [
+      "top",
+      "bottom",
+      "split",
+      "frame",
+      "flower",
+      "grid",
+      "message",
+      "poster",
+      "side",
+      "polaroid",
+      "bubble",
+      "dialogue",
+      "spotlight",
+      "comic",
+      "subtitle",
+      "note",
+      "window",
+      "ticket",
+      "medal",
+      "scene"
+    ],
+    "role": "subject",
+    "derived_from": "bulk-naiwa-gallery-l-18",
+    "enabled": true
+  },
+  {
+    "id": "bulk-naiwa-gallery-l-20-program-cutout",
+    "name": "奶蛙 · 托腮奶蛙 · 程序透明版",
+    "character": "奶蛙",
+    "filename": "bulk-naiwa-masks/bulk-naiwa-gallery-l-20-program-cutout.png",
+    "action": "单手托腮，微笑地看着世界。",
+    "emotion": [
+      "疑惑",
+      "思考"
+    ],
+    "scenes": [
+      "核对通知",
+      "等回复"
+    ],
+    "examples": [
+      "让我想想"
+    ],
+    "intensity": 3,
+    "existing_text": "",
+    "source_type": "reference",
+    "source_url": "https://nailong-studio.github.io/NaiLong-Universe/#halls",
+    "source_note": "Nailong-Studio公开奶蛙同人馆藏，包含第三方AI艺术与场景二创；非官方奶龙形象、非本项目重绘。保留收集页及原文件链接，具体形象及图片授权待核实。 原文件：https://raw.githubusercontent.com/Nailong-Studio/wallpaper/main/emotes/%E5%A5%B6%E8%9B%99-%E6%89%98%E8%85%AE.png 程序抠图派生（rembg:u2net），原图保留；自动alpha指标不等于人工主体完整性确认。 待复核：automatic_mask_requires_visual_review。 人工对照审核通过；抠图中原配字已消失，保留原图供对照。",
+    "author": "Nailong-Studio（收集/二创署名）",
+    "is_cutout": true,
+    "templates": [
+      "top",
+      "bottom",
+      "split",
+      "frame",
+      "flower",
+      "grid",
+      "message",
+      "poster",
+      "side",
+      "polaroid",
+      "bubble",
+      "dialogue",
+      "spotlight",
+      "comic",
+      "subtitle",
+      "note",
+      "window",
+      "ticket",
+      "medal",
+      "scene"
+    ],
+    "role": "subject",
+    "derived_from": "bulk-naiwa-gallery-l-20",
+    "enabled": true
+  },
+  {
+    "id": "bulk-naiwa-gallery-l-21-program-cutout",
+    "name": "奶蛙 · 红晕托颌奶蛙 · 程序透明版",
+    "character": "奶蛙",
+    "filename": "bulk-naiwa-masks/bulk-naiwa-gallery-l-21-program-cutout.png",
+    "action": "手托下巴，脸颊泛红，害羞的模样。",
+    "emotion": [
+      "平静"
+    ],
+    "scenes": [
+      "群聊",
+      "日常接话"
+    ],
+    "examples": [
+      "让我看看怎么个事"
+    ],
+    "intensity": 3,
+    "existing_text": "",
+    "source_type": "reference",
+    "source_url": "https://nailong-studio.github.io/NaiLong-Universe/#halls",
+    "source_note": "Nailong-Studio公开奶蛙同人馆藏，包含第三方AI艺术与场景二创；非官方奶龙形象、非本项目重绘。保留收集页及原文件链接，具体形象及图片授权待核实。 原文件：https://raw.githubusercontent.com/Nailong-Studio/wallpaper/main/emotes/%E5%A5%B6%E8%9B%99-%E7%BA%A2%E6%99%95%E6%89%98%E9%A2%8C.png 程序抠图派生（rembg:u2net），原图保留；自动alpha指标不等于人工主体完整性确认。 待复核：automatic_mask_requires_visual_review。 人工对照审核通过；抠图中原配字已消失，保留原图供对照。",
+    "author": "Nailong-Studio（收集/二创署名）",
+    "is_cutout": true,
+    "templates": [
+      "top",
+      "bottom",
+      "split",
+      "frame",
+      "flower",
+      "grid",
+      "message",
+      "poster",
+      "side",
+      "polaroid",
+      "bubble",
+      "dialogue",
+      "spotlight",
+      "comic",
+      "subtitle",
+      "note",
+      "window",
+      "ticket",
+      "medal",
+      "scene"
+    ],
+    "role": "subject",
+    "derived_from": "bulk-naiwa-gallery-l-21",
+    "enabled": true
+  },
+  {
+    "id": "bulk-naiwa-gallery-l-22-program-cutout",
+    "name": "奶蛙 · 蹲坐托腮奶蛙 · 程序透明版",
+    "character": "奶蛙",
+    "filename": "bulk-naiwa-masks/bulk-naiwa-gallery-l-22-program-cutout.png",
+    "action": "蹲坐在地，双手托腮，温顺等夸奖。",
+    "emotion": [
+      "疑惑",
+      "思考"
+    ],
+    "scenes": [
+      "核对通知",
+      "等回复"
+    ],
+    "examples": [
+      "让我想想"
+    ],
+    "intensity": 3,
+    "existing_text": "",
+    "source_type": "reference",
+    "source_url": "https://nailong-studio.github.io/NaiLong-Universe/#halls",
+    "source_note": "Nailong-Studio公开奶蛙同人馆藏，包含第三方AI艺术与场景二创；非官方奶龙形象、非本项目重绘。保留收集页及原文件链接，具体形象及图片授权待核实。 原文件：https://raw.githubusercontent.com/Nailong-Studio/wallpaper/main/emotes/%E5%A5%B6%E8%9B%99-%E8%B9%B2%E5%9D%90%E6%89%98%E8%85%AE.png 程序抠图派生（rembg:u2net），原图保留；自动alpha指标不等于人工主体完整性确认。 待复核：automatic_mask_requires_visual_review。 人工对照审核通过；抠图中原配字已消失，保留原图供对照。",
+    "author": "Nailong-Studio（收集/二创署名）",
+    "is_cutout": true,
+    "templates": [
+      "top",
+      "bottom",
+      "split",
+      "frame",
+      "flower",
+      "grid",
+      "message",
+      "poster",
+      "side",
+      "polaroid",
+      "bubble",
+      "dialogue",
+      "spotlight",
+      "comic",
+      "subtitle",
+      "note",
+      "window",
+      "ticket",
+      "medal",
+      "scene"
+    ],
+    "role": "subject",
+    "derived_from": "bulk-naiwa-gallery-l-22",
+    "enabled": true
+  },
+  {
+    "id": "bulk-naiwa-gallery-l-25-program-cutout",
+    "name": "奶蛙 · 点鼻奶蛙 · 程序透明版",
+    "character": "奶蛙",
+    "filename": "bulk-naiwa-masks/bulk-naiwa-gallery-l-25-program-cutout.png",
+    "action": "手指点着鼻尖，俏皮小动作。",
+    "emotion": [
+      "平静"
+    ],
+    "scenes": [
+      "群聊",
+      "日常接话"
+    ],
+    "examples": [
+      "让我看看怎么个事"
+    ],
+    "intensity": 3,
+    "existing_text": "",
+    "source_type": "reference",
+    "source_url": "https://nailong-studio.github.io/NaiLong-Universe/#halls",
+    "source_note": "Nailong-Studio公开奶蛙同人馆藏，包含第三方AI艺术与场景二创；非官方奶龙形象、非本项目重绘。保留收集页及原文件链接，具体形象及图片授权待核实。 原文件：https://raw.githubusercontent.com/Nailong-Studio/wallpaper/main/emotes/%E5%A5%B6%E8%9B%99-%E7%82%B9%E9%BC%BB.png 程序抠图派生（rembg:u2net），原图保留；自动alpha指标不等于人工主体完整性确认。 待复核：automatic_mask_requires_visual_review。 人工对照审核通过；抠图中原配字已消失，保留原图供对照。",
+    "author": "Nailong-Studio（收集/二创署名）",
+    "is_cutout": true,
+    "templates": [
+      "top",
+      "bottom",
+      "split",
+      "frame",
+      "flower",
+      "grid",
+      "message",
+      "poster",
+      "side",
+      "polaroid",
+      "bubble",
+      "dialogue",
+      "spotlight",
+      "comic",
+      "subtitle",
+      "note",
+      "window",
+      "ticket",
+      "medal",
+      "scene"
+    ],
+    "role": "subject",
+    "derived_from": "bulk-naiwa-gallery-l-25",
+    "enabled": true
+  },
+  {
+    "id": "bulk-naiwa-gallery-l-28-program-cutout",
+    "name": "奶蛙 · 微愠奶蛙 · 程序透明版",
+    "character": "奶蛙",
+    "filename": "bulk-naiwa-masks/bulk-naiwa-gallery-l-28-program-cutout.png",
+    "action": "脸颊泛红，眉头微蹙，生气的奶蛙也可爱。",
+    "emotion": [
+      "平静"
+    ],
+    "scenes": [
+      "群聊",
+      "日常接话"
+    ],
+    "examples": [
+      "让我看看怎么个事"
+    ],
+    "intensity": 3,
+    "existing_text": "",
+    "source_type": "reference",
+    "source_url": "https://nailong-studio.github.io/NaiLong-Universe/#halls",
+    "source_note": "Nailong-Studio公开奶蛙同人馆藏，包含第三方AI艺术与场景二创；非官方奶龙形象、非本项目重绘。保留收集页及原文件链接，具体形象及图片授权待核实。 原文件：https://raw.githubusercontent.com/Nailong-Studio/wallpaper/main/emotes/%E5%A5%B6%E8%9B%99-%E5%BE%AE%E6%84%A0.png 程序抠图派生（rembg:u2net），原图保留；自动alpha指标不等于人工主体完整性确认。 待复核：automatic_mask_requires_visual_review。 人工对照审核通过；抠图中原配字已消失，保留原图供对照。",
+    "author": "Nailong-Studio（收集/二创署名）",
+    "is_cutout": true,
+    "templates": [
+      "top",
+      "bottom",
+      "split",
+      "frame",
+      "flower",
+      "grid",
+      "message",
+      "poster",
+      "side",
+      "polaroid",
+      "bubble",
+      "dialogue",
+      "spotlight",
+      "comic",
+      "subtitle",
+      "note",
+      "window",
+      "ticket",
+      "medal",
+      "scene"
+    ],
+    "role": "subject",
+    "derived_from": "bulk-naiwa-gallery-l-28",
+    "enabled": true
+  },
+  {
+    "id": "bulk-naiwa-gallery-l-30-program-cutout",
+    "name": "奶蛙 · 侧立奶蛙 · 程序透明版",
+    "character": "奶蛙",
+    "filename": "bulk-naiwa-masks/bulk-naiwa-gallery-l-30-program-cutout.png",
+    "action": "侧身而立，双手放在肚前，安静又圆润。",
+    "emotion": [
+      "平静"
+    ],
+    "scenes": [
+      "群聊",
+      "日常接话"
+    ],
+    "examples": [
+      "让我看看怎么个事"
+    ],
+    "intensity": 3,
+    "existing_text": "",
+    "source_type": "reference",
+    "source_url": "https://nailong-studio.github.io/NaiLong-Universe/#halls",
+    "source_note": "Nailong-Studio公开奶蛙同人馆藏，包含第三方AI艺术与场景二创；非官方奶龙形象、非本项目重绘。保留收集页及原文件链接，具体形象及图片授权待核实。 原文件：https://raw.githubusercontent.com/Nailong-Studio/wallpaper/main/emotes/%E5%A5%B6%E8%9B%99-%E4%BE%A7%E7%AB%8B.png 程序抠图派生（rembg:u2net），原图保留；自动alpha指标不等于人工主体完整性确认。 待复核：automatic_mask_requires_visual_review。 人工对照审核通过；抠图中原配字已消失，保留原图供对照。",
+    "author": "Nailong-Studio（收集/二创署名）",
+    "is_cutout": true,
+    "templates": [
+      "top",
+      "bottom",
+      "split",
+      "frame",
+      "flower",
+      "grid",
+      "message",
+      "poster",
+      "side",
+      "polaroid",
+      "bubble",
+      "dialogue",
+      "spotlight",
+      "comic",
+      "subtitle",
+      "note",
+      "window",
+      "ticket",
+      "medal",
+      "scene"
+    ],
+    "role": "subject",
+    "derived_from": "bulk-naiwa-gallery-l-30",
+    "enabled": true
+  }
+]

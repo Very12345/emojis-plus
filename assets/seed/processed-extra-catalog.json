@@ -1,0 +1,355 @@
+[
+  {
+    "id": "web-meowl-scene-1-cutout",
+    "name": "Meowl · 林间小花 · 透明版",
+    "character": "Meowl",
+    "filename": "processed/web-meowl-scene-1-cutout.png",
+    "action": "猫头鹰身体藏在树干和蕨叶旁，猫头顶着小花",
+    "emotion": [
+      "可爱",
+      "期待"
+    ],
+    "scenes": [
+      "等人",
+      "打招呼",
+      "等下课"
+    ],
+    "examples": [
+      "悄悄探个头",
+      "这里还有一个我"
+    ],
+    "existing_text": "",
+    "intensity": 2,
+    "source_type": "reference",
+    "author": "猪猫可乐（原图水印，归属待核实）",
+    "source_url": "https://knowyourmeme.com/photos/3139715-meowl",
+    "source_note": "网络公开收集，来自 Know Your Meme 的 Meowl Weibo 图片集，收录者 Owen，来源标注为 Weibo；原图含猪猫可乐/weibo.com/zhumaokele 水印。不同场景与猫脸的猫头鹰合成图，作者归属和使用授权待核实，完整保留水印、配字和背景，非本项目重采样变体。 原文件下载地址：https://i.kym-cdn.com/photos/images/original/003/139/715/c96.png ImageGen背景提取加工派生，保留相同姿态与角色，去除外部背景/配字；原图独立保留，作者署名及来源见原图与本记录。AI加工可能有细节偏差，非作者提供的原生透明图。",
+    "role": "subject",
+    "is_cutout": true,
+    "templates": [
+      "top",
+      "bottom",
+      "split",
+      "frame",
+      "flower",
+      "grid",
+      "message",
+      "poster",
+      "side",
+      "polaroid",
+      "bubble",
+      "dialogue",
+      "spotlight"
+    ],
+    "derived_from": "web-meowl-scene-1"
+  },
+  {
+    "id": "web-meowl-scene-2-cutout",
+    "name": "Meowl · 闭眼白团子 · 透明版",
+    "character": "Meowl",
+    "filename": "processed/web-meowl-scene-2-cutout.png",
+    "action": "白色猫头与雪鸮身体组合，闭眼站在林地上",
+    "emotion": [
+      "平静",
+      "困倦",
+      "满足"
+    ],
+    "scenes": [
+      "早八",
+      "睡觉",
+      "放空"
+    ],
+    "examples": [
+      "我先闭目养神一下",
+      "收到，安详躺平"
+    ],
+    "existing_text": "",
+    "intensity": 1,
+    "source_type": "reference",
+    "author": "猪猫可乐（原图水印，归属待核实）",
+    "source_url": "https://knowyourmeme.com/photos/3139716-meowl",
+    "source_note": "网络公开收集，来自 Know Your Meme 的 Meowl Weibo 图片集，收录者 Owen，来源标注为 Weibo；原图含猪猫可乐/weibo.com/zhumaokele 水印。不同场景与猫脸的猫头鹰合成图，作者归属和使用授权待核实，完整保留水印、配字和背景，非本项目重采样变体。 原文件下载地址：https://i.kym-cdn.com/photos/images/original/003/139/716/e1c.png ImageGen背景提取加工派生，保留相同姿态与角色，去除外部背景/配字；原图独立保留，作者署名及来源见原图与本记录。AI加工可能有细节偏差，非作者提供的原生透明图。",
+    "role": "subject",
+    "is_cutout": true,
+    "templates": [
+      "top",
+      "bottom",
+      "split",
+      "frame",
+      "flower",
+      "grid",
+      "message",
+      "poster",
+      "side",
+      "polaroid",
+      "bubble",
+      "dialogue",
+      "spotlight"
+    ],
+    "derived_from": "web-meowl-scene-2"
+  },
+  {
+    "id": "web-batiao-03-cutout",
+    "name": "呆猫八条 · 趴着等待 · 透明版",
+    "character": "呆猫八条",
+    "filename": "processed/web-batiao-03-cutout.png",
+    "action": "趴在地上抬起圆圆的大眼睛",
+    "emotion": [
+      "期待",
+      "委屈"
+    ],
+    "scenes": [
+      "等回复",
+      "求助"
+    ],
+    "examples": [
+      "能不能帮帮我",
+      "等一个消息"
+    ],
+    "existing_text": "",
+    "intensity": 2,
+    "source_type": "reference",
+    "author": "呆猫八条（转载页标注 Roro）",
+    "source_url": "https://getstickerpack.com/stickers/silly-cat-batiao-1",
+    "source_note": "网络公开收集的完整原文件，未经抠图、去字、换底或重绘；此版本为不透明背景，不能作为透明主体使用。具体二创作者与使用授权待核实。 转载整包贡献者 ahriietta，不等于原作者；原作者账号呆猫八条：https://www.sina.cn/media/7950264034。该账号公开简介声明头像壁纸表情包可自用、原创 IP 禁商用、搬运需注明原创出处；本项目未独立取得二改或再分发授权。 ImageGen背景提取加工派生，保留相同姿态与角色，去除外部背景/配字；原图独立保留，作者署名及来源见原图与本记录。AI加工可能有细节偏差，非作者提供的原生透明图。",
+    "role": "subject",
+    "is_cutout": true,
+    "templates": [
+      "top",
+      "bottom",
+      "split",
+      "frame",
+      "flower",
+      "grid",
+      "message",
+      "poster",
+      "side",
+      "polaroid",
+      "bubble",
+      "dialogue",
+      "spotlight"
+    ],
+    "derived_from": "web-batiao-03"
+  },
+  {
+    "id": "web-batiao-07-cutout",
+    "name": "呆猫八条 · 满脸问号 · 透明版",
+    "character": "呆猫八条",
+    "filename": "processed/web-batiao-07-cutout.png",
+    "action": "歪头睁大眼睛，头顶冒出问号",
+    "emotion": [
+      "疑惑",
+      "困惑"
+    ],
+    "scenes": [
+      "收到通知",
+      "作业",
+      "代码调试"
+    ],
+    "examples": [
+      "发生什么事了",
+      "这个需求认真的吗"
+    ],
+    "existing_text": "",
+    "intensity": 2,
+    "source_type": "reference",
+    "author": "呆猫八条（转载页标注 Roro）",
+    "source_url": "https://getstickerpack.com/stickers/silly-cat-batiao-1",
+    "source_note": "网络公开收集的完整原文件，未经抠图、去字、换底或重绘；此版本为不透明背景，不能作为透明主体使用。具体二创作者与使用授权待核实。 转载整包贡献者 ahriietta，不等于原作者；原作者账号呆猫八条：https://www.sina.cn/media/7950264034。该账号公开简介声明头像壁纸表情包可自用、原创 IP 禁商用、搬运需注明原创出处；本项目未独立取得二改或再分发授权。 ImageGen背景提取加工派生，保留相同姿态与角色，去除外部背景/配字；原图独立保留，作者署名及来源见原图与本记录。AI加工可能有细节偏差，非作者提供的原生透明图。",
+    "role": "subject",
+    "is_cutout": true,
+    "templates": [
+      "top",
+      "bottom",
+      "split",
+      "frame",
+      "flower",
+      "grid",
+      "message",
+      "poster",
+      "side",
+      "polaroid",
+      "bubble",
+      "dialogue",
+      "spotlight"
+    ],
+    "derived_from": "web-batiao-07"
+  },
+  {
+    "id": "web-feidudu-02-cutout",
+    "name": "肥嘟嘟 · 躺平爽歪歪 · 透明版",
+    "character": "肥嘟嘟",
+    "filename": "processed/web-feidudu-02-cutout.png",
+    "action": "黄色袋鼠仰躺着，把双爪搭在肚子上",
+    "emotion": [
+      "放松",
+      "开心"
+    ],
+    "scenes": [
+      "放假",
+      "下课",
+      "休息"
+    ],
+    "examples": [
+      "终于可以休息了",
+      "今天直接躺平"
+    ],
+    "existing_text": "",
+    "intensity": 2,
+    "source_type": "reference",
+    "author": "美团袋鼠形象；具体二创作者待核实",
+    "source_url": "https://www.sina.cn/news/detail/5337303985950047.html",
+    "source_note": "网络公开收集的完整原文件，未经抠图、去字、换底或重绘；此版本为不透明背景，不能作为透明主体使用。具体二创作者与使用授权待核实。 转载整理者：依知兔砸zzz（不等于原作者）。 原图含固定文字，新配字应放额外留白，不能覆盖替换。 ImageGen背景提取加工派生，保留相同姿态与角色，去除外部背景/配字；原图独立保留，作者署名及来源见原图与本记录。AI加工可能有细节偏差，非作者提供的原生透明图。",
+    "role": "subject",
+    "is_cutout": true,
+    "templates": [
+      "top",
+      "bottom",
+      "split",
+      "frame",
+      "flower",
+      "grid",
+      "message",
+      "poster",
+      "side",
+      "polaroid",
+      "bubble",
+      "dialogue",
+      "spotlight"
+    ],
+    "derived_from": "web-feidudu-02"
+  },
+  {
+    "id": "web-feidudu-09-cutout",
+    "name": "肥嘟嘟 · 委屈屈 · 透明版",
+    "character": "肥嘟嘟",
+    "filename": "processed/web-feidudu-09-cutout.png",
+    "action": "黄色袋鼠用双爪托着脸，眉毛下垂",
+    "emotion": [
+      "委屈",
+      "难过"
+    ],
+    "scenes": [
+      "求安慰",
+      "考试",
+      "日常"
+    ],
+    "examples": [
+      "今天需要一点安慰",
+      "怎么又是我"
+    ],
+    "existing_text": "",
+    "intensity": 3,
+    "source_type": "reference",
+    "author": "美团袋鼠形象；具体二创作者待核实",
+    "source_url": "https://www.sina.cn/news/detail/5337303985950047.html",
+    "source_note": "网络公开收集的完整原文件，未经抠图、去字、换底或重绘；此版本为不透明背景，不能作为透明主体使用。具体二创作者与使用授权待核实。 转载整理者：依知兔砸zzz（不等于原作者）。 原图含固定文字，新配字应放额外留白，不能覆盖替换。 ImageGen背景提取加工派生，保留相同姿态与角色，去除外部背景/配字；原图独立保留，作者署名及来源见原图与本记录。AI加工可能有细节偏差，非作者提供的原生透明图。",
+    "role": "subject",
+    "is_cutout": true,
+    "templates": [
+      "top",
+      "bottom",
+      "split",
+      "frame",
+      "flower",
+      "grid",
+      "message",
+      "poster",
+      "side",
+      "polaroid",
+      "bubble",
+      "dialogue",
+      "spotlight"
+    ],
+    "derived_from": "web-feidudu-09"
+  },
+  {
+    "id": "web-shark-04-cutout",
+    "name": "小鲨鱼 · 哈哈哈 · 透明版",
+    "character": "小鲨鱼",
+    "filename": "processed/web-shark-04-cutout.png",
+    "action": "蓝灰色小鲨鱼张嘴仰头大笑",
+    "emotion": [
+      "开心",
+      "大笑"
+    ],
+    "scenes": [
+      "群聊",
+      "看到笑话",
+      "下课"
+    ],
+    "examples": [
+      "这下真的笑出声",
+      "今天的快乐有了"
+    ],
+    "existing_text": "",
+    "intensity": 4,
+    "source_type": "reference",
+    "author": "待核实",
+    "source_url": "https://www.qqan.com/article/article_307209_1.html",
+    "source_note": "网络公开收集的完整原文件，未经抠图、去字、换底或重绘；此版本为不透明背景，不能作为透明主体使用。具体二创作者与使用授权待核实。 转载整理者：腾牛个性网网友整理（不等于原作者）。 原图含固定文字，新配字应放额外留白，不能覆盖替换。 ImageGen背景提取加工派生，保留相同姿态与角色，去除外部背景/配字；原图独立保留，作者署名及来源见原图与本记录。AI加工可能有细节偏差，非作者提供的原生透明图。",
+    "role": "subject",
+    "is_cutout": true,
+    "templates": [
+      "top",
+      "bottom",
+      "split",
+      "frame",
+      "flower",
+      "grid",
+      "message",
+      "poster",
+      "side",
+      "polaroid",
+      "bubble",
+      "dialogue",
+      "spotlight"
+    ],
+    "derived_from": "web-shark-04"
+  },
+  {
+    "id": "web-shark-06-cutout",
+    "name": "小鲨鱼 · 面壁 · 透明版",
+    "character": "小鲨鱼",
+    "filename": "processed/web-shark-06-cutout.png",
+    "action": "蓝灰色小鲨鱼背对画面，面向墙角低着头",
+    "emotion": [
+      "自闭",
+      "难过",
+      "疲惫"
+    ],
+    "scenes": [
+      "考试",
+      "写作业",
+      "社恐"
+    ],
+    "examples": [
+      "先让我面壁一会儿",
+      "今天不想说话"
+    ],
+    "existing_text": "",
+    "intensity": 3,
+    "source_type": "reference",
+    "author": "待核实",
+    "source_url": "https://www.qqan.com/article/article_307209_1.html",
+    "source_note": "网络公开收集的完整原文件，未经抠图、去字、换底或重绘；此版本为不透明背景，不能作为透明主体使用。具体二创作者与使用授权待核实。 转载整理者：腾牛个性网网友整理（不等于原作者）。 ImageGen背景提取加工派生，保留相同姿态与角色，去除外部背景/配字；原图独立保留，作者署名及来源见原图与本记录。AI加工可能有细节偏差，非作者提供的原生透明图。",
+    "role": "subject",
+    "is_cutout": true,
+    "templates": [
+      "top",
+      "bottom",
+      "split",
+      "frame",
+      "flower",
+      "grid",
+      "message",
+      "poster",
+      "side",
+      "polaroid",
+      "bubble",
+      "dialogue",
+      "spotlight"
+    ],
+    "derived_from": "web-shark-06"
+  }
+]

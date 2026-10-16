@@ -1,0 +1,4801 @@
+{
+  "schema_version": 1,
+  "presets": [
+    {
+      "id": "character-flower",
+      "name": "角色也能开花",
+      "description": "透明角色替代花瓣，文字放进花心",
+      "category": "日常聊天",
+      "selector": {
+        "asset_id": "web-naiwa-0031",
+        "character": "奶蛙",
+        "prefer_transparent": true
+      },
+      "plan": {
+        "template_id": "flower",
+        "text": "今天也要开花",
+        "background": "#fff9e9",
+        "background_style": "gradient",
+        "background_secondary": "#e6efc4",
+        "text_placement": "embedded",
+        "font_style": "plain",
+        "format": "gif",
+        "size": 256,
+        "font_size": 30
+      }
+    },
+    {
+      "id": "wave-copies",
+      "name": "精神状态排排站",
+      "description": "复制波浪 × 上下伸缩，可以继续叠加动效",
+      "category": "动态整活",
+      "selector": {
+        "asset_id": "meowl-cutout",
+        "character": "Meowl",
+        "prefer_transparent": true
+      },
+      "plan": {
+        "template_id": "bottom",
+        "text": "今日精神状态",
+        "format": "gif",
+        "size": 256,
+        "background": "#faf5e7",
+        "background_style": "paper",
+        "font_style": "handwritten",
+        "effects": [
+          "wave_copy",
+          "stretch"
+        ]
+      }
+    },
+    {
+      "id": "school-message",
+      "name": "学校有话说",
+      "description": "校徽作为发言头像，复刻对话式表情",
+      "category": "校园日常",
+      "selector": {
+        "asset_id": "pku-logo-avatar",
+        "character": "北京大学",
+        "prefer_transparent": false
+      },
+      "plan": {
+        "template_id": "message",
+        "text": "我做的局",
+        "font_size": 48,
+        "background": "#eeeeee",
+        "emblem": false,
+        "emblem_mode": "speaker",
+        "speaker_name": "北京大学"
+      }
+    },
+    {
+      "id": "school-actor",
+      "name": "学校本人登场",
+      "description": "校徽成为角色的头部，搭配肢体动作",
+      "category": "校园日常",
+      "selector": {
+        "asset_id": "pku-person-welcome",
+        "character": "北京大学",
+        "prefer_transparent": false
+      },
+      "plan": {
+        "template_id": "bottom",
+        "text": "学校：安排上了",
+        "background": "#f8f5e8",
+        "emblem": false,
+        "background_style": "gradient",
+        "font_style": "bold",
+        "emblem_mode": "personified"
+      }
+    },
+    {
+      "id": "big-rest",
+      "name": "休息是正经事",
+      "description": "大字海报 × 粗黑字",
+      "category": "情绪海报",
+      "selector": {
+        "asset_id": "web-meowl-scene-1-cutout",
+        "character": "Meowl",
+        "prefer_transparent": true
+      },
+      "plan": {
+        "template_id": "poster",
+        "text": "今日暂停营业",
+        "font_size": 64,
+        "background": "#f9edce",
+        "background_style": "rays",
+        "background_secondary": "#f2dca5",
+        "font_style": "bold"
+      }
+    },
+    {
+      "id": "side-vertical",
+      "name": "几个字说明状态",
+      "description": "左图右字 × 从右至左竖排",
+      "category": "文字玩法",
+      "selector": {
+        "asset_id": "web-meowl-scene-1-cutout",
+        "character": "Meowl",
+        "prefer_transparent": true
+      },
+      "plan": {
+        "template_id": "side",
+        "text": "我先缓一缓",
+        "font_size": 62,
+        "background": "#e9f0df",
+        "font_style": "handwritten",
+        "text_layout": "vertical"
+      }
+    },
+    {
+      "id": "instant-photo",
+      "name": "把摸鱼拍下来",
+      "description": "拍立得 × 手写体",
+      "category": "日常聊天",
+      "selector": {
+        "asset_id": "web-naiwa-0031",
+        "character": "奶蛙",
+        "prefer_transparent": true
+      },
+      "plan": {
+        "template_id": "polaroid",
+        "text": "今天也有在好好摸鱼",
+        "background": "#dfebd8",
+        "font_style": "handwritten"
+      }
+    },
+    {
+      "id": "inner-voice",
+      "name": "脑内小剧场",
+      "description": "气泡心声 × 温柔配色",
+      "category": "日常聊天",
+      "selector": {
+        "asset_id": "web-meowl-scene-1-cutout",
+        "character": "Meowl",
+        "prefer_transparent": true
+      },
+      "plan": {
+        "template_id": "bubble",
+        "text": "听懂了，但我选择再睡一会儿",
+        "font_size": 40,
+        "background": "#e7edf6",
+        "background_secondary": "#c9d7e8"
+      }
+    },
+    {
+      "id": "deadline-chat",
+      "name": "我和截止日期",
+      "description": "双人对话 × 一问一答",
+      "category": "校园日常",
+      "selector": {
+        "asset_id": "web-naiwa-0031",
+        "character": "奶蛙",
+        "prefer_transparent": true
+      },
+      "plan": {
+        "template_id": "dialogue",
+        "text": "作业写完了吗？",
+        "secondary_text": "你先别问这么难的问题",
+        "background": "#f1f2ed",
+        "background_secondary": "#dce9cf"
+      }
+    },
+    {
+      "id": "on-stage",
+      "name": "主角登场",
+      "description": "聚光舞台 × 浅色大字",
+      "category": "情绪海报",
+      "selector": {
+        "asset_id": "web-naiwa-0031",
+        "character": "奶蛙",
+        "prefer_transparent": true
+      },
+      "plan": {
+        "template_id": "spotlight",
+        "text": "接下来由我表演一个硬撑",
+        "font_size": 40,
+        "background": "#24382f",
+        "text_color": "#fff5cc",
+        "font_style": "bold"
+      }
+    },
+    {
+      "id": "official-rest",
+      "name": "给自己盖个章",
+      "description": "印章文字 × 极简留白",
+      "category": "文字玩法",
+      "selector": {
+        "asset_id": "web-meowl-scene-1-cutout",
+        "character": "Meowl",
+        "prefer_transparent": true
+      },
+      "plan": {
+        "template_id": "bottom",
+        "text": "已阅，但没懂",
+        "font_size": 42,
+        "background": "#fff8e8",
+        "font_style": "stamp"
+      }
+    },
+    {
+      "id": "happy-jump",
+      "name": "快乐会传染",
+      "description": "错落跳字 × 弹跳动作",
+      "category": "动态整活",
+      "selector": {
+        "asset_id": "web-naiwa-0031",
+        "character": "奶蛙",
+        "prefer_transparent": true
+      },
+      "plan": {
+        "template_id": "bottom",
+        "text": "好耶好耶好耶",
+        "format": "gif",
+        "size": 256,
+        "font_size": 46,
+        "background": "#fff0cf",
+        "font_style": "bold",
+        "text_layout": "staggered",
+        "effects": [
+          "bounce",
+          "stretch"
+        ]
+      }
+    },
+    {
+      "id": "look-busy",
+      "name": "看起来很忙",
+      "description": "海报 × 立体阴影字",
+      "category": "校园日常",
+      "selector": {
+        "asset_id": "nun-cutout-v2",
+        "character": "猫耳修女",
+        "prefer_transparent": true
+      },
+      "plan": {
+        "template_id": "poster",
+        "text": "忙着保持清醒",
+        "font_size": 58,
+        "background": "#f5e5de",
+        "background_secondary": "#d5a994",
+        "font_style": "shadow"
+      }
+    },
+    {
+      "id": "honest-chat",
+      "name": "从嘴硬到诚实",
+      "description": "双句反差 × 上下呼应",
+      "category": "日常聊天",
+      "selector": {
+        "asset_id": "web-naiwa-0031",
+        "character": "奶蛙",
+        "prefer_transparent": true
+      },
+      "plan": {
+        "template_id": "split",
+        "text": "我能处理",
+        "secondary_text": "处理不了一点",
+        "background": "#f0e8f5",
+        "font_style": "bold"
+      }
+    },
+    {
+      "id": "worm-thought",
+      "name": "小小一只也有心事",
+      "description": "气泡模板 × 现成梗图",
+      "category": "日常聊天",
+      "selector": {
+        "asset_id": "worm-cutout-v2",
+        "character": "毛毛虫",
+        "prefer_transparent": true
+      },
+      "plan": {
+        "template_id": "bubble",
+        "text": "这件事我越想越不对劲",
+        "background": "#edf1d9",
+        "background_secondary": "#cbd5a5"
+      }
+    },
+    {
+      "id": "collective-rest",
+      "name": "大家都一样",
+      "description": "九宫格 × 依次波动",
+      "category": "动态整活",
+      "selector": {
+        "asset_id": "web-meowl-scene-1-cutout",
+        "character": "Meowl",
+        "prefer_transparent": true
+      },
+      "plan": {
+        "template_id": "grid",
+        "text": "全员低电量运行",
+        "format": "gif",
+        "size": 256,
+        "background": "#edf2e7",
+        "font_style": "handwritten",
+        "effects": [
+          "wave_copy",
+          "breathe"
+        ]
+      }
+    },
+    {
+      "id": "code-solved",
+      "name": "这一刻值得留念",
+      "description": "拍立得 × 写码庆祝",
+      "category": "日常聊天",
+      "selector": {
+        "asset_id": "web-meowl-scene-1-cutout",
+        "character": "Meowl",
+        "prefer_transparent": true
+      },
+      "plan": {
+        "template_id": "polaroid",
+        "text": "运行成功，禁止再动",
+        "background": "#e3eaf0",
+        "font_style": "handwritten"
+      }
+    },
+    {
+      "id": "tiny-thanks",
+      "name": "把谢谢说得大一点",
+      "description": "顶部配字 × 快乐手写",
+      "category": "情绪海报",
+      "selector": {
+        "asset_id": "web-naiwa-0031",
+        "character": "奶蛙",
+        "prefer_transparent": true
+      },
+      "plan": {
+        "template_id": "top",
+        "text": "谢谢你！真的有被帮到",
+        "background": "#fff0e2",
+        "background_style": "gradient",
+        "background_secondary": "#f5dce4",
+        "font_style": "handwritten"
+      }
+    },
+    {
+      "id": "panic-move",
+      "name": "脑子赶不上安排",
+      "description": "移动 × 抖动 × 贴纸字",
+      "category": "动态整活",
+      "selector": {
+        "asset_id": "web-naiwa-0031",
+        "character": "奶蛙",
+        "prefer_transparent": true
+      },
+      "plan": {
+        "template_id": "bottom",
+        "text": "等一下，我还没准备好",
+        "format": "gif",
+        "size": 256,
+        "background": "#fff6d8",
+        "font_style": "sticker",
+        "effects": [
+          "move",
+          "shake"
+        ]
+      }
+    },
+    {
+      "id": "quiet-observe",
+      "name": "竖着围观一下",
+      "description": "左图右字 × 稳定围观",
+      "category": "文字玩法",
+      "selector": {
+        "asset_id": "web-naiwa-0031",
+        "character": "奶蛙",
+        "prefer_transparent": true
+      },
+      "plan": {
+        "template_id": "side",
+        "text": "让我看看怎么个事",
+        "font_size": 54,
+        "background": "#e7ecef",
+        "font_style": "bold",
+        "text_layout": "vertical"
+      }
+    },
+    {
+      "id": "native-laugh",
+      "name": "笑容恢复中",
+      "description": "现成奶蛙大笑 GIF × 底部配字",
+      "category": "动态整活",
+      "selector": {
+        "asset_id": "web-naiwa-0024",
+        "character": "奶蛙",
+        "prefer_transparent": false
+      },
+      "plan": {
+        "template_id": "bottom",
+        "text": "先笑一下，事情等会儿再说",
+        "format": "gif",
+        "size": 256,
+        "font_style": "bold"
+      }
+    },
+    {
+      "id": "study-together",
+      "name": "一起赶作业",
+      "description": "现成写作业 GIF × 大字海报",
+      "category": "动态整活",
+      "selector": {
+        "asset_id": "web-naiwa-0001",
+        "character": "奶蛙",
+        "prefer_transparent": false
+      },
+      "plan": {
+        "template_id": "poster",
+        "text": "学习中，请勿打扰",
+        "format": "gif",
+        "size": 256,
+        "font_size": 54,
+        "background": "#fff4de",
+        "font_style": "bold"
+      }
+    },
+    {
+      "id": "lying-down",
+      "name": "今天先这样吧",
+      "description": "现成躺平奶蛙 × 拍立得",
+      "category": "日常聊天",
+      "selector": {
+        "asset_id": "web-naiwa-0062",
+        "character": "奶蛙",
+        "prefer_transparent": false
+      },
+      "plan": {
+        "template_id": "polaroid",
+        "text": "明天一定好好学",
+        "background": "#dfebdf",
+        "font_style": "handwritten"
+      }
+    },
+    {
+      "id": "naidan-hello",
+      "name": "新朋友奶蛋",
+      "description": "抱胸奶蛋 × 气泡心声",
+      "category": "日常聊天",
+      "selector": {
+        "asset_id": "web-naidan-0066",
+        "character": "奶蛋",
+        "prefer_transparent": false
+      },
+      "plan": {
+        "template_id": "bubble",
+        "text": "我看起来是不是很有把握",
+        "background": "#f5e9d7",
+        "background_secondary": "#e5cba3"
+      }
+    },
+    {
+      "id": "cow-ask-again",
+      "name": "牛来想确认一下",
+      "description": "透明牛来 × 气泡反问",
+      "category": "角色专属",
+      "selector": {
+        "asset_id": "web-niulai-01",
+        "character": "牛来",
+        "prefer_transparent": true
+      },
+      "plan": {
+        "template_id": "bubble",
+        "text": "你刚刚说什么？再说一遍",
+        "font_size": 44,
+        "background": "#f3eedb",
+        "background_secondary": "#d9cc9e"
+      }
+    },
+    {
+      "id": "feidudu-full",
+      "name": "今天的快乐很具体",
+      "description": "透明肥嘟嘟 × 拍立得",
+      "category": "角色专属",
+      "selector": {
+        "asset_id": "web-feidudu-02-cutout",
+        "character": "肥嘟嘟",
+        "prefer_transparent": true
+      },
+      "plan": {
+        "template_id": "polaroid",
+        "text": "肚子饱饱，烦恼少少",
+        "background": "#f6e8d5",
+        "font_style": "handwritten"
+      }
+    },
+    {
+      "id": "shark-rescue",
+      "name": "求捞小鲨鱼",
+      "description": "去字透明底图 × 自定义配字",
+      "category": "角色专属",
+      "selector": {
+        "asset_id": "web-shark-04-cutout",
+        "character": "小鲨鱼",
+        "prefer_transparent": true
+      },
+      "plan": {
+        "template_id": "top",
+        "text": "老师，菜菜，捞捞",
+        "font_size": 46,
+        "background": "#e5f0f5",
+        "font_style": "bold"
+      }
+    },
+    {
+      "id": "batiao-listening",
+      "name": "在听，也在怀疑",
+      "description": "透明八条 × 左图右字",
+      "category": "角色专属",
+      "selector": {
+        "asset_id": "web-batiao-03-cutout",
+        "character": "呆猫八条",
+        "prefer_transparent": true
+      },
+      "plan": {
+        "template_id": "side",
+        "text": "你继续说\n我在听",
+        "font_size": 52,
+        "background": "#ede8f1",
+        "font_style": "bold"
+      }
+    },
+    {
+      "id": "nun-bug",
+      "name": "写码人的沉默",
+      "description": "透明修女 × 气泡心声",
+      "category": "角色专属",
+      "selector": {
+        "asset_id": "nun-cutout-v2",
+        "character": "猫耳修女",
+        "prefer_transparent": true
+      },
+      "plan": {
+        "template_id": "bubble",
+        "text": "这个 bug 我好像见过",
+        "font_size": 44,
+        "background": "#f5e8e6",
+        "background_secondary": "#dfc5c0"
+      }
+    },
+    {
+      "id": "worm-moving",
+      "name": "缓慢但在前进",
+      "description": "去字透明毛毛虫 × 海报",
+      "category": "角色专属",
+      "selector": {
+        "asset_id": "worm-cutout-v2",
+        "character": "毛毛虫",
+        "prefer_transparent": true
+      },
+      "plan": {
+        "template_id": "poster",
+        "text": "正在努力蠕动",
+        "font_size": 62,
+        "background": "#e8f1d9",
+        "font_style": "handwritten"
+      }
+    },
+    {
+      "id": "meowl-flower",
+      "name": "猫头鹰也能开花",
+      "description": "透明 Meowl × 角色花瓣",
+      "category": "角色专属",
+      "selector": {
+        "asset_id": "web-meowl-scene-1-cutout",
+        "character": "Meowl",
+        "prefer_transparent": true
+      },
+      "plan": {
+        "template_id": "flower",
+        "text": "缓缓再出发",
+        "background": "#f5efd8",
+        "text_placement": "embedded",
+        "font_style": "plain",
+        "font_size": 30
+      }
+    },
+    {
+      "id": "egg-no-comment",
+      "name": "沉默也是一种态度",
+      "description": "透明奶蛋 × 印章字",
+      "category": "角色专属",
+      "selector": {
+        "asset_id": "web-naidan-0040-program-cutout",
+        "character": "奶蛋",
+        "prefer_transparent": true
+      },
+      "plan": {
+        "template_id": "bottom",
+        "text": "已听见，不发表意见",
+        "background": "#fff6de",
+        "font_style": "stamp"
+      }
+    },
+    {
+      "id": "cow-field-trip",
+      "name": "一起出发",
+      "description": "独立场景 × 多角色同框",
+      "category": "场景合影",
+      "selector": {
+        "asset_id": "web-niulai-01",
+        "character": "牛来",
+        "prefer_transparent": true
+      },
+      "plan": {
+        "template_id": "scene",
+        "text": "走，出去透口气",
+        "background_style": "image",
+        "background_asset_id": "scene-niulai-fan-grassland",
+        "font_family": "kuaile",
+        "characters": [
+          {
+            "asset_id": "web-meowl-scene-1-cutout",
+            "x": 0.5,
+            "y": 0.64,
+            "scale": 0.34,
+            "rotation": 0,
+            "flip": false,
+            "opacity": 1,
+            "effect": "breathe",
+            "strength": 0.5,
+            "speed": 1
+          },
+          {
+            "asset_id": "web-naiwa-0031",
+            "x": 0.78,
+            "y": 0.64,
+            "scale": 0.34,
+            "rotation": 0,
+            "flip": false,
+            "opacity": 1,
+            "effect": "breathe",
+            "strength": 0.5,
+            "speed": 1
+          }
+        ],
+        "primary_x": 0.22,
+        "primary_y": 0.64,
+        "primary_scale": 0.34
+      }
+    },
+    {
+      "id": "cow-desert",
+      "name": "在沙漠里相遇",
+      "description": "独立场景 × 多角色同框",
+      "category": "场景合影",
+      "selector": {
+        "asset_id": "web-niulai-01",
+        "character": "牛来",
+        "prefer_transparent": true
+      },
+      "plan": {
+        "template_id": "scene",
+        "text": "导航说快到了",
+        "background_style": "image",
+        "background_asset_id": "scene-niulai-fan-desert",
+        "font_family": "kuaile",
+        "characters": [
+          {
+            "asset_id": "web-meowl-scene-1-cutout",
+            "x": 0.73,
+            "y": 0.64,
+            "scale": 0.46,
+            "rotation": 0,
+            "flip": false,
+            "opacity": 1,
+            "effect": "breathe",
+            "strength": 0.5,
+            "speed": 1
+          }
+        ],
+        "primary_x": 0.27,
+        "primary_y": 0.64,
+        "primary_scale": 0.46
+      }
+    },
+    {
+      "id": "comic-five-minutes",
+      "name": "五分钟的变化",
+      "description": "漫画双格 × 文艺宋体",
+      "category": "新玩法",
+      "selector": {
+        "asset_id": "web-meowl-scene-1-cutout",
+        "character": "Meowl",
+        "prefer_transparent": true
+      },
+      "plan": {
+        "template_id": "comic",
+        "text": "刚开始：我会了",
+        "secondary_text": "五分钟后：我是谁",
+        "background": "#e9eddf",
+        "font_family": "xiaowei"
+      }
+    },
+    {
+      "id": "subtitle-cow",
+      "name": "电影感的无语",
+      "description": "电影字幕 × 宋体",
+      "category": "新玩法",
+      "selector": {
+        "asset_id": "web-niulai-01",
+        "character": "牛来",
+        "prefer_transparent": true
+      },
+      "plan": {
+        "template_id": "subtitle",
+        "text": "故事从这一刻开始变得不对劲",
+        "background": "#dfe7dc",
+        "font_family": "serif"
+      }
+    },
+    {
+      "id": "note-to-self",
+      "name": "给今天留一张便签",
+      "description": "心情便签 × 毛笔楷书",
+      "category": "新玩法",
+      "selector": {
+        "asset_id": "nun-cutout-v2",
+        "character": "猫耳修女",
+        "prefer_transparent": true
+      },
+      "plan": {
+        "template_id": "note",
+        "text": "给自己一点时间",
+        "font_size": 46,
+        "background": "#e5eddb",
+        "font_family": "mashan"
+      }
+    },
+    {
+      "id": "brain-offline",
+      "name": "我的脑内弹窗",
+      "description": "消息弹窗 × 黄油体",
+      "category": "新玩法",
+      "selector": {
+        "asset_id": "web-feidudu-02-cutout",
+        "character": "肥嘟嘟",
+        "prefer_transparent": true
+      },
+      "plan": {
+        "template_id": "window",
+        "text": "脑子暂时没有响应",
+        "font_size": 38,
+        "background": "#e2eaf0",
+        "font_family": "sans",
+        "font_style": "plain"
+      }
+    },
+    {
+      "id": "vacation-ticket",
+      "name": "放假入场券",
+      "description": "角色票券 × 竖排文字",
+      "category": "新玩法",
+      "selector": {
+        "asset_id": "web-naiwa-0031",
+        "character": "奶蛙",
+        "prefer_transparent": true
+      },
+      "plan": {
+        "template_id": "ticket",
+        "text": "放假入场券",
+        "font_size": 52,
+        "background": "#e6eddc",
+        "font_family": "xiaowei",
+        "text_layout": "vertical"
+      }
+    },
+    {
+      "id": "today-medal",
+      "name": "今日努力奖",
+      "description": "圆形徽章 × 快乐手写",
+      "category": "新玩法",
+      "selector": {
+        "asset_id": "web-batiao-03-cutout",
+        "character": "呆猫八条",
+        "prefer_transparent": true
+      },
+      "plan": {
+        "template_id": "medal",
+        "text": "今日努力奖",
+        "font_size": 46,
+        "background": "#f7f2df",
+        "font_family": "kuaile"
+      }
+    },
+    {
+      "id": "pku-frog-chat",
+      "name": "北大和我对话",
+      "description": "不同人物同框，可分别换状态、调位置和动效",
+      "category": "多人物互动",
+      "selector": {
+        "character": "北京大学",
+        "asset_id": "pku-person-shrug",
+        "prefer_transparent": true
+      },
+      "cast": [
+        {
+          "character": "奶蛙",
+          "asset_id": "",
+          "prefer_transparent": true
+        }
+      ],
+      "plan": {
+        "template_id": "cast-chat",
+        "text": "明天有新安排",
+        "secondary_text": "可我刚安排完今天",
+        "background": "#eaf0df",
+        "background_secondary": "#dce8d1"
+      }
+    },
+    {
+      "id": "pku-cow-chat",
+      "name": "北大与牛来接话",
+      "description": "不同人物同框，可分别换状态、调位置和动效",
+      "category": "多人物互动",
+      "selector": {
+        "character": "北京大学",
+        "asset_id": "pku-person-think",
+        "prefer_transparent": true
+      },
+      "cast": [
+        {
+          "character": "牛来",
+          "asset_id": "",
+          "prefer_transparent": true
+        }
+      ],
+      "plan": {
+        "template_id": "cast-chat",
+        "text": "我有一个新安排",
+        "secondary_text": "你再说一遍？",
+        "background": "#eaf0df",
+        "background_secondary": "#dce8d1"
+      }
+    },
+    {
+      "id": "pku-trio",
+      "name": "教务与我的精神状态",
+      "description": "不同人物同框，可分别换状态、调位置和动效",
+      "category": "多人物互动",
+      "selector": {
+        "character": "北京大学",
+        "asset_id": "pku-person-welcome",
+        "prefer_transparent": true
+      },
+      "cast": [
+        {
+          "character": "奶蛙",
+          "asset_id": "",
+          "prefer_transparent": true
+        },
+        {
+          "character": "牛来",
+          "asset_id": "",
+          "prefer_transparent": true
+        }
+      ],
+      "plan": {
+        "template_id": "cast-trio",
+        "text": "教务、我和我的精神状态",
+        "secondary_text": "",
+        "background": "#eaf0df",
+        "background_secondary": "#dce8d1"
+      }
+    },
+    {
+      "id": "pku-meeting",
+      "name": "北大也来开会",
+      "description": "不同人物同框，可分别换状态、调位置和动效",
+      "category": "多人物互动",
+      "selector": {
+        "character": "北京大学",
+        "asset_id": "pku-person-welcome",
+        "prefer_transparent": true
+      },
+      "cast": [
+        {
+          "character": "奶蛙",
+          "asset_id": "",
+          "prefer_transparent": true
+        },
+        {
+          "character": "奶蛋",
+          "asset_id": "",
+          "prefer_transparent": true
+        },
+        {
+          "character": "肥嘟嘟",
+          "asset_id": "",
+          "prefer_transparent": true
+        }
+      ],
+      "plan": {
+        "template_id": "cast-quad",
+        "text": "四方会谈，商量下课",
+        "secondary_text": "",
+        "background": "#eaf0df",
+        "background_secondary": "#dce8d1"
+      }
+    },
+    {
+      "id": "campus-six",
+      "name": "北大和奶家人合影",
+      "description": "不同人物同框，可分别换状态、调位置和动效",
+      "category": "多人物互动",
+      "selector": {
+        "character": "北京大学",
+        "asset_id": "pku-person-welcome",
+        "prefer_transparent": true
+      },
+      "cast": [
+        {
+          "character": "奶蛙",
+          "asset_id": "",
+          "prefer_transparent": true
+        },
+        {
+          "character": "牛来",
+          "asset_id": "",
+          "prefer_transparent": true
+        },
+        {
+          "character": "奶龙（原版）",
+          "asset_id": "",
+          "prefer_transparent": true
+        },
+        {
+          "character": "奶蛋",
+          "asset_id": "",
+          "prefer_transparent": true
+        },
+        {
+          "character": "肥嘟嘟",
+          "asset_id": "",
+          "prefer_transparent": true
+        }
+      ],
+      "plan": {
+        "template_id": "cast-six",
+        "text": "人齐了，先合个影",
+        "secondary_text": "",
+        "background": "#eaf0df",
+        "background_secondary": "#dce8d1"
+      }
+    },
+    {
+      "id": "cast-after-class",
+      "name": "全员下课",
+      "description": "不同人物同框，可分别换状态、调位置和动效",
+      "category": "多人物互动",
+      "selector": {
+        "character": "奶蛙",
+        "asset_id": "",
+        "prefer_transparent": true
+      },
+      "cast": [
+        {
+          "character": "北京大学",
+          "asset_id": "pku-person-cheer",
+          "prefer_transparent": true
+        },
+        {
+          "character": "牛来",
+          "asset_id": "",
+          "prefer_transparent": true
+        },
+        {
+          "character": "肥嘟嘟",
+          "asset_id": "",
+          "prefer_transparent": true
+        }
+      ],
+      "plan": {
+        "template_id": "cast-dance",
+        "text": "全员下课，松一口气",
+        "secondary_text": "",
+        "background": "#eaf0df",
+        "background_secondary": "#dce8d1"
+      }
+    },
+    {
+      "id": "cast-friends",
+      "name": "两个朋友一起走",
+      "description": "不同人物同框，可分别换状态、调位置和动效",
+      "category": "多人物互动",
+      "selector": {
+        "character": "奶龙（原版）",
+        "asset_id": "",
+        "prefer_transparent": true
+      },
+      "cast": [
+        {
+          "character": "奶蛋",
+          "asset_id": "",
+          "prefer_transparent": true
+        }
+      ],
+      "plan": {
+        "template_id": "cast-duo",
+        "text": "这次一起走",
+        "secondary_text": "",
+        "background": "#eaf0df",
+        "background_secondary": "#dce8d1"
+      }
+    },
+    {
+      "id": "cast-three-friends",
+      "name": "凑在一起就有精神",
+      "description": "不同人物同框，可分别换状态、调位置和动效",
+      "category": "多人物互动",
+      "selector": {
+        "character": "奶蛙",
+        "asset_id": "",
+        "prefer_transparent": true
+      },
+      "cast": [
+        {
+          "character": "Meowl",
+          "asset_id": "",
+          "prefer_transparent": true
+        },
+        {
+          "character": "肥嘟嘟",
+          "asset_id": "",
+          "prefer_transparent": true
+        }
+      ],
+      "plan": {
+        "template_id": "cast-trio",
+        "text": "凑在一起就很有精神",
+        "secondary_text": "",
+        "background": "#eaf0df",
+        "background_secondary": "#dce8d1"
+      }
+    },
+    {
+      "id": "motion-jelly-1",
+      "name": "果冻回弹 · 奶蛙",
+      "description": "压扁后两次衰减回弹；可替换人物、文字及场景",
+      "category": "单人反应",
+      "selector": {
+        "character": "奶蛙",
+        "asset_id": "",
+        "prefer_transparent": true
+      },
+      "cast": [],
+      "plan": {
+        "template_id": "motion-jelly",
+        "text": "我先缓一缓",
+        "secondary_text": "",
+        "format": "gif",
+        "size": 256,
+        "background": "#f1f5e9",
+        "font_family": "sans",
+        "font_size": 36,
+        "emblem": false
+      }
+    },
+    {
+      "id": "motion-jelly-2",
+      "name": "果冻回弹 · 奶蛋",
+      "description": "压扁后两次衰减回弹；可替换人物、文字及场景",
+      "category": "单人反应",
+      "selector": {
+        "character": "奶蛋",
+        "asset_id": "",
+        "prefer_transparent": true
+      },
+      "cast": [],
+      "plan": {
+        "template_id": "motion-jelly",
+        "text": "今天也在努力营业",
+        "secondary_text": "",
+        "format": "gif",
+        "size": 256,
+        "background": "#fff3e5",
+        "font_family": "sans",
+        "font_size": 36,
+        "emblem": false
+      }
+    },
+    {
+      "id": "motion-push-1",
+      "name": "侧推回弹 · 牛来",
+      "description": "横向受推后弹回站位；可替换人物、文字及场景",
+      "category": "单人反应",
+      "selector": {
+        "character": "牛来",
+        "asset_id": "",
+        "prefer_transparent": true
+      },
+      "cast": [],
+      "plan": {
+        "template_id": "motion-push",
+        "text": "我先缓一缓",
+        "secondary_text": "",
+        "format": "gif",
+        "size": 256,
+        "background": "#f1f5e9",
+        "font_family": "sans",
+        "font_size": 36,
+        "emblem": false
+      }
+    },
+    {
+      "id": "motion-push-2",
+      "name": "侧推回弹 · 肥嘟嘟",
+      "description": "横向受推后弹回站位；可替换人物、文字及场景",
+      "category": "单人反应",
+      "selector": {
+        "character": "肥嘟嘟",
+        "asset_id": "",
+        "prefer_transparent": true
+      },
+      "cast": [],
+      "plan": {
+        "template_id": "motion-push",
+        "text": "今天也在努力营业",
+        "secondary_text": "",
+        "format": "gif",
+        "size": 256,
+        "background": "#fff3e5",
+        "font_family": "sans",
+        "font_size": 36,
+        "emblem": false
+      }
+    },
+    {
+      "id": "motion-charge-1",
+      "name": "蓄力起跳 · 奶龙（原版）",
+      "description": "下蹲蓄力、起跳、压缩落地；可替换人物、文字及场景",
+      "category": "单人反应",
+      "selector": {
+        "character": "奶龙（原版）",
+        "asset_id": "",
+        "prefer_transparent": true
+      },
+      "cast": [],
+      "plan": {
+        "template_id": "motion-charge",
+        "text": "我先缓一缓",
+        "secondary_text": "",
+        "format": "gif",
+        "size": 256,
+        "background": "#f1f5e9",
+        "font_family": "sans",
+        "font_size": 36,
+        "emblem": false
+      }
+    },
+    {
+      "id": "motion-charge-2",
+      "name": "蓄力起跳 · Meowl",
+      "description": "下蹲蓄力、起跳、压缩落地；可替换人物、文字及场景",
+      "category": "单人反应",
+      "selector": {
+        "character": "Meowl",
+        "asset_id": "",
+        "prefer_transparent": true
+      },
+      "cast": [],
+      "plan": {
+        "template_id": "motion-charge",
+        "text": "今天也在努力营业",
+        "secondary_text": "",
+        "format": "gif",
+        "size": 256,
+        "background": "#fff3e5",
+        "font_family": "sans",
+        "font_size": 36,
+        "emblem": false
+      }
+    },
+    {
+      "id": "motion-drop-1",
+      "name": "重力坠落 · 奶蛋",
+      "description": "高处落下后压扁恢复；可替换人物、文字及场景",
+      "category": "单人反应",
+      "selector": {
+        "character": "奶蛋",
+        "asset_id": "",
+        "prefer_transparent": true
+      },
+      "cast": [],
+      "plan": {
+        "template_id": "motion-drop",
+        "text": "我先缓一缓",
+        "secondary_text": "",
+        "format": "gif",
+        "size": 256,
+        "background": "#f1f5e9",
+        "font_family": "sans",
+        "font_size": 36,
+        "emblem": false
+      }
+    },
+    {
+      "id": "motion-drop-2",
+      "name": "重力坠落 · 可爱大笨蛋",
+      "description": "高处落下后压扁恢复；可替换人物、文字及场景",
+      "category": "单人反应",
+      "selector": {
+        "character": "猫耳修女",
+        "asset_id": "ai-nun-01",
+        "prefer_transparent": true
+      },
+      "cast": [],
+      "plan": {
+        "template_id": "motion-drop",
+        "text": "今天也在努力营业",
+        "secondary_text": "",
+        "format": "gif",
+        "size": 256,
+        "background": "#fff3e5",
+        "font_family": "sans",
+        "font_size": 36,
+        "emblem": false
+      }
+    },
+    {
+      "id": "motion-shock-1",
+      "name": "震惊后退 · 肥嘟嘟",
+      "description": "突然放大、停顿后退缩；可替换人物、文字及场景",
+      "category": "单人反应",
+      "selector": {
+        "character": "肥嘟嘟",
+        "asset_id": "",
+        "prefer_transparent": true
+      },
+      "cast": [],
+      "plan": {
+        "template_id": "motion-shock",
+        "text": "我先缓一缓",
+        "secondary_text": "",
+        "format": "gif",
+        "size": 256,
+        "background": "#f1f5e9",
+        "font_family": "sans",
+        "font_size": 36,
+        "emblem": false
+      }
+    },
+    {
+      "id": "motion-shock-2",
+      "name": "震惊后退 · 毛毛虫",
+      "description": "突然放大、停顿后退缩；可替换人物、文字及场景",
+      "category": "单人反应",
+      "selector": {
+        "character": "毛毛虫",
+        "asset_id": "ai-worm-02",
+        "prefer_transparent": true
+      },
+      "cast": [],
+      "plan": {
+        "template_id": "motion-shock",
+        "text": "今天也在努力营业",
+        "secondary_text": "",
+        "format": "gif",
+        "size": 256,
+        "background": "#fff3e5",
+        "font_family": "sans",
+        "font_size": 36,
+        "emblem": false
+      }
+    },
+    {
+      "id": "motion-puff-1",
+      "name": "气鼓鼓 · Meowl",
+      "description": "膨胀后短促颠动；可替换人物、文字及场景",
+      "category": "单人反应",
+      "selector": {
+        "character": "Meowl",
+        "asset_id": "",
+        "prefer_transparent": true
+      },
+      "cast": [],
+      "plan": {
+        "template_id": "motion-puff",
+        "text": "我先缓一缓",
+        "secondary_text": "",
+        "format": "gif",
+        "size": 256,
+        "background": "#f1f5e9",
+        "font_family": "sans",
+        "font_size": 36,
+        "emblem": false
+      }
+    },
+    {
+      "id": "motion-puff-2",
+      "name": "气鼓鼓 · 奶蛙",
+      "description": "膨胀后短促颠动；可替换人物、文字及场景",
+      "category": "单人反应",
+      "selector": {
+        "character": "奶蛙",
+        "asset_id": "",
+        "prefer_transparent": true
+      },
+      "cast": [],
+      "plan": {
+        "template_id": "motion-puff",
+        "text": "今天也在努力营业",
+        "secondary_text": "",
+        "format": "gif",
+        "size": 256,
+        "background": "#fff3e5",
+        "font_family": "sans",
+        "font_size": 36,
+        "emblem": false
+      }
+    },
+    {
+      "id": "motion-tired-1",
+      "name": "低电量瘫软 · 可爱大笨蛋",
+      "description": "缓慢下沉变扁再恢复；可替换人物、文字及场景",
+      "category": "单人反应",
+      "selector": {
+        "character": "猫耳修女",
+        "asset_id": "ai-nun-01",
+        "prefer_transparent": true
+      },
+      "cast": [],
+      "plan": {
+        "template_id": "motion-tired",
+        "text": "我先缓一缓",
+        "secondary_text": "",
+        "format": "gif",
+        "size": 256,
+        "background": "#f1f5e9",
+        "font_family": "sans",
+        "font_size": 36,
+        "emblem": false
+      }
+    },
+    {
+      "id": "motion-tired-2",
+      "name": "低电量瘫软 · 牛来",
+      "description": "缓慢下沉变扁再恢复；可替换人物、文字及场景",
+      "category": "单人反应",
+      "selector": {
+        "character": "牛来",
+        "asset_id": "",
+        "prefer_transparent": true
+      },
+      "cast": [],
+      "plan": {
+        "template_id": "motion-tired",
+        "text": "今天也在努力营业",
+        "secondary_text": "",
+        "format": "gif",
+        "size": 256,
+        "background": "#fff3e5",
+        "font_family": "sans",
+        "font_size": 36,
+        "emblem": false
+      }
+    },
+    {
+      "id": "motion-nod-1",
+      "name": "困困点头 · 毛毛虫",
+      "description": "前倾点头后突然惊醒；可替换人物、文字及场景",
+      "category": "单人反应",
+      "selector": {
+        "character": "毛毛虫",
+        "asset_id": "ai-worm-02",
+        "prefer_transparent": true
+      },
+      "cast": [],
+      "plan": {
+        "template_id": "motion-nod",
+        "text": "我先缓一缓",
+        "secondary_text": "",
+        "format": "gif",
+        "size": 256,
+        "background": "#f1f5e9",
+        "font_family": "sans",
+        "font_size": 36,
+        "emblem": false
+      }
+    },
+    {
+      "id": "motion-nod-2",
+      "name": "困困点头 · 奶龙（原版）",
+      "description": "前倾点头后突然惊醒；可替换人物、文字及场景",
+      "category": "单人反应",
+      "selector": {
+        "character": "奶龙（原版）",
+        "asset_id": "",
+        "prefer_transparent": true
+      },
+      "cast": [],
+      "plan": {
+        "template_id": "motion-nod",
+        "text": "今天也在努力营业",
+        "secondary_text": "",
+        "format": "gif",
+        "size": 256,
+        "background": "#fff3e5",
+        "font_family": "sans",
+        "font_size": 36,
+        "emblem": false
+      }
+    },
+    {
+      "id": "motion-step-1",
+      "name": "左右踏步 · 奶蛙",
+      "description": "侧移落地时交替压缩；可替换人物、文字及场景",
+      "category": "单人反应",
+      "selector": {
+        "character": "奶蛙",
+        "asset_id": "",
+        "prefer_transparent": true
+      },
+      "cast": [],
+      "plan": {
+        "template_id": "motion-step",
+        "text": "我先缓一缓",
+        "secondary_text": "",
+        "format": "gif",
+        "size": 256,
+        "background": "#f1f5e9",
+        "font_family": "sans",
+        "font_size": 36,
+        "emblem": false
+      }
+    },
+    {
+      "id": "motion-step-2",
+      "name": "左右踏步 · 奶蛋",
+      "description": "侧移落地时交替压缩；可替换人物、文字及场景",
+      "category": "单人反应",
+      "selector": {
+        "character": "奶蛋",
+        "asset_id": "",
+        "prefer_transparent": true
+      },
+      "cast": [],
+      "plan": {
+        "template_id": "motion-step",
+        "text": "今天也在努力营业",
+        "secondary_text": "",
+        "format": "gif",
+        "size": 256,
+        "background": "#fff3e5",
+        "font_family": "sans",
+        "font_size": 36,
+        "emblem": false
+      }
+    },
+    {
+      "id": "motion-roly-1",
+      "name": "不倒翁 · 牛来",
+      "description": "绕底部支点左右摇摆；可替换人物、文字及场景",
+      "category": "单人反应",
+      "selector": {
+        "character": "牛来",
+        "asset_id": "",
+        "prefer_transparent": true
+      },
+      "cast": [],
+      "plan": {
+        "template_id": "motion-roly",
+        "text": "我先缓一缓",
+        "secondary_text": "",
+        "format": "gif",
+        "size": 256,
+        "background": "#f1f5e9",
+        "font_family": "sans",
+        "font_size": 36,
+        "emblem": false
+      }
+    },
+    {
+      "id": "motion-roly-2",
+      "name": "不倒翁 · 肥嘟嘟",
+      "description": "绕底部支点左右摇摆；可替换人物、文字及场景",
+      "category": "单人反应",
+      "selector": {
+        "character": "肥嘟嘟",
+        "asset_id": "",
+        "prefer_transparent": true
+      },
+      "cast": [],
+      "plan": {
+        "template_id": "motion-roly",
+        "text": "今天也在努力营业",
+        "secondary_text": "",
+        "format": "gif",
+        "size": 256,
+        "background": "#fff3e5",
+        "font_family": "sans",
+        "font_size": 36,
+        "emblem": false
+      }
+    },
+    {
+      "id": "motion-slide-1",
+      "name": "左右滑步 · 奶龙（原版）",
+      "description": "沿扁椭圆踏出滑步；可替换人物、文字及场景",
+      "category": "单人反应",
+      "selector": {
+        "character": "奶龙（原版）",
+        "asset_id": "",
+        "prefer_transparent": true
+      },
+      "cast": [],
+      "plan": {
+        "template_id": "motion-slide",
+        "text": "我先缓一缓",
+        "secondary_text": "",
+        "format": "gif",
+        "size": 256,
+        "background": "#f1f5e9",
+        "font_family": "sans",
+        "font_size": 36,
+        "emblem": false
+      }
+    },
+    {
+      "id": "motion-slide-2",
+      "name": "左右滑步 · Meowl",
+      "description": "沿扁椭圆踏出滑步；可替换人物、文字及场景",
+      "category": "单人反应",
+      "selector": {
+        "character": "Meowl",
+        "asset_id": "",
+        "prefer_transparent": true
+      },
+      "cast": [],
+      "plan": {
+        "template_id": "motion-slide",
+        "text": "今天也在努力营业",
+        "secondary_text": "",
+        "format": "gif",
+        "size": 256,
+        "background": "#fff3e5",
+        "font_family": "sans",
+        "font_size": 36,
+        "emblem": false
+      }
+    },
+    {
+      "id": "motion-triple-1",
+      "name": "卡点三连 · 奶蛋",
+      "description": "左、中、右三段跳动；可替换人物、文字及场景",
+      "category": "单人反应",
+      "selector": {
+        "character": "奶蛋",
+        "asset_id": "",
+        "prefer_transparent": true
+      },
+      "cast": [],
+      "plan": {
+        "template_id": "motion-triple",
+        "text": "我先缓一缓",
+        "secondary_text": "",
+        "format": "gif",
+        "size": 256,
+        "background": "#f1f5e9",
+        "font_family": "sans",
+        "font_size": 36,
+        "emblem": false
+      }
+    },
+    {
+      "id": "motion-triple-2",
+      "name": "卡点三连 · 可爱大笨蛋",
+      "description": "左、中、右三段跳动；可替换人物、文字及场景",
+      "category": "单人反应",
+      "selector": {
+        "character": "猫耳修女",
+        "asset_id": "ai-nun-01",
+        "prefer_transparent": true
+      },
+      "cast": [],
+      "plan": {
+        "template_id": "motion-triple",
+        "text": "今天也在努力营业",
+        "secondary_text": "",
+        "format": "gif",
+        "size": 256,
+        "background": "#fff3e5",
+        "font_family": "sans",
+        "font_size": 36,
+        "emblem": false
+      }
+    },
+    {
+      "id": "motion-peek-bottom-1",
+      "name": "下缘探头 · 肥嘟嘟",
+      "description": "从下沿探出、停留后缩回；可替换人物、文字及场景",
+      "category": "出入画面",
+      "selector": {
+        "character": "肥嘟嘟",
+        "asset_id": "",
+        "prefer_transparent": true
+      },
+      "cast": [],
+      "plan": {
+        "template_id": "motion-peek-bottom",
+        "text": "我来啦",
+        "secondary_text": "",
+        "format": "gif",
+        "size": 256,
+        "background": "#f1f5e9",
+        "font_family": "sans",
+        "font_size": 36,
+        "emblem": false
+      }
+    },
+    {
+      "id": "motion-peek-bottom-2",
+      "name": "下缘探头 · 毛毛虫",
+      "description": "从下沿探出、停留后缩回；可替换人物、文字及场景",
+      "category": "出入画面",
+      "selector": {
+        "character": "毛毛虫",
+        "asset_id": "ai-worm-02",
+        "prefer_transparent": true
+      },
+      "cast": [],
+      "plan": {
+        "template_id": "motion-peek-bottom",
+        "text": "今天也在努力营业",
+        "secondary_text": "",
+        "format": "gif",
+        "size": 256,
+        "background": "#fff3e5",
+        "font_family": "sans",
+        "font_size": 36,
+        "emblem": false
+      }
+    },
+    {
+      "id": "motion-peek-side-1",
+      "name": "侧边偷看 · Meowl",
+      "description": "从侧边探头后迅速缩回；可替换人物、文字及场景",
+      "category": "出入画面",
+      "selector": {
+        "character": "Meowl",
+        "asset_id": "",
+        "prefer_transparent": true
+      },
+      "cast": [],
+      "plan": {
+        "template_id": "motion-peek-side",
+        "text": "我来啦",
+        "secondary_text": "",
+        "format": "gif",
+        "size": 256,
+        "background": "#f1f5e9",
+        "font_family": "sans",
+        "font_size": 36,
+        "emblem": false
+      }
+    },
+    {
+      "id": "motion-peek-side-2",
+      "name": "侧边偷看 · 奶蛙",
+      "description": "从侧边探头后迅速缩回；可替换人物、文字及场景",
+      "category": "出入画面",
+      "selector": {
+        "character": "奶蛙",
+        "asset_id": "",
+        "prefer_transparent": true
+      },
+      "cast": [],
+      "plan": {
+        "template_id": "motion-peek-side",
+        "text": "今天也在努力营业",
+        "secondary_text": "",
+        "format": "gif",
+        "size": 256,
+        "background": "#fff3e5",
+        "font_family": "sans",
+        "font_size": 36,
+        "emblem": false
+      }
+    },
+    {
+      "id": "motion-curtain-1",
+      "name": "拉开帷幕 · 可爱大笨蛋",
+      "description": "左右幕布打开再合拢；可替换人物、文字及场景",
+      "category": "出入画面",
+      "selector": {
+        "character": "猫耳修女",
+        "asset_id": "ai-nun-01",
+        "prefer_transparent": true
+      },
+      "cast": [],
+      "plan": {
+        "template_id": "motion-curtain",
+        "text": "我来啦",
+        "secondary_text": "",
+        "format": "gif",
+        "size": 256,
+        "background": "#f1f5e9",
+        "font_family": "sans",
+        "font_size": 36,
+        "emblem": false
+      }
+    },
+    {
+      "id": "motion-curtain-2",
+      "name": "拉开帷幕 · 牛来",
+      "description": "左右幕布打开再合拢；可替换人物、文字及场景",
+      "category": "出入画面",
+      "selector": {
+        "character": "牛来",
+        "asset_id": "",
+        "prefer_transparent": true
+      },
+      "cast": [],
+      "plan": {
+        "template_id": "motion-curtain",
+        "text": "今天也在努力营业",
+        "secondary_text": "",
+        "format": "gif",
+        "size": 256,
+        "background": "#fff3e5",
+        "font_family": "sans",
+        "font_size": 36,
+        "emblem": false
+      }
+    },
+    {
+      "id": "motion-window-pop-1",
+      "name": "窗口冒泡 · 毛毛虫",
+      "description": "角色从圆角小窗口升起；可替换人物、文字及场景",
+      "category": "出入画面",
+      "selector": {
+        "character": "毛毛虫",
+        "asset_id": "ai-worm-02",
+        "prefer_transparent": true
+      },
+      "cast": [],
+      "plan": {
+        "template_id": "motion-window-pop",
+        "text": "我来啦",
+        "secondary_text": "",
+        "format": "gif",
+        "size": 256,
+        "background": "#f1f5e9",
+        "font_family": "sans",
+        "font_size": 36,
+        "emblem": false
+      }
+    },
+    {
+      "id": "motion-window-pop-2",
+      "name": "窗口冒泡 · 奶龙（原版）",
+      "description": "角色从圆角小窗口升起；可替换人物、文字及场景",
+      "category": "出入画面",
+      "selector": {
+        "character": "奶龙（原版）",
+        "asset_id": "",
+        "prefer_transparent": true
+      },
+      "cast": [],
+      "plan": {
+        "template_id": "motion-window-pop",
+        "text": "今天也在努力营业",
+        "secondary_text": "",
+        "format": "gif",
+        "size": 256,
+        "background": "#fff3e5",
+        "font_family": "sans",
+        "font_size": 36,
+        "emblem": false
+      }
+    },
+    {
+      "id": "motion-zoom-1",
+      "name": "突然凑近 · 奶蛙",
+      "description": "快速冲近镜头、停顿后退回；可替换人物、文字及场景",
+      "category": "出入画面",
+      "selector": {
+        "character": "奶蛙",
+        "asset_id": "",
+        "prefer_transparent": true
+      },
+      "cast": [],
+      "plan": {
+        "template_id": "motion-zoom",
+        "text": "我来啦",
+        "secondary_text": "",
+        "format": "gif",
+        "size": 256,
+        "background": "#f1f5e9",
+        "font_family": "sans",
+        "font_size": 36,
+        "emblem": false
+      }
+    },
+    {
+      "id": "motion-zoom-2",
+      "name": "突然凑近 · 奶蛋",
+      "description": "快速冲近镜头、停顿后退回；可替换人物、文字及场景",
+      "category": "出入画面",
+      "selector": {
+        "character": "奶蛋",
+        "asset_id": "",
+        "prefer_transparent": true
+      },
+      "cast": [],
+      "plan": {
+        "template_id": "motion-zoom",
+        "text": "今天也在努力营业",
+        "secondary_text": "",
+        "format": "gif",
+        "size": 256,
+        "background": "#fff3e5",
+        "font_family": "sans",
+        "font_size": 36,
+        "emblem": false
+      }
+    },
+    {
+      "id": "motion-launch-1",
+      "name": "弹射入场 · 牛来",
+      "description": "从下方弹入后两次回弹；可替换人物、文字及场景",
+      "category": "出入画面",
+      "selector": {
+        "character": "牛来",
+        "asset_id": "",
+        "prefer_transparent": true
+      },
+      "cast": [],
+      "plan": {
+        "template_id": "motion-launch",
+        "text": "我来啦",
+        "secondary_text": "",
+        "format": "gif",
+        "size": 256,
+        "background": "#f1f5e9",
+        "font_family": "sans",
+        "font_size": 36,
+        "emblem": false
+      }
+    },
+    {
+      "id": "motion-launch-2",
+      "name": "弹射入场 · 肥嘟嘟",
+      "description": "从下方弹入后两次回弹；可替换人物、文字及场景",
+      "category": "出入画面",
+      "selector": {
+        "character": "肥嘟嘟",
+        "asset_id": "",
+        "prefer_transparent": true
+      },
+      "cast": [],
+      "plan": {
+        "template_id": "motion-launch",
+        "text": "今天也在努力营业",
+        "secondary_text": "",
+        "format": "gif",
+        "size": 256,
+        "background": "#fff3e5",
+        "font_family": "sans",
+        "font_size": 36,
+        "emblem": false
+      }
+    },
+    {
+      "id": "motion-spin-in-1",
+      "name": "旋转落位 · 奶龙（原版）",
+      "description": "旋转缩放后稳定落位；可替换人物、文字及场景",
+      "category": "出入画面",
+      "selector": {
+        "character": "奶龙（原版）",
+        "asset_id": "",
+        "prefer_transparent": true
+      },
+      "cast": [],
+      "plan": {
+        "template_id": "motion-spin-in",
+        "text": "我来啦",
+        "secondary_text": "",
+        "format": "gif",
+        "size": 256,
+        "background": "#f1f5e9",
+        "font_family": "sans",
+        "font_size": 36,
+        "emblem": false
+      }
+    },
+    {
+      "id": "motion-spin-in-2",
+      "name": "旋转落位 · Meowl",
+      "description": "旋转缩放后稳定落位；可替换人物、文字及场景",
+      "category": "出入画面",
+      "selector": {
+        "character": "Meowl",
+        "asset_id": "",
+        "prefer_transparent": true
+      },
+      "cast": [],
+      "plan": {
+        "template_id": "motion-spin-in",
+        "text": "今天也在努力营业",
+        "secondary_text": "",
+        "format": "gif",
+        "size": 256,
+        "background": "#fff3e5",
+        "font_family": "sans",
+        "font_size": 36,
+        "emblem": false
+      }
+    },
+    {
+      "id": "motion-brake-1",
+      "name": "急刹入场 · 奶蛋",
+      "description": "横向滑入后前倾急停；可替换人物、文字及场景",
+      "category": "出入画面",
+      "selector": {
+        "character": "奶蛋",
+        "asset_id": "",
+        "prefer_transparent": true
+      },
+      "cast": [],
+      "plan": {
+        "template_id": "motion-brake",
+        "text": "我来啦",
+        "secondary_text": "",
+        "format": "gif",
+        "size": 256,
+        "background": "#f1f5e9",
+        "font_family": "sans",
+        "font_size": 36,
+        "emblem": false
+      }
+    },
+    {
+      "id": "motion-brake-2",
+      "name": "急刹入场 · 可爱大笨蛋",
+      "description": "横向滑入后前倾急停；可替换人物、文字及场景",
+      "category": "出入画面",
+      "selector": {
+        "character": "猫耳修女",
+        "asset_id": "ai-nun-01",
+        "prefer_transparent": true
+      },
+      "cast": [],
+      "plan": {
+        "template_id": "motion-brake",
+        "text": "今天也在努力营业",
+        "secondary_text": "",
+        "format": "gif",
+        "size": 256,
+        "background": "#fff3e5",
+        "font_family": "sans",
+        "font_size": 36,
+        "emblem": false
+      }
+    },
+    {
+      "id": "motion-ascend-1",
+      "name": "原地升天 · 肥嘟嘟",
+      "description": "向上漂浮淡出后回归；可替换人物、文字及场景",
+      "category": "出入画面",
+      "selector": {
+        "character": "肥嘟嘟",
+        "asset_id": "",
+        "prefer_transparent": true
+      },
+      "cast": [],
+      "plan": {
+        "template_id": "motion-ascend",
+        "text": "我来啦",
+        "secondary_text": "",
+        "format": "gif",
+        "size": 256,
+        "background": "#f1f5e9",
+        "font_family": "sans",
+        "font_size": 36,
+        "emblem": false
+      }
+    },
+    {
+      "id": "motion-ascend-2",
+      "name": "原地升天 · 毛毛虫",
+      "description": "向上漂浮淡出后回归；可替换人物、文字及场景",
+      "category": "出入画面",
+      "selector": {
+        "character": "毛毛虫",
+        "asset_id": "ai-worm-02",
+        "prefer_transparent": true
+      },
+      "cast": [],
+      "plan": {
+        "template_id": "motion-ascend",
+        "text": "今天也在努力营业",
+        "secondary_text": "",
+        "format": "gif",
+        "size": 256,
+        "background": "#fff3e5",
+        "font_family": "sans",
+        "font_size": 36,
+        "emblem": false
+      }
+    },
+    {
+      "id": "motion-burrow-1",
+      "name": "钻地逃跑 · Meowl",
+      "description": "压缩后钻入地洞；可替换人物、文字及场景",
+      "category": "出入画面",
+      "selector": {
+        "character": "Meowl",
+        "asset_id": "",
+        "prefer_transparent": true
+      },
+      "cast": [],
+      "plan": {
+        "template_id": "motion-burrow",
+        "text": "我来啦",
+        "secondary_text": "",
+        "format": "gif",
+        "size": 256,
+        "background": "#f1f5e9",
+        "font_family": "sans",
+        "font_size": 36,
+        "emblem": false
+      }
+    },
+    {
+      "id": "motion-burrow-2",
+      "name": "钻地逃跑 · 奶蛙",
+      "description": "压缩后钻入地洞；可替换人物、文字及场景",
+      "category": "出入画面",
+      "selector": {
+        "character": "奶蛙",
+        "asset_id": "",
+        "prefer_transparent": true
+      },
+      "cast": [],
+      "plan": {
+        "template_id": "motion-burrow",
+        "text": "今天也在努力营业",
+        "secondary_text": "",
+        "format": "gif",
+        "size": 256,
+        "background": "#fff3e5",
+        "font_family": "sans",
+        "font_size": 36,
+        "emblem": false
+      }
+    },
+    {
+      "id": "motion-escape-1",
+      "name": "变小溜走 · 可爱大笨蛋",
+      "description": "沿斜线缩小退场；可替换人物、文字及场景",
+      "category": "出入画面",
+      "selector": {
+        "character": "猫耳修女",
+        "asset_id": "ai-nun-01",
+        "prefer_transparent": true
+      },
+      "cast": [],
+      "plan": {
+        "template_id": "motion-escape",
+        "text": "我来啦",
+        "secondary_text": "",
+        "format": "gif",
+        "size": 256,
+        "background": "#f1f5e9",
+        "font_family": "sans",
+        "font_size": 36,
+        "emblem": false
+      }
+    },
+    {
+      "id": "motion-escape-2",
+      "name": "变小溜走 · 牛来",
+      "description": "沿斜线缩小退场；可替换人物、文字及场景",
+      "category": "出入画面",
+      "selector": {
+        "character": "牛来",
+        "asset_id": "",
+        "prefer_transparent": true
+      },
+      "cast": [],
+      "plan": {
+        "template_id": "motion-escape",
+        "text": "今天也在努力营业",
+        "secondary_text": "",
+        "format": "gif",
+        "size": 256,
+        "background": "#fff3e5",
+        "font_family": "sans",
+        "font_size": 36,
+        "emblem": false
+      }
+    },
+    {
+      "id": "motion-portal-1",
+      "name": "传送门穿梭 · 毛毛虫",
+      "description": "进入一侧圆门再从另一侧出现；可替换人物、文字及场景",
+      "category": "出入画面",
+      "selector": {
+        "character": "毛毛虫",
+        "asset_id": "ai-worm-02",
+        "prefer_transparent": true
+      },
+      "cast": [],
+      "plan": {
+        "template_id": "motion-portal",
+        "text": "我来啦",
+        "secondary_text": "",
+        "format": "gif",
+        "size": 256,
+        "background": "#f1f5e9",
+        "font_family": "sans",
+        "font_size": 36,
+        "emblem": false
+      }
+    },
+    {
+      "id": "motion-portal-2",
+      "name": "传送门穿梭 · 奶龙（原版）",
+      "description": "进入一侧圆门再从另一侧出现；可替换人物、文字及场景",
+      "category": "出入画面",
+      "selector": {
+        "character": "奶龙（原版）",
+        "asset_id": "",
+        "prefer_transparent": true
+      },
+      "cast": [],
+      "plan": {
+        "template_id": "motion-portal",
+        "text": "今天也在努力营业",
+        "secondary_text": "",
+        "format": "gif",
+        "size": 256,
+        "background": "#fff3e5",
+        "font_family": "sans",
+        "font_size": 36,
+        "emblem": false
+      }
+    },
+    {
+      "id": "motion-dash-trail-1",
+      "name": "残影冲刺 · 奶蛙",
+      "description": "冲刺留下逐渐消失的残影；可替换人物、文字及场景",
+      "category": "分身阵列",
+      "selector": {
+        "character": "奶蛙",
+        "asset_id": "",
+        "prefer_transparent": true
+      },
+      "cast": [],
+      "plan": {
+        "template_id": "motion-dash-trail",
+        "text": "精神状态分裂中",
+        "secondary_text": "",
+        "format": "gif",
+        "size": 256,
+        "background": "#f1f5e9",
+        "font_family": "sans",
+        "font_size": 36,
+        "emblem": false
+      }
+    },
+    {
+      "id": "motion-dash-trail-2",
+      "name": "残影冲刺 · 奶蛋",
+      "description": "冲刺留下逐渐消失的残影；可替换人物、文字及场景",
+      "category": "分身阵列",
+      "selector": {
+        "character": "奶蛋",
+        "asset_id": "",
+        "prefer_transparent": true
+      },
+      "cast": [],
+      "plan": {
+        "template_id": "motion-dash-trail",
+        "text": "今天也在努力营业",
+        "secondary_text": "",
+        "format": "gif",
+        "size": 256,
+        "background": "#fff3e5",
+        "font_family": "sans",
+        "font_size": 36,
+        "emblem": false
+      }
+    },
+    {
+      "id": "motion-sway-trail-1",
+      "name": "残像摇摆 · 牛来",
+      "description": "两侧残像延迟跟随主体；可替换人物、文字及场景",
+      "category": "分身阵列",
+      "selector": {
+        "character": "牛来",
+        "asset_id": "",
+        "prefer_transparent": true
+      },
+      "cast": [],
+      "plan": {
+        "template_id": "motion-sway-trail",
+        "text": "精神状态分裂中",
+        "secondary_text": "",
+        "format": "gif",
+        "size": 256,
+        "background": "#f1f5e9",
+        "font_family": "sans",
+        "font_size": 36,
+        "emblem": false
+      }
+    },
+    {
+      "id": "motion-sway-trail-2",
+      "name": "残像摇摆 · 肥嘟嘟",
+      "description": "两侧残像延迟跟随主体；可替换人物、文字及场景",
+      "category": "分身阵列",
+      "selector": {
+        "character": "肥嘟嘟",
+        "asset_id": "",
+        "prefer_transparent": true
+      },
+      "cast": [],
+      "plan": {
+        "template_id": "motion-sway-trail",
+        "text": "今天也在努力营业",
+        "secondary_text": "",
+        "format": "gif",
+        "size": 256,
+        "background": "#fff3e5",
+        "font_family": "sans",
+        "font_size": 36,
+        "emblem": false
+      }
+    },
+    {
+      "id": "motion-echo-zoom-1",
+      "name": "回声放大 · 奶龙（原版）",
+      "description": "透明轮廓逐层向外扩散；可替换人物、文字及场景",
+      "category": "分身阵列",
+      "selector": {
+        "character": "奶龙（原版）",
+        "asset_id": "",
+        "prefer_transparent": true
+      },
+      "cast": [],
+      "plan": {
+        "template_id": "motion-echo-zoom",
+        "text": "精神状态分裂中",
+        "secondary_text": "",
+        "format": "gif",
+        "size": 256,
+        "background": "#f1f5e9",
+        "font_family": "sans",
+        "font_size": 36,
+        "emblem": false
+      }
+    },
+    {
+      "id": "motion-echo-zoom-2",
+      "name": "回声放大 · Meowl",
+      "description": "透明轮廓逐层向外扩散；可替换人物、文字及场景",
+      "category": "分身阵列",
+      "selector": {
+        "character": "Meowl",
+        "asset_id": "",
+        "prefer_transparent": true
+      },
+      "cast": [],
+      "plan": {
+        "template_id": "motion-echo-zoom",
+        "text": "今天也在努力营业",
+        "secondary_text": "",
+        "format": "gif",
+        "size": 256,
+        "background": "#fff3e5",
+        "font_family": "sans",
+        "font_size": 36,
+        "emblem": false
+      }
+    },
+    {
+      "id": "motion-pop-clones-1",
+      "name": "弹出分身 · 奶蛋",
+      "description": "副本依次从主体弹出；可替换人物、文字及场景",
+      "category": "分身阵列",
+      "selector": {
+        "character": "奶蛋",
+        "asset_id": "",
+        "prefer_transparent": true
+      },
+      "cast": [],
+      "plan": {
+        "template_id": "motion-pop-clones",
+        "text": "精神状态分裂中",
+        "secondary_text": "",
+        "format": "gif",
+        "size": 256,
+        "background": "#f1f5e9",
+        "font_family": "sans",
+        "font_size": 36,
+        "emblem": false
+      }
+    },
+    {
+      "id": "motion-pop-clones-2",
+      "name": "弹出分身 · 可爱大笨蛋",
+      "description": "副本依次从主体弹出；可替换人物、文字及场景",
+      "category": "分身阵列",
+      "selector": {
+        "character": "猫耳修女",
+        "asset_id": "ai-nun-01",
+        "prefer_transparent": true
+      },
+      "cast": [],
+      "plan": {
+        "template_id": "motion-pop-clones",
+        "text": "今天也在努力营业",
+        "secondary_text": "",
+        "format": "gif",
+        "size": 256,
+        "background": "#fff3e5",
+        "font_family": "sans",
+        "font_size": 36,
+        "emblem": false
+      }
+    },
+    {
+      "id": "motion-orbit-1",
+      "name": "分身转圈 · 肥嘟嘟",
+      "description": "副本保持正立沿圆周公转；可替换人物、文字及场景",
+      "category": "分身阵列",
+      "selector": {
+        "character": "肥嘟嘟",
+        "asset_id": "",
+        "prefer_transparent": true
+      },
+      "cast": [],
+      "plan": {
+        "template_id": "motion-orbit",
+        "text": "精神状态分裂中",
+        "secondary_text": "",
+        "format": "gif",
+        "size": 256,
+        "background": "#f1f5e9",
+        "font_family": "sans",
+        "font_size": 36,
+        "emblem": false
+      }
+    },
+    {
+      "id": "motion-orbit-2",
+      "name": "分身转圈 · 毛毛虫",
+      "description": "副本保持正立沿圆周公转；可替换人物、文字及场景",
+      "category": "分身阵列",
+      "selector": {
+        "character": "毛毛虫",
+        "asset_id": "ai-worm-02",
+        "prefer_transparent": true
+      },
+      "cast": [],
+      "plan": {
+        "template_id": "motion-orbit",
+        "text": "今天也在努力营业",
+        "secondary_text": "",
+        "format": "gif",
+        "size": 256,
+        "background": "#fff3e5",
+        "font_family": "sans",
+        "font_size": 36,
+        "emblem": false
+      }
+    },
+    {
+      "id": "motion-satellite-1",
+      "name": "卫星伴舞 · Meowl",
+      "description": "中心主体与三个卫星反向运动；可替换人物、文字及场景",
+      "category": "分身阵列",
+      "selector": {
+        "character": "Meowl",
+        "asset_id": "",
+        "prefer_transparent": true
+      },
+      "cast": [],
+      "plan": {
+        "template_id": "motion-satellite",
+        "text": "精神状态分裂中",
+        "secondary_text": "",
+        "format": "gif",
+        "size": 256,
+        "background": "#f1f5e9",
+        "font_family": "sans",
+        "font_size": 36,
+        "emblem": false
+      }
+    },
+    {
+      "id": "motion-satellite-2",
+      "name": "卫星伴舞 · 奶蛙",
+      "description": "中心主体与三个卫星反向运动；可替换人物、文字及场景",
+      "category": "分身阵列",
+      "selector": {
+        "character": "奶蛙",
+        "asset_id": "",
+        "prefer_transparent": true
+      },
+      "cast": [],
+      "plan": {
+        "template_id": "motion-satellite",
+        "text": "今天也在努力营业",
+        "secondary_text": "",
+        "format": "gif",
+        "size": 256,
+        "background": "#fff3e5",
+        "font_family": "sans",
+        "font_size": 36,
+        "emblem": false
+      }
+    },
+    {
+      "id": "motion-figure-eight-1",
+      "name": "八字巡游 · 可爱大笨蛋",
+      "description": "副本错开沿八字路径运动；可替换人物、文字及场景",
+      "category": "分身阵列",
+      "selector": {
+        "character": "猫耳修女",
+        "asset_id": "ai-nun-01",
+        "prefer_transparent": true
+      },
+      "cast": [],
+      "plan": {
+        "template_id": "motion-figure-eight",
+        "text": "精神状态分裂中",
+        "secondary_text": "",
+        "format": "gif",
+        "size": 256,
+        "background": "#f1f5e9",
+        "font_family": "sans",
+        "font_size": 36,
+        "emblem": false
+      }
+    },
+    {
+      "id": "motion-figure-eight-2",
+      "name": "八字巡游 · 牛来",
+      "description": "副本错开沿八字路径运动；可替换人物、文字及场景",
+      "category": "分身阵列",
+      "selector": {
+        "character": "牛来",
+        "asset_id": "",
+        "prefer_transparent": true
+      },
+      "cast": [],
+      "plan": {
+        "template_id": "motion-figure-eight",
+        "text": "今天也在努力营业",
+        "secondary_text": "",
+        "format": "gif",
+        "size": 256,
+        "background": "#fff3e5",
+        "font_family": "sans",
+        "font_size": 36,
+        "emblem": false
+      }
+    },
+    {
+      "id": "motion-spiral-1",
+      "name": "螺旋收拢 · 毛毛虫",
+      "description": "旋转收拢至中心后再展开；可替换人物、文字及场景",
+      "category": "分身阵列",
+      "selector": {
+        "character": "毛毛虫",
+        "asset_id": "ai-worm-02",
+        "prefer_transparent": true
+      },
+      "cast": [],
+      "plan": {
+        "template_id": "motion-spiral",
+        "text": "精神状态分裂中",
+        "secondary_text": "",
+        "format": "gif",
+        "size": 256,
+        "background": "#f1f5e9",
+        "font_family": "sans",
+        "font_size": 36,
+        "emblem": false
+      }
+    },
+    {
+      "id": "motion-spiral-2",
+      "name": "螺旋收拢 · 奶龙（原版）",
+      "description": "旋转收拢至中心后再展开；可替换人物、文字及场景",
+      "category": "分身阵列",
+      "selector": {
+        "character": "奶龙（原版）",
+        "asset_id": "",
+        "prefer_transparent": true
+      },
+      "cast": [],
+      "plan": {
+        "template_id": "motion-spiral",
+        "text": "今天也在努力营业",
+        "secondary_text": "",
+        "format": "gif",
+        "size": 256,
+        "background": "#fff3e5",
+        "font_family": "sans",
+        "font_size": 36,
+        "emblem": false
+      }
+    },
+    {
+      "id": "motion-clone-clap-1",
+      "name": "左右对拍 · 奶蛙",
+      "description": "两组副本交替靠近中心；可替换人物、文字及场景",
+      "category": "分身阵列",
+      "selector": {
+        "character": "奶蛙",
+        "asset_id": "",
+        "prefer_transparent": true
+      },
+      "cast": [],
+      "plan": {
+        "template_id": "motion-clone-clap",
+        "text": "精神状态分裂中",
+        "secondary_text": "",
+        "format": "gif",
+        "size": 256,
+        "background": "#f1f5e9",
+        "font_family": "sans",
+        "font_size": 36,
+        "emblem": false
+      }
+    },
+    {
+      "id": "motion-clone-clap-2",
+      "name": "左右对拍 · 奶蛋",
+      "description": "两组副本交替靠近中心；可替换人物、文字及场景",
+      "category": "分身阵列",
+      "selector": {
+        "character": "奶蛋",
+        "asset_id": "",
+        "prefer_transparent": true
+      },
+      "cast": [],
+      "plan": {
+        "template_id": "motion-clone-clap",
+        "text": "今天也在努力营业",
+        "secondary_text": "",
+        "format": "gif",
+        "size": 256,
+        "background": "#fff3e5",
+        "font_family": "sans",
+        "font_size": 36,
+        "emblem": false
+      }
+    },
+    {
+      "id": "motion-ring-pulse-1",
+      "name": "环形追尾 · 牛来",
+      "description": "环形副本依次放大回落；可替换人物、文字及场景",
+      "category": "分身阵列",
+      "selector": {
+        "character": "牛来",
+        "asset_id": "",
+        "prefer_transparent": true
+      },
+      "cast": [],
+      "plan": {
+        "template_id": "motion-ring-pulse",
+        "text": "精神状态分裂中",
+        "secondary_text": "",
+        "format": "gif",
+        "size": 256,
+        "background": "#f1f5e9",
+        "font_family": "sans",
+        "font_size": 36,
+        "emblem": false
+      }
+    },
+    {
+      "id": "motion-ring-pulse-2",
+      "name": "环形追尾 · 肥嘟嘟",
+      "description": "环形副本依次放大回落；可替换人物、文字及场景",
+      "category": "分身阵列",
+      "selector": {
+        "character": "肥嘟嘟",
+        "asset_id": "",
+        "prefer_transparent": true
+      },
+      "cast": [],
+      "plan": {
+        "template_id": "motion-ring-pulse",
+        "text": "今天也在努力营业",
+        "secondary_text": "",
+        "format": "gif",
+        "size": 256,
+        "background": "#fff3e5",
+        "font_family": "sans",
+        "font_size": 36,
+        "emblem": false
+      }
+    },
+    {
+      "id": "motion-merge-1",
+      "name": "分身合体 · 奶龙（原版）",
+      "description": "外围副本汇聚成一个主体；可替换人物、文字及场景",
+      "category": "分身阵列",
+      "selector": {
+        "character": "奶龙（原版）",
+        "asset_id": "",
+        "prefer_transparent": true
+      },
+      "cast": [],
+      "plan": {
+        "template_id": "motion-merge",
+        "text": "精神状态分裂中",
+        "secondary_text": "",
+        "format": "gif",
+        "size": 256,
+        "background": "#f1f5e9",
+        "font_family": "sans",
+        "font_size": 36,
+        "emblem": false
+      }
+    },
+    {
+      "id": "motion-merge-2",
+      "name": "分身合体 · Meowl",
+      "description": "外围副本汇聚成一个主体；可替换人物、文字及场景",
+      "category": "分身阵列",
+      "selector": {
+        "character": "Meowl",
+        "asset_id": "",
+        "prefer_transparent": true
+      },
+      "cast": [],
+      "plan": {
+        "template_id": "motion-merge",
+        "text": "今天也在努力营业",
+        "secondary_text": "",
+        "format": "gif",
+        "size": 256,
+        "background": "#fff3e5",
+        "font_family": "sans",
+        "font_size": 36,
+        "emblem": false
+      }
+    },
+    {
+      "id": "motion-grid-relay-1",
+      "name": "九宫格接力 · 奶蛋",
+      "description": "逐格弹出、依次回落；可替换人物、文字及场景",
+      "category": "分身阵列",
+      "selector": {
+        "character": "奶蛋",
+        "asset_id": "",
+        "prefer_transparent": true
+      },
+      "cast": [],
+      "plan": {
+        "template_id": "motion-grid-relay",
+        "text": "精神状态分裂中",
+        "secondary_text": "",
+        "format": "gif",
+        "size": 256,
+        "background": "#f1f5e9",
+        "font_family": "sans",
+        "font_size": 36,
+        "emblem": false
+      }
+    },
+    {
+      "id": "motion-grid-relay-2",
+      "name": "九宫格接力 · 可爱大笨蛋",
+      "description": "逐格弹出、依次回落；可替换人物、文字及场景",
+      "category": "分身阵列",
+      "selector": {
+        "character": "猫耳修女",
+        "asset_id": "ai-nun-01",
+        "prefer_transparent": true
+      },
+      "cast": [],
+      "plan": {
+        "template_id": "motion-grid-relay",
+        "text": "今天也在努力营业",
+        "secondary_text": "",
+        "format": "gif",
+        "size": 256,
+        "background": "#fff3e5",
+        "font_family": "sans",
+        "font_size": 36,
+        "emblem": false
+      }
+    },
+    {
+      "id": "motion-pet-1",
+      "name": "摸摸脑袋 · 肥嘟嘟",
+      "description": "手掌与主体压缩同步；可替换人物、文字及场景",
+      "category": "道具氛围",
+      "selector": {
+        "character": "肥嘟嘟",
+        "asset_id": "",
+        "prefer_transparent": true
+      },
+      "cast": [],
+      "plan": {
+        "template_id": "motion-pet",
+        "text": "辛苦了，摸摸",
+        "secondary_text": "",
+        "format": "gif",
+        "size": 256,
+        "background": "#f1f5e9",
+        "font_family": "sans",
+        "font_size": 36,
+        "emblem": false
+      }
+    },
+    {
+      "id": "motion-pet-2",
+      "name": "摸摸脑袋 · 毛毛虫",
+      "description": "手掌与主体压缩同步；可替换人物、文字及场景",
+      "category": "道具氛围",
+      "selector": {
+        "character": "毛毛虫",
+        "asset_id": "ai-worm-02",
+        "prefer_transparent": true
+      },
+      "cast": [],
+      "plan": {
+        "template_id": "motion-pet",
+        "text": "先接住这份快乐",
+        "secondary_text": "",
+        "format": "gif",
+        "size": 256,
+        "background": "#fff3e5",
+        "font_family": "sans",
+        "font_size": 36,
+        "emblem": false
+      }
+    },
+    {
+      "id": "motion-cheek-1",
+      "name": "揉揉脸 · Meowl",
+      "description": "双手相向挤压主体；可替换人物、文字及场景",
+      "category": "道具氛围",
+      "selector": {
+        "character": "Meowl",
+        "asset_id": "",
+        "prefer_transparent": true
+      },
+      "cast": [],
+      "plan": {
+        "template_id": "motion-cheek",
+        "text": "今天也要开心",
+        "secondary_text": "",
+        "format": "gif",
+        "size": 256,
+        "background": "#f1f5e9",
+        "font_family": "sans",
+        "font_size": 36,
+        "emblem": false
+      }
+    },
+    {
+      "id": "motion-cheek-2",
+      "name": "揉揉脸 · 奶蛙",
+      "description": "双手相向挤压主体；可替换人物、文字及场景",
+      "category": "道具氛围",
+      "selector": {
+        "character": "奶蛙",
+        "asset_id": "",
+        "prefer_transparent": true
+      },
+      "cast": [],
+      "plan": {
+        "template_id": "motion-cheek",
+        "text": "先接住这份快乐",
+        "secondary_text": "",
+        "format": "gif",
+        "size": 256,
+        "background": "#fff3e5",
+        "font_family": "sans",
+        "font_size": 36,
+        "emblem": false
+      }
+    },
+    {
+      "id": "motion-shoulder-1",
+      "name": "拍拍肩膀 · 可爱大笨蛋",
+      "description": "侧拍肩膀时主体轻晃；可替换人物、文字及场景",
+      "category": "道具氛围",
+      "selector": {
+        "character": "猫耳修女",
+        "asset_id": "ai-nun-01",
+        "prefer_transparent": true
+      },
+      "cast": [],
+      "plan": {
+        "template_id": "motion-shoulder",
+        "text": "今天也要开心",
+        "secondary_text": "",
+        "format": "gif",
+        "size": 256,
+        "background": "#f1f5e9",
+        "font_family": "sans",
+        "font_size": 36,
+        "emblem": false
+      }
+    },
+    {
+      "id": "motion-shoulder-2",
+      "name": "拍拍肩膀 · 牛来",
+      "description": "侧拍肩膀时主体轻晃；可替换人物、文字及场景",
+      "category": "道具氛围",
+      "selector": {
+        "character": "牛来",
+        "asset_id": "",
+        "prefer_transparent": true
+      },
+      "cast": [],
+      "plan": {
+        "template_id": "motion-shoulder",
+        "text": "先接住这份快乐",
+        "secondary_text": "",
+        "format": "gif",
+        "size": 256,
+        "background": "#fff3e5",
+        "font_family": "sans",
+        "font_size": 36,
+        "emblem": false
+      }
+    },
+    {
+      "id": "motion-lift-1",
+      "name": "掌心托举 · 毛毛虫",
+      "description": "掌心托起主体再放回；可替换人物、文字及场景",
+      "category": "道具氛围",
+      "selector": {
+        "character": "毛毛虫",
+        "asset_id": "ai-worm-02",
+        "prefer_transparent": true
+      },
+      "cast": [],
+      "plan": {
+        "template_id": "motion-lift",
+        "text": "今天也要开心",
+        "secondary_text": "",
+        "format": "gif",
+        "size": 256,
+        "background": "#f1f5e9",
+        "font_family": "sans",
+        "font_size": 36,
+        "emblem": false
+      }
+    },
+    {
+      "id": "motion-lift-2",
+      "name": "掌心托举 · 奶龙（原版）",
+      "description": "掌心托起主体再放回；可替换人物、文字及场景",
+      "category": "道具氛围",
+      "selector": {
+        "character": "奶龙（原版）",
+        "asset_id": "",
+        "prefer_transparent": true
+      },
+      "cast": [],
+      "plan": {
+        "template_id": "motion-lift",
+        "text": "先接住这份快乐",
+        "secondary_text": "",
+        "format": "gif",
+        "size": 256,
+        "background": "#fff3e5",
+        "font_family": "sans",
+        "font_size": 36,
+        "emblem": false
+      }
+    },
+    {
+      "id": "motion-hearts-1",
+      "name": "爱心喷泉 · 奶蛙",
+      "description": "爱心由下向上散开；可替换人物、文字及场景",
+      "category": "道具氛围",
+      "selector": {
+        "character": "奶蛙",
+        "asset_id": "",
+        "prefer_transparent": true
+      },
+      "cast": [],
+      "plan": {
+        "template_id": "motion-hearts",
+        "text": "今天也要开心",
+        "secondary_text": "",
+        "format": "gif",
+        "size": 256,
+        "background": "#f1f5e9",
+        "font_family": "sans",
+        "font_size": 36,
+        "emblem": false
+      }
+    },
+    {
+      "id": "motion-hearts-2",
+      "name": "爱心喷泉 · 奶蛋",
+      "description": "爱心由下向上散开；可替换人物、文字及场景",
+      "category": "道具氛围",
+      "selector": {
+        "character": "奶蛋",
+        "asset_id": "",
+        "prefer_transparent": true
+      },
+      "cast": [],
+      "plan": {
+        "template_id": "motion-hearts",
+        "text": "先接住这份快乐",
+        "secondary_text": "",
+        "format": "gif",
+        "size": 256,
+        "background": "#fff3e5",
+        "font_family": "sans",
+        "font_size": 36,
+        "emblem": false
+      }
+    },
+    {
+      "id": "motion-stars-1",
+      "name": "星星欢呼 · 牛来",
+      "description": "星星从主体周围弹出；可替换人物、文字及场景",
+      "category": "道具氛围",
+      "selector": {
+        "character": "牛来",
+        "asset_id": "",
+        "prefer_transparent": true
+      },
+      "cast": [],
+      "plan": {
+        "template_id": "motion-stars",
+        "text": "今天也要开心",
+        "secondary_text": "",
+        "format": "gif",
+        "size": 256,
+        "background": "#f1f5e9",
+        "font_family": "sans",
+        "font_size": 36,
+        "emblem": false
+      }
+    },
+    {
+      "id": "motion-stars-2",
+      "name": "星星欢呼 · 肥嘟嘟",
+      "description": "星星从主体周围弹出；可替换人物、文字及场景",
+      "category": "道具氛围",
+      "selector": {
+        "character": "肥嘟嘟",
+        "asset_id": "",
+        "prefer_transparent": true
+      },
+      "cast": [],
+      "plan": {
+        "template_id": "motion-stars",
+        "text": "先接住这份快乐",
+        "secondary_text": "",
+        "format": "gif",
+        "size": 256,
+        "background": "#fff3e5",
+        "font_family": "sans",
+        "font_size": 36,
+        "emblem": false
+      }
+    },
+    {
+      "id": "motion-confetti-1",
+      "name": "纸屑庆祝 · 奶龙（原版）",
+      "description": "彩纸缓慢旋转落下；可替换人物、文字及场景",
+      "category": "道具氛围",
+      "selector": {
+        "character": "奶龙（原版）",
+        "asset_id": "",
+        "prefer_transparent": true
+      },
+      "cast": [],
+      "plan": {
+        "template_id": "motion-confetti",
+        "text": "今天也要开心",
+        "secondary_text": "",
+        "format": "gif",
+        "size": 256,
+        "background": "#f1f5e9",
+        "font_family": "sans",
+        "font_size": 36,
+        "emblem": false
+      }
+    },
+    {
+      "id": "motion-confetti-2",
+      "name": "纸屑庆祝 · Meowl",
+      "description": "彩纸缓慢旋转落下；可替换人物、文字及场景",
+      "category": "道具氛围",
+      "selector": {
+        "character": "Meowl",
+        "asset_id": "",
+        "prefer_transparent": true
+      },
+      "cast": [],
+      "plan": {
+        "template_id": "motion-confetti",
+        "text": "先接住这份快乐",
+        "secondary_text": "",
+        "format": "gif",
+        "size": 256,
+        "background": "#fff3e5",
+        "font_family": "sans",
+        "font_size": 36,
+        "emblem": false
+      }
+    },
+    {
+      "id": "motion-fireworks-1",
+      "name": "礼花绽放 · 奶蛋",
+      "description": "身后绽开粒子花束；可替换人物、文字及场景",
+      "category": "道具氛围",
+      "selector": {
+        "character": "奶蛋",
+        "asset_id": "",
+        "prefer_transparent": true
+      },
+      "cast": [],
+      "plan": {
+        "template_id": "motion-fireworks",
+        "text": "今天也要开心",
+        "secondary_text": "",
+        "format": "gif",
+        "size": 256,
+        "background": "#f1f5e9",
+        "font_family": "sans",
+        "font_size": 36,
+        "emblem": false
+      }
+    },
+    {
+      "id": "motion-fireworks-2",
+      "name": "礼花绽放 · 可爱大笨蛋",
+      "description": "身后绽开粒子花束；可替换人物、文字及场景",
+      "category": "道具氛围",
+      "selector": {
+        "character": "猫耳修女",
+        "asset_id": "ai-nun-01",
+        "prefer_transparent": true
+      },
+      "cast": [],
+      "plan": {
+        "template_id": "motion-fireworks",
+        "text": "先接住这份快乐",
+        "secondary_text": "",
+        "format": "gif",
+        "size": 256,
+        "background": "#fff3e5",
+        "font_family": "sans",
+        "font_size": 36,
+        "emblem": false
+      }
+    },
+    {
+      "id": "motion-questions-1",
+      "name": "问号绕头 · 肥嘟嘟",
+      "description": "问号沿头顶轨迹移动；可替换人物、文字及场景",
+      "category": "道具氛围",
+      "selector": {
+        "character": "肥嘟嘟",
+        "asset_id": "",
+        "prefer_transparent": true
+      },
+      "cast": [],
+      "plan": {
+        "template_id": "motion-questions",
+        "text": "今天也要开心",
+        "secondary_text": "",
+        "format": "gif",
+        "size": 256,
+        "background": "#f1f5e9",
+        "font_family": "sans",
+        "font_size": 36,
+        "emblem": false
+      }
+    },
+    {
+      "id": "motion-questions-2",
+      "name": "问号绕头 · 毛毛虫",
+      "description": "问号沿头顶轨迹移动；可替换人物、文字及场景",
+      "category": "道具氛围",
+      "selector": {
+        "character": "毛毛虫",
+        "asset_id": "ai-worm-02",
+        "prefer_transparent": true
+      },
+      "cast": [],
+      "plan": {
+        "template_id": "motion-questions",
+        "text": "先接住这份快乐",
+        "secondary_text": "",
+        "format": "gif",
+        "size": 256,
+        "background": "#fff3e5",
+        "font_family": "sans",
+        "font_size": 36,
+        "emblem": false
+      }
+    },
+    {
+      "id": "motion-sweat-1",
+      "name": "冷汗滑落 · Meowl",
+      "description": "汗滴逐渐出现并滑落；可替换人物、文字及场景",
+      "category": "道具氛围",
+      "selector": {
+        "character": "Meowl",
+        "asset_id": "",
+        "prefer_transparent": true
+      },
+      "cast": [],
+      "plan": {
+        "template_id": "motion-sweat",
+        "text": "今天也要开心",
+        "secondary_text": "",
+        "format": "gif",
+        "size": 256,
+        "background": "#f1f5e9",
+        "font_family": "sans",
+        "font_size": 36,
+        "emblem": false
+      }
+    },
+    {
+      "id": "motion-sweat-2",
+      "name": "冷汗滑落 · 奶蛙",
+      "description": "汗滴逐渐出现并滑落；可替换人物、文字及场景",
+      "category": "道具氛围",
+      "selector": {
+        "character": "奶蛙",
+        "asset_id": "",
+        "prefer_transparent": true
+      },
+      "cast": [],
+      "plan": {
+        "template_id": "motion-sweat",
+        "text": "先接住这份快乐",
+        "secondary_text": "",
+        "format": "gif",
+        "size": 256,
+        "background": "#fff3e5",
+        "font_family": "sans",
+        "font_size": 36,
+        "emblem": false
+      }
+    },
+    {
+      "id": "motion-loading-1",
+      "name": "脑子加载 · 可爱大笨蛋",
+      "description": "角色组成加载环、中心显示文案；可替换人物、文字及场景",
+      "category": "道具氛围",
+      "selector": {
+        "character": "猫耳修女",
+        "asset_id": "ai-nun-01",
+        "prefer_transparent": true
+      },
+      "cast": [],
+      "plan": {
+        "template_id": "motion-loading",
+        "text": "脑子加载中",
+        "secondary_text": "",
+        "format": "gif",
+        "size": 256,
+        "background": "#f1f5e9",
+        "font_family": "sans",
+        "font_size": 32,
+        "emblem": false
+      }
+    },
+    {
+      "id": "motion-loading-2",
+      "name": "脑子加载 · 牛来",
+      "description": "角色组成加载环、中心显示文案；可替换人物、文字及场景",
+      "category": "道具氛围",
+      "selector": {
+        "character": "牛来",
+        "asset_id": "",
+        "prefer_transparent": true
+      },
+      "cast": [],
+      "plan": {
+        "template_id": "motion-loading",
+        "text": "先接住这份快乐",
+        "secondary_text": "",
+        "format": "gif",
+        "size": 256,
+        "background": "#fff3e5",
+        "font_family": "sans",
+        "font_size": 32,
+        "emblem": false
+      }
+    },
+    {
+      "id": "motion-ghost-1",
+      "name": "灵魂出窍 · 毛毛虫",
+      "description": "半透明轮廓从身体中浮出再归位；可替换人物、文字及场景",
+      "category": "道具氛围",
+      "selector": {
+        "character": "毛毛虫",
+        "asset_id": "ai-worm-02",
+        "prefer_transparent": true
+      },
+      "cast": [],
+      "plan": {
+        "template_id": "motion-ghost",
+        "text": "今天也要开心",
+        "secondary_text": "",
+        "format": "gif",
+        "size": 256,
+        "background": "#f1f5e9",
+        "font_family": "sans",
+        "font_size": 36,
+        "emblem": false
+      }
+    },
+    {
+      "id": "motion-ghost-2",
+      "name": "灵魂出窍 · 奶龙（原版）",
+      "description": "半透明轮廓从身体中浮出再归位；可替换人物、文字及场景",
+      "category": "道具氛围",
+      "selector": {
+        "character": "奶龙（原版）",
+        "asset_id": "",
+        "prefer_transparent": true
+      },
+      "cast": [],
+      "plan": {
+        "template_id": "motion-ghost",
+        "text": "先接住这份快乐",
+        "secondary_text": "",
+        "format": "gif",
+        "size": 256,
+        "background": "#fff3e5",
+        "font_family": "sans",
+        "font_size": 36,
+        "emblem": false
+      }
+    },
+    {
+      "id": "motion-talk-1",
+      "name": "你一句我一句 · 奶蛙",
+      "description": "两人及对应气泡轮流响应；可替换人物、文字及场景",
+      "category": "双人互动",
+      "selector": {
+        "character": "奶蛙",
+        "asset_id": "",
+        "prefer_transparent": true
+      },
+      "cast": [
+        {
+          "character": "牛来",
+          "prefer_transparent": true
+        }
+      ],
+      "plan": {
+        "template_id": "motion-talk",
+        "text": "你先说",
+        "secondary_text": "我先想一想",
+        "format": "gif",
+        "size": 256,
+        "background": "#f1f5e9",
+        "font_family": "sans",
+        "font_size": 36,
+        "emblem": false
+      }
+    },
+    {
+      "id": "motion-talk-2",
+      "name": "你一句我一句 · 北京大学",
+      "description": "两人及对应气泡轮流响应；可替换人物、文字及场景",
+      "category": "双人互动",
+      "selector": {
+        "character": "北京大学",
+        "asset_id": "",
+        "prefer_transparent": true
+      },
+      "cast": [
+        {
+          "character": "肥嘟嘟",
+          "prefer_transparent": true
+        }
+      ],
+      "plan": {
+        "template_id": "motion-talk",
+        "text": "今天也在努力营业",
+        "secondary_text": "我先想一想",
+        "format": "gif",
+        "size": 256,
+        "background": "#fff3e5",
+        "font_family": "sans",
+        "font_size": 36,
+        "emblem": false
+      }
+    },
+    {
+      "id": "motion-interrupt-1",
+      "name": "抢着发言 · 牛来",
+      "description": "两个气泡快速交替出现；可替换人物、文字及场景",
+      "category": "双人互动",
+      "selector": {
+        "character": "牛来",
+        "asset_id": "",
+        "prefer_transparent": true
+      },
+      "cast": [
+        {
+          "character": "奶龙（原版）",
+          "prefer_transparent": true
+        }
+      ],
+      "plan": {
+        "template_id": "motion-interrupt",
+        "text": "你先说",
+        "secondary_text": "我先想一想",
+        "format": "gif",
+        "size": 256,
+        "background": "#f1f5e9",
+        "font_family": "sans",
+        "font_size": 36,
+        "emblem": false
+      }
+    },
+    {
+      "id": "motion-interrupt-2",
+      "name": "抢着发言 · 肥嘟嘟",
+      "description": "两个气泡快速交替出现；可替换人物、文字及场景",
+      "category": "双人互动",
+      "selector": {
+        "character": "肥嘟嘟",
+        "asset_id": "",
+        "prefer_transparent": true
+      },
+      "cast": [
+        {
+          "character": "Meowl",
+          "prefer_transparent": true
+        }
+      ],
+      "plan": {
+        "template_id": "motion-interrupt",
+        "text": "今天也在努力营业",
+        "secondary_text": "我先想一想",
+        "format": "gif",
+        "size": 256,
+        "background": "#fff3e5",
+        "font_family": "sans",
+        "font_size": 36,
+        "emblem": false
+      }
+    },
+    {
+      "id": "motion-repeat-1",
+      "name": "互相复读 · 奶龙（原版）",
+      "description": "同一句文案依次传递；可替换人物、文字及场景",
+      "category": "双人互动",
+      "selector": {
+        "character": "奶龙（原版）",
+        "asset_id": "",
+        "prefer_transparent": true
+      },
+      "cast": [
+        {
+          "character": "奶蛋",
+          "prefer_transparent": true
+        }
+      ],
+      "plan": {
+        "template_id": "motion-repeat",
+        "text": "你先说",
+        "secondary_text": "我先想一想",
+        "format": "gif",
+        "size": 256,
+        "background": "#f1f5e9",
+        "font_family": "sans",
+        "font_size": 36,
+        "emblem": false
+      }
+    },
+    {
+      "id": "motion-repeat-2",
+      "name": "互相复读 · Meowl",
+      "description": "同一句文案依次传递；可替换人物、文字及场景",
+      "category": "双人互动",
+      "selector": {
+        "character": "Meowl",
+        "asset_id": "",
+        "prefer_transparent": true
+      },
+      "cast": [
+        {
+          "character": "猫耳修女",
+          "prefer_transparent": true
+        }
+      ],
+      "plan": {
+        "template_id": "motion-repeat",
+        "text": "今天也在努力营业",
+        "secondary_text": "我先想一想",
+        "format": "gif",
+        "size": 256,
+        "background": "#fff3e5",
+        "font_family": "sans",
+        "font_size": 36,
+        "emblem": false
+      }
+    },
+    {
+      "id": "motion-silence-1",
+      "name": "同时沉默 · 奶蛋",
+      "description": "气泡收起、两人同步下沉；可替换人物、文字及场景",
+      "category": "双人互动",
+      "selector": {
+        "character": "奶蛋",
+        "asset_id": "",
+        "prefer_transparent": true
+      },
+      "cast": [
+        {
+          "character": "肥嘟嘟",
+          "prefer_transparent": true
+        }
+      ],
+      "plan": {
+        "template_id": "motion-silence",
+        "text": "你先说",
+        "secondary_text": "我先想一想",
+        "format": "gif",
+        "size": 256,
+        "background": "#f1f5e9",
+        "font_family": "sans",
+        "font_size": 36,
+        "emblem": false
+      }
+    },
+    {
+      "id": "motion-silence-2",
+      "name": "同时沉默 · 可爱大笨蛋",
+      "description": "气泡收起、两人同步下沉；可替换人物、文字及场景",
+      "category": "双人互动",
+      "selector": {
+        "character": "猫耳修女",
+        "asset_id": "ai-nun-01",
+        "prefer_transparent": true
+      },
+      "cast": [
+        {
+          "character": "毛毛虫",
+          "prefer_transparent": true
+        }
+      ],
+      "plan": {
+        "template_id": "motion-silence",
+        "text": "今天也在努力营业",
+        "secondary_text": "我先想一想",
+        "format": "gif",
+        "size": 256,
+        "background": "#fff3e5",
+        "font_family": "sans",
+        "font_size": 36,
+        "emblem": false
+      }
+    },
+    {
+      "id": "motion-bump-1",
+      "name": "轻轻碰头 · 肥嘟嘟",
+      "description": "靠近接触后轻轻回弹；可替换人物、文字及场景",
+      "category": "双人互动",
+      "selector": {
+        "character": "肥嘟嘟",
+        "asset_id": "",
+        "prefer_transparent": true
+      },
+      "cast": [
+        {
+          "character": "Meowl",
+          "prefer_transparent": true
+        }
+      ],
+      "plan": {
+        "template_id": "motion-bump",
+        "text": "你先说",
+        "secondary_text": "",
+        "format": "gif",
+        "size": 256,
+        "background": "#f1f5e9",
+        "font_family": "sans",
+        "font_size": 36,
+        "emblem": false
+      }
+    },
+    {
+      "id": "motion-bump-2",
+      "name": "轻轻碰头 · 毛毛虫",
+      "description": "靠近接触后轻轻回弹；可替换人物、文字及场景",
+      "category": "双人互动",
+      "selector": {
+        "character": "毛毛虫",
+        "asset_id": "ai-worm-02",
+        "prefer_transparent": true
+      },
+      "cast": [
+        {
+          "character": "奶蛙",
+          "prefer_transparent": true
+        }
+      ],
+      "plan": {
+        "template_id": "motion-bump",
+        "text": "今天也在努力营业",
+        "secondary_text": "",
+        "format": "gif",
+        "size": 256,
+        "background": "#fff3e5",
+        "font_family": "sans",
+        "font_size": 36,
+        "emblem": false
+      }
+    },
+    {
+      "id": "motion-cuddle-1",
+      "name": "贴贴一下 · Meowl",
+      "description": "靠近后短暂停留再归位；可替换人物、文字及场景",
+      "category": "双人互动",
+      "selector": {
+        "character": "Meowl",
+        "asset_id": "",
+        "prefer_transparent": true
+      },
+      "cast": [
+        {
+          "character": "猫耳修女",
+          "prefer_transparent": true
+        }
+      ],
+      "plan": {
+        "template_id": "motion-cuddle",
+        "text": "你先说",
+        "secondary_text": "",
+        "format": "gif",
+        "size": 256,
+        "background": "#f1f5e9",
+        "font_family": "sans",
+        "font_size": 36,
+        "emblem": false
+      }
+    },
+    {
+      "id": "motion-cuddle-2",
+      "name": "贴贴一下 · 奶蛙",
+      "description": "靠近后短暂停留再归位；可替换人物、文字及场景",
+      "category": "双人互动",
+      "selector": {
+        "character": "奶蛙",
+        "asset_id": "",
+        "prefer_transparent": true
+      },
+      "cast": [
+        {
+          "character": "牛来",
+          "prefer_transparent": true
+        }
+      ],
+      "plan": {
+        "template_id": "motion-cuddle",
+        "text": "今天也在努力营业",
+        "secondary_text": "",
+        "format": "gif",
+        "size": 256,
+        "background": "#fff3e5",
+        "font_family": "sans",
+        "font_size": 36,
+        "emblem": false
+      }
+    },
+    {
+      "id": "motion-cross-1",
+      "name": "擦肩而过 · 可爱大笨蛋",
+      "description": "前后层次交错穿行；可替换人物、文字及场景",
+      "category": "双人互动",
+      "selector": {
+        "character": "猫耳修女",
+        "asset_id": "ai-nun-01",
+        "prefer_transparent": true
+      },
+      "cast": [
+        {
+          "character": "毛毛虫",
+          "prefer_transparent": true
+        }
+      ],
+      "plan": {
+        "template_id": "motion-cross",
+        "text": "你先说",
+        "secondary_text": "",
+        "format": "gif",
+        "size": 256,
+        "background": "#f1f5e9",
+        "font_family": "sans",
+        "font_size": 36,
+        "emblem": false
+      }
+    },
+    {
+      "id": "motion-cross-2",
+      "name": "擦肩而过 · 牛来",
+      "description": "前后层次交错穿行；可替换人物、文字及场景",
+      "category": "双人互动",
+      "selector": {
+        "character": "牛来",
+        "asset_id": "",
+        "prefer_transparent": true
+      },
+      "cast": [
+        {
+          "character": "奶龙（原版）",
+          "prefer_transparent": true
+        }
+      ],
+      "plan": {
+        "template_id": "motion-cross",
+        "text": "今天也在努力营业",
+        "secondary_text": "",
+        "format": "gif",
+        "size": 256,
+        "background": "#fff3e5",
+        "font_family": "sans",
+        "font_size": 36,
+        "emblem": false
+      }
+    },
+    {
+      "id": "motion-repel-1",
+      "name": "互相弹开 · 毛毛虫",
+      "description": "接触后向两侧弹回；可替换人物、文字及场景",
+      "category": "双人互动",
+      "selector": {
+        "character": "毛毛虫",
+        "asset_id": "ai-worm-02",
+        "prefer_transparent": true
+      },
+      "cast": [
+        {
+          "character": "奶蛙",
+          "prefer_transparent": true
+        }
+      ],
+      "plan": {
+        "template_id": "motion-repel",
+        "text": "你先说",
+        "secondary_text": "",
+        "format": "gif",
+        "size": 256,
+        "background": "#f1f5e9",
+        "font_family": "sans",
+        "font_size": 36,
+        "emblem": false
+      }
+    },
+    {
+      "id": "motion-repel-2",
+      "name": "互相弹开 · 奶龙（原版）",
+      "description": "接触后向两侧弹回；可替换人物、文字及场景",
+      "category": "双人互动",
+      "selector": {
+        "character": "奶龙（原版）",
+        "asset_id": "",
+        "prefer_transparent": true
+      },
+      "cast": [
+        {
+          "character": "奶蛋",
+          "prefer_transparent": true
+        }
+      ],
+      "plan": {
+        "template_id": "motion-repel",
+        "text": "今天也在努力营业",
+        "secondary_text": "",
+        "format": "gif",
+        "size": 256,
+        "background": "#fff3e5",
+        "font_family": "sans",
+        "font_size": 36,
+        "emblem": false
+      }
+    },
+    {
+      "id": "motion-chase-1",
+      "name": "追来追去 · 奶蛙",
+      "description": "两人沿椭圆路径前后追逐；可替换人物、文字及场景",
+      "category": "双人互动",
+      "selector": {
+        "character": "奶蛙",
+        "asset_id": "",
+        "prefer_transparent": true
+      },
+      "cast": [
+        {
+          "character": "牛来",
+          "prefer_transparent": true
+        }
+      ],
+      "plan": {
+        "template_id": "motion-chase",
+        "text": "你先说",
+        "secondary_text": "",
+        "format": "gif",
+        "size": 256,
+        "background": "#f1f5e9",
+        "font_family": "sans",
+        "font_size": 36,
+        "emblem": false
+      }
+    },
+    {
+      "id": "motion-chase-2",
+      "name": "追来追去 · 奶蛋",
+      "description": "两人沿椭圆路径前后追逐；可替换人物、文字及场景",
+      "category": "双人互动",
+      "selector": {
+        "character": "奶蛋",
+        "asset_id": "",
+        "prefer_transparent": true
+      },
+      "cast": [
+        {
+          "character": "肥嘟嘟",
+          "prefer_transparent": true
+        }
+      ],
+      "plan": {
+        "template_id": "motion-chase",
+        "text": "今天也在努力营业",
+        "secondary_text": "",
+        "format": "gif",
+        "size": 256,
+        "background": "#fff3e5",
+        "font_family": "sans",
+        "font_size": 36,
+        "emblem": false
+      }
+    },
+    {
+      "id": "motion-up-down-1",
+      "name": "你起我落 · 牛来",
+      "description": "两个人物交替升降；可替换人物、文字及场景",
+      "category": "双人互动",
+      "selector": {
+        "character": "牛来",
+        "asset_id": "",
+        "prefer_transparent": true
+      },
+      "cast": [
+        {
+          "character": "奶龙（原版）",
+          "prefer_transparent": true
+        }
+      ],
+      "plan": {
+        "template_id": "motion-up-down",
+        "text": "你先说",
+        "secondary_text": "",
+        "format": "gif",
+        "size": 256,
+        "background": "#f1f5e9",
+        "font_family": "sans",
+        "font_size": 36,
+        "emblem": false
+      }
+    },
+    {
+      "id": "motion-up-down-2",
+      "name": "你起我落 · 肥嘟嘟",
+      "description": "两个人物交替升降；可替换人物、文字及场景",
+      "category": "双人互动",
+      "selector": {
+        "character": "肥嘟嘟",
+        "asset_id": "",
+        "prefer_transparent": true
+      },
+      "cast": [
+        {
+          "character": "Meowl",
+          "prefer_transparent": true
+        }
+      ],
+      "plan": {
+        "template_id": "motion-up-down",
+        "text": "今天也在努力营业",
+        "secondary_text": "",
+        "format": "gif",
+        "size": 256,
+        "background": "#fff3e5",
+        "font_family": "sans",
+        "font_size": 36,
+        "emblem": false
+      }
+    },
+    {
+      "id": "motion-heart-pass-1",
+      "name": "传递爱心 · 奶龙（原版）",
+      "description": "爱心在两人之间往返；可替换人物、文字及场景",
+      "category": "双人互动",
+      "selector": {
+        "character": "奶龙（原版）",
+        "asset_id": "",
+        "prefer_transparent": true
+      },
+      "cast": [
+        {
+          "character": "奶蛋",
+          "prefer_transparent": true
+        }
+      ],
+      "plan": {
+        "template_id": "motion-heart-pass",
+        "text": "你先说",
+        "secondary_text": "",
+        "format": "gif",
+        "size": 256,
+        "background": "#f1f5e9",
+        "font_family": "sans",
+        "font_size": 36,
+        "emblem": false
+      }
+    },
+    {
+      "id": "motion-heart-pass-2",
+      "name": "传递爱心 · Meowl",
+      "description": "爱心在两人之间往返；可替换人物、文字及场景",
+      "category": "双人互动",
+      "selector": {
+        "character": "Meowl",
+        "asset_id": "",
+        "prefer_transparent": true
+      },
+      "cast": [
+        {
+          "character": "猫耳修女",
+          "prefer_transparent": true
+        }
+      ],
+      "plan": {
+        "template_id": "motion-heart-pass",
+        "text": "今天也在努力营业",
+        "secondary_text": "",
+        "format": "gif",
+        "size": 256,
+        "background": "#fff3e5",
+        "font_family": "sans",
+        "font_size": 36,
+        "emblem": false
+      }
+    },
+    {
+      "id": "motion-seesaw-1",
+      "name": "跷跷板 · 奶蛋",
+      "description": "两人随板面交替抬升；可替换人物、文字及场景",
+      "category": "双人互动",
+      "selector": {
+        "character": "奶蛋",
+        "asset_id": "",
+        "prefer_transparent": true
+      },
+      "cast": [
+        {
+          "character": "肥嘟嘟",
+          "prefer_transparent": true
+        }
+      ],
+      "plan": {
+        "template_id": "motion-seesaw",
+        "text": "你先说",
+        "secondary_text": "",
+        "format": "gif",
+        "size": 256,
+        "background": "#f1f5e9",
+        "font_family": "sans",
+        "font_size": 36,
+        "emblem": false
+      }
+    },
+    {
+      "id": "motion-seesaw-2",
+      "name": "跷跷板 · 可爱大笨蛋",
+      "description": "两人随板面交替抬升；可替换人物、文字及场景",
+      "category": "双人互动",
+      "selector": {
+        "character": "猫耳修女",
+        "asset_id": "ai-nun-01",
+        "prefer_transparent": true
+      },
+      "cast": [
+        {
+          "character": "毛毛虫",
+          "prefer_transparent": true
+        }
+      ],
+      "plan": {
+        "template_id": "motion-seesaw",
+        "text": "今天也在努力营业",
+        "secondary_text": "",
+        "format": "gif",
+        "size": 256,
+        "background": "#fff3e5",
+        "font_family": "sans",
+        "font_size": 36,
+        "emblem": false
+      }
+    },
+    {
+      "id": "motion-parade-1",
+      "name": "排队入场 · 肥嘟嘟",
+      "description": "多人依次横向入场、出场；可替换人物、文字及场景",
+      "category": "多人互动",
+      "selector": {
+        "character": "肥嘟嘟",
+        "asset_id": "",
+        "prefer_transparent": true
+      },
+      "cast": [
+        {
+          "character": "Meowl",
+          "prefer_transparent": true
+        },
+        {
+          "character": "猫耳修女",
+          "prefer_transparent": true
+        },
+        {
+          "character": "毛毛虫",
+          "prefer_transparent": true
+        }
+      ],
+      "plan": {
+        "template_id": "motion-parade",
+        "text": "大家一起动起来",
+        "secondary_text": "",
+        "format": "gif",
+        "size": 256,
+        "background": "#f1f5e9",
+        "font_family": "sans",
+        "font_size": 36,
+        "emblem": false
+      }
+    },
+    {
+      "id": "motion-parade-2",
+      "name": "排队入场 · 毛毛虫",
+      "description": "多人依次横向入场、出场；可替换人物、文字及场景",
+      "category": "多人互动",
+      "selector": {
+        "character": "毛毛虫",
+        "asset_id": "ai-worm-02",
+        "prefer_transparent": true
+      },
+      "cast": [
+        {
+          "character": "奶蛙",
+          "prefer_transparent": true
+        },
+        {
+          "character": "牛来",
+          "prefer_transparent": true
+        },
+        {
+          "character": "奶龙（原版）",
+          "prefer_transparent": true
+        }
+      ],
+      "plan": {
+        "template_id": "motion-parade",
+        "text": "今天也在努力营业",
+        "secondary_text": "",
+        "format": "gif",
+        "size": 256,
+        "background": "#fff3e5",
+        "font_family": "sans",
+        "font_size": 36,
+        "emblem": false
+      }
+    },
+    {
+      "id": "motion-group-orbit-1",
+      "name": "环形巡游 · Meowl",
+      "description": "多人沿椭圆前后巡游；可替换人物、文字及场景",
+      "category": "多人互动",
+      "selector": {
+        "character": "Meowl",
+        "asset_id": "",
+        "prefer_transparent": true
+      },
+      "cast": [
+        {
+          "character": "猫耳修女",
+          "prefer_transparent": true
+        },
+        {
+          "character": "毛毛虫",
+          "prefer_transparent": true
+        },
+        {
+          "character": "奶蛙",
+          "prefer_transparent": true
+        }
+      ],
+      "plan": {
+        "template_id": "motion-group-orbit",
+        "text": "大家一起动起来",
+        "secondary_text": "",
+        "format": "gif",
+        "size": 256,
+        "background": "#f1f5e9",
+        "font_family": "sans",
+        "font_size": 36,
+        "emblem": false
+      }
+    },
+    {
+      "id": "motion-group-orbit-2",
+      "name": "环形巡游 · 奶蛙",
+      "description": "多人沿椭圆前后巡游；可替换人物、文字及场景",
+      "category": "多人互动",
+      "selector": {
+        "character": "奶蛙",
+        "asset_id": "",
+        "prefer_transparent": true
+      },
+      "cast": [
+        {
+          "character": "牛来",
+          "prefer_transparent": true
+        },
+        {
+          "character": "奶龙（原版）",
+          "prefer_transparent": true
+        },
+        {
+          "character": "奶蛋",
+          "prefer_transparent": true
+        }
+      ],
+      "plan": {
+        "template_id": "motion-group-orbit",
+        "text": "今天也在努力营业",
+        "secondary_text": "",
+        "format": "gif",
+        "size": 256,
+        "background": "#fff3e5",
+        "font_family": "sans",
+        "font_size": 36,
+        "emblem": false
+      }
+    },
+    {
+      "id": "motion-elevator-1",
+      "name": "电梯上下 · 可爱大笨蛋",
+      "description": "两组人物随窗口交替升降；可替换人物、文字及场景",
+      "category": "多人互动",
+      "selector": {
+        "character": "猫耳修女",
+        "asset_id": "ai-nun-01",
+        "prefer_transparent": true
+      },
+      "cast": [
+        {
+          "character": "毛毛虫",
+          "prefer_transparent": true
+        },
+        {
+          "character": "奶蛙",
+          "prefer_transparent": true
+        },
+        {
+          "character": "牛来",
+          "prefer_transparent": true
+        }
+      ],
+      "plan": {
+        "template_id": "motion-elevator",
+        "text": "大家一起动起来",
+        "secondary_text": "",
+        "format": "gif",
+        "size": 256,
+        "background": "#f1f5e9",
+        "font_family": "sans",
+        "font_size": 36,
+        "emblem": false
+      }
+    },
+    {
+      "id": "motion-elevator-2",
+      "name": "电梯上下 · 牛来",
+      "description": "两组人物随窗口交替升降；可替换人物、文字及场景",
+      "category": "多人互动",
+      "selector": {
+        "character": "牛来",
+        "asset_id": "",
+        "prefer_transparent": true
+      },
+      "cast": [
+        {
+          "character": "奶龙（原版）",
+          "prefer_transparent": true
+        },
+        {
+          "character": "奶蛋",
+          "prefer_transparent": true
+        },
+        {
+          "character": "肥嘟嘟",
+          "prefer_transparent": true
+        }
+      ],
+      "plan": {
+        "template_id": "motion-elevator",
+        "text": "今天也在努力营业",
+        "secondary_text": "",
+        "format": "gif",
+        "size": 256,
+        "background": "#fff3e5",
+        "font_family": "sans",
+        "font_size": 36,
+        "emblem": false
+      }
+    },
+    {
+      "id": "motion-race-1",
+      "name": "跑马接力 · 毛毛虫",
+      "description": "每人完成一段路后交给下一人；可替换人物、文字及场景",
+      "category": "多人互动",
+      "selector": {
+        "character": "毛毛虫",
+        "asset_id": "ai-worm-02",
+        "prefer_transparent": true
+      },
+      "cast": [
+        {
+          "character": "奶蛙",
+          "prefer_transparent": true
+        },
+        {
+          "character": "牛来",
+          "prefer_transparent": true
+        },
+        {
+          "character": "奶龙（原版）",
+          "prefer_transparent": true
+        }
+      ],
+      "plan": {
+        "template_id": "motion-race",
+        "text": "大家一起动起来",
+        "secondary_text": "",
+        "format": "gif",
+        "size": 256,
+        "background": "#f1f5e9",
+        "font_family": "sans",
+        "font_size": 36,
+        "emblem": false
+      }
+    },
+    {
+      "id": "motion-race-2",
+      "name": "跑马接力 · 奶龙（原版）",
+      "description": "每人完成一段路后交给下一人；可替换人物、文字及场景",
+      "category": "多人互动",
+      "selector": {
+        "character": "奶龙（原版）",
+        "asset_id": "",
+        "prefer_transparent": true
+      },
+      "cast": [
+        {
+          "character": "奶蛋",
+          "prefer_transparent": true
+        },
+        {
+          "character": "肥嘟嘟",
+          "prefer_transparent": true
+        },
+        {
+          "character": "Meowl",
+          "prefer_transparent": true
+        }
+      ],
+      "plan": {
+        "template_id": "motion-race",
+        "text": "今天也在努力营业",
+        "secondary_text": "",
+        "format": "gif",
+        "size": 256,
+        "background": "#fff3e5",
+        "font_family": "sans",
+        "font_size": 36,
+        "emblem": false
+      }
+    },
+    {
+      "id": "motion-wave-1",
+      "name": "接力蹦跳 · 奶蛙",
+      "description": "按人物顺序依次起跳；可替换人物、文字及场景",
+      "category": "多人互动",
+      "selector": {
+        "character": "奶蛙",
+        "asset_id": "",
+        "prefer_transparent": true
+      },
+      "cast": [
+        {
+          "character": "牛来",
+          "prefer_transparent": true
+        },
+        {
+          "character": "奶龙（原版）",
+          "prefer_transparent": true
+        },
+        {
+          "character": "奶蛋",
+          "prefer_transparent": true
+        }
+      ],
+      "plan": {
+        "template_id": "motion-wave",
+        "text": "大家一起动起来",
+        "secondary_text": "",
+        "format": "gif",
+        "size": 256,
+        "background": "#f1f5e9",
+        "font_family": "sans",
+        "font_size": 36,
+        "emblem": false
+      }
+    },
+    {
+      "id": "motion-wave-2",
+      "name": "接力蹦跳 · 奶蛋",
+      "description": "按人物顺序依次起跳；可替换人物、文字及场景",
+      "category": "多人互动",
+      "selector": {
+        "character": "奶蛋",
+        "asset_id": "",
+        "prefer_transparent": true
+      },
+      "cast": [
+        {
+          "character": "肥嘟嘟",
+          "prefer_transparent": true
+        },
+        {
+          "character": "Meowl",
+          "prefer_transparent": true
+        },
+        {
+          "character": "猫耳修女",
+          "prefer_transparent": true
+        }
+      ],
+      "plan": {
+        "template_id": "motion-wave",
+        "text": "今天也在努力营业",
+        "secondary_text": "",
+        "format": "gif",
+        "size": 256,
+        "background": "#fff3e5",
+        "font_family": "sans",
+        "font_size": 36,
+        "emblem": false
+      }
+    },
+    {
+      "id": "motion-team-clap-1",
+      "name": "两队对拍 · 牛来",
+      "description": "两组人物交替向中心靠近；可替换人物、文字及场景",
+      "category": "多人互动",
+      "selector": {
+        "character": "牛来",
+        "asset_id": "",
+        "prefer_transparent": true
+      },
+      "cast": [
+        {
+          "character": "奶龙（原版）",
+          "prefer_transparent": true
+        },
+        {
+          "character": "奶蛋",
+          "prefer_transparent": true
+        },
+        {
+          "character": "肥嘟嘟",
+          "prefer_transparent": true
+        }
+      ],
+      "plan": {
+        "template_id": "motion-team-clap",
+        "text": "大家一起动起来",
+        "secondary_text": "",
+        "format": "gif",
+        "size": 256,
+        "background": "#f1f5e9",
+        "font_family": "sans",
+        "font_size": 36,
+        "emblem": false
+      }
+    },
+    {
+      "id": "motion-team-clap-2",
+      "name": "两队对拍 · 肥嘟嘟",
+      "description": "两组人物交替向中心靠近；可替换人物、文字及场景",
+      "category": "多人互动",
+      "selector": {
+        "character": "肥嘟嘟",
+        "asset_id": "",
+        "prefer_transparent": true
+      },
+      "cast": [
+        {
+          "character": "Meowl",
+          "prefer_transparent": true
+        },
+        {
+          "character": "猫耳修女",
+          "prefer_transparent": true
+        },
+        {
+          "character": "毛毛虫",
+          "prefer_transparent": true
+        }
+      ],
+      "plan": {
+        "template_id": "motion-team-clap",
+        "text": "今天也在努力营业",
+        "secondary_text": "",
+        "format": "gif",
+        "size": 256,
+        "background": "#fff3e5",
+        "font_family": "sans",
+        "font_size": 36,
+        "emblem": false
+      }
+    },
+    {
+      "id": "motion-leader-1",
+      "name": "领舞回应 · 奶龙（原版）",
+      "description": "中心人物领舞、其他人延迟回应；可替换人物、文字及场景",
+      "category": "多人互动",
+      "selector": {
+        "character": "奶龙（原版）",
+        "asset_id": "",
+        "prefer_transparent": true
+      },
+      "cast": [
+        {
+          "character": "奶蛋",
+          "prefer_transparent": true
+        },
+        {
+          "character": "肥嘟嘟",
+          "prefer_transparent": true
+        },
+        {
+          "character": "Meowl",
+          "prefer_transparent": true
+        }
+      ],
+      "plan": {
+        "template_id": "motion-leader",
+        "text": "大家一起动起来",
+        "secondary_text": "",
+        "format": "gif",
+        "size": 256,
+        "background": "#f1f5e9",
+        "font_family": "sans",
+        "font_size": 36,
+        "emblem": false
+      }
+    },
+    {
+      "id": "motion-leader-2",
+      "name": "领舞回应 · Meowl",
+      "description": "中心人物领舞、其他人延迟回应；可替换人物、文字及场景",
+      "category": "多人互动",
+      "selector": {
+        "character": "Meowl",
+        "asset_id": "",
+        "prefer_transparent": true
+      },
+      "cast": [
+        {
+          "character": "猫耳修女",
+          "prefer_transparent": true
+        },
+        {
+          "character": "毛毛虫",
+          "prefer_transparent": true
+        },
+        {
+          "character": "奶蛙",
+          "prefer_transparent": true
+        }
+      ],
+      "plan": {
+        "template_id": "motion-leader",
+        "text": "今天也在努力营业",
+        "secondary_text": "",
+        "format": "gif",
+        "size": 256,
+        "background": "#fff3e5",
+        "font_family": "sans",
+        "font_size": 36,
+        "emblem": false
+      }
+    },
+    {
+      "id": "motion-ripple-1",
+      "name": "多排涟漪 · 奶蛋",
+      "description": "动作由首排传递到最后一排；可替换人物、文字及场景",
+      "category": "多人互动",
+      "selector": {
+        "character": "奶蛋",
+        "asset_id": "",
+        "prefer_transparent": true
+      },
+      "cast": [
+        {
+          "character": "肥嘟嘟",
+          "prefer_transparent": true
+        },
+        {
+          "character": "Meowl",
+          "prefer_transparent": true
+        },
+        {
+          "character": "猫耳修女",
+          "prefer_transparent": true
+        }
+      ],
+      "plan": {
+        "template_id": "motion-ripple",
+        "text": "大家一起动起来",
+        "secondary_text": "",
+        "format": "gif",
+        "size": 256,
+        "background": "#f1f5e9",
+        "font_family": "sans",
+        "font_size": 36,
+        "emblem": false
+      }
+    },
+    {
+      "id": "motion-ripple-2",
+      "name": "多排涟漪 · 可爱大笨蛋",
+      "description": "动作由首排传递到最后一排；可替换人物、文字及场景",
+      "category": "多人互动",
+      "selector": {
+        "character": "猫耳修女",
+        "asset_id": "ai-nun-01",
+        "prefer_transparent": true
+      },
+      "cast": [
+        {
+          "character": "毛毛虫",
+          "prefer_transparent": true
+        },
+        {
+          "character": "奶蛙",
+          "prefer_transparent": true
+        },
+        {
+          "character": "牛来",
+          "prefer_transparent": true
+        }
+      ],
+      "plan": {
+        "template_id": "motion-ripple",
+        "text": "今天也在努力营业",
+        "secondary_text": "",
+        "format": "gif",
+        "size": 256,
+        "background": "#fff3e5",
+        "font_family": "sans",
+        "font_size": 36,
+        "emblem": false
+      }
+    },
+    {
+      "id": "motion-gather-1",
+      "name": "中心集合 · 肥嘟嘟",
+      "description": "外围人物向中心聚拢再归位；可替换人物、文字及场景",
+      "category": "多人互动",
+      "selector": {
+        "character": "肥嘟嘟",
+        "asset_id": "",
+        "prefer_transparent": true
+      },
+      "cast": [
+        {
+          "character": "Meowl",
+          "prefer_transparent": true
+        },
+        {
+          "character": "猫耳修女",
+          "prefer_transparent": true
+        },
+        {
+          "character": "毛毛虫",
+          "prefer_transparent": true
+        }
+      ],
+      "plan": {
+        "template_id": "motion-gather",
+        "text": "大家一起动起来",
+        "secondary_text": "",
+        "format": "gif",
+        "size": 256,
+        "background": "#f1f5e9",
+        "font_family": "sans",
+        "font_size": 36,
+        "emblem": false
+      }
+    },
+    {
+      "id": "motion-gather-2",
+      "name": "中心集合 · 毛毛虫",
+      "description": "外围人物向中心聚拢再归位；可替换人物、文字及场景",
+      "category": "多人互动",
+      "selector": {
+        "character": "毛毛虫",
+        "asset_id": "ai-worm-02",
+        "prefer_transparent": true
+      },
+      "cast": [
+        {
+          "character": "奶蛙",
+          "prefer_transparent": true
+        },
+        {
+          "character": "牛来",
+          "prefer_transparent": true
+        },
+        {
+          "character": "奶龙（原版）",
+          "prefer_transparent": true
+        }
+      ],
+      "plan": {
+        "template_id": "motion-gather",
+        "text": "今天也在努力营业",
+        "secondary_text": "",
+        "format": "gif",
+        "size": 256,
+        "background": "#fff3e5",
+        "font_family": "sans",
+        "font_size": 36,
+        "emblem": false
+      }
+    },
+    {
+      "id": "motion-spread-1",
+      "name": "散开亮相 · Meowl",
+      "description": "由中心散开到各自站位；可替换人物、文字及场景",
+      "category": "多人互动",
+      "selector": {
+        "character": "Meowl",
+        "asset_id": "",
+        "prefer_transparent": true
+      },
+      "cast": [
+        {
+          "character": "猫耳修女",
+          "prefer_transparent": true
+        },
+        {
+          "character": "毛毛虫",
+          "prefer_transparent": true
+        },
+        {
+          "character": "奶蛙",
+          "prefer_transparent": true
+        }
+      ],
+      "plan": {
+        "template_id": "motion-spread",
+        "text": "大家一起动起来",
+        "secondary_text": "",
+        "format": "gif",
+        "size": 256,
+        "background": "#f1f5e9",
+        "font_family": "sans",
+        "font_size": 36,
+        "emblem": false
+      }
+    },
+    {
+      "id": "motion-spread-2",
+      "name": "散开亮相 · 奶蛙",
+      "description": "由中心散开到各自站位；可替换人物、文字及场景",
+      "category": "多人互动",
+      "selector": {
+        "character": "奶蛙",
+        "asset_id": "",
+        "prefer_transparent": true
+      },
+      "cast": [
+        {
+          "character": "牛来",
+          "prefer_transparent": true
+        },
+        {
+          "character": "奶龙（原版）",
+          "prefer_transparent": true
+        },
+        {
+          "character": "奶蛋",
+          "prefer_transparent": true
+        }
+      ],
+      "plan": {
+        "template_id": "motion-spread",
+        "text": "今天也在努力营业",
+        "secondary_text": "",
+        "format": "gif",
+        "size": 256,
+        "background": "#fff3e5",
+        "font_family": "sans",
+        "font_size": 36,
+        "emblem": false
+      }
+    },
+    {
+      "id": "motion-boards-1",
+      "name": "轮流举牌 · 可爱大笨蛋",
+      "description": "人物依次展示短句牌；可替换人物、文字及场景",
+      "category": "多人互动",
+      "selector": {
+        "character": "猫耳修女",
+        "asset_id": "ai-nun-01",
+        "prefer_transparent": true
+      },
+      "cast": [
+        {
+          "character": "毛毛虫",
+          "prefer_transparent": true
+        },
+        {
+          "character": "奶蛙",
+          "prefer_transparent": true
+        },
+        {
+          "character": "牛来",
+          "prefer_transparent": true
+        }
+      ],
+      "plan": {
+        "template_id": "motion-boards",
+        "text": "大家一起动起来",
+        "secondary_text": "",
+        "format": "gif",
+        "size": 256,
+        "background": "#f1f5e9",
+        "font_family": "sans",
+        "font_size": 36,
+        "emblem": false
+      }
+    },
+    {
+      "id": "motion-boards-2",
+      "name": "轮流举牌 · 北京大学",
+      "description": "人物依次展示短句牌；可替换人物、文字及场景",
+      "category": "多人互动",
+      "selector": {
+        "character": "北京大学",
+        "asset_id": "",
+        "prefer_transparent": true
+      },
+      "cast": [
+        {
+          "character": "奶龙（原版）",
+          "prefer_transparent": true
+        },
+        {
+          "character": "奶蛋",
+          "prefer_transparent": true
+        },
+        {
+          "character": "肥嘟嘟",
+          "prefer_transparent": true
+        }
+      ],
+      "plan": {
+        "template_id": "motion-boards",
+        "text": "今天也在努力营业",
+        "secondary_text": "",
+        "format": "gif",
+        "size": 256,
+        "background": "#fff3e5",
+        "font_family": "sans",
+        "font_size": 36,
+        "emblem": false
+      }
+    },
+    {
+      "id": "motion-countdown-1",
+      "name": "合影倒数 · 毛毛虫",
+      "description": "倒数后同步起跳并定格停留；可替换人物、文字及场景",
+      "category": "多人互动",
+      "selector": {
+        "character": "毛毛虫",
+        "asset_id": "ai-worm-02",
+        "prefer_transparent": true
+      },
+      "cast": [
+        {
+          "character": "奶蛙",
+          "prefer_transparent": true
+        },
+        {
+          "character": "牛来",
+          "prefer_transparent": true
+        },
+        {
+          "character": "奶龙（原版）",
+          "prefer_transparent": true
+        }
+      ],
+      "plan": {
+        "template_id": "motion-countdown",
+        "text": "大家一起动起来",
+        "secondary_text": "",
+        "format": "gif",
+        "size": 256,
+        "background": "#f1f5e9",
+        "font_family": "sans",
+        "font_size": 36,
+        "emblem": false
+      }
+    },
+    {
+      "id": "motion-countdown-2",
+      "name": "合影倒数 · 奶龙（原版）",
+      "description": "倒数后同步起跳并定格停留；可替换人物、文字及场景",
+      "category": "多人互动",
+      "selector": {
+        "character": "奶龙（原版）",
+        "asset_id": "",
+        "prefer_transparent": true
+      },
+      "cast": [
+        {
+          "character": "奶蛋",
+          "prefer_transparent": true
+        },
+        {
+          "character": "肥嘟嘟",
+          "prefer_transparent": true
+        },
+        {
+          "character": "Meowl",
+          "prefer_transparent": true
+        }
+      ],
+      "plan": {
+        "template_id": "motion-countdown",
+        "text": "今天也在努力营业",
+        "secondary_text": "",
+        "format": "gif",
+        "size": 256,
+        "background": "#fff3e5",
+        "font_family": "sans",
+        "font_size": 36,
+        "emblem": false
+      }
+    }
+  ]
+}

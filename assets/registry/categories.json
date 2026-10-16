@@ -1,0 +1,166 @@
+{
+  "schema_version": 1,
+  "categories": [
+    {
+      "id": "classic",
+      "name": "经典排版",
+      "order": 0
+    },
+    {
+      "id": "classic-caption",
+      "name": "配字与卡片",
+      "parent_id": "classic",
+      "order": 0
+    },
+    {
+      "id": "classic-composition",
+      "name": "趣味构图",
+      "parent_id": "classic",
+      "order": 1
+    },
+    {
+      "id": "classic-cast",
+      "name": "人物同框",
+      "parent_id": "classic",
+      "order": 2
+    },
+    {
+      "id": "reaction",
+      "name": "单人反应",
+      "order": 1
+    },
+    {
+      "id": "reaction-elastic",
+      "name": "弹性反应",
+      "parent_id": "reaction",
+      "order": 0
+    },
+    {
+      "id": "reaction-emotion",
+      "name": "情绪反应",
+      "parent_id": "reaction",
+      "order": 1
+    },
+    {
+      "id": "reaction-rhythm",
+      "name": "节奏动作",
+      "parent_id": "reaction",
+      "order": 2
+    },
+    {
+      "id": "entrance",
+      "name": "出入画面",
+      "order": 2
+    },
+    {
+      "id": "entrance-peek",
+      "name": "偷偷出现",
+      "parent_id": "entrance",
+      "order": 0
+    },
+    {
+      "id": "entrance-arrival",
+      "name": "高调登场",
+      "parent_id": "entrance",
+      "order": 1
+    },
+    {
+      "id": "entrance-exit",
+      "name": "花式离场",
+      "parent_id": "entrance",
+      "order": 2
+    },
+    {
+      "id": "clones",
+      "name": "分身阵列",
+      "order": 3
+    },
+    {
+      "id": "clones-echo",
+      "name": "残影回声",
+      "parent_id": "clones",
+      "order": 0
+    },
+    {
+      "id": "clones-orbit",
+      "name": "环绕轨迹",
+      "parent_id": "clones",
+      "order": 1
+    },
+    {
+      "id": "clones-formation",
+      "name": "阵列变化",
+      "parent_id": "clones",
+      "order": 2
+    },
+    {
+      "id": "props",
+      "name": "道具氛围",
+      "order": 4
+    },
+    {
+      "id": "props-touch",
+      "name": "亲密互动",
+      "parent_id": "props",
+      "order": 0
+    },
+    {
+      "id": "props-celebration",
+      "name": "庆祝表达",
+      "parent_id": "props",
+      "order": 1
+    },
+    {
+      "id": "props-symbols",
+      "name": "状态符号",
+      "parent_id": "props",
+      "order": 2
+    },
+    {
+      "id": "duo",
+      "name": "双人互动",
+      "order": 5
+    },
+    {
+      "id": "duo-speech",
+      "name": "对话节奏",
+      "parent_id": "duo",
+      "order": 0
+    },
+    {
+      "id": "duo-contact",
+      "name": "靠近碰撞",
+      "parent_id": "duo",
+      "order": 1
+    },
+    {
+      "id": "duo-play",
+      "name": "合作玩闹",
+      "parent_id": "duo",
+      "order": 2
+    },
+    {
+      "id": "ensemble",
+      "name": "多人互动",
+      "order": 6
+    },
+    {
+      "id": "ensemble-parade",
+      "name": "队列行进",
+      "parent_id": "ensemble",
+      "order": 0
+    },
+    {
+      "id": "ensemble-team-rhythm",
+      "name": "集体节奏",
+      "parent_id": "ensemble",
+      "order": 1
+    },
+    {
+      "id": "ensemble-reveal",
+      "name": "集合亮相",
+      "parent_id": "ensemble",
+      "order": 2
+    }
+  ]
+}

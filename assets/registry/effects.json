@@ -1,0 +1,50 @@
+{
+  "schema_version": 1,
+  "effects": [
+    {
+      "id": "shake",
+      "name": "小幅抖动",
+      "handler": "shake"
+    },
+    {
+      "id": "breathe",
+      "name": "呼吸缩放",
+      "handler": "breathe"
+    },
+    {
+      "id": "bounce",
+      "name": "上下弹跳",
+      "handler": "bounce"
+    },
+    {
+      "id": "typewriter",
+      "name": "逐字出现",
+      "handler": "typewriter"
+    },
+    {
+      "id": "stretch",
+      "name": "上下伸缩",
+      "handler": "stretch"
+    },
+    {
+      "id": "rotate",
+      "name": "摇摆旋转",
+      "handler": "rotate"
+    },
+    {
+      "id": "move",
+      "name": "来回移动",
+      "handler": "move"
+    },
+    {
+      "id": "wave_copy",
+      "name": "复制波浪",
+      "handler": "wave_copy"
+    },
+    {
+      "id": "spin",
+      "name": "整圈旋转",
+      "handler": "spin"
+    }
+  ]
+}

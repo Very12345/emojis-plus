@@ -1,0 +1,805 @@
+{
+  "schema_version": 1,
+  "captions": [
+    {
+      "id": "campus-01",
+      "category": "校园日常",
+      "text": "人到教室了，灵魂还在床上",
+      "secondary_text": "",
+      "tags": [
+        "校园日常",
+        "短句"
+      ]
+    },
+    {
+      "id": "campus-02",
+      "category": "校园日常",
+      "text": "学校的通知，比我的闹钟还突然",
+      "secondary_text": "",
+      "tags": [
+        "校园日常",
+        "短句"
+      ]
+    },
+    {
+      "id": "campus-03",
+      "category": "校园日常",
+      "text": "课表很满，脑袋很空",
+      "secondary_text": "",
+      "tags": [
+        "校园日常",
+        "短句"
+      ]
+    },
+    {
+      "id": "campus-04",
+      "category": "校园日常",
+      "text": "已到场，未开机",
+      "secondary_text": "",
+      "tags": [
+        "校园日常",
+        "短句"
+      ]
+    },
+    {
+      "id": "campus-05",
+      "category": "校园日常",
+      "text": "这课我来了，懂没懂另说",
+      "secondary_text": "",
+      "tags": [
+        "校园日常",
+        "短句"
+      ]
+    },
+    {
+      "id": "campus-06",
+      "category": "校园日常",
+      "text": "选课结果：与心仪课程擦肩而过",
+      "secondary_text": "",
+      "tags": [
+        "校园日常",
+        "短句"
+      ]
+    },
+    {
+      "id": "campus-07",
+      "category": "校园日常",
+      "text": "食堂排队的我，已经饿成了风景",
+      "secondary_text": "",
+      "tags": [
+        "校园日常",
+        "短句"
+      ]
+    },
+    {
+      "id": "campus-08",
+      "category": "校园日常",
+      "text": "今天的运动量：从宿舍赶到教室",
+      "secondary_text": "",
+      "tags": [
+        "校园日常",
+        "短句"
+      ]
+    },
+    {
+      "id": "campus-09",
+      "category": "校园日常",
+      "text": "通知看完了，沉默留给自己",
+      "secondary_text": "",
+      "tags": [
+        "校园日常",
+        "短句"
+      ]
+    },
+    {
+      "id": "campus-10",
+      "category": "校园日常",
+      "text": "我：终于空一天了",
+      "secondary_text": "新通知：你先别急",
+      "tags": [
+        "校园日常",
+        "双句反差"
+      ]
+    },
+    {
+      "id": "exam-01",
+      "category": "考试作业",
+      "text": "老师，捞一下，真的就一下",
+      "secondary_text": "",
+      "tags": [
+        "考试作业",
+        "短句"
+      ]
+    },
+    {
+      "id": "exam-02",
+      "category": "考试作业",
+      "text": "复习进度：已打开资料",
+      "secondary_text": "",
+      "tags": [
+        "考试作业",
+        "短句"
+      ]
+    },
+    {
+      "id": "exam-03",
+      "category": "考试作业",
+      "text": "题目认识我，我不认识题目",
+      "secondary_text": "",
+      "tags": [
+        "考试作业",
+        "短句"
+      ]
+    },
+    {
+      "id": "exam-04",
+      "category": "考试作业",
+      "text": "先写个解，表示我来过",
+      "secondary_text": "",
+      "tags": [
+        "考试作业",
+        "短句"
+      ]
+    },
+    {
+      "id": "exam-05",
+      "category": "考试作业",
+      "text": "我会的没考，考的没会",
+      "secondary_text": "",
+      "tags": [
+        "考试作业",
+        "短句"
+      ]
+    },
+    {
+      "id": "exam-06",
+      "category": "考试作业",
+      "text": "提交成功，生死有命",
+      "secondary_text": "",
+      "tags": [
+        "考试作业",
+        "短句"
+      ]
+    },
+    {
+      "id": "exam-07",
+      "category": "考试作业",
+      "text": "作业：你今晚别想睡了",
+      "secondary_text": "",
+      "tags": [
+        "考试作业",
+        "短句"
+      ]
+    },
+    {
+      "id": "exam-08",
+      "category": "考试作业",
+      "text": "知识正在以一种很新的方式绕过我",
+      "secondary_text": "",
+      "tags": [
+        "考试作业",
+        "短句"
+      ]
+    },
+    {
+      "id": "exam-09",
+      "category": "考试作业",
+      "text": "考前：问题不大",
+      "secondary_text": "考后：问题不小",
+      "tags": [
+        "考试作业",
+        "双句反差"
+      ]
+    },
+    {
+      "id": "exam-10",
+      "category": "考试作业",
+      "text": "DDL 在追，我在逃，谁也别想睡个好觉",
+      "secondary_text": "",
+      "tags": [
+        "考试作业",
+        "短句"
+      ]
+    },
+    {
+      "id": "code-01",
+      "category": "写码科研",
+      "text": "能跑就行，先别问为什么",
+      "secondary_text": "",
+      "tags": [
+        "写码科研",
+        "短句"
+      ]
+    },
+    {
+      "id": "code-02",
+      "category": "写码科研",
+      "text": "刚才还好好的",
+      "secondary_text": "",
+      "tags": [
+        "写码科研",
+        "短句"
+      ]
+    },
+    {
+      "id": "code-03",
+      "category": "写码科研",
+      "text": "改了一个 bug，又来了三个",
+      "secondary_text": "",
+      "tags": [
+        "写码科研",
+        "短句"
+      ]
+    },
+    {
+      "id": "code-04",
+      "category": "写码科研",
+      "text": "不是我不努力，是环境没配好",
+      "secondary_text": "",
+      "tags": [
+        "写码科研",
+        "短句"
+      ]
+    },
+    {
+      "id": "code-05",
+      "category": "写码科研",
+      "text": "运行成功，容我先笑一会儿",
+      "secondary_text": "",
+      "tags": [
+        "写码科研",
+        "短句"
+      ]
+    },
+    {
+      "id": "code-06",
+      "category": "写码科研",
+      "text": "这段代码和我，至少有一个需要休息",
+      "secondary_text": "",
+      "tags": [
+        "写码科研",
+        "短句"
+      ]
+    },
+    {
+      "id": "code-07",
+      "category": "写码科研",
+      "text": "实验结果很稳定：稳定地不对",
+      "secondary_text": "",
+      "tags": [
+        "写码科研",
+        "短句"
+      ]
+    },
+    {
+      "id": "code-08",
+      "category": "写码科研",
+      "text": "我以为是小修一下",
+      "secondary_text": "结果是重写一遍",
+      "tags": [
+        "写码科研",
+        "双句反差"
+      ]
+    },
+    {
+      "id": "code-09",
+      "category": "写码科研",
+      "text": "日志翻到底，快乐归零",
+      "secondary_text": "",
+      "tags": [
+        "写码科研",
+        "短句"
+      ]
+    },
+    {
+      "id": "code-10",
+      "category": "写码科研",
+      "text": "代码没报错，我开始害怕了",
+      "secondary_text": "",
+      "tags": [
+        "写码科研",
+        "短句"
+      ]
+    },
+    {
+      "id": "social-01",
+      "category": "聊天接话",
+      "text": "收到，脑子稍后处理",
+      "secondary_text": "",
+      "tags": [
+        "聊天接话",
+        "短句"
+      ]
+    },
+    {
+      "id": "social-02",
+      "category": "聊天接话",
+      "text": "你先说，我先震惊一下",
+      "secondary_text": "",
+      "tags": [
+        "聊天接话",
+        "短句"
+      ]
+    },
+    {
+      "id": "social-03",
+      "category": "聊天接话",
+      "text": "有道理，但我还想嘴硬一下",
+      "secondary_text": "",
+      "tags": [
+        "聊天接话",
+        "短句"
+      ]
+    },
+    {
+      "id": "social-04",
+      "category": "聊天接话",
+      "text": "让我组织一下撤回的语言",
+      "secondary_text": "",
+      "tags": [
+        "聊天接话",
+        "短句"
+      ]
+    },
+    {
+      "id": "social-05",
+      "category": "聊天接话",
+      "text": "表面点头，内心加载",
+      "secondary_text": "",
+      "tags": [
+        "聊天接话",
+        "短句"
+      ]
+    },
+    {
+      "id": "social-06",
+      "category": "聊天接话",
+      "text": "你这话让我很难接，但我努力",
+      "secondary_text": "",
+      "tags": [
+        "聊天接话",
+        "短句"
+      ]
+    },
+    {
+      "id": "social-07",
+      "category": "聊天接话",
+      "text": "不是不回，是正在想怎么回",
+      "secondary_text": "",
+      "tags": [
+        "聊天接话",
+        "短句"
+      ]
+    },
+    {
+      "id": "social-08",
+      "category": "聊天接话",
+      "text": "好的，已加入我的假装没听见清单",
+      "secondary_text": "",
+      "tags": [
+        "聊天接话",
+        "短句"
+      ]
+    },
+    {
+      "id": "social-09",
+      "category": "聊天接话",
+      "text": "你：这很简单",
+      "secondary_text": "我：原来问题出在我",
+      "tags": [
+        "聊天接话",
+        "双句反差"
+      ]
+    },
+    {
+      "id": "social-10",
+      "category": "聊天接话",
+      "text": "请允许我安静地围观一下",
+      "secondary_text": "",
+      "tags": [
+        "聊天接话",
+        "短句"
+      ]
+    },
+    {
+      "id": "rest-01",
+      "category": "困了累了",
+      "text": "先躺五分钟，五分钟后再说",
+      "secondary_text": "",
+      "tags": [
+        "困了累了",
+        "短句"
+      ]
+    },
+    {
+      "id": "rest-02",
+      "category": "困了累了",
+      "text": "今日电量不足，请轻拿轻放",
+      "secondary_text": "",
+      "tags": [
+        "困了累了",
+        "短句"
+      ]
+    },
+    {
+      "id": "rest-03",
+      "category": "困了累了",
+      "text": "人在工位，心在放假",
+      "secondary_text": "",
+      "tags": [
+        "困了累了",
+        "短句"
+      ]
+    },
+    {
+      "id": "rest-04",
+      "category": "困了累了",
+      "text": "别叫了，我已经在缓冲了",
+      "secondary_text": "",
+      "tags": [
+        "困了累了",
+        "短句"
+      ]
+    },
+    {
+      "id": "rest-05",
+      "category": "困了累了",
+      "text": "精神状态：需要重启",
+      "secondary_text": "",
+      "tags": [
+        "困了累了",
+        "短句"
+      ]
+    },
+    {
+      "id": "rest-06",
+      "category": "困了累了",
+      "text": "今天先活着，优秀明天再说",
+      "secondary_text": "",
+      "tags": [
+        "困了累了",
+        "短句"
+      ]
+    },
+    {
+      "id": "rest-07",
+      "category": "困了累了",
+      "text": "我没有摆烂，我在节能",
+      "secondary_text": "",
+      "tags": [
+        "困了累了",
+        "短句"
+      ]
+    },
+    {
+      "id": "rest-08",
+      "category": "困了累了",
+      "text": "让我安静地待会儿",
+      "secondary_text": "",
+      "tags": [
+        "困了累了",
+        "短句"
+      ]
+    },
+    {
+      "id": "rest-09",
+      "category": "困了累了",
+      "text": "计划：早睡早起",
+      "secondary_text": "实际：晚睡不起",
+      "tags": [
+        "困了累了",
+        "双句反差"
+      ]
+    },
+    {
+      "id": "rest-10",
+      "category": "困了累了",
+      "text": "我只是想下课，不是想明白人生",
+      "secondary_text": "",
+      "tags": [
+        "困了累了",
+        "短句"
+      ]
+    },
+    {
+      "id": "happy-01",
+      "category": "开心感谢",
+      "text": "好耶！这一刻值得摇两下",
+      "secondary_text": "",
+      "tags": [
+        "开心感谢",
+        "短句"
+      ]
+    },
+    {
+      "id": "happy-02",
+      "category": "开心感谢",
+      "text": "谢谢你，今天被接住了",
+      "secondary_text": "",
+      "tags": [
+        "开心感谢",
+        "短句"
+      ]
+    },
+    {
+      "id": "happy-03",
+      "category": "开心感谢",
+      "text": "事情解决了，人也活过来了",
+      "secondary_text": "",
+      "tags": [
+        "开心感谢",
+        "短句"
+      ]
+    },
+    {
+      "id": "happy-04",
+      "category": "开心感谢",
+      "text": "给你一颗不太聪明但很真诚的心",
+      "secondary_text": "",
+      "tags": [
+        "开心感谢",
+        "短句"
+      ]
+    },
+    {
+      "id": "happy-05",
+      "category": "开心感谢",
+      "text": "这不得小小庆祝一下",
+      "secondary_text": "",
+      "tags": [
+        "开心感谢",
+        "短句"
+      ]
+    },
+    {
+      "id": "happy-06",
+      "category": "开心感谢",
+      "text": "懂了，这就是被照顾的感觉",
+      "secondary_text": "",
+      "tags": [
+        "开心感谢",
+        "短句"
+      ]
+    },
+    {
+      "id": "happy-07",
+      "category": "开心感谢",
+      "text": "我宣布，今天是个好日子",
+      "secondary_text": "",
+      "tags": [
+        "开心感谢",
+        "短句"
+      ]
+    },
+    {
+      "id": "happy-08",
+      "category": "开心感谢",
+      "text": "你真好，我先感动一会儿",
+      "secondary_text": "",
+      "tags": [
+        "开心感谢",
+        "短句"
+      ]
+    },
+    {
+      "id": "happy-09",
+      "category": "开心感谢",
+      "text": "昨天：不行了",
+      "secondary_text": "今天：又行了",
+      "tags": [
+        "开心感谢",
+        "双句反差"
+      ]
+    },
+    {
+      "id": "happy-10",
+      "category": "开心感谢",
+      "text": "快乐不多，够我笑一整节课",
+      "secondary_text": "",
+      "tags": [
+        "开心感谢",
+        "短句"
+      ]
+    },
+    {
+      "id": "abstract-01",
+      "category": "抽象整活",
+      "text": "问题不大，主要是大问题",
+      "secondary_text": "",
+      "tags": [
+        "抽象整活",
+        "短句"
+      ]
+    },
+    {
+      "id": "abstract-02",
+      "category": "抽象整活",
+      "text": "看似没有办法，实际上确实没有",
+      "secondary_text": "",
+      "tags": [
+        "抽象整活",
+        "短句"
+      ]
+    },
+    {
+      "id": "abstract-03",
+      "category": "抽象整活",
+      "text": "我有自己的节奏：乱来",
+      "secondary_text": "",
+      "tags": [
+        "抽象整活",
+        "短句"
+      ]
+    },
+    {
+      "id": "abstract-04",
+      "category": "抽象整活",
+      "text": "正在进行一个意义不明的动作",
+      "secondary_text": "",
+      "tags": [
+        "抽象整活",
+        "短句"
+      ]
+    },
+    {
+      "id": "abstract-05",
+      "category": "抽象整活",
+      "text": "事已至此，先笑一下",
+      "secondary_text": "",
+      "tags": [
+        "抽象整活",
+        "短句"
+      ]
+    },
+    {
+      "id": "abstract-06",
+      "category": "抽象整活",
+      "text": "脑子没跟上，气势不能输",
+      "secondary_text": "",
+      "tags": [
+        "抽象整活",
+        "短句"
+      ]
+    },
+    {
+      "id": "abstract-07",
+      "category": "抽象整活",
+      "text": "别管，精神很美丽",
+      "secondary_text": "",
+      "tags": [
+        "抽象整活",
+        "短句"
+      ]
+    },
+    {
+      "id": "abstract-08",
+      "category": "抽象整活",
+      "text": "合理，但我决定不理解",
+      "secondary_text": "",
+      "tags": [
+        "抽象整活",
+        "短句"
+      ]
+    },
+    {
+      "id": "abstract-09",
+      "category": "抽象整活",
+      "text": "本来想整点活",
+      "secondary_text": "结果活把我整了",
+      "tags": [
+        "抽象整活",
+        "双句反差"
+      ]
+    },
+    {
+      "id": "abstract-10",
+      "category": "抽象整活",
+      "text": "我的沉默，震耳欲聋",
+      "secondary_text": "",
+      "tags": [
+        "抽象整活",
+        "短句"
+      ]
+    },
+    {
+      "id": "greeting-01",
+      "category": "招呼安慰",
+      "text": "早，愿今天少一点临时通知",
+      "secondary_text": "",
+      "tags": [
+        "招呼安慰",
+        "短句"
+      ]
+    },
+    {
+      "id": "greeting-02",
+      "category": "招呼安慰",
+      "text": "晚安，剩下的明天再说",
+      "secondary_text": "",
+      "tags": [
+        "招呼安慰",
+        "短句"
+      ]
+    },
+    {
+      "id": "greeting-03",
+      "category": "招呼安慰",
+      "text": "欢迎回来，给你留了个位置",
+      "secondary_text": "",
+      "tags": [
+        "招呼安慰",
+        "短句"
+      ]
+    },
+    {
+      "id": "greeting-04",
+      "category": "招呼安慰",
+      "text": "慢慢来，先把这一步走完",
+      "secondary_text": "",
+      "tags": [
+        "招呼安慰",
+        "短句"
+      ]
+    },
+    {
+      "id": "greeting-05",
+      "category": "招呼安慰",
+      "text": "辛苦了，今天已经做得够多了",
+      "secondary_text": "",
+      "tags": [
+        "招呼安慰",
+        "短句"
+      ]
+    },
+    {
+      "id": "greeting-06",
+      "category": "招呼安慰",
+      "text": "先吃饭，事情等会儿再烦",
+      "secondary_text": "",
+      "tags": [
+        "招呼安慰",
+        "短句"
+      ]
+    },
+    {
+      "id": "greeting-07",
+      "category": "招呼安慰",
+      "text": "没关系，我陪你一起缓一缓",
+      "secondary_text": "",
+      "tags": [
+        "招呼安慰",
+        "短句"
+      ]
+    },
+    {
+      "id": "greeting-08",
+      "category": "招呼安慰",
+      "text": "路过，给你一点点好运",
+      "secondary_text": "",
+      "tags": [
+        "招呼安慰",
+        "短句"
+      ]
+    },
+    {
+      "id": "greeting-09",
+      "category": "招呼安慰",
+      "text": "你：我是不是很差",
+      "secondary_text": "我：你只是太累了",
+      "tags": [
+        "招呼安慰",
+        "双句反差"
+      ]
+    },
+    {
+      "id": "greeting-10",
+      "category": "招呼安慰",
+      "text": "这次没做好，不代表你一直做不好",
+      "secondary_text": "",
+      "tags": [
+        "招呼安慰",
+        "短句"
+      ]
+    }
+  ]
+}

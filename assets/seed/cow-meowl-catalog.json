@@ -1,0 +1,733 @@
+[
+  {
+    "id": "web-niulai-01",
+    "name": "牛来 · 侧目无语",
+    "character": "牛来",
+    "filename": "web-other/niulai_01.png",
+    "action": "半闭眼睛，向旁边侧目",
+    "emotion": [
+      "无语",
+      "怀疑"
+    ],
+    "scenes": [
+      "离谱消息",
+      "临时改安排"
+    ],
+    "examples": [
+      "你确定？",
+      "我就静静看着你"
+    ],
+    "existing_text": "",
+    "intensity": 2,
+    "source_type": "reference",
+    "author": "待核实",
+    "source_url": "https://niulai.co/imgs/assets/niulai_01.png",
+    "source_note": "网络现成透明底图，下载自 Niulai.co 热门牛来模板区（https://niulai.co/#popular）；不同神态/动作的 3D 二创版本，未独立确认其制作方式、作者或是否电影原帧，不声称原创或已获授权。保留完整 PNG 未加工。 原文件下载地址：https://niulai.co/imgs/assets/niulai_01.png",
+    "role": "subject",
+    "is_cutout": true,
+    "templates": [
+      "top",
+      "bottom",
+      "split",
+      "frame",
+      "flower",
+      "grid",
+      "message",
+      "poster",
+      "side",
+      "polaroid",
+      "bubble",
+      "dialogue",
+      "spotlight"
+    ]
+  },
+  {
+    "id": "web-niulai-02",
+    "name": "牛来 · 歪头疑问",
+    "character": "牛来",
+    "filename": "web-other/niulai_02.png",
+    "action": "张着嘴，歪头瞪眼看人",
+    "emotion": [
+      "困惑",
+      "惊讶"
+    ],
+    "scenes": [
+      "没听懂",
+      "上课",
+      "群聊"
+    ],
+    "examples": [
+      "这个安排我没看懂",
+      "等等，什么情况"
+    ],
+    "existing_text": "",
+    "intensity": 3,
+    "source_type": "reference",
+    "author": "待核实",
+    "source_url": "https://niulai.co/imgs/assets/niulai_02.png",
+    "source_note": "网络现成透明底图，下载自 Niulai.co 热门牛来模板区（https://niulai.co/#popular）；不同神态/动作的 3D 二创版本，未独立确认其制作方式、作者或是否电影原帧，不声称原创或已获授权。保留完整 PNG 未加工。 原文件下载地址：https://niulai.co/imgs/assets/niulai_02.png",
+    "role": "subject",
+    "is_cutout": true,
+    "templates": [
+      "top",
+      "bottom",
+      "split",
+      "frame",
+      "flower",
+      "grid",
+      "message",
+      "poster",
+      "side",
+      "polaroid",
+      "bubble",
+      "dialogue",
+      "spotlight"
+    ]
+  },
+  {
+    "id": "web-niulai-04",
+    "name": "牛来 · 张嘴惊叫",
+    "character": "牛来",
+    "filename": "web-other/niulai_04.png",
+    "action": "瞪大双眼，张开嘴惊叫",
+    "emotion": [
+      "震惊",
+      "崩溃"
+    ],
+    "scenes": [
+      "截止提前",
+      "考试",
+      "突发通知"
+    ],
+    "examples": [
+      "不是，明天就交？",
+      "这消息太突然了"
+    ],
+    "existing_text": "",
+    "intensity": 5,
+    "source_type": "reference",
+    "author": "待核实",
+    "source_url": "https://niulai.co/imgs/assets/niulai_04.png",
+    "source_note": "网络现成透明底图，下载自 Niulai.co 热门牛来模板区（https://niulai.co/#popular）；不同神态/动作的 3D 二创版本，未独立确认其制作方式、作者或是否电影原帧，不声称原创或已获授权。保留完整 PNG 未加工。 原文件下载地址：https://niulai.co/imgs/assets/niulai_04.png",
+    "role": "subject",
+    "is_cutout": true,
+    "templates": [
+      "top",
+      "bottom",
+      "split",
+      "frame",
+      "flower",
+      "grid",
+      "message",
+      "poster",
+      "side",
+      "polaroid",
+      "bubble",
+      "dialogue",
+      "spotlight"
+    ]
+  },
+  {
+    "id": "web-niulai-05",
+    "name": "牛来 · 抬头嫌弃",
+    "character": "牛来",
+    "filename": "web-other/niulai_05.png",
+    "action": "扬起下巴，眯眼看向侧前方",
+    "emotion": [
+      "嫌弃",
+      "不屑"
+    ],
+    "scenes": [
+      "吐槽",
+      "群聊",
+      "阴阳怪气"
+    ],
+    "examples": [
+      "行，你说得都对",
+      "我保留一点意见"
+    ],
+    "existing_text": "",
+    "intensity": 2,
+    "source_type": "reference",
+    "author": "待核实",
+    "source_url": "https://niulai.co/imgs/assets/niulai_05.png",
+    "source_note": "网络现成透明底图，下载自 Niulai.co 热门牛来模板区（https://niulai.co/#popular）；不同神态/动作的 3D 二创版本，未独立确认其制作方式、作者或是否电影原帧，不声称原创或已获授权。保留完整 PNG 未加工。 原文件下载地址：https://niulai.co/imgs/assets/niulai_05.png",
+    "role": "subject",
+    "is_cutout": true,
+    "templates": [
+      "top",
+      "bottom",
+      "split",
+      "frame",
+      "flower",
+      "grid",
+      "message",
+      "poster",
+      "side",
+      "polaroid",
+      "bubble",
+      "dialogue",
+      "spotlight"
+    ]
+  },
+  {
+    "id": "web-niulai-06",
+    "name": "牛来 · 瞪眼发愣",
+    "character": "牛来",
+    "filename": "web-other/niulai_06.png",
+    "action": "正面对镜头，瞪眼抿嘴",
+    "emotion": [
+      "迷茫",
+      "困惑"
+    ],
+    "scenes": [
+      "早八",
+      "发呆",
+      "等通知"
+    ],
+    "examples": [
+      "人到了，脑子还在路上",
+      "刚才说到哪里了"
+    ],
+    "existing_text": "",
+    "intensity": 2,
+    "source_type": "reference",
+    "author": "待核实",
+    "source_url": "https://niulai.co/imgs/assets/niulai_06.png",
+    "source_note": "网络现成透明底图，下载自 Niulai.co 热门牛来模板区（https://niulai.co/#popular）；不同神态/动作的 3D 二创版本，未独立确认其制作方式、作者或是否电影原帧，不声称原创或已获授权。保留完整 PNG 未加工。 原文件下载地址：https://niulai.co/imgs/assets/niulai_06.png",
+    "role": "subject",
+    "is_cutout": true,
+    "templates": [
+      "top",
+      "bottom",
+      "split",
+      "frame",
+      "flower",
+      "grid",
+      "message",
+      "poster",
+      "side",
+      "polaroid",
+      "bubble",
+      "dialogue",
+      "spotlight"
+    ]
+  },
+  {
+    "id": "web-niulai-07",
+    "name": "牛来 · 无聊挖鼻",
+    "character": "牛来",
+    "filename": "web-other/niulai_07.png",
+    "action": "半闭着眼睛，抬手挖鼻孔",
+    "emotion": [
+      "无聊",
+      "无语"
+    ],
+    "scenes": [
+      "摸鱼",
+      "等人",
+      "开会"
+    ],
+    "examples": [
+      "嗯嗯，然后呢",
+      "我已经等了很久了"
+    ],
+    "existing_text": "",
+    "intensity": 2,
+    "source_type": "reference",
+    "author": "待核实",
+    "source_url": "https://niulai.co/imgs/assets/niulai_07.png",
+    "source_note": "网络现成透明底图，下载自 Niulai.co 热门牛来模板区（https://niulai.co/#popular）；不同神态/动作的 3D 二创版本，未独立确认其制作方式、作者或是否电影原帧，不声称原创或已获授权。保留完整 PNG 未加工。 原文件下载地址：https://niulai.co/imgs/assets/niulai_07.png",
+    "role": "subject",
+    "is_cutout": true,
+    "templates": [
+      "top",
+      "bottom",
+      "split",
+      "frame",
+      "flower",
+      "grid",
+      "message",
+      "poster",
+      "side",
+      "polaroid",
+      "bubble",
+      "dialogue",
+      "spotlight"
+    ]
+  },
+  {
+    "id": "web-niulai-11",
+    "name": "牛来 · 伸手指人",
+    "character": "牛来",
+    "filename": "web-other/niulai_11.png",
+    "action": "身体转向一侧，抬手指向远处",
+    "emotion": [
+      "怀疑",
+      "吐槽",
+      "惊讶"
+    ],
+    "scenes": [
+      "找人",
+      "提醒",
+      "群聊"
+    ],
+    "examples": [
+      "是不是你干的",
+      "同学，就是这里"
+    ],
+    "existing_text": "",
+    "intensity": 3,
+    "source_type": "reference",
+    "author": "待核实",
+    "source_url": "https://niulai.co/imgs/assets/niulai_11.png",
+    "source_note": "网络现成透明底图，下载自 Niulai.co 热门牛来模板区（https://niulai.co/#popular）；不同神态/动作的 3D 二创版本，未独立确认其制作方式、作者或是否电影原帧，不声称原创或已获授权。保留完整 PNG 未加工。 原文件下载地址：https://niulai.co/imgs/assets/niulai_11.png",
+    "role": "subject",
+    "is_cutout": true,
+    "templates": [
+      "top",
+      "bottom",
+      "split",
+      "frame",
+      "flower",
+      "grid",
+      "message",
+      "poster",
+      "side",
+      "polaroid",
+      "bubble",
+      "dialogue",
+      "spotlight"
+    ]
+  },
+  {
+    "id": "web-niulai-12",
+    "name": "牛来 · 放声大哭",
+    "character": "牛来",
+    "filename": "web-other/niulai_12.png",
+    "action": "闭眼张嘴，眼泪从两边流下",
+    "emotion": [
+      "难过",
+      "委屈",
+      "崩溃"
+    ],
+    "scenes": [
+      "考试失利",
+      "赶作业",
+      "求安慰"
+    ],
+    "examples": [
+      "我真的尽力了",
+      "先让我哭完这一场"
+    ],
+    "existing_text": "",
+    "intensity": 5,
+    "source_type": "reference",
+    "author": "待核实",
+    "source_url": "https://niulai.co/imgs/assets/niulai_12.png",
+    "source_note": "网络现成透明底图，下载自 Niulai.co 热门牛来模板区（https://niulai.co/#popular）；不同神态/动作的 3D 二创版本，未独立确认其制作方式、作者或是否电影原帧，不声称原创或已获授权。保留完整 PNG 未加工。 原文件下载地址：https://niulai.co/imgs/assets/niulai_12.png",
+    "role": "subject",
+    "is_cutout": true,
+    "templates": [
+      "top",
+      "bottom",
+      "split",
+      "frame",
+      "flower",
+      "grid",
+      "message",
+      "poster",
+      "side",
+      "polaroid",
+      "bubble",
+      "dialogue",
+      "spotlight"
+    ]
+  },
+  {
+    "id": "web-niulai-14",
+    "name": "牛来 · 抱胸生气",
+    "character": "牛来",
+    "filename": "web-other/niulai_14.png",
+    "action": "双臂交叉抱胸，皱眉注视前方",
+    "emotion": [
+      "生气",
+      "不满"
+    ],
+    "scenes": [
+      "拒绝",
+      "临时加活",
+      "吐槽"
+    ],
+    "examples": [
+      "这事我不同意",
+      "先把话说明白"
+    ],
+    "existing_text": "",
+    "intensity": 4,
+    "source_type": "reference",
+    "author": "待核实",
+    "source_url": "https://niulai.co/imgs/assets/niulai_14.png",
+    "source_note": "网络现成透明底图，下载自 Niulai.co 热门牛来模板区（https://niulai.co/#popular）；不同神态/动作的 3D 二创版本，未独立确认其制作方式、作者或是否电影原帧，不声称原创或已获授权。保留完整 PNG 未加工。 原文件下载地址：https://niulai.co/imgs/assets/niulai_14.png",
+    "role": "subject",
+    "is_cutout": true,
+    "templates": [
+      "top",
+      "bottom",
+      "split",
+      "frame",
+      "flower",
+      "grid",
+      "message",
+      "poster",
+      "side",
+      "polaroid",
+      "bubble",
+      "dialogue",
+      "spotlight"
+    ]
+  },
+  {
+    "id": "web-niulai-18",
+    "name": "牛来 · 吐舌犯傻",
+    "character": "牛来",
+    "filename": "web-other/niulai_18.png",
+    "action": "伸出舌头，睁大双眼做鬼脸",
+    "emotion": [
+      "搞怪",
+      "开心"
+    ],
+    "scenes": [
+      "装傻",
+      "朋友整活",
+      "摸鱼"
+    ],
+    "examples": [
+      "你说什么我听不懂",
+      "今天主打一个开心"
+    ],
+    "existing_text": "",
+    "intensity": 3,
+    "source_type": "reference",
+    "author": "待核实",
+    "source_url": "https://niulai.co/imgs/assets/niulai_18.png",
+    "source_note": "网络现成透明底图，下载自 Niulai.co 热门牛来模板区（https://niulai.co/#popular）；不同神态/动作的 3D 二创版本，未独立确认其制作方式、作者或是否电影原帧，不声称原创或已获授权。保留完整 PNG 未加工。 原文件下载地址：https://niulai.co/imgs/assets/niulai_18.png",
+    "role": "subject",
+    "is_cutout": true,
+    "templates": [
+      "top",
+      "bottom",
+      "split",
+      "frame",
+      "flower",
+      "grid",
+      "message",
+      "poster",
+      "side",
+      "polaroid",
+      "bubble",
+      "dialogue",
+      "spotlight"
+    ]
+  },
+  {
+    "id": "web-niulai-19",
+    "name": "牛来 · 托腮思考",
+    "character": "牛来",
+    "filename": "web-other/niulai_19.png",
+    "action": "手指托着下巴，斜眼沉思",
+    "emotion": [
+      "思考",
+      "怀疑"
+    ],
+    "scenes": [
+      "选课",
+      "做题",
+      "小组讨论"
+    ],
+    "examples": [
+      "我再研究一下",
+      "让我把逻辑捋一捋"
+    ],
+    "existing_text": "",
+    "intensity": 2,
+    "source_type": "reference",
+    "author": "待核实",
+    "source_url": "https://niulai.co/imgs/assets/niulai_19.png",
+    "source_note": "网络现成透明底图，下载自 Niulai.co 热门牛来模板区（https://niulai.co/#popular）；不同神态/动作的 3D 二创版本，未独立确认其制作方式、作者或是否电影原帧，不声称原创或已获授权。保留完整 PNG 未加工。 原文件下载地址：https://niulai.co/imgs/assets/niulai_19.png",
+    "role": "subject",
+    "is_cutout": true,
+    "templates": [
+      "top",
+      "bottom",
+      "split",
+      "frame",
+      "flower",
+      "grid",
+      "message",
+      "poster",
+      "side",
+      "polaroid",
+      "bubble",
+      "dialogue",
+      "spotlight"
+    ]
+  },
+  {
+    "id": "web-niulai-20",
+    "name": "牛来 · 露齿坏笑",
+    "character": "牛来",
+    "filename": "web-other/niulai_20.png",
+    "action": "露出整排牙齿，扬眉大笑",
+    "emotion": [
+      "得意",
+      "开心",
+      "搞怪"
+    ],
+    "scenes": [
+      "整活",
+      "恶作剧",
+      "考试通过"
+    ],
+    "examples": [
+      "计划通",
+      "这把稳了"
+    ],
+    "existing_text": "",
+    "intensity": 4,
+    "source_type": "reference",
+    "author": "待核实",
+    "source_url": "https://niulai.co/imgs/assets/niulai_20.png",
+    "source_note": "网络现成透明底图，下载自 Niulai.co 热门牛来模板区（https://niulai.co/#popular）；不同神态/动作的 3D 二创版本，未独立确认其制作方式、作者或是否电影原帧，不声称原创或已获授权。保留完整 PNG 未加工。 原文件下载地址：https://niulai.co/imgs/assets/niulai_20.png",
+    "role": "subject",
+    "is_cutout": true,
+    "templates": [
+      "top",
+      "bottom",
+      "split",
+      "frame",
+      "flower",
+      "grid",
+      "message",
+      "poster",
+      "side",
+      "polaroid",
+      "bubble",
+      "dialogue",
+      "spotlight"
+    ]
+  },
+  {
+    "id": "web-meowl-scene-1",
+    "name": "Meowl · 林间小花",
+    "character": "Meowl",
+    "filename": "web-other/meowl-scene-1.png",
+    "action": "猫头鹰身体藏在树干和蕨叶旁，猫头顶着小花",
+    "emotion": [
+      "可爱",
+      "期待"
+    ],
+    "scenes": [
+      "等人",
+      "打招呼",
+      "等下课"
+    ],
+    "examples": [
+      "悄悄探个头",
+      "这里还有一个我"
+    ],
+    "existing_text": "猪猫可乐；weibo.com/zhumaokele",
+    "intensity": 2,
+    "source_type": "reference",
+    "author": "猪猫可乐（原图水印，归属待核实）",
+    "source_url": "https://knowyourmeme.com/photos/3139715-meowl",
+    "source_note": "网络公开收集，来自 Know Your Meme 的 Meowl Weibo 图片集，收录者 Owen，来源标注为 Weibo；原图含猪猫可乐/weibo.com/zhumaokele 水印。不同场景与猫脸的猫头鹰合成图，作者归属和使用授权待核实，完整保留水印、配字和背景，非本项目重采样变体。 原文件下载地址：https://i.kym-cdn.com/photos/images/original/003/139/715/c96.png",
+    "role": "subject",
+    "is_cutout": false,
+    "templates": [
+      "top",
+      "bottom",
+      "split",
+      "frame",
+      "grid",
+      "message",
+      "poster",
+      "side",
+      "polaroid",
+      "bubble",
+      "dialogue",
+      "spotlight"
+    ]
+  },
+  {
+    "id": "web-meowl-scene-2",
+    "name": "Meowl · 闭眼白团子",
+    "character": "Meowl",
+    "filename": "web-other/meowl-scene-2.png",
+    "action": "白色猫头与雪鸮身体组合，闭眼站在林地上",
+    "emotion": [
+      "平静",
+      "困倦",
+      "满足"
+    ],
+    "scenes": [
+      "早八",
+      "睡觉",
+      "放空"
+    ],
+    "examples": [
+      "我先闭目养神一下",
+      "收到，安详躺平"
+    ],
+    "existing_text": "猪猫可乐；扑倒所有喵；weibo.com/zhumaokele",
+    "intensity": 1,
+    "source_type": "reference",
+    "author": "猪猫可乐（原图水印，归属待核实）",
+    "source_url": "https://knowyourmeme.com/photos/3139716-meowl",
+    "source_note": "网络公开收集，来自 Know Your Meme 的 Meowl Weibo 图片集，收录者 Owen，来源标注为 Weibo；原图含猪猫可乐/weibo.com/zhumaokele 水印。不同场景与猫脸的猫头鹰合成图，作者归属和使用授权待核实，完整保留水印、配字和背景，非本项目重采样变体。 原文件下载地址：https://i.kym-cdn.com/photos/images/original/003/139/716/e1c.png",
+    "role": "subject",
+    "is_cutout": false,
+    "templates": [
+      "top",
+      "bottom",
+      "split",
+      "frame",
+      "grid",
+      "message",
+      "poster",
+      "side",
+      "polaroid",
+      "bubble",
+      "dialogue",
+      "spotlight"
+    ]
+  },
+  {
+    "id": "web-meowl-scene-3",
+    "name": "Meowl · 沙地抬头",
+    "character": "Meowl",
+    "filename": "web-other/meowl-scene-3.png",
+    "action": "头顶小花的猫头鹰站在沙土坡上，抬头看向前方",
+    "emotion": [
+      "呆萌",
+      "好奇",
+      "迷茫"
+    ],
+    "scenes": [
+      "没听懂",
+      "上课",
+      "等回复"
+    ],
+    "examples": [
+      "我好像听懂了，又好像没有",
+      "然后呢？"
+    ],
+    "existing_text": "猪猫可乐；GUANJING.COM（右上角原图边缘水印）；weibo.com/zhumaokele",
+    "intensity": 2,
+    "source_type": "reference",
+    "author": "猪猫可乐（原图水印，归属待核实）",
+    "source_url": "https://knowyourmeme.com/photos/3139717-meowl",
+    "source_note": "网络公开收集，来自 Know Your Meme 的 Meowl Weibo 图片集，收录者 Owen，来源标注为 Weibo；原图含猪猫可乐/weibo.com/zhumaokele 水印。不同场景与猫脸的猫头鹰合成图，作者归属和使用授权待核实，完整保留水印、配字和背景，非本项目重采样变体。 原文件下载地址：https://i.kym-cdn.com/photos/images/original/003/139/717/276.png",
+    "role": "subject",
+    "is_cutout": false,
+    "templates": [
+      "top",
+      "bottom",
+      "split",
+      "frame",
+      "grid",
+      "message",
+      "poster",
+      "side",
+      "polaroid",
+      "bubble",
+      "dialogue",
+      "spotlight"
+    ]
+  },
+  {
+    "id": "web-meowl-scene-4",
+    "name": "Meowl · 树枝上咕",
+    "character": "Meowl",
+    "filename": "web-other/meowl-scene-4.png",
+    "action": "猫头鹰站在苔藓树枝上，旁边带有咕字气泡",
+    "emotion": [
+      "呆萌",
+      "心虚"
+    ],
+    "scenes": [
+      "催稿",
+      "延后",
+      "等通知"
+    ],
+    "examples": [
+      "我只是稍微晚一点",
+      "再给我一点时间"
+    ],
+    "existing_text": "咕；猪猫可乐；@猪猫可乐",
+    "intensity": 2,
+    "source_type": "reference",
+    "author": "猪猫可乐（原图水印，归属待核实）",
+    "source_url": "https://knowyourmeme.com/photos/3139718-meowl",
+    "source_note": "网络公开收集，来自 Know Your Meme 的 Meowl Weibo 图片集，收录者 Owen，来源标注为 Weibo；原图含猪猫可乐/weibo.com/zhumaokele 水印。不同场景与猫脸的猫头鹰合成图，作者归属和使用授权待核实，完整保留水印、配字和背景，非本项目重采样变体。 原文件下载地址：https://i.kym-cdn.com/photos/images/original/003/139/718/8b7.png",
+    "role": "subject",
+    "is_cutout": false,
+    "templates": [
+      "top",
+      "bottom",
+      "split",
+      "frame",
+      "grid",
+      "message",
+      "poster",
+      "side",
+      "polaroid",
+      "bubble",
+      "dialogue",
+      "spotlight"
+    ]
+  },
+  {
+    "id": "web-meowl-scene-5",
+    "name": "Meowl · 三只合影",
+    "character": "Meowl",
+    "filename": "web-other/meowl-scene-5.png",
+    "action": "三只不同猫脸的猫头鹰并排站在树枝上",
+    "emotion": [
+      "开心",
+      "期待",
+      "呆萌"
+    ],
+    "scenes": [
+      "小组作业",
+      "组队",
+      "朋友聚会"
+    ],
+    "examples": [
+      "我们三个准备好了",
+      "集合！就差你了"
+    ],
+    "existing_text": "猪猫可乐；MelOnpi；扑倒所有喵；weibo.com/zhumaokele",
+    "intensity": 2,
+    "source_type": "reference",
+    "author": "猪猫可乐（原图水印，归属待核实）",
+    "source_url": "https://knowyourmeme.com/photos/3139720-meowl",
+    "source_note": "网络公开收集，来自 Know Your Meme 的 Meowl Weibo 图片集，收录者 Owen，来源标注为 Weibo；原图含猪猫可乐/weibo.com/zhumaokele 水印。不同场景与猫脸的猫头鹰合成图，作者归属和使用授权待核实，完整保留水印、配字和背景，非本项目重采样变体。 原文件下载地址：https://i.kym-cdn.com/photos/images/original/003/139/720/517.png",
+    "role": "subject",
+    "is_cutout": false,
+    "templates": [
+      "top",
+      "bottom",
+      "split",
+      "frame",
+      "grid",
+      "message",
+      "poster",
+      "side",
+      "polaroid",
+      "bubble",
+      "dialogue",
+      "spotlight"
+    ]
+  }
+]

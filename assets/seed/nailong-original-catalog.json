@@ -1,0 +1,1838 @@
+[
+  {
+    "id": "original-nailong-gif-000",
+    "name": "奶龙（原版） · 挥手打招呼",
+    "character": "奶龙（原版）",
+    "filename": "nailong-original/original-gif-000.gif",
+    "enabled": true,
+    "action": "挥手打招呼",
+    "emotion": [
+      "疑惑",
+      "可爱"
+    ],
+    "scenes": [
+      "日常聊天",
+      "同学互动"
+    ],
+    "examples": [
+      "现在就是这个表情",
+      "收到收到"
+    ],
+    "intensity": 2,
+    "existing_text": "HI~",
+    "source_type": "reference",
+    "author": "第七印象（角色）；素材制作者待核实",
+    "source_url": "https://www.bilibili.com/opus/973500555826561025",
+    "source_note": "公开搬运贴 cv38218742，发布者“海老名__”说明来源互联网@羚邦娛樂有限公司，并自行抠背景；此记录不把搬运者当原作者。保留原GIF、透明通道、帧时长与循环。 对照《小七和奶龙》原作形象确认：大圆头、短粗黄手爪、粉掌垫、尾巴。与小头巨腹、黑色细长手指的奶蛙分开。角色来自第七印象；具体图片制作/发布授权待核实。",
+    "role": "subject",
+    "is_cutout": true,
+    "templates": [
+      "top",
+      "bottom",
+      "split",
+      "frame",
+      "grid",
+      "message",
+      "poster",
+      "side",
+      "polaroid",
+      "bubble",
+      "dialogue",
+      "spotlight",
+      "comic",
+      "subtitle",
+      "note",
+      "window",
+      "ticket",
+      "medal",
+      "scene"
+    ]
+  },
+  {
+    "id": "original-nailong-gif-001",
+    "name": "奶龙（原版） · 捂嘴思考",
+    "character": "奶龙（原版）",
+    "filename": "nailong-original/original-gif-001.gif",
+    "enabled": true,
+    "action": "捂嘴思考",
+    "emotion": [
+      "疑惑",
+      "可爱"
+    ],
+    "scenes": [
+      "日常聊天",
+      "同学互动"
+    ],
+    "examples": [
+      "现在就是这个表情",
+      "收到收到"
+    ],
+    "intensity": 2,
+    "existing_text": "",
+    "source_type": "reference",
+    "author": "第七印象（角色）；素材制作者待核实",
+    "source_url": "https://www.bilibili.com/opus/973500555826561025",
+    "source_note": "公开搬运贴 cv38218742，发布者“海老名__”说明来源互联网@羚邦娛樂有限公司，并自行抠背景；此记录不把搬运者当原作者。保留原GIF、透明通道、帧时长与循环。 对照《小七和奶龙》原作形象确认：大圆头、短粗黄手爪、粉掌垫、尾巴。与小头巨腹、黑色细长手指的奶蛙分开。角色来自第七印象；具体图片制作/发布授权待核实。",
+    "role": "subject",
+    "is_cutout": true,
+    "templates": [
+      "top",
+      "bottom",
+      "split",
+      "frame",
+      "flower",
+      "grid",
+      "message",
+      "poster",
+      "side",
+      "polaroid",
+      "bubble",
+      "dialogue",
+      "spotlight",
+      "comic",
+      "subtitle",
+      "note",
+      "window",
+      "ticket",
+      "medal",
+      "scene"
+    ]
+  },
+  {
+    "id": "original-nailong-gif-002",
+    "name": "奶龙（原版） · 拱手恭喜",
+    "character": "奶龙（原版）",
+    "filename": "nailong-original/original-gif-002.gif",
+    "enabled": true,
+    "action": "拱手恭喜",
+    "emotion": [
+      "开心",
+      "可爱"
+    ],
+    "scenes": [
+      "日常聊天",
+      "同学互动",
+      "节日祝福",
+      "考试过关"
+    ],
+    "examples": [
+      "现在就是这个表情",
+      "收到收到"
+    ],
+    "intensity": 2,
+    "existing_text": "我真的 恭喜你",
+    "source_type": "reference",
+    "author": "第七印象（角色）；素材制作者待核实",
+    "source_url": "https://www.bilibili.com/opus/973500555826561025",
+    "source_note": "公开搬运贴 cv38218742，发布者“海老名__”说明来源互联网@羚邦娛樂有限公司，并自行抠背景；此记录不把搬运者当原作者。保留原GIF、透明通道、帧时长与循环。 对照《小七和奶龙》原作形象确认：大圆头、短粗黄手爪、粉掌垫、尾巴。与小头巨腹、黑色细长手指的奶蛙分开。角色来自第七印象；具体图片制作/发布授权待核实。",
+    "role": "subject",
+    "is_cutout": true,
+    "templates": [
+      "top",
+      "bottom",
+      "split",
+      "frame",
+      "grid",
+      "message",
+      "poster",
+      "side",
+      "polaroid",
+      "bubble",
+      "dialogue",
+      "spotlight",
+      "comic",
+      "subtitle",
+      "note",
+      "window",
+      "ticket",
+      "medal",
+      "scene"
+    ]
+  },
+  {
+    "id": "original-nailong-gif-003",
+    "name": "奶龙（原版） · 傲娇哼声",
+    "character": "奶龙（原版）",
+    "filename": "nailong-original/original-gif-003.gif",
+    "enabled": true,
+    "action": "傲娇哼声",
+    "emotion": [
+      "疑惑",
+      "可爱"
+    ],
+    "scenes": [
+      "日常聊天",
+      "同学互动"
+    ],
+    "examples": [
+      "现在就是这个表情",
+      "收到收到"
+    ],
+    "intensity": 2,
+    "existing_text": "哼~",
+    "source_type": "reference",
+    "author": "第七印象（角色）；素材制作者待核实",
+    "source_url": "https://www.bilibili.com/opus/973500555826561025",
+    "source_note": "公开搬运贴 cv38218742，发布者“海老名__”说明来源互联网@羚邦娛樂有限公司，并自行抠背景；此记录不把搬运者当原作者。保留原GIF、透明通道、帧时长与循环。 对照《小七和奶龙》原作形象确认：大圆头、短粗黄手爪、粉掌垫、尾巴。与小头巨腹、黑色细长手指的奶蛙分开。角色来自第七印象；具体图片制作/发布授权待核实。",
+    "role": "subject",
+    "is_cutout": true,
+    "templates": [
+      "top",
+      "bottom",
+      "split",
+      "frame",
+      "grid",
+      "message",
+      "poster",
+      "side",
+      "polaroid",
+      "bubble",
+      "dialogue",
+      "spotlight",
+      "comic",
+      "subtitle",
+      "note",
+      "window",
+      "ticket",
+      "medal",
+      "scene"
+    ]
+  },
+  {
+    "id": "original-nailong-gif-004",
+    "name": "奶龙（原版） · 红包探头",
+    "character": "奶龙（原版）",
+    "filename": "nailong-original/original-gif-004.gif",
+    "enabled": true,
+    "action": "红包探头",
+    "emotion": [
+      "疑惑",
+      "可爱"
+    ],
+    "scenes": [
+      "日常聊天",
+      "同学互动"
+    ],
+    "examples": [
+      "现在就是这个表情",
+      "收到收到"
+    ],
+    "intensity": 2,
+    "existing_text": "囍（红包文字）",
+    "source_type": "reference",
+    "author": "第七印象（角色）；素材制作者待核实",
+    "source_url": "https://www.bilibili.com/opus/973500555826561025",
+    "source_note": "公开搬运贴 cv38218742，发布者“海老名__”说明来源互联网@羚邦娛樂有限公司，并自行抠背景；此记录不把搬运者当原作者。保留原GIF、透明通道、帧时长与循环。 对照《小七和奶龙》原作形象确认：大圆头、短粗黄手爪、粉掌垫、尾巴。与小头巨腹、黑色细长手指的奶蛙分开。角色来自第七印象；具体图片制作/发布授权待核实。",
+    "role": "subject",
+    "is_cutout": true,
+    "templates": [
+      "top",
+      "bottom",
+      "split",
+      "frame",
+      "grid",
+      "message",
+      "poster",
+      "side",
+      "polaroid",
+      "bubble",
+      "dialogue",
+      "spotlight",
+      "comic",
+      "subtitle",
+      "note",
+      "window",
+      "ticket",
+      "medal",
+      "scene"
+    ]
+  },
+  {
+    "id": "original-nailong-gif-005",
+    "name": "奶龙（原版） · 步步高升祝福",
+    "character": "奶龙（原版）",
+    "filename": "nailong-original/original-gif-005.gif",
+    "enabled": true,
+    "action": "步步高升祝福",
+    "emotion": [
+      "开心",
+      "可爱"
+    ],
+    "scenes": [
+      "日常聊天",
+      "同学互动",
+      "节日祝福",
+      "考试过关"
+    ],
+    "examples": [
+      "现在就是这个表情",
+      "收到收到"
+    ],
+    "intensity": 2,
+    "existing_text": "步步高昇",
+    "source_type": "reference",
+    "author": "第七印象（角色）；素材制作者待核实",
+    "source_url": "https://www.bilibili.com/opus/973500555826561025",
+    "source_note": "公开搬运贴 cv38218742，发布者“海老名__”说明来源互联网@羚邦娛樂有限公司，并自行抠背景；此记录不把搬运者当原作者。保留原GIF、透明通道、帧时长与循环。 对照《小七和奶龙》原作形象确认：大圆头、短粗黄手爪、粉掌垫、尾巴。与小头巨腹、黑色细长手指的奶蛙分开。角色来自第七印象；具体图片制作/发布授权待核实。",
+    "role": "subject",
+    "is_cutout": true,
+    "templates": [
+      "top",
+      "bottom",
+      "split",
+      "frame",
+      "grid",
+      "message",
+      "poster",
+      "side",
+      "polaroid",
+      "bubble",
+      "dialogue",
+      "spotlight",
+      "comic",
+      "subtitle",
+      "note",
+      "window",
+      "ticket",
+      "medal",
+      "scene"
+    ]
+  },
+  {
+    "id": "original-nailong-gif-006",
+    "name": "奶龙（原版） · 花袄眨眼",
+    "character": "奶龙（原版）",
+    "filename": "nailong-original/original-gif-006.gif",
+    "enabled": true,
+    "action": "花袄眨眼",
+    "emotion": [
+      "疑惑",
+      "可爱"
+    ],
+    "scenes": [
+      "日常聊天",
+      "同学互动"
+    ],
+    "examples": [
+      "现在就是这个表情",
+      "收到收到"
+    ],
+    "intensity": 2,
+    "existing_text": "",
+    "source_type": "reference",
+    "author": "第七印象（角色）；素材制作者待核实",
+    "source_url": "https://www.bilibili.com/opus/973500555826561025",
+    "source_note": "公开搬运贴 cv38218742，发布者“海老名__”说明来源互联网@羚邦娛樂有限公司，并自行抠背景；此记录不把搬运者当原作者。保留原GIF、透明通道、帧时长与循环。 对照《小七和奶龙》原作形象确认：大圆头、短粗黄手爪、粉掌垫、尾巴。与小头巨腹、黑色细长手指的奶蛙分开。角色来自第七印象；具体图片制作/发布授权待核实。",
+    "role": "subject",
+    "is_cutout": true,
+    "templates": [
+      "top",
+      "bottom",
+      "split",
+      "frame",
+      "flower",
+      "grid",
+      "message",
+      "poster",
+      "side",
+      "polaroid",
+      "bubble",
+      "dialogue",
+      "spotlight",
+      "comic",
+      "subtitle",
+      "note",
+      "window",
+      "ticket",
+      "medal",
+      "scene"
+    ]
+  },
+  {
+    "id": "original-nailong-gif-007",
+    "name": "奶龙（原版） · 侧躺睡觉",
+    "character": "奶龙（原版）",
+    "filename": "nailong-original/original-gif-007.gif",
+    "enabled": true,
+    "action": "侧躺睡觉",
+    "emotion": [
+      "疑惑",
+      "可爱"
+    ],
+    "scenes": [
+      "日常聊天",
+      "同学互动",
+      "休息",
+      "晚安",
+      "早八"
+    ],
+    "examples": [
+      "现在就是这个表情",
+      "收到收到"
+    ],
+    "intensity": 2,
+    "existing_text": "Zzz",
+    "source_type": "reference",
+    "author": "第七印象（角色）；素材制作者待核实",
+    "source_url": "https://www.bilibili.com/opus/973500555826561025",
+    "source_note": "公开搬运贴 cv38218742，发布者“海老名__”说明来源互联网@羚邦娛樂有限公司，并自行抠背景；此记录不把搬运者当原作者。保留原GIF、透明通道、帧时长与循环。 对照《小七和奶龙》原作形象确认：大圆头、短粗黄手爪、粉掌垫、尾巴。与小头巨腹、黑色细长手指的奶蛙分开。角色来自第七印象；具体图片制作/发布授权待核实。",
+    "role": "subject",
+    "is_cutout": true,
+    "templates": [
+      "top",
+      "bottom",
+      "split",
+      "frame",
+      "grid",
+      "message",
+      "poster",
+      "side",
+      "polaroid",
+      "bubble",
+      "dialogue",
+      "spotlight",
+      "comic",
+      "subtitle",
+      "note",
+      "window",
+      "ticket",
+      "medal",
+      "scene"
+    ]
+  },
+  {
+    "id": "original-nailong-gif-008",
+    "name": "奶龙（原版） · 和蓝色同伴互动",
+    "character": "奶龙（原版）",
+    "filename": "nailong-original/original-gif-008.gif",
+    "enabled": true,
+    "action": "和蓝色同伴互动",
+    "emotion": [
+      "疑惑",
+      "可爱"
+    ],
+    "scenes": [
+      "日常聊天",
+      "同学互动"
+    ],
+    "examples": [
+      "现在就是这个表情",
+      "收到收到"
+    ],
+    "intensity": 2,
+    "existing_text": "",
+    "source_type": "reference",
+    "author": "第七印象（角色）；素材制作者待核实",
+    "source_url": "https://www.bilibili.com/opus/973500555826561025",
+    "source_note": "公开搬运贴 cv38218742，发布者“海老名__”说明来源互联网@羚邦娛樂有限公司，并自行抠背景；此记录不把搬运者当原作者。保留原GIF、透明通道、帧时长与循环。 对照《小七和奶龙》原作形象确认：大圆头、短粗黄手爪、粉掌垫、尾巴。与小头巨腹、黑色细长手指的奶蛙分开。角色来自第七印象；具体图片制作/发布授权待核实。",
+    "role": "subject",
+    "is_cutout": true,
+    "templates": [
+      "top",
+      "bottom",
+      "split",
+      "frame",
+      "flower",
+      "grid",
+      "message",
+      "poster",
+      "side",
+      "polaroid",
+      "bubble",
+      "dialogue",
+      "spotlight",
+      "comic",
+      "subtitle",
+      "note",
+      "window",
+      "ticket",
+      "medal",
+      "scene"
+    ]
+  },
+  {
+    "id": "original-nailong-gif-009",
+    "name": "奶龙（原版） · 开怀大笑",
+    "character": "奶龙（原版）",
+    "filename": "nailong-original/original-gif-009.gif",
+    "enabled": true,
+    "action": "开怀大笑",
+    "emotion": [
+      "开心",
+      "可爱"
+    ],
+    "scenes": [
+      "日常聊天",
+      "同学互动"
+    ],
+    "examples": [
+      "现在就是这个表情",
+      "收到收到"
+    ],
+    "intensity": 2,
+    "existing_text": "HA HA",
+    "source_type": "reference",
+    "author": "第七印象（角色）；素材制作者待核实",
+    "source_url": "https://www.bilibili.com/opus/973500555826561025",
+    "source_note": "公开搬运贴 cv38218742，发布者“海老名__”说明来源互联网@羚邦娛樂有限公司，并自行抠背景；此记录不把搬运者当原作者。保留原GIF、透明通道、帧时长与循环。 对照《小七和奶龙》原作形象确认：大圆头、短粗黄手爪、粉掌垫、尾巴。与小头巨腹、黑色细长手指的奶蛙分开。角色来自第七印象；具体图片制作/发布授权待核实。",
+    "role": "subject",
+    "is_cutout": true,
+    "templates": [
+      "top",
+      "bottom",
+      "split",
+      "frame",
+      "grid",
+      "message",
+      "poster",
+      "side",
+      "polaroid",
+      "bubble",
+      "dialogue",
+      "spotlight",
+      "comic",
+      "subtitle",
+      "note",
+      "window",
+      "ticket",
+      "medal",
+      "scene"
+    ]
+  },
+  {
+    "id": "original-nailong-gif-010",
+    "name": "奶龙（原版） · 举手我来啦",
+    "character": "奶龙（原版）",
+    "filename": "nailong-original/original-gif-010.gif",
+    "enabled": true,
+    "action": "举手我来啦",
+    "emotion": [
+      "疑惑",
+      "可爱"
+    ],
+    "scenes": [
+      "日常聊天",
+      "同学互动"
+    ],
+    "examples": [
+      "现在就是这个表情",
+      "收到收到"
+    ],
+    "intensity": 2,
+    "existing_text": "我来啦~",
+    "source_type": "reference",
+    "author": "第七印象（角色）；素材制作者待核实",
+    "source_url": "https://www.bilibili.com/opus/973500555826561025",
+    "source_note": "公开搬运贴 cv38218742，发布者“海老名__”说明来源互联网@羚邦娛樂有限公司，并自行抠背景；此记录不把搬运者当原作者。保留原GIF、透明通道、帧时长与循环。 对照《小七和奶龙》原作形象确认：大圆头、短粗黄手爪、粉掌垫、尾巴。与小头巨腹、黑色细长手指的奶蛙分开。角色来自第七印象；具体图片制作/发布授权待核实。",
+    "role": "subject",
+    "is_cutout": true,
+    "templates": [
+      "top",
+      "bottom",
+      "split",
+      "frame",
+      "grid",
+      "message",
+      "poster",
+      "side",
+      "polaroid",
+      "bubble",
+      "dialogue",
+      "spotlight",
+      "comic",
+      "subtitle",
+      "note",
+      "window",
+      "ticket",
+      "medal",
+      "scene"
+    ]
+  },
+  {
+    "id": "original-nailong-gif-011",
+    "name": "奶龙（原版） · 眨眼摆手",
+    "character": "奶龙（原版）",
+    "filename": "nailong-original/original-gif-011.gif",
+    "enabled": true,
+    "action": "眨眼摆手",
+    "emotion": [
+      "疑惑",
+      "可爱"
+    ],
+    "scenes": [
+      "日常聊天",
+      "同学互动"
+    ],
+    "examples": [
+      "现在就是这个表情",
+      "收到收到"
+    ],
+    "intensity": 2,
+    "existing_text": "",
+    "source_type": "reference",
+    "author": "第七印象（角色）；素材制作者待核实",
+    "source_url": "https://www.bilibili.com/opus/973500555826561025",
+    "source_note": "公开搬运贴 cv38218742，发布者“海老名__”说明来源互联网@羚邦娛樂有限公司，并自行抠背景；此记录不把搬运者当原作者。保留原GIF、透明通道、帧时长与循环。 对照《小七和奶龙》原作形象确认：大圆头、短粗黄手爪、粉掌垫、尾巴。与小头巨腹、黑色细长手指的奶蛙分开。角色来自第七印象；具体图片制作/发布授权待核实。",
+    "role": "subject",
+    "is_cutout": true,
+    "templates": [
+      "top",
+      "bottom",
+      "split",
+      "frame",
+      "flower",
+      "grid",
+      "message",
+      "poster",
+      "side",
+      "polaroid",
+      "bubble",
+      "dialogue",
+      "spotlight",
+      "comic",
+      "subtitle",
+      "note",
+      "window",
+      "ticket",
+      "medal",
+      "scene"
+    ]
+  },
+  {
+    "id": "original-nailong-gif-012",
+    "name": "奶龙（原版） · 新年快乐祝福",
+    "character": "奶龙（原版）",
+    "filename": "nailong-original/original-gif-012.gif",
+    "enabled": true,
+    "action": "新年快乐祝福",
+    "emotion": [
+      "开心",
+      "可爱"
+    ],
+    "scenes": [
+      "日常聊天",
+      "同学互动",
+      "节日祝福",
+      "考试过关"
+    ],
+    "examples": [
+      "现在就是这个表情",
+      "收到收到"
+    ],
+    "intensity": 2,
+    "existing_text": "新年快乐",
+    "source_type": "reference",
+    "author": "第七印象（角色）；素材制作者待核实",
+    "source_url": "https://www.bilibili.com/opus/973500555826561025",
+    "source_note": "公开搬运贴 cv38218742，发布者“海老名__”说明来源互联网@羚邦娛樂有限公司，并自行抠背景；此记录不把搬运者当原作者。保留原GIF、透明通道、帧时长与循环。 对照《小七和奶龙》原作形象确认：大圆头、短粗黄手爪、粉掌垫、尾巴。与小头巨腹、黑色细长手指的奶蛙分开。角色来自第七印象；具体图片制作/发布授权待核实。",
+    "role": "subject",
+    "is_cutout": true,
+    "templates": [
+      "top",
+      "bottom",
+      "split",
+      "frame",
+      "grid",
+      "message",
+      "poster",
+      "side",
+      "polaroid",
+      "bubble",
+      "dialogue",
+      "spotlight",
+      "comic",
+      "subtitle",
+      "note",
+      "window",
+      "ticket",
+      "medal",
+      "scene"
+    ]
+  },
+  {
+    "id": "original-nailong-gif-013",
+    "name": "奶龙（原版） · 吃西瓜",
+    "character": "奶龙（原版）",
+    "filename": "nailong-original/original-gif-013.gif",
+    "enabled": true,
+    "action": "吃西瓜",
+    "emotion": [
+      "疑惑",
+      "可爱"
+    ],
+    "scenes": [
+      "日常聊天",
+      "同学互动"
+    ],
+    "examples": [
+      "现在就是这个表情",
+      "收到收到"
+    ],
+    "intensity": 2,
+    "existing_text": "",
+    "source_type": "reference",
+    "author": "第七印象（角色）；素材制作者待核实",
+    "source_url": "https://www.bilibili.com/opus/973500555826561025",
+    "source_note": "公开搬运贴 cv38218742，发布者“海老名__”说明来源互联网@羚邦娛樂有限公司，并自行抠背景；此记录不把搬运者当原作者。保留原GIF、透明通道、帧时长与循环。 对照《小七和奶龙》原作形象确认：大圆头、短粗黄手爪、粉掌垫、尾巴。与小头巨腹、黑色细长手指的奶蛙分开。角色来自第七印象；具体图片制作/发布授权待核实。",
+    "role": "subject",
+    "is_cutout": true,
+    "templates": [
+      "top",
+      "bottom",
+      "split",
+      "frame",
+      "flower",
+      "grid",
+      "message",
+      "poster",
+      "side",
+      "polaroid",
+      "bubble",
+      "dialogue",
+      "spotlight",
+      "comic",
+      "subtitle",
+      "note",
+      "window",
+      "ticket",
+      "medal",
+      "scene"
+    ]
+  },
+  {
+    "id": "original-nailong-gif-014",
+    "name": "奶龙（原版） · 点头答应",
+    "character": "奶龙（原版）",
+    "filename": "nailong-original/original-gif-014.gif",
+    "enabled": true,
+    "action": "点头答应",
+    "emotion": [
+      "疑惑",
+      "可爱"
+    ],
+    "scenes": [
+      "日常聊天",
+      "同学互动"
+    ],
+    "examples": [
+      "现在就是这个表情",
+      "收到收到"
+    ],
+    "intensity": 2,
+    "existing_text": "嗯~",
+    "source_type": "reference",
+    "author": "第七印象（角色）；素材制作者待核实",
+    "source_url": "https://www.bilibili.com/opus/973500555826561025",
+    "source_note": "公开搬运贴 cv38218742，发布者“海老名__”说明来源互联网@羚邦娛樂有限公司，并自行抠背景；此记录不把搬运者当原作者。保留原GIF、透明通道、帧时长与循环。 对照《小七和奶龙》原作形象确认：大圆头、短粗黄手爪、粉掌垫、尾巴。与小头巨腹、黑色细长手指的奶蛙分开。角色来自第七印象；具体图片制作/发布授权待核实。",
+    "role": "subject",
+    "is_cutout": true,
+    "templates": [
+      "top",
+      "bottom",
+      "split",
+      "frame",
+      "grid",
+      "message",
+      "poster",
+      "side",
+      "polaroid",
+      "bubble",
+      "dialogue",
+      "spotlight",
+      "comic",
+      "subtitle",
+      "note",
+      "window",
+      "ticket",
+      "medal",
+      "scene"
+    ]
+  },
+  {
+    "id": "original-nailong-gif-015",
+    "name": "奶龙（原版） · 鞠躬告别",
+    "character": "奶龙（原版）",
+    "filename": "nailong-original/original-gif-015.gif",
+    "enabled": true,
+    "action": "鞠躬告别",
+    "emotion": [
+      "疑惑",
+      "可爱"
+    ],
+    "scenes": [
+      "日常聊天",
+      "同学互动"
+    ],
+    "examples": [
+      "现在就是这个表情",
+      "收到收到"
+    ],
+    "intensity": 2,
+    "existing_text": "BYE BYE",
+    "source_type": "reference",
+    "author": "第七印象（角色）；素材制作者待核实",
+    "source_url": "https://www.bilibili.com/opus/973500555826561025",
+    "source_note": "公开搬运贴 cv38218742，发布者“海老名__”说明来源互联网@羚邦娛樂有限公司，并自行抠背景；此记录不把搬运者当原作者。保留原GIF、透明通道、帧时长与循环。 对照《小七和奶龙》原作形象确认：大圆头、短粗黄手爪、粉掌垫、尾巴。与小头巨腹、黑色细长手指的奶蛙分开。角色来自第七印象；具体图片制作/发布授权待核实。",
+    "role": "subject",
+    "is_cutout": true,
+    "templates": [
+      "top",
+      "bottom",
+      "split",
+      "frame",
+      "grid",
+      "message",
+      "poster",
+      "side",
+      "polaroid",
+      "bubble",
+      "dialogue",
+      "spotlight",
+      "comic",
+      "subtitle",
+      "note",
+      "window",
+      "ticket",
+      "medal",
+      "scene"
+    ]
+  },
+  {
+    "id": "original-nailong-gif-016",
+    "name": "奶龙（原版） · 喷泪大哭",
+    "character": "奶龙（原版）",
+    "filename": "nailong-original/original-gif-016.gif",
+    "enabled": true,
+    "action": "喷泪大哭",
+    "emotion": [
+      "委屈",
+      "难过"
+    ],
+    "scenes": [
+      "日常聊天",
+      "同学互动"
+    ],
+    "examples": [
+      "现在就是这个表情",
+      "收到收到"
+    ],
+    "intensity": 4,
+    "existing_text": "",
+    "source_type": "reference",
+    "author": "第七印象（角色）；素材制作者待核实",
+    "source_url": "https://www.bilibili.com/opus/973500555826561025",
+    "source_note": "公开搬运贴 cv38218742，发布者“海老名__”说明来源互联网@羚邦娛樂有限公司，并自行抠背景；此记录不把搬运者当原作者。保留原GIF、透明通道、帧时长与循环。 对照《小七和奶龙》原作形象确认：大圆头、短粗黄手爪、粉掌垫、尾巴。与小头巨腹、黑色细长手指的奶蛙分开。角色来自第七印象；具体图片制作/发布授权待核实。",
+    "role": "subject",
+    "is_cutout": true,
+    "templates": [
+      "top",
+      "bottom",
+      "split",
+      "frame",
+      "flower",
+      "grid",
+      "message",
+      "poster",
+      "side",
+      "polaroid",
+      "bubble",
+      "dialogue",
+      "spotlight",
+      "comic",
+      "subtitle",
+      "note",
+      "window",
+      "ticket",
+      "medal",
+      "scene"
+    ]
+  },
+  {
+    "id": "original-nailong-gif-017",
+    "name": "奶龙（原版） · 扯脸做鬼脸",
+    "character": "奶龙（原版）",
+    "filename": "nailong-original/original-gif-017.gif",
+    "enabled": true,
+    "action": "扯脸做鬼脸",
+    "emotion": [
+      "疑惑",
+      "可爱"
+    ],
+    "scenes": [
+      "日常聊天",
+      "同学互动"
+    ],
+    "examples": [
+      "现在就是这个表情",
+      "收到收到"
+    ],
+    "intensity": 2,
+    "existing_text": "",
+    "source_type": "reference",
+    "author": "第七印象（角色）；素材制作者待核实",
+    "source_url": "https://www.bilibili.com/opus/973500555826561025",
+    "source_note": "公开搬运贴 cv38218742，发布者“海老名__”说明来源互联网@羚邦娛樂有限公司，并自行抠背景；此记录不把搬运者当原作者。保留原GIF、透明通道、帧时长与循环。 对照《小七和奶龙》原作形象确认：大圆头、短粗黄手爪、粉掌垫、尾巴。与小头巨腹、黑色细长手指的奶蛙分开。角色来自第七印象；具体图片制作/发布授权待核实。",
+    "role": "subject",
+    "is_cutout": true,
+    "templates": [
+      "top",
+      "bottom",
+      "split",
+      "frame",
+      "flower",
+      "grid",
+      "message",
+      "poster",
+      "side",
+      "polaroid",
+      "bubble",
+      "dialogue",
+      "spotlight",
+      "comic",
+      "subtitle",
+      "note",
+      "window",
+      "ticket",
+      "medal",
+      "scene"
+    ]
+  },
+  {
+    "id": "original-nailong-gif-018",
+    "name": "奶龙（原版） · 张开双手感谢",
+    "character": "奶龙（原版）",
+    "filename": "nailong-original/original-gif-018.gif",
+    "enabled": true,
+    "action": "张开双手感谢",
+    "emotion": [
+      "开心",
+      "可爱"
+    ],
+    "scenes": [
+      "日常聊天",
+      "同学互动"
+    ],
+    "examples": [
+      "现在就是这个表情",
+      "收到收到"
+    ],
+    "intensity": 2,
+    "existing_text": "THANKS",
+    "source_type": "reference",
+    "author": "第七印象（角色）；素材制作者待核实",
+    "source_url": "https://www.bilibili.com/opus/973500555826561025",
+    "source_note": "公开搬运贴 cv38218742，发布者“海老名__”说明来源互联网@羚邦娛樂有限公司，并自行抠背景；此记录不把搬运者当原作者。保留原GIF、透明通道、帧时长与循环。 对照《小七和奶龙》原作形象确认：大圆头、短粗黄手爪、粉掌垫、尾巴。与小头巨腹、黑色细长手指的奶蛙分开。角色来自第七印象；具体图片制作/发布授权待核实。",
+    "role": "subject",
+    "is_cutout": true,
+    "templates": [
+      "top",
+      "bottom",
+      "split",
+      "frame",
+      "grid",
+      "message",
+      "poster",
+      "side",
+      "polaroid",
+      "bubble",
+      "dialogue",
+      "spotlight",
+      "comic",
+      "subtitle",
+      "note",
+      "window",
+      "ticket",
+      "medal",
+      "scene"
+    ]
+  },
+  {
+    "id": "original-nailong-gif-019",
+    "name": "奶龙（原版） · 笑口常开祝福",
+    "character": "奶龙（原版）",
+    "filename": "nailong-original/original-gif-019.gif",
+    "enabled": true,
+    "action": "笑口常开祝福",
+    "emotion": [
+      "开心",
+      "可爱"
+    ],
+    "scenes": [
+      "日常聊天",
+      "同学互动",
+      "节日祝福",
+      "考试过关"
+    ],
+    "examples": [
+      "现在就是这个表情",
+      "收到收到"
+    ],
+    "intensity": 2,
+    "existing_text": "笑口常開",
+    "source_type": "reference",
+    "author": "第七印象（角色）；素材制作者待核实",
+    "source_url": "https://www.bilibili.com/opus/973500555826561025",
+    "source_note": "公开搬运贴 cv38218742，发布者“海老名__”说明来源互联网@羚邦娛樂有限公司，并自行抠背景；此记录不把搬运者当原作者。保留原GIF、透明通道、帧时长与循环。 对照《小七和奶龙》原作形象确认：大圆头、短粗黄手爪、粉掌垫、尾巴。与小头巨腹、黑色细长手指的奶蛙分开。角色来自第七印象；具体图片制作/发布授权待核实。",
+    "role": "subject",
+    "is_cutout": true,
+    "templates": [
+      "top",
+      "bottom",
+      "split",
+      "frame",
+      "grid",
+      "message",
+      "poster",
+      "side",
+      "polaroid",
+      "bubble",
+      "dialogue",
+      "spotlight",
+      "comic",
+      "subtitle",
+      "note",
+      "window",
+      "ticket",
+      "medal",
+      "scene"
+    ]
+  },
+  {
+    "id": "original-nailong-gif-020",
+    "name": "奶龙（原版） · 迎春接福",
+    "character": "奶龙（原版）",
+    "filename": "nailong-original/original-gif-020.gif",
+    "enabled": true,
+    "action": "迎春接福",
+    "emotion": [
+      "疑惑",
+      "可爱"
+    ],
+    "scenes": [
+      "日常聊天",
+      "同学互动",
+      "节日祝福",
+      "考试过关"
+    ],
+    "examples": [
+      "现在就是这个表情",
+      "收到收到"
+    ],
+    "intensity": 2,
+    "existing_text": "迎春接福",
+    "source_type": "reference",
+    "author": "第七印象（角色）；素材制作者待核实",
+    "source_url": "https://www.bilibili.com/opus/973500555826561025",
+    "source_note": "公开搬运贴 cv38218742，发布者“海老名__”说明来源互联网@羚邦娛樂有限公司，并自行抠背景；此记录不把搬运者当原作者。保留原GIF、透明通道、帧时长与循环。 对照《小七和奶龙》原作形象确认：大圆头、短粗黄手爪、粉掌垫、尾巴。与小头巨腹、黑色细长手指的奶蛙分开。角色来自第七印象；具体图片制作/发布授权待核实。",
+    "role": "subject",
+    "is_cutout": true,
+    "templates": [
+      "top",
+      "bottom",
+      "split",
+      "frame",
+      "grid",
+      "message",
+      "poster",
+      "side",
+      "polaroid",
+      "bubble",
+      "dialogue",
+      "spotlight",
+      "comic",
+      "subtitle",
+      "note",
+      "window",
+      "ticket",
+      "medal",
+      "scene"
+    ]
+  },
+  {
+    "id": "original-nailong-gif-021",
+    "name": "奶龙（原版） · 恭喜发财",
+    "character": "奶龙（原版）",
+    "filename": "nailong-original/original-gif-021.gif",
+    "enabled": true,
+    "action": "恭喜发财",
+    "emotion": [
+      "开心",
+      "可爱"
+    ],
+    "scenes": [
+      "日常聊天",
+      "同学互动",
+      "节日祝福",
+      "考试过关"
+    ],
+    "examples": [
+      "现在就是这个表情",
+      "收到收到"
+    ],
+    "intensity": 2,
+    "existing_text": "恭喜發財",
+    "source_type": "reference",
+    "author": "第七印象（角色）；素材制作者待核实",
+    "source_url": "https://www.bilibili.com/opus/973500555826561025",
+    "source_note": "公开搬运贴 cv38218742，发布者“海老名__”说明来源互联网@羚邦娛樂有限公司，并自行抠背景；此记录不把搬运者当原作者。保留原GIF、透明通道、帧时长与循环。 对照《小七和奶龙》原作形象确认：大圆头、短粗黄手爪、粉掌垫、尾巴。与小头巨腹、黑色细长手指的奶蛙分开。角色来自第七印象；具体图片制作/发布授权待核实。",
+    "role": "subject",
+    "is_cutout": true,
+    "templates": [
+      "top",
+      "bottom",
+      "split",
+      "frame",
+      "grid",
+      "message",
+      "poster",
+      "side",
+      "polaroid",
+      "bubble",
+      "dialogue",
+      "spotlight",
+      "comic",
+      "subtitle",
+      "note",
+      "window",
+      "ticket",
+      "medal",
+      "scene"
+    ]
+  },
+  {
+    "id": "original-nailong-gif-022",
+    "name": "奶龙（原版） · 期待地张嘴笑",
+    "character": "奶龙（原版）",
+    "filename": "nailong-original/original-gif-022.gif",
+    "enabled": true,
+    "action": "期待地张嘴笑",
+    "emotion": [
+      "开心",
+      "可爱"
+    ],
+    "scenes": [
+      "日常聊天",
+      "同学互动"
+    ],
+    "examples": [
+      "现在就是这个表情",
+      "收到收到"
+    ],
+    "intensity": 2,
+    "existing_text": "",
+    "source_type": "reference",
+    "author": "第七印象（角色）；素材制作者待核实",
+    "source_url": "https://www.bilibili.com/opus/973500555826561025",
+    "source_note": "公开搬运贴 cv38218742，发布者“海老名__”说明来源互联网@羚邦娛樂有限公司，并自行抠背景；此记录不把搬运者当原作者。保留原GIF、透明通道、帧时长与循环。 对照《小七和奶龙》原作形象确认：大圆头、短粗黄手爪、粉掌垫、尾巴。与小头巨腹、黑色细长手指的奶蛙分开。角色来自第七印象；具体图片制作/发布授权待核实。",
+    "role": "subject",
+    "is_cutout": true,
+    "templates": [
+      "top",
+      "bottom",
+      "split",
+      "frame",
+      "flower",
+      "grid",
+      "message",
+      "poster",
+      "side",
+      "polaroid",
+      "bubble",
+      "dialogue",
+      "spotlight",
+      "comic",
+      "subtitle",
+      "note",
+      "window",
+      "ticket",
+      "medal",
+      "scene"
+    ]
+  },
+  {
+    "id": "original-nailong-static-000",
+    "name": "奶龙（原版） · 挑眉就这",
+    "character": "奶龙（原版）",
+    "filename": "nailong-original/extra-000.png",
+    "enabled": true,
+    "action": "挑眉就这",
+    "emotion": [
+      "疑惑",
+      "可爱"
+    ],
+    "scenes": [
+      "日常聊天",
+      "同学互动"
+    ],
+    "examples": [
+      "现在就是这个表情",
+      "收到收到"
+    ],
+    "intensity": 2,
+    "existing_text": "就这？",
+    "source_type": "reference",
+    "author": "第七印象（角色）；素材制作者待核实",
+    "source_url": "https://m.ali213.net/news/gl2409/1511833.html",
+    "source_note": "游侠手游2024-09-28奶龙表情包合集公开图片；保留动画截图原样，非干净底图。 对照《小七和奶龙》原作形象确认：大圆头、短粗黄手爪、粉掌垫、尾巴。与小头巨腹、黑色细长手指的奶蛙分开。角色来自第七印象；具体图片制作/发布授权待核实。",
+    "role": "subject",
+    "is_cutout": false,
+    "templates": [
+      "top",
+      "bottom",
+      "split",
+      "frame",
+      "grid",
+      "message",
+      "poster",
+      "side",
+      "polaroid",
+      "bubble",
+      "dialogue",
+      "spotlight",
+      "comic",
+      "subtitle",
+      "note",
+      "window",
+      "ticket",
+      "medal",
+      "scene"
+    ]
+  },
+  {
+    "id": "original-nailong-static-001",
+    "name": "奶龙（原版） · 花袄自豪",
+    "character": "奶龙（原版）",
+    "filename": "nailong-original/extra-001.png",
+    "enabled": true,
+    "action": "花袄自豪",
+    "emotion": [
+      "疑惑",
+      "可爱"
+    ],
+    "scenes": [
+      "日常聊天",
+      "同学互动"
+    ],
+    "examples": [
+      "现在就是这个表情",
+      "收到收到"
+    ],
+    "intensity": 2,
+    "existing_text": "可不是盖的！",
+    "source_type": "reference",
+    "author": "第七印象（角色）；素材制作者待核实",
+    "source_url": "https://m.ali213.net/news/gl2409/1511833.html",
+    "source_note": "游侠手游2024-09-28奶龙表情包合集公开图片；保留动画截图原样，非干净底图。 对照《小七和奶龙》原作形象确认：大圆头、短粗黄手爪、粉掌垫、尾巴。与小头巨腹、黑色细长手指的奶蛙分开。角色来自第七印象；具体图片制作/发布授权待核实。",
+    "role": "subject",
+    "is_cutout": false,
+    "templates": [
+      "top",
+      "bottom",
+      "split",
+      "frame",
+      "grid",
+      "message",
+      "poster",
+      "side",
+      "polaroid",
+      "bubble",
+      "dialogue",
+      "spotlight",
+      "comic",
+      "subtitle",
+      "note",
+      "window",
+      "ticket",
+      "medal",
+      "scene"
+    ]
+  },
+  {
+    "id": "original-nailong-static-002",
+    "name": "奶龙（原版） · 趴地吐舌",
+    "character": "奶龙（原版）",
+    "filename": "nailong-original/extra-002.png",
+    "enabled": true,
+    "action": "趴地吐舌",
+    "emotion": [
+      "疑惑",
+      "可爱"
+    ],
+    "scenes": [
+      "日常聊天",
+      "同学互动"
+    ],
+    "examples": [
+      "现在就是这个表情",
+      "收到收到"
+    ],
+    "intensity": 2,
+    "existing_text": "",
+    "source_type": "reference",
+    "author": "第七印象（角色）；素材制作者待核实",
+    "source_url": "https://m.ali213.net/news/gl2409/1511833.html",
+    "source_note": "游侠手游2024-09-28奶龙表情包合集公开图片；保留动画截图原样，非干净底图。 对照《小七和奶龙》原作形象确认：大圆头、短粗黄手爪、粉掌垫、尾巴。与小头巨腹、黑色细长手指的奶蛙分开。角色来自第七印象；具体图片制作/发布授权待核实。",
+    "role": "subject",
+    "is_cutout": false,
+    "templates": [
+      "top",
+      "bottom",
+      "split",
+      "frame",
+      "grid",
+      "message",
+      "poster",
+      "side",
+      "polaroid",
+      "bubble",
+      "dialogue",
+      "spotlight",
+      "comic",
+      "subtitle",
+      "note",
+      "window",
+      "ticket",
+      "medal",
+      "scene"
+    ]
+  },
+  {
+    "id": "original-nailong-static-003",
+    "name": "奶龙（原版） · 眯眼嘿嘿",
+    "character": "奶龙（原版）",
+    "filename": "nailong-original/extra-003.png",
+    "enabled": true,
+    "action": "眯眼嘿嘿",
+    "emotion": [
+      "疑惑",
+      "可爱"
+    ],
+    "scenes": [
+      "日常聊天",
+      "同学互动"
+    ],
+    "examples": [
+      "现在就是这个表情",
+      "收到收到"
+    ],
+    "intensity": 2,
+    "existing_text": "嘿嘿",
+    "source_type": "reference",
+    "author": "第七印象（角色）；素材制作者待核实",
+    "source_url": "https://m.ali213.net/news/gl2409/1511833.html",
+    "source_note": "游侠手游2024-09-28奶龙表情包合集公开图片；保留动画截图原样，非干净底图。 对照《小七和奶龙》原作形象确认：大圆头、短粗黄手爪、粉掌垫、尾巴。与小头巨腹、黑色细长手指的奶蛙分开。角色来自第七印象；具体图片制作/发布授权待核实。",
+    "role": "subject",
+    "is_cutout": false,
+    "templates": [
+      "top",
+      "bottom",
+      "split",
+      "frame",
+      "grid",
+      "message",
+      "poster",
+      "side",
+      "polaroid",
+      "bubble",
+      "dialogue",
+      "spotlight",
+      "comic",
+      "subtitle",
+      "note",
+      "window",
+      "ticket",
+      "medal",
+      "scene"
+    ]
+  },
+  {
+    "id": "original-nailong-static-004",
+    "name": "奶龙（原版） · 腮红害羞",
+    "character": "奶龙（原版）",
+    "filename": "nailong-original/extra-004.png",
+    "enabled": true,
+    "action": "腮红害羞",
+    "emotion": [
+      "疑惑",
+      "可爱"
+    ],
+    "scenes": [
+      "日常聊天",
+      "同学互动"
+    ],
+    "examples": [
+      "现在就是这个表情",
+      "收到收到"
+    ],
+    "intensity": 2,
+    "existing_text": "没有啊",
+    "source_type": "reference",
+    "author": "第七印象（角色）；素材制作者待核实",
+    "source_url": "https://m.ali213.net/news/gl2409/1511833.html",
+    "source_note": "游侠手游2024-09-28奶龙表情包合集公开图片；保留动画截图原样，非干净底图。 对照《小七和奶龙》原作形象确认：大圆头、短粗黄手爪、粉掌垫、尾巴。与小头巨腹、黑色细长手指的奶蛙分开。角色来自第七印象；具体图片制作/发布授权待核实。",
+    "role": "subject",
+    "is_cutout": false,
+    "templates": [
+      "top",
+      "bottom",
+      "split",
+      "frame",
+      "grid",
+      "message",
+      "poster",
+      "side",
+      "polaroid",
+      "bubble",
+      "dialogue",
+      "spotlight",
+      "comic",
+      "subtitle",
+      "note",
+      "window",
+      "ticket",
+      "medal",
+      "scene"
+    ]
+  },
+  {
+    "id": "original-nailong-static-005",
+    "name": "奶龙（原版） · 低头认错",
+    "character": "奶龙（原版）",
+    "filename": "nailong-original/extra-005.png",
+    "enabled": true,
+    "action": "低头认错",
+    "emotion": [
+      "委屈",
+      "难过"
+    ],
+    "scenes": [
+      "日常聊天",
+      "同学互动"
+    ],
+    "examples": [
+      "现在就是这个表情",
+      "收到收到"
+    ],
+    "intensity": 2,
+    "existing_text": "我错了",
+    "source_type": "reference",
+    "author": "第七印象（角色）；素材制作者待核实",
+    "source_url": "https://m.ali213.net/news/gl2409/1511833.html",
+    "source_note": "游侠手游2024-09-28奶龙表情包合集公开图片；保留动画截图原样，非干净底图。 对照《小七和奶龙》原作形象确认：大圆头、短粗黄手爪、粉掌垫、尾巴。与小头巨腹、黑色细长手指的奶蛙分开。角色来自第七印象；具体图片制作/发布授权待核实。",
+    "role": "subject",
+    "is_cutout": false,
+    "templates": [
+      "top",
+      "bottom",
+      "split",
+      "frame",
+      "grid",
+      "message",
+      "poster",
+      "side",
+      "polaroid",
+      "bubble",
+      "dialogue",
+      "spotlight",
+      "comic",
+      "subtitle",
+      "note",
+      "window",
+      "ticket",
+      "medal",
+      "scene"
+    ]
+  },
+  {
+    "id": "original-nailong-static-006",
+    "name": "奶龙（原版） · 张嘴质问",
+    "character": "奶龙（原版）",
+    "filename": "nailong-original/extra-006.png",
+    "enabled": true,
+    "action": "张嘴质问",
+    "emotion": [
+      "疑惑",
+      "可爱"
+    ],
+    "scenes": [
+      "日常聊天",
+      "同学互动"
+    ],
+    "examples": [
+      "现在就是这个表情",
+      "收到收到"
+    ],
+    "intensity": 2,
+    "existing_text": "咋滴",
+    "source_type": "reference",
+    "author": "第七印象（角色）；素材制作者待核实",
+    "source_url": "https://m.ali213.net/news/gl2409/1511833.html",
+    "source_note": "游侠手游2024-09-28奶龙表情包合集公开图片；保留动画截图原样，非干净底图。 对照《小七和奶龙》原作形象确认：大圆头、短粗黄手爪、粉掌垫、尾巴。与小头巨腹、黑色细长手指的奶蛙分开。角色来自第七印象；具体图片制作/发布授权待核实。",
+    "role": "subject",
+    "is_cutout": false,
+    "templates": [
+      "top",
+      "bottom",
+      "split",
+      "frame",
+      "grid",
+      "message",
+      "poster",
+      "side",
+      "polaroid",
+      "bubble",
+      "dialogue",
+      "spotlight",
+      "comic",
+      "subtitle",
+      "note",
+      "window",
+      "ticket",
+      "medal",
+      "scene"
+    ]
+  },
+  {
+    "id": "original-nailong-static-007",
+    "name": "奶龙（原版） · 侧头自豪",
+    "character": "奶龙（原版）",
+    "filename": "nailong-original/extra-007.png",
+    "enabled": true,
+    "action": "侧头自豪",
+    "emotion": [
+      "疑惑",
+      "可爱"
+    ],
+    "scenes": [
+      "日常聊天",
+      "同学互动"
+    ],
+    "examples": [
+      "现在就是这个表情",
+      "收到收到"
+    ],
+    "intensity": 2,
+    "existing_text": "还dai是我",
+    "source_type": "reference",
+    "author": "第七印象（角色）；素材制作者待核实",
+    "source_url": "https://m.ali213.net/news/gl2409/1511833.html",
+    "source_note": "游侠手游2024-09-28奶龙表情包合集公开图片；保留动画截图原样，非干净底图。 对照《小七和奶龙》原作形象确认：大圆头、短粗黄手爪、粉掌垫、尾巴。与小头巨腹、黑色细长手指的奶蛙分开。角色来自第七印象；具体图片制作/发布授权待核实。",
+    "role": "subject",
+    "is_cutout": false,
+    "templates": [
+      "top",
+      "bottom",
+      "split",
+      "frame",
+      "grid",
+      "message",
+      "poster",
+      "side",
+      "polaroid",
+      "bubble",
+      "dialogue",
+      "spotlight",
+      "comic",
+      "subtitle",
+      "note",
+      "window",
+      "ticket",
+      "medal",
+      "scene"
+    ]
+  },
+  {
+    "id": "original-nailong-static-008",
+    "name": "奶龙（原版） · 握手惊讶",
+    "character": "奶龙（原版）",
+    "filename": "nailong-original/extra-008.png",
+    "enabled": true,
+    "action": "握手惊讶",
+    "emotion": [
+      "疑惑",
+      "可爱"
+    ],
+    "scenes": [
+      "日常聊天",
+      "同学互动"
+    ],
+    "examples": [
+      "现在就是这个表情",
+      "收到收到"
+    ],
+    "intensity": 2,
+    "existing_text": "妈耶",
+    "source_type": "reference",
+    "author": "第七印象（角色）；素材制作者待核实",
+    "source_url": "https://m.ali213.net/news/gl2409/1511833.html",
+    "source_note": "游侠手游2024-09-28奶龙表情包合集公开图片；保留动画截图原样，非干净底图。 对照《小七和奶龙》原作形象确认：大圆头、短粗黄手爪、粉掌垫、尾巴。与小头巨腹、黑色细长手指的奶蛙分开。角色来自第七印象；具体图片制作/发布授权待核实。",
+    "role": "subject",
+    "is_cutout": false,
+    "templates": [
+      "top",
+      "bottom",
+      "split",
+      "frame",
+      "grid",
+      "message",
+      "poster",
+      "side",
+      "polaroid",
+      "bubble",
+      "dialogue",
+      "spotlight",
+      "comic",
+      "subtitle",
+      "note",
+      "window",
+      "ticket",
+      "medal",
+      "scene"
+    ]
+  },
+  {
+    "id": "original-nailong-static-009",
+    "name": "奶龙（原版） · 侧脸撒娇",
+    "character": "奶龙（原版）",
+    "filename": "nailong-original/extra-009.png",
+    "enabled": true,
+    "action": "侧脸撒娇",
+    "emotion": [
+      "疑惑",
+      "可爱"
+    ],
+    "scenes": [
+      "日常聊天",
+      "同学互动"
+    ],
+    "examples": [
+      "现在就是这个表情",
+      "收到收到"
+    ],
+    "intensity": 2,
+    "existing_text": "嗷呜~",
+    "source_type": "reference",
+    "author": "第七印象（角色）；素材制作者待核实",
+    "source_url": "https://m.ali213.net/news/gl2409/1511833.html",
+    "source_note": "游侠手游2024-09-28奶龙表情包合集公开图片；保留动画截图原样，非干净底图。 对照《小七和奶龙》原作形象确认：大圆头、短粗黄手爪、粉掌垫、尾巴。与小头巨腹、黑色细长手指的奶蛙分开。角色来自第七印象；具体图片制作/发布授权待核实。",
+    "role": "subject",
+    "is_cutout": false,
+    "templates": [
+      "top",
+      "bottom",
+      "split",
+      "frame",
+      "grid",
+      "message",
+      "poster",
+      "side",
+      "polaroid",
+      "bubble",
+      "dialogue",
+      "spotlight",
+      "comic",
+      "subtitle",
+      "note",
+      "window",
+      "ticket",
+      "medal",
+      "scene"
+    ]
+  },
+  {
+    "id": "original-nailong-static-010",
+    "name": "奶龙（原版） · 围裙发愣",
+    "character": "奶龙（原版）",
+    "filename": "nailong-original/extra-010.png",
+    "enabled": true,
+    "action": "围裙发愣",
+    "emotion": [
+      "疑惑",
+      "可爱"
+    ],
+    "scenes": [
+      "日常聊天",
+      "同学互动"
+    ],
+    "examples": [
+      "现在就是这个表情",
+      "收到收到"
+    ],
+    "intensity": 2,
+    "existing_text": "",
+    "source_type": "reference",
+    "author": "第七印象（角色）；素材制作者待核实",
+    "source_url": "https://m.ali213.net/news/gl2409/1511833.html",
+    "source_note": "游侠手游2024-09-28奶龙表情包合集公开图片；保留动画截图原样，非干净底图。 对照《小七和奶龙》原作形象确认：大圆头、短粗黄手爪、粉掌垫、尾巴。与小头巨腹、黑色细长手指的奶蛙分开。角色来自第七印象；具体图片制作/发布授权待核实。",
+    "role": "subject",
+    "is_cutout": false,
+    "templates": [
+      "top",
+      "bottom",
+      "split",
+      "frame",
+      "grid",
+      "message",
+      "poster",
+      "side",
+      "polaroid",
+      "bubble",
+      "dialogue",
+      "spotlight",
+      "comic",
+      "subtitle",
+      "note",
+      "window",
+      "ticket",
+      "medal",
+      "scene"
+    ]
+  },
+  {
+    "id": "original-nailong-static-011",
+    "name": "奶龙（原版） · 挑眉拒绝",
+    "character": "奶龙（原版）",
+    "filename": "nailong-original/extra-011.png",
+    "enabled": true,
+    "action": "挑眉拒绝",
+    "emotion": [
+      "疑惑",
+      "可爱"
+    ],
+    "scenes": [
+      "日常聊天",
+      "同学互动"
+    ],
+    "examples": [
+      "现在就是这个表情",
+      "收到收到"
+    ],
+    "intensity": 2,
+    "existing_text": "那可不行哦~",
+    "source_type": "reference",
+    "author": "第七印象（角色）；素材制作者待核实",
+    "source_url": "https://m.ali213.net/news/gl2409/1511833.html",
+    "source_note": "游侠手游2024-09-28奶龙表情包合集公开图片；保留动画截图原样，非干净底图。 对照《小七和奶龙》原作形象确认：大圆头、短粗黄手爪、粉掌垫、尾巴。与小头巨腹、黑色细长手指的奶蛙分开。角色来自第七印象；具体图片制作/发布授权待核实。",
+    "role": "subject",
+    "is_cutout": false,
+    "templates": [
+      "top",
+      "bottom",
+      "split",
+      "frame",
+      "grid",
+      "message",
+      "poster",
+      "side",
+      "polaroid",
+      "bubble",
+      "dialogue",
+      "spotlight",
+      "comic",
+      "subtitle",
+      "note",
+      "window",
+      "ticket",
+      "medal",
+      "scene"
+    ]
+  },
+  {
+    "id": "original-nailong-static-012",
+    "name": "奶龙（原版） · 水中站着",
+    "character": "奶龙（原版）",
+    "filename": "nailong-original/extra-012.png",
+    "enabled": true,
+    "action": "水中站着",
+    "emotion": [
+      "疑惑",
+      "可爱"
+    ],
+    "scenes": [
+      "日常聊天",
+      "同学互动"
+    ],
+    "examples": [
+      "现在就是这个表情",
+      "收到收到"
+    ],
+    "intensity": 2,
+    "existing_text": "",
+    "source_type": "reference",
+    "author": "第七印象（角色）；素材制作者待核实",
+    "source_url": "https://m.ali213.net/news/gl2409/1511833.html",
+    "source_note": "游侠手游2024-09-28奶龙表情包合集公开图片；保留动画截图原样，非干净底图。 对照《小七和奶龙》原作形象确认：大圆头、短粗黄手爪、粉掌垫、尾巴。与小头巨腹、黑色细长手指的奶蛙分开。角色来自第七印象；具体图片制作/发布授权待核实。",
+    "role": "subject",
+    "is_cutout": false,
+    "templates": [
+      "top",
+      "bottom",
+      "split",
+      "frame",
+      "grid",
+      "message",
+      "poster",
+      "side",
+      "polaroid",
+      "bubble",
+      "dialogue",
+      "spotlight",
+      "comic",
+      "subtitle",
+      "note",
+      "window",
+      "ticket",
+      "medal",
+      "scene"
+    ]
+  },
+  {
+    "id": "original-nailong-static-013",
+    "name": "奶龙（原版） · 树边探头",
+    "character": "奶龙（原版）",
+    "filename": "nailong-original/extra-013.png",
+    "enabled": true,
+    "action": "树边探头",
+    "emotion": [
+      "疑惑",
+      "可爱"
+    ],
+    "scenes": [
+      "日常聊天",
+      "同学互动"
+    ],
+    "examples": [
+      "现在就是这个表情",
+      "收到收到"
+    ],
+    "intensity": 2,
+    "existing_text": "",
+    "source_type": "reference",
+    "author": "第七印象（角色）；素材制作者待核实",
+    "source_url": "https://m.ali213.net/news/gl2409/1511833.html",
+    "source_note": "游侠手游2024-09-28奶龙表情包合集公开图片；保留动画截图原样，非干净底图。 对照《小七和奶龙》原作形象确认：大圆头、短粗黄手爪、粉掌垫、尾巴。与小头巨腹、黑色细长手指的奶蛙分开。角色来自第七印象；具体图片制作/发布授权待核实。",
+    "role": "subject",
+    "is_cutout": false,
+    "templates": [
+      "top",
+      "bottom",
+      "split",
+      "frame",
+      "grid",
+      "message",
+      "poster",
+      "side",
+      "polaroid",
+      "bubble",
+      "dialogue",
+      "spotlight",
+      "comic",
+      "subtitle",
+      "note",
+      "window",
+      "ticket",
+      "medal",
+      "scene"
+    ]
+  }
+]

@@ -1,0 +1,1322 @@
+[
+  {
+    "id": "ai-nun-01",
+    "name": "可爱大笨蛋 · 开心 · AI派生",
+    "character": "猫耳修女",
+    "filename": "generated-originals/ai-nun-01.png",
+    "emotion": [
+      "开心"
+    ],
+    "action": "开心",
+    "intensity": 2,
+    "scenes": [
+      "校园",
+      "日常聊天",
+      "写码科研"
+    ],
+    "examples": [
+      "今天，一起去上课。"
+    ],
+    "existing_text": "",
+    "source_type": "reference",
+    "author": "Emojis Plus（AI派生）",
+    "source_note": "参考用户提供的可爱大笨蛋猫耳修女角色；原角色作者及计算机手册背景按用户提供信息记录。本图由Emojis Plus使用内置ImageGen独立生成并审核，为AI派生表情，并非原作者亲绘。母版、提示词及审核记录见 generated-originals/records/nun-01.json",
+    "role": "subject",
+    "is_cutout": true,
+    "allow_flip": false,
+    "derived_from": "",
+    "text_safe_area": null
+  },
+  {
+    "id": "ai-nun-02",
+    "name": "可爱大笨蛋 · 偷笑 · AI派生",
+    "character": "猫耳修女",
+    "filename": "generated-originals/ai-nun-02.png",
+    "emotion": [
+      "偷笑"
+    ],
+    "action": "偷笑",
+    "intensity": 2,
+    "scenes": [
+      "校园",
+      "日常聊天",
+      "写码科研"
+    ],
+    "examples": [
+      "今天，一起去上课。"
+    ],
+    "existing_text": "",
+    "source_type": "reference",
+    "author": "Emojis Plus（AI派生）",
+    "source_note": "参考用户提供的可爱大笨蛋猫耳修女角色；原角色作者及计算机手册背景按用户提供信息记录。本图由Emojis Plus使用内置ImageGen独立生成并审核，为AI派生表情，并非原作者亲绘。母版、提示词及审核记录见 generated-originals/records/nun-02.json",
+    "role": "subject",
+    "is_cutout": true,
+    "allow_flip": false,
+    "derived_from": "",
+    "text_safe_area": null
+  },
+  {
+    "id": "ai-nun-03",
+    "name": "可爱大笨蛋 · 得意 · AI派生",
+    "character": "猫耳修女",
+    "filename": "generated-originals/ai-nun-03.png",
+    "emotion": [
+      "得意"
+    ],
+    "action": "得意",
+    "intensity": 2,
+    "scenes": [
+      "校园",
+      "日常聊天",
+      "写码科研"
+    ],
+    "examples": [
+      "今天，一起去上课。"
+    ],
+    "existing_text": "",
+    "source_type": "reference",
+    "author": "Emojis Plus（AI派生）",
+    "source_note": "参考用户提供的可爱大笨蛋猫耳修女角色；原角色作者及计算机手册背景按用户提供信息记录。本图由Emojis Plus使用内置ImageGen独立生成并审核，为AI派生表情，并非原作者亲绘。母版、提示词及审核记录见 generated-originals/records/nun-03.json",
+    "role": "subject",
+    "is_cutout": true,
+    "allow_flip": false,
+    "derived_from": "",
+    "text_safe_area": null
+  },
+  {
+    "id": "ai-nun-04",
+    "name": "可爱大笨蛋 · 害羞 · AI派生",
+    "character": "猫耳修女",
+    "filename": "generated-originals/ai-nun-04.png",
+    "emotion": [
+      "害羞"
+    ],
+    "action": "害羞",
+    "intensity": 2,
+    "scenes": [
+      "校园",
+      "日常聊天",
+      "写码科研"
+    ],
+    "examples": [
+      "今天，一起去上课。"
+    ],
+    "existing_text": "",
+    "source_type": "reference",
+    "author": "Emojis Plus（AI派生）",
+    "source_note": "参考用户提供的可爱大笨蛋猫耳修女角色；原角色作者及计算机手册背景按用户提供信息记录。本图由Emojis Plus使用内置ImageGen独立生成并审核，为AI派生表情，并非原作者亲绘。母版、提示词及审核记录见 generated-originals/records/nun-04.json",
+    "role": "subject",
+    "is_cutout": true,
+    "allow_flip": false,
+    "derived_from": "",
+    "text_safe_area": null
+  },
+  {
+    "id": "ai-nun-05",
+    "name": "可爱大笨蛋 · 委屈 · AI派生",
+    "character": "猫耳修女",
+    "filename": "generated-originals/ai-nun-05.png",
+    "emotion": [
+      "委屈"
+    ],
+    "action": "委屈",
+    "intensity": 2,
+    "scenes": [
+      "校园",
+      "日常聊天",
+      "写码科研"
+    ],
+    "examples": [
+      "今天，一起去上课。"
+    ],
+    "existing_text": "",
+    "source_type": "reference",
+    "author": "Emojis Plus（AI派生）",
+    "source_note": "参考用户提供的可爱大笨蛋猫耳修女角色；原角色作者及计算机手册背景按用户提供信息记录。本图由Emojis Plus使用内置ImageGen独立生成并审核，为AI派生表情，并非原作者亲绘。母版、提示词及审核记录见 generated-originals/records/nun-05.json",
+    "role": "subject",
+    "is_cutout": true,
+    "allow_flip": false,
+    "derived_from": "",
+    "text_safe_area": null
+  },
+  {
+    "id": "ai-nun-06",
+    "name": "可爱大笨蛋 · 大哭 · AI派生",
+    "character": "猫耳修女",
+    "filename": "generated-originals/ai-nun-06.png",
+    "emotion": [
+      "大哭"
+    ],
+    "action": "大哭",
+    "intensity": 4,
+    "scenes": [
+      "校园",
+      "日常聊天",
+      "写码科研"
+    ],
+    "examples": [
+      "今天，一起去上课。"
+    ],
+    "existing_text": "",
+    "source_type": "reference",
+    "author": "Emojis Plus（AI派生）",
+    "source_note": "参考用户提供的可爱大笨蛋猫耳修女角色；原角色作者及计算机手册背景按用户提供信息记录。本图由Emojis Plus使用内置ImageGen独立生成并审核，为AI派生表情，并非原作者亲绘。母版、提示词及审核记录见 generated-originals/records/nun-06.json",
+    "role": "subject",
+    "is_cutout": true,
+    "allow_flip": false,
+    "derived_from": "",
+    "text_safe_area": null
+  },
+  {
+    "id": "ai-nun-07",
+    "name": "可爱大笨蛋 · 生气 · AI派生",
+    "character": "猫耳修女",
+    "filename": "generated-originals/ai-nun-07.png",
+    "emotion": [
+      "生气"
+    ],
+    "action": "生气",
+    "intensity": 4,
+    "scenes": [
+      "校园",
+      "日常聊天",
+      "写码科研"
+    ],
+    "examples": [
+      "今天，一起去上课。"
+    ],
+    "existing_text": "",
+    "source_type": "reference",
+    "author": "Emojis Plus（AI派生）",
+    "source_note": "参考用户提供的可爱大笨蛋猫耳修女角色；原角色作者及计算机手册背景按用户提供信息记录。本图由Emojis Plus使用内置ImageGen独立生成并审核，为AI派生表情，并非原作者亲绘。母版、提示词及审核记录见 generated-originals/records/nun-07.json",
+    "role": "subject",
+    "is_cutout": true,
+    "allow_flip": false,
+    "derived_from": "",
+    "text_safe_area": null
+  },
+  {
+    "id": "ai-nun-08",
+    "name": "可爱大笨蛋 · 无语 · AI派生",
+    "character": "猫耳修女",
+    "filename": "generated-originals/ai-nun-08.png",
+    "emotion": [
+      "无语"
+    ],
+    "action": "无语",
+    "intensity": 2,
+    "scenes": [
+      "校园",
+      "日常聊天",
+      "写码科研"
+    ],
+    "examples": [
+      "今天，一起去上课。"
+    ],
+    "existing_text": "",
+    "source_type": "reference",
+    "author": "Emojis Plus（AI派生）",
+    "source_note": "参考用户提供的可爱大笨蛋猫耳修女角色；原角色作者及计算机手册背景按用户提供信息记录。本图由Emojis Plus使用内置ImageGen独立生成并审核，为AI派生表情，并非原作者亲绘。母版、提示词及审核记录见 generated-originals/records/nun-08.json",
+    "role": "subject",
+    "is_cutout": true,
+    "allow_flip": false,
+    "derived_from": "",
+    "text_safe_area": null
+  },
+  {
+    "id": "ai-nun-09",
+    "name": "可爱大笨蛋 · 疑惑 · AI派生",
+    "character": "猫耳修女",
+    "filename": "generated-originals/ai-nun-09.png",
+    "emotion": [
+      "疑惑"
+    ],
+    "action": "疑惑",
+    "intensity": 2,
+    "scenes": [
+      "校园",
+      "日常聊天",
+      "写码科研"
+    ],
+    "examples": [
+      "今天，一起去上课。"
+    ],
+    "existing_text": "",
+    "source_type": "reference",
+    "author": "Emojis Plus（AI派生）",
+    "source_note": "参考用户提供的可爱大笨蛋猫耳修女角色；原角色作者及计算机手册背景按用户提供信息记录。本图由Emojis Plus使用内置ImageGen独立生成并审核，为AI派生表情，并非原作者亲绘。母版、提示词及审核记录见 generated-originals/records/nun-09.json",
+    "role": "subject",
+    "is_cutout": true,
+    "allow_flip": false,
+    "derived_from": "",
+    "text_safe_area": null
+  },
+  {
+    "id": "ai-nun-10",
+    "name": "可爱大笨蛋 · 震惊 · AI派生",
+    "character": "猫耳修女",
+    "filename": "generated-originals/ai-nun-10.png",
+    "emotion": [
+      "震惊"
+    ],
+    "action": "震惊",
+    "intensity": 4,
+    "scenes": [
+      "校园",
+      "日常聊天",
+      "写码科研"
+    ],
+    "examples": [
+      "今天，一起去上课。"
+    ],
+    "existing_text": "",
+    "source_type": "reference",
+    "author": "Emojis Plus（AI派生）",
+    "source_note": "参考用户提供的可爱大笨蛋猫耳修女角色；原角色作者及计算机手册背景按用户提供信息记录。本图由Emojis Plus使用内置ImageGen独立生成并审核，为AI派生表情，并非原作者亲绘。母版、提示词及审核记录见 generated-originals/records/nun-10.json",
+    "role": "subject",
+    "is_cutout": true,
+    "allow_flip": false,
+    "derived_from": "",
+    "text_safe_area": null
+  },
+  {
+    "id": "ai-nun-11",
+    "name": "可爱大笨蛋 · 害怕 · AI派生",
+    "character": "猫耳修女",
+    "filename": "generated-originals/ai-nun-11.png",
+    "emotion": [
+      "害怕"
+    ],
+    "action": "害怕",
+    "intensity": 2,
+    "scenes": [
+      "校园",
+      "日常聊天",
+      "写码科研"
+    ],
+    "examples": [
+      "今天，一起去上课。"
+    ],
+    "existing_text": "",
+    "source_type": "reference",
+    "author": "Emojis Plus（AI派生）",
+    "source_note": "参考用户提供的可爱大笨蛋猫耳修女角色；原角色作者及计算机手册背景按用户提供信息记录。本图由Emojis Plus使用内置ImageGen独立生成并审核，为AI派生表情，并非原作者亲绘。母版、提示词及审核记录见 generated-originals/records/nun-11.json",
+    "role": "subject",
+    "is_cutout": true,
+    "allow_flip": false,
+    "derived_from": "",
+    "text_safe_area": null
+  },
+  {
+    "id": "ai-nun-12",
+    "name": "可爱大笨蛋 · 疲惫 · AI派生",
+    "character": "猫耳修女",
+    "filename": "generated-originals/ai-nun-12.png",
+    "emotion": [
+      "疲惫"
+    ],
+    "action": "疲惫",
+    "intensity": 2,
+    "scenes": [
+      "校园",
+      "日常聊天",
+      "写码科研"
+    ],
+    "examples": [
+      "今天，一起去上课。"
+    ],
+    "existing_text": "",
+    "source_type": "reference",
+    "author": "Emojis Plus（AI派生）",
+    "source_note": "参考用户提供的可爱大笨蛋猫耳修女角色；原角色作者及计算机手册背景按用户提供信息记录。本图由Emojis Plus使用内置ImageGen独立生成并审核，为AI派生表情，并非原作者亲绘。母版、提示词及审核记录见 generated-originals/records/nun-12.json",
+    "role": "subject",
+    "is_cutout": true,
+    "allow_flip": false,
+    "derived_from": "",
+    "text_safe_area": null
+  },
+  {
+    "id": "ai-nun-13",
+    "name": "可爱大笨蛋 · 睡觉 · AI派生",
+    "character": "猫耳修女",
+    "filename": "generated-originals/ai-nun-13.png",
+    "emotion": [
+      "睡觉"
+    ],
+    "action": "睡觉",
+    "intensity": 2,
+    "scenes": [
+      "校园",
+      "日常聊天",
+      "写码科研"
+    ],
+    "examples": [
+      "今天，一起去上课。"
+    ],
+    "existing_text": "",
+    "source_type": "reference",
+    "author": "Emojis Plus（AI派生）",
+    "source_note": "参考用户提供的可爱大笨蛋猫耳修女角色；原角色作者及计算机手册背景按用户提供信息记录。本图由Emojis Plus使用内置ImageGen独立生成并审核，为AI派生表情，并非原作者亲绘。母版、提示词及审核记录见 generated-originals/records/nun-13.json",
+    "role": "subject",
+    "is_cutout": true,
+    "allow_flip": false,
+    "derived_from": "",
+    "text_safe_area": null
+  },
+  {
+    "id": "ai-nun-14",
+    "name": "可爱大笨蛋 · 眩晕 · AI派生",
+    "character": "猫耳修女",
+    "filename": "generated-originals/ai-nun-14.png",
+    "emotion": [
+      "眩晕"
+    ],
+    "action": "眩晕",
+    "intensity": 2,
+    "scenes": [
+      "校园",
+      "日常聊天",
+      "写码科研"
+    ],
+    "examples": [
+      "今天，一起去上课。"
+    ],
+    "existing_text": "",
+    "source_type": "reference",
+    "author": "Emojis Plus（AI派生）",
+    "source_note": "参考用户提供的可爱大笨蛋猫耳修女角色；原角色作者及计算机手册背景按用户提供信息记录。本图由Emojis Plus使用内置ImageGen独立生成并审核，为AI派生表情，并非原作者亲绘。母版、提示词及审核记录见 generated-originals/records/nun-14.json",
+    "role": "subject",
+    "is_cutout": true,
+    "allow_flip": false,
+    "derived_from": "",
+    "text_safe_area": null
+  },
+  {
+    "id": "ai-nun-15",
+    "name": "可爱大笨蛋 · 祈祷 · AI派生",
+    "character": "猫耳修女",
+    "filename": "generated-originals/ai-nun-15.png",
+    "emotion": [
+      "祈祷"
+    ],
+    "action": "祈祷，双手合十",
+    "intensity": 2,
+    "scenes": [
+      "校园",
+      "日常聊天",
+      "写码科研"
+    ],
+    "examples": [
+      "今天，一起去上课。"
+    ],
+    "existing_text": "",
+    "source_type": "reference",
+    "author": "Emojis Plus（AI派生）",
+    "source_note": "参考用户提供的可爱大笨蛋猫耳修女角色；原角色作者及计算机手册背景按用户提供信息记录。本图由Emojis Plus使用内置ImageGen独立生成并审核，为AI派生表情，并非原作者亲绘。母版、提示词及审核记录见 generated-originals/records/nun-15.json",
+    "role": "subject",
+    "is_cutout": true,
+    "allow_flip": false,
+    "derived_from": "",
+    "text_safe_area": null
+  },
+  {
+    "id": "ai-nun-16",
+    "name": "可爱大笨蛋 · 摊手 · AI派生",
+    "character": "猫耳修女",
+    "filename": "generated-originals/ai-nun-16.png",
+    "emotion": [
+      "摊手"
+    ],
+    "action": "摊手，两手掌朝上",
+    "intensity": 2,
+    "scenes": [
+      "校园",
+      "日常聊天",
+      "写码科研"
+    ],
+    "examples": [
+      "今天，一起去上课。"
+    ],
+    "existing_text": "",
+    "source_type": "reference",
+    "author": "Emojis Plus（AI派生）",
+    "source_note": "参考用户提供的可爱大笨蛋猫耳修女角色；原角色作者及计算机手册背景按用户提供信息记录。本图由Emojis Plus使用内置ImageGen独立生成并审核，为AI派生表情，并非原作者亲绘。母版、提示词及审核记录见 generated-originals/records/nun-16.json",
+    "role": "subject",
+    "is_cutout": true,
+    "allow_flip": false,
+    "derived_from": "",
+    "text_safe_area": null
+  },
+  {
+    "id": "ai-nun-17",
+    "name": "可爱大笨蛋 · 点赞 · AI派生",
+    "character": "猫耳修女",
+    "filename": "generated-originals/ai-nun-17.png",
+    "emotion": [
+      "点赞"
+    ],
+    "action": "点赞，举起大拇指",
+    "intensity": 2,
+    "scenes": [
+      "校园",
+      "日常聊天",
+      "写码科研"
+    ],
+    "examples": [
+      "今天，一起去上课。"
+    ],
+    "existing_text": "",
+    "source_type": "reference",
+    "author": "Emojis Plus（AI派生）",
+    "source_note": "参考用户提供的可爱大笨蛋猫耳修女角色；原角色作者及计算机手册背景按用户提供信息记录。本图由Emojis Plus使用内置ImageGen独立生成并审核，为AI派生表情，并非原作者亲绘。母版、提示词及审核记录见 generated-originals/records/nun-17.json",
+    "role": "subject",
+    "is_cutout": true,
+    "allow_flip": false,
+    "derived_from": "",
+    "text_safe_area": null
+  },
+  {
+    "id": "ai-nun-18",
+    "name": "可爱大笨蛋 · 招手 · AI派生",
+    "character": "猫耳修女",
+    "filename": "generated-originals/ai-nun-18.png",
+    "emotion": [
+      "招手"
+    ],
+    "action": "招手，一只手挥手",
+    "intensity": 2,
+    "scenes": [
+      "校园",
+      "日常聊天",
+      "写码科研"
+    ],
+    "examples": [
+      "今天，一起去上课。"
+    ],
+    "existing_text": "",
+    "source_type": "reference",
+    "author": "Emojis Plus（AI派生）",
+    "source_note": "参考用户提供的可爱大笨蛋猫耳修女角色；原角色作者及计算机手册背景按用户提供信息记录。本图由Emojis Plus使用内置ImageGen独立生成并审核，为AI派生表情，并非原作者亲绘。母版、提示词及审核记录见 generated-originals/records/nun-18.json",
+    "role": "subject",
+    "is_cutout": true,
+    "allow_flip": false,
+    "derived_from": "",
+    "text_safe_area": null
+  },
+  {
+    "id": "ai-nun-19",
+    "name": "可爱大笨蛋 · 比心 · AI派生",
+    "character": "猫耳修女",
+    "filename": "generated-originals/ai-nun-19.png",
+    "emotion": [
+      "比心"
+    ],
+    "action": "比心，两手比心",
+    "intensity": 2,
+    "scenes": [
+      "校园",
+      "日常聊天",
+      "写码科研"
+    ],
+    "examples": [
+      "今天，一起去上课。"
+    ],
+    "existing_text": "",
+    "source_type": "reference",
+    "author": "Emojis Plus（AI派生）",
+    "source_note": "参考用户提供的可爱大笨蛋猫耳修女角色；原角色作者及计算机手册背景按用户提供信息记录。本图由Emojis Plus使用内置ImageGen独立生成并审核，为AI派生表情，并非原作者亲绘。母版、提示词及审核记录见 generated-originals/records/nun-19.json",
+    "role": "subject",
+    "is_cutout": true,
+    "allow_flip": false,
+    "derived_from": "",
+    "text_safe_area": null
+  },
+  {
+    "id": "ai-nun-20",
+    "name": "可爱大笨蛋 · 向下指 · AI派生",
+    "character": "猫耳修女",
+    "filename": "generated-originals/ai-nun-20.png",
+    "emotion": [
+      "向下指"
+    ],
+    "action": "向下指，用食指指向下方",
+    "intensity": 2,
+    "scenes": [
+      "校园",
+      "日常聊天",
+      "写码科研"
+    ],
+    "examples": [
+      "今天，一起去上课。"
+    ],
+    "existing_text": "",
+    "source_type": "reference",
+    "author": "Emojis Plus（AI派生）",
+    "source_note": "参考用户提供的可爱大笨蛋猫耳修女角色；原角色作者及计算机手册背景按用户提供信息记录。本图由Emojis Plus使用内置ImageGen独立生成并审核，为AI派生表情，并非原作者亲绘。母版、提示词及审核记录见 generated-originals/records/nun-20.json",
+    "role": "subject",
+    "is_cutout": true,
+    "allow_flip": false,
+    "derived_from": "",
+    "text_safe_area": null
+  },
+  {
+    "id": "ai-nun-21",
+    "name": "可爱大笨蛋 · 举手提问 · AI派生",
+    "character": "猫耳修女",
+    "filename": "generated-originals/ai-nun-21.png",
+    "emotion": [
+      "举手提问"
+    ],
+    "action": "举手提问，一只手举高",
+    "intensity": 2,
+    "scenes": [
+      "校园",
+      "日常聊天",
+      "写码科研"
+    ],
+    "examples": [
+      "今天，一起去上课。"
+    ],
+    "existing_text": "",
+    "source_type": "reference",
+    "author": "Emojis Plus（AI派生）",
+    "source_note": "参考用户提供的可爱大笨蛋猫耳修女角色；原角色作者及计算机手册背景按用户提供信息记录。本图由Emojis Plus使用内置ImageGen独立生成并审核，为AI派生表情，并非原作者亲绘。母版、提示词及审核记录见 generated-originals/records/nun-21.json",
+    "role": "subject",
+    "is_cutout": true,
+    "allow_flip": false,
+    "derived_from": "",
+    "text_safe_area": null
+  },
+  {
+    "id": "ai-nun-22",
+    "name": "可爱大笨蛋 · 抱电脑 · AI派生",
+    "character": "猫耳修女",
+    "filename": "generated-originals/ai-nun-22.png",
+    "emotion": [
+      "抱电脑"
+    ],
+    "action": "抱电脑，怀抱无字笔记本电脑",
+    "intensity": 2,
+    "scenes": [
+      "校园",
+      "日常聊天",
+      "写码科研"
+    ],
+    "examples": [
+      "今天，一起去上课。"
+    ],
+    "existing_text": "",
+    "source_type": "reference",
+    "author": "Emojis Plus（AI派生）",
+    "source_note": "参考用户提供的可爱大笨蛋猫耳修女角色；原角色作者及计算机手册背景按用户提供信息记录。本图由Emojis Plus使用内置ImageGen独立生成并审核，为AI派生表情，并非原作者亲绘。母版、提示词及审核记录见 generated-originals/records/nun-22.json",
+    "role": "subject",
+    "is_cutout": true,
+    "allow_flip": false,
+    "derived_from": "",
+    "text_safe_area": null
+  },
+  {
+    "id": "ai-nun-23",
+    "name": "可爱大笨蛋 · 喝茶 · AI派生",
+    "character": "猫耳修女",
+    "filename": "generated-originals/ai-nun-23.png",
+    "emotion": [
+      "喝茶"
+    ],
+    "action": "喝茶，手捧茶杯",
+    "intensity": 2,
+    "scenes": [
+      "校园",
+      "日常聊天",
+      "写码科研"
+    ],
+    "examples": [
+      "今天，一起去上课。"
+    ],
+    "existing_text": "",
+    "source_type": "reference",
+    "author": "Emojis Plus（AI派生）",
+    "source_note": "参考用户提供的可爱大笨蛋猫耳修女角色；原角色作者及计算机手册背景按用户提供信息记录。本图由Emojis Plus使用内置ImageGen独立生成并审核，为AI派生表情，并非原作者亲绘。母版、提示词及审核记录见 generated-originals/records/nun-23.json",
+    "role": "subject",
+    "is_cutout": true,
+    "allow_flip": false,
+    "derived_from": "",
+    "text_safe_area": null
+  },
+  {
+    "id": "ai-nun-24",
+    "name": "可爱大笨蛋 · 认真读书 · AI派生",
+    "character": "猫耳修女",
+    "filename": "generated-originals/ai-nun-24.png",
+    "emotion": [
+      "认真读书"
+    ],
+    "action": "认真读书，手持无字封面书本",
+    "intensity": 2,
+    "scenes": [
+      "校园",
+      "日常聊天",
+      "写码科研"
+    ],
+    "examples": [
+      "今天，一起去上课。"
+    ],
+    "existing_text": "",
+    "source_type": "reference",
+    "author": "Emojis Plus（AI派生）",
+    "source_note": "参考用户提供的可爱大笨蛋猫耳修女角色；原角色作者及计算机手册背景按用户提供信息记录。本图由Emojis Plus使用内置ImageGen独立生成并审核，为AI派生表情，并非原作者亲绘。母版、提示词及审核记录见 generated-originals/records/nun-24.json",
+    "role": "subject",
+    "is_cutout": true,
+    "allow_flip": false,
+    "derived_from": "",
+    "text_safe_area": null
+  },
+  {
+    "id": "ai-worm-01",
+    "name": "毛毛虫 · 平静 · AI派生",
+    "character": "毛毛虫",
+    "filename": "generated-originals/ai-worm-01.png",
+    "emotion": [
+      "平静"
+    ],
+    "action": "平静",
+    "intensity": 2,
+    "scenes": [
+      "日常聊天",
+      "情绪表达"
+    ],
+    "examples": [
+      "我先缓一缓"
+    ],
+    "existing_text": "",
+    "source_type": "reference",
+    "author": "Emojis Plus（AI派生）",
+    "source_note": "参考用户指定的原创毛毛虫角色。本图由Emojis Plus使用内置ImageGen独立生成并审核，为AI派生表情，并非原作者亲绘。母版、提示词及审核记录见 generated-originals/records/worm-01.json",
+    "role": "subject",
+    "is_cutout": true,
+    "allow_flip": true,
+    "derived_from": "",
+    "text_safe_area": null
+  },
+  {
+    "id": "ai-worm-02",
+    "name": "毛毛虫 · 开心 · AI派生",
+    "character": "毛毛虫",
+    "filename": "generated-originals/ai-worm-02.png",
+    "emotion": [
+      "开心"
+    ],
+    "action": "开心",
+    "intensity": 2,
+    "scenes": [
+      "日常聊天",
+      "情绪表达"
+    ],
+    "examples": [
+      "我先缓一缓"
+    ],
+    "existing_text": "",
+    "source_type": "reference",
+    "author": "Emojis Plus（AI派生）",
+    "source_note": "参考用户指定的原创毛毛虫角色。本图由Emojis Plus使用内置ImageGen独立生成并审核，为AI派生表情，并非原作者亲绘。母版、提示词及审核记录见 generated-originals/records/worm-02.json",
+    "role": "subject",
+    "is_cutout": true,
+    "allow_flip": true,
+    "derived_from": "",
+    "text_safe_area": null
+  },
+  {
+    "id": "ai-worm-03",
+    "name": "毛毛虫 · 大笑 · AI派生",
+    "character": "毛毛虫",
+    "filename": "generated-originals/ai-worm-03.png",
+    "emotion": [
+      "大笑"
+    ],
+    "action": "大笑",
+    "intensity": 2,
+    "scenes": [
+      "日常聊天",
+      "情绪表达"
+    ],
+    "examples": [
+      "我先缓一缓"
+    ],
+    "existing_text": "",
+    "source_type": "reference",
+    "author": "Emojis Plus（AI派生）",
+    "source_note": "参考用户指定的原创毛毛虫角色。本图由Emojis Plus使用内置ImageGen独立生成并审核，为AI派生表情，并非原作者亲绘。母版、提示词及审核记录见 generated-originals/records/worm-03.json",
+    "role": "subject",
+    "is_cutout": true,
+    "allow_flip": true,
+    "derived_from": "",
+    "text_safe_area": null
+  },
+  {
+    "id": "ai-worm-04",
+    "name": "毛毛虫 · 偷笑 · AI派生",
+    "character": "毛毛虫",
+    "filename": "generated-originals/ai-worm-04.png",
+    "emotion": [
+      "偷笑"
+    ],
+    "action": "偷笑",
+    "intensity": 2,
+    "scenes": [
+      "日常聊天",
+      "情绪表达"
+    ],
+    "examples": [
+      "我先缓一缓"
+    ],
+    "existing_text": "",
+    "source_type": "reference",
+    "author": "Emojis Plus（AI派生）",
+    "source_note": "参考用户指定的原创毛毛虫角色。本图由Emojis Plus使用内置ImageGen独立生成并审核，为AI派生表情，并非原作者亲绘。母版、提示词及审核记录见 generated-originals/records/worm-04.json",
+    "role": "subject",
+    "is_cutout": true,
+    "allow_flip": true,
+    "derived_from": "",
+    "text_safe_area": null
+  },
+  {
+    "id": "ai-worm-05",
+    "name": "毛毛虫 · 得意 · AI派生",
+    "character": "毛毛虫",
+    "filename": "generated-originals/ai-worm-05.png",
+    "emotion": [
+      "得意"
+    ],
+    "action": "得意",
+    "intensity": 2,
+    "scenes": [
+      "日常聊天",
+      "情绪表达"
+    ],
+    "examples": [
+      "我先缓一缓"
+    ],
+    "existing_text": "",
+    "source_type": "reference",
+    "author": "Emojis Plus（AI派生）",
+    "source_note": "参考用户指定的原创毛毛虫角色。本图由Emojis Plus使用内置ImageGen独立生成并审核，为AI派生表情，并非原作者亲绘。母版、提示词及审核记录见 generated-originals/records/worm-05.json",
+    "role": "subject",
+    "is_cutout": true,
+    "allow_flip": true,
+    "derived_from": "",
+    "text_safe_area": null
+  },
+  {
+    "id": "ai-worm-06",
+    "name": "毛毛虫 · 害羞 · AI派生",
+    "character": "毛毛虫",
+    "filename": "generated-originals/ai-worm-06.png",
+    "emotion": [
+      "害羞"
+    ],
+    "action": "害羞",
+    "intensity": 2,
+    "scenes": [
+      "日常聊天",
+      "情绪表达"
+    ],
+    "examples": [
+      "我先缓一缓"
+    ],
+    "existing_text": "",
+    "source_type": "reference",
+    "author": "Emojis Plus（AI派生）",
+    "source_note": "参考用户指定的原创毛毛虫角色。本图由Emojis Plus使用内置ImageGen独立生成并审核，为AI派生表情，并非原作者亲绘。母版、提示词及审核记录见 generated-originals/records/worm-06.json",
+    "role": "subject",
+    "is_cutout": true,
+    "allow_flip": true,
+    "derived_from": "",
+    "text_safe_area": null
+  },
+  {
+    "id": "ai-worm-07",
+    "name": "毛毛虫 · 爱心眼 · AI派生",
+    "character": "毛毛虫",
+    "filename": "generated-originals/ai-worm-07.png",
+    "emotion": [
+      "爱心眼"
+    ],
+    "action": "爱心眼",
+    "intensity": 2,
+    "scenes": [
+      "日常聊天",
+      "情绪表达"
+    ],
+    "examples": [
+      "我先缓一缓"
+    ],
+    "existing_text": "",
+    "source_type": "reference",
+    "author": "Emojis Plus（AI派生）",
+    "source_note": "参考用户指定的原创毛毛虫角色。本图由Emojis Plus使用内置ImageGen独立生成并审核，为AI派生表情，并非原作者亲绘。母版、提示词及审核记录见 generated-originals/records/worm-07.json",
+    "role": "subject",
+    "is_cutout": true,
+    "allow_flip": true,
+    "derived_from": "",
+    "text_safe_area": null
+  },
+  {
+    "id": "ai-worm-08",
+    "name": "毛毛虫 · 感动 · AI派生",
+    "character": "毛毛虫",
+    "filename": "generated-originals/ai-worm-08.png",
+    "emotion": [
+      "感动"
+    ],
+    "action": "感动",
+    "intensity": 2,
+    "scenes": [
+      "日常聊天",
+      "情绪表达"
+    ],
+    "examples": [
+      "我先缓一缓"
+    ],
+    "existing_text": "",
+    "source_type": "reference",
+    "author": "Emojis Plus（AI派生）",
+    "source_note": "参考用户指定的原创毛毛虫角色。本图由Emojis Plus使用内置ImageGen独立生成并审核，为AI派生表情，并非原作者亲绘。母版、提示词及审核记录见 generated-originals/records/worm-08.json",
+    "role": "subject",
+    "is_cutout": true,
+    "allow_flip": true,
+    "derived_from": "",
+    "text_safe_area": null
+  },
+  {
+    "id": "ai-worm-09",
+    "name": "毛毛虫 · 期待 · AI派生",
+    "character": "毛毛虫",
+    "filename": "generated-originals/ai-worm-09.png",
+    "emotion": [
+      "期待"
+    ],
+    "action": "期待",
+    "intensity": 2,
+    "scenes": [
+      "日常聊天",
+      "情绪表达"
+    ],
+    "examples": [
+      "我先缓一缓"
+    ],
+    "existing_text": "",
+    "source_type": "reference",
+    "author": "Emojis Plus（AI派生）",
+    "source_note": "参考用户指定的原创毛毛虫角色。本图由Emojis Plus使用内置ImageGen独立生成并审核，为AI派生表情，并非原作者亲绘。母版、提示词及审核记录见 generated-originals/records/worm-09.json",
+    "role": "subject",
+    "is_cutout": true,
+    "allow_flip": true,
+    "derived_from": "",
+    "text_safe_area": null
+  },
+  {
+    "id": "ai-worm-10",
+    "name": "毛毛虫 · 祈求 · AI派生",
+    "character": "毛毛虫",
+    "filename": "generated-originals/ai-worm-10.png",
+    "emotion": [
+      "祈求"
+    ],
+    "action": "祈求",
+    "intensity": 2,
+    "scenes": [
+      "日常聊天",
+      "情绪表达"
+    ],
+    "examples": [
+      "我先缓一缓"
+    ],
+    "existing_text": "",
+    "source_type": "reference",
+    "author": "Emojis Plus（AI派生）",
+    "source_note": "参考用户指定的原创毛毛虫角色。本图由Emojis Plus使用内置ImageGen独立生成并审核，为AI派生表情，并非原作者亲绘。母版、提示词及审核记录见 generated-originals/records/worm-10.json",
+    "role": "subject",
+    "is_cutout": true,
+    "allow_flip": true,
+    "derived_from": "",
+    "text_safe_area": null
+  },
+  {
+    "id": "ai-worm-11",
+    "name": "毛毛虫 · 疑惑 · AI派生",
+    "character": "毛毛虫",
+    "filename": "generated-originals/ai-worm-11.png",
+    "emotion": [
+      "疑惑"
+    ],
+    "action": "疑惑",
+    "intensity": 2,
+    "scenes": [
+      "日常聊天",
+      "情绪表达"
+    ],
+    "examples": [
+      "我先缓一缓"
+    ],
+    "existing_text": "",
+    "source_type": "reference",
+    "author": "Emojis Plus（AI派生）",
+    "source_note": "参考用户指定的原创毛毛虫角色。本图由Emojis Plus使用内置ImageGen独立生成并审核，为AI派生表情，并非原作者亲绘。母版、提示词及审核记录见 generated-originals/records/worm-11.json",
+    "role": "subject",
+    "is_cutout": true,
+    "allow_flip": true,
+    "derived_from": "",
+    "text_safe_area": null
+  },
+  {
+    "id": "ai-worm-12",
+    "name": "毛毛虫 · 思考 · AI派生",
+    "character": "毛毛虫",
+    "filename": "generated-originals/ai-worm-12.png",
+    "emotion": [
+      "思考"
+    ],
+    "action": "思考",
+    "intensity": 2,
+    "scenes": [
+      "日常聊天",
+      "情绪表达"
+    ],
+    "examples": [
+      "我先缓一缓"
+    ],
+    "existing_text": "",
+    "source_type": "reference",
+    "author": "Emojis Plus（AI派生）",
+    "source_note": "参考用户指定的原创毛毛虫角色。本图由Emojis Plus使用内置ImageGen独立生成并审核，为AI派生表情，并非原作者亲绘。母版、提示词及审核记录见 generated-originals/records/worm-12.json",
+    "role": "subject",
+    "is_cutout": true,
+    "allow_flip": true,
+    "derived_from": "",
+    "text_safe_area": null
+  },
+  {
+    "id": "ai-worm-13",
+    "name": "毛毛虫 · 震惊 · AI派生",
+    "character": "毛毛虫",
+    "filename": "generated-originals/ai-worm-13.png",
+    "emotion": [
+      "震惊"
+    ],
+    "action": "震惊",
+    "intensity": 4,
+    "scenes": [
+      "日常聊天",
+      "情绪表达"
+    ],
+    "examples": [
+      "我先缓一缓"
+    ],
+    "existing_text": "",
+    "source_type": "reference",
+    "author": "Emojis Plus（AI派生）",
+    "source_note": "参考用户指定的原创毛毛虫角色。本图由Emojis Plus使用内置ImageGen独立生成并审核，为AI派生表情，并非原作者亲绘。母版、提示词及审核记录见 generated-originals/records/worm-13.json",
+    "role": "subject",
+    "is_cutout": true,
+    "allow_flip": true,
+    "derived_from": "",
+    "text_safe_area": null
+  },
+  {
+    "id": "ai-worm-14",
+    "name": "毛毛虫 · 害怕 · AI派生",
+    "character": "毛毛虫",
+    "filename": "generated-originals/ai-worm-14.png",
+    "emotion": [
+      "害怕"
+    ],
+    "action": "害怕",
+    "intensity": 2,
+    "scenes": [
+      "日常聊天",
+      "情绪表达"
+    ],
+    "examples": [
+      "我先缓一缓"
+    ],
+    "existing_text": "",
+    "source_type": "reference",
+    "author": "Emojis Plus（AI派生）",
+    "source_note": "参考用户指定的原创毛毛虫角色。本图由Emojis Plus使用内置ImageGen独立生成并审核，为AI派生表情，并非原作者亲绘。母版、提示词及审核记录见 generated-originals/records/worm-14.json",
+    "role": "subject",
+    "is_cutout": true,
+    "allow_flip": true,
+    "derived_from": "",
+    "text_safe_area": null
+  },
+  {
+    "id": "ai-worm-15",
+    "name": "毛毛虫 · 紧张 · AI派生",
+    "character": "毛毛虫",
+    "filename": "generated-originals/ai-worm-15.png",
+    "emotion": [
+      "紧张"
+    ],
+    "action": "紧张",
+    "intensity": 2,
+    "scenes": [
+      "日常聊天",
+      "情绪表达"
+    ],
+    "examples": [
+      "我先缓一缓"
+    ],
+    "existing_text": "",
+    "source_type": "reference",
+    "author": "Emojis Plus（AI派生）",
+    "source_note": "参考用户指定的原创毛毛虫角色。本图由Emojis Plus使用内置ImageGen独立生成并审核，为AI派生表情，并非原作者亲绘。母版、提示词及审核记录见 generated-originals/records/worm-15.json",
+    "role": "subject",
+    "is_cutout": true,
+    "allow_flip": true,
+    "derived_from": "",
+    "text_safe_area": null
+  },
+  {
+    "id": "ai-worm-16",
+    "name": "毛毛虫 · 生气 · AI派生",
+    "character": "毛毛虫",
+    "filename": "generated-originals/ai-worm-16.png",
+    "emotion": [
+      "生气"
+    ],
+    "action": "生气",
+    "intensity": 4,
+    "scenes": [
+      "日常聊天",
+      "情绪表达"
+    ],
+    "examples": [
+      "我先缓一缓"
+    ],
+    "existing_text": "",
+    "source_type": "reference",
+    "author": "Emojis Plus（AI派生）",
+    "source_note": "参考用户指定的原创毛毛虫角色。本图由Emojis Plus使用内置ImageGen独立生成并审核，为AI派生表情，并非原作者亲绘。母版、提示词及审核记录见 generated-originals/records/worm-16.json",
+    "role": "subject",
+    "is_cutout": true,
+    "allow_flip": true,
+    "derived_from": "",
+    "text_safe_area": null
+  },
+  {
+    "id": "ai-worm-17",
+    "name": "毛毛虫 · 嫌弃 · AI派生",
+    "character": "毛毛虫",
+    "filename": "generated-originals/ai-worm-17.png",
+    "emotion": [
+      "嫌弃"
+    ],
+    "action": "嫌弃",
+    "intensity": 2,
+    "scenes": [
+      "日常聊天",
+      "情绪表达"
+    ],
+    "examples": [
+      "我先缓一缓"
+    ],
+    "existing_text": "",
+    "source_type": "reference",
+    "author": "Emojis Plus（AI派生）",
+    "source_note": "参考用户指定的原创毛毛虫角色。本图由Emojis Plus使用内置ImageGen独立生成并审核，为AI派生表情，并非原作者亲绘。母版、提示词及审核记录见 generated-originals/records/worm-17.json",
+    "role": "subject",
+    "is_cutout": true,
+    "allow_flip": true,
+    "derived_from": "",
+    "text_safe_area": null
+  },
+  {
+    "id": "ai-worm-18",
+    "name": "毛毛虫 · 无语 · AI派生",
+    "character": "毛毛虫",
+    "filename": "generated-originals/ai-worm-18.png",
+    "emotion": [
+      "无语"
+    ],
+    "action": "无语",
+    "intensity": 2,
+    "scenes": [
+      "日常聊天",
+      "情绪表达"
+    ],
+    "examples": [
+      "我先缓一缓"
+    ],
+    "existing_text": "",
+    "source_type": "reference",
+    "author": "Emojis Plus（AI派生）",
+    "source_note": "参考用户指定的原创毛毛虫角色。本图由Emojis Plus使用内置ImageGen独立生成并审核，为AI派生表情，并非原作者亲绘。母版、提示词及审核记录见 generated-originals/records/worm-18.json",
+    "role": "subject",
+    "is_cutout": true,
+    "allow_flip": true,
+    "derived_from": "",
+    "text_safe_area": null
+  },
+  {
+    "id": "ai-worm-19",
+    "name": "毛毛虫 · 委屈 · AI派生",
+    "character": "毛毛虫",
+    "filename": "generated-originals/ai-worm-19.png",
+    "emotion": [
+      "委屈"
+    ],
+    "action": "委屈",
+    "intensity": 2,
+    "scenes": [
+      "日常聊天",
+      "情绪表达"
+    ],
+    "examples": [
+      "我先缓一缓"
+    ],
+    "existing_text": "",
+    "source_type": "reference",
+    "author": "Emojis Plus（AI派生）",
+    "source_note": "参考用户指定的原创毛毛虫角色。本图由Emojis Plus使用内置ImageGen独立生成并审核，为AI派生表情，并非原作者亲绘。母版、提示词及审核记录见 generated-originals/records/worm-19.json",
+    "role": "subject",
+    "is_cutout": true,
+    "allow_flip": true,
+    "derived_from": "",
+    "text_safe_area": null
+  },
+  {
+    "id": "ai-worm-20",
+    "name": "毛毛虫 · 哭泣 · AI派生",
+    "character": "毛毛虫",
+    "filename": "generated-originals/ai-worm-20.png",
+    "emotion": [
+      "哭泣"
+    ],
+    "action": "哭泣",
+    "intensity": 2,
+    "scenes": [
+      "日常聊天",
+      "情绪表达"
+    ],
+    "examples": [
+      "我先缓一缓"
+    ],
+    "existing_text": "",
+    "source_type": "reference",
+    "author": "Emojis Plus（AI派生）",
+    "source_note": "参考用户指定的原创毛毛虫角色。本图由Emojis Plus使用内置ImageGen独立生成并审核，为AI派生表情，并非原作者亲绘。母版、提示词及审核记录见 generated-originals/records/worm-20.json",
+    "role": "subject",
+    "is_cutout": true,
+    "allow_flip": true,
+    "derived_from": "",
+    "text_safe_area": null
+  },
+  {
+    "id": "ai-worm-21",
+    "name": "毛毛虫 · 绝望 · AI派生",
+    "character": "毛毛虫",
+    "filename": "generated-originals/ai-worm-21.png",
+    "emotion": [
+      "绝望"
+    ],
+    "action": "绝望",
+    "intensity": 4,
+    "scenes": [
+      "日常聊天",
+      "情绪表达"
+    ],
+    "examples": [
+      "我先缓一缓"
+    ],
+    "existing_text": "",
+    "source_type": "reference",
+    "author": "Emojis Plus（AI派生）",
+    "source_note": "参考用户指定的原创毛毛虫角色。本图由Emojis Plus使用内置ImageGen独立生成并审核，为AI派生表情，并非原作者亲绘。母版、提示词及审核记录见 generated-originals/records/worm-21.json",
+    "role": "subject",
+    "is_cutout": true,
+    "allow_flip": true,
+    "derived_from": "",
+    "text_safe_area": null
+  },
+  {
+    "id": "ai-worm-22",
+    "name": "毛毛虫 · 疲惫 · AI派生",
+    "character": "毛毛虫",
+    "filename": "generated-originals/ai-worm-22.png",
+    "emotion": [
+      "疲惫"
+    ],
+    "action": "疲惫",
+    "intensity": 2,
+    "scenes": [
+      "日常聊天",
+      "情绪表达"
+    ],
+    "examples": [
+      "我先缓一缓"
+    ],
+    "existing_text": "",
+    "source_type": "reference",
+    "author": "Emojis Plus（AI派生）",
+    "source_note": "参考用户指定的原创毛毛虫角色。本图由Emojis Plus使用内置ImageGen独立生成并审核，为AI派生表情，并非原作者亲绘。母版、提示词及审核记录见 generated-originals/records/worm-22.json",
+    "role": "subject",
+    "is_cutout": true,
+    "allow_flip": true,
+    "derived_from": "",
+    "text_safe_area": null
+  },
+  {
+    "id": "ai-worm-23",
+    "name": "毛毛虫 · 困倦 · AI派生",
+    "character": "毛毛虫",
+    "filename": "generated-originals/ai-worm-23.png",
+    "emotion": [
+      "困倦"
+    ],
+    "action": "困倦",
+    "intensity": 2,
+    "scenes": [
+      "日常聊天",
+      "情绪表达"
+    ],
+    "examples": [
+      "我先缓一缓"
+    ],
+    "existing_text": "",
+    "source_type": "reference",
+    "author": "Emojis Plus（AI派生）",
+    "source_note": "参考用户指定的原创毛毛虫角色。本图由Emojis Plus使用内置ImageGen独立生成并审核，为AI派生表情，并非原作者亲绘。母版、提示词及审核记录见 generated-originals/records/worm-23.json",
+    "role": "subject",
+    "is_cutout": true,
+    "allow_flip": true,
+    "derived_from": "",
+    "text_safe_area": null
+  },
+  {
+    "id": "ai-worm-24",
+    "name": "毛毛虫 · 眩晕 · AI派生",
+    "character": "毛毛虫",
+    "filename": "generated-originals/ai-worm-24.png",
+    "emotion": [
+      "眩晕"
+    ],
+    "action": "眩晕",
+    "intensity": 2,
+    "scenes": [
+      "日常聊天",
+      "情绪表达"
+    ],
+    "examples": [
+      "我先缓一缓"
+    ],
+    "existing_text": "",
+    "source_type": "reference",
+    "author": "Emojis Plus（AI派生）",
+    "source_note": "参考用户指定的原创毛毛虫角色。本图由Emojis Plus使用内置ImageGen独立生成并审核，为AI派生表情，并非原作者亲绘。母版、提示词及审核记录见 generated-originals/records/worm-24.json",
+    "role": "subject",
+    "is_cutout": true,
+    "allow_flip": true,
+    "derived_from": "",
+    "text_safe_area": null
+  }
+]

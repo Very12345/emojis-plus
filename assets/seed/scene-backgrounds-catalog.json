@@ -1,0 +1,342 @@
+[
+  {
+    "id": "scene-niulai-fan-desert",
+    "name": "牛来同人场景 · 黄沙荒漠",
+    "character": "牛来场景（同人）",
+    "filename": "scenes/scene-niulai-fan-desert.png",
+    "action": "连绵黄沙、开阔天空与干燥地面",
+    "emotion": [
+      "平静",
+      "氛围"
+    ],
+    "scenes": [
+      "沙漠",
+      "迷路",
+      "迁徙"
+    ],
+    "examples": [
+      "今天在这里摸鱼",
+      "大家一起出发"
+    ],
+    "author": "Neta Studio 牛来入梦项目（页面标注 GPT Image 2 生成）",
+    "source_url": "https://neta.art/explore/work/zh/niulai-rumeng",
+    "source_note": "公开同人游戏《牛来入梦》的 AI 生成场景美术，页面说明参考《牛来》的世界与场景。不是电影原帧，也不是本项目创作。原作者及二改、再分发授权尚未独立核实；保留具体来源。主体留空，可叠加角色。",
+    "role": "background",
+    "is_cutout": false,
+    "existing_text": "",
+    "intensity": 1,
+    "source_type": "reference",
+    "templates": [
+      "top",
+      "bottom",
+      "split",
+      "frame"
+    ]
+  },
+  {
+    "id": "scene-niulai-fan-grassland",
+    "name": "牛来同人场景 · 绿草平原",
+    "character": "牛来场景（同人）",
+    "filename": "scenes/scene-niulai-fan-grassland.png",
+    "action": "黄绿色草地与柔和起伏的丘陵",
+    "emotion": [
+      "平静",
+      "氛围"
+    ],
+    "scenes": [
+      "草原",
+      "出游",
+      "发呆"
+    ],
+    "examples": [
+      "今天在这里摸鱼",
+      "大家一起出发"
+    ],
+    "author": "Neta Studio 牛来入梦项目（页面标注 GPT Image 2 生成）",
+    "source_url": "https://neta.art/explore/work/zh/niulai-rumeng",
+    "source_note": "公开同人游戏《牛来入梦》的 AI 生成场景美术，页面说明参考《牛来》的世界与场景。不是电影原帧，也不是本项目创作。原作者及二改、再分发授权尚未独立核实；保留具体来源。主体留空，可叠加角色。",
+    "role": "background",
+    "is_cutout": false,
+    "existing_text": "",
+    "intensity": 1,
+    "source_type": "reference",
+    "templates": [
+      "top",
+      "bottom",
+      "split",
+      "frame"
+    ]
+  },
+  {
+    "id": "scene-niulai-fan-forest",
+    "name": "牛来同人场景 · 绿野森林",
+    "character": "牛来场景（同人）",
+    "filename": "scenes/scene-niulai-fan-forest.png",
+    "action": "绿树环绕的空地与透过叶隙的光线",
+    "emotion": [
+      "平静",
+      "氛围"
+    ],
+    "scenes": [
+      "森林",
+      "散步",
+      "休息"
+    ],
+    "examples": [
+      "今天在这里摸鱼",
+      "大家一起出发"
+    ],
+    "author": "Neta Studio 牛来入梦项目（页面标注 GPT Image 2 生成）",
+    "source_url": "https://neta.art/explore/work/zh/niulai-rumeng",
+    "source_note": "公开同人游戏《牛来入梦》的 AI 生成场景美术，页面说明参考《牛来》的世界与场景。不是电影原帧，也不是本项目创作。原作者及二改、再分发授权尚未独立核实；保留具体来源。主体留空，可叠加角色。",
+    "role": "background",
+    "is_cutout": false,
+    "existing_text": "",
+    "intensity": 1,
+    "source_type": "reference",
+    "templates": [
+      "top",
+      "bottom",
+      "split",
+      "frame"
+    ]
+  },
+  {
+    "id": "scene-niulai-fan-dream-forest",
+    "name": "牛来同人场景 · 落雨紫林",
+    "character": "牛来场景（同人）",
+    "filename": "scenes/scene-niulai-fan-dream-forest.png",
+    "action": "蓝紫色森林、轻雾与落雨的梦境",
+    "emotion": [
+      "平静",
+      "氛围"
+    ],
+    "scenes": [
+      "梦境",
+      "下雨",
+      "emo"
+    ],
+    "examples": [
+      "今天在这里摸鱼",
+      "大家一起出发"
+    ],
+    "author": "Neta Studio 牛来入梦项目（页面标注 GPT Image 2 生成）",
+    "source_url": "https://neta.art/explore/work/zh/niulai-rumeng",
+    "source_note": "公开同人游戏《牛来入梦》的 AI 生成场景美术，页面说明参考《牛来》的世界与场景。不是电影原帧，也不是本项目创作。原作者及二改、再分发授权尚未独立核实；保留具体来源。主体留空，可叠加角色。",
+    "role": "background",
+    "is_cutout": false,
+    "existing_text": "",
+    "intensity": 1,
+    "source_type": "reference",
+    "templates": [
+      "top",
+      "bottom",
+      "split",
+      "frame"
+    ]
+  },
+  {
+    "id": "scene-niulai-fan-woodland",
+    "name": "牛来同人场景 · 圆冠绿林",
+    "character": "牛来场景（同人）",
+    "filename": "scenes/scene-niulai-fan-woodland.png",
+    "action": "圆润的树冠与午后的绿林空地",
+    "emotion": [
+      "平静",
+      "氛围"
+    ],
+    "scenes": [
+      "树林",
+      "午后",
+      "摸鱼"
+    ],
+    "examples": [
+      "今天在这里摸鱼",
+      "大家一起出发"
+    ],
+    "author": "Neta Studio 牛来入梦项目（页面标注 GPT Image 2 生成）",
+    "source_url": "https://neta.art/explore/work/zh/niulai-rumeng",
+    "source_note": "公开同人游戏《牛来入梦》的 AI 生成场景美术，页面说明参考《牛来》的世界与场景。不是电影原帧，也不是本项目创作。原作者及二改、再分发授权尚未独立核实；保留具体来源。主体留空，可叠加角色。",
+    "role": "background",
+    "is_cutout": false,
+    "existing_text": "",
+    "intensity": 1,
+    "source_type": "reference",
+    "templates": [
+      "top",
+      "bottom",
+      "split",
+      "frame"
+    ]
+  },
+  {
+    "id": "scene-niulai-fan-mountains",
+    "name": "牛来同人场景 · 橙空群山",
+    "character": "牛来场景（同人）",
+    "filename": "scenes/scene-niulai-fan-mountains.png",
+    "action": "橙色天空下的重叠群山",
+    "emotion": [
+      "平静",
+      "氛围"
+    ],
+    "scenes": [
+      "群山",
+      "黄昏",
+      "远行"
+    ],
+    "examples": [
+      "今天在这里摸鱼",
+      "大家一起出发"
+    ],
+    "author": "Neta Studio 牛来入梦项目（页面标注 GPT Image 2 生成）",
+    "source_url": "https://neta.art/explore/work/zh/niulai-rumeng",
+    "source_note": "公开同人游戏《牛来入梦》的 AI 生成场景美术，页面说明参考《牛来》的世界与场景。不是电影原帧，也不是本项目创作。原作者及二改、再分发授权尚未独立核实；保留具体来源。主体留空，可叠加角色。",
+    "role": "background",
+    "is_cutout": false,
+    "existing_text": "",
+    "intensity": 1,
+    "source_type": "reference",
+    "templates": [
+      "top",
+      "bottom",
+      "split",
+      "frame"
+    ]
+  },
+  {
+    "id": "scene-niulai-fan-night-woodland",
+    "name": "牛来同人场景 · 夜空石林",
+    "character": "牛来场景（同人）",
+    "filename": "scenes/scene-niulai-fan-night-woodland.png",
+    "action": "月光、石头与深色树林的夜景",
+    "emotion": [
+      "平静",
+      "氛围"
+    ],
+    "scenes": [
+      "夜晚",
+      "加班",
+      "焦虑"
+    ],
+    "examples": [
+      "今天在这里摸鱼",
+      "大家一起出发"
+    ],
+    "author": "Neta Studio 牛来入梦项目（页面标注 GPT Image 2 生成）",
+    "source_url": "https://neta.art/explore/work/zh/niulai-rumeng",
+    "source_note": "公开同人游戏《牛来入梦》的 AI 生成场景美术，页面说明参考《牛来》的世界与场景。不是电影原帧，也不是本项目创作。原作者及二改、再分发授权尚未独立核实；保留具体来源。主体留空，可叠加角色。",
+    "role": "background",
+    "is_cutout": false,
+    "existing_text": "",
+    "intensity": 1,
+    "source_type": "reference",
+    "templates": [
+      "top",
+      "bottom",
+      "split",
+      "frame"
+    ]
+  },
+  {
+    "id": "scene-pexels-classroom",
+    "name": "校园场景 · 空教室",
+    "character": "校园场景",
+    "filename": "scenes/scene-pexels-classroom.jpg",
+    "action": "红色椅子、白色桌子和自然光构成的无人教室",
+    "emotion": [
+      "平静",
+      "氛围"
+    ],
+    "scenes": [
+      "教室",
+      "早八",
+      "考试"
+    ],
+    "examples": [
+      "换个地方继续努力",
+      "在这里等你"
+    ],
+    "author": "Pavel Danilyuk",
+    "source_url": "https://www.pexels.com/photo/desks-and-chairs-in-a-classroom-8423439/",
+    "source_note": "Pexels 公开摄影素材，作者 Pavel Danilyuk。普通实拍场景，不是牛来电影原帧，也不指向北大或特定校内地点。下载页面提供的1600像素图像版本，未经去人、补绘或场景合成；保留来源署名及具体页面。许可信息以具体页面和Pexels当前条款为准。",
+    "role": "background",
+    "is_cutout": false,
+    "existing_text": "",
+    "intensity": 1,
+    "source_type": "reference",
+    "templates": [
+      "top",
+      "bottom",
+      "split",
+      "frame"
+    ]
+  },
+  {
+    "id": "scene-pexels-library",
+    "name": "校园场景 · 书架走廊",
+    "character": "校园场景",
+    "filename": "scenes/scene-pexels-library.jpg",
+    "action": "两侧排满书籍的无人图书馆走廊",
+    "emotion": [
+      "平静",
+      "氛围"
+    ],
+    "scenes": [
+      "图书馆",
+      "自习",
+      "学习"
+    ],
+    "examples": [
+      "换个地方继续努力",
+      "在这里等你"
+    ],
+    "author": "Diana",
+    "source_url": "https://www.pexels.com/photo/interior-of-library-with-bookshelves-5114911/",
+    "source_note": "Pexels 公开摄影素材，作者 Diana。普通实拍场景，不是牛来电影原帧，也不指向北大或特定校内地点。下载页面提供的1600像素图像版本，未经去人、补绘或场景合成；保留来源署名及具体页面。许可信息以具体页面和Pexels当前条款为准。 本地副本仅等比例缩小以满足导入限制，未改变场景内容。",
+    "role": "background",
+    "is_cutout": false,
+    "existing_text": "",
+    "intensity": 1,
+    "source_type": "reference",
+    "templates": [
+      "top",
+      "bottom",
+      "split",
+      "frame"
+    ]
+  },
+  {
+    "id": "scene-pexels-cave",
+    "name": "自然场景 · 岩洞光影",
+    "character": "自然场景",
+    "filename": "scenes/scene-pexels-cave.jpg",
+    "action": "天然岩洞内部与入口的日光",
+    "emotion": [
+      "平静",
+      "氛围"
+    ],
+    "scenes": [
+      "山洞",
+      "探险",
+      "躲起来"
+    ],
+    "examples": [
+      "换个地方继续努力",
+      "在这里等你"
+    ],
+    "author": "Gabriel Victor",
+    "source_url": "https://www.pexels.com/photo/ancient-cave-interior-with-natural-light-34748283/",
+    "source_note": "Pexels 公开摄影素材，作者 Gabriel Victor。普通实拍场景，不是牛来电影原帧，也不指向北大或特定校内地点。下载页面提供的1600像素图像版本，未经去人、补绘或场景合成；保留来源署名及具体页面。许可信息以具体页面和Pexels当前条款为准。",
+    "role": "background",
+    "is_cutout": false,
+    "existing_text": "",
+    "intensity": 1,
+    "source_type": "reference",
+    "templates": [
+      "top",
+      "bottom",
+      "split",
+      "frame"
+    ]
+  }
+]

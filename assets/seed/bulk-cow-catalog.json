@@ -1,0 +1,4834 @@
+[
+  {
+    "id": "web-niulai-01",
+    "name": "牛来 · 侧目无语",
+    "character": "牛来",
+    "filename": "bulk-cow/web-01.png",
+    "emotion": [
+      "无语",
+      "怀疑"
+    ],
+    "scenes": [
+      "离谱消息",
+      "临时改安排"
+    ],
+    "examples": [
+      "你确定？",
+      "我就静静看着你"
+    ],
+    "action": "半闭眼睛，向旁边侧目",
+    "intensity": 2,
+    "existing_text": "",
+    "source_type": "reference",
+    "author": "待核实",
+    "source_url": "https://niulai.co/imgs/assets/niulai_01.png",
+    "source_note": "网站现成牛来同人 3D 二创底图；不是本项目制作，未确认制作方式或是否电影原帧。保留原生透明 PNG，不重绘、不调色。索引 https://niulai.co/#popular。 原素材下载地址：https://niulai.co/imgs/assets/niulai_01.png",
+    "role": "subject",
+    "is_cutout": true,
+    "templates": [
+      "top",
+      "bottom",
+      "split",
+      "frame",
+      "flower",
+      "grid",
+      "message",
+      "poster",
+      "side",
+      "polaroid",
+      "bubble",
+      "dialogue",
+      "spotlight",
+      "comic",
+      "subtitle",
+      "note",
+      "window",
+      "ticket",
+      "medal",
+      "scene"
+    ]
+  },
+  {
+    "id": "web-niulai-02",
+    "name": "牛来 · 歪头疑问",
+    "character": "牛来",
+    "filename": "bulk-cow/web-02.png",
+    "emotion": [
+      "困惑",
+      "惊讶"
+    ],
+    "scenes": [
+      "没听懂",
+      "上课",
+      "群聊"
+    ],
+    "examples": [
+      "这个安排我没看懂",
+      "等等，什么情况"
+    ],
+    "action": "张着嘴，歪头瞪眼看人",
+    "intensity": 3,
+    "existing_text": "",
+    "source_type": "reference",
+    "author": "待核实",
+    "source_url": "https://niulai.co/imgs/assets/niulai_02.png",
+    "source_note": "网站现成牛来同人 3D 二创底图；不是本项目制作，未确认制作方式或是否电影原帧。保留原生透明 PNG，不重绘、不调色。索引 https://niulai.co/#popular。 原素材下载地址：https://niulai.co/imgs/assets/niulai_02.png",
+    "role": "subject",
+    "is_cutout": true,
+    "templates": [
+      "top",
+      "bottom",
+      "split",
+      "frame",
+      "flower",
+      "grid",
+      "message",
+      "poster",
+      "side",
+      "polaroid",
+      "bubble",
+      "dialogue",
+      "spotlight",
+      "comic",
+      "subtitle",
+      "note",
+      "window",
+      "ticket",
+      "medal",
+      "scene"
+    ]
+  },
+  {
+    "id": "web-niulai-03",
+    "name": "牛来 · 疲惫低头",
+    "character": "牛来",
+    "filename": "bulk-cow/web-03.png",
+    "emotion": [
+      "疲惫",
+      "无语"
+    ],
+    "scenes": [
+      "早八",
+      "等下课"
+    ],
+    "examples": [
+      "我已经听累了"
+    ],
+    "action": "半闭眼睛，正面抿嘴",
+    "intensity": 2,
+    "existing_text": "",
+    "source_type": "reference",
+    "author": "待核实",
+    "source_url": "https://niulai.co/imgs/assets/niulai_03.png",
+    "source_note": "网站现成牛来同人 3D 二创底图；不是本项目制作，未确认制作方式或是否电影原帧。保留原生透明 PNG，不重绘、不调色。索引 https://niulai.co/#popular。 原素材下载地址：https://niulai.co/imgs/assets/niulai_03.png",
+    "role": "subject",
+    "is_cutout": true,
+    "templates": [
+      "top",
+      "bottom",
+      "split",
+      "frame",
+      "flower",
+      "grid",
+      "message",
+      "poster",
+      "side",
+      "polaroid",
+      "bubble",
+      "dialogue",
+      "spotlight",
+      "comic",
+      "subtitle",
+      "note",
+      "window",
+      "ticket",
+      "medal",
+      "scene"
+    ]
+  },
+  {
+    "id": "web-niulai-04",
+    "name": "牛来 · 张嘴惊叫",
+    "character": "牛来",
+    "filename": "bulk-cow/web-04.png",
+    "emotion": [
+      "震惊",
+      "崩溃"
+    ],
+    "scenes": [
+      "截止提前",
+      "考试",
+      "突发通知"
+    ],
+    "examples": [
+      "不是，明天就交？",
+      "这消息太突然了"
+    ],
+    "action": "瞪大双眼，张开嘴惊叫",
+    "intensity": 5,
+    "existing_text": "",
+    "source_type": "reference",
+    "author": "待核实",
+    "source_url": "https://niulai.co/imgs/assets/niulai_04.png",
+    "source_note": "网站现成牛来同人 3D 二创底图；不是本项目制作，未确认制作方式或是否电影原帧。保留原生透明 PNG，不重绘、不调色。索引 https://niulai.co/#popular。 原素材下载地址：https://niulai.co/imgs/assets/niulai_04.png",
+    "role": "subject",
+    "is_cutout": true,
+    "templates": [
+      "top",
+      "bottom",
+      "split",
+      "frame",
+      "flower",
+      "grid",
+      "message",
+      "poster",
+      "side",
+      "polaroid",
+      "bubble",
+      "dialogue",
+      "spotlight",
+      "comic",
+      "subtitle",
+      "note",
+      "window",
+      "ticket",
+      "medal",
+      "scene"
+    ]
+  },
+  {
+    "id": "web-niulai-05",
+    "name": "牛来 · 抬头嫌弃",
+    "character": "牛来",
+    "filename": "bulk-cow/web-05.png",
+    "emotion": [
+      "嫌弃",
+      "不屑"
+    ],
+    "scenes": [
+      "吐槽",
+      "群聊",
+      "阴阳怪气"
+    ],
+    "examples": [
+      "行，你说得都对",
+      "我保留一点意见"
+    ],
+    "action": "扬起下巴，眯眼看向侧前方",
+    "intensity": 2,
+    "existing_text": "",
+    "source_type": "reference",
+    "author": "待核实",
+    "source_url": "https://niulai.co/imgs/assets/niulai_05.png",
+    "source_note": "网站现成牛来同人 3D 二创底图；不是本项目制作，未确认制作方式或是否电影原帧。保留原生透明 PNG，不重绘、不调色。索引 https://niulai.co/#popular。 原素材下载地址：https://niulai.co/imgs/assets/niulai_05.png",
+    "role": "subject",
+    "is_cutout": true,
+    "templates": [
+      "top",
+      "bottom",
+      "split",
+      "frame",
+      "flower",
+      "grid",
+      "message",
+      "poster",
+      "side",
+      "polaroid",
+      "bubble",
+      "dialogue",
+      "spotlight",
+      "comic",
+      "subtitle",
+      "note",
+      "window",
+      "ticket",
+      "medal",
+      "scene"
+    ]
+  },
+  {
+    "id": "web-niulai-06",
+    "name": "牛来 · 瞪眼发愣",
+    "character": "牛来",
+    "filename": "bulk-cow/web-06.png",
+    "emotion": [
+      "迷茫",
+      "困惑"
+    ],
+    "scenes": [
+      "早八",
+      "发呆",
+      "等通知"
+    ],
+    "examples": [
+      "人到了，脑子还在路上",
+      "刚才说到哪里了"
+    ],
+    "action": "正面对镜头，瞪眼抿嘴",
+    "intensity": 2,
+    "existing_text": "",
+    "source_type": "reference",
+    "author": "待核实",
+    "source_url": "https://niulai.co/imgs/assets/niulai_06.png",
+    "source_note": "网站现成牛来同人 3D 二创底图；不是本项目制作，未确认制作方式或是否电影原帧。保留原生透明 PNG，不重绘、不调色。索引 https://niulai.co/#popular。 原素材下载地址：https://niulai.co/imgs/assets/niulai_06.png",
+    "role": "subject",
+    "is_cutout": true,
+    "templates": [
+      "top",
+      "bottom",
+      "split",
+      "frame",
+      "flower",
+      "grid",
+      "message",
+      "poster",
+      "side",
+      "polaroid",
+      "bubble",
+      "dialogue",
+      "spotlight",
+      "comic",
+      "subtitle",
+      "note",
+      "window",
+      "ticket",
+      "medal",
+      "scene"
+    ]
+  },
+  {
+    "id": "web-niulai-07",
+    "name": "牛来 · 无聊挖鼻",
+    "character": "牛来",
+    "filename": "bulk-cow/web-07.png",
+    "emotion": [
+      "无聊",
+      "无语"
+    ],
+    "scenes": [
+      "摸鱼",
+      "等人",
+      "开会"
+    ],
+    "examples": [
+      "嗯嗯，然后呢",
+      "我已经等了很久了"
+    ],
+    "action": "半闭着眼睛，抬手挖鼻孔",
+    "intensity": 2,
+    "existing_text": "",
+    "source_type": "reference",
+    "author": "待核实",
+    "source_url": "https://niulai.co/imgs/assets/niulai_07.png",
+    "source_note": "网站现成牛来同人 3D 二创底图；不是本项目制作，未确认制作方式或是否电影原帧。保留原生透明 PNG，不重绘、不调色。索引 https://niulai.co/#popular。 原素材下载地址：https://niulai.co/imgs/assets/niulai_07.png",
+    "role": "subject",
+    "is_cutout": true,
+    "templates": [
+      "top",
+      "bottom",
+      "split",
+      "frame",
+      "flower",
+      "grid",
+      "message",
+      "poster",
+      "side",
+      "polaroid",
+      "bubble",
+      "dialogue",
+      "spotlight",
+      "comic",
+      "subtitle",
+      "note",
+      "window",
+      "ticket",
+      "medal",
+      "scene"
+    ]
+  },
+  {
+    "id": "web-niulai-08",
+    "name": "牛来 · 扭头怀疑",
+    "character": "牛来",
+    "filename": "bulk-cow/web-08.png",
+    "emotion": [
+      "怀疑",
+      "无语"
+    ],
+    "scenes": [
+      "离谱消息",
+      "吐槽"
+    ],
+    "examples": [
+      "这话你自己信吗"
+    ],
+    "action": "身体转向右侧，眯眼侧目",
+    "intensity": 2,
+    "existing_text": "",
+    "source_type": "reference",
+    "author": "待核实",
+    "source_url": "https://niulai.co/imgs/assets/niulai_08.png",
+    "source_note": "网站现成牛来同人 3D 二创底图；不是本项目制作，未确认制作方式或是否电影原帧。保留原生透明 PNG，不重绘、不调色。索引 https://niulai.co/#popular。 原素材下载地址：https://niulai.co/imgs/assets/niulai_08.png",
+    "role": "subject",
+    "is_cutout": true,
+    "templates": [
+      "top",
+      "bottom",
+      "split",
+      "frame",
+      "flower",
+      "grid",
+      "message",
+      "poster",
+      "side",
+      "polaroid",
+      "bubble",
+      "dialogue",
+      "spotlight",
+      "comic",
+      "subtitle",
+      "note",
+      "window",
+      "ticket",
+      "medal",
+      "scene"
+    ]
+  },
+  {
+    "id": "web-niulai-09",
+    "name": "牛来 · 欲言又止",
+    "character": "牛来",
+    "filename": "bulk-cow/web-09.png",
+    "emotion": [
+      "担心",
+      "犹豫"
+    ],
+    "scenes": [
+      "群聊",
+      "想解释"
+    ],
+    "examples": [
+      "我有句话不知当讲不当讲"
+    ],
+    "action": "皱眉张开一点嘴，抬眼看人",
+    "intensity": 3,
+    "existing_text": "",
+    "source_type": "reference",
+    "author": "待核实",
+    "source_url": "https://niulai.co/imgs/assets/niulai_09.png",
+    "source_note": "网站现成牛来同人 3D 二创底图；不是本项目制作，未确认制作方式或是否电影原帧。保留原生透明 PNG，不重绘、不调色。索引 https://niulai.co/#popular。 原素材下载地址：https://niulai.co/imgs/assets/niulai_09.png",
+    "role": "subject",
+    "is_cutout": true,
+    "templates": [
+      "top",
+      "bottom",
+      "split",
+      "frame",
+      "flower",
+      "grid",
+      "message",
+      "poster",
+      "side",
+      "polaroid",
+      "bubble",
+      "dialogue",
+      "spotlight",
+      "comic",
+      "subtitle",
+      "note",
+      "window",
+      "ticket",
+      "medal",
+      "scene"
+    ]
+  },
+  {
+    "id": "web-niulai-10",
+    "name": "牛来 · 贴脸确认",
+    "character": "牛来",
+    "filename": "bulk-cow/web-10.png",
+    "emotion": [
+      "惊讶",
+      "困惑"
+    ],
+    "scenes": [
+      "没听清",
+      "核对通知"
+    ],
+    "examples": [
+      "你再说一遍"
+    ],
+    "action": "脸靠近镜头，瞪大眼睛",
+    "intensity": 3,
+    "existing_text": "",
+    "source_type": "reference",
+    "author": "待核实",
+    "source_url": "https://niulai.co/imgs/assets/niulai_10.png",
+    "source_note": "网站现成牛来同人 3D 二创底图；不是本项目制作，未确认制作方式或是否电影原帧。保留原生透明 PNG，不重绘、不调色。索引 https://niulai.co/#popular。 原素材下载地址：https://niulai.co/imgs/assets/niulai_10.png",
+    "role": "subject",
+    "is_cutout": true,
+    "templates": [
+      "top",
+      "bottom",
+      "split",
+      "frame",
+      "flower",
+      "grid",
+      "message",
+      "poster",
+      "side",
+      "polaroid",
+      "bubble",
+      "dialogue",
+      "spotlight",
+      "comic",
+      "subtitle",
+      "note",
+      "window",
+      "ticket",
+      "medal",
+      "scene"
+    ]
+  },
+  {
+    "id": "web-niulai-11",
+    "name": "牛来 · 伸手指人",
+    "character": "牛来",
+    "filename": "bulk-cow/web-11.png",
+    "emotion": [
+      "怀疑",
+      "吐槽",
+      "惊讶"
+    ],
+    "scenes": [
+      "找人",
+      "提醒",
+      "群聊"
+    ],
+    "examples": [
+      "是不是你干的",
+      "同学，就是这里"
+    ],
+    "action": "身体转向一侧，抬手指向远处",
+    "intensity": 3,
+    "existing_text": "",
+    "source_type": "reference",
+    "author": "待核实",
+    "source_url": "https://niulai.co/imgs/assets/niulai_11.png",
+    "source_note": "网站现成牛来同人 3D 二创底图；不是本项目制作，未确认制作方式或是否电影原帧。保留原生透明 PNG，不重绘、不调色。索引 https://niulai.co/#popular。 原素材下载地址：https://niulai.co/imgs/assets/niulai_11.png",
+    "role": "subject",
+    "is_cutout": true,
+    "templates": [
+      "top",
+      "bottom",
+      "split",
+      "frame",
+      "flower",
+      "grid",
+      "message",
+      "poster",
+      "side",
+      "polaroid",
+      "bubble",
+      "dialogue",
+      "spotlight",
+      "comic",
+      "subtitle",
+      "note",
+      "window",
+      "ticket",
+      "medal",
+      "scene"
+    ]
+  },
+  {
+    "id": "web-niulai-12",
+    "name": "牛来 · 放声大哭",
+    "character": "牛来",
+    "filename": "bulk-cow/web-12.png",
+    "emotion": [
+      "难过",
+      "委屈",
+      "崩溃"
+    ],
+    "scenes": [
+      "考试失利",
+      "赶作业",
+      "求安慰"
+    ],
+    "examples": [
+      "我真的尽力了",
+      "先让我哭完这一场"
+    ],
+    "action": "闭眼张嘴，眼泪从两边流下",
+    "intensity": 5,
+    "existing_text": "",
+    "source_type": "reference",
+    "author": "待核实",
+    "source_url": "https://niulai.co/imgs/assets/niulai_12.png",
+    "source_note": "网站现成牛来同人 3D 二创底图；不是本项目制作，未确认制作方式或是否电影原帧。保留原生透明 PNG，不重绘、不调色。索引 https://niulai.co/#popular。 原素材下载地址：https://niulai.co/imgs/assets/niulai_12.png",
+    "role": "subject",
+    "is_cutout": true,
+    "templates": [
+      "top",
+      "bottom",
+      "split",
+      "frame",
+      "flower",
+      "grid",
+      "message",
+      "poster",
+      "side",
+      "polaroid",
+      "bubble",
+      "dialogue",
+      "spotlight",
+      "comic",
+      "subtitle",
+      "note",
+      "window",
+      "ticket",
+      "medal",
+      "scene"
+    ]
+  },
+  {
+    "id": "web-niulai-13",
+    "name": "牛来 · 仰脸担心",
+    "character": "牛来",
+    "filename": "bulk-cow/web-13.png",
+    "emotion": [
+      "担心",
+      "紧张"
+    ],
+    "scenes": [
+      "考试出分",
+      "等通知"
+    ],
+    "examples": [
+      "应该不会出事吧"
+    ],
+    "action": "眉毛扬起，向侧前方担忧地张望",
+    "intensity": 3,
+    "existing_text": "",
+    "source_type": "reference",
+    "author": "待核实",
+    "source_url": "https://niulai.co/imgs/assets/niulai_13.png",
+    "source_note": "网站现成牛来同人 3D 二创底图；不是本项目制作，未确认制作方式或是否电影原帧。保留原生透明 PNG，不重绘、不调色。索引 https://niulai.co/#popular。 原素材下载地址：https://niulai.co/imgs/assets/niulai_13.png",
+    "role": "subject",
+    "is_cutout": true,
+    "templates": [
+      "top",
+      "bottom",
+      "split",
+      "frame",
+      "flower",
+      "grid",
+      "message",
+      "poster",
+      "side",
+      "polaroid",
+      "bubble",
+      "dialogue",
+      "spotlight",
+      "comic",
+      "subtitle",
+      "note",
+      "window",
+      "ticket",
+      "medal",
+      "scene"
+    ]
+  },
+  {
+    "id": "web-niulai-14",
+    "name": "牛来 · 抱胸生气",
+    "character": "牛来",
+    "filename": "bulk-cow/web-14.png",
+    "emotion": [
+      "生气",
+      "不满"
+    ],
+    "scenes": [
+      "拒绝",
+      "临时加活",
+      "吐槽"
+    ],
+    "examples": [
+      "这事我不同意",
+      "先把话说明白"
+    ],
+    "action": "双臂交叉抱胸，皱眉注视前方",
+    "intensity": 4,
+    "existing_text": "",
+    "source_type": "reference",
+    "author": "待核实",
+    "source_url": "https://niulai.co/imgs/assets/niulai_14.png",
+    "source_note": "网站现成牛来同人 3D 二创底图；不是本项目制作，未确认制作方式或是否电影原帧。保留原生透明 PNG，不重绘、不调色。索引 https://niulai.co/#popular。 原素材下载地址：https://niulai.co/imgs/assets/niulai_14.png",
+    "role": "subject",
+    "is_cutout": true,
+    "templates": [
+      "top",
+      "bottom",
+      "split",
+      "frame",
+      "flower",
+      "grid",
+      "message",
+      "poster",
+      "side",
+      "polaroid",
+      "bubble",
+      "dialogue",
+      "spotlight",
+      "comic",
+      "subtitle",
+      "note",
+      "window",
+      "ticket",
+      "medal",
+      "scene"
+    ]
+  },
+  {
+    "id": "web-niulai-15",
+    "name": "牛来 · 大叫崩溃",
+    "character": "牛来",
+    "filename": "bulk-cow/web-15.png",
+    "emotion": [
+      "崩溃",
+      "震惊"
+    ],
+    "scenes": [
+      "截止提前",
+      "赶作业"
+    ],
+    "examples": [
+      "我真的要裂开了"
+    ],
+    "action": "眉毛上扬，露出上下牙齿惊叫",
+    "intensity": 5,
+    "existing_text": "",
+    "source_type": "reference",
+    "author": "待核实",
+    "source_url": "https://niulai.co/imgs/assets/niulai_15.png",
+    "source_note": "网站现成牛来同人 3D 二创底图；不是本项目制作，未确认制作方式或是否电影原帧。保留原生透明 PNG，不重绘、不调色。索引 https://niulai.co/#popular。 原素材下载地址：https://niulai.co/imgs/assets/niulai_15.png",
+    "role": "subject",
+    "is_cutout": true,
+    "templates": [
+      "top",
+      "bottom",
+      "split",
+      "frame",
+      "flower",
+      "grid",
+      "message",
+      "poster",
+      "side",
+      "polaroid",
+      "bubble",
+      "dialogue",
+      "spotlight",
+      "comic",
+      "subtitle",
+      "note",
+      "window",
+      "ticket",
+      "medal",
+      "scene"
+    ]
+  },
+  {
+    "id": "web-niulai-17",
+    "name": "牛来 · 回头侧目",
+    "character": "牛来",
+    "filename": "bulk-cow/web-17.png",
+    "emotion": [
+      "怀疑",
+      "无语"
+    ],
+    "scenes": [
+      "吐槽",
+      "群聊"
+    ],
+    "examples": [
+      "你刚才是不是在叫我"
+    ],
+    "action": "身体朝旁边，转头露出怀疑的眼神",
+    "intensity": 2,
+    "existing_text": "",
+    "source_type": "reference",
+    "author": "待核实",
+    "source_url": "https://niulai.co/imgs/assets/niulai_17.png",
+    "source_note": "网站现成牛来同人 3D 二创底图；不是本项目制作，未确认制作方式或是否电影原帧。保留原生透明 PNG，不重绘、不调色。索引 https://niulai.co/#popular。 原素材下载地址：https://niulai.co/imgs/assets/niulai_17.png",
+    "role": "subject",
+    "is_cutout": true,
+    "templates": [
+      "top",
+      "bottom",
+      "split",
+      "frame",
+      "flower",
+      "grid",
+      "message",
+      "poster",
+      "side",
+      "polaroid",
+      "bubble",
+      "dialogue",
+      "spotlight",
+      "comic",
+      "subtitle",
+      "note",
+      "window",
+      "ticket",
+      "medal",
+      "scene"
+    ]
+  },
+  {
+    "id": "web-niulai-18",
+    "name": "牛来 · 吐舌犯傻",
+    "character": "牛来",
+    "filename": "bulk-cow/web-18.png",
+    "emotion": [
+      "搞怪",
+      "开心"
+    ],
+    "scenes": [
+      "装傻",
+      "朋友整活",
+      "摸鱼"
+    ],
+    "examples": [
+      "你说什么我听不懂",
+      "今天主打一个开心"
+    ],
+    "action": "伸出舌头，睁大双眼做鬼脸",
+    "intensity": 3,
+    "existing_text": "",
+    "source_type": "reference",
+    "author": "待核实",
+    "source_url": "https://niulai.co/imgs/assets/niulai_18.png",
+    "source_note": "网站现成牛来同人 3D 二创底图；不是本项目制作，未确认制作方式或是否电影原帧。保留原生透明 PNG，不重绘、不调色。索引 https://niulai.co/#popular。 原素材下载地址：https://niulai.co/imgs/assets/niulai_18.png",
+    "role": "subject",
+    "is_cutout": true,
+    "templates": [
+      "top",
+      "bottom",
+      "split",
+      "frame",
+      "flower",
+      "grid",
+      "message",
+      "poster",
+      "side",
+      "polaroid",
+      "bubble",
+      "dialogue",
+      "spotlight",
+      "comic",
+      "subtitle",
+      "note",
+      "window",
+      "ticket",
+      "medal",
+      "scene"
+    ]
+  },
+  {
+    "id": "web-niulai-19",
+    "name": "牛来 · 托腮思考",
+    "character": "牛来",
+    "filename": "bulk-cow/web-19.png",
+    "emotion": [
+      "思考",
+      "怀疑"
+    ],
+    "scenes": [
+      "选课",
+      "做题",
+      "小组讨论"
+    ],
+    "examples": [
+      "我再研究一下",
+      "让我把逻辑捋一捋"
+    ],
+    "action": "手指托着下巴，斜眼沉思",
+    "intensity": 2,
+    "existing_text": "",
+    "source_type": "reference",
+    "author": "待核实",
+    "source_url": "https://niulai.co/imgs/assets/niulai_19.png",
+    "source_note": "网站现成牛来同人 3D 二创底图；不是本项目制作，未确认制作方式或是否电影原帧。保留原生透明 PNG，不重绘、不调色。索引 https://niulai.co/#popular。 原素材下载地址：https://niulai.co/imgs/assets/niulai_19.png",
+    "role": "subject",
+    "is_cutout": true,
+    "templates": [
+      "top",
+      "bottom",
+      "split",
+      "frame",
+      "flower",
+      "grid",
+      "message",
+      "poster",
+      "side",
+      "polaroid",
+      "bubble",
+      "dialogue",
+      "spotlight",
+      "comic",
+      "subtitle",
+      "note",
+      "window",
+      "ticket",
+      "medal",
+      "scene"
+    ]
+  },
+  {
+    "id": "web-niulai-20",
+    "name": "牛来 · 露齿坏笑",
+    "character": "牛来",
+    "filename": "bulk-cow/web-20.png",
+    "emotion": [
+      "得意",
+      "开心",
+      "搞怪"
+    ],
+    "scenes": [
+      "整活",
+      "恶作剧",
+      "考试通过"
+    ],
+    "examples": [
+      "计划通",
+      "这把稳了"
+    ],
+    "action": "露出整排牙齿，扬眉大笑",
+    "intensity": 4,
+    "existing_text": "",
+    "source_type": "reference",
+    "author": "待核实",
+    "source_url": "https://niulai.co/imgs/assets/niulai_20.png",
+    "source_note": "网站现成牛来同人 3D 二创底图；不是本项目制作，未确认制作方式或是否电影原帧。保留原生透明 PNG，不重绘、不调色。索引 https://niulai.co/#popular。 原素材下载地址：https://niulai.co/imgs/assets/niulai_20.png",
+    "role": "subject",
+    "is_cutout": true,
+    "templates": [
+      "top",
+      "bottom",
+      "split",
+      "frame",
+      "flower",
+      "grid",
+      "message",
+      "poster",
+      "side",
+      "polaroid",
+      "bubble",
+      "dialogue",
+      "spotlight",
+      "comic",
+      "subtitle",
+      "note",
+      "window",
+      "ticket",
+      "medal",
+      "scene"
+    ]
+  },
+  {
+    "id": "web-niulai-21",
+    "name": "牛来 · 眯眼审视",
+    "character": "牛来",
+    "filename": "bulk-cow/web-21.png",
+    "emotion": [
+      "怀疑",
+      "不满"
+    ],
+    "scenes": [
+      "检查作业",
+      "吐槽"
+    ],
+    "examples": [
+      "我需要一个合理的解释"
+    ],
+    "action": "低眉眯眼，正面打量对方",
+    "intensity": 3,
+    "existing_text": "",
+    "source_type": "reference",
+    "author": "待核实",
+    "source_url": "https://niulai.co/imgs/assets/niulai_21.png",
+    "source_note": "网站现成牛来同人 3D 二创底图；不是本项目制作，未确认制作方式或是否电影原帧。保留原生透明 PNG，不重绘、不调色。索引 https://niulai.co/#popular。 原素材下载地址：https://niulai.co/imgs/assets/niulai_21.png",
+    "role": "subject",
+    "is_cutout": true,
+    "templates": [
+      "top",
+      "bottom",
+      "split",
+      "frame",
+      "flower",
+      "grid",
+      "message",
+      "poster",
+      "side",
+      "polaroid",
+      "bubble",
+      "dialogue",
+      "spotlight",
+      "comic",
+      "subtitle",
+      "note",
+      "window",
+      "ticket",
+      "medal",
+      "scene"
+    ]
+  },
+  {
+    "id": "web-niulai-22",
+    "name": "牛来 · 侧脸打哈欠",
+    "character": "牛来",
+    "filename": "bulk-cow/web-22.png",
+    "emotion": [
+      "困倦",
+      "疲惫"
+    ],
+    "scenes": [
+      "早八",
+      "开会"
+    ],
+    "examples": [
+      "让我先打个哈欠"
+    ],
+    "action": "闭眼张嘴，从侧面露出疲惫神态",
+    "intensity": 2,
+    "existing_text": "",
+    "source_type": "reference",
+    "author": "待核实",
+    "source_url": "https://niulai.co/imgs/assets/niulai_22.png",
+    "source_note": "网站现成牛来同人 3D 二创底图；不是本项目制作，未确认制作方式或是否电影原帧。保留原生透明 PNG，不重绘、不调色。索引 https://niulai.co/#popular。 原素材下载地址：https://niulai.co/imgs/assets/niulai_22.png",
+    "role": "subject",
+    "is_cutout": true,
+    "templates": [
+      "top",
+      "bottom",
+      "split",
+      "frame",
+      "flower",
+      "grid",
+      "message",
+      "poster",
+      "side",
+      "polaroid",
+      "bubble",
+      "dialogue",
+      "spotlight",
+      "comic",
+      "subtitle",
+      "note",
+      "window",
+      "ticket",
+      "medal",
+      "scene"
+    ]
+  },
+  {
+    "id": "web-niulai-23",
+    "name": "牛来 · 闭眼痛哭",
+    "character": "牛来",
+    "filename": "bulk-cow/web-23.png",
+    "emotion": [
+      "难过",
+      "委屈"
+    ],
+    "scenes": [
+      "考试失利",
+      "求安慰"
+    ],
+    "examples": [
+      "这次是真的伤心了"
+    ],
+    "action": "闭眼张嘴，眼泪流过脸颊",
+    "intensity": 5,
+    "existing_text": "",
+    "source_type": "reference",
+    "author": "待核实",
+    "source_url": "https://niulai.co/imgs/assets/niulai_23.png",
+    "source_note": "网站现成牛来同人 3D 二创底图；不是本项目制作，未确认制作方式或是否电影原帧。保留原生透明 PNG，不重绘、不调色。索引 https://niulai.co/#popular。 原素材下载地址：https://niulai.co/imgs/assets/niulai_23.png",
+    "role": "subject",
+    "is_cutout": true,
+    "templates": [
+      "top",
+      "bottom",
+      "split",
+      "frame",
+      "flower",
+      "grid",
+      "message",
+      "poster",
+      "side",
+      "polaroid",
+      "bubble",
+      "dialogue",
+      "spotlight",
+      "comic",
+      "subtitle",
+      "note",
+      "window",
+      "ticket",
+      "medal",
+      "scene"
+    ]
+  },
+  {
+    "id": "web-niulai-24",
+    "name": "牛来 · 鼓起脸颊",
+    "character": "牛来",
+    "filename": "bulk-cow/web-24.png",
+    "emotion": [
+      "生气",
+      "委屈"
+    ],
+    "scenes": [
+      "拒绝",
+      "闹别扭"
+    ],
+    "examples": [
+      "我有一点不高兴"
+    ],
+    "action": "侧脸鼓起嘴巴和脸颊",
+    "intensity": 3,
+    "existing_text": "",
+    "source_type": "reference",
+    "author": "待核实",
+    "source_url": "https://niulai.co/imgs/assets/niulai_24.png",
+    "source_note": "网站现成牛来同人 3D 二创底图；不是本项目制作，未确认制作方式或是否电影原帧。保留原生透明 PNG，不重绘、不调色。索引 https://niulai.co/#popular。 原素材下载地址：https://niulai.co/imgs/assets/niulai_24.png",
+    "role": "subject",
+    "is_cutout": true,
+    "templates": [
+      "top",
+      "bottom",
+      "split",
+      "frame",
+      "flower",
+      "grid",
+      "message",
+      "poster",
+      "side",
+      "polaroid",
+      "bubble",
+      "dialogue",
+      "spotlight",
+      "comic",
+      "subtitle",
+      "note",
+      "window",
+      "ticket",
+      "medal",
+      "scene"
+    ]
+  },
+  {
+    "id": "web-niulai-25",
+    "name": "牛来 · 侧身吃惊",
+    "character": "牛来",
+    "filename": "bulk-cow/web-25.png",
+    "emotion": [
+      "震惊",
+      "困惑"
+    ],
+    "scenes": [
+      "突发通知",
+      "群聊"
+    ],
+    "examples": [
+      "等等，我听见了什么"
+    ],
+    "action": "侧身瞪大眼睛，张嘴愣住",
+    "intensity": 4,
+    "existing_text": "",
+    "source_type": "reference",
+    "author": "待核实",
+    "source_url": "https://niulai.co/imgs/assets/niulai_25.png",
+    "source_note": "网站现成牛来同人 3D 二创底图；不是本项目制作，未确认制作方式或是否电影原帧。保留原生透明 PNG，不重绘、不调色。索引 https://niulai.co/#popular。 原素材下载地址：https://niulai.co/imgs/assets/niulai_25.png",
+    "role": "subject",
+    "is_cutout": true,
+    "templates": [
+      "top",
+      "bottom",
+      "split",
+      "frame",
+      "flower",
+      "grid",
+      "message",
+      "poster",
+      "side",
+      "polaroid",
+      "bubble",
+      "dialogue",
+      "spotlight",
+      "comic",
+      "subtitle",
+      "note",
+      "window",
+      "ticket",
+      "medal",
+      "scene"
+    ]
+  },
+  {
+    "id": "web-niulai-26",
+    "name": "牛来 · 交叉抱臂",
+    "character": "牛来",
+    "filename": "bulk-cow/web-26.png",
+    "emotion": [
+      "生气",
+      "不满"
+    ],
+    "scenes": [
+      "临时加活",
+      "拒绝"
+    ],
+    "examples": [
+      "这事没得商量"
+    ],
+    "action": "低头皱眉，双臂交叉在胸前",
+    "intensity": 4,
+    "existing_text": "",
+    "source_type": "reference",
+    "author": "待核实",
+    "source_url": "https://niulai.co/imgs/assets/niulai_26.png",
+    "source_note": "网站现成牛来同人 3D 二创底图；不是本项目制作，未确认制作方式或是否电影原帧。保留原生透明 PNG，不重绘、不调色。索引 https://niulai.co/#popular。 原素材下载地址：https://niulai.co/imgs/assets/niulai_26.png",
+    "role": "subject",
+    "is_cutout": true,
+    "templates": [
+      "top",
+      "bottom",
+      "split",
+      "frame",
+      "flower",
+      "grid",
+      "message",
+      "poster",
+      "side",
+      "polaroid",
+      "bubble",
+      "dialogue",
+      "spotlight",
+      "comic",
+      "subtitle",
+      "note",
+      "window",
+      "ticket",
+      "medal",
+      "scene"
+    ]
+  },
+  {
+    "id": "web-niulai-27",
+    "name": "牛来 · 低头疲惫",
+    "character": "牛来",
+    "filename": "bulk-cow/web-27.png",
+    "emotion": [
+      "疲惫",
+      "难过"
+    ],
+    "scenes": [
+      "赶截止",
+      "早八"
+    ],
+    "examples": [
+      "今天的电量已经用完"
+    ],
+    "action": "低头垂眼，嘴角向下",
+    "intensity": 2,
+    "existing_text": "",
+    "source_type": "reference",
+    "author": "待核实",
+    "source_url": "https://niulai.co/imgs/assets/niulai_27.png",
+    "source_note": "网站现成牛来同人 3D 二创底图；不是本项目制作，未确认制作方式或是否电影原帧。保留原生透明 PNG，不重绘、不调色。索引 https://niulai.co/#popular。 原素材下载地址：https://niulai.co/imgs/assets/niulai_27.png",
+    "role": "subject",
+    "is_cutout": true,
+    "templates": [
+      "top",
+      "bottom",
+      "split",
+      "frame",
+      "flower",
+      "grid",
+      "message",
+      "poster",
+      "side",
+      "polaroid",
+      "bubble",
+      "dialogue",
+      "spotlight",
+      "comic",
+      "subtitle",
+      "note",
+      "window",
+      "ticket",
+      "medal",
+      "scene"
+    ]
+  },
+  {
+    "id": "web-niulai-28",
+    "name": "牛来 · 回头无奈",
+    "character": "牛来",
+    "filename": "bulk-cow/web-28.png",
+    "emotion": [
+      "无奈",
+      "无语"
+    ],
+    "scenes": [
+      "听不懂",
+      "吐槽"
+    ],
+    "examples": [
+      "我还能说什么呢"
+    ],
+    "action": "头转向旁边，半闭眼睛抿嘴",
+    "intensity": 2,
+    "existing_text": "",
+    "source_type": "reference",
+    "author": "待核实",
+    "source_url": "https://niulai.co/imgs/assets/niulai_28.png",
+    "source_note": "网站现成牛来同人 3D 二创底图；不是本项目制作，未确认制作方式或是否电影原帧。保留原生透明 PNG，不重绘、不调色。索引 https://niulai.co/#popular。 原素材下载地址：https://niulai.co/imgs/assets/niulai_28.png",
+    "role": "subject",
+    "is_cutout": true,
+    "templates": [
+      "top",
+      "bottom",
+      "split",
+      "frame",
+      "flower",
+      "grid",
+      "message",
+      "poster",
+      "side",
+      "polaroid",
+      "bubble",
+      "dialogue",
+      "spotlight",
+      "comic",
+      "subtitle",
+      "note",
+      "window",
+      "ticket",
+      "medal",
+      "scene"
+    ]
+  },
+  {
+    "id": "web-niulai-29",
+    "name": "牛来 · 安静注视",
+    "character": "牛来",
+    "filename": "bulk-cow/web-29.png",
+    "emotion": [
+      "平静",
+      "呆萌"
+    ],
+    "scenes": [
+      "等待",
+      "发呆"
+    ],
+    "examples": [
+      "我在听，你继续"
+    ],
+    "action": "正面平静地看向前方",
+    "intensity": 1,
+    "existing_text": "",
+    "source_type": "reference",
+    "author": "待核实",
+    "source_url": "https://niulai.co/imgs/assets/niulai_29.png",
+    "source_note": "网站现成牛来同人 3D 二创底图；不是本项目制作，未确认制作方式或是否电影原帧。保留原生透明 PNG，不重绘、不调色。索引 https://niulai.co/#popular。 原素材下载地址：https://niulai.co/imgs/assets/niulai_29.png",
+    "role": "subject",
+    "is_cutout": true,
+    "templates": [
+      "top",
+      "bottom",
+      "split",
+      "frame",
+      "flower",
+      "grid",
+      "message",
+      "poster",
+      "side",
+      "polaroid",
+      "bubble",
+      "dialogue",
+      "spotlight",
+      "comic",
+      "subtitle",
+      "note",
+      "window",
+      "ticket",
+      "medal",
+      "scene"
+    ]
+  },
+  {
+    "id": "web-niulai-30",
+    "name": "牛来 · 露齿微笑",
+    "character": "牛来",
+    "filename": "bulk-cow/web-30.png",
+    "emotion": [
+      "开心",
+      "得意"
+    ],
+    "scenes": [
+      "庆祝",
+      "夸夸"
+    ],
+    "examples": [
+      "这次做得还不错"
+    ],
+    "action": "半眯眼睛，露出牙齿微笑",
+    "intensity": 3,
+    "existing_text": "",
+    "source_type": "reference",
+    "author": "待核实",
+    "source_url": "https://niulai.co/imgs/assets/niulai_30.png",
+    "source_note": "网站现成牛来同人 3D 二创底图；不是本项目制作，未确认制作方式或是否电影原帧。保留原生透明 PNG，不重绘、不调色。索引 https://niulai.co/#popular。 原素材下载地址：https://niulai.co/imgs/assets/niulai_30.png",
+    "role": "subject",
+    "is_cutout": true,
+    "templates": [
+      "top",
+      "bottom",
+      "split",
+      "frame",
+      "flower",
+      "grid",
+      "message",
+      "poster",
+      "side",
+      "polaroid",
+      "bubble",
+      "dialogue",
+      "spotlight",
+      "comic",
+      "subtitle",
+      "note",
+      "window",
+      "ticket",
+      "medal",
+      "scene"
+    ]
+  },
+  {
+    "id": "web-niulai-31",
+    "name": "牛来 · 张嘴发愣",
+    "character": "牛来",
+    "filename": "bulk-cow/web-31.png",
+    "emotion": [
+      "震惊",
+      "困惑"
+    ],
+    "scenes": [
+      "离谱消息",
+      "考试"
+    ],
+    "examples": [
+      "我需要缓一缓"
+    ],
+    "action": "睁大眼睛，嘴巴向下张开",
+    "intensity": 4,
+    "existing_text": "",
+    "source_type": "reference",
+    "author": "待核实",
+    "source_url": "https://niulai.co/imgs/assets/niulai_31.png",
+    "source_note": "网站现成牛来同人 3D 二创底图；不是本项目制作，未确认制作方式或是否电影原帧。保留原生透明 PNG，不重绘、不调色。索引 https://niulai.co/#popular。 原素材下载地址：https://niulai.co/imgs/assets/niulai_31.png",
+    "role": "subject",
+    "is_cutout": true,
+    "templates": [
+      "top",
+      "bottom",
+      "split",
+      "frame",
+      "flower",
+      "grid",
+      "message",
+      "poster",
+      "side",
+      "polaroid",
+      "bubble",
+      "dialogue",
+      "spotlight",
+      "comic",
+      "subtitle",
+      "note",
+      "window",
+      "ticket",
+      "medal",
+      "scene"
+    ]
+  },
+  {
+    "id": "web-niulai-32",
+    "name": "牛来 · 仰头大笑",
+    "character": "牛来",
+    "filename": "bulk-cow/web-32.png",
+    "emotion": [
+      "大笑",
+      "开心"
+    ],
+    "scenes": [
+      "听笑话",
+      "庆祝"
+    ],
+    "examples": [
+      "这回是真没忍住"
+    ],
+    "action": "眯眼仰头，张嘴开心大笑",
+    "intensity": 5,
+    "existing_text": "",
+    "source_type": "reference",
+    "author": "待核实",
+    "source_url": "https://niulai.co/imgs/assets/niulai_32.png",
+    "source_note": "网站现成牛来同人 3D 二创底图；不是本项目制作，未确认制作方式或是否电影原帧。保留原生透明 PNG，不重绘、不调色。索引 https://niulai.co/#popular。 原素材下载地址：https://niulai.co/imgs/assets/niulai_32.png",
+    "role": "subject",
+    "is_cutout": true,
+    "templates": [
+      "top",
+      "bottom",
+      "split",
+      "frame",
+      "flower",
+      "grid",
+      "message",
+      "poster",
+      "side",
+      "polaroid",
+      "bubble",
+      "dialogue",
+      "spotlight",
+      "comic",
+      "subtitle",
+      "note",
+      "window",
+      "ticket",
+      "medal",
+      "scene"
+    ]
+  },
+  {
+    "id": "bulk-cow-pet-r01c01",
+    "name": "牛来 · 站立观察 · 动作1",
+    "character": "牛来",
+    "filename": "bulk-cow/pet-r01c01.png",
+    "emotion": [
+      "平静",
+      "怀疑"
+    ],
+    "scenes": [
+      "等待",
+      "等通知"
+    ],
+    "examples": [
+      "我在，等你说完"
+    ],
+    "action": "正面站立，眼睛和头部微微转动，动作序列第1格。",
+    "intensity": 2,
+    "existing_text": "",
+    "source_type": "reference",
+    "author": "glidea（公开桌宠贡献者，原角色权属待核实）",
+    "source_url": "https://github.com/glidea/niu-lai-pet/blob/af41d8fbee08517a558d6aa422e741ba0addaf3c/spritesheet.webp",
+    "source_note": "现成牛来同人桌宠渲染动作帧；来自 glidea/niu-lai-pet 的一张完整精灵图，不是电影原帧，不冒称独立摄影/插画来源。按192×208有效格提取，第1行第1列。已标准化去除近似idle和纯位移重复，原图和rect坐标保存在来源清单。未生成或重绘新姿势。 原素材下载地址：https://raw.githubusercontent.com/glidea/niu-lai-pet/af41d8fbee08517a558d6aa422e741ba0addaf3c/spritesheet.webp",
+    "role": "subject",
+    "is_cutout": true,
+    "templates": [
+      "top",
+      "bottom",
+      "split",
+      "frame",
+      "flower",
+      "grid",
+      "message",
+      "poster",
+      "side",
+      "polaroid",
+      "bubble",
+      "dialogue",
+      "spotlight",
+      "comic",
+      "subtitle",
+      "note",
+      "window",
+      "ticket",
+      "medal",
+      "scene"
+    ]
+  },
+  {
+    "id": "bulk-cow-pet-r01c03",
+    "name": "牛来 · 站立观察 · 动作3",
+    "character": "牛来",
+    "filename": "bulk-cow/pet-r01c03.png",
+    "emotion": [
+      "平静",
+      "怀疑"
+    ],
+    "scenes": [
+      "等待",
+      "等通知"
+    ],
+    "examples": [
+      "我在，等你说完"
+    ],
+    "action": "正面站立，眼睛和头部微微转动，动作序列第3格。",
+    "intensity": 2,
+    "existing_text": "",
+    "source_type": "reference",
+    "author": "glidea（公开桌宠贡献者，原角色权属待核实）",
+    "source_url": "https://github.com/glidea/niu-lai-pet/blob/af41d8fbee08517a558d6aa422e741ba0addaf3c/spritesheet.webp",
+    "source_note": "现成牛来同人桌宠渲染动作帧；来自 glidea/niu-lai-pet 的一张完整精灵图，不是电影原帧，不冒称独立摄影/插画来源。按192×208有效格提取，第1行第3列。已标准化去除近似idle和纯位移重复，原图和rect坐标保存在来源清单。未生成或重绘新姿势。 原素材下载地址：https://raw.githubusercontent.com/glidea/niu-lai-pet/af41d8fbee08517a558d6aa422e741ba0addaf3c/spritesheet.webp",
+    "role": "subject",
+    "is_cutout": true,
+    "templates": [
+      "top",
+      "bottom",
+      "split",
+      "frame",
+      "flower",
+      "grid",
+      "message",
+      "poster",
+      "side",
+      "polaroid",
+      "bubble",
+      "dialogue",
+      "spotlight",
+      "comic",
+      "subtitle",
+      "note",
+      "window",
+      "ticket",
+      "medal",
+      "scene"
+    ]
+  },
+  {
+    "id": "bulk-cow-pet-r02c01",
+    "name": "牛来 · 向右奔跑 · 动作1",
+    "character": "牛来",
+    "filename": "bulk-cow/pet-r02c01.png",
+    "emotion": [
+      "着急",
+      "专注"
+    ],
+    "scenes": [
+      "赶课",
+      "赶截止"
+    ],
+    "examples": [
+      "别急，我在赶了"
+    ],
+    "action": "向右跨步奔跑，手臂前后摆动，动作序列第1格。",
+    "intensity": 3,
+    "existing_text": "",
+    "source_type": "reference",
+    "author": "glidea（公开桌宠贡献者，原角色权属待核实）",
+    "source_url": "https://github.com/glidea/niu-lai-pet/blob/af41d8fbee08517a558d6aa422e741ba0addaf3c/spritesheet.webp",
+    "source_note": "现成牛来同人桌宠渲染动作帧；来自 glidea/niu-lai-pet 的一张完整精灵图，不是电影原帧，不冒称独立摄影/插画来源。按192×208有效格提取，第2行第1列。已标准化去除近似idle和纯位移重复，原图和rect坐标保存在来源清单。未生成或重绘新姿势。 原素材下载地址：https://raw.githubusercontent.com/glidea/niu-lai-pet/af41d8fbee08517a558d6aa422e741ba0addaf3c/spritesheet.webp",
+    "role": "subject",
+    "is_cutout": true,
+    "templates": [
+      "top",
+      "bottom",
+      "split",
+      "frame",
+      "flower",
+      "grid",
+      "message",
+      "poster",
+      "side",
+      "polaroid",
+      "bubble",
+      "dialogue",
+      "spotlight",
+      "comic",
+      "subtitle",
+      "note",
+      "window",
+      "ticket",
+      "medal",
+      "scene"
+    ]
+  },
+  {
+    "id": "bulk-cow-pet-r02c02",
+    "name": "牛来 · 向右奔跑 · 动作2",
+    "character": "牛来",
+    "filename": "bulk-cow/pet-r02c02.png",
+    "emotion": [
+      "着急",
+      "专注"
+    ],
+    "scenes": [
+      "赶课",
+      "赶截止"
+    ],
+    "examples": [
+      "别急，我在赶了"
+    ],
+    "action": "向右跨步奔跑，手臂前后摆动，动作序列第2格。",
+    "intensity": 3,
+    "existing_text": "",
+    "source_type": "reference",
+    "author": "glidea（公开桌宠贡献者，原角色权属待核实）",
+    "source_url": "https://github.com/glidea/niu-lai-pet/blob/af41d8fbee08517a558d6aa422e741ba0addaf3c/spritesheet.webp",
+    "source_note": "现成牛来同人桌宠渲染动作帧；来自 glidea/niu-lai-pet 的一张完整精灵图，不是电影原帧，不冒称独立摄影/插画来源。按192×208有效格提取，第2行第2列。已标准化去除近似idle和纯位移重复，原图和rect坐标保存在来源清单。未生成或重绘新姿势。 原素材下载地址：https://raw.githubusercontent.com/glidea/niu-lai-pet/af41d8fbee08517a558d6aa422e741ba0addaf3c/spritesheet.webp",
+    "role": "subject",
+    "is_cutout": true,
+    "templates": [
+      "top",
+      "bottom",
+      "split",
+      "frame",
+      "flower",
+      "grid",
+      "message",
+      "poster",
+      "side",
+      "polaroid",
+      "bubble",
+      "dialogue",
+      "spotlight",
+      "comic",
+      "subtitle",
+      "note",
+      "window",
+      "ticket",
+      "medal",
+      "scene"
+    ]
+  },
+  {
+    "id": "bulk-cow-pet-r02c03",
+    "name": "牛来 · 向右奔跑 · 动作3",
+    "character": "牛来",
+    "filename": "bulk-cow/pet-r02c03.png",
+    "emotion": [
+      "着急",
+      "专注"
+    ],
+    "scenes": [
+      "赶课",
+      "赶截止"
+    ],
+    "examples": [
+      "别急，我在赶了"
+    ],
+    "action": "向右跨步奔跑，手臂前后摆动，动作序列第3格。",
+    "intensity": 3,
+    "existing_text": "",
+    "source_type": "reference",
+    "author": "glidea（公开桌宠贡献者，原角色权属待核实）",
+    "source_url": "https://github.com/glidea/niu-lai-pet/blob/af41d8fbee08517a558d6aa422e741ba0addaf3c/spritesheet.webp",
+    "source_note": "现成牛来同人桌宠渲染动作帧；来自 glidea/niu-lai-pet 的一张完整精灵图，不是电影原帧，不冒称独立摄影/插画来源。按192×208有效格提取，第2行第3列。已标准化去除近似idle和纯位移重复，原图和rect坐标保存在来源清单。未生成或重绘新姿势。 原素材下载地址：https://raw.githubusercontent.com/glidea/niu-lai-pet/af41d8fbee08517a558d6aa422e741ba0addaf3c/spritesheet.webp",
+    "role": "subject",
+    "is_cutout": true,
+    "templates": [
+      "top",
+      "bottom",
+      "split",
+      "frame",
+      "flower",
+      "grid",
+      "message",
+      "poster",
+      "side",
+      "polaroid",
+      "bubble",
+      "dialogue",
+      "spotlight",
+      "comic",
+      "subtitle",
+      "note",
+      "window",
+      "ticket",
+      "medal",
+      "scene"
+    ]
+  },
+  {
+    "id": "bulk-cow-pet-r02c04",
+    "name": "牛来 · 向右奔跑 · 动作4",
+    "character": "牛来",
+    "filename": "bulk-cow/pet-r02c04.png",
+    "emotion": [
+      "着急",
+      "专注"
+    ],
+    "scenes": [
+      "赶课",
+      "赶截止"
+    ],
+    "examples": [
+      "别急，我在赶了"
+    ],
+    "action": "向右跨步奔跑，手臂前后摆动，动作序列第4格。",
+    "intensity": 3,
+    "existing_text": "",
+    "source_type": "reference",
+    "author": "glidea（公开桌宠贡献者，原角色权属待核实）",
+    "source_url": "https://github.com/glidea/niu-lai-pet/blob/af41d8fbee08517a558d6aa422e741ba0addaf3c/spritesheet.webp",
+    "source_note": "现成牛来同人桌宠渲染动作帧；来自 glidea/niu-lai-pet 的一张完整精灵图，不是电影原帧，不冒称独立摄影/插画来源。按192×208有效格提取，第2行第4列。已标准化去除近似idle和纯位移重复，原图和rect坐标保存在来源清单。未生成或重绘新姿势。 原素材下载地址：https://raw.githubusercontent.com/glidea/niu-lai-pet/af41d8fbee08517a558d6aa422e741ba0addaf3c/spritesheet.webp",
+    "role": "subject",
+    "is_cutout": true,
+    "templates": [
+      "top",
+      "bottom",
+      "split",
+      "frame",
+      "flower",
+      "grid",
+      "message",
+      "poster",
+      "side",
+      "polaroid",
+      "bubble",
+      "dialogue",
+      "spotlight",
+      "comic",
+      "subtitle",
+      "note",
+      "window",
+      "ticket",
+      "medal",
+      "scene"
+    ]
+  },
+  {
+    "id": "bulk-cow-pet-r02c05",
+    "name": "牛来 · 向右奔跑 · 动作5",
+    "character": "牛来",
+    "filename": "bulk-cow/pet-r02c05.png",
+    "emotion": [
+      "着急",
+      "专注"
+    ],
+    "scenes": [
+      "赶课",
+      "赶截止"
+    ],
+    "examples": [
+      "别急，我在赶了"
+    ],
+    "action": "向右跨步奔跑，手臂前后摆动，动作序列第5格。",
+    "intensity": 3,
+    "existing_text": "",
+    "source_type": "reference",
+    "author": "glidea（公开桌宠贡献者，原角色权属待核实）",
+    "source_url": "https://github.com/glidea/niu-lai-pet/blob/af41d8fbee08517a558d6aa422e741ba0addaf3c/spritesheet.webp",
+    "source_note": "现成牛来同人桌宠渲染动作帧；来自 glidea/niu-lai-pet 的一张完整精灵图，不是电影原帧，不冒称独立摄影/插画来源。按192×208有效格提取，第2行第5列。已标准化去除近似idle和纯位移重复，原图和rect坐标保存在来源清单。未生成或重绘新姿势。 原素材下载地址：https://raw.githubusercontent.com/glidea/niu-lai-pet/af41d8fbee08517a558d6aa422e741ba0addaf3c/spritesheet.webp",
+    "role": "subject",
+    "is_cutout": true,
+    "templates": [
+      "top",
+      "bottom",
+      "split",
+      "frame",
+      "flower",
+      "grid",
+      "message",
+      "poster",
+      "side",
+      "polaroid",
+      "bubble",
+      "dialogue",
+      "spotlight",
+      "comic",
+      "subtitle",
+      "note",
+      "window",
+      "ticket",
+      "medal",
+      "scene"
+    ]
+  },
+  {
+    "id": "bulk-cow-pet-r02c06",
+    "name": "牛来 · 向右奔跑 · 动作6",
+    "character": "牛来",
+    "filename": "bulk-cow/pet-r02c06.png",
+    "emotion": [
+      "着急",
+      "专注"
+    ],
+    "scenes": [
+      "赶课",
+      "赶截止"
+    ],
+    "examples": [
+      "别急，我在赶了"
+    ],
+    "action": "向右跨步奔跑，手臂前后摆动，动作序列第6格。",
+    "intensity": 3,
+    "existing_text": "",
+    "source_type": "reference",
+    "author": "glidea（公开桌宠贡献者，原角色权属待核实）",
+    "source_url": "https://github.com/glidea/niu-lai-pet/blob/af41d8fbee08517a558d6aa422e741ba0addaf3c/spritesheet.webp",
+    "source_note": "现成牛来同人桌宠渲染动作帧；来自 glidea/niu-lai-pet 的一张完整精灵图，不是电影原帧，不冒称独立摄影/插画来源。按192×208有效格提取，第2行第6列。已标准化去除近似idle和纯位移重复，原图和rect坐标保存在来源清单。未生成或重绘新姿势。 原素材下载地址：https://raw.githubusercontent.com/glidea/niu-lai-pet/af41d8fbee08517a558d6aa422e741ba0addaf3c/spritesheet.webp",
+    "role": "subject",
+    "is_cutout": true,
+    "templates": [
+      "top",
+      "bottom",
+      "split",
+      "frame",
+      "flower",
+      "grid",
+      "message",
+      "poster",
+      "side",
+      "polaroid",
+      "bubble",
+      "dialogue",
+      "spotlight",
+      "comic",
+      "subtitle",
+      "note",
+      "window",
+      "ticket",
+      "medal",
+      "scene"
+    ]
+  },
+  {
+    "id": "bulk-cow-pet-r02c07",
+    "name": "牛来 · 向右奔跑 · 动作7",
+    "character": "牛来",
+    "filename": "bulk-cow/pet-r02c07.png",
+    "emotion": [
+      "着急",
+      "专注"
+    ],
+    "scenes": [
+      "赶课",
+      "赶截止"
+    ],
+    "examples": [
+      "别急，我在赶了"
+    ],
+    "action": "向右跨步奔跑，手臂前后摆动，动作序列第7格。",
+    "intensity": 3,
+    "existing_text": "",
+    "source_type": "reference",
+    "author": "glidea（公开桌宠贡献者，原角色权属待核实）",
+    "source_url": "https://github.com/glidea/niu-lai-pet/blob/af41d8fbee08517a558d6aa422e741ba0addaf3c/spritesheet.webp",
+    "source_note": "现成牛来同人桌宠渲染动作帧；来自 glidea/niu-lai-pet 的一张完整精灵图，不是电影原帧，不冒称独立摄影/插画来源。按192×208有效格提取，第2行第7列。已标准化去除近似idle和纯位移重复，原图和rect坐标保存在来源清单。未生成或重绘新姿势。 原素材下载地址：https://raw.githubusercontent.com/glidea/niu-lai-pet/af41d8fbee08517a558d6aa422e741ba0addaf3c/spritesheet.webp",
+    "role": "subject",
+    "is_cutout": true,
+    "templates": [
+      "top",
+      "bottom",
+      "split",
+      "frame",
+      "flower",
+      "grid",
+      "message",
+      "poster",
+      "side",
+      "polaroid",
+      "bubble",
+      "dialogue",
+      "spotlight",
+      "comic",
+      "subtitle",
+      "note",
+      "window",
+      "ticket",
+      "medal",
+      "scene"
+    ]
+  },
+  {
+    "id": "bulk-cow-pet-r02c08",
+    "name": "牛来 · 向右奔跑 · 动作8",
+    "character": "牛来",
+    "filename": "bulk-cow/pet-r02c08.png",
+    "emotion": [
+      "着急",
+      "专注"
+    ],
+    "scenes": [
+      "赶课",
+      "赶截止"
+    ],
+    "examples": [
+      "别急，我在赶了"
+    ],
+    "action": "向右跨步奔跑，手臂前后摆动，动作序列第8格。",
+    "intensity": 3,
+    "existing_text": "",
+    "source_type": "reference",
+    "author": "glidea（公开桌宠贡献者，原角色权属待核实）",
+    "source_url": "https://github.com/glidea/niu-lai-pet/blob/af41d8fbee08517a558d6aa422e741ba0addaf3c/spritesheet.webp",
+    "source_note": "现成牛来同人桌宠渲染动作帧；来自 glidea/niu-lai-pet 的一张完整精灵图，不是电影原帧，不冒称独立摄影/插画来源。按192×208有效格提取，第2行第8列。已标准化去除近似idle和纯位移重复，原图和rect坐标保存在来源清单。未生成或重绘新姿势。 原素材下载地址：https://raw.githubusercontent.com/glidea/niu-lai-pet/af41d8fbee08517a558d6aa422e741ba0addaf3c/spritesheet.webp",
+    "role": "subject",
+    "is_cutout": true,
+    "templates": [
+      "top",
+      "bottom",
+      "split",
+      "frame",
+      "flower",
+      "grid",
+      "message",
+      "poster",
+      "side",
+      "polaroid",
+      "bubble",
+      "dialogue",
+      "spotlight",
+      "comic",
+      "subtitle",
+      "note",
+      "window",
+      "ticket",
+      "medal",
+      "scene"
+    ]
+  },
+  {
+    "id": "bulk-cow-pet-r03c01",
+    "name": "牛来 · 向左奔跑 · 动作1",
+    "character": "牛来",
+    "filename": "bulk-cow/pet-r03c01.png",
+    "emotion": [
+      "着急",
+      "专注"
+    ],
+    "scenes": [
+      "赶课",
+      "奔跑"
+    ],
+    "examples": [
+      "我马上就到"
+    ],
+    "action": "向左跨步奔跑，膝盖和脚部位置交替，动作序列第1格。",
+    "intensity": 3,
+    "existing_text": "",
+    "source_type": "reference",
+    "author": "glidea（公开桌宠贡献者，原角色权属待核实）",
+    "source_url": "https://github.com/glidea/niu-lai-pet/blob/af41d8fbee08517a558d6aa422e741ba0addaf3c/spritesheet.webp",
+    "source_note": "现成牛来同人桌宠渲染动作帧；来自 glidea/niu-lai-pet 的一张完整精灵图，不是电影原帧，不冒称独立摄影/插画来源。按192×208有效格提取，第3行第1列。已标准化去除近似idle和纯位移重复，原图和rect坐标保存在来源清单。未生成或重绘新姿势。 原素材下载地址：https://raw.githubusercontent.com/glidea/niu-lai-pet/af41d8fbee08517a558d6aa422e741ba0addaf3c/spritesheet.webp",
+    "role": "subject",
+    "is_cutout": true,
+    "templates": [
+      "top",
+      "bottom",
+      "split",
+      "frame",
+      "flower",
+      "grid",
+      "message",
+      "poster",
+      "side",
+      "polaroid",
+      "bubble",
+      "dialogue",
+      "spotlight",
+      "comic",
+      "subtitle",
+      "note",
+      "window",
+      "ticket",
+      "medal",
+      "scene"
+    ]
+  },
+  {
+    "id": "bulk-cow-pet-r03c02",
+    "name": "牛来 · 向左奔跑 · 动作2",
+    "character": "牛来",
+    "filename": "bulk-cow/pet-r03c02.png",
+    "emotion": [
+      "着急",
+      "专注"
+    ],
+    "scenes": [
+      "赶课",
+      "奔跑"
+    ],
+    "examples": [
+      "我马上就到"
+    ],
+    "action": "向左跨步奔跑，膝盖和脚部位置交替，动作序列第2格。",
+    "intensity": 3,
+    "existing_text": "",
+    "source_type": "reference",
+    "author": "glidea（公开桌宠贡献者，原角色权属待核实）",
+    "source_url": "https://github.com/glidea/niu-lai-pet/blob/af41d8fbee08517a558d6aa422e741ba0addaf3c/spritesheet.webp",
+    "source_note": "现成牛来同人桌宠渲染动作帧；来自 glidea/niu-lai-pet 的一张完整精灵图，不是电影原帧，不冒称独立摄影/插画来源。按192×208有效格提取，第3行第2列。已标准化去除近似idle和纯位移重复，原图和rect坐标保存在来源清单。未生成或重绘新姿势。 原素材下载地址：https://raw.githubusercontent.com/glidea/niu-lai-pet/af41d8fbee08517a558d6aa422e741ba0addaf3c/spritesheet.webp",
+    "role": "subject",
+    "is_cutout": true,
+    "templates": [
+      "top",
+      "bottom",
+      "split",
+      "frame",
+      "flower",
+      "grid",
+      "message",
+      "poster",
+      "side",
+      "polaroid",
+      "bubble",
+      "dialogue",
+      "spotlight",
+      "comic",
+      "subtitle",
+      "note",
+      "window",
+      "ticket",
+      "medal",
+      "scene"
+    ]
+  },
+  {
+    "id": "bulk-cow-pet-r03c03",
+    "name": "牛来 · 向左奔跑 · 动作3",
+    "character": "牛来",
+    "filename": "bulk-cow/pet-r03c03.png",
+    "emotion": [
+      "着急",
+      "专注"
+    ],
+    "scenes": [
+      "赶课",
+      "奔跑"
+    ],
+    "examples": [
+      "我马上就到"
+    ],
+    "action": "向左跨步奔跑，膝盖和脚部位置交替，动作序列第3格。",
+    "intensity": 3,
+    "existing_text": "",
+    "source_type": "reference",
+    "author": "glidea（公开桌宠贡献者，原角色权属待核实）",
+    "source_url": "https://github.com/glidea/niu-lai-pet/blob/af41d8fbee08517a558d6aa422e741ba0addaf3c/spritesheet.webp",
+    "source_note": "现成牛来同人桌宠渲染动作帧；来自 glidea/niu-lai-pet 的一张完整精灵图，不是电影原帧，不冒称独立摄影/插画来源。按192×208有效格提取，第3行第3列。已标准化去除近似idle和纯位移重复，原图和rect坐标保存在来源清单。未生成或重绘新姿势。 原素材下载地址：https://raw.githubusercontent.com/glidea/niu-lai-pet/af41d8fbee08517a558d6aa422e741ba0addaf3c/spritesheet.webp",
+    "role": "subject",
+    "is_cutout": true,
+    "templates": [
+      "top",
+      "bottom",
+      "split",
+      "frame",
+      "flower",
+      "grid",
+      "message",
+      "poster",
+      "side",
+      "polaroid",
+      "bubble",
+      "dialogue",
+      "spotlight",
+      "comic",
+      "subtitle",
+      "note",
+      "window",
+      "ticket",
+      "medal",
+      "scene"
+    ]
+  },
+  {
+    "id": "bulk-cow-pet-r03c04",
+    "name": "牛来 · 向左奔跑 · 动作4",
+    "character": "牛来",
+    "filename": "bulk-cow/pet-r03c04.png",
+    "emotion": [
+      "着急",
+      "专注"
+    ],
+    "scenes": [
+      "赶课",
+      "奔跑"
+    ],
+    "examples": [
+      "我马上就到"
+    ],
+    "action": "向左跨步奔跑，膝盖和脚部位置交替，动作序列第4格。",
+    "intensity": 3,
+    "existing_text": "",
+    "source_type": "reference",
+    "author": "glidea（公开桌宠贡献者，原角色权属待核实）",
+    "source_url": "https://github.com/glidea/niu-lai-pet/blob/af41d8fbee08517a558d6aa422e741ba0addaf3c/spritesheet.webp",
+    "source_note": "现成牛来同人桌宠渲染动作帧；来自 glidea/niu-lai-pet 的一张完整精灵图，不是电影原帧，不冒称独立摄影/插画来源。按192×208有效格提取，第3行第4列。已标准化去除近似idle和纯位移重复，原图和rect坐标保存在来源清单。未生成或重绘新姿势。 原素材下载地址：https://raw.githubusercontent.com/glidea/niu-lai-pet/af41d8fbee08517a558d6aa422e741ba0addaf3c/spritesheet.webp",
+    "role": "subject",
+    "is_cutout": true,
+    "templates": [
+      "top",
+      "bottom",
+      "split",
+      "frame",
+      "flower",
+      "grid",
+      "message",
+      "poster",
+      "side",
+      "polaroid",
+      "bubble",
+      "dialogue",
+      "spotlight",
+      "comic",
+      "subtitle",
+      "note",
+      "window",
+      "ticket",
+      "medal",
+      "scene"
+    ]
+  },
+  {
+    "id": "bulk-cow-pet-r03c05",
+    "name": "牛来 · 向左奔跑 · 动作5",
+    "character": "牛来",
+    "filename": "bulk-cow/pet-r03c05.png",
+    "emotion": [
+      "着急",
+      "专注"
+    ],
+    "scenes": [
+      "赶课",
+      "奔跑"
+    ],
+    "examples": [
+      "我马上就到"
+    ],
+    "action": "向左跨步奔跑，膝盖和脚部位置交替，动作序列第5格。",
+    "intensity": 3,
+    "existing_text": "",
+    "source_type": "reference",
+    "author": "glidea（公开桌宠贡献者，原角色权属待核实）",
+    "source_url": "https://github.com/glidea/niu-lai-pet/blob/af41d8fbee08517a558d6aa422e741ba0addaf3c/spritesheet.webp",
+    "source_note": "现成牛来同人桌宠渲染动作帧；来自 glidea/niu-lai-pet 的一张完整精灵图，不是电影原帧，不冒称独立摄影/插画来源。按192×208有效格提取，第3行第5列。已标准化去除近似idle和纯位移重复，原图和rect坐标保存在来源清单。未生成或重绘新姿势。 原素材下载地址：https://raw.githubusercontent.com/glidea/niu-lai-pet/af41d8fbee08517a558d6aa422e741ba0addaf3c/spritesheet.webp",
+    "role": "subject",
+    "is_cutout": true,
+    "templates": [
+      "top",
+      "bottom",
+      "split",
+      "frame",
+      "flower",
+      "grid",
+      "message",
+      "poster",
+      "side",
+      "polaroid",
+      "bubble",
+      "dialogue",
+      "spotlight",
+      "comic",
+      "subtitle",
+      "note",
+      "window",
+      "ticket",
+      "medal",
+      "scene"
+    ]
+  },
+  {
+    "id": "bulk-cow-pet-r03c06",
+    "name": "牛来 · 向左奔跑 · 动作6",
+    "character": "牛来",
+    "filename": "bulk-cow/pet-r03c06.png",
+    "emotion": [
+      "着急",
+      "专注"
+    ],
+    "scenes": [
+      "赶课",
+      "奔跑"
+    ],
+    "examples": [
+      "我马上就到"
+    ],
+    "action": "向左跨步奔跑，膝盖和脚部位置交替，动作序列第6格。",
+    "intensity": 3,
+    "existing_text": "",
+    "source_type": "reference",
+    "author": "glidea（公开桌宠贡献者，原角色权属待核实）",
+    "source_url": "https://github.com/glidea/niu-lai-pet/blob/af41d8fbee08517a558d6aa422e741ba0addaf3c/spritesheet.webp",
+    "source_note": "现成牛来同人桌宠渲染动作帧；来自 glidea/niu-lai-pet 的一张完整精灵图，不是电影原帧，不冒称独立摄影/插画来源。按192×208有效格提取，第3行第6列。已标准化去除近似idle和纯位移重复，原图和rect坐标保存在来源清单。未生成或重绘新姿势。 原素材下载地址：https://raw.githubusercontent.com/glidea/niu-lai-pet/af41d8fbee08517a558d6aa422e741ba0addaf3c/spritesheet.webp",
+    "role": "subject",
+    "is_cutout": true,
+    "templates": [
+      "top",
+      "bottom",
+      "split",
+      "frame",
+      "flower",
+      "grid",
+      "message",
+      "poster",
+      "side",
+      "polaroid",
+      "bubble",
+      "dialogue",
+      "spotlight",
+      "comic",
+      "subtitle",
+      "note",
+      "window",
+      "ticket",
+      "medal",
+      "scene"
+    ]
+  },
+  {
+    "id": "bulk-cow-pet-r03c07",
+    "name": "牛来 · 向左奔跑 · 动作7",
+    "character": "牛来",
+    "filename": "bulk-cow/pet-r03c07.png",
+    "emotion": [
+      "着急",
+      "专注"
+    ],
+    "scenes": [
+      "赶课",
+      "奔跑"
+    ],
+    "examples": [
+      "我马上就到"
+    ],
+    "action": "向左跨步奔跑，膝盖和脚部位置交替，动作序列第7格。",
+    "intensity": 3,
+    "existing_text": "",
+    "source_type": "reference",
+    "author": "glidea（公开桌宠贡献者，原角色权属待核实）",
+    "source_url": "https://github.com/glidea/niu-lai-pet/blob/af41d8fbee08517a558d6aa422e741ba0addaf3c/spritesheet.webp",
+    "source_note": "现成牛来同人桌宠渲染动作帧；来自 glidea/niu-lai-pet 的一张完整精灵图，不是电影原帧，不冒称独立摄影/插画来源。按192×208有效格提取，第3行第7列。已标准化去除近似idle和纯位移重复，原图和rect坐标保存在来源清单。未生成或重绘新姿势。 原素材下载地址：https://raw.githubusercontent.com/glidea/niu-lai-pet/af41d8fbee08517a558d6aa422e741ba0addaf3c/spritesheet.webp",
+    "role": "subject",
+    "is_cutout": true,
+    "templates": [
+      "top",
+      "bottom",
+      "split",
+      "frame",
+      "flower",
+      "grid",
+      "message",
+      "poster",
+      "side",
+      "polaroid",
+      "bubble",
+      "dialogue",
+      "spotlight",
+      "comic",
+      "subtitle",
+      "note",
+      "window",
+      "ticket",
+      "medal",
+      "scene"
+    ]
+  },
+  {
+    "id": "bulk-cow-pet-r03c08",
+    "name": "牛来 · 向左奔跑 · 动作8",
+    "character": "牛来",
+    "filename": "bulk-cow/pet-r03c08.png",
+    "emotion": [
+      "着急",
+      "专注"
+    ],
+    "scenes": [
+      "赶课",
+      "奔跑"
+    ],
+    "examples": [
+      "我马上就到"
+    ],
+    "action": "向左跨步奔跑，膝盖和脚部位置交替，动作序列第8格。",
+    "intensity": 3,
+    "existing_text": "",
+    "source_type": "reference",
+    "author": "glidea（公开桌宠贡献者，原角色权属待核实）",
+    "source_url": "https://github.com/glidea/niu-lai-pet/blob/af41d8fbee08517a558d6aa422e741ba0addaf3c/spritesheet.webp",
+    "source_note": "现成牛来同人桌宠渲染动作帧；来自 glidea/niu-lai-pet 的一张完整精灵图，不是电影原帧，不冒称独立摄影/插画来源。按192×208有效格提取，第3行第8列。已标准化去除近似idle和纯位移重复，原图和rect坐标保存在来源清单。未生成或重绘新姿势。 原素材下载地址：https://raw.githubusercontent.com/glidea/niu-lai-pet/af41d8fbee08517a558d6aa422e741ba0addaf3c/spritesheet.webp",
+    "role": "subject",
+    "is_cutout": true,
+    "templates": [
+      "top",
+      "bottom",
+      "split",
+      "frame",
+      "flower",
+      "grid",
+      "message",
+      "poster",
+      "side",
+      "polaroid",
+      "bubble",
+      "dialogue",
+      "spotlight",
+      "comic",
+      "subtitle",
+      "note",
+      "window",
+      "ticket",
+      "medal",
+      "scene"
+    ]
+  },
+  {
+    "id": "bulk-cow-pet-r04c01",
+    "name": "牛来 · 举拳挥手 · 动作1",
+    "character": "牛来",
+    "filename": "bulk-cow/pet-r04c01.png",
+    "emotion": [
+      "开心",
+      "坚定"
+    ],
+    "scenes": [
+      "打招呼",
+      "加油"
+    ],
+    "examples": [
+      "加油，稳住"
+    ],
+    "action": "右手从身旁举起，握拳或挥手，动作序列第1格。",
+    "intensity": 2,
+    "existing_text": "",
+    "source_type": "reference",
+    "author": "glidea（公开桌宠贡献者，原角色权属待核实）",
+    "source_url": "https://github.com/glidea/niu-lai-pet/blob/af41d8fbee08517a558d6aa422e741ba0addaf3c/spritesheet.webp",
+    "source_note": "现成牛来同人桌宠渲染动作帧；来自 glidea/niu-lai-pet 的一张完整精灵图，不是电影原帧，不冒称独立摄影/插画来源。按192×208有效格提取，第4行第1列。已标准化去除近似idle和纯位移重复，原图和rect坐标保存在来源清单。未生成或重绘新姿势。 原素材下载地址：https://raw.githubusercontent.com/glidea/niu-lai-pet/af41d8fbee08517a558d6aa422e741ba0addaf3c/spritesheet.webp",
+    "role": "subject",
+    "is_cutout": true,
+    "templates": [
+      "top",
+      "bottom",
+      "split",
+      "frame",
+      "flower",
+      "grid",
+      "message",
+      "poster",
+      "side",
+      "polaroid",
+      "bubble",
+      "dialogue",
+      "spotlight",
+      "comic",
+      "subtitle",
+      "note",
+      "window",
+      "ticket",
+      "medal",
+      "scene"
+    ]
+  },
+  {
+    "id": "bulk-cow-pet-r04c02",
+    "name": "牛来 · 举拳挥手 · 动作2",
+    "character": "牛来",
+    "filename": "bulk-cow/pet-r04c02.png",
+    "emotion": [
+      "开心",
+      "坚定"
+    ],
+    "scenes": [
+      "打招呼",
+      "加油"
+    ],
+    "examples": [
+      "加油，稳住"
+    ],
+    "action": "右手从身旁举起，握拳或挥手，动作序列第2格。",
+    "intensity": 2,
+    "existing_text": "",
+    "source_type": "reference",
+    "author": "glidea（公开桌宠贡献者，原角色权属待核实）",
+    "source_url": "https://github.com/glidea/niu-lai-pet/blob/af41d8fbee08517a558d6aa422e741ba0addaf3c/spritesheet.webp",
+    "source_note": "现成牛来同人桌宠渲染动作帧；来自 glidea/niu-lai-pet 的一张完整精灵图，不是电影原帧，不冒称独立摄影/插画来源。按192×208有效格提取，第4行第2列。已标准化去除近似idle和纯位移重复，原图和rect坐标保存在来源清单。未生成或重绘新姿势。 原素材下载地址：https://raw.githubusercontent.com/glidea/niu-lai-pet/af41d8fbee08517a558d6aa422e741ba0addaf3c/spritesheet.webp",
+    "role": "subject",
+    "is_cutout": true,
+    "templates": [
+      "top",
+      "bottom",
+      "split",
+      "frame",
+      "flower",
+      "grid",
+      "message",
+      "poster",
+      "side",
+      "polaroid",
+      "bubble",
+      "dialogue",
+      "spotlight",
+      "comic",
+      "subtitle",
+      "note",
+      "window",
+      "ticket",
+      "medal",
+      "scene"
+    ]
+  },
+  {
+    "id": "bulk-cow-pet-r04c03",
+    "name": "牛来 · 举拳挥手 · 动作3",
+    "character": "牛来",
+    "filename": "bulk-cow/pet-r04c03.png",
+    "emotion": [
+      "开心",
+      "坚定"
+    ],
+    "scenes": [
+      "打招呼",
+      "加油"
+    ],
+    "examples": [
+      "加油，稳住"
+    ],
+    "action": "右手从身旁举起，握拳或挥手，动作序列第3格。",
+    "intensity": 2,
+    "existing_text": "",
+    "source_type": "reference",
+    "author": "glidea（公开桌宠贡献者，原角色权属待核实）",
+    "source_url": "https://github.com/glidea/niu-lai-pet/blob/af41d8fbee08517a558d6aa422e741ba0addaf3c/spritesheet.webp",
+    "source_note": "现成牛来同人桌宠渲染动作帧；来自 glidea/niu-lai-pet 的一张完整精灵图，不是电影原帧，不冒称独立摄影/插画来源。按192×208有效格提取，第4行第3列。已标准化去除近似idle和纯位移重复，原图和rect坐标保存在来源清单。未生成或重绘新姿势。 原素材下载地址：https://raw.githubusercontent.com/glidea/niu-lai-pet/af41d8fbee08517a558d6aa422e741ba0addaf3c/spritesheet.webp",
+    "role": "subject",
+    "is_cutout": true,
+    "templates": [
+      "top",
+      "bottom",
+      "split",
+      "frame",
+      "flower",
+      "grid",
+      "message",
+      "poster",
+      "side",
+      "polaroid",
+      "bubble",
+      "dialogue",
+      "spotlight",
+      "comic",
+      "subtitle",
+      "note",
+      "window",
+      "ticket",
+      "medal",
+      "scene"
+    ]
+  },
+  {
+    "id": "bulk-cow-pet-r04c04",
+    "name": "牛来 · 举拳挥手 · 动作4",
+    "character": "牛来",
+    "filename": "bulk-cow/pet-r04c04.png",
+    "emotion": [
+      "开心",
+      "坚定"
+    ],
+    "scenes": [
+      "打招呼",
+      "加油"
+    ],
+    "examples": [
+      "加油，稳住"
+    ],
+    "action": "右手从身旁举起，握拳或挥手，动作序列第4格。",
+    "intensity": 2,
+    "existing_text": "",
+    "source_type": "reference",
+    "author": "glidea（公开桌宠贡献者，原角色权属待核实）",
+    "source_url": "https://github.com/glidea/niu-lai-pet/blob/af41d8fbee08517a558d6aa422e741ba0addaf3c/spritesheet.webp",
+    "source_note": "现成牛来同人桌宠渲染动作帧；来自 glidea/niu-lai-pet 的一张完整精灵图，不是电影原帧，不冒称独立摄影/插画来源。按192×208有效格提取，第4行第4列。已标准化去除近似idle和纯位移重复，原图和rect坐标保存在来源清单。未生成或重绘新姿势。 原素材下载地址：https://raw.githubusercontent.com/glidea/niu-lai-pet/af41d8fbee08517a558d6aa422e741ba0addaf3c/spritesheet.webp",
+    "role": "subject",
+    "is_cutout": true,
+    "templates": [
+      "top",
+      "bottom",
+      "split",
+      "frame",
+      "flower",
+      "grid",
+      "message",
+      "poster",
+      "side",
+      "polaroid",
+      "bubble",
+      "dialogue",
+      "spotlight",
+      "comic",
+      "subtitle",
+      "note",
+      "window",
+      "ticket",
+      "medal",
+      "scene"
+    ]
+  },
+  {
+    "id": "bulk-cow-pet-r05c01",
+    "name": "牛来 · 起跳落地 · 动作1",
+    "character": "牛来",
+    "filename": "bulk-cow/pet-r05c01.png",
+    "emotion": [
+      "开心",
+      "兴奋"
+    ],
+    "scenes": [
+      "庆祝",
+      "交作业"
+    ],
+    "examples": [
+      "终于搞定啦"
+    ],
+    "action": "屈膝起跳，双臂伸向两旁，然后落地，动作序列第1格。",
+    "intensity": 3,
+    "existing_text": "",
+    "source_type": "reference",
+    "author": "glidea（公开桌宠贡献者，原角色权属待核实）",
+    "source_url": "https://github.com/glidea/niu-lai-pet/blob/af41d8fbee08517a558d6aa422e741ba0addaf3c/spritesheet.webp",
+    "source_note": "现成牛来同人桌宠渲染动作帧；来自 glidea/niu-lai-pet 的一张完整精灵图，不是电影原帧，不冒称独立摄影/插画来源。按192×208有效格提取，第5行第1列。已标准化去除近似idle和纯位移重复，原图和rect坐标保存在来源清单。未生成或重绘新姿势。 原素材下载地址：https://raw.githubusercontent.com/glidea/niu-lai-pet/af41d8fbee08517a558d6aa422e741ba0addaf3c/spritesheet.webp",
+    "role": "subject",
+    "is_cutout": true,
+    "templates": [
+      "top",
+      "bottom",
+      "split",
+      "frame",
+      "flower",
+      "grid",
+      "message",
+      "poster",
+      "side",
+      "polaroid",
+      "bubble",
+      "dialogue",
+      "spotlight",
+      "comic",
+      "subtitle",
+      "note",
+      "window",
+      "ticket",
+      "medal",
+      "scene"
+    ]
+  },
+  {
+    "id": "bulk-cow-pet-r05c02",
+    "name": "牛来 · 起跳落地 · 动作2",
+    "character": "牛来",
+    "filename": "bulk-cow/pet-r05c02.png",
+    "emotion": [
+      "开心",
+      "兴奋"
+    ],
+    "scenes": [
+      "庆祝",
+      "交作业"
+    ],
+    "examples": [
+      "终于搞定啦"
+    ],
+    "action": "屈膝起跳，双臂伸向两旁，然后落地，动作序列第2格。",
+    "intensity": 3,
+    "existing_text": "",
+    "source_type": "reference",
+    "author": "glidea（公开桌宠贡献者，原角色权属待核实）",
+    "source_url": "https://github.com/glidea/niu-lai-pet/blob/af41d8fbee08517a558d6aa422e741ba0addaf3c/spritesheet.webp",
+    "source_note": "现成牛来同人桌宠渲染动作帧；来自 glidea/niu-lai-pet 的一张完整精灵图，不是电影原帧，不冒称独立摄影/插画来源。按192×208有效格提取，第5行第2列。已标准化去除近似idle和纯位移重复，原图和rect坐标保存在来源清单。未生成或重绘新姿势。 原素材下载地址：https://raw.githubusercontent.com/glidea/niu-lai-pet/af41d8fbee08517a558d6aa422e741ba0addaf3c/spritesheet.webp",
+    "role": "subject",
+    "is_cutout": true,
+    "templates": [
+      "top",
+      "bottom",
+      "split",
+      "frame",
+      "flower",
+      "grid",
+      "message",
+      "poster",
+      "side",
+      "polaroid",
+      "bubble",
+      "dialogue",
+      "spotlight",
+      "comic",
+      "subtitle",
+      "note",
+      "window",
+      "ticket",
+      "medal",
+      "scene"
+    ]
+  },
+  {
+    "id": "bulk-cow-pet-r05c03",
+    "name": "牛来 · 起跳落地 · 动作3",
+    "character": "牛来",
+    "filename": "bulk-cow/pet-r05c03.png",
+    "emotion": [
+      "开心",
+      "兴奋"
+    ],
+    "scenes": [
+      "庆祝",
+      "交作业"
+    ],
+    "examples": [
+      "终于搞定啦"
+    ],
+    "action": "屈膝起跳，双臂伸向两旁，然后落地，动作序列第3格。",
+    "intensity": 3,
+    "existing_text": "",
+    "source_type": "reference",
+    "author": "glidea（公开桌宠贡献者，原角色权属待核实）",
+    "source_url": "https://github.com/glidea/niu-lai-pet/blob/af41d8fbee08517a558d6aa422e741ba0addaf3c/spritesheet.webp",
+    "source_note": "现成牛来同人桌宠渲染动作帧；来自 glidea/niu-lai-pet 的一张完整精灵图，不是电影原帧，不冒称独立摄影/插画来源。按192×208有效格提取，第5行第3列。已标准化去除近似idle和纯位移重复，原图和rect坐标保存在来源清单。未生成或重绘新姿势。 原素材下载地址：https://raw.githubusercontent.com/glidea/niu-lai-pet/af41d8fbee08517a558d6aa422e741ba0addaf3c/spritesheet.webp",
+    "role": "subject",
+    "is_cutout": true,
+    "templates": [
+      "top",
+      "bottom",
+      "split",
+      "frame",
+      "flower",
+      "grid",
+      "message",
+      "poster",
+      "side",
+      "polaroid",
+      "bubble",
+      "dialogue",
+      "spotlight",
+      "comic",
+      "subtitle",
+      "note",
+      "window",
+      "ticket",
+      "medal",
+      "scene"
+    ]
+  },
+  {
+    "id": "bulk-cow-pet-r05c04",
+    "name": "牛来 · 起跳落地 · 动作4",
+    "character": "牛来",
+    "filename": "bulk-cow/pet-r05c04.png",
+    "emotion": [
+      "开心",
+      "兴奋"
+    ],
+    "scenes": [
+      "庆祝",
+      "交作业"
+    ],
+    "examples": [
+      "终于搞定啦"
+    ],
+    "action": "屈膝起跳，双臂伸向两旁，然后落地，动作序列第4格。",
+    "intensity": 3,
+    "existing_text": "",
+    "source_type": "reference",
+    "author": "glidea（公开桌宠贡献者，原角色权属待核实）",
+    "source_url": "https://github.com/glidea/niu-lai-pet/blob/af41d8fbee08517a558d6aa422e741ba0addaf3c/spritesheet.webp",
+    "source_note": "现成牛来同人桌宠渲染动作帧；来自 glidea/niu-lai-pet 的一张完整精灵图，不是电影原帧，不冒称独立摄影/插画来源。按192×208有效格提取，第5行第4列。已标准化去除近似idle和纯位移重复，原图和rect坐标保存在来源清单。未生成或重绘新姿势。 原素材下载地址：https://raw.githubusercontent.com/glidea/niu-lai-pet/af41d8fbee08517a558d6aa422e741ba0addaf3c/spritesheet.webp",
+    "role": "subject",
+    "is_cutout": true,
+    "templates": [
+      "top",
+      "bottom",
+      "split",
+      "frame",
+      "flower",
+      "grid",
+      "message",
+      "poster",
+      "side",
+      "polaroid",
+      "bubble",
+      "dialogue",
+      "spotlight",
+      "comic",
+      "subtitle",
+      "note",
+      "window",
+      "ticket",
+      "medal",
+      "scene"
+    ]
+  },
+  {
+    "id": "bulk-cow-pet-r05c05",
+    "name": "牛来 · 起跳落地 · 动作5",
+    "character": "牛来",
+    "filename": "bulk-cow/pet-r05c05.png",
+    "emotion": [
+      "开心",
+      "兴奋"
+    ],
+    "scenes": [
+      "庆祝",
+      "交作业"
+    ],
+    "examples": [
+      "终于搞定啦"
+    ],
+    "action": "屈膝起跳，双臂伸向两旁，然后落地，动作序列第5格。",
+    "intensity": 3,
+    "existing_text": "",
+    "source_type": "reference",
+    "author": "glidea（公开桌宠贡献者，原角色权属待核实）",
+    "source_url": "https://github.com/glidea/niu-lai-pet/blob/af41d8fbee08517a558d6aa422e741ba0addaf3c/spritesheet.webp",
+    "source_note": "现成牛来同人桌宠渲染动作帧；来自 glidea/niu-lai-pet 的一张完整精灵图，不是电影原帧，不冒称独立摄影/插画来源。按192×208有效格提取，第5行第5列。已标准化去除近似idle和纯位移重复，原图和rect坐标保存在来源清单。未生成或重绘新姿势。 原素材下载地址：https://raw.githubusercontent.com/glidea/niu-lai-pet/af41d8fbee08517a558d6aa422e741ba0addaf3c/spritesheet.webp",
+    "role": "subject",
+    "is_cutout": true,
+    "templates": [
+      "top",
+      "bottom",
+      "split",
+      "frame",
+      "flower",
+      "grid",
+      "message",
+      "poster",
+      "side",
+      "polaroid",
+      "bubble",
+      "dialogue",
+      "spotlight",
+      "comic",
+      "subtitle",
+      "note",
+      "window",
+      "ticket",
+      "medal",
+      "scene"
+    ]
+  },
+  {
+    "id": "bulk-cow-pet-r06c02",
+    "name": "牛来 · 低头蜷睡 · 动作2",
+    "character": "牛来",
+    "filename": "bulk-cow/pet-r06c02.png",
+    "emotion": [
+      "疲惫",
+      "难过"
+    ],
+    "scenes": [
+      "早八",
+      "累了",
+      "想睡觉"
+    ],
+    "examples": [
+      "让我休息一会"
+    ],
+    "action": "低头弯腰，坐下抱头，最后蜷缩侧躺，动作序列第2格。",
+    "intensity": 2,
+    "existing_text": "",
+    "source_type": "reference",
+    "author": "glidea（公开桌宠贡献者，原角色权属待核实）",
+    "source_url": "https://github.com/glidea/niu-lai-pet/blob/af41d8fbee08517a558d6aa422e741ba0addaf3c/spritesheet.webp",
+    "source_note": "现成牛来同人桌宠渲染动作帧；来自 glidea/niu-lai-pet 的一张完整精灵图，不是电影原帧，不冒称独立摄影/插画来源。按192×208有效格提取，第6行第2列。已标准化去除近似idle和纯位移重复，原图和rect坐标保存在来源清单。未生成或重绘新姿势。 原素材下载地址：https://raw.githubusercontent.com/glidea/niu-lai-pet/af41d8fbee08517a558d6aa422e741ba0addaf3c/spritesheet.webp",
+    "role": "subject",
+    "is_cutout": true,
+    "templates": [
+      "top",
+      "bottom",
+      "split",
+      "frame",
+      "flower",
+      "grid",
+      "message",
+      "poster",
+      "side",
+      "polaroid",
+      "bubble",
+      "dialogue",
+      "spotlight",
+      "comic",
+      "subtitle",
+      "note",
+      "window",
+      "ticket",
+      "medal",
+      "scene"
+    ]
+  },
+  {
+    "id": "bulk-cow-pet-r06c03",
+    "name": "牛来 · 低头蜷睡 · 动作3",
+    "character": "牛来",
+    "filename": "bulk-cow/pet-r06c03.png",
+    "emotion": [
+      "疲惫",
+      "难过"
+    ],
+    "scenes": [
+      "早八",
+      "累了",
+      "想睡觉"
+    ],
+    "examples": [
+      "让我休息一会"
+    ],
+    "action": "低头弯腰，坐下抱头，最后蜷缩侧躺，动作序列第3格。",
+    "intensity": 2,
+    "existing_text": "",
+    "source_type": "reference",
+    "author": "glidea（公开桌宠贡献者，原角色权属待核实）",
+    "source_url": "https://github.com/glidea/niu-lai-pet/blob/af41d8fbee08517a558d6aa422e741ba0addaf3c/spritesheet.webp",
+    "source_note": "现成牛来同人桌宠渲染动作帧；来自 glidea/niu-lai-pet 的一张完整精灵图，不是电影原帧，不冒称独立摄影/插画来源。按192×208有效格提取，第6行第3列。已标准化去除近似idle和纯位移重复，原图和rect坐标保存在来源清单。未生成或重绘新姿势。 原素材下载地址：https://raw.githubusercontent.com/glidea/niu-lai-pet/af41d8fbee08517a558d6aa422e741ba0addaf3c/spritesheet.webp",
+    "role": "subject",
+    "is_cutout": true,
+    "templates": [
+      "top",
+      "bottom",
+      "split",
+      "frame",
+      "flower",
+      "grid",
+      "message",
+      "poster",
+      "side",
+      "polaroid",
+      "bubble",
+      "dialogue",
+      "spotlight",
+      "comic",
+      "subtitle",
+      "note",
+      "window",
+      "ticket",
+      "medal",
+      "scene"
+    ]
+  },
+  {
+    "id": "bulk-cow-pet-r06c04",
+    "name": "牛来 · 低头蜷睡 · 动作4",
+    "character": "牛来",
+    "filename": "bulk-cow/pet-r06c04.png",
+    "emotion": [
+      "疲惫",
+      "难过"
+    ],
+    "scenes": [
+      "早八",
+      "累了",
+      "想睡觉"
+    ],
+    "examples": [
+      "让我休息一会"
+    ],
+    "action": "低头弯腰，坐下抱头，最后蜷缩侧躺，动作序列第4格。",
+    "intensity": 2,
+    "existing_text": "",
+    "source_type": "reference",
+    "author": "glidea（公开桌宠贡献者，原角色权属待核实）",
+    "source_url": "https://github.com/glidea/niu-lai-pet/blob/af41d8fbee08517a558d6aa422e741ba0addaf3c/spritesheet.webp",
+    "source_note": "现成牛来同人桌宠渲染动作帧；来自 glidea/niu-lai-pet 的一张完整精灵图，不是电影原帧，不冒称独立摄影/插画来源。按192×208有效格提取，第6行第4列。已标准化去除近似idle和纯位移重复，原图和rect坐标保存在来源清单。未生成或重绘新姿势。 原素材下载地址：https://raw.githubusercontent.com/glidea/niu-lai-pet/af41d8fbee08517a558d6aa422e741ba0addaf3c/spritesheet.webp",
+    "role": "subject",
+    "is_cutout": true,
+    "templates": [
+      "top",
+      "bottom",
+      "split",
+      "frame",
+      "flower",
+      "grid",
+      "message",
+      "poster",
+      "side",
+      "polaroid",
+      "bubble",
+      "dialogue",
+      "spotlight",
+      "comic",
+      "subtitle",
+      "note",
+      "window",
+      "ticket",
+      "medal",
+      "scene"
+    ]
+  },
+  {
+    "id": "bulk-cow-pet-r06c05",
+    "name": "牛来 · 低头蜷睡 · 动作5",
+    "character": "牛来",
+    "filename": "bulk-cow/pet-r06c05.png",
+    "emotion": [
+      "疲惫",
+      "难过"
+    ],
+    "scenes": [
+      "早八",
+      "累了",
+      "想睡觉"
+    ],
+    "examples": [
+      "让我休息一会"
+    ],
+    "action": "低头弯腰，坐下抱头，最后蜷缩侧躺，动作序列第5格。",
+    "intensity": 2,
+    "existing_text": "",
+    "source_type": "reference",
+    "author": "glidea（公开桌宠贡献者，原角色权属待核实）",
+    "source_url": "https://github.com/glidea/niu-lai-pet/blob/af41d8fbee08517a558d6aa422e741ba0addaf3c/spritesheet.webp",
+    "source_note": "现成牛来同人桌宠渲染动作帧；来自 glidea/niu-lai-pet 的一张完整精灵图，不是电影原帧，不冒称独立摄影/插画来源。按192×208有效格提取，第6行第5列。已标准化去除近似idle和纯位移重复，原图和rect坐标保存在来源清单。未生成或重绘新姿势。 原素材下载地址：https://raw.githubusercontent.com/glidea/niu-lai-pet/af41d8fbee08517a558d6aa422e741ba0addaf3c/spritesheet.webp",
+    "role": "subject",
+    "is_cutout": true,
+    "templates": [
+      "top",
+      "bottom",
+      "split",
+      "frame",
+      "flower",
+      "grid",
+      "message",
+      "poster",
+      "side",
+      "polaroid",
+      "bubble",
+      "dialogue",
+      "spotlight",
+      "comic",
+      "subtitle",
+      "note",
+      "window",
+      "ticket",
+      "medal",
+      "scene"
+    ]
+  },
+  {
+    "id": "bulk-cow-pet-r06c06",
+    "name": "牛来 · 低头蜷睡 · 动作6",
+    "character": "牛来",
+    "filename": "bulk-cow/pet-r06c06.png",
+    "emotion": [
+      "疲惫",
+      "难过"
+    ],
+    "scenes": [
+      "早八",
+      "累了",
+      "想睡觉"
+    ],
+    "examples": [
+      "让我休息一会"
+    ],
+    "action": "低头弯腰，坐下抱头，最后蜷缩侧躺，动作序列第6格。",
+    "intensity": 2,
+    "existing_text": "",
+    "source_type": "reference",
+    "author": "glidea（公开桌宠贡献者，原角色权属待核实）",
+    "source_url": "https://github.com/glidea/niu-lai-pet/blob/af41d8fbee08517a558d6aa422e741ba0addaf3c/spritesheet.webp",
+    "source_note": "现成牛来同人桌宠渲染动作帧；来自 glidea/niu-lai-pet 的一张完整精灵图，不是电影原帧，不冒称独立摄影/插画来源。按192×208有效格提取，第6行第6列。已标准化去除近似idle和纯位移重复，原图和rect坐标保存在来源清单。未生成或重绘新姿势。 原素材下载地址：https://raw.githubusercontent.com/glidea/niu-lai-pet/af41d8fbee08517a558d6aa422e741ba0addaf3c/spritesheet.webp",
+    "role": "subject",
+    "is_cutout": true,
+    "templates": [
+      "top",
+      "bottom",
+      "split",
+      "frame",
+      "flower",
+      "grid",
+      "message",
+      "poster",
+      "side",
+      "polaroid",
+      "bubble",
+      "dialogue",
+      "spotlight",
+      "comic",
+      "subtitle",
+      "note",
+      "window",
+      "ticket",
+      "medal",
+      "scene"
+    ]
+  },
+  {
+    "id": "bulk-cow-pet-r06c07",
+    "name": "牛来 · 低头蜷睡 · 动作7",
+    "character": "牛来",
+    "filename": "bulk-cow/pet-r06c07.png",
+    "emotion": [
+      "疲惫",
+      "难过"
+    ],
+    "scenes": [
+      "早八",
+      "累了",
+      "想睡觉"
+    ],
+    "examples": [
+      "让我休息一会"
+    ],
+    "action": "低头弯腰，坐下抱头，最后蜷缩侧躺，动作序列第7格。",
+    "intensity": 2,
+    "existing_text": "",
+    "source_type": "reference",
+    "author": "glidea（公开桌宠贡献者，原角色权属待核实）",
+    "source_url": "https://github.com/glidea/niu-lai-pet/blob/af41d8fbee08517a558d6aa422e741ba0addaf3c/spritesheet.webp",
+    "source_note": "现成牛来同人桌宠渲染动作帧；来自 glidea/niu-lai-pet 的一张完整精灵图，不是电影原帧，不冒称独立摄影/插画来源。按192×208有效格提取，第6行第7列。已标准化去除近似idle和纯位移重复，原图和rect坐标保存在来源清单。未生成或重绘新姿势。 原素材下载地址：https://raw.githubusercontent.com/glidea/niu-lai-pet/af41d8fbee08517a558d6aa422e741ba0addaf3c/spritesheet.webp",
+    "role": "subject",
+    "is_cutout": true,
+    "templates": [
+      "top",
+      "bottom",
+      "split",
+      "frame",
+      "flower",
+      "grid",
+      "message",
+      "poster",
+      "side",
+      "polaroid",
+      "bubble",
+      "dialogue",
+      "spotlight",
+      "comic",
+      "subtitle",
+      "note",
+      "window",
+      "ticket",
+      "medal",
+      "scene"
+    ]
+  },
+  {
+    "id": "bulk-cow-pet-r06c08",
+    "name": "牛来 · 低头蜷睡 · 动作8",
+    "character": "牛来",
+    "filename": "bulk-cow/pet-r06c08.png",
+    "emotion": [
+      "疲惫",
+      "难过"
+    ],
+    "scenes": [
+      "早八",
+      "累了",
+      "想睡觉"
+    ],
+    "examples": [
+      "让我休息一会"
+    ],
+    "action": "低头弯腰，坐下抱头，最后蜷缩侧躺，动作序列第8格。",
+    "intensity": 2,
+    "existing_text": "",
+    "source_type": "reference",
+    "author": "glidea（公开桌宠贡献者，原角色权属待核实）",
+    "source_url": "https://github.com/glidea/niu-lai-pet/blob/af41d8fbee08517a558d6aa422e741ba0addaf3c/spritesheet.webp",
+    "source_note": "现成牛来同人桌宠渲染动作帧；来自 glidea/niu-lai-pet 的一张完整精灵图，不是电影原帧，不冒称独立摄影/插画来源。按192×208有效格提取，第6行第8列。已标准化去除近似idle和纯位移重复，原图和rect坐标保存在来源清单。未生成或重绘新姿势。 原素材下载地址：https://raw.githubusercontent.com/glidea/niu-lai-pet/af41d8fbee08517a558d6aa422e741ba0addaf3c/spritesheet.webp",
+    "role": "subject",
+    "is_cutout": true,
+    "templates": [
+      "top",
+      "bottom",
+      "split",
+      "frame",
+      "flower",
+      "grid",
+      "message",
+      "poster",
+      "side",
+      "polaroid",
+      "bubble",
+      "dialogue",
+      "spotlight",
+      "comic",
+      "subtitle",
+      "note",
+      "window",
+      "ticket",
+      "medal",
+      "scene"
+    ]
+  },
+  {
+    "id": "bulk-cow-pet-r07c01",
+    "name": "牛来 · 友好手势 · 动作1",
+    "character": "牛来",
+    "filename": "bulk-cow/pet-r07c01.png",
+    "emotion": [
+      "友好",
+      "开心"
+    ],
+    "scenes": [
+      "感谢",
+      "群聊"
+    ],
+    "examples": [
+      "谢谢你听我说"
+    ],
+    "action": "双手背后、托腮、摊手、挥手或合十，动作序列第1格。",
+    "intensity": 2,
+    "existing_text": "",
+    "source_type": "reference",
+    "author": "glidea（公开桌宠贡献者，原角色权属待核实）",
+    "source_url": "https://github.com/glidea/niu-lai-pet/blob/af41d8fbee08517a558d6aa422e741ba0addaf3c/spritesheet.webp",
+    "source_note": "现成牛来同人桌宠渲染动作帧；来自 glidea/niu-lai-pet 的一张完整精灵图，不是电影原帧，不冒称独立摄影/插画来源。按192×208有效格提取，第7行第1列。已标准化去除近似idle和纯位移重复，原图和rect坐标保存在来源清单。未生成或重绘新姿势。 原素材下载地址：https://raw.githubusercontent.com/glidea/niu-lai-pet/af41d8fbee08517a558d6aa422e741ba0addaf3c/spritesheet.webp",
+    "role": "subject",
+    "is_cutout": true,
+    "templates": [
+      "top",
+      "bottom",
+      "split",
+      "frame",
+      "flower",
+      "grid",
+      "message",
+      "poster",
+      "side",
+      "polaroid",
+      "bubble",
+      "dialogue",
+      "spotlight",
+      "comic",
+      "subtitle",
+      "note",
+      "window",
+      "ticket",
+      "medal",
+      "scene"
+    ]
+  },
+  {
+    "id": "bulk-cow-pet-r07c02",
+    "name": "牛来 · 友好手势 · 动作2",
+    "character": "牛来",
+    "filename": "bulk-cow/pet-r07c02.png",
+    "emotion": [
+      "友好",
+      "开心"
+    ],
+    "scenes": [
+      "感谢",
+      "群聊"
+    ],
+    "examples": [
+      "谢谢你听我说"
+    ],
+    "action": "双手背后、托腮、摊手、挥手或合十，动作序列第2格。",
+    "intensity": 2,
+    "existing_text": "",
+    "source_type": "reference",
+    "author": "glidea（公开桌宠贡献者，原角色权属待核实）",
+    "source_url": "https://github.com/glidea/niu-lai-pet/blob/af41d8fbee08517a558d6aa422e741ba0addaf3c/spritesheet.webp",
+    "source_note": "现成牛来同人桌宠渲染动作帧；来自 glidea/niu-lai-pet 的一张完整精灵图，不是电影原帧，不冒称独立摄影/插画来源。按192×208有效格提取，第7行第2列。已标准化去除近似idle和纯位移重复，原图和rect坐标保存在来源清单。未生成或重绘新姿势。 原素材下载地址：https://raw.githubusercontent.com/glidea/niu-lai-pet/af41d8fbee08517a558d6aa422e741ba0addaf3c/spritesheet.webp",
+    "role": "subject",
+    "is_cutout": true,
+    "templates": [
+      "top",
+      "bottom",
+      "split",
+      "frame",
+      "flower",
+      "grid",
+      "message",
+      "poster",
+      "side",
+      "polaroid",
+      "bubble",
+      "dialogue",
+      "spotlight",
+      "comic",
+      "subtitle",
+      "note",
+      "window",
+      "ticket",
+      "medal",
+      "scene"
+    ]
+  },
+  {
+    "id": "bulk-cow-pet-r07c03",
+    "name": "牛来 · 友好手势 · 动作3",
+    "character": "牛来",
+    "filename": "bulk-cow/pet-r07c03.png",
+    "emotion": [
+      "友好",
+      "开心"
+    ],
+    "scenes": [
+      "感谢",
+      "群聊"
+    ],
+    "examples": [
+      "谢谢你听我说"
+    ],
+    "action": "双手背后、托腮、摊手、挥手或合十，动作序列第3格。",
+    "intensity": 2,
+    "existing_text": "",
+    "source_type": "reference",
+    "author": "glidea（公开桌宠贡献者，原角色权属待核实）",
+    "source_url": "https://github.com/glidea/niu-lai-pet/blob/af41d8fbee08517a558d6aa422e741ba0addaf3c/spritesheet.webp",
+    "source_note": "现成牛来同人桌宠渲染动作帧；来自 glidea/niu-lai-pet 的一张完整精灵图，不是电影原帧，不冒称独立摄影/插画来源。按192×208有效格提取，第7行第3列。已标准化去除近似idle和纯位移重复，原图和rect坐标保存在来源清单。未生成或重绘新姿势。 原素材下载地址：https://raw.githubusercontent.com/glidea/niu-lai-pet/af41d8fbee08517a558d6aa422e741ba0addaf3c/spritesheet.webp",
+    "role": "subject",
+    "is_cutout": true,
+    "templates": [
+      "top",
+      "bottom",
+      "split",
+      "frame",
+      "flower",
+      "grid",
+      "message",
+      "poster",
+      "side",
+      "polaroid",
+      "bubble",
+      "dialogue",
+      "spotlight",
+      "comic",
+      "subtitle",
+      "note",
+      "window",
+      "ticket",
+      "medal",
+      "scene"
+    ]
+  },
+  {
+    "id": "bulk-cow-pet-r07c04",
+    "name": "牛来 · 友好手势 · 动作4",
+    "character": "牛来",
+    "filename": "bulk-cow/pet-r07c04.png",
+    "emotion": [
+      "友好",
+      "开心"
+    ],
+    "scenes": [
+      "感谢",
+      "群聊"
+    ],
+    "examples": [
+      "谢谢你听我说"
+    ],
+    "action": "双手背后、托腮、摊手、挥手或合十，动作序列第4格。",
+    "intensity": 2,
+    "existing_text": "",
+    "source_type": "reference",
+    "author": "glidea（公开桌宠贡献者，原角色权属待核实）",
+    "source_url": "https://github.com/glidea/niu-lai-pet/blob/af41d8fbee08517a558d6aa422e741ba0addaf3c/spritesheet.webp",
+    "source_note": "现成牛来同人桌宠渲染动作帧；来自 glidea/niu-lai-pet 的一张完整精灵图，不是电影原帧，不冒称独立摄影/插画来源。按192×208有效格提取，第7行第4列。已标准化去除近似idle和纯位移重复，原图和rect坐标保存在来源清单。未生成或重绘新姿势。 原素材下载地址：https://raw.githubusercontent.com/glidea/niu-lai-pet/af41d8fbee08517a558d6aa422e741ba0addaf3c/spritesheet.webp",
+    "role": "subject",
+    "is_cutout": true,
+    "templates": [
+      "top",
+      "bottom",
+      "split",
+      "frame",
+      "flower",
+      "grid",
+      "message",
+      "poster",
+      "side",
+      "polaroid",
+      "bubble",
+      "dialogue",
+      "spotlight",
+      "comic",
+      "subtitle",
+      "note",
+      "window",
+      "ticket",
+      "medal",
+      "scene"
+    ]
+  },
+  {
+    "id": "bulk-cow-pet-r07c05",
+    "name": "牛来 · 友好手势 · 动作5",
+    "character": "牛来",
+    "filename": "bulk-cow/pet-r07c05.png",
+    "emotion": [
+      "友好",
+      "开心"
+    ],
+    "scenes": [
+      "感谢",
+      "群聊"
+    ],
+    "examples": [
+      "谢谢你听我说"
+    ],
+    "action": "双手背后、托腮、摊手、挥手或合十，动作序列第5格。",
+    "intensity": 2,
+    "existing_text": "",
+    "source_type": "reference",
+    "author": "glidea（公开桌宠贡献者，原角色权属待核实）",
+    "source_url": "https://github.com/glidea/niu-lai-pet/blob/af41d8fbee08517a558d6aa422e741ba0addaf3c/spritesheet.webp",
+    "source_note": "现成牛来同人桌宠渲染动作帧；来自 glidea/niu-lai-pet 的一张完整精灵图，不是电影原帧，不冒称独立摄影/插画来源。按192×208有效格提取，第7行第5列。已标准化去除近似idle和纯位移重复，原图和rect坐标保存在来源清单。未生成或重绘新姿势。 原素材下载地址：https://raw.githubusercontent.com/glidea/niu-lai-pet/af41d8fbee08517a558d6aa422e741ba0addaf3c/spritesheet.webp",
+    "role": "subject",
+    "is_cutout": true,
+    "templates": [
+      "top",
+      "bottom",
+      "split",
+      "frame",
+      "flower",
+      "grid",
+      "message",
+      "poster",
+      "side",
+      "polaroid",
+      "bubble",
+      "dialogue",
+      "spotlight",
+      "comic",
+      "subtitle",
+      "note",
+      "window",
+      "ticket",
+      "medal",
+      "scene"
+    ]
+  },
+  {
+    "id": "bulk-cow-pet-r07c06",
+    "name": "牛来 · 友好手势 · 动作6",
+    "character": "牛来",
+    "filename": "bulk-cow/pet-r07c06.png",
+    "emotion": [
+      "友好",
+      "开心"
+    ],
+    "scenes": [
+      "感谢",
+      "群聊"
+    ],
+    "examples": [
+      "谢谢你听我说"
+    ],
+    "action": "双手背后、托腮、摊手、挥手或合十，动作序列第6格。",
+    "intensity": 2,
+    "existing_text": "",
+    "source_type": "reference",
+    "author": "glidea（公开桌宠贡献者，原角色权属待核实）",
+    "source_url": "https://github.com/glidea/niu-lai-pet/blob/af41d8fbee08517a558d6aa422e741ba0addaf3c/spritesheet.webp",
+    "source_note": "现成牛来同人桌宠渲染动作帧；来自 glidea/niu-lai-pet 的一张完整精灵图，不是电影原帧，不冒称独立摄影/插画来源。按192×208有效格提取，第7行第6列。已标准化去除近似idle和纯位移重复，原图和rect坐标保存在来源清单。未生成或重绘新姿势。 原素材下载地址：https://raw.githubusercontent.com/glidea/niu-lai-pet/af41d8fbee08517a558d6aa422e741ba0addaf3c/spritesheet.webp",
+    "role": "subject",
+    "is_cutout": true,
+    "templates": [
+      "top",
+      "bottom",
+      "split",
+      "frame",
+      "flower",
+      "grid",
+      "message",
+      "poster",
+      "side",
+      "polaroid",
+      "bubble",
+      "dialogue",
+      "spotlight",
+      "comic",
+      "subtitle",
+      "note",
+      "window",
+      "ticket",
+      "medal",
+      "scene"
+    ]
+  },
+  {
+    "id": "bulk-cow-pet-r08c01",
+    "name": "牛来 · 思考姿势 · 动作1",
+    "character": "牛来",
+    "filename": "bulk-cow/pet-r08c01.png",
+    "emotion": [
+      "思考",
+      "怀疑"
+    ],
+    "scenes": [
+      "做题",
+      "选课"
+    ],
+    "examples": [
+      "这事值得想一想"
+    ],
+    "action": "抱胸、托腮或倾斜身体思考，动作序列第1格。",
+    "intensity": 2,
+    "existing_text": "",
+    "source_type": "reference",
+    "author": "glidea（公开桌宠贡献者，原角色权属待核实）",
+    "source_url": "https://github.com/glidea/niu-lai-pet/blob/af41d8fbee08517a558d6aa422e741ba0addaf3c/spritesheet.webp",
+    "source_note": "现成牛来同人桌宠渲染动作帧；来自 glidea/niu-lai-pet 的一张完整精灵图，不是电影原帧，不冒称独立摄影/插画来源。按192×208有效格提取，第8行第1列。已标准化去除近似idle和纯位移重复，原图和rect坐标保存在来源清单。未生成或重绘新姿势。 原素材下载地址：https://raw.githubusercontent.com/glidea/niu-lai-pet/af41d8fbee08517a558d6aa422e741ba0addaf3c/spritesheet.webp",
+    "role": "subject",
+    "is_cutout": true,
+    "templates": [
+      "top",
+      "bottom",
+      "split",
+      "frame",
+      "flower",
+      "grid",
+      "message",
+      "poster",
+      "side",
+      "polaroid",
+      "bubble",
+      "dialogue",
+      "spotlight",
+      "comic",
+      "subtitle",
+      "note",
+      "window",
+      "ticket",
+      "medal",
+      "scene"
+    ]
+  },
+  {
+    "id": "bulk-cow-pet-r08c03",
+    "name": "牛来 · 思考姿势 · 动作3",
+    "character": "牛来",
+    "filename": "bulk-cow/pet-r08c03.png",
+    "emotion": [
+      "思考",
+      "怀疑"
+    ],
+    "scenes": [
+      "做题",
+      "选课"
+    ],
+    "examples": [
+      "这事值得想一想"
+    ],
+    "action": "抱胸、托腮或倾斜身体思考，动作序列第3格。",
+    "intensity": 2,
+    "existing_text": "",
+    "source_type": "reference",
+    "author": "glidea（公开桌宠贡献者，原角色权属待核实）",
+    "source_url": "https://github.com/glidea/niu-lai-pet/blob/af41d8fbee08517a558d6aa422e741ba0addaf3c/spritesheet.webp",
+    "source_note": "现成牛来同人桌宠渲染动作帧；来自 glidea/niu-lai-pet 的一张完整精灵图，不是电影原帧，不冒称独立摄影/插画来源。按192×208有效格提取，第8行第3列。已标准化去除近似idle和纯位移重复，原图和rect坐标保存在来源清单。未生成或重绘新姿势。 原素材下载地址：https://raw.githubusercontent.com/glidea/niu-lai-pet/af41d8fbee08517a558d6aa422e741ba0addaf3c/spritesheet.webp",
+    "role": "subject",
+    "is_cutout": true,
+    "templates": [
+      "top",
+      "bottom",
+      "split",
+      "frame",
+      "flower",
+      "grid",
+      "message",
+      "poster",
+      "side",
+      "polaroid",
+      "bubble",
+      "dialogue",
+      "spotlight",
+      "comic",
+      "subtitle",
+      "note",
+      "window",
+      "ticket",
+      "medal",
+      "scene"
+    ]
+  },
+  {
+    "id": "bulk-cow-pet-r08c04",
+    "name": "牛来 · 思考姿势 · 动作4",
+    "character": "牛来",
+    "filename": "bulk-cow/pet-r08c04.png",
+    "emotion": [
+      "思考",
+      "怀疑"
+    ],
+    "scenes": [
+      "做题",
+      "选课"
+    ],
+    "examples": [
+      "这事值得想一想"
+    ],
+    "action": "抱胸、托腮或倾斜身体思考，动作序列第4格。",
+    "intensity": 2,
+    "existing_text": "",
+    "source_type": "reference",
+    "author": "glidea（公开桌宠贡献者，原角色权属待核实）",
+    "source_url": "https://github.com/glidea/niu-lai-pet/blob/af41d8fbee08517a558d6aa422e741ba0addaf3c/spritesheet.webp",
+    "source_note": "现成牛来同人桌宠渲染动作帧；来自 glidea/niu-lai-pet 的一张完整精灵图，不是电影原帧，不冒称独立摄影/插画来源。按192×208有效格提取，第8行第4列。已标准化去除近似idle和纯位移重复，原图和rect坐标保存在来源清单。未生成或重绘新姿势。 原素材下载地址：https://raw.githubusercontent.com/glidea/niu-lai-pet/af41d8fbee08517a558d6aa422e741ba0addaf3c/spritesheet.webp",
+    "role": "subject",
+    "is_cutout": true,
+    "templates": [
+      "top",
+      "bottom",
+      "split",
+      "frame",
+      "flower",
+      "grid",
+      "message",
+      "poster",
+      "side",
+      "polaroid",
+      "bubble",
+      "dialogue",
+      "spotlight",
+      "comic",
+      "subtitle",
+      "note",
+      "window",
+      "ticket",
+      "medal",
+      "scene"
+    ]
+  },
+  {
+    "id": "bulk-cow-pet-r08c05",
+    "name": "牛来 · 思考姿势 · 动作5",
+    "character": "牛来",
+    "filename": "bulk-cow/pet-r08c05.png",
+    "emotion": [
+      "思考",
+      "怀疑"
+    ],
+    "scenes": [
+      "做题",
+      "选课"
+    ],
+    "examples": [
+      "这事值得想一想"
+    ],
+    "action": "抱胸、托腮或倾斜身体思考，动作序列第5格。",
+    "intensity": 2,
+    "existing_text": "",
+    "source_type": "reference",
+    "author": "glidea（公开桌宠贡献者，原角色权属待核实）",
+    "source_url": "https://github.com/glidea/niu-lai-pet/blob/af41d8fbee08517a558d6aa422e741ba0addaf3c/spritesheet.webp",
+    "source_note": "现成牛来同人桌宠渲染动作帧；来自 glidea/niu-lai-pet 的一张完整精灵图，不是电影原帧，不冒称独立摄影/插画来源。按192×208有效格提取，第8行第5列。已标准化去除近似idle和纯位移重复，原图和rect坐标保存在来源清单。未生成或重绘新姿势。 原素材下载地址：https://raw.githubusercontent.com/glidea/niu-lai-pet/af41d8fbee08517a558d6aa422e741ba0addaf3c/spritesheet.webp",
+    "role": "subject",
+    "is_cutout": true,
+    "templates": [
+      "top",
+      "bottom",
+      "split",
+      "frame",
+      "flower",
+      "grid",
+      "message",
+      "poster",
+      "side",
+      "polaroid",
+      "bubble",
+      "dialogue",
+      "spotlight",
+      "comic",
+      "subtitle",
+      "note",
+      "window",
+      "ticket",
+      "medal",
+      "scene"
+    ]
+  },
+  {
+    "id": "bulk-cow-pet-r08c06",
+    "name": "牛来 · 思考姿势 · 动作6",
+    "character": "牛来",
+    "filename": "bulk-cow/pet-r08c06.png",
+    "emotion": [
+      "思考",
+      "怀疑"
+    ],
+    "scenes": [
+      "做题",
+      "选课"
+    ],
+    "examples": [
+      "这事值得想一想"
+    ],
+    "action": "抱胸、托腮或倾斜身体思考，动作序列第6格。",
+    "intensity": 2,
+    "existing_text": "",
+    "source_type": "reference",
+    "author": "glidea（公开桌宠贡献者，原角色权属待核实）",
+    "source_url": "https://github.com/glidea/niu-lai-pet/blob/af41d8fbee08517a558d6aa422e741ba0addaf3c/spritesheet.webp",
+    "source_note": "现成牛来同人桌宠渲染动作帧；来自 glidea/niu-lai-pet 的一张完整精灵图，不是电影原帧，不冒称独立摄影/插画来源。按192×208有效格提取，第8行第6列。已标准化去除近似idle和纯位移重复，原图和rect坐标保存在来源清单。未生成或重绘新姿势。 原素材下载地址：https://raw.githubusercontent.com/glidea/niu-lai-pet/af41d8fbee08517a558d6aa422e741ba0addaf3c/spritesheet.webp",
+    "role": "subject",
+    "is_cutout": true,
+    "templates": [
+      "top",
+      "bottom",
+      "split",
+      "frame",
+      "flower",
+      "grid",
+      "message",
+      "poster",
+      "side",
+      "polaroid",
+      "bubble",
+      "dialogue",
+      "spotlight",
+      "comic",
+      "subtitle",
+      "note",
+      "window",
+      "ticket",
+      "medal",
+      "scene"
+    ]
+  },
+  {
+    "id": "bulk-cow-pet-r09c01",
+    "name": "牛来 · 工作道具 · 动作1",
+    "character": "牛来",
+    "filename": "bulk-cow/pet-r09c01.png",
+    "emotion": [
+      "专注",
+      "思考"
+    ],
+    "scenes": [
+      "学习",
+      "写代码",
+      "小组作业"
+    ],
+    "examples": [
+      "研究一下，马上回来"
+    ],
+    "action": "手持平板、书本、放大镜或摆弄积木，动作序列第1格。",
+    "intensity": 2,
+    "existing_text": "",
+    "source_type": "reference",
+    "author": "glidea（公开桌宠贡献者，原角色权属待核实）",
+    "source_url": "https://github.com/glidea/niu-lai-pet/blob/af41d8fbee08517a558d6aa422e741ba0addaf3c/spritesheet.webp",
+    "source_note": "现成牛来同人桌宠渲染动作帧；来自 glidea/niu-lai-pet 的一张完整精灵图，不是电影原帧，不冒称独立摄影/插画来源。按192×208有效格提取，第9行第1列。已标准化去除近似idle和纯位移重复，原图和rect坐标保存在来源清单。未生成或重绘新姿势。 原素材下载地址：https://raw.githubusercontent.com/glidea/niu-lai-pet/af41d8fbee08517a558d6aa422e741ba0addaf3c/spritesheet.webp",
+    "role": "subject",
+    "is_cutout": true,
+    "templates": [
+      "top",
+      "bottom",
+      "split",
+      "frame",
+      "flower",
+      "grid",
+      "message",
+      "poster",
+      "side",
+      "polaroid",
+      "bubble",
+      "dialogue",
+      "spotlight",
+      "comic",
+      "subtitle",
+      "note",
+      "window",
+      "ticket",
+      "medal",
+      "scene"
+    ]
+  },
+  {
+    "id": "bulk-cow-pet-r09c02",
+    "name": "牛来 · 工作道具 · 动作2",
+    "character": "牛来",
+    "filename": "bulk-cow/pet-r09c02.png",
+    "emotion": [
+      "专注",
+      "思考"
+    ],
+    "scenes": [
+      "学习",
+      "写代码",
+      "小组作业"
+    ],
+    "examples": [
+      "研究一下，马上回来"
+    ],
+    "action": "手持平板、书本、放大镜或摆弄积木，动作序列第2格。",
+    "intensity": 2,
+    "existing_text": "",
+    "source_type": "reference",
+    "author": "glidea（公开桌宠贡献者，原角色权属待核实）",
+    "source_url": "https://github.com/glidea/niu-lai-pet/blob/af41d8fbee08517a558d6aa422e741ba0addaf3c/spritesheet.webp",
+    "source_note": "现成牛来同人桌宠渲染动作帧；来自 glidea/niu-lai-pet 的一张完整精灵图，不是电影原帧，不冒称独立摄影/插画来源。按192×208有效格提取，第9行第2列。已标准化去除近似idle和纯位移重复，原图和rect坐标保存在来源清单。未生成或重绘新姿势。 原素材下载地址：https://raw.githubusercontent.com/glidea/niu-lai-pet/af41d8fbee08517a558d6aa422e741ba0addaf3c/spritesheet.webp",
+    "role": "subject",
+    "is_cutout": true,
+    "templates": [
+      "top",
+      "bottom",
+      "split",
+      "frame",
+      "flower",
+      "grid",
+      "message",
+      "poster",
+      "side",
+      "polaroid",
+      "bubble",
+      "dialogue",
+      "spotlight",
+      "comic",
+      "subtitle",
+      "note",
+      "window",
+      "ticket",
+      "medal",
+      "scene"
+    ]
+  },
+  {
+    "id": "bulk-cow-pet-r09c03",
+    "name": "牛来 · 工作道具 · 动作3",
+    "character": "牛来",
+    "filename": "bulk-cow/pet-r09c03.png",
+    "emotion": [
+      "专注",
+      "思考"
+    ],
+    "scenes": [
+      "学习",
+      "写代码",
+      "小组作业"
+    ],
+    "examples": [
+      "研究一下，马上回来"
+    ],
+    "action": "手持平板、书本、放大镜或摆弄积木，动作序列第3格。",
+    "intensity": 2,
+    "existing_text": "",
+    "source_type": "reference",
+    "author": "glidea（公开桌宠贡献者，原角色权属待核实）",
+    "source_url": "https://github.com/glidea/niu-lai-pet/blob/af41d8fbee08517a558d6aa422e741ba0addaf3c/spritesheet.webp",
+    "source_note": "现成牛来同人桌宠渲染动作帧；来自 glidea/niu-lai-pet 的一张完整精灵图，不是电影原帧，不冒称独立摄影/插画来源。按192×208有效格提取，第9行第3列。已标准化去除近似idle和纯位移重复，原图和rect坐标保存在来源清单。未生成或重绘新姿势。 原素材下载地址：https://raw.githubusercontent.com/glidea/niu-lai-pet/af41d8fbee08517a558d6aa422e741ba0addaf3c/spritesheet.webp",
+    "role": "subject",
+    "is_cutout": true,
+    "templates": [
+      "top",
+      "bottom",
+      "split",
+      "frame",
+      "flower",
+      "grid",
+      "message",
+      "poster",
+      "side",
+      "polaroid",
+      "bubble",
+      "dialogue",
+      "spotlight",
+      "comic",
+      "subtitle",
+      "note",
+      "window",
+      "ticket",
+      "medal",
+      "scene"
+    ]
+  },
+  {
+    "id": "bulk-cow-pet-r09c04",
+    "name": "牛来 · 工作道具 · 动作4",
+    "character": "牛来",
+    "filename": "bulk-cow/pet-r09c04.png",
+    "emotion": [
+      "专注",
+      "思考"
+    ],
+    "scenes": [
+      "学习",
+      "写代码",
+      "小组作业"
+    ],
+    "examples": [
+      "研究一下，马上回来"
+    ],
+    "action": "手持平板、书本、放大镜或摆弄积木，动作序列第4格。",
+    "intensity": 2,
+    "existing_text": "",
+    "source_type": "reference",
+    "author": "glidea（公开桌宠贡献者，原角色权属待核实）",
+    "source_url": "https://github.com/glidea/niu-lai-pet/blob/af41d8fbee08517a558d6aa422e741ba0addaf3c/spritesheet.webp",
+    "source_note": "现成牛来同人桌宠渲染动作帧；来自 glidea/niu-lai-pet 的一张完整精灵图，不是电影原帧，不冒称独立摄影/插画来源。按192×208有效格提取，第9行第4列。已标准化去除近似idle和纯位移重复，原图和rect坐标保存在来源清单。未生成或重绘新姿势。 原素材下载地址：https://raw.githubusercontent.com/glidea/niu-lai-pet/af41d8fbee08517a558d6aa422e741ba0addaf3c/spritesheet.webp",
+    "role": "subject",
+    "is_cutout": true,
+    "templates": [
+      "top",
+      "bottom",
+      "split",
+      "frame",
+      "flower",
+      "grid",
+      "message",
+      "poster",
+      "side",
+      "polaroid",
+      "bubble",
+      "dialogue",
+      "spotlight",
+      "comic",
+      "subtitle",
+      "note",
+      "window",
+      "ticket",
+      "medal",
+      "scene"
+    ]
+  },
+  {
+    "id": "bulk-cow-pet-r09c05",
+    "name": "牛来 · 工作道具 · 动作5",
+    "character": "牛来",
+    "filename": "bulk-cow/pet-r09c05.png",
+    "emotion": [
+      "专注",
+      "思考"
+    ],
+    "scenes": [
+      "学习",
+      "写代码",
+      "小组作业"
+    ],
+    "examples": [
+      "研究一下，马上回来"
+    ],
+    "action": "手持平板、书本、放大镜或摆弄积木，动作序列第5格。",
+    "intensity": 2,
+    "existing_text": "",
+    "source_type": "reference",
+    "author": "glidea（公开桌宠贡献者，原角色权属待核实）",
+    "source_url": "https://github.com/glidea/niu-lai-pet/blob/af41d8fbee08517a558d6aa422e741ba0addaf3c/spritesheet.webp",
+    "source_note": "现成牛来同人桌宠渲染动作帧；来自 glidea/niu-lai-pet 的一张完整精灵图，不是电影原帧，不冒称独立摄影/插画来源。按192×208有效格提取，第9行第5列。已标准化去除近似idle和纯位移重复，原图和rect坐标保存在来源清单。未生成或重绘新姿势。 原素材下载地址：https://raw.githubusercontent.com/glidea/niu-lai-pet/af41d8fbee08517a558d6aa422e741ba0addaf3c/spritesheet.webp",
+    "role": "subject",
+    "is_cutout": true,
+    "templates": [
+      "top",
+      "bottom",
+      "split",
+      "frame",
+      "flower",
+      "grid",
+      "message",
+      "poster",
+      "side",
+      "polaroid",
+      "bubble",
+      "dialogue",
+      "spotlight",
+      "comic",
+      "subtitle",
+      "note",
+      "window",
+      "ticket",
+      "medal",
+      "scene"
+    ]
+  },
+  {
+    "id": "bulk-cow-pet-r09c06",
+    "name": "牛来 · 工作道具 · 动作6",
+    "character": "牛来",
+    "filename": "bulk-cow/pet-r09c06.png",
+    "emotion": [
+      "专注",
+      "思考"
+    ],
+    "scenes": [
+      "学习",
+      "写代码",
+      "小组作业"
+    ],
+    "examples": [
+      "研究一下，马上回来"
+    ],
+    "action": "手持平板、书本、放大镜或摆弄积木，动作序列第6格。",
+    "intensity": 2,
+    "existing_text": "",
+    "source_type": "reference",
+    "author": "glidea（公开桌宠贡献者，原角色权属待核实）",
+    "source_url": "https://github.com/glidea/niu-lai-pet/blob/af41d8fbee08517a558d6aa422e741ba0addaf3c/spritesheet.webp",
+    "source_note": "现成牛来同人桌宠渲染动作帧；来自 glidea/niu-lai-pet 的一张完整精灵图，不是电影原帧，不冒称独立摄影/插画来源。按192×208有效格提取，第9行第6列。已标准化去除近似idle和纯位移重复，原图和rect坐标保存在来源清单。未生成或重绘新姿势。 原素材下载地址：https://raw.githubusercontent.com/glidea/niu-lai-pet/af41d8fbee08517a558d6aa422e741ba0addaf3c/spritesheet.webp",
+    "role": "subject",
+    "is_cutout": true,
+    "templates": [
+      "top",
+      "bottom",
+      "split",
+      "frame",
+      "flower",
+      "grid",
+      "message",
+      "poster",
+      "side",
+      "polaroid",
+      "bubble",
+      "dialogue",
+      "spotlight",
+      "comic",
+      "subtitle",
+      "note",
+      "window",
+      "ticket",
+      "medal",
+      "scene"
+    ]
+  },
+  {
+    "id": "bulk-cow-pet-r10c01",
+    "name": "牛来 · 抬头看向 · 动作1",
+    "character": "牛来",
+    "filename": "bulk-cow/pet-r10c01.png",
+    "emotion": [
+      "好奇",
+      "疑惑"
+    ],
+    "scenes": [
+      "上课",
+      "等回复"
+    ],
+    "examples": [
+      "下一步该做什么"
+    ],
+    "action": "身体站立，抬头向上或侧上方注视，动作序列第1格。",
+    "intensity": 2,
+    "existing_text": "",
+    "source_type": "reference",
+    "author": "glidea（公开桌宠贡献者，原角色权属待核实）",
+    "source_url": "https://github.com/glidea/niu-lai-pet/blob/af41d8fbee08517a558d6aa422e741ba0addaf3c/spritesheet.webp",
+    "source_note": "现成牛来同人桌宠渲染动作帧；来自 glidea/niu-lai-pet 的一张完整精灵图，不是电影原帧，不冒称独立摄影/插画来源。按192×208有效格提取，第10行第1列。已标准化去除近似idle和纯位移重复，原图和rect坐标保存在来源清单。未生成或重绘新姿势。 原素材下载地址：https://raw.githubusercontent.com/glidea/niu-lai-pet/af41d8fbee08517a558d6aa422e741ba0addaf3c/spritesheet.webp",
+    "role": "subject",
+    "is_cutout": true,
+    "templates": [
+      "top",
+      "bottom",
+      "split",
+      "frame",
+      "flower",
+      "grid",
+      "message",
+      "poster",
+      "side",
+      "polaroid",
+      "bubble",
+      "dialogue",
+      "spotlight",
+      "comic",
+      "subtitle",
+      "note",
+      "window",
+      "ticket",
+      "medal",
+      "scene"
+    ]
+  },
+  {
+    "id": "bulk-cow-pet-r10c02",
+    "name": "牛来 · 抬头看向 · 动作2",
+    "character": "牛来",
+    "filename": "bulk-cow/pet-r10c02.png",
+    "emotion": [
+      "好奇",
+      "疑惑"
+    ],
+    "scenes": [
+      "上课",
+      "等回复"
+    ],
+    "examples": [
+      "下一步该做什么"
+    ],
+    "action": "身体站立，抬头向上或侧上方注视，动作序列第2格。",
+    "intensity": 2,
+    "existing_text": "",
+    "source_type": "reference",
+    "author": "glidea（公开桌宠贡献者，原角色权属待核实）",
+    "source_url": "https://github.com/glidea/niu-lai-pet/blob/af41d8fbee08517a558d6aa422e741ba0addaf3c/spritesheet.webp",
+    "source_note": "现成牛来同人桌宠渲染动作帧；来自 glidea/niu-lai-pet 的一张完整精灵图，不是电影原帧，不冒称独立摄影/插画来源。按192×208有效格提取，第10行第2列。已标准化去除近似idle和纯位移重复，原图和rect坐标保存在来源清单。未生成或重绘新姿势。 原素材下载地址：https://raw.githubusercontent.com/glidea/niu-lai-pet/af41d8fbee08517a558d6aa422e741ba0addaf3c/spritesheet.webp",
+    "role": "subject",
+    "is_cutout": true,
+    "templates": [
+      "top",
+      "bottom",
+      "split",
+      "frame",
+      "flower",
+      "grid",
+      "message",
+      "poster",
+      "side",
+      "polaroid",
+      "bubble",
+      "dialogue",
+      "spotlight",
+      "comic",
+      "subtitle",
+      "note",
+      "window",
+      "ticket",
+      "medal",
+      "scene"
+    ]
+  },
+  {
+    "id": "bulk-cow-pet-r10c04",
+    "name": "牛来 · 抬头看向 · 动作4",
+    "character": "牛来",
+    "filename": "bulk-cow/pet-r10c04.png",
+    "emotion": [
+      "好奇",
+      "疑惑"
+    ],
+    "scenes": [
+      "上课",
+      "等回复"
+    ],
+    "examples": [
+      "下一步该做什么"
+    ],
+    "action": "身体站立，抬头向上或侧上方注视，动作序列第4格。",
+    "intensity": 2,
+    "existing_text": "",
+    "source_type": "reference",
+    "author": "glidea（公开桌宠贡献者，原角色权属待核实）",
+    "source_url": "https://github.com/glidea/niu-lai-pet/blob/af41d8fbee08517a558d6aa422e741ba0addaf3c/spritesheet.webp",
+    "source_note": "现成牛来同人桌宠渲染动作帧；来自 glidea/niu-lai-pet 的一张完整精灵图，不是电影原帧，不冒称独立摄影/插画来源。按192×208有效格提取，第10行第4列。已标准化去除近似idle和纯位移重复，原图和rect坐标保存在来源清单。未生成或重绘新姿势。 原素材下载地址：https://raw.githubusercontent.com/glidea/niu-lai-pet/af41d8fbee08517a558d6aa422e741ba0addaf3c/spritesheet.webp",
+    "role": "subject",
+    "is_cutout": true,
+    "templates": [
+      "top",
+      "bottom",
+      "split",
+      "frame",
+      "flower",
+      "grid",
+      "message",
+      "poster",
+      "side",
+      "polaroid",
+      "bubble",
+      "dialogue",
+      "spotlight",
+      "comic",
+      "subtitle",
+      "note",
+      "window",
+      "ticket",
+      "medal",
+      "scene"
+    ]
+  },
+  {
+    "id": "bulk-cow-pet-r10c07",
+    "name": "牛来 · 抬头看向 · 动作7",
+    "character": "牛来",
+    "filename": "bulk-cow/pet-r10c07.png",
+    "emotion": [
+      "好奇",
+      "疑惑"
+    ],
+    "scenes": [
+      "上课",
+      "等回复"
+    ],
+    "examples": [
+      "下一步该做什么"
+    ],
+    "action": "身体站立，抬头向上或侧上方注视，动作序列第7格。",
+    "intensity": 2,
+    "existing_text": "",
+    "source_type": "reference",
+    "author": "glidea（公开桌宠贡献者，原角色权属待核实）",
+    "source_url": "https://github.com/glidea/niu-lai-pet/blob/af41d8fbee08517a558d6aa422e741ba0addaf3c/spritesheet.webp",
+    "source_note": "现成牛来同人桌宠渲染动作帧；来自 glidea/niu-lai-pet 的一张完整精灵图，不是电影原帧，不冒称独立摄影/插画来源。按192×208有效格提取，第10行第7列。已标准化去除近似idle和纯位移重复，原图和rect坐标保存在来源清单。未生成或重绘新姿势。 原素材下载地址：https://raw.githubusercontent.com/glidea/niu-lai-pet/af41d8fbee08517a558d6aa422e741ba0addaf3c/spritesheet.webp",
+    "role": "subject",
+    "is_cutout": true,
+    "templates": [
+      "top",
+      "bottom",
+      "split",
+      "frame",
+      "flower",
+      "grid",
+      "message",
+      "poster",
+      "side",
+      "polaroid",
+      "bubble",
+      "dialogue",
+      "spotlight",
+      "comic",
+      "subtitle",
+      "note",
+      "window",
+      "ticket",
+      "medal",
+      "scene"
+    ]
+  },
+  {
+    "id": "bulk-cow-pet-r11c01",
+    "name": "牛来 · 低头看向 · 动作1",
+    "character": "牛来",
+    "filename": "bulk-cow/pet-r11c01.png",
+    "emotion": [
+      "思考",
+      "低落"
+    ],
+    "scenes": [
+      "早八",
+      "反思"
+    ],
+    "examples": [
+      "我需要冷静一下"
+    ],
+    "action": "身体站立，低头向下或侧下方注视，动作序列第1格。",
+    "intensity": 2,
+    "existing_text": "",
+    "source_type": "reference",
+    "author": "glidea（公开桌宠贡献者，原角色权属待核实）",
+    "source_url": "https://github.com/glidea/niu-lai-pet/blob/af41d8fbee08517a558d6aa422e741ba0addaf3c/spritesheet.webp",
+    "source_note": "现成牛来同人桌宠渲染动作帧；来自 glidea/niu-lai-pet 的一张完整精灵图，不是电影原帧，不冒称独立摄影/插画来源。按192×208有效格提取，第11行第1列。已标准化去除近似idle和纯位移重复，原图和rect坐标保存在来源清单。未生成或重绘新姿势。 原素材下载地址：https://raw.githubusercontent.com/glidea/niu-lai-pet/af41d8fbee08517a558d6aa422e741ba0addaf3c/spritesheet.webp",
+    "role": "subject",
+    "is_cutout": true,
+    "templates": [
+      "top",
+      "bottom",
+      "split",
+      "frame",
+      "flower",
+      "grid",
+      "message",
+      "poster",
+      "side",
+      "polaroid",
+      "bubble",
+      "dialogue",
+      "spotlight",
+      "comic",
+      "subtitle",
+      "note",
+      "window",
+      "ticket",
+      "medal",
+      "scene"
+    ]
+  },
+  {
+    "id": "bulk-cow-pet-r11c02",
+    "name": "牛来 · 低头看向 · 动作2",
+    "character": "牛来",
+    "filename": "bulk-cow/pet-r11c02.png",
+    "emotion": [
+      "思考",
+      "低落"
+    ],
+    "scenes": [
+      "早八",
+      "反思"
+    ],
+    "examples": [
+      "我需要冷静一下"
+    ],
+    "action": "身体站立，低头向下或侧下方注视，动作序列第2格。",
+    "intensity": 2,
+    "existing_text": "",
+    "source_type": "reference",
+    "author": "glidea（公开桌宠贡献者，原角色权属待核实）",
+    "source_url": "https://github.com/glidea/niu-lai-pet/blob/af41d8fbee08517a558d6aa422e741ba0addaf3c/spritesheet.webp",
+    "source_note": "现成牛来同人桌宠渲染动作帧；来自 glidea/niu-lai-pet 的一张完整精灵图，不是电影原帧，不冒称独立摄影/插画来源。按192×208有效格提取，第11行第2列。已标准化去除近似idle和纯位移重复，原图和rect坐标保存在来源清单。未生成或重绘新姿势。 原素材下载地址：https://raw.githubusercontent.com/glidea/niu-lai-pet/af41d8fbee08517a558d6aa422e741ba0addaf3c/spritesheet.webp",
+    "role": "subject",
+    "is_cutout": true,
+    "templates": [
+      "top",
+      "bottom",
+      "split",
+      "frame",
+      "flower",
+      "grid",
+      "message",
+      "poster",
+      "side",
+      "polaroid",
+      "bubble",
+      "dialogue",
+      "spotlight",
+      "comic",
+      "subtitle",
+      "note",
+      "window",
+      "ticket",
+      "medal",
+      "scene"
+    ]
+  },
+  {
+    "id": "bulk-cow-pet-r11c03",
+    "name": "牛来 · 低头看向 · 动作3",
+    "character": "牛来",
+    "filename": "bulk-cow/pet-r11c03.png",
+    "emotion": [
+      "思考",
+      "低落"
+    ],
+    "scenes": [
+      "早八",
+      "反思"
+    ],
+    "examples": [
+      "我需要冷静一下"
+    ],
+    "action": "身体站立，低头向下或侧下方注视，动作序列第3格。",
+    "intensity": 2,
+    "existing_text": "",
+    "source_type": "reference",
+    "author": "glidea（公开桌宠贡献者，原角色权属待核实）",
+    "source_url": "https://github.com/glidea/niu-lai-pet/blob/af41d8fbee08517a558d6aa422e741ba0addaf3c/spritesheet.webp",
+    "source_note": "现成牛来同人桌宠渲染动作帧；来自 glidea/niu-lai-pet 的一张完整精灵图，不是电影原帧，不冒称独立摄影/插画来源。按192×208有效格提取，第11行第3列。已标准化去除近似idle和纯位移重复，原图和rect坐标保存在来源清单。未生成或重绘新姿势。 原素材下载地址：https://raw.githubusercontent.com/glidea/niu-lai-pet/af41d8fbee08517a558d6aa422e741ba0addaf3c/spritesheet.webp",
+    "role": "subject",
+    "is_cutout": true,
+    "templates": [
+      "top",
+      "bottom",
+      "split",
+      "frame",
+      "flower",
+      "grid",
+      "message",
+      "poster",
+      "side",
+      "polaroid",
+      "bubble",
+      "dialogue",
+      "spotlight",
+      "comic",
+      "subtitle",
+      "note",
+      "window",
+      "ticket",
+      "medal",
+      "scene"
+    ]
+  },
+  {
+    "id": "bulk-cow-pet-r11c06",
+    "name": "牛来 · 低头看向 · 动作6",
+    "character": "牛来",
+    "filename": "bulk-cow/pet-r11c06.png",
+    "emotion": [
+      "思考",
+      "低落"
+    ],
+    "scenes": [
+      "早八",
+      "反思"
+    ],
+    "examples": [
+      "我需要冷静一下"
+    ],
+    "action": "身体站立，低头向下或侧下方注视，动作序列第6格。",
+    "intensity": 2,
+    "existing_text": "",
+    "source_type": "reference",
+    "author": "glidea（公开桌宠贡献者，原角色权属待核实）",
+    "source_url": "https://github.com/glidea/niu-lai-pet/blob/af41d8fbee08517a558d6aa422e741ba0addaf3c/spritesheet.webp",
+    "source_note": "现成牛来同人桌宠渲染动作帧；来自 glidea/niu-lai-pet 的一张完整精灵图，不是电影原帧，不冒称独立摄影/插画来源。按192×208有效格提取，第11行第6列。已标准化去除近似idle和纯位移重复，原图和rect坐标保存在来源清单。未生成或重绘新姿势。 原素材下载地址：https://raw.githubusercontent.com/glidea/niu-lai-pet/af41d8fbee08517a558d6aa422e741ba0addaf3c/spritesheet.webp",
+    "role": "subject",
+    "is_cutout": true,
+    "templates": [
+      "top",
+      "bottom",
+      "split",
+      "frame",
+      "flower",
+      "grid",
+      "message",
+      "poster",
+      "side",
+      "polaroid",
+      "bubble",
+      "dialogue",
+      "spotlight",
+      "comic",
+      "subtitle",
+      "note",
+      "window",
+      "ticket",
+      "medal",
+      "scene"
+    ]
+  },
+  {
+    "id": "bulk-cow-BV1fBgg6pEDv-t0009",
+    "name": "牛来 · 正面呼喊",
+    "character": "牛来",
+    "filename": "bulk-cow/BV1fBgg6pEDv-t0009.png",
+    "emotion": [
+      "无语",
+      "呼唤"
+    ],
+    "scenes": [
+      "找人",
+      "群聊"
+    ],
+    "examples": [
+      "我喊了，你听见了吗"
+    ],
+    "action": "草地前正面对镜头，半闭眼睛呼喊",
+    "intensity": 2,
+    "existing_text": "妈妈；素材来源网络；奇思Cheers bilibili",
+    "source_type": "reference",
+    "author": "待核实",
+    "source_url": "https://www.bilibili.com/video/BV1fBgg6pEDv/?t=9",
+    "source_note": "牛来相关评论视频展示的低多边形角色镜头，保留原画面、字幕和水印；通过公开视频转录，非官方高清剧照，视频中各镜头的原始版本归属待核实。UP主：奇思Cheers。抽帧时间 9 秒；至少相隔6秒并跨场景/朝向筛选，不用相邻重复帧凑数。 原素材下载地址：https://upos-sz-estgoss.bilivideo.com/upgcxcode/19/82/40928348219/40928348219-1-16.mp4?e=ig8euxZM2rNcNbRVhwdVhwdlhWdVhwdVhoNvNC8BqJIzNbfqXBvEqxTEto8BTrNvN0GvT90W5JZMkX_YN0MvXg8gNEV4NC8xNEV4N03eN0B5tZlqNxTEto8BTrNvNeZVuJ10Kj_g2UB02J0mN0B5tZlqNCNEto8BTrNvNC7MTX502C8f2jmMQJ6mqF2fka1mqx6gqj0eN0B599M=&og=ali&oi=0x240e06040792e3a7d0258f87144d6f27&mid=0&deadline=1792050595&uipk=5&trid=03de7f5d01d2464d8175e34bed17d78u&platform=pc&nbs=1&gen=playurlv3&os=estgoss&upsig=cf25289999cf33faccc33f37d10e0d3f&uparams=e,og,oi,mid,deadline,uipk,trid,platform,nbs,gen,os&bvc=vod&nettype=0&bw=317426&lrs=0&f=u_0_0&qn_dyeid=cd5ad192394da0ee00fe1c806ad06983&agrr=0&buvid=&build=0&dl=0&orderid=0,3",
+    "role": "subject",
+    "is_cutout": false,
+    "templates": [
+      "top",
+      "bottom",
+      "split",
+      "frame",
+      "grid",
+      "message",
+      "poster",
+      "side",
+      "polaroid",
+      "bubble",
+      "dialogue",
+      "spotlight",
+      "comic",
+      "subtitle",
+      "note",
+      "window",
+      "ticket",
+      "medal",
+      "scene"
+    ]
+  },
+  {
+    "id": "bulk-cow-BV1fBgg6pEDv-t0225",
+    "name": "牛来 · 雨中皱眉",
+    "character": "牛来",
+    "filename": "bulk-cow/BV1fBgg6pEDv-t0225.png",
+    "emotion": [
+      "生气",
+      "无语"
+    ],
+    "scenes": [
+      "临时加活",
+      "吐槽"
+    ],
+    "examples": [
+      "先把情况说明白"
+    ],
+    "action": "雨中的金黄色牛低头皱眉，后方还有同伴",
+    "intensity": 3,
+    "existing_text": "有泪点，有燃点，尤其是笑点；素材来源网络；奇思Cheers bilibili",
+    "source_type": "reference",
+    "author": "待核实",
+    "source_url": "https://www.bilibili.com/video/BV1fBgg6pEDv/?t=225",
+    "source_note": "牛来相关评论视频展示的低多边形角色镜头，保留原画面、字幕和水印；通过公开视频转录，非官方高清剧照，视频中各镜头的原始版本归属待核实。UP主：奇思Cheers。抽帧时间 225 秒；至少相隔6秒并跨场景/朝向筛选，不用相邻重复帧凑数。 原素材下载地址：https://upos-sz-estgoss.bilivideo.com/upgcxcode/19/82/40928348219/40928348219-1-16.mp4?e=ig8euxZM2rNcNbRVhwdVhwdlhWdVhwdVhoNvNC8BqJIzNbfqXBvEqxTEto8BTrNvN0GvT90W5JZMkX_YN0MvXg8gNEV4NC8xNEV4N03eN0B5tZlqNxTEto8BTrNvNeZVuJ10Kj_g2UB02J0mN0B5tZlqNCNEto8BTrNvNC7MTX502C8f2jmMQJ6mqF2fka1mqx6gqj0eN0B599M=&og=ali&oi=0x240e06040792e3a7d0258f87144d6f27&mid=0&deadline=1792050595&uipk=5&trid=03de7f5d01d2464d8175e34bed17d78u&platform=pc&nbs=1&gen=playurlv3&os=estgoss&upsig=cf25289999cf33faccc33f37d10e0d3f&uparams=e,og,oi,mid,deadline,uipk,trid,platform,nbs,gen,os&bvc=vod&nettype=0&bw=317426&lrs=0&f=u_0_0&qn_dyeid=cd5ad192394da0ee00fe1c806ad06983&agrr=0&buvid=&build=0&dl=0&orderid=0,3",
+    "role": "subject",
+    "is_cutout": false,
+    "templates": [
+      "top",
+      "bottom",
+      "split",
+      "frame",
+      "grid",
+      "message",
+      "poster",
+      "side",
+      "polaroid",
+      "bubble",
+      "dialogue",
+      "spotlight",
+      "comic",
+      "subtitle",
+      "note",
+      "window",
+      "ticket",
+      "medal",
+      "scene"
+    ]
+  },
+  {
+    "id": "bulk-cow-BV1fBgg6pEDv-t0237",
+    "name": "牛来 · 荒地直视",
+    "character": "牛来",
+    "filename": "bulk-cow/BV1fBgg6pEDv-t0237.png",
+    "emotion": [
+      "平静",
+      "怀疑"
+    ],
+    "scenes": [
+      "等通知",
+      "核对安排"
+    ],
+    "examples": [
+      "我在认真确认这件事"
+    ],
+    "action": "紫色鼻口的棕色牛站在荒地上直视前方",
+    "intensity": 2,
+    "existing_text": "让观众叹为观止，甚至大跌眼镜；素材来源网络；奇思Cheers bilibili",
+    "source_type": "reference",
+    "author": "待核实",
+    "source_url": "https://www.bilibili.com/video/BV1fBgg6pEDv/?t=237",
+    "source_note": "牛来相关评论视频展示的低多边形角色镜头，保留原画面、字幕和水印；通过公开视频转录，非官方高清剧照，视频中各镜头的原始版本归属待核实。UP主：奇思Cheers。抽帧时间 237 秒；至少相隔6秒并跨场景/朝向筛选，不用相邻重复帧凑数。 原素材下载地址：https://upos-sz-estgoss.bilivideo.com/upgcxcode/19/82/40928348219/40928348219-1-16.mp4?e=ig8euxZM2rNcNbRVhwdVhwdlhWdVhwdVhoNvNC8BqJIzNbfqXBvEqxTEto8BTrNvN0GvT90W5JZMkX_YN0MvXg8gNEV4NC8xNEV4N03eN0B5tZlqNxTEto8BTrNvNeZVuJ10Kj_g2UB02J0mN0B5tZlqNCNEto8BTrNvNC7MTX502C8f2jmMQJ6mqF2fka1mqx6gqj0eN0B599M=&og=ali&oi=0x240e06040792e3a7d0258f87144d6f27&mid=0&deadline=1792050595&uipk=5&trid=03de7f5d01d2464d8175e34bed17d78u&platform=pc&nbs=1&gen=playurlv3&os=estgoss&upsig=cf25289999cf33faccc33f37d10e0d3f&uparams=e,og,oi,mid,deadline,uipk,trid,platform,nbs,gen,os&bvc=vod&nettype=0&bw=317426&lrs=0&f=u_0_0&qn_dyeid=cd5ad192394da0ee00fe1c806ad06983&agrr=0&buvid=&build=0&dl=0&orderid=0,3",
+    "role": "subject",
+    "is_cutout": false,
+    "templates": [
+      "top",
+      "bottom",
+      "split",
+      "frame",
+      "grid",
+      "message",
+      "poster",
+      "side",
+      "polaroid",
+      "bubble",
+      "dialogue",
+      "spotlight",
+      "comic",
+      "subtitle",
+      "note",
+      "window",
+      "ticket",
+      "medal",
+      "scene"
+    ]
+  },
+  {
+    "id": "bulk-cow-BV1fBgg6pEDv-t0243",
+    "name": "牛来 · 低头站立",
+    "character": "牛来",
+    "filename": "bulk-cow/BV1fBgg6pEDv-t0243.png",
+    "emotion": [
+      "疲惫",
+      "无语"
+    ],
+    "scenes": [
+      "早八",
+      "等人"
+    ],
+    "examples": [
+      "人已经到位了"
+    ],
+    "action": "俯视镜头下，金黄色牛在地面上低头站立",
+    "intensity": 2,
+    "existing_text": "空虚不再是公子，而是牛来；素材来源网络；奇思Cheers bilibili",
+    "source_type": "reference",
+    "author": "待核实",
+    "source_url": "https://www.bilibili.com/video/BV1fBgg6pEDv/?t=243",
+    "source_note": "牛来相关评论视频展示的低多边形角色镜头，保留原画面、字幕和水印；通过公开视频转录，非官方高清剧照，视频中各镜头的原始版本归属待核实。UP主：奇思Cheers。抽帧时间 243 秒；至少相隔6秒并跨场景/朝向筛选，不用相邻重复帧凑数。 原素材下载地址：https://upos-sz-estgoss.bilivideo.com/upgcxcode/19/82/40928348219/40928348219-1-16.mp4?e=ig8euxZM2rNcNbRVhwdVhwdlhWdVhwdVhoNvNC8BqJIzNbfqXBvEqxTEto8BTrNvN0GvT90W5JZMkX_YN0MvXg8gNEV4NC8xNEV4N03eN0B5tZlqNxTEto8BTrNvNeZVuJ10Kj_g2UB02J0mN0B5tZlqNCNEto8BTrNvNC7MTX502C8f2jmMQJ6mqF2fka1mqx6gqj0eN0B599M=&og=ali&oi=0x240e06040792e3a7d0258f87144d6f27&mid=0&deadline=1792050595&uipk=5&trid=03de7f5d01d2464d8175e34bed17d78u&platform=pc&nbs=1&gen=playurlv3&os=estgoss&upsig=cf25289999cf33faccc33f37d10e0d3f&uparams=e,og,oi,mid,deadline,uipk,trid,platform,nbs,gen,os&bvc=vod&nettype=0&bw=317426&lrs=0&f=u_0_0&qn_dyeid=cd5ad192394da0ee00fe1c806ad06983&agrr=0&buvid=&build=0&dl=0&orderid=0,3",
+    "role": "subject",
+    "is_cutout": false,
+    "templates": [
+      "top",
+      "bottom",
+      "split",
+      "frame",
+      "grid",
+      "message",
+      "poster",
+      "side",
+      "polaroid",
+      "bubble",
+      "dialogue",
+      "spotlight",
+      "comic",
+      "subtitle",
+      "note",
+      "window",
+      "ticket",
+      "medal",
+      "scene"
+    ]
+  },
+  {
+    "id": "bulk-cow-BV1fBgg6pEDv-t0249",
+    "name": "牛来 · 转身离开",
+    "character": "牛来",
+    "filename": "bulk-cow/BV1fBgg6pEDv-t0249.png",
+    "emotion": [
+      "平静",
+      "无奈"
+    ],
+    "scenes": [
+      "离开群聊",
+      "下课"
+    ],
+    "examples": [
+      "我先走一步"
+    ],
+    "action": "棕色小牛在绿色山丘前侧身转向远处",
+    "intensity": 2,
+    "existing_text": "牛来的故事是无法形容的；素材来源网络；奇思Cheers bilibili",
+    "source_type": "reference",
+    "author": "待核实",
+    "source_url": "https://www.bilibili.com/video/BV1fBgg6pEDv/?t=249",
+    "source_note": "牛来相关评论视频展示的低多边形角色镜头，保留原画面、字幕和水印；通过公开视频转录，非官方高清剧照，视频中各镜头的原始版本归属待核实。UP主：奇思Cheers。抽帧时间 249 秒；至少相隔6秒并跨场景/朝向筛选，不用相邻重复帧凑数。 原素材下载地址：https://upos-sz-estgoss.bilivideo.com/upgcxcode/19/82/40928348219/40928348219-1-16.mp4?e=ig8euxZM2rNcNbRVhwdVhwdlhWdVhwdVhoNvNC8BqJIzNbfqXBvEqxTEto8BTrNvN0GvT90W5JZMkX_YN0MvXg8gNEV4NC8xNEV4N03eN0B5tZlqNxTEto8BTrNvNeZVuJ10Kj_g2UB02J0mN0B5tZlqNCNEto8BTrNvNC7MTX502C8f2jmMQJ6mqF2fka1mqx6gqj0eN0B599M=&og=ali&oi=0x240e06040792e3a7d0258f87144d6f27&mid=0&deadline=1792050595&uipk=5&trid=03de7f5d01d2464d8175e34bed17d78u&platform=pc&nbs=1&gen=playurlv3&os=estgoss&upsig=cf25289999cf33faccc33f37d10e0d3f&uparams=e,og,oi,mid,deadline,uipk,trid,platform,nbs,gen,os&bvc=vod&nettype=0&bw=317426&lrs=0&f=u_0_0&qn_dyeid=cd5ad192394da0ee00fe1c806ad06983&agrr=0&buvid=&build=0&dl=0&orderid=0,3",
+    "role": "subject",
+    "is_cutout": false,
+    "templates": [
+      "top",
+      "bottom",
+      "split",
+      "frame",
+      "grid",
+      "message",
+      "poster",
+      "side",
+      "polaroid",
+      "bubble",
+      "dialogue",
+      "spotlight",
+      "comic",
+      "subtitle",
+      "note",
+      "window",
+      "ticket",
+      "medal",
+      "scene"
+    ]
+  },
+  {
+    "id": "bulk-cow-BV1fBgg6pEDv-t0261",
+    "name": "牛来 · 大小牛对视",
+    "character": "牛来",
+    "filename": "bulk-cow/BV1fBgg6pEDv-t0261.png",
+    "emotion": [
+      "困惑",
+      "期待"
+    ],
+    "scenes": [
+      "请教",
+      "小组讨论"
+    ],
+    "examples": [
+      "我有一个小问题"
+    ],
+    "action": "棕色大牛站在旁边，黄色小牛仰头对视",
+    "intensity": 2,
+    "existing_text": "管你来不来看等作品已经在我心中排不上名次；素材来源网络；奇思Cheers bilibili",
+    "source_type": "reference",
+    "author": "待核实",
+    "source_url": "https://www.bilibili.com/video/BV1fBgg6pEDv/?t=261",
+    "source_note": "牛来相关评论视频展示的低多边形角色镜头，保留原画面、字幕和水印；通过公开视频转录，非官方高清剧照，视频中各镜头的原始版本归属待核实。UP主：奇思Cheers。抽帧时间 261 秒；至少相隔6秒并跨场景/朝向筛选，不用相邻重复帧凑数。 原素材下载地址：https://upos-sz-estgoss.bilivideo.com/upgcxcode/19/82/40928348219/40928348219-1-16.mp4?e=ig8euxZM2rNcNbRVhwdVhwdlhWdVhwdVhoNvNC8BqJIzNbfqXBvEqxTEto8BTrNvN0GvT90W5JZMkX_YN0MvXg8gNEV4NC8xNEV4N03eN0B5tZlqNxTEto8BTrNvNeZVuJ10Kj_g2UB02J0mN0B5tZlqNCNEto8BTrNvNC7MTX502C8f2jmMQJ6mqF2fka1mqx6gqj0eN0B599M=&og=ali&oi=0x240e06040792e3a7d0258f87144d6f27&mid=0&deadline=1792050595&uipk=5&trid=03de7f5d01d2464d8175e34bed17d78u&platform=pc&nbs=1&gen=playurlv3&os=estgoss&upsig=cf25289999cf33faccc33f37d10e0d3f&uparams=e,og,oi,mid,deadline,uipk,trid,platform,nbs,gen,os&bvc=vod&nettype=0&bw=317426&lrs=0&f=u_0_0&qn_dyeid=cd5ad192394da0ee00fe1c806ad06983&agrr=0&buvid=&build=0&dl=0&orderid=0,3",
+    "role": "subject",
+    "is_cutout": false,
+    "templates": [
+      "top",
+      "bottom",
+      "split",
+      "frame",
+      "grid",
+      "message",
+      "poster",
+      "side",
+      "polaroid",
+      "bubble",
+      "dialogue",
+      "spotlight",
+      "comic",
+      "subtitle",
+      "note",
+      "window",
+      "ticket",
+      "medal",
+      "scene"
+    ]
+  },
+  {
+    "id": "bulk-cow-BV1fBgg6pEDv-t0303",
+    "name": "牛来 · 雨中闭眼",
+    "character": "牛来",
+    "filename": "bulk-cow/BV1fBgg6pEDv-t0303.png",
+    "emotion": [
+      "疲惫",
+      "无奈"
+    ],
+    "scenes": [
+      "赶截止",
+      "下雨"
+    ],
+    "examples": [
+      "让我安静一会"
+    ],
+    "action": "金黄色牛在雨中闭眼低头，嘴角向下",
+    "intensity": 2,
+    "existing_text": "讨论度飙升都是冰山一角；素材来源网络；奇思Cheers bilibili",
+    "source_type": "reference",
+    "author": "待核实",
+    "source_url": "https://www.bilibili.com/video/BV1fBgg6pEDv/?t=303",
+    "source_note": "牛来相关评论视频展示的低多边形角色镜头，保留原画面、字幕和水印；通过公开视频转录，非官方高清剧照，视频中各镜头的原始版本归属待核实。UP主：奇思Cheers。抽帧时间 303 秒；至少相隔6秒并跨场景/朝向筛选，不用相邻重复帧凑数。 原素材下载地址：https://upos-sz-estgoss.bilivideo.com/upgcxcode/19/82/40928348219/40928348219-1-16.mp4?e=ig8euxZM2rNcNbRVhwdVhwdlhWdVhwdVhoNvNC8BqJIzNbfqXBvEqxTEto8BTrNvN0GvT90W5JZMkX_YN0MvXg8gNEV4NC8xNEV4N03eN0B5tZlqNxTEto8BTrNvNeZVuJ10Kj_g2UB02J0mN0B5tZlqNCNEto8BTrNvNC7MTX502C8f2jmMQJ6mqF2fka1mqx6gqj0eN0B599M=&og=ali&oi=0x240e06040792e3a7d0258f87144d6f27&mid=0&deadline=1792050595&uipk=5&trid=03de7f5d01d2464d8175e34bed17d78u&platform=pc&nbs=1&gen=playurlv3&os=estgoss&upsig=cf25289999cf33faccc33f37d10e0d3f&uparams=e,og,oi,mid,deadline,uipk,trid,platform,nbs,gen,os&bvc=vod&nettype=0&bw=317426&lrs=0&f=u_0_0&qn_dyeid=cd5ad192394da0ee00fe1c806ad06983&agrr=0&buvid=&build=0&dl=0&orderid=0,3",
+    "role": "subject",
+    "is_cutout": false,
+    "templates": [
+      "top",
+      "bottom",
+      "split",
+      "frame",
+      "grid",
+      "message",
+      "poster",
+      "side",
+      "polaroid",
+      "bubble",
+      "dialogue",
+      "spotlight",
+      "comic",
+      "subtitle",
+      "note",
+      "window",
+      "ticket",
+      "medal",
+      "scene"
+    ]
+  },
+  {
+    "id": "bulk-cow-whitefirer-0",
+    "name": "牛来 · 桌宠棕色站姿",
+    "character": "牛来",
+    "filename": "bulk-cow/whitefirer-0.png",
+    "emotion": [
+      "平静",
+      "无语"
+    ],
+    "scenes": [
+      "等通知",
+      "摸鱼"
+    ],
+    "examples": [
+      "好的，我知道了"
+    ],
+    "action": "棕色有角牛来桌宠站立，垂眼看向前方",
+    "intensity": 2,
+    "existing_text": "",
+    "source_type": "reference",
+    "author": "待核实",
+    "source_url": "https://github.com/whitefirer/dsh-niulai-pet/blob/34fa8f1537702bb43e6278a63e98a676260772fe/assets/niulai/skins/default/pet.png",
+    "source_note": "网络公开桌宠 PNG；同人形象，非原版电影截图。来源仓库说明包含抠图/PIL精修或AI三视图渲染，具体图片作者及形象授权待核实。仅提取真实不同立绘，不收纯旋转与近似眨眼副本。保留源 alpha。 原素材下载地址：https://raw.githubusercontent.com/whitefirer/dsh-niulai-pet/34fa8f1537702bb43e6278a63e98a676260772fe/assets/niulai/skins/default/pet.png",
+    "role": "subject",
+    "is_cutout": true,
+    "templates": [
+      "top",
+      "bottom",
+      "split",
+      "frame",
+      "flower",
+      "grid",
+      "message",
+      "poster",
+      "side",
+      "polaroid",
+      "bubble",
+      "dialogue",
+      "spotlight",
+      "comic",
+      "subtitle",
+      "note",
+      "window",
+      "ticket",
+      "medal",
+      "scene"
+    ]
+  },
+  {
+    "id": "bulk-cow-whitefirer-5",
+    "name": "牛来 · 桌宠无角站姿",
+    "character": "牛来",
+    "filename": "bulk-cow/whitefirer-5.png",
+    "emotion": [
+      "平静",
+      "无语"
+    ],
+    "scenes": [
+      "早八",
+      "群聊"
+    ],
+    "examples": [
+      "我在认真听"
+    ],
+    "action": "无角橙黄色牛来幼年同人桌宠站立，半闭眼看人",
+    "intensity": 2,
+    "existing_text": "",
+    "source_type": "reference",
+    "author": "待核实",
+    "source_url": "https://github.com/whitefirer/dsh-niulai-pet/blob/34fa8f1537702bb43e6278a63e98a676260772fe/assets/niulai/skins/orig/pet_orig.png",
+    "source_note": "网络公开桌宠 PNG；同人形象，非原版电影截图。来源仓库说明包含抠图/PIL精修或AI三视图渲染，具体图片作者及形象授权待核实。仅提取真实不同立绘，不收纯旋转与近似眨眼副本。保留源 alpha。 原素材下载地址：https://raw.githubusercontent.com/whitefirer/dsh-niulai-pet/34fa8f1537702bb43e6278a63e98a676260772fe/assets/niulai/skins/orig/pet_orig.png",
+    "role": "subject",
+    "is_cutout": true,
+    "templates": [
+      "top",
+      "bottom",
+      "split",
+      "frame",
+      "flower",
+      "grid",
+      "message",
+      "poster",
+      "side",
+      "polaroid",
+      "bubble",
+      "dialogue",
+      "spotlight",
+      "comic",
+      "subtitle",
+      "note",
+      "window",
+      "ticket",
+      "medal",
+      "scene"
+    ]
+  },
+  {
+    "id": "bulk-cow-xs-java2ai-1",
+    "name": "牛来 · 桌宠张嘴说话",
+    "character": "牛来",
+    "filename": "bulk-cow/xs-java2ai-1.png",
+    "emotion": [
+      "开心",
+      "期待"
+    ],
+    "scenes": [
+      "打招呼",
+      "群聊"
+    ],
+    "examples": [
+      "有我在呢"
+    ],
+    "action": "黄色毛绒牛来同人桌宠侧身站立，张嘴说话",
+    "intensity": 2,
+    "existing_text": "",
+    "source_type": "reference",
+    "author": "待核实",
+    "source_url": "https://github.com/xs-java2ai/niulai-pet/blob/main/assets/niu_speek.png",
+    "source_note": "网络公开桌宠 PNG；同人形象，非原版电影截图。来源仓库说明包含抠图/PIL精修或AI三视图渲染，具体图片作者及形象授权待核实。仅提取真实不同立绘，不收纯旋转与近似眨眼副本。保留源 alpha。 原素材下载地址：https://raw.githubusercontent.com/xs-java2ai/niulai-pet/main/assets/niu_speek.png",
+    "role": "subject",
+    "is_cutout": true,
+    "templates": [
+      "top",
+      "bottom",
+      "split",
+      "frame",
+      "flower",
+      "grid",
+      "message",
+      "poster",
+      "side",
+      "polaroid",
+      "bubble",
+      "dialogue",
+      "spotlight",
+      "comic",
+      "subtitle",
+      "note",
+      "window",
+      "ticket",
+      "medal",
+      "scene"
+    ]
+  }
+]

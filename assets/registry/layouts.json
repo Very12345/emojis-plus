@@ -1,0 +1,131 @@
+{
+  "schema_version": 1,
+  "layouts": [
+    {
+      "id": "cast-chat-layout",
+      "name": "双人并排接话",
+      "image": {
+        "x": 0.04,
+        "y": 0.28,
+        "width": 0.92,
+        "height": 0.66
+      },
+      "subject_mode": "single",
+      "captions": [
+        {
+          "field": "text",
+          "x": 0.08,
+          "y": 0.065,
+          "width": 0.37,
+          "height": 0.19
+        },
+        {
+          "field": "secondary_text",
+          "x": 0.55,
+          "y": 0.065,
+          "width": 0.37,
+          "height": 0.19
+        }
+      ],
+      "panels": [
+        {
+          "x": 0.045,
+          "y": 0.04,
+          "width": 0.43,
+          "height": 0.23,
+          "fill": "#ffffff",
+          "outline": "#d4dfcc",
+          "radius": 0.03
+        },
+        {
+          "x": 0.525,
+          "y": 0.04,
+          "width": 0.43,
+          "height": 0.23,
+          "fill": "#eef3df",
+          "outline": "#cbd8bd",
+          "radius": 0.03
+        }
+      ]
+    },
+    {
+      "id": "motion-stage",
+      "name": "动态人物舞台",
+      "image": {
+        "x": 0.04,
+        "y": 0.03,
+        "width": 0.92,
+        "height": 0.73
+      },
+      "captions": [
+        {
+          "x": 0.07,
+          "y": 0.8,
+          "width": 0.86,
+          "height": 0.15,
+          "field": "text"
+        }
+      ]
+    },
+    {
+      "id": "motion-speech",
+      "name": "动态双人气泡",
+      "image": {
+        "x": 0.04,
+        "y": 0.28,
+        "width": 0.92,
+        "height": 0.65
+      },
+      "captions": [
+        {
+          "x": 0.07,
+          "y": 0.045,
+          "width": 0.38,
+          "height": 0.19,
+          "field": "text"
+        },
+        {
+          "x": 0.55,
+          "y": 0.045,
+          "width": 0.38,
+          "height": 0.19,
+          "field": "secondary_text"
+        }
+      ],
+      "panels": [
+        {
+          "x": 0.04,
+          "y": 0.025,
+          "width": 0.43,
+          "height": 0.23
+        },
+        {
+          "x": 0.53,
+          "y": 0.025,
+          "width": 0.43,
+          "height": 0.23,
+          "fill": "#eef4df"
+        }
+      ]
+    },
+    {
+      "id": "motion-loading",
+      "name": "中心加载环",
+      "image": {
+        "x": 0.04,
+        "y": 0.04,
+        "width": 0.92,
+        "height": 0.92
+      },
+      "captions": [
+        {
+          "x": 0.34,
+          "y": 0.38,
+          "width": 0.32,
+          "height": 0.22,
+          "field": "text"
+        }
+      ]
+    }
+  ]
+}

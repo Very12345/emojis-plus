@@ -1,0 +1,363 @@
+[
+  {
+    "id": "meowl",
+    "action": "蹲在树枝上，呆呆地看向前方",
+    "intensity": 1,
+    "name": "Meowl · 猫头鹰猫",
+    "character": "Meowl",
+    "filename": "meowl.jpg",
+    "emotion": [
+      "呆萌",
+      "困惑",
+      "平静"
+    ],
+    "scenes": [
+      "发呆",
+      "早八",
+      "收到通知",
+      "等待"
+    ],
+    "examples": [
+      "收到，但脑子还没到",
+      "让我先缓一缓"
+    ],
+    "existing_text": "",
+    "source_type": "reference",
+    "author": "待核实",
+    "source_url": "https://i.kym-cdn.com/entries/icons/facebook/000/053/804/meowl-meme-header.jpg",
+    "source_note": "按用户指定角色收录。公开传播的猫与猫头鹰合成图，下载自 Know Your Meme；作者与首发信息未在本项目独立核实。保留完整下载图片。"
+  },
+  {
+    "id": "naiwa",
+    "action": "圆滚滚地站着，露出呆萌的笑容",
+    "intensity": 2,
+    "name": "奶蛙 · 呆呆站着",
+    "character": "奶蛙",
+    "filename": "naiwa.jpg",
+    "emotion": [
+      "可爱",
+      "开心",
+      "迷茫"
+    ],
+    "scenes": [
+      "摸鱼",
+      "等下课",
+      "装傻",
+      "开心"
+    ],
+    "examples": [
+      "我只是路过的",
+      "今天也要快乐摸鱼"
+    ],
+    "existing_text": "",
+    "source_type": "reference",
+    "author": "待核实",
+    "source_url": "https://fs.img4399.com/bbs/202609/9/2026002549217/rRNpHdMO5k.850x948.jpg~740x0",
+    "source_note": "按前述用户讨论中的奶蛙形象与公开图文素材收录；形象归属、具体二创作者及首发尚待核实。"
+  },
+  {
+    "id": "niulai",
+    "action": "挑眉侧目，怀疑地看着对方",
+    "intensity": 4,
+    "name": "牛来 · 侧目",
+    "character": "牛来",
+    "filename": "niulai.png",
+    "emotion": [
+      "无语",
+      "怀疑",
+      "嫌弃"
+    ],
+    "scenes": [
+      "临时改安排",
+      "离谱消息",
+      "吐槽",
+      "群聊"
+    ],
+    "examples": [
+      "你再说一遍？",
+      "这安排认真的吗"
+    ],
+    "existing_text": "李东阳 朋友圈",
+    "source_type": "reference",
+    "author": "待核实",
+    "source_url": "https://q6.itc.cn/q_70/images03/20260819/2d720b0365d947e98dd05f61f3be5e3c.png",
+    "source_note": "按用户指定的牛来角色收录网络公开截图，保留原有左上角文字。具体作品来源及权属待补充。"
+  },
+  {
+    "id": "feidudu",
+    "action": "用无辜的眼神假装警告对方",
+    "intensity": 3,
+    "name": "肥嘟嘟 · 胆子真大",
+    "character": "肥嘟嘟",
+    "filename": "feidudu.jpg",
+    "emotion": [
+      "生气",
+      "调侃",
+      "警告"
+    ],
+    "scenes": [
+      "催回复",
+      "朋友玩笑",
+      "群聊",
+      "迟到"
+    ],
+    "examples": [
+      "还不回消息是吧",
+      "谁把我的晚饭拿走了"
+    ],
+    "existing_text": "胆子真是肥嘟嘟的",
+    "source_type": "reference",
+    "author": "待核实",
+    "source_url": "https://fs.img4399.com/bbs/202609/9/2026002549236/gJD9Mo6H0P.360x432.jpg~740x0",
+    "source_note": "按用户指定的肥嘟嘟表情收录，带有固定原始字幕。新文字应放在额外留白区，不能替换原有字。"
+  },
+  {
+    "id": "shark",
+    "action": "抱着食物抬头哭泣，委屈地求助",
+    "intensity": 4,
+    "name": "小鲨鱼 · 老师捞捞",
+    "character": "小鲨鱼",
+    "filename": "shark.png",
+    "emotion": [
+      "委屈",
+      "求助",
+      "难过"
+    ],
+    "scenes": [
+      "考试",
+      "期末",
+      "求捞",
+      "作业"
+    ],
+    "examples": [
+      "这次真的不会了",
+      "给我一点平时分吧"
+    ],
+    "existing_text": "老师 菜菜 捞捞 呜呜",
+    "source_type": "reference",
+    "author": "待核实",
+    "source_url": "",
+    "source_note": "用户提供原图，未裁剪改绘；原作者及具体系列尚未核实。原图已有文字，新配字使用额外留白。"
+  },
+  {
+    "id": "batiao",
+    "action": "撇嘴托腮，眯着眼睛思考",
+    "intensity": 3,
+    "name": "呆猫八条 · 思考一下",
+    "character": "呆猫八条",
+    "filename": "batiao.png",
+    "emotion": [
+      "怀疑",
+      "思考",
+      "无语"
+    ],
+    "scenes": [
+      "作业",
+      "代码调试",
+      "思考",
+      "疑惑"
+    ],
+    "examples": [
+      "让我看看哪里不对",
+      "这个逻辑有点意思"
+    ],
+    "existing_text": "",
+    "source_type": "reference",
+    "author": "待核实（转载页标注 Roro／呆猫八条）",
+    "source_url": "https://getstickerpack.com/stickers/silly-cat-batiao-1",
+    "source_note": "用户提供原图，未裁剪改绘。系列识别和作者信息来自前述转载线索，尚未核到作者首发。"
+  },
+  {
+    "id": "nun",
+    "action": "眯眼皱眉，露出不满而疲惫的表情",
+    "intensity": 3,
+    "name": "猫耳修女 · 可爱大笨蛋",
+    "character": "猫耳修女",
+    "filename": "nun.png",
+    "emotion": [
+      "无语",
+      "不满",
+      "疲惫"
+    ],
+    "scenes": [
+      "信息科学",
+      "计算机手册",
+      "代码调试",
+      "作业",
+      "校园吐槽"
+    ],
+    "examples": [
+      "编译过了，但我没过",
+      "手册里明明写了"
+    ],
+    "existing_text": "",
+    "source_type": "user_original",
+    "author": "可爱大笨蛋",
+    "source_url": "",
+    "source_note": "用户提供。按用户说明记录作者为可爱大笨蛋，背景为编写校内计算机手册、信息科学相关。保留原始上传图，不作独立权属认证。"
+  },
+  {
+    "id": "worm",
+    "action": "趴卧着瞪大眼睛，嘴角下垂",
+    "intensity": 4,
+    "name": "毛毛虫 · 绝望的区",
+    "character": "毛毛虫",
+    "filename": "worm.png",
+    "emotion": [
+      "绝望",
+      "难过",
+      "疲惫"
+    ],
+    "scenes": [
+      "期末",
+      "作业堆积",
+      "考试",
+      "生活吐槽"
+    ],
+    "examples": [
+      "还有五个作业没交",
+      "明天就考试了"
+    ],
+    "existing_text": "绝望的区",
+    "source_type": "user_original",
+    "author": "用户提供（作者待补充）",
+    "source_url": "",
+    "source_note": "用户提供，并按用户指定作为原创素材处理。原图已有文字，不能在其上替换文案。"
+  },
+  {
+    "id": "meowl-user",
+    "action": "小小一只站着，安静地看着前方",
+    "intensity": 1,
+    "name": "Meowl · 用户提供小图",
+    "character": "Meowl",
+    "filename": "meowl-user.png",
+    "emotion": [
+      "呆萌",
+      "平静",
+      "困惑"
+    ],
+    "scenes": [
+      "发呆",
+      "等待",
+      "已读",
+      "早八"
+    ],
+    "examples": [
+      "我在听",
+      "人到了，魂还没有"
+    ],
+    "existing_text": "",
+    "source_type": "reference",
+    "author": "待核实",
+    "source_url": "",
+    "source_note": "用户提供的聊天截图原图，保留灰色背景与原始构图，未裁剪改绘。"
+  },
+  {
+    "id": "meowl-animated",
+    "action": "嘴巴随节奏开合，像在唱歌或说话",
+    "intensity": 2,
+    "name": "Meowl · 会说话的猫头鹰猫",
+    "character": "Meowl",
+    "filename": "meowl.gif",
+    "emotion": [
+      "可爱",
+      "开心",
+      "呆萌"
+    ],
+    "scenes": [
+      "问好",
+      "唱歌",
+      "下课",
+      "开心"
+    ],
+    "examples": [
+      "好耶，下课了",
+      "听我说谢谢你"
+    ],
+    "existing_text": "",
+    "source_type": "reference",
+    "author": "待核实（Tenor 公开转载）",
+    "source_url": "https://media1.tenor.com/m/yvST8jqq8AMAAAAC/meowl-cat.gif",
+    "source_note": "从公开 Tenor 素材页相关图片取得的真实动图，126 帧，352×346，原始时长 12600 毫秒。作为原始素材保留，导出需遵守平台 6 秒上限。作者待核实。"
+  },
+  {
+    "id": "meowl-cutout",
+    "action": "蹲在树枝上，呆呆地看向前方",
+    "intensity": 1,
+    "name": "Meowl · 透明主体",
+    "character": "Meowl",
+    "filename": "meowl-cutout.png",
+    "emotion": [
+      "呆萌",
+      "困惑",
+      "平静"
+    ],
+    "scenes": [
+      "发呆",
+      "早八",
+      "收到通知",
+      "等待"
+    ],
+    "examples": [
+      "收到，但脑子还没到",
+      "让我先缓一缓"
+    ],
+    "existing_text": "",
+    "source_type": "reference",
+    "author": "待核实",
+    "source_url": "https://i.kym-cdn.com/entries/icons/facebook/000/053/804/meowl-meme-header.jpg",
+    "source_note": "按用户指定角色收录。公开传播的猫与猫头鹰合成图，下载自 Know Your Meme；作者与首发信息未在本项目独立核实。保留完整下载图片。 ImageGen 参考原图加工的透明背景派生素材，非精确像素分割；原图独立保留，可继续替换更精细的抠图。",
+    "role": "subject",
+    "is_cutout": true,
+    "derived_from": "meowl",
+    "templates": [
+      "top",
+      "bottom",
+      "split",
+      "frame",
+      "flower",
+      "grid",
+      "message"
+    ]
+  },
+  {
+    "id": "naiwa-cutout",
+    "action": "圆滚滚地站着，露出呆萌的笑容",
+    "intensity": 2,
+    "name": "奶蛙 · 透明主体",
+    "character": "奶蛙",
+    "filename": "naiwa-cutout.png",
+    "emotion": [
+      "可爱",
+      "开心",
+      "迷茫"
+    ],
+    "scenes": [
+      "摸鱼",
+      "等下课",
+      "装傻",
+      "开心"
+    ],
+    "examples": [
+      "我只是路过的",
+      "今天也要快乐摸鱼"
+    ],
+    "existing_text": "",
+    "source_type": "reference",
+    "author": "待核实",
+    "source_url": "https://fs.img4399.com/bbs/202609/9/2026002549217/rRNpHdMO5k.850x948.jpg~740x0",
+    "source_note": "按前述用户讨论中的奶蛙形象与公开图文素材收录；形象归属、具体二创作者及首发尚待核实。 ImageGen 参考原图加工的透明背景派生素材，非精确像素分割；原图独立保留，可继续替换更精细的抠图。",
+    "role": "subject",
+    "is_cutout": true,
+    "derived_from": "naiwa",
+    "templates": [
+      "top",
+      "bottom",
+      "split",
+      "frame",
+      "flower",
+      "grid",
+      "message"
+    ]
+  }
+]

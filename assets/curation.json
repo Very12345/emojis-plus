@@ -1,0 +1,126 @@
+{
+  "version": 1,
+  "archived": [
+    {
+      "id": "nun",
+      "replacement": "nun-cutout-v2",
+      "reason": "用户指定：截图留白与粉底无独立用途，已有透明主体。"
+    },
+    {
+      "id": "worm",
+      "replacement": "worm-cutout-v2",
+      "reason": "用户指定：白底带字截图已有无字透明主体，普通素材库保留透明版。"
+    },
+    {
+      "id": "shark",
+      "replacement": "shark-cutout-v2",
+      "reason": "用户指定：低分辨率白底截图已有透明主体。"
+    },
+    {
+      "id": "web-batiao-03",
+      "replacement": "web-batiao-03-cutout",
+      "reason": "逐对视觉审核：白底或截图留白无独立场景价值，已有同姿态透明版；原文件和原配字档案保留。"
+    },
+    {
+      "id": "web-batiao-07",
+      "replacement": "web-batiao-07-cutout",
+      "reason": "逐对视觉审核：白底或截图留白无独立场景价值，已有同姿态透明版；原文件和原配字档案保留。"
+    },
+    {
+      "id": "meowl-user",
+      "replacement": "meowl-user-program-cutout",
+      "reason": "逐对视觉审核：白底或截图留白无独立场景价值，已有同姿态透明版；原文件和原配字档案保留。"
+    },
+    {
+      "id": "bulk-feidudu-web-10",
+      "replacement": "bulk-feidudu-web-10-program-cutout",
+      "reason": "逐对视觉审核：白底或截图留白无独立场景价值，已有同姿态透明版；原文件和原配字档案保留。"
+    },
+    {
+      "id": "bulk-naiwa-gallery-l-22",
+      "replacement": "bulk-naiwa-gallery-l-22-program-cutout",
+      "reason": "逐对视觉审核：白底或截图留白无独立场景价值，已有同姿态透明版；原文件和原配字档案保留。"
+    },
+    {
+      "id": "bulk-nailong-094",
+      "replacement": "bulk-nailong-094-program-cutout",
+      "reason": "逐对视觉审核：白底或截图留白无独立场景价值，已有同姿态透明版；原文件和原配字档案保留。"
+    },
+    {
+      "id": "web-shark-04",
+      "replacement": "web-shark-04-cutout",
+      "reason": "逐对视觉审核：白底或截图留白无独立场景价值，已有同姿态透明版；原文件和原配字档案保留。"
+    },
+    {
+      "id": "bulk-naiwa-gallery-l-25",
+      "replacement": "bulk-naiwa-gallery-l-25-program-cutout",
+      "reason": "逐对视觉审核：白底或截图留白无独立场景价值，已有同姿态透明版；原文件和原配字档案保留。"
+    },
+    {
+      "id": "bulk-naiwa-gallery-l-20",
+      "replacement": "bulk-naiwa-gallery-l-20-program-cutout",
+      "reason": "逐对视觉审核：白底或截图留白无独立场景价值，已有同姿态透明版；原文件和原配字档案保留。"
+    },
+    {
+      "id": "web-feidudu-09",
+      "replacement": "web-feidudu-09-cutout",
+      "reason": "逐对视觉审核：白底或截图留白无独立场景价值，已有同姿态透明版；原文件和原配字档案保留。"
+    },
+    {
+      "id": "bulk-feidudu-web-22",
+      "replacement": "bulk-feidudu-web-22-program-cutout",
+      "reason": "逐对视觉审核：白底或截图留白无独立场景价值，已有同姿态透明版；原文件和原配字档案保留。"
+    },
+    {
+      "id": "web-feidudu-02",
+      "replacement": "web-feidudu-02-cutout",
+      "reason": "逐对视觉审核：白底或截图留白无独立场景价值，已有同姿态透明版；原文件和原配字档案保留。"
+    },
+    {
+      "id": "bulk-naiwa-gallery-f-04",
+      "replacement": "bulk-naiwa-gallery-f-04-program-cutout",
+      "reason": "逐对视觉审核：白底或截图留白无独立场景价值，已有同姿态透明版；原文件和原配字档案保留。"
+    },
+    {
+      "id": "bulk-naiwa-gallery-f-22",
+      "replacement": "bulk-naiwa-gallery-f-22-program-cutout",
+      "reason": "逐对视觉审核：白底或截图留白无独立场景价值，已有同姿态透明版；原文件和原配字档案保留。"
+    },
+    {
+      "id": "bulk-naiwa-gallery-f-03",
+      "replacement": "bulk-naiwa-gallery-f-03-program-cutout",
+      "reason": "逐对视觉审核：白底或截图留白无独立场景价值，已有同姿态透明版；原文件和原配字档案保留。"
+    },
+    {
+      "id": "bulk-naiwa-gallery-f-07",
+      "replacement": "bulk-naiwa-gallery-f-07-program-cutout",
+      "reason": "逐对视觉审核：白底或截图留白无独立场景价值，已有同姿态透明版；原文件和原配字档案保留。"
+    },
+    {
+      "id": "bulk-naiwa-gallery-f-10",
+      "replacement": "bulk-naiwa-gallery-f-10-program-cutout",
+      "reason": "逐对视觉审核：白底或截图留白无独立场景价值，已有同姿态透明版；原文件和原配字档案保留。"
+    },
+    {
+      "id": "bulk-naiwa-gallery-f-11",
+      "replacement": "bulk-naiwa-gallery-f-11-program-cutout",
+      "reason": "逐对视觉审核：白底或截图留白无独立场景价值，已有同姿态透明版；原文件和原配字档案保留。"
+    },
+    {
+      "id": "bulk-naiwa-gallery-f-12",
+      "replacement": "bulk-naiwa-gallery-f-12-program-cutout",
+      "reason": "逐对视觉审核：白底或截图留白无独立场景价值，已有同姿态透明版；原文件和原配字档案保留。"
+    },
+    {
+      "id": "bulk-naiwa-gallery-f-06",
+      "replacement": "bulk-naiwa-gallery-f-06-program-cutout",
+      "reason": "逐对视觉审核：白底或截图留白无独立场景价值，已有同姿态透明版；原文件和原配字档案保留。"
+    }
+  ],
+  "kept_after_review": [
+    {
+      "id": "web-shark-06",
+      "reason": "面壁的墙角线条是独立构图含义，保留原图及透明版。"
+    }
+  ]
+}

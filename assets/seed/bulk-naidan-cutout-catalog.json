@@ -1,0 +1,1207 @@
+[
+  {
+    "id": "bulk-naidan-bv1an8n6segp-109-program-cutout",
+    "name": "奶蛋 · 蛋形奶蛋独自站在大厅地面 · 程序透明版",
+    "character": "奶蛋",
+    "filename": "bulk-naidan/cutout/bulk-naidan-bv1an8n6segp-109-program-cutout.png",
+    "action": "蛋形奶蛋独自站在大厅地面",
+    "emotion": [
+      "呆萌",
+      "平静"
+    ],
+    "scenes": [
+      "等待回复",
+      "等通知"
+    ],
+    "examples": [
+      "我在这里等"
+    ],
+    "existing_text": "",
+    "intensity": 3,
+    "source_type": "reference",
+    "author": "奶史_",
+    "source_url": "https://www.bilibili.com/video/BV1aN8n6sEGP/",
+    "source_note": "公开B站同人视频《选择奶蛋还是奶蛙？【AI全民制作人】》第109秒截图；发布者奶史_，来源声明含AI生成内容，不是奶龙官方原画。人工按蛋形身体与绿眼圈确认奶蛋；原视频画面、字幕及水印保留。该视频多帧不代表多份独立作品。 程序抠图派生（rembg:u2net），原图保留；自动alpha指标不等于人工主体完整性确认。 待复核：automatic_mask_requires_visual_review, existing_text_requires_visual_review。 人工联系表复核通过：奶蛋主体完整，原字幕和背景已移除；机械抓爪、赛车、手捏玩偶、拥抱伙伴等与动作有关的道具保留。此为同一原素材的透明派生，不增加原始素材计数。",
+    "role": "subject",
+    "is_cutout": true,
+    "templates": [
+      "top",
+      "bottom",
+      "split",
+      "frame",
+      "flower",
+      "grid",
+      "message",
+      "poster",
+      "side",
+      "polaroid",
+      "bubble",
+      "dialogue",
+      "spotlight",
+      "comic",
+      "subtitle",
+      "note",
+      "window",
+      "ticket",
+      "medal",
+      "scene"
+    ],
+    "enabled": true,
+    "derived_from": "bulk-naidan-bv1an8n6segp-109"
+  },
+  {
+    "id": "bulk-naidan-bv1k9ya6zeqm-105-program-cutout",
+    "name": "奶蛋 · 奶蛋坐在电脑旁看着Accepted结果 · 程序透明版",
+    "character": "奶蛋",
+    "filename": "bulk-naidan/cutout/bulk-naidan-bv1k9ya6zeqm-105-program-cutout.png",
+    "action": "奶蛋坐在电脑旁看着Accepted结果",
+    "emotion": [
+      "开心",
+      "自信"
+    ],
+    "scenes": [
+      "编程",
+      "作业完成"
+    ],
+    "examples": [
+      "这题过了"
+    ],
+    "existing_text": "",
+    "intensity": 3,
+    "source_type": "reference",
+    "author": "江湖EHの日常",
+    "source_url": "https://www.bilibili.com/video/BV1K9YA6zEqm/",
+    "source_note": "公开B站同人视频《选择奶蛋还是奶狗？【ICPC】》第105秒截图；发布者江湖EHの日常，来源声明含AI生成内容，不是奶龙官方原画。人工按蛋形身体与绿眼圈确认奶蛋；原视频画面、字幕及水印保留。该视频多帧不代表多份独立作品。 程序抠图派生（rembg:u2net），原图保留；自动alpha指标不等于人工主体完整性确认。 待复核：automatic_mask_requires_visual_review, existing_text_requires_visual_review。 人工联系表复核通过：奶蛋主体完整，原字幕和背景已移除；机械抓爪、赛车、手捏玩偶、拥抱伙伴等与动作有关的道具保留。此为同一原素材的透明派生，不增加原始素材计数。",
+    "role": "subject",
+    "is_cutout": true,
+    "templates": [
+      "top",
+      "bottom",
+      "split",
+      "frame",
+      "flower",
+      "grid",
+      "message",
+      "poster",
+      "side",
+      "polaroid",
+      "bubble",
+      "dialogue",
+      "spotlight",
+      "comic",
+      "subtitle",
+      "note",
+      "window",
+      "ticket",
+      "medal",
+      "scene"
+    ],
+    "enabled": true,
+    "derived_from": "bulk-naidan-bv1k9ya6zeqm-105"
+  },
+  {
+    "id": "bulk-naidan-bv1k9ya6zeqm-109-program-cutout",
+    "name": "奶蛋 · 奶蛋戴奖牌站在第一名领奖台 · 程序透明版",
+    "character": "奶蛋",
+    "filename": "bulk-naidan/cutout/bulk-naidan-bv1k9ya6zeqm-109-program-cutout.png",
+    "action": "奶蛋戴奖牌站在第一名领奖台",
+    "emotion": [
+      "得意",
+      "开心"
+    ],
+    "scenes": [
+      "比赛获奖",
+      "夸夸"
+    ],
+    "examples": [
+      "稳稳拿下"
+    ],
+    "existing_text": "",
+    "intensity": 3,
+    "source_type": "reference",
+    "author": "江湖EHの日常",
+    "source_url": "https://www.bilibili.com/video/BV1K9YA6zEqm/",
+    "source_note": "公开B站同人视频《选择奶蛋还是奶狗？【ICPC】》第109秒截图；发布者江湖EHの日常，来源声明含AI生成内容，不是奶龙官方原画。人工按蛋形身体与绿眼圈确认奶蛋；原视频画面、字幕及水印保留。该视频多帧不代表多份独立作品。 程序抠图派生（rembg:u2net），原图保留；自动alpha指标不等于人工主体完整性确认。 待复核：automatic_mask_requires_visual_review, existing_text_requires_visual_review。 人工联系表复核通过：奶蛋主体完整，原字幕和背景已移除；机械抓爪、赛车、手捏玩偶、拥抱伙伴等与动作有关的道具保留。此为同一原素材的透明派生，不增加原始素材计数。",
+    "role": "subject",
+    "is_cutout": true,
+    "templates": [
+      "top",
+      "bottom",
+      "split",
+      "frame",
+      "flower",
+      "grid",
+      "message",
+      "poster",
+      "side",
+      "polaroid",
+      "bubble",
+      "dialogue",
+      "spotlight",
+      "comic",
+      "subtitle",
+      "note",
+      "window",
+      "ticket",
+      "medal",
+      "scene"
+    ],
+    "enabled": true,
+    "derived_from": "bulk-naidan-bv1k9ya6zeqm-109"
+  },
+  {
+    "id": "bulk-naidan-bv1sohs6fedc-005-program-cutout",
+    "name": "奶蛋 · 奶蛋独自在聚光灯下笑着张嘴 · 程序透明版",
+    "character": "奶蛋",
+    "filename": "bulk-naidan/cutout/bulk-naidan-bv1sohs6fedc-005-program-cutout.png",
+    "action": "奶蛋独自在聚光灯下笑着张嘴",
+    "emotion": [
+      "开心",
+      "呆萌"
+    ],
+    "scenes": [
+      "打招呼",
+      "接话"
+    ],
+    "examples": [
+      "安迪！"
+    ],
+    "existing_text": "",
+    "intensity": 3,
+    "source_type": "reference",
+    "author": "暖气杀手aaaa",
+    "source_url": "https://www.bilibili.com/video/BV1sohs6FEDc/",
+    "source_note": "公开B站同人视频《矿井里的奶蛋》第5秒截图；发布者暖气杀手aaaa，来源声明含AI生成内容，不是奶龙官方原画。人工按蛋形身体与绿眼圈确认奶蛋；原视频画面、字幕及水印保留。该视频多帧不代表多份独立作品。 程序抠图派生（rembg:u2net），原图保留；自动alpha指标不等于人工主体完整性确认。 待复核：automatic_mask_requires_visual_review, existing_text_requires_visual_review。 人工联系表复核通过：奶蛋主体完整，原字幕和背景已移除；机械抓爪、赛车、手捏玩偶、拥抱伙伴等与动作有关的道具保留。此为同一原素材的透明派生，不增加原始素材计数。",
+    "role": "subject",
+    "is_cutout": true,
+    "templates": [
+      "top",
+      "bottom",
+      "split",
+      "frame",
+      "flower",
+      "grid",
+      "message",
+      "poster",
+      "side",
+      "polaroid",
+      "bubble",
+      "dialogue",
+      "spotlight",
+      "comic",
+      "subtitle",
+      "note",
+      "window",
+      "ticket",
+      "medal",
+      "scene"
+    ],
+    "enabled": true,
+    "derived_from": "bulk-naidan-bv1sohs6fedc-005"
+  },
+  {
+    "id": "bulk-naidan-bv1sohs6fedc-013-program-cutout",
+    "name": "奶蛋 · 粉色伙伴抱着蛋形奶蛋 · 程序透明版",
+    "character": "奶蛋",
+    "filename": "bulk-naidan/cutout/bulk-naidan-bv1sohs6fedc-013-program-cutout.png",
+    "action": "粉色伙伴抱着蛋形奶蛋",
+    "emotion": [
+      "放松",
+      "依赖"
+    ],
+    "scenes": [
+      "求带",
+      "求帮助"
+    ],
+    "examples": [
+      "这把靠你了"
+    ],
+    "existing_text": "",
+    "intensity": 3,
+    "source_type": "reference",
+    "author": "暖气杀手aaaa",
+    "source_url": "https://www.bilibili.com/video/BV1sohs6FEDc/",
+    "source_note": "公开B站同人视频《矿井里的奶蛋》第13秒截图；发布者暖气杀手aaaa，来源声明含AI生成内容，不是奶龙官方原画。人工按蛋形身体与绿眼圈确认奶蛋；原视频画面、字幕及水印保留。该视频多帧不代表多份独立作品。 程序抠图派生（rembg:u2net），原图保留；自动alpha指标不等于人工主体完整性确认。 待复核：automatic_mask_requires_visual_review, existing_text_requires_visual_review。 人工联系表复核通过：奶蛋主体完整，原字幕和背景已移除；机械抓爪、赛车、手捏玩偶、拥抱伙伴等与动作有关的道具保留。此为同一原素材的透明派生，不增加原始素材计数。",
+    "role": "subject",
+    "is_cutout": true,
+    "templates": [
+      "top",
+      "bottom",
+      "split",
+      "frame",
+      "flower",
+      "grid",
+      "message",
+      "poster",
+      "side",
+      "polaroid",
+      "bubble",
+      "dialogue",
+      "spotlight",
+      "comic",
+      "subtitle",
+      "note",
+      "window",
+      "ticket",
+      "medal",
+      "scene"
+    ],
+    "enabled": true,
+    "derived_from": "bulk-naidan-bv1sohs6fedc-013"
+  },
+  {
+    "id": "bulk-naidan-bv1sohs6fedc-033-program-cutout",
+    "name": "奶蛋 · 奶蛋被抓爪吊起，身体压扁拉长 · 程序透明版",
+    "character": "奶蛋",
+    "filename": "bulk-naidan/cutout/bulk-naidan-bv1sohs6fedc-033-program-cutout.png",
+    "action": "奶蛋被抓爪吊起，身体压扁拉长",
+    "emotion": [
+      "惊讶",
+      "慌张"
+    ],
+    "scenes": [
+      "被抓包",
+      "赶作业"
+    ],
+    "examples": [
+      "我怎么又被抓了"
+    ],
+    "existing_text": "",
+    "intensity": 3,
+    "source_type": "reference",
+    "author": "暖气杀手aaaa",
+    "source_url": "https://www.bilibili.com/video/BV1sohs6FEDc/",
+    "source_note": "公开B站同人视频《矿井里的奶蛋》第33秒截图；发布者暖气杀手aaaa，来源声明含AI生成内容，不是奶龙官方原画。人工按蛋形身体与绿眼圈确认奶蛋；原视频画面、字幕及水印保留。该视频多帧不代表多份独立作品。 程序抠图派生（rembg:u2net），原图保留；自动alpha指标不等于人工主体完整性确认。 待复核：automatic_mask_requires_visual_review, existing_text_requires_visual_review。 人工联系表复核通过：奶蛋主体完整，原字幕和背景已移除；机械抓爪、赛车、手捏玩偶、拥抱伙伴等与动作有关的道具保留。此为同一原素材的透明派生，不增加原始素材计数。",
+    "role": "subject",
+    "is_cutout": true,
+    "templates": [
+      "top",
+      "bottom",
+      "split",
+      "frame",
+      "flower",
+      "grid",
+      "message",
+      "poster",
+      "side",
+      "polaroid",
+      "bubble",
+      "dialogue",
+      "spotlight",
+      "comic",
+      "subtitle",
+      "note",
+      "window",
+      "ticket",
+      "medal",
+      "scene"
+    ],
+    "enabled": true,
+    "derived_from": "bulk-naidan-bv1sohs6fedc-033"
+  },
+  {
+    "id": "bulk-naidan-bv1tbffzaejo-001-program-cutout",
+    "name": "奶蛋 · 一群奶蛋从木楼梯上排队走下 · 程序透明版",
+    "character": "奶蛋",
+    "filename": "bulk-naidan/cutout/bulk-naidan-bv1tbffzaejo-001-program-cutout.png",
+    "action": "一群奶蛋从木楼梯上排队走下",
+    "emotion": [
+      "开心",
+      "可爱"
+    ],
+    "scenes": [
+      "排队",
+      "集体活动"
+    ],
+    "examples": [
+      "奶蛋小队出动"
+    ],
+    "existing_text": "",
+    "intensity": 3,
+    "source_type": "reference",
+    "author": "没见过神吗",
+    "source_url": "https://www.bilibili.com/video/BV1TBFfzaEJo/",
+    "source_note": "公开B站同人视频《奶蛋动物园开业了，孩子们玩得很开心》第1秒截图；发布者没见过神吗，来源声明含AI生成内容，不是奶龙官方原画。人工按蛋形身体与绿眼圈确认奶蛋；原视频画面、字幕及水印保留。该视频多帧不代表多份独立作品。 程序抠图派生（rembg:u2net），原图保留；自动alpha指标不等于人工主体完整性确认。 待复核：automatic_mask_requires_visual_review, existing_text_requires_visual_review。 人工联系表复核通过：奶蛋主体完整，原字幕和背景已移除；机械抓爪、赛车、手捏玩偶、拥抱伙伴等与动作有关的道具保留。此为同一原素材的透明派生，不增加原始素材计数。",
+    "role": "subject",
+    "is_cutout": true,
+    "templates": [
+      "top",
+      "bottom",
+      "split",
+      "frame",
+      "flower",
+      "grid",
+      "message",
+      "poster",
+      "side",
+      "polaroid",
+      "bubble",
+      "dialogue",
+      "spotlight",
+      "comic",
+      "subtitle",
+      "note",
+      "window",
+      "ticket",
+      "medal",
+      "scene"
+    ],
+    "enabled": true,
+    "derived_from": "bulk-naidan-bv1tbffzaejo-001"
+  },
+  {
+    "id": "bulk-naidan-bv14yto62esb-121-program-cutout",
+    "name": "奶蛋 · 奶蛋独自站在深蓝雪夜里 · 程序透明版",
+    "character": "奶蛋",
+    "filename": "bulk-naidan/cutout/bulk-naidan-bv14yto62esb-121-program-cutout.png",
+    "action": "奶蛋独自站在深蓝雪夜里",
+    "emotion": [
+      "平静",
+      "孤独"
+    ],
+    "scenes": [
+      "晚安",
+      "等人"
+    ],
+    "examples": [
+      "我就静静待着"
+    ],
+    "existing_text": "",
+    "intensity": 3,
+    "source_type": "reference",
+    "author": "奶史_",
+    "source_url": "https://www.bilibili.com/video/BV14yto62ESb/",
+    "source_note": "公开B站同人视频《选择奶蛋还是奶狗？【AI全民制作人】》第121秒截图；发布者奶史_，来源声明含AI生成内容，不是奶龙官方原画。人工按蛋形身体与绿眼圈确认奶蛋；原视频画面、字幕及水印保留。该视频多帧不代表多份独立作品。 程序抠图派生（rembg:u2net），原图保留；自动alpha指标不等于人工主体完整性确认。 待复核：automatic_mask_requires_visual_review, existing_text_requires_visual_review。 人工联系表复核通过：奶蛋主体完整，原字幕和背景已移除；机械抓爪、赛车、手捏玩偶、拥抱伙伴等与动作有关的道具保留。此为同一原素材的透明派生，不增加原始素材计数。",
+    "role": "subject",
+    "is_cutout": true,
+    "templates": [
+      "top",
+      "bottom",
+      "split",
+      "frame",
+      "flower",
+      "grid",
+      "message",
+      "poster",
+      "side",
+      "polaroid",
+      "bubble",
+      "dialogue",
+      "spotlight",
+      "comic",
+      "subtitle",
+      "note",
+      "window",
+      "ticket",
+      "medal",
+      "scene"
+    ],
+    "enabled": true,
+    "derived_from": "bulk-naidan-bv14yto62esb-121"
+  },
+  {
+    "id": "bulk-naidan-bv14yto62esb-141-program-cutout",
+    "name": "奶蛋 · 奶蛋背对镜头面对远处汽车 · 程序透明版",
+    "character": "奶蛋",
+    "filename": "bulk-naidan/cutout/bulk-naidan-bv14yto62esb-141-program-cutout.png",
+    "action": "奶蛋背对镜头面对远处汽车",
+    "emotion": [
+      "平静",
+      "期待"
+    ],
+    "scenes": [
+      "出发",
+      "回家"
+    ],
+    "examples": [
+      "该回家了"
+    ],
+    "existing_text": "",
+    "intensity": 3,
+    "source_type": "reference",
+    "author": "奶史_",
+    "source_url": "https://www.bilibili.com/video/BV14yto62ESb/",
+    "source_note": "公开B站同人视频《选择奶蛋还是奶狗？【AI全民制作人】》第141秒截图；发布者奶史_，来源声明含AI生成内容，不是奶龙官方原画。人工按蛋形身体与绿眼圈确认奶蛋；原视频画面、字幕及水印保留。该视频多帧不代表多份独立作品。 程序抠图派生（rembg:u2net），原图保留；自动alpha指标不等于人工主体完整性确认。 待复核：automatic_mask_requires_visual_review, existing_text_requires_visual_review。 人工联系表复核通过：奶蛋主体完整，原字幕和背景已移除；机械抓爪、赛车、手捏玩偶、拥抱伙伴等与动作有关的道具保留。此为同一原素材的透明派生，不增加原始素材计数。",
+    "role": "subject",
+    "is_cutout": true,
+    "templates": [
+      "top",
+      "bottom",
+      "split",
+      "frame",
+      "flower",
+      "grid",
+      "message",
+      "poster",
+      "side",
+      "polaroid",
+      "bubble",
+      "dialogue",
+      "spotlight",
+      "comic",
+      "subtitle",
+      "note",
+      "window",
+      "ticket",
+      "medal",
+      "scene"
+    ],
+    "enabled": true,
+    "derived_from": "bulk-naidan-bv14yto62esb-141"
+  },
+  {
+    "id": "bulk-naidan-bv1e28b6nej7-097-program-cutout",
+    "name": "奶蛋 · 奶蛋站在走廊灯下咧嘴笑 · 程序透明版",
+    "character": "奶蛋",
+    "filename": "bulk-naidan/cutout/bulk-naidan-bv1e28b6nej7-097-program-cutout.png",
+    "action": "奶蛋站在走廊灯下咧嘴笑",
+    "emotion": [
+      "开心",
+      "呆萌"
+    ],
+    "scenes": [
+      "接话",
+      "惊喜"
+    ],
+    "examples": [
+      "终于轮到我了"
+    ],
+    "existing_text": "",
+    "intensity": 3,
+    "source_type": "reference",
+    "author": "奇遇0007",
+    "source_url": "https://www.bilibili.com/video/BV1E28B6nEJ7/",
+    "source_note": "公开B站同人视频《选择一个同伴 #奶蛙 #奶蛋》第97秒截图；发布者奇遇0007，来源声明含AI生成内容，不是奶龙官方原画。人工按蛋形身体与绿眼圈确认奶蛋；原视频画面、字幕及水印保留。该视频多帧不代表多份独立作品。 程序抠图派生（rembg:u2net），原图保留；自动alpha指标不等于人工主体完整性确认。 待复核：automatic_mask_requires_visual_review, existing_text_requires_visual_review。 人工联系表复核通过：奶蛋主体完整，原字幕和背景已移除；机械抓爪、赛车、手捏玩偶、拥抱伙伴等与动作有关的道具保留。此为同一原素材的透明派生，不增加原始素材计数。",
+    "role": "subject",
+    "is_cutout": true,
+    "templates": [
+      "top",
+      "bottom",
+      "split",
+      "frame",
+      "flower",
+      "grid",
+      "message",
+      "poster",
+      "side",
+      "polaroid",
+      "bubble",
+      "dialogue",
+      "spotlight",
+      "comic",
+      "subtitle",
+      "note",
+      "window",
+      "ticket",
+      "medal",
+      "scene"
+    ],
+    "enabled": true,
+    "derived_from": "bulk-naidan-bv1e28b6nej7-097"
+  },
+  {
+    "id": "bulk-naidan-bv15lhh6hewe-001-program-cutout",
+    "name": "奶蛋 · 奶蛋在明亮客厅地毯上侧身蹦跳 · 程序透明版",
+    "character": "奶蛋",
+    "filename": "bulk-naidan/cutout/bulk-naidan-bv15lhh6hewe-001-program-cutout.png",
+    "action": "奶蛋在明亮客厅地毯上侧身蹦跳",
+    "emotion": [
+      "开心",
+      "放松"
+    ],
+    "scenes": [
+      "下课",
+      "周末"
+    ],
+    "examples": [
+      "终于到家了"
+    ],
+    "existing_text": "",
+    "intensity": 3,
+    "source_type": "reference",
+    "author": "神奇鼠妹",
+    "source_url": "https://www.bilibili.com/video/BV15LhH6hEwE/",
+    "source_note": "公开B站同人视频《在家里蹦蹦跳跳的奶蛋》第1秒截图；发布者神奇鼠妹，来源声明含AI生成内容，不是奶龙官方原画。人工按蛋形身体与绿眼圈确认奶蛋；原视频画面、字幕及水印保留。该视频多帧不代表多份独立作品。 程序抠图派生（rembg:u2net），原图保留；自动alpha指标不等于人工主体完整性确认。 待复核：automatic_mask_requires_visual_review, existing_text_requires_visual_review。 人工联系表复核通过：奶蛋主体完整，原字幕和背景已移除；机械抓爪、赛车、手捏玩偶、拥抱伙伴等与动作有关的道具保留。此为同一原素材的透明派生，不增加原始素材计数。",
+    "role": "subject",
+    "is_cutout": true,
+    "templates": [
+      "top",
+      "bottom",
+      "split",
+      "frame",
+      "flower",
+      "grid",
+      "message",
+      "poster",
+      "side",
+      "polaroid",
+      "bubble",
+      "dialogue",
+      "spotlight",
+      "comic",
+      "subtitle",
+      "note",
+      "window",
+      "ticket",
+      "medal",
+      "scene"
+    ],
+    "enabled": true,
+    "derived_from": "bulk-naidan-bv15lhh6hewe-001"
+  },
+  {
+    "id": "bulk-naidan-bv15lhh6hewe-005-program-cutout",
+    "name": "奶蛋 · 奶蛋在客厅蹦到镜头前 · 程序透明版",
+    "character": "奶蛋",
+    "filename": "bulk-naidan/cutout/bulk-naidan-bv15lhh6hewe-005-program-cutout.png",
+    "action": "奶蛋在客厅蹦到镜头前",
+    "emotion": [
+      "兴奋",
+      "可爱"
+    ],
+    "scenes": [
+      "见面",
+      "打招呼"
+    ],
+    "examples": [
+      "我来啦"
+    ],
+    "existing_text": "",
+    "intensity": 3,
+    "source_type": "reference",
+    "author": "神奇鼠妹",
+    "source_url": "https://www.bilibili.com/video/BV15LhH6hEwE/",
+    "source_note": "公开B站同人视频《在家里蹦蹦跳跳的奶蛋》第5秒截图；发布者神奇鼠妹，来源声明含AI生成内容，不是奶龙官方原画。人工按蛋形身体与绿眼圈确认奶蛋；原视频画面、字幕及水印保留。该视频多帧不代表多份独立作品。 程序抠图派生（rembg:u2net），原图保留；自动alpha指标不等于人工主体完整性确认。 待复核：automatic_mask_requires_visual_review, existing_text_requires_visual_review。 人工联系表复核通过：奶蛋主体完整，原字幕和背景已移除；机械抓爪、赛车、手捏玩偶、拥抱伙伴等与动作有关的道具保留。此为同一原素材的透明派生，不增加原始素材计数。",
+    "role": "subject",
+    "is_cutout": true,
+    "templates": [
+      "top",
+      "bottom",
+      "split",
+      "frame",
+      "flower",
+      "grid",
+      "message",
+      "poster",
+      "side",
+      "polaroid",
+      "bubble",
+      "dialogue",
+      "spotlight",
+      "comic",
+      "subtitle",
+      "note",
+      "window",
+      "ticket",
+      "medal",
+      "scene"
+    ],
+    "enabled": true,
+    "derived_from": "bulk-naidan-bv15lhh6hewe-005"
+  },
+  {
+    "id": "bulk-naidan-bv1dnzwbuezw-001-program-cutout",
+    "name": "奶蛋 · 戴头盔的奶蛋驾驶小赛车压弯 · 程序透明版",
+    "character": "奶蛋",
+    "filename": "bulk-naidan/cutout/bulk-naidan-bv1dnzwbuezw-001-program-cutout.png",
+    "action": "戴头盔的奶蛋驾驶小赛车压弯",
+    "emotion": [
+      "自信",
+      "兴奋"
+    ],
+    "scenes": [
+      "赶路",
+      "赶DDL"
+    ],
+    "examples": [
+      "全速前进"
+    ],
+    "existing_text": "",
+    "intensity": 3,
+    "source_type": "reference",
+    "author": "神有点人",
+    "source_url": "https://www.bilibili.com/video/BV1dnZWBuEzw/",
+    "source_note": "公开B站同人视频《奶蛋赛车》第1秒截图；发布者神有点人，来源声明含AI生成内容，不是奶龙官方原画。人工按蛋形身体与绿眼圈确认奶蛋；原视频画面、字幕及水印保留。该视频多帧不代表多份独立作品。 程序抠图派生（rembg:u2net），原图保留；自动alpha指标不等于人工主体完整性确认。 待复核：automatic_mask_requires_visual_review, existing_text_requires_visual_review。 人工联系表复核通过：奶蛋主体完整，原字幕和背景已移除；机械抓爪、赛车、手捏玩偶、拥抱伙伴等与动作有关的道具保留。此为同一原素材的透明派生，不增加原始素材计数。",
+    "role": "subject",
+    "is_cutout": true,
+    "templates": [
+      "top",
+      "bottom",
+      "split",
+      "frame",
+      "flower",
+      "grid",
+      "message",
+      "poster",
+      "side",
+      "polaroid",
+      "bubble",
+      "dialogue",
+      "spotlight",
+      "comic",
+      "subtitle",
+      "note",
+      "window",
+      "ticket",
+      "medal",
+      "scene"
+    ],
+    "enabled": true,
+    "derived_from": "bulk-naidan-bv1dnzwbuezw-001"
+  },
+  {
+    "id": "bulk-naidan-bv1akeu6nenh-001-program-cutout",
+    "name": "奶蛋 · 一只手捏着奶蛋脸颊 · 程序透明版",
+    "character": "奶蛋",
+    "filename": "bulk-naidan/cutout/bulk-naidan-bv1akeu6nenh-001-program-cutout.png",
+    "action": "一只手捏着奶蛋脸颊",
+    "emotion": [
+      "委屈",
+      "呆萌"
+    ],
+    "scenes": [
+      "被捏脸",
+      "卖萌"
+    ],
+    "examples": [
+      "轻点捏嘛"
+    ],
+    "existing_text": "",
+    "intensity": 3,
+    "source_type": "reference",
+    "author": "奶蛋厨-",
+    "source_url": "https://www.bilibili.com/video/BV1akeu6NENh/",
+    "source_note": "公开B站同人视频《解压奶蛋捏捏◉‿◉》第1秒截图；发布者奶蛋厨-，来源声明含AI生成内容，不是奶龙官方原画。人工按蛋形身体与绿眼圈确认奶蛋；原视频画面、字幕及水印保留。该视频多帧不代表多份独立作品。 程序抠图派生（rembg:u2net），原图保留；自动alpha指标不等于人工主体完整性确认。 待复核：automatic_mask_requires_visual_review, existing_text_requires_visual_review。 人工联系表复核通过：奶蛋主体完整，原字幕和背景已移除；机械抓爪、赛车、手捏玩偶、拥抱伙伴等与动作有关的道具保留。此为同一原素材的透明派生，不增加原始素材计数。",
+    "role": "subject",
+    "is_cutout": true,
+    "templates": [
+      "top",
+      "bottom",
+      "split",
+      "frame",
+      "flower",
+      "grid",
+      "message",
+      "poster",
+      "side",
+      "polaroid",
+      "bubble",
+      "dialogue",
+      "spotlight",
+      "comic",
+      "subtitle",
+      "note",
+      "window",
+      "ticket",
+      "medal",
+      "scene"
+    ],
+    "enabled": true,
+    "derived_from": "bulk-naidan-bv1akeu6nenh-001"
+  },
+  {
+    "id": "bulk-naidan-bv1akeu6nenh-013-program-cutout",
+    "name": "奶蛋 · 奶蛋被双手挤成长脸 · 程序透明版",
+    "character": "奶蛋",
+    "filename": "bulk-naidan/cutout/bulk-naidan-bv1akeu6nenh-013-program-cutout.png",
+    "action": "奶蛋被双手挤成长脸",
+    "emotion": [
+      "无语",
+      "委屈"
+    ],
+    "scenes": [
+      "压力",
+      "作业太多"
+    ],
+    "examples": [
+      "被生活挤扁了"
+    ],
+    "existing_text": "",
+    "intensity": 3,
+    "source_type": "reference",
+    "author": "奶蛋厨-",
+    "source_url": "https://www.bilibili.com/video/BV1akeu6NENh/",
+    "source_note": "公开B站同人视频《解压奶蛋捏捏◉‿◉》第13秒截图；发布者奶蛋厨-，来源声明含AI生成内容，不是奶龙官方原画。人工按蛋形身体与绿眼圈确认奶蛋；原视频画面、字幕及水印保留。该视频多帧不代表多份独立作品。 程序抠图派生（rembg:u2net），原图保留；自动alpha指标不等于人工主体完整性确认。 待复核：automatic_mask_requires_visual_review, existing_text_requires_visual_review。 人工联系表复核通过：奶蛋主体完整，原字幕和背景已移除；机械抓爪、赛车、手捏玩偶、拥抱伙伴等与动作有关的道具保留。此为同一原素材的透明派生，不增加原始素材计数。",
+    "role": "subject",
+    "is_cutout": true,
+    "templates": [
+      "top",
+      "bottom",
+      "split",
+      "frame",
+      "flower",
+      "grid",
+      "message",
+      "poster",
+      "side",
+      "polaroid",
+      "bubble",
+      "dialogue",
+      "spotlight",
+      "comic",
+      "subtitle",
+      "note",
+      "window",
+      "ticket",
+      "medal",
+      "scene"
+    ],
+    "enabled": true,
+    "derived_from": "bulk-naidan-bv1akeu6nenh-013"
+  },
+  {
+    "id": "bulk-naidan-bv1qs846uea5-009-program-cutout",
+    "name": "奶蛋 · 巷子里的奶蛋抬头望着镜头 · 程序透明版",
+    "character": "奶蛋",
+    "filename": "bulk-naidan/cutout/bulk-naidan-bv1qs846uea5-009-program-cutout.png",
+    "action": "巷子里的奶蛋抬头望着镜头",
+    "emotion": [
+      "无辜",
+      "可爱"
+    ],
+    "scenes": [
+      "求帮助",
+      "撒娇"
+    ],
+    "examples": [
+      "看看我嘛"
+    ],
+    "existing_text": "",
+    "intensity": 3,
+    "source_type": "reference",
+    "author": "策束手无策",
+    "source_url": "https://www.bilibili.com/video/BV1qS846UEa5/",
+    "source_note": "公开B站同人视频《深夜回家捡到一个奶蛋……》第9秒截图；发布者策束手无策，来源声明含AI生成内容，不是奶龙官方原画。人工按蛋形身体与绿眼圈确认奶蛋；原视频画面、字幕及水印保留。该视频多帧不代表多份独立作品。 程序抠图派生（rembg:u2net），原图保留；自动alpha指标不等于人工主体完整性确认。 待复核：automatic_mask_requires_visual_review, existing_text_requires_visual_review。 人工联系表复核通过：奶蛋主体完整，原字幕和背景已移除；机械抓爪、赛车、手捏玩偶、拥抱伙伴等与动作有关的道具保留。此为同一原素材的透明派生，不增加原始素材计数。",
+    "role": "subject",
+    "is_cutout": true,
+    "templates": [
+      "top",
+      "bottom",
+      "split",
+      "frame",
+      "flower",
+      "grid",
+      "message",
+      "poster",
+      "side",
+      "polaroid",
+      "bubble",
+      "dialogue",
+      "spotlight",
+      "comic",
+      "subtitle",
+      "note",
+      "window",
+      "ticket",
+      "medal",
+      "scene"
+    ],
+    "enabled": true,
+    "derived_from": "bulk-naidan-bv1qs846uea5-009"
+  },
+  {
+    "id": "bulk-naidan-bv1yrgx6oek2-005-program-cutout",
+    "name": "奶蛋 · 短肢幼年奶蛋趴在草地上微笑 · 程序透明版",
+    "character": "奶蛋",
+    "filename": "bulk-naidan/cutout/bulk-naidan-bv1yrgx6oek2-005-program-cutout.png",
+    "action": "短肢幼年奶蛋趴在草地上微笑",
+    "emotion": [
+      "可爱",
+      "开心"
+    ],
+    "scenes": [
+      "晒太阳",
+      "周末"
+    ],
+    "examples": [
+      "今天也慢慢来"
+    ],
+    "existing_text": "",
+    "intensity": 3,
+    "source_type": "reference",
+    "author": "树苗爱骨粉",
+    "source_url": "https://www.bilibili.com/video/BV1YRgx6oEk2/",
+    "source_note": "公开B站同人视频《10月龄的奶蛋正在练习掌握四肢》第5秒截图；发布者树苗爱骨粉，来源声明含AI生成内容，不是奶龙官方原画。人工按蛋形身体与绿眼圈确认奶蛋；原视频画面、字幕及水印保留。该视频多帧不代表多份独立作品。 程序抠图派生（rembg:u2net），原图保留；自动alpha指标不等于人工主体完整性确认。 待复核：automatic_mask_requires_visual_review, existing_text_requires_visual_review。 人工联系表复核通过：奶蛋主体完整，原字幕和背景已移除；机械抓爪、赛车、手捏玩偶、拥抱伙伴等与动作有关的道具保留。此为同一原素材的透明派生，不增加原始素材计数。",
+    "role": "subject",
+    "is_cutout": true,
+    "templates": [
+      "top",
+      "bottom",
+      "split",
+      "frame",
+      "flower",
+      "grid",
+      "message",
+      "poster",
+      "side",
+      "polaroid",
+      "bubble",
+      "dialogue",
+      "spotlight",
+      "comic",
+      "subtitle",
+      "note",
+      "window",
+      "ticket",
+      "medal",
+      "scene"
+    ],
+    "enabled": true,
+    "derived_from": "bulk-naidan-bv1yrgx6oek2-005"
+  },
+  {
+    "id": "bulk-naidan-bv1yrgx6oek2-009-program-cutout",
+    "name": "奶蛋 · 一群短肢小奶蛋在草地上爬行 · 程序透明版",
+    "character": "奶蛋",
+    "filename": "bulk-naidan/cutout/bulk-naidan-bv1yrgx6oek2-009-program-cutout.png",
+    "action": "一群短肢小奶蛋在草地上爬行",
+    "emotion": [
+      "开心",
+      "可爱"
+    ],
+    "scenes": [
+      "团建",
+      "组队"
+    ],
+    "examples": [
+      "大家一起慢慢爬"
+    ],
+    "existing_text": "",
+    "intensity": 3,
+    "source_type": "reference",
+    "author": "树苗爱骨粉",
+    "source_url": "https://www.bilibili.com/video/BV1YRgx6oEk2/",
+    "source_note": "公开B站同人视频《10月龄的奶蛋正在练习掌握四肢》第9秒截图；发布者树苗爱骨粉，来源声明含AI生成内容，不是奶龙官方原画。人工按蛋形身体与绿眼圈确认奶蛋；原视频画面、字幕及水印保留。该视频多帧不代表多份独立作品。 程序抠图派生（rembg:u2net），原图保留；自动alpha指标不等于人工主体完整性确认。 待复核：automatic_mask_requires_visual_review, fragmented_foreground_review, existing_text_requires_visual_review。 人工联系表复核通过：奶蛋主体完整，原字幕和背景已移除；机械抓爪、赛车、手捏玩偶、拥抱伙伴等与动作有关的道具保留。此为同一原素材的透明派生，不增加原始素材计数。",
+    "role": "subject",
+    "is_cutout": true,
+    "templates": [
+      "top",
+      "bottom",
+      "split",
+      "frame",
+      "flower",
+      "grid",
+      "message",
+      "poster",
+      "side",
+      "polaroid",
+      "bubble",
+      "dialogue",
+      "spotlight",
+      "comic",
+      "subtitle",
+      "note",
+      "window",
+      "ticket",
+      "medal",
+      "scene"
+    ],
+    "enabled": true,
+    "derived_from": "bulk-naidan-bv1yrgx6oek2-009"
+  },
+  {
+    "id": "bulk-naidan-bv1kdbq6oemk-001-program-cutout",
+    "name": "奶蛋 · 奶蛋和伙伴在邮轮旁的沙滩上 · 程序透明版",
+    "character": "奶蛋",
+    "filename": "bulk-naidan/cutout/bulk-naidan-bv1kdbq6oemk-001-program-cutout.png",
+    "action": "奶蛋和伙伴在邮轮旁的沙滩上",
+    "emotion": [
+      "期待",
+      "平静"
+    ],
+    "scenes": [
+      "出游",
+      "度假"
+    ],
+    "examples": [
+      "准备出发啦"
+    ],
+    "existing_text": "",
+    "intensity": 3,
+    "source_type": "reference",
+    "author": "网友烤全羊",
+    "source_url": "https://www.bilibili.com/video/BV1kdbQ6oEmK/",
+    "source_note": "公开B站同人视频《不同音效下的奶蛋大喊安迪》第1秒截图；发布者网友烤全羊，来源声明含AI生成内容，不是奶龙官方原画。人工按蛋形身体与绿眼圈确认奶蛋；原视频画面、字幕及水印保留。该视频多帧不代表多份独立作品。 程序抠图派生（rembg:u2net），原图保留；自动alpha指标不等于人工主体完整性确认。 待复核：automatic_mask_requires_visual_review, existing_text_requires_visual_review。 人工联系表复核通过：奶蛋主体完整，原字幕和背景已移除；机械抓爪、赛车、手捏玩偶、拥抱伙伴等与动作有关的道具保留。此为同一原素材的透明派生，不增加原始素材计数。",
+    "role": "subject",
+    "is_cutout": true,
+    "templates": [
+      "top",
+      "bottom",
+      "split",
+      "frame",
+      "flower",
+      "grid",
+      "message",
+      "poster",
+      "side",
+      "polaroid",
+      "bubble",
+      "dialogue",
+      "spotlight",
+      "comic",
+      "subtitle",
+      "note",
+      "window",
+      "ticket",
+      "medal",
+      "scene"
+    ],
+    "enabled": true,
+    "derived_from": "bulk-naidan-bv1kdbq6oemk-001"
+  },
+  {
+    "id": "bulk-naidan-bv1kdbq6oemk-009-program-cutout",
+    "name": "奶蛋 · 奶蛋在沙滩上张嘴笑 · 程序透明版",
+    "character": "奶蛋",
+    "filename": "bulk-naidan/cutout/bulk-naidan-bv1kdbq6oemk-009-program-cutout.png",
+    "action": "奶蛋在沙滩上张嘴笑",
+    "emotion": [
+      "开心",
+      "兴奋"
+    ],
+    "scenes": [
+      "大笑",
+      "惊喜"
+    ],
+    "examples": [
+      "哈哈，安迪！"
+    ],
+    "existing_text": "",
+    "intensity": 3,
+    "source_type": "reference",
+    "author": "网友烤全羊",
+    "source_url": "https://www.bilibili.com/video/BV1kdbQ6oEmK/",
+    "source_note": "公开B站同人视频《不同音效下的奶蛋大喊安迪》第9秒截图；发布者网友烤全羊，来源声明含AI生成内容，不是奶龙官方原画。人工按蛋形身体与绿眼圈确认奶蛋；原视频画面、字幕及水印保留。该视频多帧不代表多份独立作品。 程序抠图派生（rembg:u2net），原图保留；自动alpha指标不等于人工主体完整性确认。 待复核：automatic_mask_requires_visual_review, existing_text_requires_visual_review。 人工联系表复核通过：奶蛋主体完整，原字幕和背景已移除；机械抓爪、赛车、手捏玩偶、拥抱伙伴等与动作有关的道具保留。此为同一原素材的透明派生，不增加原始素材计数。",
+    "role": "subject",
+    "is_cutout": true,
+    "templates": [
+      "top",
+      "bottom",
+      "split",
+      "frame",
+      "flower",
+      "grid",
+      "message",
+      "poster",
+      "side",
+      "polaroid",
+      "bubble",
+      "dialogue",
+      "spotlight",
+      "comic",
+      "subtitle",
+      "note",
+      "window",
+      "ticket",
+      "medal",
+      "scene"
+    ],
+    "enabled": true,
+    "derived_from": "bulk-naidan-bv1kdbq6oemk-009"
+  },
+  {
+    "id": "bulk-naidan-bv1kdbq6oemk-033-program-cutout",
+    "name": "奶蛋 · 奶蛋张大嘴向前呼喊 · 程序透明版",
+    "character": "奶蛋",
+    "filename": "bulk-naidan/cutout/bulk-naidan-bv1kdbq6oemk-033-program-cutout.png",
+    "action": "奶蛋张大嘴向前呼喊",
+    "emotion": [
+      "兴奋",
+      "开心"
+    ],
+    "scenes": [
+      "呼叫队友",
+      "整活"
+    ],
+    "examples": [
+      "安——迪——"
+    ],
+    "existing_text": "",
+    "intensity": 3,
+    "source_type": "reference",
+    "author": "网友烤全羊",
+    "source_url": "https://www.bilibili.com/video/BV1kdbQ6oEmK/",
+    "source_note": "公开B站同人视频《不同音效下的奶蛋大喊安迪》第33秒截图；发布者网友烤全羊，来源声明含AI生成内容，不是奶龙官方原画。人工按蛋形身体与绿眼圈确认奶蛋；原视频画面、字幕及水印保留。该视频多帧不代表多份独立作品。 程序抠图派生（rembg:u2net），原图保留；自动alpha指标不等于人工主体完整性确认。 待复核：automatic_mask_requires_visual_review, existing_text_requires_visual_review。 人工联系表复核通过：奶蛋主体完整，原字幕和背景已移除；机械抓爪、赛车、手捏玩偶、拥抱伙伴等与动作有关的道具保留。此为同一原素材的透明派生，不增加原始素材计数。",
+    "role": "subject",
+    "is_cutout": true,
+    "templates": [
+      "top",
+      "bottom",
+      "split",
+      "frame",
+      "flower",
+      "grid",
+      "message",
+      "poster",
+      "side",
+      "polaroid",
+      "bubble",
+      "dialogue",
+      "spotlight",
+      "comic",
+      "subtitle",
+      "note",
+      "window",
+      "ticket",
+      "medal",
+      "scene"
+    ],
+    "enabled": true,
+    "derived_from": "bulk-naidan-bv1kdbq6oemk-033"
+  },
+  {
+    "id": "bulk-naidan-community-0065-program-cutout",
+    "name": "奶蛋 · 桌边整活 · 程序透明版",
+    "character": "奶蛋",
+    "filename": "bulk-naidan/cutout/bulk-naidan-community-0065-program-cutout.png",
+    "action": "奶蛋在桌边拿卡片和吸管整活",
+    "emotion": [
+      "抽象",
+      "得意"
+    ],
+    "scenes": [
+      "朋友整活",
+      "离谱消息"
+    ],
+    "examples": [
+      "今天也很抽象"
+    ],
+    "existing_text": "",
+    "intensity": 3,
+    "source_type": "reference",
+    "author": "具体二创作者待核实；公开贡献者musemantic",
+    "source_url": "https://github.com/musemantic/NaiLoong/blob/76c07e04a8b217117b39a3b647751618c55bff0c/assets/memes/naiwa_0065.jpg",
+    "source_note": "奶-hub公开奶蛋索引第三张，原图无修改；索引原题“奶蛋在吸白砂糖，大家不要模仿”。保留网络整活语境，不将画面解释为健康或生活建议。 程序抠图派生（rembg:u2net），原图保留；自动alpha指标不等于人工主体完整性确认。 待复核：automatic_mask_requires_visual_review。 人工联系表复核通过：奶蛋主体完整，原字幕和背景已移除；机械抓爪、赛车、手捏玩偶、拥抱伙伴等与动作有关的道具保留。此为同一原素材的透明派生，不增加原始素材计数。",
+    "role": "subject",
+    "is_cutout": true,
+    "templates": [
+      "top",
+      "bottom",
+      "split",
+      "frame",
+      "flower",
+      "grid",
+      "message",
+      "poster",
+      "side",
+      "polaroid",
+      "bubble",
+      "dialogue",
+      "spotlight",
+      "comic",
+      "subtitle",
+      "note",
+      "window",
+      "ticket",
+      "medal",
+      "scene"
+    ],
+    "enabled": true,
+    "derived_from": "bulk-naidan-community-0065"
+  },
+  {
+    "id": "web-naidan-0040-program-cutout",
+    "name": "奶蛋 · 呆呆站立 · 程序透明版",
+    "character": "奶蛋",
+    "filename": "bulk-naidan/cutout/web-naidan-0040-program-cutout.png",
+    "action": "圆圆的奶蛋面对镜头，呆呆站立",
+    "emotion": [
+      "呆萌",
+      "迷茫",
+      "无辜"
+    ],
+    "scenes": [
+      "发呆",
+      "等通知",
+      "打招呼"
+    ],
+    "examples": [
+      "我在，但我没听懂",
+      "一个安静的小朋友"
+    ],
+    "existing_text": "",
+    "intensity": 1,
+    "source_type": "reference",
+    "author": "待核实",
+    "source_url": "https://github.com/musemantic/NaiLoong/blob/ab974a47c2a5e731a22ff9f5a7f23f60e62c3fd9/assets/memes/naiwa_0040.png",
+    "role": "subject",
+    "is_cutout": true,
+    "templates": [
+      "top",
+      "bottom",
+      "split",
+      "frame",
+      "flower",
+      "grid",
+      "message",
+      "poster",
+      "side",
+      "polaroid",
+      "bubble",
+      "dialogue",
+      "spotlight",
+      "comic",
+      "subtitle",
+      "note",
+      "window",
+      "ticket",
+      "medal",
+      "scene"
+    ],
+    "source_note": "网络公开收集，索引来源奶-hub（https://nai-hub.com/）；GitHub 贡献者 musemantic，贡献者不等于原作者，形象及二创作者、具体使用授权待核实。完整原文件未修改。下载地址：https://raw.githubusercontent.com/musemantic/NaiLoong/ab974a47c2a5e731a22ff9f5a7f23f60e62c3fd9/assets/memes/naiwa_0040.png 程序抠图派生（rembg:u2net），原图保留；自动alpha指标不等于人工主体完整性确认。 待复核：automatic_mask_requires_visual_review。 人工联系表复核通过：奶蛋主体完整，原字幕和背景已移除；机械抓爪、赛车、手捏玩偶、拥抱伙伴等与动作有关的道具保留。此为同一原素材的透明派生，不增加原始素材计数。",
+    "derived_from": "web-naidan-0040",
+    "enabled": true
+  },
+  {
+    "id": "web-naidan-0066-program-cutout",
+    "name": "奶蛋 · 双手抱胸自信微笑 · 程序透明版",
+    "character": "奶蛋",
+    "filename": "bulk-naidan/cutout/web-naidan-0066-program-cutout.png",
+    "action": "奶蛋双手抱胸，眯眼自信微笑",
+    "emotion": [
+      "自信",
+      "得意"
+    ],
+    "scenes": [
+      "夸夸",
+      "交作业",
+      "做对题"
+    ],
+    "examples": [
+      "这题我会",
+      "这次稳稳拿下"
+    ],
+    "existing_text": "",
+    "intensity": 3,
+    "source_type": "reference",
+    "author": "待核实",
+    "source_url": "https://github.com/musemantic/NaiLoong/blob/76c07e04a8b217117b39a3b647751618c55bff0c/assets/memes/naiwa_0066.jpg",
+    "role": "subject",
+    "is_cutout": true,
+    "templates": [
+      "top",
+      "bottom",
+      "split",
+      "frame",
+      "flower",
+      "grid",
+      "message",
+      "poster",
+      "side",
+      "polaroid",
+      "bubble",
+      "dialogue",
+      "spotlight",
+      "comic",
+      "subtitle",
+      "note",
+      "window",
+      "ticket",
+      "medal",
+      "scene"
+    ],
+    "source_note": "网络公开收集，索引来源奶-hub（https://nai-hub.com/）；GitHub 贡献者 musemantic，贡献者不等于原作者，形象及二创作者、具体使用授权待核实。完整原文件未修改。下载地址：https://raw.githubusercontent.com/musemantic/NaiLoong/76c07e04a8b217117b39a3b647751618c55bff0c/assets/memes/naiwa_0066.jpg 程序抠图派生（rembg:u2net），原图保留；自动alpha指标不等于人工主体完整性确认。 待复核：automatic_mask_requires_visual_review。 人工联系表复核通过：奶蛋主体完整，原字幕和背景已移除；机械抓爪、赛车、手捏玩偶、拥抱伙伴等与动作有关的道具保留。此为同一原素材的透明派生，不增加原始素材计数。",
+    "derived_from": "web-naidan-0066",
+    "enabled": true
+  }
+]

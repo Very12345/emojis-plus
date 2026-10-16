@@ -1,0 +1,359 @@
+[
+  {
+    "id": "pku-person-welcome",
+    "name": "北大人物 · 张开双臂",
+    "character": "北京大学",
+    "filename": "pku-characters/pku-person-welcome.png",
+    "role": "subject",
+    "is_cutout": true,
+    "allow_flip": false,
+    "existing_text": "",
+    "action": "张开双臂欢迎，站立展开身体",
+    "emotion": [
+      "欢迎",
+      "热情"
+    ],
+    "scenes": [
+      "迎新",
+      "见面",
+      "一起出发"
+    ],
+    "examples": [
+      "欢迎来北大",
+      "大家一起出发"
+    ],
+    "intensity": 3,
+    "source_type": "reference",
+    "author": "北京大学官方校徽；Emojis Plus 程序绘制肢体",
+    "source_url": "https://vim.pku.edu.cn/xzzq/",
+    "source_note": "官方校徽 + 本项目程序绘制肢体的拟人化二创，并非官方角色。完整圆形校徽保持原始比例和方向，不可镜像。从北京大学标识管理办公室下载专区的‘标志(圆形校徽).zip’取得。保留官方 PNG 原件及完整比例。ZIP 内含 EPS、红色/黑色/反白 PNG。",
+    "templates": [
+      "top",
+      "bottom",
+      "split",
+      "frame",
+      "flower",
+      "grid",
+      "message",
+      "poster",
+      "side",
+      "polaroid",
+      "bubble",
+      "dialogue",
+      "spotlight",
+      "comic",
+      "subtitle",
+      "note",
+      "window",
+      "ticket",
+      "medal",
+      "scene"
+    ]
+  },
+  {
+    "id": "pku-person-shrug",
+    "name": "北大人物 · 摊手",
+    "character": "北京大学",
+    "filename": "pku-characters/pku-person-shrug.png",
+    "role": "subject",
+    "is_cutout": true,
+    "allow_flip": false,
+    "existing_text": "",
+    "action": "双肘弯曲、掌心向上摊手",
+    "emotion": [
+      "无语",
+      "疑惑"
+    ],
+    "scenes": [
+      "临时通知",
+      "安排变动",
+      "吐槽"
+    ],
+    "examples": [
+      "学校：安排上了",
+      "我也不知道呀"
+    ],
+    "intensity": 3,
+    "source_type": "reference",
+    "author": "北京大学官方校徽；Emojis Plus 程序绘制肢体",
+    "source_url": "https://vim.pku.edu.cn/xzzq/",
+    "source_note": "官方校徽 + 本项目程序绘制肢体的拟人化二创，并非官方角色。完整圆形校徽保持原始比例和方向，不可镜像。从北京大学标识管理办公室下载专区的‘标志(圆形校徽).zip’取得。保留官方 PNG 原件及完整比例。ZIP 内含 EPS、红色/黑色/反白 PNG。",
+    "templates": [
+      "top",
+      "bottom",
+      "split",
+      "frame",
+      "flower",
+      "grid",
+      "message",
+      "poster",
+      "side",
+      "polaroid",
+      "bubble",
+      "dialogue",
+      "spotlight",
+      "comic",
+      "subtitle",
+      "note",
+      "window",
+      "ticket",
+      "medal",
+      "scene"
+    ]
+  },
+  {
+    "id": "pku-person-wave",
+    "name": "北大人物 · 挥手",
+    "character": "北京大学",
+    "filename": "pku-characters/pku-person-wave.png",
+    "role": "subject",
+    "is_cutout": true,
+    "allow_flip": false,
+    "existing_text": "",
+    "action": "抬起右手挥手，另一手自然伸展",
+    "emotion": [
+      "友好",
+      "开心"
+    ],
+    "scenes": [
+      "打招呼",
+      "告别",
+      "迎新"
+    ],
+    "examples": [
+      "同学你好",
+      "明天见"
+    ],
+    "intensity": 2,
+    "source_type": "reference",
+    "author": "北京大学官方校徽；Emojis Plus 程序绘制肢体",
+    "source_url": "https://vim.pku.edu.cn/xzzq/",
+    "source_note": "官方校徽 + 本项目程序绘制肢体的拟人化二创，并非官方角色。完整圆形校徽保持原始比例和方向，不可镜像。从北京大学标识管理办公室下载专区的‘标志(圆形校徽).zip’取得。保留官方 PNG 原件及完整比例。ZIP 内含 EPS、红色/黑色/反白 PNG。",
+    "templates": [
+      "top",
+      "bottom",
+      "split",
+      "frame",
+      "flower",
+      "grid",
+      "message",
+      "poster",
+      "side",
+      "polaroid",
+      "bubble",
+      "dialogue",
+      "spotlight",
+      "comic",
+      "subtitle",
+      "note",
+      "window",
+      "ticket",
+      "medal",
+      "scene"
+    ]
+  },
+  {
+    "id": "pku-person-think",
+    "name": "北大人物 · 托腮",
+    "character": "北京大学",
+    "filename": "pku-characters/pku-person-think.png",
+    "role": "subject",
+    "is_cutout": true,
+    "allow_flip": false,
+    "existing_text": "",
+    "action": "一只手托住头部侧下方，另一只手托住肘部",
+    "emotion": [
+      "思考",
+      "疑惑"
+    ],
+    "scenes": [
+      "选课",
+      "讨论",
+      "做题"
+    ],
+    "examples": [
+      "让我想想",
+      "这事得研究一下"
+    ],
+    "intensity": 2,
+    "source_type": "reference",
+    "author": "北京大学官方校徽；Emojis Plus 程序绘制肢体",
+    "source_url": "https://vim.pku.edu.cn/xzzq/",
+    "source_note": "官方校徽 + 本项目程序绘制肢体的拟人化二创，并非官方角色。完整圆形校徽保持原始比例和方向，不可镜像。从北京大学标识管理办公室下载专区的‘标志(圆形校徽).zip’取得。保留官方 PNG 原件及完整比例。ZIP 内含 EPS、红色/黑色/反白 PNG。",
+    "templates": [
+      "top",
+      "bottom",
+      "split",
+      "frame",
+      "flower",
+      "grid",
+      "message",
+      "poster",
+      "side",
+      "polaroid",
+      "bubble",
+      "dialogue",
+      "spotlight",
+      "comic",
+      "subtitle",
+      "note",
+      "window",
+      "ticket",
+      "medal",
+      "scene"
+    ]
+  },
+  {
+    "id": "pku-person-cheer",
+    "name": "北大人物 · 举手庆祝",
+    "character": "北京大学",
+    "filename": "pku-characters/pku-person-cheer.png",
+    "role": "subject",
+    "is_cutout": true,
+    "allow_flip": false,
+    "existing_text": "",
+    "action": "双臂高高举起庆祝，站立姿态",
+    "emotion": [
+      "开心",
+      "兴奋"
+    ],
+    "scenes": [
+      "考试结束",
+      "庆祝",
+      "好消息"
+    ],
+    "examples": [
+      "终于放假了",
+      "我们做到了"
+    ],
+    "intensity": 5,
+    "source_type": "reference",
+    "author": "北京大学官方校徽；Emojis Plus 程序绘制肢体",
+    "source_url": "https://vim.pku.edu.cn/xzzq/",
+    "source_note": "官方校徽 + 本项目程序绘制肢体的拟人化二创，并非官方角色。完整圆形校徽保持原始比例和方向，不可镜像。从北京大学标识管理办公室下载专区的‘标志(圆形校徽).zip’取得。保留官方 PNG 原件及完整比例。ZIP 内含 EPS、红色/黑色/反白 PNG。",
+    "templates": [
+      "top",
+      "bottom",
+      "split",
+      "frame",
+      "flower",
+      "grid",
+      "message",
+      "poster",
+      "side",
+      "polaroid",
+      "bubble",
+      "dialogue",
+      "spotlight",
+      "comic",
+      "subtitle",
+      "note",
+      "window",
+      "ticket",
+      "medal",
+      "scene"
+    ]
+  },
+  {
+    "id": "pku-person-tired",
+    "name": "北大人物 · 坐着疲惫",
+    "character": "北京大学",
+    "filename": "pku-characters/pku-person-tired.png",
+    "role": "subject",
+    "is_cutout": true,
+    "allow_flip": false,
+    "existing_text": "",
+    "action": "弯腰坐着、双膝弯曲，手臂放下",
+    "emotion": [
+      "疲惫",
+      "无奈"
+    ],
+    "scenes": [
+      "熬夜",
+      "期末",
+      "赶作业"
+    ],
+    "examples": [
+      "先让我歇一会",
+      "今天也在努力"
+    ],
+    "intensity": 2,
+    "source_type": "reference",
+    "author": "北京大学官方校徽；Emojis Plus 程序绘制肢体",
+    "source_url": "https://vim.pku.edu.cn/xzzq/",
+    "source_note": "官方校徽 + 本项目程序绘制肢体的拟人化二创，并非官方角色。完整圆形校徽保持原始比例和方向，不可镜像。从北京大学标识管理办公室下载专区的‘标志(圆形校徽).zip’取得。保留官方 PNG 原件及完整比例。ZIP 内含 EPS、红色/黑色/反白 PNG。",
+    "templates": [
+      "top",
+      "bottom",
+      "split",
+      "frame",
+      "flower",
+      "grid",
+      "message",
+      "poster",
+      "side",
+      "polaroid",
+      "bubble",
+      "dialogue",
+      "spotlight",
+      "comic",
+      "subtitle",
+      "note",
+      "window",
+      "ticket",
+      "medal",
+      "scene"
+    ]
+  },
+  {
+    "id": "pku-logo-avatar",
+    "name": "北大人物 · 校徽头像",
+    "character": "北京大学",
+    "filename": "pku-characters/pku-logo-avatar.png",
+    "role": "subject",
+    "is_cutout": true,
+    "allow_flip": false,
+    "existing_text": "",
+    "action": "完整圆形校徽作为象征人物的头像",
+    "emotion": [
+      "平静",
+      "严肃"
+    ],
+    "scenes": [
+      "校内讨论",
+      "通知",
+      "学校发言"
+    ],
+    "examples": [
+      "北京大学：收到",
+      "我做的局"
+    ],
+    "intensity": 2,
+    "source_type": "reference",
+    "author": "北京大学标识管理办公室",
+    "source_url": "https://vim.pku.edu.cn/xzzq/",
+    "source_note": "官方圆形校徽作为象征人物头像使用，并非官方角色。仅等比例缩放与透明留边，保留原方向，不可镜像。从北京大学标识管理办公室下载专区的‘标志(圆形校徽).zip’取得。保留官方 PNG 原件及完整比例。ZIP 内含 EPS、红色/黑色/反白 PNG。",
+    "templates": [
+      "top",
+      "bottom",
+      "split",
+      "frame",
+      "flower",
+      "grid",
+      "message",
+      "poster",
+      "side",
+      "polaroid",
+      "bubble",
+      "dialogue",
+      "spotlight",
+      "comic",
+      "subtitle",
+      "note",
+      "window",
+      "ticket",
+      "medal",
+      "scene"
+    ]
+  }
+]

@@ -1,0 +1,845 @@
+{
+  "$defs": {
+    "AnimationDefinition": {
+      "additionalProperties": false,
+      "properties": {
+        "handler": {
+          "pattern": "^[a-z][a-z0-9_-]{0,63}$",
+          "title": "Handler",
+          "type": "string"
+        },
+        "duration_ms": {
+          "default": 2000,
+          "maximum": 6000,
+          "minimum": 1000,
+          "multipleOf": 100,
+          "title": "Duration Ms",
+          "type": "integer"
+        },
+        "poster_time": {
+          "default": 0.4,
+          "exclusiveMaximum": 1,
+          "minimum": 0,
+          "title": "Poster Time",
+          "type": "number"
+        },
+        "tracks": {
+          "items": {
+            "$ref": "#/$defs/AnimationTrack"
+          },
+          "maxItems": 6,
+          "title": "Tracks",
+          "type": "array"
+        },
+        "props": {
+          "items": {
+            "pattern": "^[a-z][a-z0-9_-]{0,63}$",
+            "type": "string"
+          },
+          "maxItems": 8,
+          "title": "Props",
+          "type": "array"
+        },
+        "parameters": {
+          "items": {
+            "enum": [
+              "strength",
+              "copies",
+              "direction",
+              "prop_color"
+            ],
+            "type": "string"
+          },
+          "maxItems": 4,
+          "title": "Parameters",
+          "type": "array"
+        }
+      },
+      "required": [
+        "handler"
+      ],
+      "title": "AnimationDefinition",
+      "type": "object"
+    },
+    "AnimationTrack": {
+      "additionalProperties": false,
+      "properties": {
+        "actor": {
+          "default": 0,
+          "maximum": 5,
+          "minimum": 0,
+          "title": "Actor",
+          "type": "integer"
+        },
+        "keyframes": {
+          "items": {
+            "$ref": "#/$defs/Keyframe"
+          },
+          "maxItems": 32,
+          "minItems": 2,
+          "title": "Keyframes",
+          "type": "array"
+        }
+      },
+      "required": [
+        "keyframes"
+      ],
+      "title": "AnimationTrack",
+      "type": "object"
+    },
+    "AssetSelector": {
+      "additionalProperties": false,
+      "properties": {
+        "asset_id": {
+          "default": "",
+          "maxLength": 80,
+          "title": "Asset Id",
+          "type": "string"
+        },
+        "character": {
+          "default": "",
+          "maxLength": 100,
+          "title": "Character",
+          "type": "string"
+        },
+        "prefer_transparent": {
+          "default": true,
+          "title": "Prefer Transparent",
+          "type": "boolean"
+        }
+      },
+      "title": "AssetSelector",
+      "type": "object"
+    },
+    "CaptionDefinition": {
+      "additionalProperties": false,
+      "properties": {
+        "id": {
+          "pattern": "^[a-z][a-z0-9_-]{0,63}$",
+          "title": "Id",
+          "type": "string"
+        },
+        "category": {
+          "maxLength": 40,
+          "minLength": 1,
+          "title": "Category",
+          "type": "string"
+        },
+        "text": {
+          "maxLength": 160,
+          "minLength": 1,
+          "title": "Text",
+          "type": "string"
+        },
+        "secondary_text": {
+          "default": "",
+          "maxLength": 100,
+          "title": "Secondary Text",
+          "type": "string"
+        },
+        "tags": {
+          "items": {
+            "type": "string"
+          },
+          "maxItems": 12,
+          "title": "Tags",
+          "type": "array"
+        }
+      },
+      "required": [
+        "id",
+        "category",
+        "text"
+      ],
+      "title": "CaptionDefinition",
+      "type": "object"
+    },
+    "CastSlot": {
+      "additionalProperties": false,
+      "properties": {
+        "x": {
+          "maximum": 1,
+          "minimum": 0,
+          "title": "X",
+          "type": "number"
+        },
+        "y": {
+          "maximum": 1,
+          "minimum": 0,
+          "title": "Y",
+          "type": "number"
+        },
+        "scale": {
+          "maximum": 1.5,
+          "minimum": 0.1,
+          "title": "Scale",
+          "type": "number"
+        },
+        "rotation": {
+          "default": 0,
+          "maximum": 180,
+          "minimum": -180,
+          "title": "Rotation",
+          "type": "number"
+        }
+      },
+      "required": [
+        "x",
+        "y",
+        "scale"
+      ],
+      "title": "CastSlot",
+      "type": "object"
+    },
+    "CategoryDefinition": {
+      "additionalProperties": false,
+      "properties": {
+        "id": {
+          "pattern": "^[a-z][a-z0-9_-]{0,63}$",
+          "title": "Id",
+          "type": "string"
+        },
+        "name": {
+          "maxLength": 80,
+          "minLength": 1,
+          "title": "Name",
+          "type": "string"
+        },
+        "enabled": {
+          "default": true,
+          "title": "Enabled",
+          "type": "boolean"
+        },
+        "parent_id": {
+          "anyOf": [
+            {
+              "pattern": "^[a-z][a-z0-9_-]{0,63}$",
+              "type": "string"
+            },
+            {
+              "type": "null"
+            }
+          ],
+          "default": null,
+          "title": "Parent Id"
+        },
+        "order": {
+          "default": 0,
+          "maximum": 1000,
+          "minimum": 0,
+          "title": "Order",
+          "type": "integer"
+        }
+      },
+      "required": [
+        "id",
+        "name"
+      ],
+      "title": "CategoryDefinition",
+      "type": "object"
+    },
+    "EffectDefinition": {
+      "additionalProperties": false,
+      "properties": {
+        "id": {
+          "pattern": "^[a-z][a-z0-9_-]{0,63}$",
+          "title": "Id",
+          "type": "string"
+        },
+        "name": {
+          "maxLength": 80,
+          "minLength": 1,
+          "title": "Name",
+          "type": "string"
+        },
+        "enabled": {
+          "default": true,
+          "title": "Enabled",
+          "type": "boolean"
+        },
+        "handler": {
+          "pattern": "^[a-z][a-z0-9_-]{0,63}$",
+          "title": "Handler",
+          "type": "string"
+        },
+        "strength_scale": {
+          "default": 1,
+          "maximum": 2,
+          "minimum": 0,
+          "title": "Strength Scale",
+          "type": "number"
+        },
+        "speed_scale": {
+          "default": 1,
+          "maximum": 4,
+          "minimum": 0.125,
+          "title": "Speed Scale",
+          "type": "number"
+        }
+      },
+      "required": [
+        "id",
+        "name",
+        "handler"
+      ],
+      "title": "EffectDefinition",
+      "type": "object"
+    },
+    "Keyframe": {
+      "additionalProperties": false,
+      "properties": {
+        "time": {
+          "maximum": 1,
+          "minimum": 0,
+          "title": "Time",
+          "type": "number"
+        },
+        "x": {
+          "default": 0,
+          "maximum": 2,
+          "minimum": -2,
+          "title": "X",
+          "type": "number"
+        },
+        "y": {
+          "default": 0,
+          "maximum": 2,
+          "minimum": -2,
+          "title": "Y",
+          "type": "number"
+        },
+        "sx": {
+          "default": 1,
+          "maximum": 3,
+          "minimum": 0.05,
+          "title": "Sx",
+          "type": "number"
+        },
+        "sy": {
+          "default": 1,
+          "maximum": 3,
+          "minimum": 0.05,
+          "title": "Sy",
+          "type": "number"
+        },
+        "angle": {
+          "default": 0,
+          "maximum": 720,
+          "minimum": -720,
+          "title": "Angle",
+          "type": "number"
+        },
+        "opacity": {
+          "default": 1,
+          "maximum": 1,
+          "minimum": 0,
+          "title": "Opacity",
+          "type": "number"
+        }
+      },
+      "required": [
+        "time"
+      ],
+      "title": "Keyframe",
+      "type": "object"
+    },
+    "LayoutDefinition": {
+      "additionalProperties": false,
+      "properties": {
+        "id": {
+          "pattern": "^[a-z][a-z0-9_-]{0,63}$",
+          "title": "Id",
+          "type": "string"
+        },
+        "name": {
+          "maxLength": 80,
+          "minLength": 1,
+          "title": "Name",
+          "type": "string"
+        },
+        "enabled": {
+          "default": true,
+          "title": "Enabled",
+          "type": "boolean"
+        },
+        "image": {
+          "$ref": "#/$defs/Rect"
+        },
+        "captions": {
+          "items": {
+            "$ref": "#/$defs/TextRegion"
+          },
+          "maxItems": 3,
+          "minItems": 1,
+          "title": "Captions",
+          "type": "array"
+        },
+        "subject_mode": {
+          "default": "single",
+          "enum": [
+            "single",
+            "flower",
+            "grid"
+          ],
+          "title": "Subject Mode",
+          "type": "string"
+        },
+        "panels": {
+          "items": {
+            "$ref": "#/$defs/Panel"
+          },
+          "maxItems": 6,
+          "title": "Panels",
+          "type": "array"
+        }
+      },
+      "required": [
+        "id",
+        "name",
+        "image",
+        "captions"
+      ],
+      "title": "LayoutDefinition",
+      "type": "object"
+    },
+    "MotionBinding": {
+      "additionalProperties": false,
+      "properties": {
+        "effect_id": {
+          "pattern": "^[a-z][a-z0-9_-]{0,63}$",
+          "title": "Effect Id",
+          "type": "string"
+        },
+        "target": {
+          "default": "composition",
+          "enum": [
+            "subject",
+            "composition"
+          ],
+          "title": "Target",
+          "type": "string"
+        },
+        "strength": {
+          "default": 1,
+          "maximum": 1,
+          "minimum": 0,
+          "title": "Strength",
+          "type": "number"
+        },
+        "speed": {
+          "default": 1,
+          "maximum": 2,
+          "minimum": 0.25,
+          "title": "Speed",
+          "type": "number"
+        },
+        "direction": {
+          "default": 1,
+          "enum": [
+            -1,
+            1
+          ],
+          "title": "Direction",
+          "type": "integer"
+        }
+      },
+      "required": [
+        "effect_id"
+      ],
+      "title": "MotionBinding",
+      "type": "object"
+    },
+    "Panel": {
+      "additionalProperties": false,
+      "properties": {
+        "x": {
+          "maximum": 1,
+          "minimum": 0,
+          "title": "X",
+          "type": "number"
+        },
+        "y": {
+          "maximum": 1,
+          "minimum": 0,
+          "title": "Y",
+          "type": "number"
+        },
+        "width": {
+          "exclusiveMinimum": 0,
+          "maximum": 1,
+          "title": "Width",
+          "type": "number"
+        },
+        "height": {
+          "exclusiveMinimum": 0,
+          "maximum": 1,
+          "title": "Height",
+          "type": "number"
+        },
+        "fill": {
+          "default": "#ffffff",
+          "pattern": "^#[0-9a-fA-F]{6}$",
+          "title": "Fill",
+          "type": "string"
+        },
+        "outline": {
+          "default": "#d4dfcc",
+          "pattern": "^#[0-9a-fA-F]{6}$",
+          "title": "Outline",
+          "type": "string"
+        },
+        "radius": {
+          "default": 0.03,
+          "maximum": 0.2,
+          "minimum": 0,
+          "title": "Radius",
+          "type": "number"
+        }
+      },
+      "required": [
+        "x",
+        "y",
+        "width",
+        "height"
+      ],
+      "title": "Panel",
+      "type": "object"
+    },
+    "PresetDefinition": {
+      "additionalProperties": false,
+      "properties": {
+        "id": {
+          "pattern": "^[a-z][a-z0-9_-]{0,63}$",
+          "title": "Id",
+          "type": "string"
+        },
+        "name": {
+          "maxLength": 80,
+          "minLength": 1,
+          "title": "Name",
+          "type": "string"
+        },
+        "enabled": {
+          "default": true,
+          "title": "Enabled",
+          "type": "boolean"
+        },
+        "description": {
+          "default": "",
+          "maxLength": 300,
+          "title": "Description",
+          "type": "string"
+        },
+        "category": {
+          "default": "自定义组合",
+          "maxLength": 40,
+          "title": "Category",
+          "type": "string"
+        },
+        "selector": {
+          "$ref": "#/$defs/AssetSelector"
+        },
+        "plan": {
+          "additionalProperties": true,
+          "maxProperties": 60,
+          "title": "Plan",
+          "type": "object"
+        },
+        "cast": {
+          "items": {
+            "$ref": "#/$defs/AssetSelector"
+          },
+          "maxItems": 5,
+          "title": "Cast",
+          "type": "array"
+        }
+      },
+      "required": [
+        "id",
+        "name",
+        "selector",
+        "plan"
+      ],
+      "title": "PresetDefinition",
+      "type": "object"
+    },
+    "Rect": {
+      "additionalProperties": false,
+      "properties": {
+        "x": {
+          "maximum": 1,
+          "minimum": 0,
+          "title": "X",
+          "type": "number"
+        },
+        "y": {
+          "maximum": 1,
+          "minimum": 0,
+          "title": "Y",
+          "type": "number"
+        },
+        "width": {
+          "exclusiveMinimum": 0,
+          "maximum": 1,
+          "title": "Width",
+          "type": "number"
+        },
+        "height": {
+          "exclusiveMinimum": 0,
+          "maximum": 1,
+          "title": "Height",
+          "type": "number"
+        }
+      },
+      "required": [
+        "x",
+        "y",
+        "width",
+        "height"
+      ],
+      "title": "Rect",
+      "type": "object"
+    },
+    "TemplateDefinition": {
+      "additionalProperties": false,
+      "properties": {
+        "id": {
+          "pattern": "^[a-z][a-z0-9_-]{0,63}$",
+          "title": "Id",
+          "type": "string"
+        },
+        "name": {
+          "maxLength": 80,
+          "minLength": 1,
+          "title": "Name",
+          "type": "string"
+        },
+        "enabled": {
+          "default": true,
+          "title": "Enabled",
+          "type": "boolean"
+        },
+        "category_id": {
+          "anyOf": [
+            {
+              "pattern": "^[a-z][a-z0-9_-]{0,63}$",
+              "type": "string"
+            },
+            {
+              "type": "null"
+            }
+          ],
+          "default": null,
+          "title": "Category Id"
+        },
+        "subcategory_id": {
+          "anyOf": [
+            {
+              "pattern": "^[a-z][a-z0-9_-]{0,63}$",
+              "type": "string"
+            },
+            {
+              "type": "null"
+            }
+          ],
+          "default": null,
+          "title": "Subcategory Id"
+        },
+        "tags": {
+          "items": {
+            "type": "string"
+          },
+          "maxItems": 12,
+          "title": "Tags",
+          "type": "array"
+        },
+        "animation": {
+          "anyOf": [
+            {
+              "$ref": "#/$defs/AnimationDefinition"
+            },
+            {
+              "type": "null"
+            }
+          ],
+          "default": null
+        },
+        "description": {
+          "default": "",
+          "maxLength": 300,
+          "title": "Description",
+          "type": "string"
+        },
+        "layout_id": {
+          "pattern": "^[a-z][a-z0-9_-]{0,63}$",
+          "title": "Layout Id",
+          "type": "string"
+        },
+        "requires_transparency": {
+          "default": false,
+          "title": "Requires Transparency",
+          "type": "boolean"
+        },
+        "supports_embedded": {
+          "default": false,
+          "title": "Supports Embedded",
+          "type": "boolean"
+        },
+        "defaults": {
+          "additionalProperties": true,
+          "maxProperties": 40,
+          "title": "Defaults",
+          "type": "object"
+        },
+        "sample": {
+          "additionalProperties": true,
+          "maxProperties": 40,
+          "title": "Sample",
+          "type": "object"
+        },
+        "motions": {
+          "items": {
+            "$ref": "#/$defs/MotionBinding"
+          },
+          "maxItems": 4,
+          "title": "Motions",
+          "type": "array"
+        },
+        "cast": {
+          "items": {
+            "$ref": "#/$defs/CastSlot"
+          },
+          "maxItems": 6,
+          "title": "Cast",
+          "type": "array"
+        },
+        "min_characters": {
+          "default": 1,
+          "maximum": 6,
+          "minimum": 1,
+          "title": "Min Characters",
+          "type": "integer"
+        },
+        "max_characters": {
+          "default": 6,
+          "maximum": 6,
+          "minimum": 1,
+          "title": "Max Characters",
+          "type": "integer"
+        }
+      },
+      "required": [
+        "id",
+        "name",
+        "layout_id"
+      ],
+      "title": "TemplateDefinition",
+      "type": "object"
+    },
+    "TextRegion": {
+      "additionalProperties": false,
+      "properties": {
+        "x": {
+          "maximum": 1,
+          "minimum": 0,
+          "title": "X",
+          "type": "number"
+        },
+        "y": {
+          "maximum": 1,
+          "minimum": 0,
+          "title": "Y",
+          "type": "number"
+        },
+        "width": {
+          "exclusiveMinimum": 0,
+          "maximum": 1,
+          "title": "Width",
+          "type": "number"
+        },
+        "height": {
+          "exclusiveMinimum": 0,
+          "maximum": 1,
+          "title": "Height",
+          "type": "number"
+        },
+        "field": {
+          "default": "text",
+          "enum": [
+            "text",
+            "secondary_text"
+          ],
+          "title": "Field",
+          "type": "string"
+        }
+      },
+      "required": [
+        "x",
+        "y",
+        "width",
+        "height"
+      ],
+      "title": "TextRegion",
+      "type": "object"
+    }
+  },
+  "additionalProperties": false,
+  "properties": {
+    "schema_version": {
+      "const": 1,
+      "default": 1,
+      "title": "Schema Version",
+      "type": "integer"
+    },
+    "layouts": {
+      "items": {
+        "$ref": "#/$defs/LayoutDefinition"
+      },
+      "maxItems": 100,
+      "title": "Layouts",
+      "type": "array"
+    },
+    "effects": {
+      "items": {
+        "$ref": "#/$defs/EffectDefinition"
+      },
+      "maxItems": 100,
+      "title": "Effects",
+      "type": "array"
+    },
+    "templates": {
+      "items": {
+        "$ref": "#/$defs/TemplateDefinition"
+      },
+      "maxItems": 200,
+      "title": "Templates",
+      "type": "array"
+    },
+    "presets": {
+      "items": {
+        "$ref": "#/$defs/PresetDefinition"
+      },
+      "maxItems": 500,
+      "title": "Presets",
+      "type": "array"
+    },
+    "captions": {
+      "items": {
+        "$ref": "#/$defs/CaptionDefinition"
+      },
+      "maxItems": 2000,
+      "title": "Captions",
+      "type": "array"
+    },
+    "categories": {
+      "items": {
+        "$ref": "#/$defs/CategoryDefinition"
+      },
+      "maxItems": 100,
+      "title": "Categories",
+      "type": "array"
+    }
+  },
+  "title": "RegistryBundle",
+  "type": "object"
+}
