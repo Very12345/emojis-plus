@@ -5,6 +5,7 @@ import {ArrowDownToLine, ArrowRight, Check, ChevronDown, ChevronRight, CircleHel
   ShieldCheck, SlidersHorizontal, Smile, Sparkles, Sticker, Type, WandSparkles, X} from 'lucide-react'
 import {api, emptyMetadata, makePlan, samePlan, waitJob, type Asset, type Candidate, type Generation, type Metadata,
   type ModelConfig, type Plan, type Preset, type Caption, type Effect, type EffectOption, type FontOption, type Rendered, type Template, type TemplateId} from './api'
+import CanvasEditor from './CanvasEditor'
 import FontPreview from './FontPreview'
 import {exportRegistry} from './local/service'
 import ContentLibrary from './ContentLibrary'
@@ -44,6 +45,7 @@ export default function App(){
   const [candidates,setCandidates]=useState<Candidate[]>([]), [generation,setGeneration]=useState<Generation|null>(null)
   const [generating,setGenerating]=useState(false), [genStatus,setGenStatus]=useState('')
   const [plan,setPlan]=useState<Plan|null>(null), [rendered,setRendered]=useState<Rendered|null>(null)
+  const [canvasGesture,setCanvasGesture]=useState(false)
   const [renderBusy,setRenderBusy]=useState(false), [renderError,setRenderError]=useState('')
   const [notice,setNotice]=useState(''), [adminOpen,setAdminOpen]=useState(false)
   const [advanced,setAdvanced]=useState(false),[castBusy,setCastBusy]=useState(false)
@@ -93,7 +95,7 @@ export default function App(){
     const before=plan,sequence=++castSequence.current
     setCastBusy(true);setRenderError('')
     try{
-      const next=await api<Plan>('/templates/'+id+'/apply',{method:'POST',body:JSON.stringify({plan:{...base,template_id:id,emblem:false},count,additional_asset_ids:additional,apply_defaults:applyDefaults})})
+      const next=await api<Plan>('/templates/'+id+'/apply',{method:'POST',body:JSON.stringify({plan:{...base,emblem:false},count,additional_asset_ids:additional,apply_defaults:applyDefaults})})
       if(sequence!==castSequence.current)return
       setPlan(current=>{
         if(before&&current&&current.asset_id!==before.asset_id)return current
@@ -188,10 +190,7 @@ export default function App(){
         <section className="little-note"><span>✳</span><div><strong>好表情，不一定要大制作。</strong><p>一句话、一张脸，刚刚好就很好。</p></div></section></aside>
         <section className="creation-column">
           <section className="panel preview-panel"><div className="section-heading"><span className="step">02</span><h2>看看表达的样子</h2><span className="preview-live"><i/>{renderBusy?'正在更新':'实时预览'}</span></div>
-            <div className="preview-stage"><span className="stage-corner stage-tl"/><span className="stage-corner stage-tr"/><span className="stage-corner stage-bl"/><span className="stage-corner stage-br"/>
-              <div className={'artwork '+(renderBusy?'artwork-pending':'')}>{(rendered?.url||selected?.url)&&<img src={rendered?.url||selected?.url} alt="表情成品预览"/>}</div>
-              {renderBusy&&<span className="render-status"><LoaderCircle size={13} className="spin"/>排版中</span>}
-            </div>
+            {plan&&<CanvasEditor plan={plan} rendered={rendered} fallback={selected?.url} onChange={setPlan} onInteraction={setCanvasGesture}/>}
             {renderError&&<div className="render-error" role="alert">{renderError}<button onClick={()=>setPlan(p=>p?{...p}:p)}>重新渲染</button></div>}
             <div className="preview-footer"><span className="character-label"><Smile size={14}/>{selected?.character}<span>·</span>{plan?.format.toUpperCase()} {plan?.size} × {plan?.size}</span>
               <button className="text-button" onClick={()=>setView('library')}>换个表情<RefreshCw size={13}/></button></div>
@@ -218,7 +217,7 @@ export default function App(){
           <FontPreview family={plan.font_family||(plan.font_style==='handwritten'?'kuaile':'sans')}/>
           <label className="field-label">字形效果<select aria-label="字形效果" value={plan.font_style==='handwritten'?'plain':plan.font_style} onChange={e=>update({font_style:e.target.value as Plan['font_style'],font_family:plan.font_family||(plan.font_style==='handwritten'?'kuaile':'sans')})}><option value="plain">标准排字</option><option value="bold">加粗大字</option><option value="outline">描边字</option><option value="sticker">立体贴纸字</option><option value="stamp">红色印章字</option><option value="shadow">立体阴影字</option></select></label>
           <label className="field-label">文字形式<select value={plan.text_layout} onChange={e=>update({text_layout:e.target.value as Plan['text_layout']})}><option value="horizontal">横排 · 自动换行</option><option value="vertical">竖排 · 从右至左</option><option value="staggered">错落跳字 · 轻快语气</option></select></label>
-          <label className="field-label range-label">文字大小<span>{plan.font_size}</span><input type="range" min={12} max={72} value={plan.font_size} onChange={e=>update({font_size:+e.target.value})}/></label>
+          <label className="field-label range-label">默认字号（导出 px）<span>{(plan.font_size*plan.size/512).toFixed(1)}</span><input aria-label="默认文字字号" type="range" min={8*plan.size/512} max={160*plan.size/512} step={.5} value={plan.font_size*plan.size/512} onChange={e=>update({font_size:+e.target.value*512/plan.size})}/></label><label className="check-label"><input type="checkbox" checked={plan.text_fit==='shrink'} onChange={e=>update({text_fit:e.target.checked?'shrink':'fixed'})}/>默认自动缩字（独立文字层可覆盖）</label><p className="baked-note">独立文字层在预览中选择并调整；默认字号只影响未单独设置的文字。</p>
           <details className="typography-controls"><summary>字距、行距与文字衬底</summary><label className="field-label range-label">字间距<span>{((plan.letter_spacing??.06)*100).toFixed(0)}%</span><input type="range" min={0} max={.3} step={.01} value={plan.letter_spacing??.06} onChange={e=>update({letter_spacing:+e.target.value})}/></label><label className="field-label range-label">行间距<span>{(plan.line_spacing??1.45).toFixed(2)}×</span><input type="range" min={1.1} max={2} step={.05} value={plan.line_spacing??1.45} onChange={e=>update({line_spacing:+e.target.value})}/></label><label className="field-label">文字衬底<select value={plan.text_backdrop||'auto'} onChange={e=>update({text_backdrop:e.target.value as Plan['text_backdrop']})}><option value="auto">自动 · 对比不足时增加衬底</option><option value="none">不加衬底</option><option value="light">浅色衬底</option><option value="dark">深色衬底</option></select></label></details>
           <ScenePicker assets={assets} selected={plan.background_style==='image'?plan.background_asset_id:null} onChoose={chooseAsset}/>
           <label className="field-label">独立背景<select value={plan.background_style} onChange={e=>update({background_style:e.target.value as Plan['background_style'],background_asset_id:plan.background_asset_id||assets.find(a=>a.metadata.role==='background')?.id||null})}><option value="solid">纯色背景</option><option value="gradient">双色渐变</option><option value="paper">横线纸张</option><option value="rays">放射光芒</option><option value="image">背景图片</option></select></label>
@@ -244,8 +243,8 @@ export default function App(){
             {(plan.effect==='wave_copy'||plan.effects.includes('wave_copy'))&&<label className="field-label range-label">复制数量<span>{plan.copies}</span><input type="range" min={2} max={8} value={plan.copies} onChange={e=>update({copies:+e.target.value})}/></label>}</>}
           <label className="field-label">图片尺寸<div className="select-wrap"><select value={plan.size} onChange={e=>update({size:+e.target.value as 256|512})}><option value="256">256 × 256 · 轻巧分享</option><option value="512">512 × 512 · 清晰大图</option></select><ChevronDown size={14}/></div></label>
           <button className="advanced-button" onClick={()=>setAdvanced(!advanced)}>更多位置调整<ChevronDown size={14} className={advanced?'rotate':''}/></button>
-          {advanced&&<div className="advanced-controls">{(['text_x','text_y','zoom','rotation']as const).map(key=><label key={key} className="field-label range-label">{{text_x:'文字水平位置',text_y:'文字垂直位置',zoom:'素材缩放',rotation:'主体旋转角度'}[key]}<span>{plan[key].toFixed(1)}</span><input type="range" min={key==='zoom'?.5:key==='rotation'?-180:-1} max={key==='zoom'?1.8:key==='rotation'?180:1} step={key==='rotation'?5:.05} value={plan[key]} onChange={e=>update({[key]:+e.target.value})}/></label>)}</div>}
-          <a className={'button download-button '+(!isFresh||renderBusy||renderError?'disabled':'')} href={isFresh&&!renderBusy&&!renderError?rendered!.url:undefined} download={rendered?.filename} aria-disabled={!isFresh||renderBusy||!!renderError}><ArrowDownToLine size={18}/>下载表情<span>{plan.format.toUpperCase()}</span></a>
+          {advanced&&<div className="advanced-controls">{(['zoom','rotation']as const).map(key=>{const free=plan.actor_transforms?.[0],value=free?(key==='zoom'?free.scale:free.rotation):plan[key];return <label key={key} className="field-label range-label">{key==='zoom'?'主角色缩放':'主角色旋转'}<span>{value.toFixed(1)}</span><input type="range" min={key==='zoom'?(free?.15:.5):-180} max={key==='zoom'?(free?4:1.8):180} step={key==='rotation'?5:.05} value={value} onChange={e=>update(free?{actor_transforms:{...plan.actor_transforms,0:{...free,[key==='zoom'?'scale':'rotation']:+e.target.value}}}:{[key]:+e.target.value})}/></label>})}</div>}
+          <a className={'button download-button '+(!isFresh||renderBusy||canvasGesture||renderError?'disabled':'')} href={isFresh&&!renderBusy&&!canvasGesture&&!renderError?rendered!.url:undefined} download={rendered?.filename} aria-disabled={!isFresh||renderBusy||canvasGesture||!!renderError}><ArrowDownToLine size={18}/>下载表情<span>{plan.format.toUpperCase()}</span></a>
           <p className="export-note">预览即成品 · 请及时下载{isFresh&&<><br/>{rendered.info.cache_hit?'已读取浏览器缓存':'本次浏览器合成 '+((rendered.info.elapsed_ms||0)/1000).toFixed(2)+' 秒（含加载与排队）'}</>}</p></>}
         </aside>
       </div>}

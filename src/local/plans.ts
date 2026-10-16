@@ -26,7 +26,7 @@ export function applyTemplatePlan(catalog:Catalog,id:string,base:Plan,count?:num
  while(cast.length<desired-1){const other=chooseSubject(catalog.assets,'','',used);if(!other)throw Error('缺少可用人物。');cast.push({asset_id:other.id,x:.5,y:.5,scale:.5,rotation:0,flip:false,opacity:1,effect:'none',strength:.5,speed:1});used.push(other.character)}
  const positions=template.cast?.length===desired?template.cast:slots(desired)
  cast.forEach((layer,i)=>{let a=catalog.assets.find(a=>a.id===layer.asset_id);if(!a)throw Error('同框素材不可用。');if(template.requires_transparency&&!a.info.has_transparency){a=chooseSubject(catalog.assets.filter(v=>v.info.has_transparency),a.character);if(!a)throw Error('同框人物需要透明素材。');layer.asset_id=a.id}Object.assign(layer,positions[i+1]);if(a.metadata.allow_flip===false||a.metadata.existing_text)layer.flip=false})
- const result={...base,...(defaults?template.defaults:{}),asset_id:primary.id,template_id:id,emblem:false,characters:cast,primary_x:positions[0].x,primary_y:positions[0].y,primary_scale:positions[0].scale,rotation:positions[0].rotation}
+ const result={...base,...(defaults?template.defaults:{}),asset_id:primary.id,template_id:id,emblem:false,characters:cast,primary_x:positions[0].x,primary_y:positions[0].y,primary_scale:positions[0].scale,rotation:positions[0].rotation,actor_transforms:undefined,...(id!==base.template_id?{text_boxes:undefined}:{})}
  if(!template.supports_embedded)result.text_placement='caption'
  if(primary.metadata.allow_flip===false||primary.metadata.existing_text)result.flip=false
  if(defaults){if(!result.text.trim())result.text=template.sample.text||'';if(!result.secondary_text.trim())result.secondary_text=template.sample.secondary_text||''}
@@ -49,7 +49,7 @@ export function resolvePresets(catalog:Catalog){
 export function validatePlan(plan:Plan,catalog:Catalog){
  const t=catalog.templates.find(t=>t.id===plan.template_id&&t.enabled),a=catalog.assets.find(a=>a.id===plan.asset_id&&a.enabled)
  if(!t||!a||a.metadata.role==='background'||!assetSupportsTemplate(a,t))throw Error('素材或模板不可用，请重新选择。')
- if([...plan.text].length>160||[...plan.secondary_text].length>100)throw Error('文字超出长度限制。')
+ if(typeof plan.text!=='string'||typeof plan.secondary_text!=='string'||[...plan.text].length>160||[...plan.secondary_text].length>100)throw Error('文字格式无效或超出长度限制。')
  if(!['jpg','gif'].includes(plan.format)||![256,512].includes(plan.size))throw Error('不支持的导出格式或尺寸。')
  const count=plan.characters.length+1;if(count<(t.min_characters||1)||count>(t.max_characters||6))throw Error('人物数量不符合模板要求。')
  if(a.metadata.existing_text&&plan.text_placement==='embedded'&&!a.metadata.text_safe_area)throw Error('带字底图请使用图外配字。')
@@ -58,7 +58,7 @@ export function validatePlan(plan:Plan,catalog:Catalog){
  if(!effects.has(plan.effect)||plan.effects.some(e=>!effects.has(e))||new Set([plan.effect,...plan.effects].filter(e=>e!=='none')).size>4)throw Error('动效无效或超过四种。')
  for(const c of plan.characters){const other=catalog.assets.find(a=>a.id===c.asset_id&&a.enabled);if(!other||other.metadata.role==='background'||t.requires_transparency&&!other.info.has_transparency)throw Error('同框素材不适用，请选择透明主体。');if(c.flip&&(other.metadata.existing_text||other.metadata.allow_flip===false))throw Error('同框素材需要保持原方向。');if(!effects.has(c.effect))throw Error('同框动效无效。')}
  if(plan.background_style==='image'&&!catalog.assets.some(a=>a.id===plan.background_asset_id&&a.metadata.role==='background'))throw Error('背景不可用。')
- const ranges:Record<string,[number,number]>={font_size:[12,72],letter_spacing:[0,.3],line_spacing:[1.1,2],text_x:[-1,1],text_y:[-1,1],strength:[0,1],zoom:[.5,1.8],speed:[.25,2],rotation:[-180,180],copies:[2,8],petals:[4,10],primary_x:[0,1],primary_y:[0,1],primary_scale:[.1,1.5],template_speed:[.25,2],template_strength:[0,1]}
+ const ranges:Record<string,[number,number]>={font_size:[8,160],letter_spacing:[0,.3],line_spacing:[1.1,2],text_x:[-1,1],text_y:[-1,1],strength:[0,1],zoom:[.5,1.8],speed:[.25,2],rotation:[-180,180],copies:[2,8],petals:[4,10],primary_x:[0,1],primary_y:[0,1],primary_scale:[.1,1.5],template_speed:[.25,2],template_strength:[0,1]}
  for(const [key,[min,max]]of Object.entries(ranges)){const v=(plan as any)[key];if(typeof v!=='number'||!Number.isFinite(v)||v<min||v>max)throw Error('参数超出范围：'+key)}
  for(const c of plan.characters)for(const [key,min,max]of [['x',0,1],['y',0,1],['scale',.1,1.5],['rotation',-180,180],['opacity',.1,1],['strength',0,1],['speed',.25,2]]as const){if(!Number.isFinite(c[key])||c[key]<min||c[key]>max)throw Error('同框人物参数超出范围。')}
  for(const color of [plan.background,plan.background_secondary,plan.text_color,plan.prop_color])if(!/^#[0-9a-f]{6}$/i.test(color))throw Error('颜色格式无效。')
@@ -66,5 +66,12 @@ export function validatePlan(plan:Plan,catalog:Catalog){
  const enums:Record<string,string[]>={background_style:['solid','gradient','paper','rays','image'],text_placement:['caption','embedded'],font_style:['plain','bold','outline','sticker','handwritten','stamp','shadow'],text_layout:['horizontal','vertical','staggered'],text_backdrop:['auto','none','light','dark'],emblem_mode:['badge','speaker','personified','symbol']}
  for(const [key,values]of Object.entries(enums))if(!values.includes((plan as any)[key]))throw Error('不支持的参数：'+key)
  if(![1,-1].includes(plan.template_direction)||!Number.isInteger(plan.copies)||!Number.isInteger(plan.petals))throw Error('方向或复制数量无效。')
+ const number=(v:unknown,min:number,max:number)=>typeof v==='number'&&Number.isFinite(v)&&v>=min&&v<=max
+ const validBox=(b:any)=>b&&number(b.x,0,1)&&number(b.y,0,1)&&number(b.width,.01,1)&&number(b.height,.01,1)&&b.x+b.width<=1.001&&b.y+b.height<=1.001&&(b.font_size===undefined||number(b.font_size,8,160))&&(b.rotation===undefined||number(b.rotation,-180,180))&&(b.fit===undefined||['fixed','shrink'].includes(b.fit))
+ for(const [key,b]of Object.entries(plan.text_boxes||{}))if(!['text','secondary_text'].includes(key)||!validBox(b))throw Error('文字框位置或字号无效。')
+ if(plan.text_fit!==undefined&&!['fixed','shrink'].includes(plan.text_fit))throw Error('文字适应模式无效。')
+ if(plan.text_layers!==undefined){if(!Array.isArray(plan.text_layers)||plan.text_layers.length>10)throw Error('最多添加10个独立文字层。');const ids=new Set();for(const layer of plan.text_layers){if(!validBox(layer)||typeof layer.id!=='string'||!/^[-\w]{1,80}$/.test(layer.id)||ids.has(layer.id)||typeof layer.text!=='string'||[...layer.text].length>160||layer.text_color!==undefined&&!/^#[0-9a-f]{6}$/i.test(layer.text_color)||layer.font_family&&!['sans','serif','kuaile','xiaowei','qingke','mashan','longcang'].includes(layer.font_family))throw Error('独立文字层参数无效。');ids.add(layer.id)}}
+ for(const [key,a]of Object.entries(plan.actor_transforms||{}))if(!/^[0-5]$/.test(key)||Number(key)>=count||!a||!number(a.x,0,1)||!number(a.y,0,1)||!number(a.scale,.15,4)||!number(a.rotation,-180,180))throw Error('角色自由布局参数无效。')
+ if(plan.background_zoom!==undefined&&!number(plan.background_zoom,1,3)||plan.background_pan_x!==undefined&&!number(plan.background_pan_x,0,1)||plan.background_pan_y!==undefined&&!number(plan.background_pan_y,0,1))throw Error('背景裁切参数无效。')
  return {template:t,asset:a}
 }

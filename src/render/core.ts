@@ -1,7 +1,8 @@
-import type {Plan,Asset} from '../api'
+import type {Plan,Asset,TextField} from '../api'
+import type {CanvasElement} from '../editor/types'
 import type {RenderInput,DecodedSource} from '../local/types'
-import {buildScene,bounds,captionVisibility,clamp,type SurfaceFactory} from './scene'
-export const RENDER_VERSION='browser-canvas-v2-cast-motion'
+import {buildScene,bounds,captionVisibility,clamp,matrix,multiply,type Matrix,type SurfaceFactory} from './scene'
+export const RENDER_VERSION='browser-canvas-v3-direct-editor'
 export type Rect=[number,number,number,number]
 export function regions(p:Plan,t:any):{image:Rect;captions:{field:string;rect:Rect}[]} {
  const s=p.size,m=s*.045,rect=(v:number[])=>v.map(x=>x*s) as Rect,caption=(r:number[],field='text')=>({field,rect:rect(r)})
@@ -34,19 +35,26 @@ export function wrapText(ctx:any,text:string,width:number,spacing:number){
 }
 export function textLayout(ctx:any,text:string,p:Plan,rect:Rect){
  const family='ep-'+(p.font_family||(p.font_style==='handwritten'?'kuaile':'sans')),weight=p.font_style==='bold'?'bold':'normal',vertical=p.text_layout==='vertical'
- let size=p.font_size*p.size/512,layout:any
- for(;size>=7;size-=.5){ctx.font=`${weight} ${size}px "${family}"`;const spacing=size*p.letter_spacing,stroke=['sticker','outline'].includes(p.font_style)?Math.ceil(size*.14):p.font_style==='bold'?size*.018:0,shadow=['sticker','shadow'].includes(p.font_style)?Math.ceil(size*.11):0,pad=stroke+shadow+2,step=size*p.line_spacing
+ let size=p.font_size*p.size/512,layout:any;const minimum=Math.min(7,size),fixed=p.text_fit!=='shrink'
+ for(;size>=minimum;size-=.5){ctx.font=`${weight} ${size}px "${family}"`;const spacing=size*p.letter_spacing,stroke=['sticker','outline'].includes(p.font_style)?Math.ceil(size*.14):p.font_style==='bold'?size*.018:0,shadow=['sticker','shadow'].includes(p.font_style)?Math.ceil(size*.11):0,pad=stroke+shadow+2,step=size*p.line_spacing
   const metrics=ctx.measureText('国Agjpqy，。一'),ascent=Math.max(size*.8,metrics.actualBoundingBoxAscent||size),descent=Math.max(size*.2,metrics.actualBoundingBoxDescent||size*.25),w=rect[2]-2*pad,h=rect[3]-2*pad
-  if(vertical){const per=Math.max(1,Math.floor((h-size)/(size*Math.max(1.3,p.line_spacing)))+1),columns=text.split('\n').flatMap(line=>{const chars=[...line];return Array.from({length:Math.max(1,Math.ceil(chars.length/per))},(_,i)=>chars.slice(i*per,(i+1)*per))}),ww=columns.length*size*1.25,hh=Math.max(...columns.map(c=>c.length))*size*Math.max(1.3,p.line_spacing);layout={vertical,columns,ww,hh,size,pad,ascent,descent,step,spacing,family,weight};if(ww<=w&&hh<=h)break
-  }else{const wrap=wrapText(ctx,text,w,spacing),hh=ascent+descent+Math.max(0,wrap.lines.length-1)*step+(p.text_layout==='staggered'?size*.22:0);layout={...wrap,vertical,size,pad,ascent,descent,step,spacing,family,weight,hh};if(wrap.width<=w&&hh<=h)break}
+  if(vertical){const per=Math.max(1,Math.floor((h-size)/(size*Math.max(1.3,p.line_spacing)))+1),columns=text.split('\n').flatMap(line=>{const chars=[...line];return Array.from({length:Math.max(1,Math.ceil(chars.length/per))},(_,i)=>chars.slice(i*per,(i+1)*per))}),ww=columns.length*size*1.25,hh=size+Math.max(0,...columns.map(c=>c.length-1))*size*Math.max(1.3,p.line_spacing);layout={vertical,columns,ww,hh,size,pad,ascent,descent,step,spacing,family,weight};if(fixed||ww<=w&&hh<=h)break
+  }else{const wrap=wrapText(ctx,text,w,spacing),hh=ascent+descent+Math.max(0,wrap.lines.length-1)*step+(p.text_layout==='staggered'?size*.22:0);layout={...wrap,vertical,size,pad,ascent,descent,step,spacing,family,weight,hh};if(fixed||wrap.width<=w&&hh<=h)break}
  }
- if(size<7)throw Error('文字过长，当前文字区域放不下；请缩短文案或更换模板。')
+ if(size<minimum)throw Error('文字过长，当前文字区域放不下；请缩短文案或更换模板。')
  return layout
+}
+export function fitTextRect(ctx:any,text:string,p:Plan,rect:Rect):Rect {
+ if(!text||p.text_fit==='shrink')return rect
+ let result=[...rect]as Rect
+ for(let i=0;i<3;i++){const l=textLayout(ctx,text,p,result),width=Math.max(result[2],(l.vertical?l.ww:l.width)+2*l.pad),height=Math.max(result[3],l.hh+2*l.pad);if(width>p.size+.1||height>p.size+.1)throw Error('当前字号和文字超出画布，请缩短文案、降低字号，或开启此文字层的自动缩字。');result=[Math.max(0,Math.min(result[0],p.size-width)),Math.max(0,Math.min(result[1],p.size-height)),width,height]}
+ return result
 }
 export function drawText(ctx:any,text:string,p:Plan,rect:Rect,reveal=Infinity){
  if(!text)return;const l=textLayout(ctx,text,p,rect),[rx,ry,rw,rh]=rect,size=l.size,stamp=p.font_style==='stamp',color=stamp&&p.text_color==='#202522'?'#b33136':p.text_color
  ctx.save();ctx.font=`${l.weight} ${size}px "ep-${p.font_family||(p.font_style==='handwritten'?'kuaile':'sans')}"`;ctx.textBaseline='alphabetic';ctx.textAlign='left';ctx.lineJoin='round'
- if(p.text_backdrop==='light'||p.text_backdrop==='dark'||p.text_backdrop==='auto'&&needsPlate(ctx,rect,color)){ctx.fillStyle=p.text_backdrop==='dark'?'rgba(20,25,22,.88)':'rgba(255,255,255,.93)';ctx.beginPath();ctx.roundRect(rx,ry,rw,rh,Math.min(10,rh*.13));ctx.fill();if(p.text_backdrop==='dark')ctx.fillStyle='#ffffff';else ctx.fillStyle=color}else ctx.fillStyle=color
+ const darkPlate=p.text_backdrop==='dark'||p.text_backdrop==='auto'&&(parseInt(color.slice(1,3),16)*.2126+parseInt(color.slice(3,5),16)*.7152+parseInt(color.slice(5,7),16)*.0722)>140
+ if(p.text_backdrop==='light'||p.text_backdrop==='dark'||p.text_backdrop==='auto'&&needsPlate(ctx,rect,color)){ctx.fillStyle=darkPlate?'rgba(20,25,22,.88)':'rgba(255,255,255,.93)';ctx.beginPath();ctx.roundRect(rx,ry,rw,rh,Math.min(10,rh*.13));ctx.fill();if(p.text_backdrop==='dark')ctx.fillStyle='#ffffff';else ctx.fillStyle=color}else ctx.fillStyle=color
  const fill=ctx.fillStyle,paint=(s:string,x:number,baseline:number)=>{if(['shadow','sticker'].includes(p.font_style)){ctx.fillStyle=p.font_style==='sticker'?'#263228':p.background_secondary;ctx.fillText(s,x+size*.1,baseline+size*.1)}ctx.fillStyle=fill;if(['outline','sticker','bold'].includes(p.font_style)){ctx.lineWidth=size*(p.font_style==='sticker'?.13:p.font_style==='outline'?.08:.02);ctx.strokeStyle=p.font_style==='outline'?'#263228':p.font_style==='sticker'?'#ffffff':fill;ctx.strokeText(s,x,baseline)}ctx.fillText(s,x,baseline)}
  let index=0
  if(l.vertical){const x=rx+(rw+l.ww)/2-size,y=ry+(rh-l.hh)/2+l.ascent;l.columns.forEach((column:string[],c:number)=>column.forEach((char,j)=>{if(index++<reveal){const advance=ctx.measureText(char).width;paint(char,x-c*size*1.25+(size-advance)/2,y+j*size*Math.max(1.3,p.line_spacing))}}))}
@@ -73,26 +81,36 @@ export function background(ctx:any,p:Plan,source?:DecodedSource){const s=p.size;
  if(p.background_style==='gradient'){const g=ctx.createLinearGradient(0,0,s,s);g.addColorStop(0,p.background);g.addColorStop(1,p.background_secondary);ctx.fillStyle=g;ctx.fillRect(0,0,s,s)}
  if(p.background_style==='paper'){ctx.strokeStyle=p.background_secondary;ctx.lineWidth=1;for(let y=s*.08;y<s;y+=s*.08){ctx.beginPath();ctx.moveTo(0,y);ctx.lineTo(s,y);ctx.stroke()}}
  if(p.background_style==='rays'){ctx.fillStyle=p.background_secondary;for(let i=0;i<16;i++){const a=i*Math.PI/8;ctx.beginPath();ctx.moveTo(s/2,s/2);ctx.lineTo(s/2+Math.cos(a)*s,s/2+Math.sin(a)*s);ctx.lineTo(s/2+Math.cos(a+.10)*s,s/2+Math.sin(a+.10)*s);ctx.fill()}}
- if(p.background_style==='image'&&source){const im=source.frames[0],scale=Math.max(s/im.width,s/im.height);ctx.drawImage(im,(s-im.width*scale)/2,(s-im.height*scale)/2,im.width*scale,im.height*scale)}
+ if(p.background_style==='image'&&source){const im=source.frames[0],scale=Math.max(s/im.width,s/im.height)*(p.background_zoom||1);ctx.drawImage(im,(s-im.width*scale)*(p.background_pan_x??.5),(s-im.height*scale)*(p.background_pan_y??.5),im.width*scale,im.height*scale)}
 }
 export function prepareRenderer(input:RenderInput,sources:DecodedSource[],factory:SurfaceFactory,bg?:DecodedSource){
  const p=input.plan,t=input.template,layout=regions(p,t),[x,y,w,h]=layout.image,time=timing(input,sources),images=sources.map(s=>s.frames[0]);let union=[0,0,w,h]
  const samples=Math.max(120,time.delays.length),scenes=Array.from({length:samples},(_,i)=>buildScene(images,p,t,input.effects,i/samples*time.duration/1000,w,h,time.duration))
  if(!scenes[0].clip){const boxes=scenes.flatMap(s=>s.sprites.filter(s=>s.alpha>.001).map(bounds));if(boxes.length)union=[Math.min(0,...boxes.map(b=>b[0]))-2,Math.min(0,...boxes.map(b=>b[1]))-2,Math.max(w,...boxes.map(b=>b[2]))+2,Math.max(h,...boxes.map(b=>b[3]))+2]}
  const fit=scenes[0].clip?1:Math.min(1,w/(union[2]-union[0]),h/(union[3]-union[1])),dx=(w-(union[2]-union[0])*fit)/2-union[0]*fit,dy=(h-(union[3]-union[1])*fit)/2-union[1]*fit
- const canvas=factory(p.size,p.size),ctx=canvas.getContext('2d'),subjectAsset=input.assets.find(a=>a.id===p.asset_id)!
+ const canvas=factory(p.size,p.size),ctx=canvas.getContext('2d'),subjectAsset=input.assets.find(a=>a.id===p.asset_id)!,world:Matrix=[fit,0,0,fit,x+dx,y+dy],poster=Math.max(0,Math.min(.99,t.animation?.poster_time??.45))*time.duration
+ const posterScene=buildScene(images,p,t,input.effects,poster/1000,w,h,time.duration),actorRects=new Map<number,Rect>(),transforms=new Map<number,Matrix>()
+ for(let actor=0;actor<sources.length;actor++){const boxes=posterScene.sprites.filter(s=>s.actor===actor).map(s=>bounds({...s,matrix:multiply(world,s.matrix)}));if(!boxes.length)continue;const left=Math.min(...boxes.map(b=>b[0])),top=Math.min(...boxes.map(b=>b[1])),right=Math.max(...boxes.map(b=>b[2])),bottom=Math.max(...boxes.map(b=>b[3])),rect:Rect=[left,top,right-left,bottom-top];actorRects.set(actor,rect);const a=p.actor_transforms?.[actor];if(a)transforms.set(actor,multiply(matrix(a.x*p.size,a.y*p.size,a.scale,a.scale,-a.rotation),matrix(-(left+right)/2,-(top+bottom)/2)))}
+ let captions=layout.captions
+ if(p.text_placement==='embedded'&&subjectAsset.metadata.text_safe_area){const a=subjectAsset.metadata.text_safe_area,im=sources[0],scale=Math.min(w/im.width,h/im.height)*p.zoom,ww=im.width*scale,hh=im.height*scale;captions=[{field:'text',rect:[x+(w-ww)/2+a.x*ww,y+(h-hh)/2+a.y*hh,a.width*ww,a.height*hh]}]}
+ const resolvedCaptions=captions.map(c=>{const field=c.field as TextField,b=p.text_boxes?.[field],rect=b?[b.x*p.size,b.y*p.size,b.width*p.size,b.height*p.size]as Rect:c.rect.map((v,j)=>v+(j===0?p.text_x*p.size:j===1?p.text_y*p.size:0))as Rect;return {id:String(field),field,layerId:undefined as string|undefined,text:p[field],rect,rotation:b?.rotation||0,settings:{...p,font_size:b?.font_size??p.font_size,text_fit:b?.fit??p.text_fit}}})
+ for(const layer of p.text_layers||[])resolvedCaptions.push({id:'layer:'+layer.id,field:'text',layerId:layer.id,text:layer.text,rect:[layer.x*p.size,layer.y*p.size,layer.width*p.size,layer.height*p.size],rotation:layer.rotation||0,settings:{...p,font_size:layer.font_size??p.font_size,font_family:layer.font_family??p.font_family,text_color:layer.text_color??p.text_color,text_fit:layer.fit??p.text_fit}})
+ for(const c of resolvedCaptions){c.rect=fitTextRect(ctx,c.text,c.settings,c.rect);if(c.rotation){const angle=c.rotation*Math.PI/180,[xx,yy,ww,hh]=c.rect,rw=Math.abs(ww*Math.cos(angle))+Math.abs(hh*Math.sin(angle)),rh=Math.abs(ww*Math.sin(angle))+Math.abs(hh*Math.cos(angle));if(rw>p.size+.1||rh>p.size+.1)throw Error('旋转后的文字超出画布，请调整宽度、字号或旋转角度。');const halfW=Math.max(ww,rw)/2,halfH=Math.max(hh,rh)/2;c.rect=[Math.max(halfW,Math.min(p.size-halfW,xx+ww/2))-ww/2,Math.max(halfH,Math.min(p.size-halfH,yy+hh/2))-hh/2,ww,hh]}}
+ const elements:CanvasElement[]=[...(p.background_style==='image'?[{id:'background',kind:'background' as const,label:'场景背景',rect:[0,0,p.size,p.size]as Rect,rotation:0,scale:p.background_zoom||1}]:[])]
+ for(const [actor,rect]of actorRects){const transform=transforms.get(actor),[xx,yy,ww,hh]=rect,box=transform?bounds({image:{width:ww,height:hh},matrix:multiply(transform,matrix(xx+ww/2,yy+hh/2)),alpha:1}):[xx,yy,xx+ww,yy+hh];elements.push({id:'actor:'+actor,kind:'actor',actor,label:actor===0?'主角色':'角色 '+(actor+1),rect:[box[0],box[1],box[2]-box[0],box[3]-box[1]],rotation:p.actor_transforms?.[actor]?.rotation||0,scale:p.actor_transforms?.[actor]?.scale||1})}
+ for(const [index,c]of resolvedCaptions.entries()){const l=c.text?textLayout(ctx,c.text,c.settings,c.rect):null;elements.push({id:c.id,kind:'text',field:c.layerId?undefined:c.field,layerId:c.layerId,label:c.layerId?'文字 '+(index+1):c.field==='text'?'主文案':'第二段文案',rect:c.rect,rotation:c.rotation,fontSize:c.settings.font_size,actualFontSize:l?l.size*512/p.size:c.settings.font_size})}
  const draw=(ms:number)=>{background(ctx,p,bg);decorate(ctx,p,t.layout_id);const visible=captionVisibility(p.template_motion?t.animation?.handler:undefined,ms/time.duration)
   for(const [i,panel]of (t.layout?.panels||[]).entries()){if(!visible[i])continue;ctx.save();ctx.fillStyle=panel.fill||'#ffffff';ctx.strokeStyle=panel.outline||'#d4dfcc';ctx.lineWidth=Math.max(1,p.size*.003);ctx.beginPath();ctx.roundRect(panel.x*p.size,panel.y*p.size,panel.width*p.size,panel.height*p.size,(panel.radius??.035)*p.size);ctx.fill();ctx.stroke();ctx.restore()}
   const scene=buildScene(sources.map(s=>frameAt(s,ms)),p,t,input.effects,ms/1000,w,h,time.duration)
   ctx.save();ctx.beginPath();ctx.rect(x,y,w,h);ctx.clip();ctx.translate(x+dx,y+dy);ctx.scale(fit,fit)
   if(t.animation?.handler==='window-pop'&&p.template_motion){ctx.beginPath();ctx.roundRect(w*.15,h*.2,w*.7,h*.62,w*.08);ctx.clip()}
-  scene.before.forEach(f=>f(ctx));for(const sprite of scene.sprites){ctx.save();ctx.globalAlpha=sprite.alpha;if(sprite.ghost)ctx.filter='brightness(1.7) saturate(.15)';ctx.transform(...sprite.matrix);ctx.drawImage(sprite.image,-sprite.image.width/2,-sprite.image.height/2);ctx.restore()}scene.after.forEach(f=>f(ctx));ctx.restore()
-  if(['dialogue','comic'].includes(t.layout_id)&&sources.length===1&&!t.animation){const r=t.layout_id==='dialogue'?[.715,.61,.23,.25]:[.10,.555,.80,.30],im=frameAt(sources[0],ms),scale=Math.min(r[2]*p.size/im.width,r[3]*p.size/im.height);ctx.save();ctx.translate((r[0]+r[2]/2)*p.size,(r[1]+r[3]/2)*p.size);ctx.scale(-scale,scale);ctx.drawImage(im,-im.width/2,-im.height/2);ctx.restore()}
+  scene.before.forEach(f=>f(ctx));ctx.restore()
+  for(const sprite of scene.sprites){ctx.save();const manual=transforms.get(sprite.actor??0);if(manual)ctx.transform(...manual);ctx.beginPath();ctx.rect(x,y,w,h);ctx.clip();ctx.transform(...world);if(t.animation?.handler==='window-pop'&&p.template_motion){ctx.beginPath();ctx.roundRect(w*.15,h*.2,w*.7,h*.62,w*.08);ctx.clip()}ctx.globalAlpha=sprite.alpha;if(sprite.ghost)ctx.filter='brightness(1.7) saturate(.15)';ctx.transform(...sprite.matrix);ctx.drawImage(sprite.image,-sprite.image.width/2,-sprite.image.height/2);ctx.restore()}
+  ctx.save();ctx.beginPath();ctx.rect(x,y,w,h);ctx.clip();ctx.transform(...world);scene.after.forEach(f=>f(ctx));ctx.restore()
+  if(['dialogue','comic'].includes(t.layout_id)&&sources.length===1&&!t.animation){const r=t.layout_id==='dialogue'?[.715,.61,.23,.25]:[.10,.555,.80,.30],im=frameAt(sources[0],ms),scale=Math.min(r[2]*p.size/im.width,r[3]*p.size/im.height);ctx.save();const manual=transforms.get(0);if(manual)ctx.transform(...manual);ctx.translate((r[0]+r[2]/2)*p.size,(r[1]+r[3]/2)*p.size);ctx.scale(-scale,scale);ctx.drawImage(im,-im.width/2,-im.height/2);ctx.restore()}
   const typewriter=[p.effect,...p.effects].some(id=>input.effects.find(e=>e.id===id)?.handler==='typewriter')&&p.format==='gif'
-  let captions=layout.captions
-  if(p.text_placement==='embedded'&&subjectAsset.metadata.text_safe_area){const a=subjectAsset.metadata.text_safe_area,im=sources[0],scale=Math.min(w/im.width,h/im.height)*p.zoom,ww=im.width*scale,hh=im.height*scale;captions=[{field:'text',rect:[x+(w-ww)/2+a.x*ww,y+(h-hh)/2+a.y*hh,a.width*ww,a.height*hh]}]}
-  captions.forEach((c,i)=>{if(!visible[i])return;const text=c.field==='secondary_text'?p.secondary_text:p.text,rect=c.rect.map((v,j)=>v+(j===0?p.text_x*p.size:j===1?p.text_y*p.size:0))as Rect;drawText(ctx,text,t.layout_id==='subtitle'?{...p,text_color:'#ffffff',text_backdrop:'none'}:p,rect,typewriter?Math.ceil([...text].length*clamp(ms/time.duration/.75)):Infinity)})
+  resolvedCaptions.forEach((c,i)=>{if(!c.layerId&&!visible[i])return;const text=c.text,rect=c.rect;ctx.save();if(c.rotation){ctx.translate(rect[0]+rect[2]/2,rect[1]+rect[3]/2);ctx.rotate(c.rotation*Math.PI/180);ctx.translate(-rect[0]-rect[2]/2,-rect[1]-rect[3]/2)}drawText(ctx,text,t.layout_id==='subtitle'&&!c.layerId?{...c.settings,text_color:'#ffffff',text_backdrop:'none'}:c.settings,rect,typewriter?Math.ceil([...text].length*clamp(ms/time.duration/.75)):Infinity);ctx.restore()})
   return canvas
  }
- return {draw,...time,poster:Math.max(0,Math.min(.99,t.animation?.poster_time??.45))*time.duration,fit,union}
+ return {draw,...time,poster,fit,union,elements}
 }

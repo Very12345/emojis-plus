@@ -4,6 +4,10 @@ export interface FontOption {id:FontFamily;name:string;description:string;sample
 export type Effect = string
 export interface EffectOption {id:string;name:string;handler:string}
 export interface CharacterLayer {asset_id:string;x:number;y:number;scale:number;rotation:number;flip:boolean;opacity:number;effect:Effect;strength:number;speed:number}
+export type TextField='text'|'secondary_text'
+export interface TextBox {x:number;y:number;width:number;height:number;font_size?:number;rotation?:number;fit?:'fixed'|'shrink'}
+export interface TextLayer extends TextBox {id:string;text:string;font_family?:FontFamily|null;text_color?:string}
+export interface ActorTransform {x:number;y:number;scale:number;rotation:number}
 export interface Metadata {
   emotion: string[]; scenes: string[]; examples: string[]; action: string; intensity: number;
   existing_text: string; source_type: string; author: string; source_url: string; source_note: string;
@@ -31,6 +35,10 @@ export interface Plan {
   characters:CharacterLayer[];primary_x:number;primary_y:number;primary_scale:number
   template_motion:boolean;template_speed:number;letter_spacing:number;line_spacing:number;text_backdrop:'auto'|'none'|'light'|'dark'
   template_strength:number;template_direction:1|-1;prop_color:string
+  text_boxes?:Partial<Record<TextField,TextBox>>
+  text_layers?:TextLayer[];text_fit?:'fixed'|'shrink'
+  actor_transforms?:Record<string,ActorTransform>
+  background_zoom?:number;background_pan_x?:number;background_pan_y?:number
 }
 export interface Preset {id: string; name: string; description: string; category: string; preview_url: string; plan: Plan;category_id?:string;subcategory_id?:string;subcategory_name?:string;tags?:string[];animation?:Animation|null}
 export interface Caption {id: string; category: string; text: string; secondary_text: string; tags: string[]}

@@ -4,7 +4,8 @@ import * as gifencModule from 'gifenc'
 const {GIFEncoder,quantize,applyPalette}=typeof (gifencModule as any).GIFEncoder==='function'?gifencModule:gifencModule.default
 import {prepareRenderer} from './core'
 import type {DecodedSource,RenderInput} from '../local/types'
-const factory=(w:number,h:number)=>typeof OffscreenCanvas!=='undefined'?new OffscreenCanvas(Math.max(1,Math.round(w)),Math.max(1,Math.round(h))):Object.assign(document.createElement('canvas'),{width:Math.max(1,Math.round(w)),height:Math.max(1,Math.round(h))})
+export const createSurface=(w:number,h:number)=>typeof OffscreenCanvas!=='undefined'?new OffscreenCanvas(Math.max(1,Math.round(w)),Math.max(1,Math.round(h))):Object.assign(document.createElement('canvas'),{width:Math.max(1,Math.round(w)),height:Math.max(1,Math.round(h))})
+const factory=createSurface
 const yieldUI=()=>new Promise<void>(resolve=>setTimeout(resolve,0))
 const check=(cancel:()=>boolean)=>{if(cancel())throw new DOMException('Aborted','AbortError')}
 export function inspectLoop(gif:any):number|null{for(const frame of gif.frames){if(frame.application?.id?.startsWith('NETSCAPE')){const b=frame.application.blocks;return b?.length>=3?b[1]+256*b[2]:0}}return null}
@@ -33,14 +34,17 @@ const fonts=new Map<string,Promise<void>>()
 const decodedCache=new Map<string,DecodedSource>()
 const pixels=(s:DecodedSource)=>s.width*s.height*s.frames.length
 export async function loadFont(font:any,base:string){const url=new URL(font.url,base).href,key=font.id+url;if(!fonts.has(key)){const promise=(async()=>{const face=new FontFace('ep-'+font.id,`url("${url}")`,{weight:font.weight||'400'});await face.load();(globalThis as any).fonts?.add(face);if(typeof document!=='undefined')document.fonts.add(face)})();fonts.set(key,promise);promise.catch(()=>fonts.delete(key))}return fonts.get(key)!}
-export function assertGlyphs(input:RenderInput){const id=input.plan.font_family||(input.plan.font_style==='handwritten'?'kuaile':'sans'),font=input.fonts.find(f=>f.id===id);if(!font)throw Error('字体未注册。');const missing=[...new Set([...input.plan.text,...input.plan.secondary_text].filter(c=>!/[\n\r\t ]/.test(c)&&!font.coverage.some(([a,b])=>c.codePointAt(0)!>=a&&c.codePointAt(0)!<=b)))];if(missing.length)throw Error('当前字体缺少字形：'+missing.slice(0,12).join(' ')+'。请换用其他字体。')}
-export async function renderBrowser(input:RenderInput,cancel=()=>false,progress=(n:number)=>{}){
- assertGlyphs(input);const selected=input.fonts.find(f=>f.id===(input.plan.font_family||(input.plan.font_style==='handwritten'?'kuaile':'sans')))!,sans=input.fonts.find(f=>f.id==='sans')!;await Promise.all([loadFont(selected,input.base),loadFont(sans,input.base)]);check(cancel)
+export function assertGlyphs(input:RenderInput){const groups=[{text:input.plan.text+input.plan.secondary_text,font_family:input.plan.font_family},...(input.plan.text_layers||[])];for(const group of groups){const id=group.font_family||input.plan.font_family||(input.plan.font_style==='handwritten'?'kuaile':'sans'),font=input.fonts.find(f=>f.id===id);if(!font)throw Error('字体未注册。');const missing=[...new Set([...group.text].filter(c=>!/[\n\r\t ]/.test(c)&&!font.coverage.some(([a,b])=>c.codePointAt(0)!>=a&&c.codePointAt(0)!<=b)))];if(missing.length)throw Error('当前字体缺少字形：'+missing.slice(0,12).join(' ')+'。请换用其他字体。')}}
+export async function loadRenderResources(input:RenderInput,cancel=()=>false){
+ assertGlyphs(input);const idsFonts=new Set(['sans',input.plan.font_family||(input.plan.font_style==='handwritten'?'kuaile':'sans'),...(input.plan.text_layers||[]).map(l=>l.font_family||input.plan.font_family||'sans')]);await Promise.all(input.fonts.filter(f=>idsFonts.has(f.id)).map(f=>loadFont(f,input.base)));check(cancel)
  let budget=64_000_000
  const ids=[input.plan.asset_id,...input.plan.characters.map(c=>c.asset_id)],load=async(id:string,trim:boolean)=>{const a=input.assets.find(a=>a.id===id);if(!a)throw Error('素材不存在。');const url=new URL(a.url,input.base),key=url.href+input.plan.size+trim;let source=decodedCache.get(key)
   if(source){decodedCache.delete(key);decodedCache.set(key,source)}else{const r=await fetch(url);if(!r.ok)throw Error('素材加载失败：'+a.name);source=await decodeSource(await r.arrayBuffer(),a.info.format.toLowerCase(),input.plan.size*1.5,trim,cancel,Math.min(budget,48_000_000));decodedCache.set(key,source);while([...decodedCache.values()].reduce((n,s)=>n+pixels(s),0)>48_000_000&&decodedCache.size>1)decodedCache.delete(decodedCache.keys().next().value!)}budget-=pixels(source);if(budget<0)throw Error('多角色 GIF 超过当前内存预算，请改用256尺寸或减少动态素材。');return source}
  const sources:DecodedSource[]=[];for(const id of ids){sources.push(await load(id,true));check(cancel)}const bg=input.plan.background_style==='image'&&input.plan.background_asset_id?await load(input.plan.background_asset_id,false):undefined
- const renderer=prepareRenderer(input,sources,factory,bg),p=input.plan
+ return {sources,bg}
+}
+export async function renderBrowser(input:RenderInput,cancel=()=>false,progress=(n:number)=>{}){
+ const {sources,bg}=await loadRenderResources(input,cancel),renderer=prepareRenderer(input,sources,factory,bg),p=input.plan
  if(p.format==='jpg'){const canvas=renderer.draw(renderer.poster);const blob=await canvasBlob(canvas,'image/jpeg');return {blob,info:{width:p.size,height:p.size,frames:1,duration_ms:0}}}
  return encodeAnimation(renderer,p,cancel,progress)
 }
