@@ -42,7 +42,7 @@ export interface Plan {
 }
 export interface Preset {id: string; name: string; description: string; category: string; preview_url: string; plan: Plan;category_id?:string;subcategory_id?:string;subcategory_name?:string;tags?:string[];animation?:Animation|null}
 export interface Caption {id: string; category: string; text: string; secondary_text: string; tags: string[]}
-export function samePlan(a: Plan, b: Plan) {return (Object.keys(a) as (keyof Plan)[]).every(k=>JSON.stringify(a[k])===JSON.stringify(b[k])) && Object.keys(a).length===Object.keys(b).length}
+export function samePlan(a: Plan, b: Plan) {const keys=(p:Plan)=>(Object.keys(p)as(keyof Plan)[]).filter(k=>p[k]!==undefined),left=keys(a),right=keys(b);return left.length===right.length&&left.every(k=>JSON.stringify(a[k])===JSON.stringify(b[k]))}
 export interface Rendered {
   url: string; filename: string; info: {width: number; height: number; frames: number; duration_ms: number;elapsed_ms?:number;cache_hit?:boolean}; plan: Plan
 }

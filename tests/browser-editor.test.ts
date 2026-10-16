@@ -2,7 +2,7 @@ import test from 'node:test'
 import assert from 'node:assert/strict'
 import fs from 'node:fs/promises'
 import {createCanvas,GlobalFonts} from '@napi-rs/canvas'
-import {makePlan} from '../src/api'
+import {makePlan,samePlan} from '../src/api'
 import {validatePlan,applyTemplatePlan} from '../src/local/plans'
 import {textLayout,fitTextRect,prepareRenderer} from '../src/render/core'
 import {setElementFont,transformElement,setElementText,resetElement,panBackground} from '../src/editor/model'
@@ -11,6 +11,7 @@ const catalog:Catalog=JSON.parse(await fs.readFile('public/library/catalog.json'
 for(const [id,file]of Object.entries({sans:'NotoSansSC.ttf',serif:'NotoSerifSC.ttf',kuaile:'ZCOOLKuaiLe-Regular.ttf',xiaowei:'ZCOOLXiaoWei-Regular.ttf',qingke:'ZCOOLQingKeHuangYou-Regular.ttf',mashan:'MaShanZheng-Regular.ttf',longcang:'LongCang-Regular.ttf'}))GlobalFonts.registerFromPath('assets/fonts/'+file,'ep-'+id)
 const asset=catalog.assets.find(a=>a.character==='Meowl'&&a.info.has_transparency)!,factory=(w:number,h:number)=>createCanvas(Math.round(w),Math.round(h)),subject=factory(60,90),ctx=subject.getContext('2d');ctx.fillStyle='#ed2020';ctx.fillRect(0,0,60,90)
 const source:DecodedSource={frames:[subject],delays:[100],loop:0,width:60,height:90}
+test('JSON round trips of optional layout fields do not disable fresh downloads',()=>{const plan={...makePlan(asset),actor_transforms:undefined,text_boxes:undefined};assert(samePlan(plan,JSON.parse(JSON.stringify(plan))));assert(!samePlan(plan,{...plan,font_size:40}))})
 function render(p:ReturnType<typeof makePlan>){const input={plan:p,template:catalog.templates.find(t=>t.id===p.template_id)!,assets:catalog.assets,fonts:catalog.fonts,effects:catalog.effects,base:''};return prepareRenderer(input,[source,...p.characters.map(()=>source)],factory)}
 test('fixed font size stays exact when newlines are added at 256 and 512',()=>{
  for(const size of [256,512]as const)for(const font of catalog.fonts){const p={...makePlan(asset),size,font_family:font.id,font_size:38},canvas=factory(size,size),ctx=canvas.getContext('2d'),rect:[number,number,number,number]=[size*.08,size*.84,size*.84,size*.11]
