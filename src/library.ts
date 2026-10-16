@@ -60,6 +60,6 @@ export function replaceSubject(previous:Plan,asset:Asset,templates:Template[]=[]
     format,size:previous.format===format?previous.size:format==='gif'?256:512,
     flip:asset.metadata.existing_text||asset.metadata.allow_flip===false?false:previous.flip,
     text_placement:asset.metadata.existing_text&&!asset.metadata.text_safe_area?'caption':previous.text_placement,
-    effect:format==='gif'?(asset.info.frames>1?'none':previous.effect!=='none'?previous.effect:template?.animation||template?.motions?.length?'none':'breathe'):'none',
+    effect:format==='gif'?(asset.info.frames>1?'none':previous.effect!=='none'?previous.effect:previous.composition?'none':template?.animation||template?.motions?.length?'none':'breathe'):'none',
     template_id:compatible?previous.template_id:(template?.layout_id||previous.template_id)==='flower'?'bottom':asset.metadata.templates[0]||'bottom'}
 }
