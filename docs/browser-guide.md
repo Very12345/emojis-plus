@@ -37,7 +37,7 @@ npm run serve
 
 完整上传`npm run build`生成的`dist/`即可。相对路径`base: './'`已通过`/emojis-plus/`子目录测试，字体、Worker和素材均适配仓库型Pages路径。不要直接双击index.html，Worker和字体加载需要HTTP(S)。
 
-提供`.github/workflows/pages.yml`，只允许手动`workflow_dispatch`。将项目及`assets/seed`、`assets/registry`、`assets/fonts`提交到自己的仓库，Settings → Pages选择GitHub Actions，再手动运行工作流。只上传dist，不需要模型密钥或应用服务器。本次未创建仓库或发布网页。参见[GitHub官方工作流说明](https://docs.github.com/zh/pages/getting-started-with-github-pages/using-custom-workflows-with-github-pages)。
+提供`.github/workflows/pages.yml`，只允许手动`workflow_dispatch`。将项目及`assets/seed`、`assets/registry`、`assets/fonts`提交到自己的仓库，Settings → Pages选择GitHub Actions，再手动运行工作流。只上传dist，不需要模型密钥或应用服务器。线上工作台：<https://very12345.github.io/emojis-plus/>；仓库：<https://github.com/Very12345/emojis-plus>。参见[GitHub官方工作流说明](https://docs.github.com/zh/pages/getting-started-with-github-pages/using-custom-workflows-with-github-pages)。
 
 页面有`noindex,nofollow,noarchive`和robots.txt，不附公开介绍页。这些只用于减少搜索发现，**不是访问控制**；知晓URL的人仍可访问静态文件。
 
@@ -57,3 +57,9 @@ npm run serve
 ## 验证
 
 运行`npm test`、`npm run build`。覆盖七字体共享基线、字形效果/排版、完整动画边界、72种动作实际GIF编码、原生GIF帧处置、2/4/6人、AI非法返回与CORS错误。机器样例在`examples/browser-migration/`；页面验证和限制见[browser-migration.md](browser-migration.md)。
+
+## 更新线上版本
+
+本项目使用手动 Pages 工作流。修改后运行 `npm run build` 和 `node scripts/verify-pages.mjs`。精选源文件已通过白名单提交；新增素材时运行 `node scripts/github-source-files.mjs --stage`，审阅 Git 差异后提交、推送，并手动运行 GitHub Actions 的 Pages 工作流。`assets/seed` 中未精选的截图、母版及本机 `data` 不会因普通 `git add .` 被上传。
+
+线上站点和localhost属于不同浏览器来源；AI设置不会自动从本机迁移，需要在新站点填写一次。配置仍只保存在使用者的浏览器，不写入仓库、Actions Secrets或部署文件。直接模型接口须允许 `https://very12345.github.io` 的CORS请求。
