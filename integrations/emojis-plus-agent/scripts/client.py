@@ -56,6 +56,11 @@ def main():
             else:
                 plan=json.loads(Path(a.plan_file).read_text(encoding='utf-8'));plan=plan.get('result',plan);plan=plan['candidates'][a.candidate-1] if isinstance(plan,dict)and'candidates'in plan else plan;body={'operation':'render','plan':plan.get('plan',plan)}
             if a.browser:body['browser_id']=a.browser
+            if a.command=='compose' and (a.presentation=='chat' or a.interaction=='chase'):
+                catalog=request('/api/v1/catalog'+('?browser_id='+urllib.parse.quote(a.browser)if a.browser else ''))
+                capabilities=catalog.get('capabilities',{})
+                if a.presentation=='chat' and 'chat'not in capabilities.get('presentations',[]) or a.interaction=='chase' and 'chase'not in capabilities.get('interactions',[]):
+                    raise RuntimeError('Connected workbench is an older renderer. Save edits and refresh all open Emojis Plus tabs, then reconnect before using chat or chase composition.')
             result=request('/api/v1/jobs',body)
         if a.wait:
             deadline=time.monotonic()+a.timeout;previous=0
