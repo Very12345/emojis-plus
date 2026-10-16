@@ -1,3 +1,6 @@
+import useProjects from './useProjects'
+import ProjectLibrary from './ProjectLibrary'
+import {captureOutputs} from './local/projects'
 import AgentBridge from './AgentBridge'
 import ProcessTimeline from './ProcessTimeline'
 import {subscribeJob} from './local/service'
@@ -45,9 +48,10 @@ export default function App(){
   const [effects,setEffects]=useState<EffectOption[]>([])
   const [fonts,setFonts]=useState<FontOption[]>([])
   const [captions,setCaptions]=useState<Caption[]>([]),[contentTab,setContentTab]=useState<'captions'|'presets'|'layouts'>('captions')
-  const [view,setView]=useState<'workbench'|'library'|'content'>('workbench')
+  const [view,setView]=useState<'workbench'|'library'|'content'|'projects'>('workbench')
   const [prompt,setPrompt]=useState(()=>localStorage.getItem('ep-intent')||'')
   const [character,setCharacter]=useState(''), [outputFormat,setOutputFormat]=useState<'jpg'|'gif'>('jpg')
+  const candidateProjects=useRef<string[]>([])
   const [candidates,setCandidates]=useState<Candidate[]>([]), [generation,setGeneration]=useState<Generation|null>(null)
   const [processEvents,setProcessEvents]=useState<ProcessEvent[]>([]),generationAbort=useRef<AbortController|null>(null)
   const [generating,setGenerating]=useState(false), [genStatus,setGenStatus]=useState('')
@@ -59,6 +63,12 @@ export default function App(){
   const [templateScope,setTemplateScope]=useState<'all'|'cast'>('all')
   const castSequence=useRef(0)
   const alive=useRef(true), revision=useRef(0),editorId=useRef(crypto.randomUUID())
+  const projects=useProjects(plan,prompt,rendered,(p,text,r)=>{setPlan(p);setPrompt(text);setRendered(r);setRenderError('');setCandidates([]);setGeneration(null)})
+  const [projectName,setProjectName]=useState(''),[renaming,setRenaming]=useState(false)
+  const pendingAgent=useRef<string[]|null>(null),switchQueue=useRef(Promise.resolve())
+  function openProject(id:string){const next=switchQueue.current.catch(()=>{}).then(async()=>{await projects.open(id);setView('workbench');setRenderError('')});switchQueue.current=next;return next}
+  function agentResults(ids:string[]){if(canvasGesture){pendingAgent.current=ids;return}if(ids[0])void openProject(ids[0]).then(()=>setNotice('Agent 成品已同步到画布，可以继续细调；之前的创作已保存到项目库。')).catch(e=>setNotice(errorText(e)))}
+  useEffect(()=>{if(!canvasGesture&&pendingAgent.current){const ids=pendingAgent.current;pendingAgent.current=null;agentResults(ids)}},[canvasGesture])
   const selected=assets.find(a=>a.id===plan?.asset_id)
   const selectedTemplate=templates.find(t=>t.id===plan?.template_id)
   const selectedLayout=selectedTemplate?.layout_id||plan?.template_id||'bottom'
@@ -71,7 +81,7 @@ export default function App(){
     setAssets(a);setTemplates(t);setFonts(f);setEffects(motions)
     setStatus(old=>old?{...old,model_configured:s.model_configured}:old)
     const first=a.find(x=>x.metadata.is_cutout&&x.metadata.role==='subject')||a.find(x=>x.metadata.role!=='background')
-    setPlan(current=>current&&a.some(x=>x.id===current.asset_id)?current:first?makePlan(first):null)
+    setPlan(current=>current|| (first?makePlan(first):null))
     setLoading(false)
     const [p,c]=await Promise.all([api<Preset[]>('/creative-presets'),api<Caption[]>('/captions')])
     setPresets(p);setCaptions(c)
@@ -83,7 +93,7 @@ export default function App(){
   })()},[])
   useEffect(()=>{localStorage.setItem('ep-intent',prompt)},[prompt])
   useEffect(()=>{
-    if(!plan||!role)return
+    if(!plan||!role||!projects.ready)return
     const version=++revision.current,controller=new AbortController()
     setRenderBusy(true)
     const timer=setTimeout(async()=>{
@@ -96,7 +106,7 @@ export default function App(){
       finally{if(!controller.signal.aborted&&alive.current&&version===revision.current)setRenderBusy(false)}
     },300)
     return()=>{clearTimeout(timer);controller.abort()}
-  },[plan,role])
+  },[plan,role,projects.ready])
   function update(values:Partial<Plan>){setPlan(p=>p?reconcileBindings({...p,...values}):p)}
   async function commitCast(id:TemplateId,base:Plan,count?:number,additional:string[]=[],applyDefaults=true){
     const before=plan,sequence=++castSequence.current
@@ -159,7 +169,7 @@ export default function App(){
       const {job_id}=await api<{job_id:string}>('/generations',{method:'POST',body:JSON.stringify({prompt,format:outputFormat,character:character||null}),signal:controller.signal})
       unsubscribe=subscribeJob(job_id,event=>setProcessEvents(old=>appendProcessEvent(old,event)))
       const result=await waitJob<Generation>(job_id,setGenStatus,controller.signal)
-      setCandidates(result.candidates);setGeneration(result);setPlan(result.candidates[0].plan);setRendered(result.candidates[0])
+      const saved=await captureOutputs(result.candidates,'ai',job_id,prompt);candidateProjects.current=saved;await openProject(saved[0]);setCandidates(result.candidates);setGeneration(result)
     }catch(e){setNotice(controller.signal.aborted?'制作已取消，输入和当前编辑内容已保留。':errorText(e)+'；也可以在预览下方选择主题，继续手动制作。')}finally{unsubscribe();generationAbort.current=null;setGenerating(false);setGenStatus('')}
   }
   if(loading)return <div className="loading-page"><Brand/><LoaderCircle className="spin" size={26}/></div>
@@ -171,17 +181,21 @@ export default function App(){
       <button className={view==='workbench'?'nav-active':''} onClick={()=>setView('workbench')}><WandSparkles size={16}/>制作工作台</button>
       <button className={view==='library'?'nav-active':''} onClick={()=>setView('library')}><Layers3 size={16}/>灵感素材库<span>{assets.length}</span></button>
       <button className={view==='content'?'nav-active':''} onClick={()=>openContent('captions')}><Type size={16}/>文案与模板<span>{captions.length}</span></button>
+      <button className={view==='projects'?'nav-active':''} onClick={()=>{void projects.save().then(()=>setView('projects')).catch(e=>setNotice(errorText(e)))}}><ImagePlus size={16}/>我的项目</button>
     </nav><div className="header-actions"><span className={'connection '+(status?.model_configured?'online':'')}><i/>{status?.model_configured?'AI 已配置':'AI 待配置'}</span>
       <button className="icon-button" title="浏览器设置" aria-label="浏览器设置" onClick={()=>setAdminOpen(true)}><Settings2 size={19}/></button>
           </div></header>
     <main>
-      <section className="intro"><div><div className="eyebrow"><span/>一点灵感，无限表情</div><h1>{view==='workbench'?<>把想说的话，<em>变成表情。</em></>:view==='content'?'差一句话，还是一个好点子？':'每一种情绪，都有一张脸。'}</h1>
-        <p>{view==='workbench'?'说出你的意思，选一个对味的表情。剩下的，交给一点小创作。':view==='content'?'从常用文案和现成组合开始。找到喜欢的，再改成自己的。':'熟悉的面孔，新鲜的表达。从一张喜欢的素材开始。'}</p></div>
+      <section className="intro"><div><div className="eyebrow"><span/>一点灵感，无限表情</div><h1>{view==='workbench'?<>把想说的话，<em>变成表情。</em></>:view==='content'?'差一句话，还是一个好点子？':view==='projects'?'留住灵感，下次接着做。':'每一种情绪，都有一张脸。'}</h1>
+        <p>{view==='workbench'?'说出你的意思，选一个对味的表情。剩下的，交给一点小创作。':view==='content'?'从常用文案和现成组合开始。找到喜欢的，再改成自己的。':view==='projects'?'每次制作都留下可编辑的项目。重新打开，继续打磨。':'熟悉的面孔，新鲜的表达。从一张喜欢的素材开始。'}</p></div>
         <div className="intro-badge"><Sticker size={24}/><span><strong>{characters.length} 个熟悉面孔</strong><small>校内原创 × 日常热梗</small></span><span className="badge-spark">✦</span></div>
       </section>
       {notice&&<div className="notice dismissible" role="alert"><CircleHelp size={17}/><span>{notice}</span><button className="icon-button" aria-label="关闭提示" onClick={()=>setNotice('')}><X size={16}/></button></div>}
       {assets.length===0&&<div className="empty-state"><ImagePlus size={36}/><h2>素材库还是空的</h2><p>可以在浏览器设置中导入图片，再开始创作。</p><button className="button primary" onClick={()=>setAdminOpen(true)}>管理素材</button></div>}
-      <AgentBridge onPlan={p=>{setPlan(p);setView('workbench');setRenderError('')}}/>
+      <AgentBridge onResults={agentResults} onOpen={id=>void openProject(id).catch(e=>setNotice(errorText(e)))} onError={setNotice}/>
+      <section className="project-bar" aria-label="当前项目"><div>{renaming?<form onSubmit={e=>{e.preventDefault();void projects.rename(projectName).then(()=>setRenaming(false)).catch(e=>setNotice(errorText(e)))}}><input aria-label="当前项目名称" value={projectName} onChange={e=>setProjectName(e.target.value)} maxLength={100} required autoFocus/><button>确定</button><button type="button" onClick={()=>setRenaming(false)}>取消</button></form>:<><strong data-testid="current-project-name">{projects.project?.name||'新创作'}</strong><button className="text-button" onClick={()=>{setProjectName(projects.project?.name||'新创作');setRenaming(true)}}>重命名</button></>}<small role="status" data-testid="project-save-status">{projects.saveStatus}</small></div><div className="theme-actions"><button onClick={()=>void projects.save().then(()=>setNotice('当前项目已保存。')).catch(e=>setNotice(errorText(e)))}>保存项目</button><button onClick={()=>{if(subjects[0])void projects.create(makePlan(subjects[0])).then(()=>setView('workbench')).catch(e=>setNotice(errorText(e)))}}>新建项目</button><button onClick={()=>void projects.save().then(()=>setView('projects')).catch(e=>setNotice(errorText(e)))}>历史作品 / 打开</button></div></section>
+      {projects.error&&<div className="error-message" role="alert">项目保存异常：{projects.error}。请保持页面打开并备份成品。</div>}
+      {view==='projects'&&<ProjectLibrary activeId={projects.project?.id} onOpen={openProject} onClose={()=>setView('workbench')} onNotice={setNotice}/>}
       {view==='workbench'&&assets.length>0&&<div className="workbench">
         <aside className="intent-column"><section className="panel intent-panel">
           <div className="section-heading"><span className="step">01</span><h2>先说说你的意思</h2><span className="tiny-label">IDEA</span></div>
@@ -211,7 +225,7 @@ export default function App(){
           {plan&&<ThemeWorkbench plan={plan} onChange={setPlan} onNotice={setNotice}/>}
           <div className="candidate-heading"><h2>{candidates.length?'为你找到三种表达':'从一个熟悉的表情开始'}</h2><span>{candidates.length?'点击切换方案':'灵感素材 · 点击试用'}</span></div>
           {generation&&<div className="intent-tags">{[generation.intent.scene,generation.intent.emotion,generation.intent.tone].map(x=><span key={x}>{x}</span>)}</div>}
-          <div className="candidate-grid">{candidates.length?candidates.map((c,i)=><button key={i} className={'candidate '+(plan?.asset_id===c.plan.asset_id&&plan?.text===c.plan.text?'candidate-active':'')} onClick={()=>{setPlan(c.plan);setRendered(c)}}><span className="candidate-style">{c.style}<span>0{i+1}</span></span><img src={c.url} alt={c.plan.text}/><strong>{c.plan.text}</strong><small>{c.reason}</small></button>):
+          <div className="candidate-grid">{candidates.length?candidates.map((c,i)=><button key={i} className={'candidate '+(plan?.asset_id===c.plan.asset_id&&plan?.text===c.plan.text?'candidate-active':'')} onClick={()=>{const id=candidateProjects.current[i];if(id)void openProject(id).then(()=>{setCandidates(candidates);setGeneration(generation)}).catch(e=>setNotice(errorText(e)));else{setPlan(c.plan);setRendered(c)}}}><span className="candidate-style">{c.style}<span>0{i+1}</span></span><img src={c.url} alt={c.plan.text}/><strong>{c.plan.text}</strong><small>{c.reason}</small></button>):
             inspirationAssets.slice(0,3).map((a,i)=><button key={a.id} className={'candidate sample-candidate '+(a.id===selected?.id?'candidate-active':'')} onClick={()=>chooseAsset(a)}><span className="candidate-style">{a.character}<span>0{i+1}</span></span><img src={a.poster_url||a.url} alt={a.name}/><strong>{a.metadata.is_cutout?'透明主体 · 自由组合':a.metadata.emotion.slice(0,2).join(' / ')||a.name}</strong><small>{a.metadata.scenes[0]||'日常表达'}</small></button>)}</div>
           {presets.length>0&&<><div className="candidate-heading"><h2>换一种玩法</h2><button className="text-button" onClick={()=>openContent('presets')}>查看全部 {presets.length} 种<ArrowRight size={12}/></button></div><div className="preset-grid">{presets.slice(0,4).map(p=><button key={p.id} className="preset-card" onClick={()=>{setPlan(p.plan);setRenderError('')}}><img className="preset-sample" src={p.preview_url} alt={p.name+'组合样例'} loading="lazy"/><div><strong>{p.name}</strong><small>{p.description}</small></div><ArrowRight size={14}/></button>)}</div></>}
         </section>

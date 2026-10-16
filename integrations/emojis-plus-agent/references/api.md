@@ -70,3 +70,9 @@ curl -H "Authorization: Bearer $EP_BRIDGE_TOKEN" -H "Content-Type: application/j
 Codex and other products that understand `SKILL.md` can discover the skill after it is placed in their skill directory. WorkBuddy or another Agent can use the same HTTP interface and Python client; its installation directory depends on that product's configuration. No vendor-specific SDK is required.
 
 Browser local-network requests require appropriate browser permission. The page initiates requests to a loopback/LAN bridge and includes `targetAddressSpace` for supporting browsers; see [MDN local network access](https://developer.mozilla.org/en-US/docs/Web/Security/Defenses/Local_network_access). Do not bypass permission or certificate warnings. A local static workbench can be used when the browser does not support Pages-to-local connectivity; model settings are stored separately for each browser origin.
+
+## Reconnection and editable results (v1.1)
+
+The web page remembers pairing and reconnects after refresh or a network interruption. Tabs of the same website share one transport, so they appear as one browser in `/api/v1/browsers`. A `client_id` on `/bridge/register` resumes that logical browser ID, rotates its private transport key, and fails an interrupted active job explicitly. Jobs can then be retried; they are never silently replayed. The standalone bridge reuses its existing config token after restart unless launched with `--rotate-token`.
+
+Every completed candidate is saved in the browser project library. By default it opens the first result in the workbench after saving current edits. This can be disabled by the owner. The Agent receives the same plans and rendered files as before; it cannot read arbitrary browser projects or model credentials. Projects survive page/bridge restarts in that browser; relay jobs/files remain temporary memory.
