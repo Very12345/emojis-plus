@@ -22,7 +22,7 @@ export function chatReady(p:Plan,mode?:ChatMode,chaser=1):Plan{
  if(kind==='chase'){positions[chaser]=[.28,.47];positions[1-chaser]=[.72,.56]}
  next.primary_x=positions[0][0];next.primary_y=positions[0][1];next.primary_scale=1;next.rotation=kind==='chase'?-8:0;
  next.characters=next.characters.map((a,i)=>({...a,x:positions[i+1][0],y:positions[i+1][1],scale:1,rotation:kind==='chase'?-8:0}));
- const original=next.text_boxes;next.text_boxes={text:{...original?.text,x:.04,y:.75,width:.92,height:.20,font_size:font,font_style:'bold',text_color:'#15231d',letter_spacing:0,line_spacing:1.16,fit:'fixed',text_backdrop:next.composition?'light':'none'},secondary_text:{...original?.secondary_text,x:.05,y:.025,width:.90,height:.12,font_size:40,font_style:'bold',text_color:'#334439',letter_spacing:0,line_spacing:1.16,fit:'fixed',text_backdrop:next.composition?'light':'none'}};
+ const original=next.text_boxes,main={...original?.text};for(const key of ['font_size','font_style','text_color','letter_spacing','line_spacing']as const)delete main[key];next.text_boxes={text:{...main,x:.04,y:.75,width:.92,height:.20,fit:'fixed',text_backdrop:next.composition?'light':'none'},secondary_text:{...original?.secondary_text,x:.05,y:.025,width:.90,height:.12,font_size:40,font_style:'bold',text_color:'#334439',letter_spacing:0,line_spacing:1.16,fit:'fixed',text_backdrop:next.composition?'light':'none'}};
  const r=chatRegions(next);Object.assign(next.text_boxes.text!,r.text);Object.assign(next.text_boxes.secondary_text!,r.secondary);
  if(kind==='chase'&&!next.composition&&next.background_style!=='image'){next.background_style='gradient';next.background='#fff2d4';next.background_secondary='#ffdca9';next.prop_color='#ed7045'}
  return next
