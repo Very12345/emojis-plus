@@ -13,7 +13,7 @@ let editor:RenderQueue,background:RenderQueue
 const resultCache={editor:new Map<string,Rendered>(),background:new Map<string,Rendered>()}
 export async function renderLocal(catalog:Catalog,plan:Plan,signal?:AbortSignal,thumbnail=false):Promise<Rendered>{
  const {template}=validatePlan(plan,catalog),input={plan,template,effects:catalog.effects,assets:catalog.assets.filter(a=>[plan.asset_id,...plan.characters.map(c=>c.asset_id),plan.background_asset_id].includes(a.id)),fonts:catalog.fonts,base:new URL(import.meta.env.BASE_URL,location.href).href}
- const cache=thumbnail?resultCache.background:resultCache.editor,key=RENDER_VERSION+JSON.stringify(input),cached=cache.get(key);if(cached){cache.delete(key);cache.set(key,cached);return {...cached,info:{...cached.info,elapsed_ms:0,cache_hit:true}}}
+ const cache=thumbnail?resultCache.background:resultCache.editor,key=RENDER_VERSION+JSON.stringify(input),cached=cache.get(key);if(cached){cache.delete(key);cache.set(key,cached);return {...cached,plan:structuredClone(plan),info:{...cached.info,elapsed_ms:0,cache_hit:true}}}
  const started=performance.now(),q=thumbnail?(background??=new RenderQueue()):(editor??=new RenderQueue()),result=await q.run(input,signal);if(signal?.aborted)throw new DOMException('Aborted','AbortError')
  const rendered={url:URL.createObjectURL(result.blob),filename:'emojis-plus-'+Date.now()+'.'+plan.format,info:{...result.info,elapsed_ms:Math.round(performance.now()-started),cache_hit:false},plan:structuredClone(plan)};cache.set(key,rendered);while(cache.size>16){const oldest=cache.keys().next().value!;URL.revokeObjectURL(cache.get(oldest)!.url);cache.delete(oldest)}return rendered
 }
