@@ -1,4 +1,5 @@
 import useProjects from './useProjects'
+import ChatPreview from './ChatPreview'
 import ProjectLibrary from './ProjectLibrary'
 import {captureOutputs} from './local/projects'
 import AgentBridge from './AgentBridge'
@@ -217,7 +218,7 @@ export default function App(){
         <section className="little-note"><span>✳</span><div><strong>好表情，不一定要大制作。</strong><p>一句话、一张脸，刚刚好就很好。</p></div></section></aside>
         <section className="creation-column">
           <section className="panel preview-panel"><div className="section-heading"><span className="step">02</span><h2>看看表达的样子</h2><span className="preview-live"><i/>{renderBusy?'正在更新':'实时预览'}</span></div>
-            {plan&&<CanvasEditor plan={plan} rendered={rendered} fallback={selected?.url} onChange={setPlan} onInteraction={setCanvasGesture}/>}
+            {plan&&<CanvasEditor plan={plan} rendered={rendered} fallback={selected?.url} onChange={setPlan} onInteraction={setCanvasGesture}><ChatPreview plan={plan} rendered={rendered} onChange={setPlan} onNotice={setNotice}/></CanvasEditor>}
             {renderError&&<div className="render-error" role="alert">{renderError}<button onClick={()=>setPlan(p=>p?{...p}:p)}>重新渲染</button></div>}
             <div className="preview-footer"><span className="character-label"><Smile size={14}/>{selected?.character}<span>·</span>{plan?.format.toUpperCase()} {plan?.size} × {plan?.size}</span>
               <button className="text-button" onClick={()=>setView('library')}>换个表情<RefreshCw size={13}/></button></div>

@@ -28,7 +28,7 @@ export function applyTemplatePlan(catalog:Catalog,id:string,base:Plan,count?:num
  while(cast.length<desired-1){const other=chooseSubject(catalog.assets,'','',used);if(!other)throw Error('缺少可用人物。');cast.push({id:crypto.randomUUID(),asset_id:other.id,x:.5,y:.5,scale:.5,rotation:0,flip:false,opacity:1,effect:'none',strength:.5,speed:1});used.push(other.character)}
  const positions=template.cast?.length===desired?template.cast:slots(desired)
  cast.forEach((layer,i)=>{let a=catalog.assets.find(a=>a.id===layer.asset_id);if(!a)throw Error('同框素材不可用。');if(template.requires_transparency&&!a.info.has_transparency){a=chooseSubject(catalog.assets.filter(v=>v.info.has_transparency),a.character);if(!a)throw Error('同框人物需要透明素材。');layer.asset_id=a.id}Object.assign(layer,positions[i+1]);if(a.metadata.allow_flip===false||a.metadata.existing_text)layer.flip=false})
- const result={...base,...(defaults?template.defaults:{}),asset_id:primary.id,template_id:id,...(id!==base.template_id?{composition:undefined,narrative:undefined,prop_layers:base.prop_layers?.filter(l=>l.origin!=='theme')}:{}),emblem:false,characters:cast,primary_x:positions[0].x,primary_y:positions[0].y,primary_scale:positions[0].scale,rotation:positions[0].rotation,actor_transforms:undefined,...(id!==base.template_id?{text_boxes:undefined}:{})}
+ const result={...base,...(defaults?template.defaults:{}),asset_id:primary.id,template_id:id,...(id!==base.template_id?{composition:undefined,narrative:undefined,prop_layers:base.prop_layers?.filter(l=>l.origin!=='theme')}:{}),emblem:false,chat_layout:id===base.template_id&&desired===base.characters.length+1?base.chat_layout:undefined,characters:cast,primary_x:positions[0].x,primary_y:positions[0].y,primary_scale:positions[0].scale,rotation:positions[0].rotation,actor_transforms:undefined,...(id!==base.template_id?{text_boxes:undefined}:{})}
  if(!template.supports_embedded)result.text_placement='caption'
  if(primary.metadata.allow_flip===false||primary.metadata.existing_text)result.flip=false
  if(defaults){if(!result.text.trim())result.text=template.sample.text||'';if(!result.secondary_text.trim())result.secondary_text=template.sample.secondary_text||''}
@@ -54,6 +54,7 @@ export function validatePlan(plan:Plan,catalog:Catalog){
  if(typeof plan.text!=='string'||typeof plan.secondary_text!=='string'||[...plan.text].length>160||[...plan.secondary_text].length>100)throw Error('文字格式无效或超出长度限制。')
  if(!['jpg','gif'].includes(plan.format)||![256,512].includes(plan.size))throw Error('不支持的导出格式或尺寸。')
  const count=plan.characters.length+1;if(count<(t.min_characters||1)||count>(t.max_characters||6))throw Error('人物数量不符合模板要求。')
+ if(plan.chat_layout){const c=plan.chat_layout;if(!['reaction','duo','group','chase'].includes(c.mode)||typeof c.motion!=='boolean'||!Number.isInteger(c.chaser)||c.chaser<0||c.chaser>=count||c.mode==='chase'&&count!==2||t.layout_id!=='scene')throw Error('聊天构图模式、人数或追赶者无效。')}
  if(a.metadata.existing_text&&plan.text_placement==='embedded'&&!a.metadata.text_safe_area)throw Error('带字底图请使用图外配字。')
  if(plan.flip&&(a.metadata.allow_flip===false||a.metadata.existing_text))throw Error('该素材需要保持原方向。')
  const effects=new Set(['none',...catalog.effects.map(e=>e.id)])

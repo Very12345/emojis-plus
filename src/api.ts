@@ -24,6 +24,7 @@ export interface Asset {
 export interface Animation {handler:string;duration_ms:number;poster_time:number;parameters:('strength'|'copies'|'direction'|'prop_color')[]}
 export interface Template {id: TemplateId; name: string; description: string; enabled: boolean;layout_id?:string;requires_transparency?:boolean;supports_embedded?:boolean;defaults?:Partial<Plan>;motions?:{effect_id:string;target:string;speed:number}[];layout?:{captions:{field:string}[];subject_mode:string};cast?:{x:number;y:number;scale:number;rotation:number}[];min_characters?:number;max_characters?:number;category_id?:string;subcategory_id?:string;category_name?:string;subcategory_name?:string;tags?:string[];animation?:Animation|null;preview_version?:string;sample?:Partial<Plan>}
 export interface Plan {
+  chat_layout?:{mode:'reaction'|'duo'|'group'|'chase';chaser:number;motion:boolean}
   asset_id: string; template_id: TemplateId; text: string; secondary_text: string;
   format: 'jpg' | 'gif'; size: 256 | 512; font_size: number; background: string; text_color: string;
   text_x: number; text_y: number; effect: Effect; strength: number; flip: boolean; zoom: number; emblem: boolean
@@ -46,7 +47,7 @@ export interface Preset {id: string; name: string; description: string; category
 export interface Caption {id: string; category: string; text: string; secondary_text: string; tags: string[]}
 export function samePlan(a: Plan, b: Plan) {const keys=(p:Plan)=>(Object.keys(p)as(keyof Plan)[]).filter(k=>p[k]!==undefined),left=keys(a),right=keys(b);return left.length===right.length&&left.every(k=>JSON.stringify(a[k])===JSON.stringify(b[k]))}
 export interface Rendered {
-  url: string; filename: string; info: {width: number; height: number; frames: number; duration_ms: number;elapsed_ms?:number;cache_hit?:boolean}; plan: Plan
+  url: string; filename: string; info: {width: number; height: number; frames: number; duration_ms: number;elapsed_ms?:number;cache_hit?:boolean;quality?:{warnings:string[];subject_height:number;text_px_at_128:number}}; plan: Plan
 }
 export interface Candidate extends Rendered {style: string; reason: string}
 export interface Generation {intent: {scene: string; target: string; emotion: string; tone: string}; candidates: Candidate[]}

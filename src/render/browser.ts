@@ -1,3 +1,4 @@
+import {chatQuality} from './quality'
 import {parseGIF,decompressFrame} from 'gifuct-js'
 import * as gifencModule from 'gifenc'
 // gifenc's ESM default is the encoder function; its CommonJS default is an object.
@@ -45,12 +46,12 @@ export async function loadRenderResources(input:RenderInput,cancel=()=>false){
 }
 export async function renderBrowser(input:RenderInput,cancel=()=>false,progress=(n:number)=>{}){
  const {sources,bg}=await loadRenderResources(input,cancel),renderer=prepareRenderer(input,sources,factory,bg),p=input.plan
- if(p.format==='jpg'){const canvas=renderer.draw(renderer.poster);const blob=await canvasBlob(canvas,'image/jpeg');return {blob,info:{width:p.size,height:p.size,frames:1,duration_ms:0}}}
+ if(p.format==='jpg'){const canvas=renderer.draw(renderer.poster);const blob=await canvasBlob(canvas,'image/jpeg');return {blob,info:{width:p.size,height:p.size,frames:1,duration_ms:0,quality:chatQuality(p,renderer)}}}
  return encodeAnimation(renderer,p,cancel,progress)
 }
 export async function encodeAnimation(renderer:ReturnType<typeof prepareRenderer>,p:RenderInput['plan'],cancel=()=>false,progress=(n:number)=>{}){
  const gif=GIFEncoder(),samples:number[]=[];for(let i=0;i<8;i++){const data=renderer.draw(i*renderer.duration/8).getContext('2d').getImageData(0,0,p.size,p.size).data;for(let j=0;j<data.length;j+=16)samples.push(data[j],data[j+1],data[j+2],255)}const palette=quantize(new Uint8Array(samples),256,{format:'rgb565'});let ms=0
  for(let i=0;i<renderer.delays.length;i++){check(cancel);const data=renderer.draw(ms).getContext('2d').getImageData(0,0,p.size,p.size).data,index=applyPalette(data,palette,'rgb565');gif.writeFrame(index,p.size,p.size,{palette,delay:renderer.delays[i],repeat:renderer.loop===null?-1:renderer.loop,dispose:2});ms+=renderer.delays[i];progress((i+1)/renderer.delays.length);await yieldUI()}
- gif.finish();return {blob:new Blob([gif.bytesView()],{type:'image/gif'}),info:{width:p.size,height:p.size,frames:renderer.delays.length,duration_ms:renderer.duration}}
+ gif.finish();return {blob:new Blob([gif.bytesView()],{type:'image/gif'}),info:{width:p.size,height:p.size,frames:renderer.delays.length,duration_ms:renderer.duration,quality:chatQuality(p,renderer)}}
 }
 function canvasBlob(canvas:any,type:string):Promise<Blob>{return canvas.convertToBlob?canvas.convertToBlob({type,quality:.94}):new Promise((resolve,reject)=>canvas.toBlob((b:Blob|null)=>b?resolve(b):reject(Error('图片编码失败')),type,.94))}

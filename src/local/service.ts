@@ -8,6 +8,7 @@ import {configured,readSettings,saveSettings,recommend} from './ai'
 import {renderLocal} from '../render/client'
 import {readLocal,writeLocal} from './storage'
 import {decodeSource} from '../render/browser'
+import {chatReady} from '../chat/layout'
 const jobs=new Map<string,{promise:Promise<any>;status:string;events:ProcessEvent[];listeners:Set<(e:ProcessEvent)=>void>;result?:any;error?:string}>()
 function job(run:(report:ProcessReporter)=>Promise<any>){const id=crypto.randomUUID(),entry={promise:Promise.resolve<any>(null),status:'queued',events:[]as ProcessEvent[],listeners:new Set<(e:ProcessEvent)=>void>(),result:undefined as any,error:undefined as string|undefined};jobs.set(id,entry);const report:ProcessReporter=update=>{entry.status=update.stage;const e={...update,seq:(entry.events.at(-1)?.seq||0)+1,at:Date.now()};entry.events=appendProcessEvent(entry.events,e);entry.listeners.forEach(f=>f(e))};report({stage:'queued',message:'制作任务已创建。'});entry.promise=run(report).then(value=>{entry.result=value;report({stage:'completed',message:'制作完成，预览与下载使用同一份成品。',percent:100});return value},error=>{entry.error=error instanceof Error?error.message:'制作失败';report({stage:error?.name==='AbortError'?'cancelled':'failed',message:error?.name==='AbortError'?'制作已取消。':entry.error});throw error});entry.promise.catch(()=>{});while(jobs.size>64){const old=[...jobs].find(([key,value])=>key!==id&&['completed','failed','cancelled'].includes(value.status));if(!old)break;jobs.delete(old[0])}return {job_id:id}}
 export function subscribeJob(id:string,listener:(e:ProcessEvent)=>void){const task=jobs.get(id);if(!task)throw Error('本地任务不存在。');task.events.forEach(listener);task.listeners.add(listener);return ()=>{task.listeners.delete(listener)}}
@@ -19,6 +20,7 @@ export async function dispatch(path:string,options:RequestInit={}):Promise<any>{
  if(route==='/session')return {role:'admin',model_configured:configured()}
  if(route==='/admin/model'){if(write){const s=readSettings();saveSettings({...s,...body,api_key:body.api_key??s.api_key})}const s=readSettings();return {...s,api_key:undefined,configured:configured(),has_api_key:!!s.api_key}}
  const c=await getCatalog()
+ if(route==='/chat-layout'&&write){const p=chatReady(body.plan,body.mode,body.chaser_index??1);return p}
  if(route==='/assets'||route==='/admin/assets'&&!write)return c.assets.filter(a=>route.includes('admin')||a.enabled)
  if(route==='/templates'||route==='/admin/templates'&&!write)return c.templates.filter(t=>route.includes('admin')||t.enabled)
  if(route==='/themes')return (c.themes||[]).filter(t=>t.enabled)

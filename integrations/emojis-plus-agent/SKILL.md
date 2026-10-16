@@ -25,6 +25,10 @@ Choose either route:
 
 Use only IDs returned by the current connected catalog. Preserve a requested character. School characters are selected when the user actually refers to that school or deliberately requests them. Prefer annotated cutouts for theme scenes. An explicit composition can include `--person <asset-id>` repeatedly for up to five additional people.
 
+New `compose` requests default to chat presentation: tightly grouped characters, nearby captions, bold 56px design text (28px at 256 output), and zero extra letter spacing. Use `--presentation original` only for an intentional original layout. To portray pursuit, use `--interaction chase --chaser 1`: actor 0 is `--asset`, actor 1 is the first `--person`; `--chaser 1` means the supporting character chases the main character. For example, inspect the current IDs, then `compose --asset <crying-runner-id> --person <angry-chaser-id> --interaction chase --chaser 1 --text "别打了，我错了！" --format gif --wait --output ./memes`. Do not substitute two idle people for a requested interaction.
+
+The output's `info.quality` reports small-preview text size and layout warnings. Inspect the actual image at a 128px chat size: the characters, action, and punchline should be recognizable immediately. If the report says subjects are small, text is thin/small, or captions are distant/occluding faces, adjust before delivering. The browser also shows the 128px preview and **一键紧凑排版**. Prefer 2–10 Chinese characters in the main punchline; omit unnecessary narration. Do not add unrelated environments just to fill empty space. Low-level `render` preserves the submitted plan and never silently reflows an existing manual edit.
+
 To edit an existing result, modify its returned plan JSON and use `render <plan-file> --wait --output ./memes`. Font sizes are measured at a 512px design reference: `text_boxes.text.font_size` and each independent text layer override the plan's default font size. Preserve fields you do not intend to change, including theme and personal-motion settings.
 
 ## Inspect and finish

@@ -2,7 +2,7 @@ import {reconcileBindings} from './themes/plans'
 import ElementControls from './editor/ElementControls'
 import NumberInput from './editor/NumberInput'
 import './editor/editor.css'
-import {useEffect,useMemo,useRef,useState,type PointerEvent as ReactPointerEvent} from 'react'
+import {useEffect,useMemo,useRef,useState,type PointerEvent as ReactPointerEvent,type ReactNode} from 'react'
 import type {Plan,Rendered,TextBox} from './api'
 import type {Catalog,RenderInput} from './local/types'
 import type {CanvasElement} from './editor/types'
@@ -16,7 +16,7 @@ type Drag={plan:Plan;element:CanvasElement;mode:'move'|'scale'|'rotate'|'width';
 const clamp=(v:number,min:number,max:number)=>Math.max(min,Math.min(max,v))
 const makeInput=(catalog:Catalog,plan:Plan):RenderInput=>({plan,template:catalog.templates.find(t=>t.id===plan.template_id)!,assets:catalog.assets,fonts:catalog.fonts,effects:catalog.effects,themes:catalog.themes,props:catalog.props,compositions:catalog.compositions,base:new URL(import.meta.env.BASE_URL,location.href).href})
 
-export default function CanvasEditor({plan,rendered,fallback,onChange,onInteraction}:{plan:Plan;rendered:Rendered|null;fallback?:string;onChange:(p:Plan)=>void;onInteraction:(busy:boolean)=>void}){
+export default function CanvasEditor({plan,rendered,fallback,onChange,onInteraction,children}:{children?:ReactNode;plan:Plan;rendered:Rendered|null;fallback?:string;onChange:(p:Plan)=>void;onInteraction:(busy:boolean)=>void}){
  const [editing,setEditing]=useState(true),[working,setWorking]=useState(plan),[selected,setSelected]=useState('text'),[textEdit,setTextEdit]=useState<string|null>(null)
  const [loaded,setLoaded]=useState<{catalog:Catalog;data:Resources}|null>(null),[loading,setLoading]=useState(false),[loadError,setLoadError]=useState(''),[guides,setGuides]=useState<[boolean,boolean]>([false,false])
  const canvas=useRef<HTMLCanvasElement>(null),svg=useRef<SVGSVGElement>(null),drag=useRef<Drag|null>(null),current=useRef(plan),latestProp=useRef(plan),textStart=useRef(plan),lastElements=useRef<CanvasElement[]>([])
@@ -59,6 +59,7 @@ export default function CanvasEditor({plan,rendered,fallback,onChange,onInteract
    </div>
    {loading&&<span className="render-status">正在准备编辑素材…</span>}
   </div>
+  {children}
   {element?.boundPropId&&<p className="canvas-hint">文字跟随气泡的位置和角度。拖动气泡调整，双击气泡改字；字号和字形仍可独立设置。</p>}
   {error&&<p role="alert" className="render-error">{error}</p>}
   {editing&&element&&<div className="element-inspector">

@@ -24,7 +24,7 @@ def main():
     def wait_options(cmd):
         cmd.add_argument('--wait',action='store_true');cmd.add_argument('--output');cmd.add_argument('--timeout',type=float,default=240)
     g=sub.add_parser('generate');g.add_argument('prompt');g.add_argument('--character');g.add_argument('--format',choices=['jpg','gif'],default='jpg');wait_options(g)
-    c=sub.add_parser('compose');c.add_argument('--asset',required=True);c.add_argument('--composition');c.add_argument('--template');c.add_argument('--text',default='');c.add_argument('--secondary',default='');c.add_argument('--person',action='append',default=[]);c.add_argument('--motion');c.add_argument('--format',choices=['jpg','gif'],default='jpg');c.add_argument('--size',type=int,choices=[256,512],default=256);wait_options(c)
+    c=sub.add_parser('compose');c.add_argument('--asset',required=True);c.add_argument('--composition');c.add_argument('--template');c.add_argument('--text',default='');c.add_argument('--secondary',default='');c.add_argument('--person',action='append',default=[]);c.add_argument('--motion');c.add_argument('--presentation',choices=['chat','original'],default='chat');c.add_argument('--interaction',choices=['none','chase'],default='none');c.add_argument('--chaser',type=int,choices=[0,1],default=1);c.add_argument('--format',choices=['jpg','gif'],default='jpg');c.add_argument('--size',type=int,choices=[256,512],default=256);wait_options(c)
     r=sub.add_parser('render');r.add_argument('plan_file');r.add_argument('--candidate',type=int,choices=[1,2,3],default=1);wait_options(r)
     s=sub.add_parser('status');s.add_argument('job_id');wait_options(s)
     x=sub.add_parser('cancel');x.add_argument('job_id')
@@ -52,7 +52,7 @@ def main():
         if a.command=='status':result=request('/api/v1/jobs/'+a.job_id)
         else:
             if a.command=='generate':body={'operation':'generate','prompt':a.prompt,'format':a.format,'character':a.character}
-            elif a.command=='compose':body={'operation':'compose','asset_id':a.asset,'composition_id':a.composition,'template_id':a.template,'text':a.text,'secondary_text':a.secondary,'characters':a.person,'format':a.format,'size':a.size,'options':{'primary_motion':{'effect':a.motion,'strength':.5,'speed':1}}if a.motion else {}}
+            elif a.command=='compose':body={'operation':'compose','asset_id':a.asset,'composition_id':a.composition,'template_id':a.template,'text':a.text,'secondary_text':a.secondary,'characters':a.person,'format':a.format,'size':a.size,'presentation':a.presentation,'interaction':a.interaction,'chaser_index':a.chaser,'options':{'primary_motion':{'effect':a.motion,'strength':.5,'speed':1}}if a.motion else {}}
             else:
                 plan=json.loads(Path(a.plan_file).read_text(encoding='utf-8'));plan=plan.get('result',plan);plan=plan['candidates'][a.candidate-1] if isinstance(plan,dict)and'candidates'in plan else plan;body={'operation':'render','plan':plan.get('plan',plan)}
             if a.browser:body['browser_id']=a.browser

@@ -1,13 +1,15 @@
 import {actorIds} from '../themes/plans'
 import {propMatrix,drawProp,stageVisible} from '../themes/drawing'
 import {prepareThemedRenderer} from '../themes/renderer'
+import {chatRegions} from '../chat/layout'
 import type {Plan,Asset,TextField} from '../api'
 import type {CanvasElement} from '../editor/types'
 import type {RenderInput,DecodedSource} from '../local/types'
 import {buildScene,bounds,captionVisibility,clamp,matrix,multiply,type Matrix,type SurfaceFactory} from './scene'
-export const RENDER_VERSION='browser-canvas-v5-agent-workstation'
+export const RENDER_VERSION='browser-canvas-v6-chat-composition'
 export type Rect=[number,number,number,number]
 export function regions(p:Plan,t:any):{image:Rect;captions:{field:string;rect:Rect}[]} {
+ if(p.chat_layout){const r=chatRegions(p,true),s=p.size;return {image:r.image.map(v=>v*s)as Rect,captions:[{field:'text',rect:[r.text.x*s,r.text.y*s,r.text.width*s,r.text.height*s]},{field:'secondary_text',rect:[r.secondary.x*s,r.secondary.y*s,r.secondary.width*s,r.secondary.height*s]}]}}
  const s=p.size,m=s*.045,rect=(v:number[])=>v.map(x=>x*s) as Rect,caption=(r:number[],field='text')=>({field,rect:rect(r)})
  const custom=t.layout
  if(custom?.image){const r=custom.image;return {image:rect(Array.isArray(r)?r:[r.x,r.y,r.width,r.height]),captions:custom.captions.map((c:any)=>({field:c.field,rect:rect(c.rect?Object.values(c.rect):[c.x,c.y,c.width,c.height])}))}}
@@ -23,6 +25,7 @@ export function regions(p:Plan,t:any):{image:Rect;captions:{field:string;rect:Re
 }
 export function timing(input:RenderInput,sources:DecodedSource[]){
  const p=input.plan,a=input.template.animation
+ if(p.chat_layout?.mode==='chase'&&p.chat_layout.motion)return {duration:2400,delays:Array(24).fill(100),loop:0}
  const animated=p.template_motion&&(a||input.template.motions.length),extra=[p.effect,p.primary_motion?.effect||'none',...p.effects,...p.characters.map(c=>c.effect)].some(e=>e!=='none')
  if(animated||extra||sources.every(s=>s.frames.length===1)){const duration=Math.min(6000,Math.max(200,(a?.duration_ms||2000)/(a?p.template_speed:1))),count=Math.max(2,Math.round(duration/100));return {duration,delays:Array(count).fill(duration/count),loop:0}}
  const source=sources.find(s=>s.frames.length>1)!,delays:number[]=[];let duration=0
@@ -123,8 +126,8 @@ export function prepareRenderer(input:RenderInput,sources:DecodedSource[],factor
   if(t.animation?.handler==='window-pop'&&p.template_motion){ctx.beginPath();ctx.roundRect(w*.15,h*.2,w*.7,h*.62,w*.08);ctx.clip()}
   scene.before.forEach(f=>f(ctx));ctx.restore()
   const drawTasks:{z:number;draw:()=>void}[]=[]
-  for(const sprite of scene.sprites){if(p.element_states?.['actor:'+(sprite.actor||0)]?.hidden)continue;drawTasks.push({z:p.element_states?.['actor:'+(sprite.actor||0)]?.z??10+(sprite.actor||0),draw:()=>{ctx.save();const manual=transforms.get(sprite.actor??0);if(manual)ctx.transform(...manual);ctx.beginPath();ctx.rect(x,y,w,h);ctx.clip();ctx.transform(...world);if(t.animation?.handler==='window-pop'&&p.template_motion){ctx.beginPath();ctx.roundRect(w*.15,h*.2,w*.7,h*.62,w*.08);ctx.clip()}ctx.globalAlpha=sprite.alpha;if(sprite.ghost)ctx.filter='brightness(1.7) saturate(.15)';ctx.transform(...sprite.matrix);ctx.drawImage(sprite.image,-sprite.image.width/2,-sprite.image.height/2);ctx.restore()}})}
-  ctx.save();ctx.beginPath();ctx.rect(x,y,w,h);ctx.clip();ctx.transform(...world);scene.after.forEach(f=>f(ctx));ctx.restore()
+  for(const sprite of scene.sprites){if(p.element_states?.['actor:'+(sprite.actor||0)]?.hidden)continue;drawTasks.push({z:p.element_states?.['actor:'+(sprite.actor||0)]?.z??(p.chat_layout?.mode==='chase'?(sprite.actor===p.chat_layout.chaser?10:11):10+(sprite.actor||0)),draw:()=>{ctx.save();const manual=transforms.get(sprite.actor??0);if(manual)ctx.transform(...manual);ctx.beginPath();ctx.rect(x,y,w,h);ctx.clip();ctx.transform(...world);if(t.animation?.handler==='window-pop'&&p.template_motion){ctx.beginPath();ctx.roundRect(w*.15,h*.2,w*.7,h*.62,w*.08);ctx.clip()}ctx.globalAlpha=sprite.alpha;if(sprite.ghost)ctx.filter='brightness(1.7) saturate(.15)';ctx.transform(...sprite.matrix);ctx.drawImage(sprite.image,-sprite.image.width/2,-sprite.image.height/2);ctx.restore()}})}
+  const drawAfter=()=>{ctx.save();ctx.beginPath();ctx.rect(x,y,w,h);ctx.clip();ctx.transform(...world);scene.after.forEach(f=>f(ctx));ctx.restore()};if(p.chat_layout)drawTasks.push({z:24,draw:drawAfter});else drawAfter()
   if(['dialogue','comic'].includes(t.layout_id)&&sources.length===1&&!t.animation){const r=t.layout_id==='dialogue'?[.715,.61,.23,.25]:[.10,.555,.80,.30],im=frameAt(sources[0],ms),scale=Math.min(r[2]*p.size/im.width,r[3]*p.size/im.height);ctx.save();const manual=transforms.get(0);if(manual)ctx.transform(...manual);ctx.translate((r[0]+r[2]/2)*p.size,(r[1]+r[3]/2)*p.size);ctx.scale(-scale,scale);ctx.drawImage(im,-im.width/2,-im.height/2);ctx.restore()}
   const typewriter=[p.effect,...p.effects].some(id=>input.effects.find(e=>e.id===id)?.handler==='typewriter')&&p.format==='gif'
   resolvedCaptions.forEach((c,i)=>{if(p.prop_layers?.some(l=>l.text_id===c.id)||p.element_states?.[c.id]?.hidden||c.settings.hidden||!c.layerId&&!visible[i])return;drawTasks.push({z:p.element_states?.[c.id]?.z??40,draw:()=>{const text=c.text,rect=c.rect;ctx.save();if(c.rotation){ctx.translate(rect[0]+rect[2]/2,rect[1]+rect[3]/2);ctx.rotate(c.rotation*Math.PI/180);ctx.translate(-rect[0]-rect[2]/2,-rect[1]-rect[3]/2)}drawText(ctx,text,t.layout_id==='subtitle'&&!c.layerId?{...c.settings,text_color:'#ffffff',text_backdrop:'none'}:c.settings,rect,typewriter?Math.ceil([...text].length*clamp(ms/time.duration/.75)):Infinity);ctx.restore()}})})

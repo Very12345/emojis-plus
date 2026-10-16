@@ -76,3 +76,15 @@ Browser local-network requests require appropriate browser permission. The page 
 The web page remembers pairing and reconnects after refresh or a network interruption. Tabs of the same website share one transport, so they appear as one browser in `/api/v1/browsers`. A `client_id` on `/bridge/register` resumes that logical browser ID, rotates its private transport key, and fails an interrupted active job explicitly. Jobs can then be retried; they are never silently replayed. The standalone bridge reuses its existing config token after restart unless launched with `--rotate-token`.
 
 Every completed candidate is saved in the browser project library. By default it opens the first result in the workbench after saving current edits. This can be disabled by the owner. The Agent receives the same plans and rendered files as before; it cannot read arbitrary browser projects or model credentials. Projects survive page/bridge restarts in that browser; relay jobs/files remain temporary memory.
+
+## Chat presentation and pursuit
+
+New `compose` payloads default to `presentation: "chat"`; use `"original"` to retain legacy composition. Existing full plans supplied to compose retain their layout unless chat is explicitly requested. `interaction` is `"none"` or `"chase"`. A chase requires exactly two characters; `chaser_index: 0` assigns the primary actor as pursuer, `1` assigns the supporting actor. These fields are part of the request and discovered through catalog capabilities. Returned plans contain a validated `chat_layout`; it is saved with the project. Unsupported IDs, actor counts, modes and pursuer indices fail visibly.
+
+```json
+{"operation":"compose","asset_id":"original-nailong-gif-016","characters":["ai-nun-07"],"interaction":"chase","chaser_index":1,"presentation":"chat","text":"别打了，我错了！","format":"gif","size":256}
+```
+
+Check these asset IDs against the connected catalog before use. Pursuit uses a fixed 2.4s cycle with distinct pursuer/runner paths, synchronized bounce, speed lines and a brief comic impact mark. Body transforms and source GIF frames continue independently. Static export uses a representative pose. Switch `plan.chat_layout.motion` off to retain the compact static layout without the pursuit cycle.
+
+`result.info.quality` (and candidate info) adds `warnings`, `subject_height` as a canvas-height ratio, and `text_px_at_128` for the main caption. It is a layout sanity check, not a guarantee of humor or artistic quality. Preserve explicit user layouts on `render`; inspect or repair low-quality newly authored plans instead of declaring any successful HTTP result ready to send. A browser-local `/chat-layout` operation is also available through the in-page dispatcher for manual reflow; it is not a new HTTP backend.
