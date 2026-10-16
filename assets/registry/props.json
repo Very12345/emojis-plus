@@ -1,0 +1,170 @@
+{
+  "schema_version": 1,
+  "props": [
+    {
+      "id": "laptop",
+      "name": "电脑",
+      "handler": "laptop",
+      "description": "可绑定人物或固定场景的电脑",
+      "tags": [
+        "电脑",
+        "互动"
+      ],
+      "enabled": true
+    },
+    {
+      "id": "book",
+      "name": "书本",
+      "handler": "book",
+      "description": "可绑定人物或固定场景的书本",
+      "tags": [
+        "书本",
+        "互动"
+      ],
+      "enabled": true
+    },
+    {
+      "id": "paper",
+      "name": "作业纸",
+      "handler": "paper",
+      "description": "可绑定人物或固定场景的作业纸",
+      "tags": [
+        "作业纸",
+        "互动"
+      ],
+      "enabled": true
+    },
+    {
+      "id": "notice",
+      "name": "通知单",
+      "handler": "notice",
+      "description": "可绑定人物或固定场景的通知单",
+      "tags": [
+        "通知单",
+        "互动"
+      ],
+      "enabled": true
+    },
+    {
+      "id": "error",
+      "name": "错误窗口",
+      "handler": "error",
+      "description": "可绑定人物或固定场景的错误窗口",
+      "tags": [
+        "错误窗口",
+        "互动"
+      ],
+      "enabled": true
+    },
+    {
+      "id": "phone",
+      "name": "手机",
+      "handler": "phone",
+      "description": "可绑定人物或固定场景的手机",
+      "tags": [
+        "手机",
+        "互动"
+      ],
+      "enabled": true
+    },
+    {
+      "id": "cup",
+      "name": "茶杯",
+      "handler": "cup",
+      "description": "可绑定人物或固定场景的茶杯",
+      "tags": [
+        "茶杯",
+        "互动"
+      ],
+      "enabled": true
+    },
+    {
+      "id": "tray",
+      "name": "餐盘",
+      "handler": "tray",
+      "description": "可绑定人物或固定场景的餐盘",
+      "tags": [
+        "餐盘",
+        "互动"
+      ],
+      "enabled": true
+    },
+    {
+      "id": "clock",
+      "name": "时钟",
+      "handler": "clock",
+      "description": "可绑定人物或固定场景的时钟",
+      "tags": [
+        "时钟",
+        "互动"
+      ],
+      "enabled": true
+    },
+    {
+      "id": "question",
+      "name": "问号",
+      "handler": "question",
+      "description": "可绑定人物或固定场景的问号",
+      "tags": [
+        "问号",
+        "互动"
+      ],
+      "enabled": true
+    },
+    {
+      "id": "sweat",
+      "name": "汗滴",
+      "handler": "sweat",
+      "description": "可绑定人物或固定场景的汗滴",
+      "tags": [
+        "汗滴",
+        "互动"
+      ],
+      "enabled": true
+    },
+    {
+      "id": "heart",
+      "name": "爱心",
+      "handler": "heart",
+      "description": "可绑定人物或固定场景的爱心",
+      "tags": [
+        "爱心",
+        "互动"
+      ],
+      "enabled": true
+    },
+    {
+      "id": "confetti",
+      "name": "礼花",
+      "handler": "confetti",
+      "description": "可绑定人物或固定场景的礼花",
+      "tags": [
+        "礼花",
+        "互动"
+      ],
+      "enabled": true
+    },
+    {
+      "id": "speech",
+      "name": "对话气泡",
+      "handler": "speech",
+      "description": "可绑定人物或固定场景的对话气泡",
+      "tags": [
+        "对话气泡",
+        "互动"
+      ],
+      "enabled": true
+    },
+    {
+      "id": "thought",
+      "name": "思考气泡",
+      "handler": "thought",
+      "description": "可绑定人物或固定场景的思考气泡",
+      "tags": [
+        "思考气泡",
+        "互动"
+      ],
+      "enabled": true
+    }
+  ]
+}

@@ -1,3 +1,4 @@
+import {actorIds,eventHandlers,reconcileBindings} from '../themes/plans'
 import type {Asset,Plan} from '../api'
 import {makePlan} from '../api'
 import {assetSupportsTemplate} from '../library'
@@ -18,19 +19,20 @@ export function applyTemplatePlan(catalog:Catalog,id:string,base:Plan,count?:num
  const compatible=catalog.assets.filter(a=>a.character===primary!.character&&assetSupportsTemplate(a,template))
  if(!assetSupportsTemplate(primary,template))primary=compatible.find(a=>a.metadata.derived_from===primary!.id)||chooseSubject(compatible,primary.character)
  if(!primary)throw Error('当前角色没有适配素材，请选择透明版。')
- const others=[...base.characters.map(c=>({...c})),...additional.map(asset_id=>({asset_id,x:.5,y:.5,scale:.5,rotation:0,flip:false,opacity:1,effect:'none',strength:.5,speed:1}))]
+ const oldIds=actorIds(base)
+ const others=[...base.characters.map((c,i)=>({...c,id:oldIds[i+1]})),...additional.map(asset_id=>({id:crypto.randomUUID(),asset_id,x:.5,y:.5,scale:.5,rotation:0,flip:false,opacity:1,effect:'none',strength:.5,speed:1}))]
  const desired=count??Math.min(template.max_characters||6,Math.max(template.min_characters||1,template.cast?.length||0,others.length+1))
  if(!Number.isInteger(desired)||desired<1||desired>6)throw Error('画面支持1—6个人物。')
  if(desired<(template.min_characters||1)||desired>(template.max_characters||6))throw Error('人物数量不符合模板要求。')
  const cast=others.slice(0,desired-1),used=[primary.character,...cast.map(c=>catalog.assets.find(a=>a.id===c.asset_id)?.character||'')]
- while(cast.length<desired-1){const other=chooseSubject(catalog.assets,'','',used);if(!other)throw Error('缺少可用人物。');cast.push({asset_id:other.id,x:.5,y:.5,scale:.5,rotation:0,flip:false,opacity:1,effect:'none',strength:.5,speed:1});used.push(other.character)}
+ while(cast.length<desired-1){const other=chooseSubject(catalog.assets,'','',used);if(!other)throw Error('缺少可用人物。');cast.push({id:crypto.randomUUID(),asset_id:other.id,x:.5,y:.5,scale:.5,rotation:0,flip:false,opacity:1,effect:'none',strength:.5,speed:1});used.push(other.character)}
  const positions=template.cast?.length===desired?template.cast:slots(desired)
  cast.forEach((layer,i)=>{let a=catalog.assets.find(a=>a.id===layer.asset_id);if(!a)throw Error('同框素材不可用。');if(template.requires_transparency&&!a.info.has_transparency){a=chooseSubject(catalog.assets.filter(v=>v.info.has_transparency),a.character);if(!a)throw Error('同框人物需要透明素材。');layer.asset_id=a.id}Object.assign(layer,positions[i+1]);if(a.metadata.allow_flip===false||a.metadata.existing_text)layer.flip=false})
- const result={...base,...(defaults?template.defaults:{}),asset_id:primary.id,template_id:id,emblem:false,characters:cast,primary_x:positions[0].x,primary_y:positions[0].y,primary_scale:positions[0].scale,rotation:positions[0].rotation,actor_transforms:undefined,...(id!==base.template_id?{text_boxes:undefined}:{})}
+ const result={...base,...(defaults?template.defaults:{}),asset_id:primary.id,template_id:id,...(id!==base.template_id?{composition:undefined,narrative:undefined,prop_layers:base.prop_layers?.filter(l=>l.origin!=='theme')}:{}),emblem:false,characters:cast,primary_x:positions[0].x,primary_y:positions[0].y,primary_scale:positions[0].scale,rotation:positions[0].rotation,actor_transforms:undefined,...(id!==base.template_id?{text_boxes:undefined}:{})}
  if(!template.supports_embedded)result.text_placement='caption'
  if(primary.metadata.allow_flip===false||primary.metadata.existing_text)result.flip=false
  if(defaults){if(!result.text.trim())result.text=template.sample.text||'';if(!result.secondary_text.trim())result.secondary_text=template.sample.secondary_text||''}
- return result
+ return reconcileBindings(result)
 }
 export function resolvePresets(catalog:Catalog){
  const names=new Map(catalog.categories.map(c=>[c.id,c.name])),replacements=new Map((catalog.curation?.archived||[]).map((r:any)=>[r.id,r.replacement]))
@@ -73,5 +75,12 @@ export function validatePlan(plan:Plan,catalog:Catalog){
  if(plan.text_layers!==undefined){if(!Array.isArray(plan.text_layers)||plan.text_layers.length>10)throw Error('最多添加10个独立文字层。');const ids=new Set();for(const layer of plan.text_layers){if(!validBox(layer)||typeof layer.id!=='string'||!/^[-\w]{1,80}$/.test(layer.id)||ids.has(layer.id)||typeof layer.text!=='string'||[...layer.text].length>160||layer.text_color!==undefined&&!/^#[0-9a-f]{6}$/i.test(layer.text_color)||layer.font_family&&!['sans','serif','kuaile','xiaowei','qingke','mashan','longcang'].includes(layer.font_family))throw Error('独立文字层参数无效。');ids.add(layer.id)}}
  for(const [key,a]of Object.entries(plan.actor_transforms||{}))if(!/^[0-5]$/.test(key)||Number(key)>=count||!a||!number(a.x,0,1)||!number(a.y,0,1)||!number(a.scale,.15,4)||!number(a.rotation,-180,180))throw Error('角色自由布局参数无效。')
  if(plan.background_zoom!==undefined&&!number(plan.background_zoom,1,3)||plan.background_pan_x!==undefined&&!number(plan.background_pan_x,0,1)||plan.background_pan_y!==undefined&&!number(plan.background_pan_y,0,1))throw Error('背景裁切参数无效。')
+ const color=(v:any)=>typeof v==='string'&&/^#[0-9a-f]{6}$/i.test(v)
+ const style=(v:any)=>{if(v.text_color!==undefined&&!color(v.text_color)||v.emphasis!==undefined&&(!Array.isArray(v.emphasis)||v.emphasis.length>12||v.emphasis.some((m:any)=>typeof m.text!=='string'||m.text.length>80||!color(m.color)||typeof m.bold!=='boolean'))||v.font_style!==undefined&&!enums.font_style.includes(v.font_style)||v.text_backdrop!==undefined&&!enums.text_backdrop.includes(v.text_backdrop)||v.letter_spacing!==undefined&&!number(v.letter_spacing,0,.3)||v.line_spacing!==undefined&&!number(v.line_spacing,1.1,2)||v.stage!==undefined&&!['all','setup','event','reaction'].includes(v.stage)||v.role!==undefined&&!['speech','thought','narration','punchline'].includes(v.role)||v.font_family&&!['sans','serif','kuaile','xiaowei','qingke','mashan','longcang'].includes(v.font_family))throw Error('文字层样式无效。')}
+ for(const v of [...Object.values(plan.text_boxes||{}),...plan.text_layers||[]])style(v)
+ const ids=actorIds(plan);if(new Set(ids).size!==ids.length||ids.some(id=>typeof id!=='string'||!/^[a-zA-Z0-9_-]{1,80}$/.test(id)))throw Error('人物标识无效或重复。')
+ if(plan.composition){const c=plan.composition;if(!catalog.themes?.some(t=>t.id===c.theme_id&&t.enabled)||!catalog.compositions?.some(v=>v.id===c.composition_id&&v.theme_id===c.theme_id&&v.enabled)||!number(c.brightness,.4,1.5)||!number(c.blur,0,12)||!number(c.tint,0,.5)||!number(c.detail,0,1))throw Error('主题构图参数无效。')}
+ if(plan.narrative){const n=plan.narrative;if(!number(n.speed,.67,2)||!number(n.strength,0,1)||!number(n.duration_ms,1000,6000)||!eventHandlers.has(n.event_id)||!['cut','fade'].includes(n.transition)||[n.setup,n.event,n.reaction].some(v=>typeof v!=='string'||[...v].length>160))throw Error('阶段叙事参数无效。')}
+ if(plan.prop_layers){if(!Array.isArray(plan.prop_layers)||plan.prop_layers.length>24)throw Error('最多24个道具。');const used=new Set();for(const l of plan.prop_layers){if(used.has(l.id)||typeof l.id!=='string'||!/^[-\w]{1,100}$/.test(l.id)||!catalog.props?.some(v=>v.id===l.prop_id&&v.enabled)||l.actor_id&&!ids.includes(l.actor_id)||!number(l.x,-2,2)||!number(l.y,-2,2)||!number(l.width,.02,2)||!number(l.height,.02,2)||!number(l.rotation,-180,180)||!number(l.z,-50,100)||!color(l.color)||l.stage&&!['all','setup','event','reaction'].includes(l.stage))throw Error('道具引用、绑定或参数无效。');if(l.text_id&&!['text','secondary_text',...(plan.text_layers||[]).map(t=>'layer:'+t.id)].includes(l.text_id))throw Error('气泡绑定的文字层不存在。');used.add(l.id)}}
  return {template:t,asset:a}
 }

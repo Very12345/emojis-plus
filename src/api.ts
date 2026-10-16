@@ -1,11 +1,12 @@
+import type {TextStyle,PropLayer,ThemeState,Narrative} from './themes/types'
 export type TemplateId = string
 export type FontFamily = 'sans' | 'serif' | 'kuaile' | 'xiaowei' | 'qingke' | 'mashan' | 'longcang'
 export interface FontOption {id:FontFamily;name:string;description:string;sample_url:string}
 export type Effect = string
 export interface EffectOption {id:string;name:string;handler:string}
-export interface CharacterLayer {asset_id:string;x:number;y:number;scale:number;rotation:number;flip:boolean;opacity:number;effect:Effect;strength:number;speed:number}
+export interface CharacterLayer {id?:string;asset_id:string;x:number;y:number;scale:number;rotation:number;flip:boolean;opacity:number;effect:Effect;strength:number;speed:number}
 export type TextField='text'|'secondary_text'
-export interface TextBox {x:number;y:number;width:number;height:number;font_size?:number;rotation?:number;fit?:'fixed'|'shrink'}
+export interface TextBox extends TextStyle {x:number;y:number;width:number;height:number;font_size?:number;rotation?:number;fit?:'fixed'|'shrink'}
 export interface TextLayer extends TextBox {id:string;text:string;font_family?:FontFamily|null;text_color?:string}
 export interface ActorTransform {x:number;y:number;scale:number;rotation:number}
 export interface Metadata {
@@ -36,6 +37,7 @@ export interface Plan {
   template_motion:boolean;template_speed:number;letter_spacing:number;line_spacing:number;text_backdrop:'auto'|'none'|'light'|'dark'
   template_strength:number;template_direction:1|-1;prop_color:string
   text_boxes?:Partial<Record<TextField,TextBox>>
+  primary_actor_id?:string;composition?:ThemeState;prop_layers?:PropLayer[];narrative?:Narrative;element_states?:Record<string,{locked?:boolean;hidden?:boolean;z?:number}>
   text_layers?:TextLayer[];text_fit?:'fixed'|'shrink'
   actor_transforms?:Record<string,ActorTransform>
   background_zoom?:number;background_pan_x?:number;background_pan_y?:number

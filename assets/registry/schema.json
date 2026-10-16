@@ -781,6 +781,312 @@
       ],
       "title": "TextRegion",
       "type": "object"
+    },
+    "ThemeDefinition": {
+      "type": "object",
+      "properties": {
+        "id": {
+          "type": "string"
+        },
+        "name": {
+          "type": "string"
+        },
+        "category": {
+          "enum": [
+            "campus",
+            "daily"
+          ]
+        },
+        "description": {
+          "type": "string"
+        },
+        "tags": {
+          "type": "array",
+          "items": {
+            "type": "string"
+          },
+          "maxItems": 256
+        },
+        "emotion": {
+          "type": "array",
+          "items": {
+            "type": "string"
+          },
+          "maxItems": 256
+        },
+        "palette": {
+          "type": "object",
+          "properties": {
+            "background": {
+              "type": "string",
+              "pattern": "^#[0-9a-fA-F]{6}$"
+            },
+            "secondary": {
+              "type": "string",
+              "pattern": "^#[0-9a-fA-F]{6}$"
+            },
+            "accent": {
+              "type": "string",
+              "pattern": "^#[0-9a-fA-F]{6}$"
+            },
+            "ink": {
+              "type": "string",
+              "pattern": "^#[0-9a-fA-F]{6}$"
+            }
+          },
+          "required": [
+            "background",
+            "secondary",
+            "accent",
+            "ink"
+          ],
+          "additionalProperties": false
+        },
+        "environment": {
+          "enum": [
+            "classroom",
+            "exam",
+            "desk",
+            "library",
+            "dorm",
+            "meeting",
+            "canteen",
+            "notice",
+            "phone-room",
+            "office",
+            "station",
+            "living",
+            "party",
+            "rain-window",
+            "cinema",
+            "doorway"
+          ]
+        },
+        "layers": {
+          "type": "array",
+          "items": {
+            "type": "string"
+          },
+          "maxItems": 256
+        },
+        "focus": {
+          "type": "array",
+          "items": {
+            "type": "number"
+          },
+          "minItems": 2,
+          "maxItems": 2
+        },
+        "safe_area": {
+          "type": "object",
+          "properties": {
+            "x": {
+              "type": "number"
+            },
+            "y": {
+              "type": "number"
+            },
+            "width": {
+              "type": "number"
+            },
+            "height": {
+              "type": "number"
+            }
+          },
+          "required": [
+            "x",
+            "y",
+            "width",
+            "height"
+          ],
+          "additionalProperties": false
+        },
+        "occlusion": {
+          "type": "array",
+          "items": {
+            "type": "object",
+            "properties": {
+              "x": {
+                "type": "number"
+              },
+              "y": {
+                "type": "number"
+              },
+              "width": {
+                "type": "number"
+              },
+              "height": {
+                "type": "number"
+              }
+            },
+            "required": [
+              "x",
+              "y",
+              "width",
+              "height"
+            ],
+            "additionalProperties": false
+          },
+          "maxItems": 256
+        },
+        "enabled": {
+          "type": "boolean"
+        }
+      },
+      "required": [
+        "id",
+        "name",
+        "category",
+        "description",
+        "tags",
+        "emotion",
+        "palette",
+        "environment",
+        "layers",
+        "focus",
+        "safe_area",
+        "occlusion",
+        "enabled"
+      ],
+      "additionalProperties": false
+    },
+    "PropDefinition": {
+      "type": "object",
+      "properties": {
+        "id": {
+          "type": "string"
+        },
+        "name": {
+          "type": "string"
+        },
+        "handler": {
+          "enum": [
+            "laptop",
+            "book",
+            "paper",
+            "notice",
+            "error",
+            "phone",
+            "cup",
+            "tray",
+            "clock",
+            "question",
+            "sweat",
+            "heart",
+            "confetti",
+            "speech",
+            "thought"
+          ]
+        },
+        "description": {
+          "type": "string"
+        },
+        "tags": {
+          "type": "array",
+          "items": {
+            "type": "string"
+          },
+          "maxItems": 256
+        },
+        "enabled": {
+          "type": "boolean"
+        }
+      },
+      "required": [
+        "id",
+        "name",
+        "handler",
+        "description",
+        "tags",
+        "enabled"
+      ],
+      "additionalProperties": false
+    },
+    "CompositionDefinition": {
+      "type": "object",
+      "properties": {
+        "id": {
+          "type": "string"
+        },
+        "theme_id": {
+          "type": "string"
+        },
+        "name": {
+          "type": "string"
+        },
+        "variant": {
+          "enum": [
+            "direct",
+            "story",
+            "contrast"
+          ]
+        },
+        "description": {
+          "type": "string"
+        },
+        "sample": {
+          "type": "object",
+          "properties": {
+            "text": {
+              "type": "string"
+            },
+            "secondary_text": {
+              "type": "string"
+            },
+            "event": {
+              "type": "string"
+            },
+            "character": {
+              "type": "string"
+            }
+          },
+          "required": [
+            "text",
+            "secondary_text",
+            "event",
+            "character"
+          ],
+          "additionalProperties": false
+        },
+        "event": {
+          "enum": [
+            "shake",
+            "panic",
+            "collapse",
+            "nod",
+            "bounce",
+            "recoil"
+          ]
+        },
+        "props": {
+          "type": "array",
+          "items": {
+            "type": "string"
+          },
+          "maxItems": 256
+        },
+        "default_people": {
+          "type": "integer",
+          "minimum": 1,
+          "maximum": 6
+        },
+        "enabled": {
+          "type": "boolean"
+        }
+      },
+      "required": [
+        "id",
+        "theme_id",
+        "name",
+        "variant",
+        "description",
+        "sample",
+        "event",
+        "props",
+        "default_people",
+        "enabled"
+      ],
+      "additionalProperties": false
     }
   },
   "additionalProperties": false,
@@ -838,6 +1144,27 @@
       "maxItems": 100,
       "title": "Categories",
       "type": "array"
+    },
+    "themes": {
+      "type": "array",
+      "items": {
+        "$ref": "#/$defs/ThemeDefinition"
+      },
+      "maxItems": 256
+    },
+    "props": {
+      "type": "array",
+      "items": {
+        "$ref": "#/$defs/PropDefinition"
+      },
+      "maxItems": 256
+    },
+    "compositions": {
+      "type": "array",
+      "items": {
+        "$ref": "#/$defs/CompositionDefinition"
+      },
+      "maxItems": 256
     }
   },
   "title": "RegistryBundle",

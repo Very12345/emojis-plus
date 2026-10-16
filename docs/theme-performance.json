@@ -1,0 +1,64 @@
+{
+  "date": "2026-10-16",
+  "kind": "actual-browser-worker-end-to-end",
+  "environment": "Windows 10 / Chromium 155 / Vite dev server on local machine",
+  "size": 256,
+  "gif_frames": 40,
+  "gif_duration_ms": 4000,
+  "catalog_load_ms": 73.2,
+  "summary": {
+    "theme_jpg_cold": {
+      "samples": 1,
+      "median_ms": 566.4,
+      "p95_ms": 566.4
+    },
+    "legacy_jpg_same_session": {
+      "samples": 1,
+      "median_ms": 84.8,
+      "p95_ms": 84.8
+    },
+    "theme_jpg_edit": {
+      "samples": 10,
+      "median_ms": 19.8,
+      "p95_ms": 29.8
+    },
+    "theme_gif_edit": {
+      "samples": 5,
+      "median_ms": 684.6,
+      "p95_ms": 696.6
+    },
+    "thumbnail_first": {
+      "samples": 1,
+      "median_ms": 588.3,
+      "p95_ms": 588.3
+    },
+    "thumbnail_hot": {
+      "samples": 20,
+      "median_ms": 3.4,
+      "p95_ms": 4.4
+    },
+    "six_actor_gif": {
+      "samples": 3,
+      "median_ms": 1199.9,
+      "p95_ms": 1352.4
+    },
+    "edit_while_browsing": {
+      "samples": 3,
+      "median_ms": 25.3,
+      "p95_ms": 81.1
+    }
+  },
+  "first_pass": {
+    "theme_gif_p95_ms": 687.8,
+    "six_actor_gif_p95_ms": 1129.3,
+    "thumbnail_hot_p95_ms": 3.9,
+    "edit_while_browsing_p95_ms": 71.2
+  },
+  "limitations": [
+    "Small sample counts; cold measurements each have one sample, not a reliable population P95.",
+    "HTTP disk caches were not cleared. Cold denotes a fresh render Worker / decoded source cache.",
+    "Legacy path is a same-build comparison, not a historical before/after benchmark.",
+    "UI input debounce (300ms), AI latency and time spent reviewing results are excluded.",
+    "First and final passes differ in scene fitting and prop geometry, and should not be interpreted as a speed-up ratio."
+  ]
+}

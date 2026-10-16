@@ -144,7 +144,7 @@ export async function prepareStatic() {
   const prior = new Map((old.files || []).map(file => [file.url, file]));
   const files = [], sourceFiles = new Map(), duplicates = [], omissions = [];
   const registries = {};
-  for (const kind of ['layouts', 'effects', 'templates', 'presets', 'captions', 'categories']) {
+  for (const kind of ['layouts', 'effects', 'templates', 'presets', 'captions', 'categories', 'themes', 'props', 'compositions']) {
     const source = path.join(ROOT, 'assets', 'registry', `${kind}.json`);
     const bytes = await fs.readFile(source);
     sourceFiles.set(relative(source), digest(bytes));
@@ -249,7 +249,7 @@ export async function prepareStatic() {
     if (!template) throw new Error(`Unknown preset template: ${item.id}`);
     return { enabled: true, description: '', category: '自定义组合', cast: [], ...item, selector: { asset_id: '', character: '', prefer_transparent: true, ...item.selector }, category_id: template.category_id, subcategory_id: template.subcategory_id, category_name: template.category_name, subcategory_name: template.subcategory_name, tags: template.tags, animation: template.animation };
   });
-  const catalog = { schema_version: 1, version: VERSION, assets, templates, layouts, presets, captions: registries.captions, effects: registries.effects.filter(item => item.enabled !== false).map(item => ({ enabled: true, strength_scale: 1, speed_scale: 1, ...item })), categories, fonts, curation, emblem_url, emblem: emblemDefinition };
+  const catalog = { schema_version: 1, version: VERSION, assets, templates, layouts, presets, captions: registries.captions, effects: registries.effects.filter(item => item.enabled !== false).map(item => ({ enabled: true, strength_scale: 1, speed_scale: 1, ...item })), categories, themes:registries.themes, props:registries.props, compositions:registries.compositions, fonts, curation, emblem_url, emblem: emblemDefinition };
   const counts = Object.fromEntries(Object.keys(EXPECTED).map(kind => [kind, catalog[kind].length]));
   for (const kind of Object.keys(EXPECTED)) if (!counts[kind]) throw new Error(`Canonical ${kind} library must not be empty`);
   for (const row of curation.archived) if (!assets.some(asset => asset.id === row.replacement)) throw new Error(`Missing enabled replacement for ${row.id}: ${row.replacement}`);

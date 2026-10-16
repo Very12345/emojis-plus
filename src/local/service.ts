@@ -1,3 +1,5 @@
+import {RENDER_VERSION} from '../render/core'
+import {applyComposition,resolveCompositions,validateThemes} from '../themes/plans'
 import {makePlan,emptyMetadata,type Asset,type Plan,type Preset} from '../api'
 import {getCatalog,resetCatalog,publicURL} from './catalog'
 import {resolvePresets,applyTemplatePlan,chooseSubject} from './plans'
@@ -17,12 +19,16 @@ export async function dispatch(path:string,options:RequestInit={}):Promise<any>{
  const c=await getCatalog()
  if(route==='/assets'||route==='/admin/assets'&&!write)return c.assets.filter(a=>route.includes('admin')||a.enabled)
  if(route==='/templates'||route==='/admin/templates'&&!write)return c.templates.filter(t=>route.includes('admin')||t.enabled)
+ if(route==='/themes')return (c.themes||[]).filter(t=>t.enabled)
+ if(route==='/props')return (c.props||[]).filter(t=>t.enabled)
+ if(route==='/compositions')return resolveCompositions(c).map(v=>({...v,preview_url:publicURL('previews/composition-'+v.id+'.jpg')+'?v='+RENDER_VERSION,gif_url:publicURL('previews/composition-'+v.id+'.gif')+'?v='+RENDER_VERSION}))
+ if(/^\/compositions\/[^/]+\/apply$/.test(route))return applyComposition(c,route.split('/')[2],body.plan,!!body.full)
  if(route==='/fonts')return c.fonts
  if(route==='/effects')return c.effects
  if(route==='/template-categories')return c.categories
  if(route==='/captions')return c.captions
  if(route==='/admin/curation')return c.curation
- if(route==='/creative-presets')return resolvePresets(c).map(p=>({...p,preview_url:publicURL('previews/preset-'+p.id+'.jpg')}))
+ if(route==='/creative-presets')return resolvePresets(c).map(p=>({...p,preview_url:publicURL('previews/preset-'+p.id+'.jpg')+'?v='+RENDER_VERSION}))
  if(route==='/renders')return job(()=>renderLocal(c,body,signal))
  if(route==='/generations')return job(async status=>{status('analyzing');const g=await recommend(c,body.prompt,body.format,body.character||'',signal);status('rendering');const candidates=[];for(const candidate of g.candidates)candidates.push({...candidate,...await renderLocal(c,candidate.plan,signal)});return {...g,candidates}})
  if(/^\/templates\/[^/]+\/apply$/.test(route))return applyTemplatePlan(c,route.split('/')[2],body.plan,body.count,body.additional_asset_ids,body.apply_defaults)
@@ -33,12 +39,13 @@ export async function dispatch(path:string,options:RequestInit={}):Promise<any>{
  throw Error('浏览器版本不支持此操作：'+route)
 }
 export async function register(payload:any,replace=false){
- if(JSON.stringify(payload).length>512000||payload.schema_version!==1)throw Error('注册包需为schema_version:1且不超过512KB。');const c=await getCatalog(),local=structuredClone(await readLocal<any>('library')||{}),registered:Record<string,number>={},allowed=['templates','layouts','effects','presets','categories','captions'];for(const key of Object.keys(payload))if(key!=='schema_version'&&!allowed.includes(key))throw Error('未知注册字段：'+key)
+ if(JSON.stringify(payload).length>512000||payload.schema_version!==1)throw Error('注册包需为schema_version:1且不超过512KB。');const c=await getCatalog(),local=structuredClone(await readLocal<any>('library')||{}),registered:Record<string,number>={},allowed=['templates','layouts','effects','presets','categories','captions','themes','props','compositions'];for(const key of Object.keys(payload))if(key!=='schema_version'&&!allowed.includes(key))throw Error('未知注册字段：'+key)
  const next:any=structuredClone(c);for(const kind of allowed){const rows=payload[kind]||[];if(!Array.isArray(rows)||rows.length>256)throw Error('注册列表无效。');registered[kind]=rows.length;const seen=new Set();for(const row of rows){if(!row||!/^[a-z0-9][a-z0-9-]{0,79}$/.test(row.id)||seen.has(row.id))throw Error('注册ID无效或重复。');seen.add(row.id);const current=(next[kind]||[]).find((r:any)=>r.id===row.id);if(current&&!replace)throw Error('ID已存在：'+row.id);const value={...current,...row,enabled:row.enabled??true};next[kind]=[...(next[kind]||[]).filter((r:any)=>r.id!==row.id),value];local[kind]=[...(local[kind]||[]).filter((r:any)=>r.id!==row.id),value]}}
+ validateThemes(next)
  const handlers=new Set(c.effects.map(e=>e.handler)),animations=new Set(c.templates.map(t=>t.animation?.handler).filter(Boolean));for(const e of next.effects)if(!handlers.has(e.handler))throw Error('只能引用已注册的受信任动效算法。');for(const t of next.templates){if(t.animation&&!animations.has(t.animation.handler))throw Error('动画算法无效。');if(t.animation?.duration_ms>6000||t.animation?.duration_ms<200)throw Error('动画时长无效。');if(!Array.isArray(t.motions))t.motions=[];if(t.motions.some((m:any)=>!next.effects.some((e:any)=>e.id===m.effect_id)))throw Error('动效引用无效。');if(!t.layout&&next.layouts?.some((l:any)=>l.id===t.layout_id))t.layout=next.layouts.find((l:any)=>l.id===t.layout_id);if(!t.layout&&!c.templates.some(v=>v.layout_id===t.layout_id))throw Error('排版引用无效。');t.defaults||={};t.sample||={};if(t.layout)validateLayout(t.layout);for(const track of t.animation?.tracks||[]){if(!Number.isInteger(track.actor)||track.actor<0||track.actor>5||!Array.isArray(track.keyframes)||track.keyframes.length<2||track.keyframes.length>32)throw Error('关键帧轨道无效。');let previous=-1;for(const f of track.keyframes){if(!Number.isFinite(f.time)||f.time<0||f.time>1||f.time<=previous)throw Error('关键帧时间需从0到1递增。');previous=f.time;for(const k of Object.keys(f))if(k!=='time'&&!['x','y','sx','sy','angle','opacity'].includes(k)||!Number.isFinite(f[k])||Math.abs(f[k])>360)throw Error('关键帧字段无效。');if(f.opacity!==undefined&&(f.opacity<0||f.opacity>1)||f.sx!==undefined&&(f.sx<.05||f.sx>3)||f.sy!==undefined&&(f.sy<.05||f.sy>3))throw Error('关键帧缩放或透明度无效。')}}}
  for(const kind of allowed)if(local[kind])local[kind]=local[kind].map((r:any)=>next[kind].find((v:any)=>v.id===r.id));resolvePresets(next);await writeLocal('library',local);resetCatalog();return {registered}
 }
 function validateLayout(l:any){for(const r of [l.image,...l.captions||[]])if(!r||['x','y','width','height'].some(k=>!Number.isFinite(r[k])||r[k]<0||r[k]>1)||r.x+r.width>1.001||r.y+r.height>1.001)throw Error('排版比例坐标无效。')}
-export async function exportRegistry(){const c:any=await getCatalog(),data:any={schema_version:1};for(const kind of ['templates','layouts','effects','presets','categories','captions'])data[kind]=c[kind];return data}
+export async function exportRegistry(){const c:any=await getCatalog(),data:any={schema_version:1};for(const kind of ['templates','layouts','effects','presets','categories','captions','themes','props','compositions'])data[kind]=c[kind];return data}
 export async function previewPlan(id:string,assetId?:string):Promise<Plan>{const c=await getCatalog(),t=c.templates.find(t=>t.id===id)!;if(!t)throw Error('模板不存在。');const a=c.assets.find(a=>a.id===assetId)||chooseSubject(c.assets);if(!a)throw Error('没有素材。');return applyTemplatePlan(c,id,{...makePlan(a),...t.defaults,...t.sample,template_id:id,format:'jpg',size:256},undefined,[],true)}
 export async function renderPreview(id:string,assetId:string|undefined,format:'jpg'|'gif',signal?:AbortSignal){const c=await getCatalog();let plan:Plan;if(id.startsWith('preset:')){plan=resolvePresets(c).find(p=>p.id===id.slice(7))!.plan}else plan=await previewPlan(id,assetId);return renderLocal(c,{...plan,size:256,format},signal,true)}

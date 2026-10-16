@@ -1,3 +1,5 @@
+import ThemeWorkbench from './ThemeWorkbench'
+import {reconcileBindings} from './themes/plans'
 import {characterLabel} from './library'
 import {useEffect, useRef, useState, type FormEvent} from 'react'
 import {ArrowDownToLine, ArrowRight, Check, ChevronDown, ChevronRight, CircleHelp, Eye, FlipHorizontal,
@@ -90,7 +92,7 @@ export default function App(){
     },300)
     return()=>{clearTimeout(timer);controller.abort()}
   },[plan,role])
-  function update(values:Partial<Plan>){setPlan(p=>p?{...p,...values}:p)}
+  function update(values:Partial<Plan>){setPlan(p=>p?reconcileBindings({...p,...values}):p)}
   async function commitCast(id:TemplateId,base:Plan,count?:number,additional:string[]=[],applyDefaults=true){
     const before=plan,sequence=++castSequence.current
     setCastBusy(true);setRenderError('')
@@ -120,7 +122,7 @@ export default function App(){
     if(!plan)return
     const base={...plan,characters:removeIndex===undefined?plan.characters:plan.characters.filter((_,i)=>i!==removeIndex)}
     const active=templates.find(t=>t.id===base.template_id)
-    const id=count===1?'bottom':active?.cast?.length&&count>=(active.min_characters||1)&&count<=(active.max_characters||6)?active.id:({2:'cast-duo',3:'cast-trio',4:'cast-quad',6:'cast-six'} as Record<number,string>)[count]||'scene'
+    const id=base.composition?'scene':count===1?'bottom':active?.cast?.length&&count>=(active.min_characters||1)&&count<=(active.max_characters||6)?active.id:({2:'cast-duo',3:'cast-trio',4:'cast-quad',6:'cast-six'} as Record<number,string>)[count]||'scene'
     setTemplateScope(count>1?'cast':'all')
     await commitCast(id,base,count,assetId?[assetId]:[],false)
   }
@@ -136,6 +138,7 @@ export default function App(){
   }
   function chooseAsset(asset:Asset, usePrompt=false){
     if(asset.metadata.role==='background'){setPlan(p=>{if(!p)return p;const keep=!!templates.find(t=>t.id===p.template_id)?.cast?.length||p.characters.length>0;return {...p,background_style:'image',background_asset_id:asset.id,template_id:keep?p.template_id:'scene',text_placement:'caption',primary_scale:keep||p.template_id==='scene'?p.primary_scale:.60,primary_y:keep||p.template_id==='scene'?p.primary_y:.62}});setView('workbench');return}
+    if(plan?.composition&&!asset.info.has_transparency){const cut=assets.find(a=>a.enabled&&a.character===asset.character&&a.info.has_transparency&&a.metadata.derived_from===asset.id)||assets.find(a=>a.enabled&&a.character===asset.character&&a.info.has_transparency);if(!cut){setNotice(asset.character+'缺少透明素材，当前场景保持不变。');return}asset=cut;setNotice('主题构图需要透明人物，已使用同角色透明素材：'+cut.name)}
     const text=usePrompt&&prompt.trim()&&prompt.length<=160?prompt.trim():undefined
     setPlan(p=>{
       const base=p||{...makePlan(asset,text),format:outputFormat,size:outputFormat==='gif'?256:512} as Plan
@@ -150,7 +153,7 @@ export default function App(){
       const {job_id}=await api<{job_id:string}>('/generations',{method:'POST',body:JSON.stringify({prompt,format:outputFormat,character:character||null})})
       const result=await waitJob<Generation>(job_id,setGenStatus)
       setCandidates(result.candidates);setGeneration(result);setPlan(result.candidates[0].plan);setRendered(result.candidates[0])
-    }catch(e){setNotice(errorText(e))}finally{setGenerating(false);setGenStatus('')}
+    }catch(e){setNotice(errorText(e)+'；也可以在预览下方选择主题，继续手动制作。')}finally{setGenerating(false);setGenStatus('')}
   }
   if(loading)return <div className="loading-page"><Brand/><LoaderCircle className="spin" size={26}/></div>
   const inspirationAssets=balancedAssets(subjects.filter(a=>!character||a.character===character))
@@ -183,7 +186,7 @@ export default function App(){
           <div className="field-label">生成什么格式？</div><div className="segmented">{(['jpg','gif']as const).map(f=><button key={f} className={outputFormat===f?'selected':''} onClick={()=>setOutputFormat(f)}>{f.toUpperCase()}<small>{f==='jpg'?'静态图片':'动态表情'}</small></button>)}</div>
           <button className="button primary generate-button" disabled={generating} onClick={generate}>{generating?<LoaderCircle className="spin" size={18}/>:<WandSparkles size={18}/>}
             {generating?(genStatus==='rendering'?'正在绘制表情…':'正在寻找灵感…'):'帮我做个表情'}{!generating&&<span>↗</span>}</button>
-          <p className="under-button">一次给你直白、可爱、抽象三种表达</p>
+          <p className="under-button">一次给你直白、情境、反差三种完整构图</p>
           {!status?.model_configured&&<div className="model-note"><span className="small-dot"/>AI 尚未配置，手动制作已就绪。<button onClick={()=>setAdminOpen(true)}>去设置<ChevronRight size={12}/></button></div>}
           <button className="manual-button" onClick={()=>{if(selected)chooseAsset(selected,true);setNotice('已进入手动制作。你可以直接修改右侧文案。')}}>我自己来，直接编辑<ArrowRight size={14}/></button>
         </section>
@@ -195,6 +198,7 @@ export default function App(){
             <div className="preview-footer"><span className="character-label"><Smile size={14}/>{selected?.character}<span>·</span>{plan?.format.toUpperCase()} {plan?.size} × {plan?.size}</span>
               <button className="text-button" onClick={()=>setView('library')}>换个表情<RefreshCw size={13}/></button></div>
           </section>
+          {plan&&<ThemeWorkbench plan={plan} onChange={setPlan} onNotice={setNotice}/>}
           <div className="candidate-heading"><h2>{candidates.length?'为你找到三种表达':'从一个熟悉的表情开始'}</h2><span>{candidates.length?'点击切换方案':'灵感素材 · 点击试用'}</span></div>
           {generation&&<div className="intent-tags">{[generation.intent.scene,generation.intent.emotion,generation.intent.tone].map(x=><span key={x}>{x}</span>)}</div>}
           <div className="candidate-grid">{candidates.length?candidates.map((c,i)=><button key={i} className={'candidate '+(plan?.asset_id===c.plan.asset_id&&plan?.text===c.plan.text?'candidate-active':'')} onClick={()=>{setPlan(c.plan);setRendered(c)}}><span className="candidate-style">{c.style}<span>0{i+1}</span></span><img src={c.url} alt={c.plan.text}/><strong>{c.plan.text}</strong><small>{c.reason}</small></button>):
@@ -204,7 +208,7 @@ export default function App(){
         <aside className="panel editor-panel"><div className="section-heading"><span className="step">03</span><h2>调成你的语气</h2><SlidersHorizontal size={16}/></div>
           {plan&&<><label className="field-label">表情文案<span className="label-meta">{plan.text.length}/160</span><textarea className="caption-input" value={plan.text} maxLength={160} onChange={e=>update({text:e.target.value})} placeholder="想说的话写在这里"/></label>
           <button className="caption-library-button" onClick={()=>openContent('captions')}><Type size={13}/>从 {captions.length} 条常用文案里挑一句<ArrowRight size={12}/></button>
-          {(['split','dialogue','comic'].includes(selectedLayout)||selectedTemplate?.layout?.captions.some(c=>c.field==='secondary_text'))&&<label className="field-label">{selectedLayout==='dialogue'?'对方的回复':'下半句'}<textarea className="caption-input secondary-caption" value={plan.secondary_text} maxLength={100} onChange={e=>update({secondary_text:e.target.value})}/></label>}
+          {(plan.composition||['split','dialogue','comic'].includes(selectedLayout)||selectedTemplate?.layout?.captions.some(c=>c.field==='secondary_text'))&&<label className="field-label">{plan.composition?'铺垫文案':selectedLayout==='dialogue'?'对方的回复':'下半句'}<textarea className="caption-input secondary-caption" value={plan.secondary_text} maxLength={100} onChange={e=>update({secondary_text:e.target.value})}/></label>}
           <SubjectPicker assets={assets} templates={templates} plan={plan} onChoose={chooseAsset}/>
           <CharacterLayers assets={assets} effects={effects} plan={plan} busy={castBusy} onArrange={arrangePeople} onUpdate={update}/>
           {selected?.metadata.existing_text&&<p className="baked-note">底图原有文字保留；嵌入配字需要先标注文字安全区域。</p>}

@@ -1,0 +1,366 @@
+{
+  "mode": "live-model-human-review-required",
+  "status": "not_run_no_model_configured_in_test_origin",
+  "cases": [
+    {
+      "id": "campus-01",
+      "category": "campus",
+      "prompt": "闹钟响了，人还没醒",
+      "expected_theme": "early-class",
+      "allow_pku": false,
+      "human_accepted": null,
+      "notes": ""
+    },
+    {
+      "id": "campus-02",
+      "category": "campus",
+      "prompt": "早八课我只带来了身体",
+      "expected_theme": "early-class",
+      "allow_pku": false,
+      "human_accepted": null,
+      "notes": ""
+    },
+    {
+      "id": "campus-03",
+      "category": "campus",
+      "prompt": "明天考试，今天开始复习",
+      "expected_theme": "exam",
+      "allow_pku": false,
+      "human_accepted": null,
+      "notes": ""
+    },
+    {
+      "id": "campus-04",
+      "category": "campus",
+      "prompt": "会的题一道没考",
+      "expected_theme": "exam",
+      "allow_pku": false,
+      "human_accepted": null,
+      "notes": ""
+    },
+    {
+      "id": "campus-05",
+      "category": "campus",
+      "prompt": "这道题怎么和我不熟",
+      "expected_theme": "exam",
+      "allow_pku": false,
+      "human_accepted": null,
+      "notes": ""
+    },
+    {
+      "id": "campus-06",
+      "category": "campus",
+      "prompt": "最后一行代码又报错了",
+      "expected_theme": "deadline",
+      "allow_pku": false,
+      "human_accepted": null,
+      "notes": ""
+    },
+    {
+      "id": "campus-07",
+      "category": "campus",
+      "prompt": "作业写完了却没交上",
+      "expected_theme": "deadline",
+      "allow_pku": false,
+      "human_accepted": null,
+      "notes": ""
+    },
+    {
+      "id": "campus-08",
+      "category": "campus",
+      "prompt": "DDL还有十分钟",
+      "expected_theme": "deadline",
+      "allow_pku": false,
+      "human_accepted": null,
+      "notes": ""
+    },
+    {
+      "id": "campus-09",
+      "category": "campus",
+      "prompt": "图书馆坐了三个小时，书没翻页",
+      "expected_theme": "library",
+      "allow_pku": false,
+      "human_accepted": null,
+      "notes": ""
+    },
+    {
+      "id": "campus-10",
+      "category": "campus",
+      "prompt": "今天认真自习一会儿",
+      "expected_theme": "library",
+      "allow_pku": false,
+      "human_accepted": null,
+      "notes": ""
+    },
+    {
+      "id": "campus-11",
+      "category": "campus",
+      "prompt": "宿舍熄灯后我还在赶作业",
+      "expected_theme": "dorm-night",
+      "allow_pku": false,
+      "human_accepted": null,
+      "notes": ""
+    },
+    {
+      "id": "campus-12",
+      "category": "campus",
+      "prompt": "说好早睡，已经凌晨三点",
+      "expected_theme": "dorm-night",
+      "allow_pku": false,
+      "human_accepted": null,
+      "notes": ""
+    },
+    {
+      "id": "campus-13",
+      "category": "campus",
+      "prompt": "小组作业变成我的个人作业",
+      "expected_theme": "groupwork",
+      "allow_pku": false,
+      "human_accepted": null,
+      "notes": ""
+    },
+    {
+      "id": "campus-14",
+      "category": "campus",
+      "prompt": "队友终于回复收到",
+      "expected_theme": "groupwork",
+      "allow_pku": false,
+      "human_accepted": null,
+      "notes": ""
+    },
+    {
+      "id": "campus-15",
+      "category": "campus",
+      "prompt": "排到我刚好卖完",
+      "expected_theme": "canteen",
+      "allow_pku": false,
+      "human_accepted": null,
+      "notes": ""
+    },
+    {
+      "id": "campus-16",
+      "category": "campus",
+      "prompt": "下课冲向食堂",
+      "expected_theme": "canteen",
+      "allow_pku": false,
+      "human_accepted": null,
+      "notes": ""
+    },
+    {
+      "id": "campus-17",
+      "category": "campus",
+      "prompt": "学校又临时改安排",
+      "expected_theme": "notice",
+      "allow_pku": false,
+      "human_accepted": null,
+      "notes": ""
+    },
+    {
+      "id": "campus-18",
+      "category": "campus",
+      "prompt": "通知刚发就撤回重发了",
+      "expected_theme": "notice",
+      "allow_pku": false,
+      "human_accepted": null,
+      "notes": ""
+    },
+    {
+      "id": "campus-19",
+      "category": "campus",
+      "prompt": "另一所学校临时改期，和北大无关",
+      "expected_theme": "notice",
+      "allow_pku": false,
+      "human_accepted": null,
+      "notes": ""
+    },
+    {
+      "id": "campus-20",
+      "category": "campus",
+      "prompt": "北大又临时改了通知",
+      "expected_theme": "notice",
+      "allow_pku": true,
+      "human_accepted": null,
+      "notes": ""
+    },
+    {
+      "id": "daily-01",
+      "category": "daily",
+      "prompt": "你怎么还没回消息",
+      "expected_theme": "waiting",
+      "allow_pku": false,
+      "human_accepted": null,
+      "notes": ""
+    },
+    {
+      "id": "daily-02",
+      "category": "daily",
+      "prompt": "对方正在输入已经半小时",
+      "expected_theme": "waiting",
+      "allow_pku": false,
+      "human_accepted": null,
+      "notes": ""
+    },
+    {
+      "id": "daily-03",
+      "category": "daily",
+      "prompt": "老板说简单开个短会",
+      "expected_theme": "office",
+      "allow_pku": false,
+      "human_accepted": null,
+      "notes": ""
+    },
+    {
+      "id": "daily-04",
+      "category": "daily",
+      "prompt": "下班前突然多了任务",
+      "expected_theme": "office",
+      "allow_pku": false,
+      "human_accepted": null,
+      "notes": ""
+    },
+    {
+      "id": "daily-05",
+      "category": "daily",
+      "prompt": "灵魂已经下班了",
+      "expected_theme": "office",
+      "allow_pku": false,
+      "human_accepted": null,
+      "notes": ""
+    },
+    {
+      "id": "daily-06",
+      "category": "daily",
+      "prompt": "车门在我眼前关上",
+      "expected_theme": "commute",
+      "allow_pku": false,
+      "human_accepted": null,
+      "notes": ""
+    },
+    {
+      "id": "daily-07",
+      "category": "daily",
+      "prompt": "早出门还是迟到",
+      "expected_theme": "commute",
+      "allow_pku": false,
+      "human_accepted": null,
+      "notes": ""
+    },
+    {
+      "id": "daily-08",
+      "category": "daily",
+      "prompt": "今天休息，谁都别叫我",
+      "expected_theme": "weekend",
+      "allow_pku": false,
+      "human_accepted": null,
+      "notes": ""
+    },
+    {
+      "id": "daily-09",
+      "category": "daily",
+      "prompt": "五分钟的午睡变成一下午",
+      "expected_theme": "weekend",
+      "allow_pku": false,
+      "human_accepted": null,
+      "notes": ""
+    },
+    {
+      "id": "daily-10",
+      "category": "daily",
+      "prompt": "代码终于跑通了",
+      "expected_theme": "celebrate",
+      "allow_pku": false,
+      "human_accepted": null,
+      "notes": ""
+    },
+    {
+      "id": "daily-11",
+      "category": "daily",
+      "prompt": "考试通过啦我要庆祝",
+      "expected_theme": "celebrate",
+      "allow_pku": false,
+      "human_accepted": null,
+      "notes": ""
+    },
+    {
+      "id": "daily-12",
+      "category": "daily",
+      "prompt": "我终于抢到票了",
+      "expected_theme": "celebrate",
+      "allow_pku": false,
+      "human_accepted": null,
+      "notes": ""
+    },
+    {
+      "id": "daily-13",
+      "category": "daily",
+      "prompt": "朋友难过，想陪陪他",
+      "expected_theme": "comfort",
+      "allow_pku": false,
+      "human_accepted": null,
+      "notes": ""
+    },
+    {
+      "id": "daily-14",
+      "category": "daily",
+      "prompt": "没关系，先歇一会儿",
+      "expected_theme": "comfort",
+      "allow_pku": false,
+      "human_accepted": null,
+      "notes": ""
+    },
+    {
+      "id": "daily-15",
+      "category": "daily",
+      "prompt": "今天不顺利，抱抱自己",
+      "expected_theme": "comfort",
+      "allow_pku": false,
+      "human_accepted": null,
+      "notes": ""
+    },
+    {
+      "id": "daily-16",
+      "category": "daily",
+      "prompt": "吃瓜吃到自己身上",
+      "expected_theme": "spectator",
+      "allow_pku": false,
+      "human_accepted": null,
+      "notes": ""
+    },
+    {
+      "id": "daily-17",
+      "category": "daily",
+      "prompt": "路过看看发生什么了",
+      "expected_theme": "spectator",
+      "allow_pku": false,
+      "human_accepted": null,
+      "notes": ""
+    },
+    {
+      "id": "daily-18",
+      "category": "daily",
+      "prompt": "热情打招呼却认错人",
+      "expected_theme": "awkward",
+      "allow_pku": false,
+      "human_accepted": null,
+      "notes": ""
+    },
+    {
+      "id": "daily-19",
+      "category": "daily",
+      "prompt": "群聊发错消息了",
+      "expected_theme": "awkward",
+      "allow_pku": false,
+      "human_accepted": null,
+      "notes": ""
+    },
+    {
+      "id": "daily-20",
+      "category": "daily",
+      "prompt": "空气突然安静，想逃走",
+      "expected_theme": "awkward",
+      "allow_pku": false,
+      "human_accepted": null,
+      "notes": ""
+    }
+  ]
+}

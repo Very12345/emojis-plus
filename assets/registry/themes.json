@@ -1,0 +1,765 @@
+{
+  "schema_version": 1,
+  "themes": [
+    {
+      "id": "early-class",
+      "name": "早八课堂",
+      "category": "campus",
+      "description": "早八课堂：环境交代情境，角色响应事件，文案完成表达。",
+      "tags": [
+        "早八",
+        "上课",
+        "起床",
+        "困"
+      ],
+      "emotion": [
+        "疲惫",
+        "困倦"
+      ],
+      "palette": {
+        "background": "#f3ecd8",
+        "secondary": "#d6dfcb",
+        "accent": "#65806b",
+        "ink": "#28373b"
+      },
+      "environment": "classroom",
+      "layers": [
+        "background",
+        "midground",
+        "foreground"
+      ],
+      "focus": [
+        0.5,
+        0.52
+      ],
+      "safe_area": {
+        "x": 0.08,
+        "y": 0.77,
+        "width": 0.84,
+        "height": 0.18
+      },
+      "occlusion": [
+        {
+          "x": 0.02,
+          "y": 0.71,
+          "width": 0.96,
+          "height": 0.035
+        }
+      ],
+      "enabled": true
+    },
+    {
+      "id": "exam",
+      "name": "考场应试",
+      "category": "campus",
+      "description": "考场应试：环境交代情境，角色响应事件，文案完成表达。",
+      "tags": [
+        "考试",
+        "考场",
+        "复习",
+        "挂科"
+      ],
+      "emotion": [
+        "紧张",
+        "害怕"
+      ],
+      "palette": {
+        "background": "#f4ebda",
+        "secondary": "#e0d0ae",
+        "accent": "#b07953",
+        "ink": "#28373b"
+      },
+      "environment": "exam",
+      "layers": [
+        "background",
+        "midground",
+        "foreground"
+      ],
+      "focus": [
+        0.5,
+        0.52
+      ],
+      "safe_area": {
+        "x": 0.08,
+        "y": 0.77,
+        "width": 0.84,
+        "height": 0.18
+      },
+      "occlusion": [
+        {
+          "x": 0.02,
+          "y": 0.71,
+          "width": 0.96,
+          "height": 0.035
+        }
+      ],
+      "enabled": true
+    },
+    {
+      "id": "deadline",
+      "name": "作业 DDL",
+      "category": "campus",
+      "description": "作业 DDL：环境交代情境，角色响应事件，文案完成表达。",
+      "tags": [
+        "作业",
+        "DDL",
+        "代码",
+        "提交",
+        "报错"
+      ],
+      "emotion": [
+        "焦虑",
+        "崩溃"
+      ],
+      "palette": {
+        "background": "#e7e9fa",
+        "secondary": "#bbc4df",
+        "accent": "#bf626d",
+        "ink": "#28373b"
+      },
+      "environment": "desk",
+      "layers": [
+        "background",
+        "midground",
+        "foreground"
+      ],
+      "focus": [
+        0.5,
+        0.52
+      ],
+      "safe_area": {
+        "x": 0.08,
+        "y": 0.77,
+        "width": 0.84,
+        "height": 0.18
+      },
+      "occlusion": [
+        {
+          "x": 0.02,
+          "y": 0.71,
+          "width": 0.96,
+          "height": 0.035
+        }
+      ],
+      "enabled": true
+    },
+    {
+      "id": "library",
+      "name": "图书馆自习",
+      "category": "campus",
+      "description": "图书馆自习：环境交代情境，角色响应事件，文案完成表达。",
+      "tags": [
+        "图书馆",
+        "自习",
+        "学习",
+        "读书"
+      ],
+      "emotion": [
+        "认真",
+        "疲惫"
+      ],
+      "palette": {
+        "background": "#eee8da",
+        "secondary": "#c9d7cf",
+        "accent": "#638775",
+        "ink": "#28373b"
+      },
+      "environment": "library",
+      "layers": [
+        "background",
+        "midground",
+        "foreground"
+      ],
+      "focus": [
+        0.5,
+        0.52
+      ],
+      "safe_area": {
+        "x": 0.08,
+        "y": 0.77,
+        "width": 0.84,
+        "height": 0.18
+      },
+      "occlusion": [
+        {
+          "x": 0.02,
+          "y": 0.71,
+          "width": 0.96,
+          "height": 0.035
+        }
+      ],
+      "enabled": true
+    },
+    {
+      "id": "dorm-night",
+      "name": "宿舍熬夜",
+      "category": "campus",
+      "description": "宿舍熬夜：环境交代情境，角色响应事件，文案完成表达。",
+      "tags": [
+        "宿舍",
+        "熬夜",
+        "凌晨",
+        "睡觉"
+      ],
+      "emotion": [
+        "疲惫",
+        "困倦"
+      ],
+      "palette": {
+        "background": "#292e51",
+        "secondary": "#53547a",
+        "accent": "#e5be79",
+        "ink": "#fff6df"
+      },
+      "environment": "dorm",
+      "layers": [
+        "background",
+        "midground",
+        "foreground"
+      ],
+      "focus": [
+        0.5,
+        0.52
+      ],
+      "safe_area": {
+        "x": 0.08,
+        "y": 0.77,
+        "width": 0.84,
+        "height": 0.18
+      },
+      "occlusion": [
+        {
+          "x": 0.02,
+          "y": 0.71,
+          "width": 0.96,
+          "height": 0.035
+        }
+      ],
+      "enabled": true
+    },
+    {
+      "id": "groupwork",
+      "name": "小组作业",
+      "category": "campus",
+      "description": "小组作业：环境交代情境，角色响应事件，文案完成表达。",
+      "tags": [
+        "小组",
+        "组队",
+        "合作",
+        "队友"
+      ],
+      "emotion": [
+        "无语",
+        "生气"
+      ],
+      "palette": {
+        "background": "#e9f0e6",
+        "secondary": "#c4d6c1",
+        "accent": "#6b8b6c",
+        "ink": "#28373b"
+      },
+      "environment": "meeting",
+      "layers": [
+        "background",
+        "midground",
+        "foreground"
+      ],
+      "focus": [
+        0.5,
+        0.52
+      ],
+      "safe_area": {
+        "x": 0.08,
+        "y": 0.77,
+        "width": 0.84,
+        "height": 0.18
+      },
+      "occlusion": [
+        {
+          "x": 0.02,
+          "y": 0.71,
+          "width": 0.96,
+          "height": 0.035
+        }
+      ],
+      "enabled": true
+    },
+    {
+      "id": "canteen",
+      "name": "食堂排队",
+      "category": "campus",
+      "description": "食堂排队：环境交代情境，角色响应事件，文案完成表达。",
+      "tags": [
+        "食堂",
+        "吃饭",
+        "排队",
+        "午饭"
+      ],
+      "emotion": [
+        "期待",
+        "委屈"
+      ],
+      "palette": {
+        "background": "#fff0dc",
+        "secondary": "#ead7ba",
+        "accent": "#d58b58",
+        "ink": "#28373b"
+      },
+      "environment": "canteen",
+      "layers": [
+        "background",
+        "midground",
+        "foreground"
+      ],
+      "focus": [
+        0.5,
+        0.52
+      ],
+      "safe_area": {
+        "x": 0.08,
+        "y": 0.77,
+        "width": 0.84,
+        "height": 0.18
+      },
+      "occlusion": [
+        {
+          "x": 0.02,
+          "y": 0.71,
+          "width": 0.96,
+          "height": 0.035
+        }
+      ],
+      "enabled": true
+    },
+    {
+      "id": "notice",
+      "name": "临时通知",
+      "category": "campus",
+      "description": "临时通知：环境交代情境，角色响应事件，文案完成表达。",
+      "tags": [
+        "通知",
+        "安排",
+        "改期",
+        "学校",
+        "临时"
+      ],
+      "emotion": [
+        "震惊",
+        "无语"
+      ],
+      "palette": {
+        "background": "#e9eff6",
+        "secondary": "#cfdae7",
+        "accent": "#c16f69",
+        "ink": "#28373b"
+      },
+      "environment": "notice",
+      "layers": [
+        "background",
+        "midground",
+        "foreground"
+      ],
+      "focus": [
+        0.5,
+        0.52
+      ],
+      "safe_area": {
+        "x": 0.08,
+        "y": 0.77,
+        "width": 0.84,
+        "height": 0.18
+      },
+      "occlusion": [
+        {
+          "x": 0.02,
+          "y": 0.71,
+          "width": 0.96,
+          "height": 0.035
+        }
+      ],
+      "enabled": true
+    },
+    {
+      "id": "waiting",
+      "name": "消息等待",
+      "category": "daily",
+      "description": "消息等待：环境交代情境，角色响应事件，文案完成表达。",
+      "tags": [
+        "消息",
+        "回复",
+        "不回",
+        "聊天",
+        "等"
+      ],
+      "emotion": [
+        "期待",
+        "委屈"
+      ],
+      "palette": {
+        "background": "#edf0ff",
+        "secondary": "#d4d9ef",
+        "accent": "#8d7eb8",
+        "ink": "#28373b"
+      },
+      "environment": "phone-room",
+      "layers": [
+        "background",
+        "midground",
+        "foreground"
+      ],
+      "focus": [
+        0.5,
+        0.52
+      ],
+      "safe_area": {
+        "x": 0.08,
+        "y": 0.77,
+        "width": 0.84,
+        "height": 0.18
+      },
+      "occlusion": [
+        {
+          "x": 0.02,
+          "y": 0.71,
+          "width": 0.96,
+          "height": 0.035
+        }
+      ],
+      "enabled": true
+    },
+    {
+      "id": "office",
+      "name": "开会打工",
+      "category": "daily",
+      "description": "开会打工：环境交代情境，角色响应事件，文案完成表达。",
+      "tags": [
+        "工作",
+        "上班",
+        "开会",
+        "老板",
+        "打工"
+      ],
+      "emotion": [
+        "疲惫",
+        "无语"
+      ],
+      "palette": {
+        "background": "#e8eff2",
+        "secondary": "#c1d0d9",
+        "accent": "#718994",
+        "ink": "#28373b"
+      },
+      "environment": "office",
+      "layers": [
+        "background",
+        "midground",
+        "foreground"
+      ],
+      "focus": [
+        0.5,
+        0.52
+      ],
+      "safe_area": {
+        "x": 0.08,
+        "y": 0.77,
+        "width": 0.84,
+        "height": 0.18
+      },
+      "occlusion": [
+        {
+          "x": 0.02,
+          "y": 0.71,
+          "width": 0.96,
+          "height": 0.035
+        }
+      ],
+      "enabled": true
+    },
+    {
+      "id": "commute",
+      "name": "通勤赶路",
+      "category": "daily",
+      "description": "通勤赶路：环境交代情境，角色响应事件，文案完成表达。",
+      "tags": [
+        "通勤",
+        "地铁",
+        "赶路",
+        "迟到",
+        "公交"
+      ],
+      "emotion": [
+        "焦虑",
+        "疲惫"
+      ],
+      "palette": {
+        "background": "#e8f0f2",
+        "secondary": "#c2d9db",
+        "accent": "#5c969f",
+        "ink": "#28373b"
+      },
+      "environment": "station",
+      "layers": [
+        "background",
+        "midground",
+        "foreground"
+      ],
+      "focus": [
+        0.5,
+        0.52
+      ],
+      "safe_area": {
+        "x": 0.08,
+        "y": 0.77,
+        "width": 0.84,
+        "height": 0.18
+      },
+      "occlusion": [
+        {
+          "x": 0.02,
+          "y": 0.71,
+          "width": 0.96,
+          "height": 0.035
+        }
+      ],
+      "enabled": true
+    },
+    {
+      "id": "weekend",
+      "name": "周末休息",
+      "category": "daily",
+      "description": "周末休息：环境交代情境，角色响应事件，文案完成表达。",
+      "tags": [
+        "周末",
+        "休息",
+        "躺平",
+        "放假"
+      ],
+      "emotion": [
+        "平静",
+        "开心"
+      ],
+      "palette": {
+        "background": "#f8eadf",
+        "secondary": "#e4cdb9",
+        "accent": "#b78a6e",
+        "ink": "#28373b"
+      },
+      "environment": "living",
+      "layers": [
+        "background",
+        "midground",
+        "foreground"
+      ],
+      "focus": [
+        0.5,
+        0.52
+      ],
+      "safe_area": {
+        "x": 0.08,
+        "y": 0.77,
+        "width": 0.84,
+        "height": 0.18
+      },
+      "occlusion": [
+        {
+          "x": 0.02,
+          "y": 0.71,
+          "width": 0.96,
+          "height": 0.035
+        }
+      ],
+      "enabled": true
+    },
+    {
+      "id": "celebrate",
+      "name": "庆祝成功",
+      "category": "daily",
+      "description": "庆祝成功：环境交代情境，角色响应事件，文案完成表达。",
+      "tags": [
+        "成功",
+        "庆祝",
+        "通过",
+        "跑通",
+        "开心"
+      ],
+      "emotion": [
+        "开心",
+        "得意"
+      ],
+      "palette": {
+        "background": "#fff0ce",
+        "secondary": "#f7d5a6",
+        "accent": "#d18b54",
+        "ink": "#28373b"
+      },
+      "environment": "party",
+      "layers": [
+        "background",
+        "midground",
+        "foreground"
+      ],
+      "focus": [
+        0.5,
+        0.52
+      ],
+      "safe_area": {
+        "x": 0.08,
+        "y": 0.77,
+        "width": 0.84,
+        "height": 0.18
+      },
+      "occlusion": [
+        {
+          "x": 0.02,
+          "y": 0.71,
+          "width": 0.96,
+          "height": 0.035
+        }
+      ],
+      "enabled": true
+    },
+    {
+      "id": "comfort",
+      "name": "安慰陪伴",
+      "category": "daily",
+      "description": "安慰陪伴：环境交代情境，角色响应事件，文案完成表达。",
+      "tags": [
+        "安慰",
+        "难过",
+        "陪伴",
+        "抱抱",
+        "伤心"
+      ],
+      "emotion": [
+        "温柔",
+        "委屈"
+      ],
+      "palette": {
+        "background": "#e9e9f4",
+        "secondary": "#cdd5e5",
+        "accent": "#9191b3",
+        "ink": "#28373b"
+      },
+      "environment": "rain-window",
+      "layers": [
+        "background",
+        "midground",
+        "foreground"
+      ],
+      "focus": [
+        0.5,
+        0.52
+      ],
+      "safe_area": {
+        "x": 0.08,
+        "y": 0.77,
+        "width": 0.84,
+        "height": 0.18
+      },
+      "occlusion": [
+        {
+          "x": 0.02,
+          "y": 0.71,
+          "width": 0.96,
+          "height": 0.035
+        }
+      ],
+      "enabled": true
+    },
+    {
+      "id": "spectator",
+      "name": "围观吃瓜",
+      "category": "daily",
+      "description": "围观吃瓜：环境交代情境，角色响应事件，文案完成表达。",
+      "tags": [
+        "吃瓜",
+        "围观",
+        "八卦",
+        "看戏"
+      ],
+      "emotion": [
+        "好奇",
+        "震惊"
+      ],
+      "palette": {
+        "background": "#ede5f5",
+        "secondary": "#cfc0dd",
+        "accent": "#9875a5",
+        "ink": "#28373b"
+      },
+      "environment": "cinema",
+      "layers": [
+        "background",
+        "midground",
+        "foreground"
+      ],
+      "focus": [
+        0.5,
+        0.52
+      ],
+      "safe_area": {
+        "x": 0.08,
+        "y": 0.77,
+        "width": 0.84,
+        "height": 0.18
+      },
+      "occlusion": [
+        {
+          "x": 0.02,
+          "y": 0.71,
+          "width": 0.96,
+          "height": 0.035
+        }
+      ],
+      "enabled": true
+    },
+    {
+      "id": "awkward",
+      "name": "社交尴尬",
+      "category": "daily",
+      "description": "社交尴尬：环境交代情境，角色响应事件，文案完成表达。",
+      "tags": [
+        "尴尬",
+        "社交",
+        "认错",
+        "打招呼",
+        "冷场"
+      ],
+      "emotion": [
+        "害羞",
+        "紧张"
+      ],
+      "palette": {
+        "background": "#f4e8e7",
+        "secondary": "#dfcacc",
+        "accent": "#b3858f",
+        "ink": "#28373b"
+      },
+      "environment": "doorway",
+      "layers": [
+        "background",
+        "midground",
+        "foreground"
+      ],
+      "focus": [
+        0.5,
+        0.52
+      ],
+      "safe_area": {
+        "x": 0.08,
+        "y": 0.77,
+        "width": 0.84,
+        "height": 0.18
+      },
+      "occlusion": [
+        {
+          "x": 0.02,
+          "y": 0.71,
+          "width": 0.96,
+          "height": 0.035
+        }
+      ],
+      "enabled": true
+    }
+  ]
+}

@@ -63,3 +63,7 @@ npm run serve
 本项目使用手动 Pages 工作流。修改后运行 `npm run build` 和 `node scripts/verify-pages.mjs`。精选源文件已通过白名单提交；新增素材时运行 `node scripts/github-source-files.mjs --stage`，审阅 Git 差异后提交、推送，并手动运行 GitHub Actions 的 Pages 工作流。`assets/seed` 中未精选的截图、母版及本机 `data` 不会因普通 `git add .` 被上传。
 
 线上站点和localhost属于不同浏览器来源；AI设置不会自动从本机迁移，需要在新站点填写一次。配置仍只保存在使用者的浏览器，不写入仓库、Actions Secrets或部署文件。直接模型接口须允许 `https://very12345.github.io` 的CORS请求。
+
+## 主题构图
+
+新增 16 个主题、48 组静态／动态构图，可在预览下方进入。支持角色绑定道具、分阶段文案和独立文字样式。详见 [主题构图工作站](docs/theme-workstation.md)。原有模板与组合继续保留。
