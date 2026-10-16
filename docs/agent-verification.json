@@ -1,0 +1,25 @@
+{
+  "date": "2026-10-16",
+  "catalog": {"assets": 805, "pku": 22, "tsinghua": 16, "added_transparent_assets": 31},
+  "direct_compose_e2e": {
+    "transport": "Python stdlib client -> local Node relay -> actual browser Worker",
+    "status": "completed",
+    "main_asset": "pku-scholar-cat-think",
+    "secondary_asset": "thu-book-spirit-tired",
+    "main_personal_motion": "spin",
+    "format": "gif", "size": 256, "frames": 40, "duration_ms": 4000,
+    "original_manual_canvas_unchanged": true
+  },
+  "generation_e2e": {
+    "model_source": "local SSE fixture, no real model credentials",
+    "status": "completed", "files": 3,
+    "visible_process": true,
+    "hidden_reasoning_leaked": false,
+    "not_a_live_model_quality_evaluation": true
+  },
+  "active_cancellation": {"status": "cancelled", "files": 0},
+  "bridge_protocol_tests": ["bearer authentication", "origin validation", "multiple-browser isolation", "explicit render and compose", "progress", "artifact download", "cancellation", "missing browser"],
+  "network": {"lan_listener": true, "host_lan_interface_http_status": 200, "second_physical_device_tested": false},
+  "skill": {"files": 4, "frontmatter_validated": true, "zip_crc_checked": true, "runtime_credentials_included": false},
+  "model_settings": "remain in each browser; not exported through the bridge"
+}

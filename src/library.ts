@@ -1,8 +1,9 @@
 import type {Asset, Plan, Template, TemplateId} from './api'
+export const schoolCoverIds:Record<string,string>={'北京大学':'pku-scholar-cat-cheer','清华大学':'thu-scholar-cat-cheer'}
 export function characterLabel(name:string){return name==='猫耳修女'?'可爱大笨蛋（猫耳修女）':name}
 
 export function sortCharacters(names:string[]){
-  const order=['北京大学','奶蛙','奶龙（原版）','奶蛋','肥嘟嘟']
+  const order=['北京大学','清华大学','奶蛙','奶龙（原版）','奶蛋','肥嘟嘟']
   const rank=(name:string)=>order.includes(name)?order.indexOf(name):order.length
   return [...names].sort((a,b)=>rank(a)-rank(b))
 }
@@ -47,7 +48,7 @@ export function preferredCharacterAsset(assets:Asset[],character:string,plan:Pla
   const group=assets.filter(a=>a.character===character&&a.metadata.role!=='background')
   const template=templates.find(t=>t.id===plan?.template_id)
   const compatible=(a:Asset)=>!plan||(template?assetSupportsTemplate(a,template):(a.metadata.templates.includes(plan.template_id)&&(plan.template_id!=='flower'||isCutout(a))))
-  return group.find(a=>a.id===remembered&&compatible(a))||group.find(a=>isCutout(a)&&compatible(a))||group.find(compatible)||group[0]
+  return group.find(a=>a.id===remembered&&compatible(a))||group.find(a=>a.id===schoolCoverIds[character]&&compatible(a))||group.find(a=>isCutout(a)&&compatible(a))||group.find(compatible)||group[0]
 }
 
 export function replaceSubject(previous:Plan,asset:Asset,templates:Template[]=[]):Plan{

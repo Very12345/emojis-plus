@@ -33,7 +33,7 @@ export interface Plan {
   text_layout: 'horizontal' | 'vertical' | 'staggered';
   effects: Effect[]; speed: number; rotation: number; copies: number; petals: number;
   emblem_mode: 'badge' | 'speaker' | 'personified' | 'symbol'; speaker_name: string
-  characters:CharacterLayer[];primary_x:number;primary_y:number;primary_scale:number
+  primary_motion?:{effect:Effect;strength:number;speed:number};characters:CharacterLayer[];primary_x:number;primary_y:number;primary_scale:number
   template_motion:boolean;template_speed:number;letter_spacing:number;line_spacing:number;text_backdrop:'auto'|'none'|'light'|'dark'
   template_strength:number;template_direction:1|-1;prop_color:string
   text_boxes?:Partial<Record<TextField,TextBox>>

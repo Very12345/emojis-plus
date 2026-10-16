@@ -33,10 +33,10 @@ export function primitive(plan:Plan,t:number,phase:number,effects:any[],target='
 export function buildScene(images:any[],p:Plan,template:RuntimeTemplate,effects:any[],t:number,w:number,h:number,duration:number):Scene{
  const scene:Scene={sprites:[],before:[],after:[],clip:false},a=template.animation,active=!!a&&p.template_motion
  const u=mod(t*1000/duration),s=p.template_strength??.7,dir=p.template_direction??1,angle=u*TAU*dir,q=Math.max(0,sin(angle)),wave=sin(angle),kind=a?.handler,props=new Set<string>(a?.props||[]),ink=p.prop_color||'#e990a0'
- const specs=[{x:p.primary_x,y:p.primary_y,scale:p.primary_scale,rotation:p.rotation,opacity:1,flip:p.flip,effect:p.effect,strength:p.strength,speed:p.speed},...p.characters]
+ const specs=[{x:p.primary_x,y:p.primary_y,scale:p.primary_scale,rotation:p.rotation,opacity:1,flip:p.flip,effect:p.effect,strength:p.strength,speed:p.speed,...p.primary_motion},...p.characters]
  const add=(i:number,x:number,y:number,scale=1,sx=1,sy=1,rotation=0,alpha=1,phase=0,ghost=false,diameter?:number)=>{
   const im=images[i%images.length],spec=specs[i%specs.length],local=i===0?p:{...p,zoom:1,rotation:0}as Plan
-  const v=primitive(local,t,phase,effects,'subject',active?undefined:template,i?spec:undefined),base=diameter??Math.min(w,h)*(images.length===1?.62*Math.min(1.4,spec.scale):spec.scale*.94),fit=base/Math.max(im.width,im.height)
+  const v=primitive(local,t,phase,effects,'subject',active?undefined:template,i?spec:p.primary_motion),base=diameter??Math.min(w,h)*(images.length===1?.62*Math.min(1.4,spec.scale):spec.scale*.94),fit=base/Math.max(im.width,im.height)
   const homeX=spec.x*w,homeY=spec.y*h
   if(active&&kind!=='loading'){const k=s/.7;x=homeX+(x-(images.length===1?.5*w:homeX))*k;y=homeY+(y-(images.length===1?.52*h:homeY))*k;sx=1+(sx-1)*k;sy=1+(sy-1)*k;rotation*=k}
   const zoom=i===0?p.zoom:1
@@ -53,8 +53,8 @@ export function buildScene(images:any[],p:Plan,template:RuntimeTemplate,effects:
  if(!active){
   const mode=template.layout?.subject_mode||template.layout_id
   const single=(i:number,cx:number,cy:number,width:number,height:number,local:Plan)=>{
-   const im=images[i],fit=Math.min(width/im.width,height/im.height),v=primitive(local,t,0,effects,'subject',template,i?specs[i]:undefined)
-   const image=(x:number,y:number,scale:number,phase=0,extra=0)=>{const z=primitive(local,t,phase,effects,'subject',template,i?specs[i]:undefined);scene.sprites.push({image:im,actor:i,matrix:matrix(x+v.dx*width,y+v.dy*height,fit*scale*z.sx*local.zoom*(local.flip?-1:1),fit*scale*z.sy*local.zoom,z.angle+local.rotation+extra),alpha:i?specs[i].opacity:1})}
+   const im=images[i],fit=Math.min(width/im.width,height/im.height),v=primitive(local,t,0,effects,'subject',template,i?specs[i]:p.primary_motion)
+   const image=(x:number,y:number,scale:number,phase=0,extra=0)=>{const z=primitive(local,t,phase,effects,'subject',template,i?specs[i]:p.primary_motion);scene.sprites.push({image:im,actor:i,matrix:matrix(x+v.dx*width,y+v.dy*height,fit*scale*z.sx*local.zoom*(local.flip?-1:1),fit*scale*z.sy*local.zoom,z.angle+local.rotation+extra),alpha:i?specs[i].opacity:1})}
    const waveEffect=[p.effect,...p.effects,...(p.template_motion?(template.motions||[]).filter(m=>m.target==='subject').map(m=>m.effect_id):[])].map(id=>effects.find(e=>e.id===id)).find(e=>e?.handler==='wave_copy')
    if(i===0&&mode==='flower'){const small=Math.min(width*.26/im.width,height*.34/im.height)/fit;for(let j=0;j<p.petals;j++){const z=j*TAU/p.petals;image(cx+cos(z)*Math.min(width,height)*.27,cy+sin(z)*Math.min(width,height)*.27,small,j*.7,-z*180/Math.PI-90)}scene.after.push(ctx=>{ctx.fillStyle='#f5d977';ctx.strokeStyle='#eac75d';ctx.beginPath();ctx.ellipse(cx,cy,Math.min(width,height)*.13,Math.min(width,height)*.13,0,0,TAU);ctx.fill();ctx.stroke()})}
    else if(i===0&&mode==='grid'){const small=Math.min(width*.25/im.width,height*.25/im.height)/fit;for(let row=0;row<3;row++)for(let col=0;col<3;col++){const phase=(row+col)*.7;image(cx-width/2+width*(col+.5)/3,cy-height/2+height*(row+.5)/3+(waveEffect?sin(t*p.speed*TAU+phase)*height*.05*p.strength:0),small,phase)}}

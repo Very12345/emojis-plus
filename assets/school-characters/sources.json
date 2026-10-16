@@ -1,0 +1,48 @@
+{
+  "tsinghua": {
+    "source_url": "https://vi.tsinghua.edu.cn/gk/xxbz/xh/bzjbzsy.htm",
+    "download_url": "https://vi.tsinghua.edu.cn/__local/8/1C/21/2F02A66E31BF084FE340463BB47_B9A95F73_185BC.jpg",
+    "original": "assets/emblem/tsinghua-official-source.jpg",
+    "processed": "assets/emblem/tsinghua-seal.png"
+  },
+  "pku": {
+    "filename": "emblem/标志_红色.png",
+    "name": "北京大学圆形校徽（红色）",
+    "source_url": "https://vim.pku.edu.cn/xzzq/",
+    "download_url": "https://vim.pku.edu.cn/docs/20240527144201516364.zip",
+    "source_note": "从北京大学标识管理办公室下载专区的‘标志(圆形校徽).zip’取得。保留官方 PNG 原件及完整比例。ZIP 内含 EPS、红色/黑色/反白 PNG。"
+  },
+  "generated": [
+    "pku-dumpling-cheer",
+    "pku-dumpling-tired",
+    "pku-dumpling-think",
+    "pku-scholar-cat-cheer",
+    "pku-scholar-cat-tired",
+    "pku-scholar-cat-think",
+    "pku-book-spirit-cheer",
+    "pku-book-spirit-tired",
+    "pku-book-spirit-think",
+    "pku-badge-bot-cheer",
+    "pku-badge-bot-tired",
+    "pku-badge-bot-think",
+    "pku-campus-gate-cheer",
+    "pku-campus-gate-tired",
+    "pku-campus-gate-think",
+    "thu-dumpling-cheer",
+    "thu-dumpling-tired",
+    "thu-dumpling-think",
+    "thu-scholar-cat-cheer",
+    "thu-scholar-cat-tired",
+    "thu-scholar-cat-think",
+    "thu-book-spirit-cheer",
+    "thu-book-spirit-tired",
+    "thu-book-spirit-think",
+    "thu-badge-bot-cheer",
+    "thu-badge-bot-tired",
+    "thu-badge-bot-think",
+    "thu-campus-gate-cheer",
+    "thu-campus-gate-tired",
+    "thu-campus-gate-think",
+    "thu-logo-avatar"
+  ]
+}

@@ -5,7 +5,7 @@ import type {Plan,Asset,TextField} from '../api'
 import type {CanvasElement} from '../editor/types'
 import type {RenderInput,DecodedSource} from '../local/types'
 import {buildScene,bounds,captionVisibility,clamp,matrix,multiply,type Matrix,type SurfaceFactory} from './scene'
-export const RENDER_VERSION='browser-canvas-v4-theme-composition'
+export const RENDER_VERSION='browser-canvas-v5-agent-workstation'
 export type Rect=[number,number,number,number]
 export function regions(p:Plan,t:any):{image:Rect;captions:{field:string;rect:Rect}[]} {
  const s=p.size,m=s*.045,rect=(v:number[])=>v.map(x=>x*s) as Rect,caption=(r:number[],field='text')=>({field,rect:rect(r)})
@@ -23,7 +23,7 @@ export function regions(p:Plan,t:any):{image:Rect;captions:{field:string;rect:Re
 }
 export function timing(input:RenderInput,sources:DecodedSource[]){
  const p=input.plan,a=input.template.animation
- const animated=p.template_motion&&(a||input.template.motions.length),extra=[p.effect,...p.effects,...p.characters.map(c=>c.effect)].some(e=>e!=='none')
+ const animated=p.template_motion&&(a||input.template.motions.length),extra=[p.effect,p.primary_motion?.effect||'none',...p.effects,...p.characters.map(c=>c.effect)].some(e=>e!=='none')
  if(animated||extra||sources.every(s=>s.frames.length===1)){const duration=Math.min(6000,Math.max(200,(a?.duration_ms||2000)/(a?p.template_speed:1))),count=Math.max(2,Math.round(duration/100));return {duration,delays:Array(count).fill(duration/count),loop:0}}
  const source=sources.find(s=>s.frames.length>1)!,delays:number[]=[];let duration=0
  for(const delay of source.delays){if(duration>=6000)break;delays.push(Math.min(delay,6000-duration));duration+=delays.at(-1)!}

@@ -11,7 +11,7 @@ const ROOT = path.resolve(path.dirname(fileURLToPath(import.meta.url)), '..');
 const SEED = path.join(ROOT, 'assets', 'seed');
 const OUT = path.join(ROOT, 'public', 'library');
 const VERSION = 'static-library-v1-webp-q90-1024';
-const EXPECTED = { assets: 774, templates: 98, presets: 192, captions: 80, fonts: 7 };
+const EXPECTED = { assets: 805, templates: 98, presets: 192, captions: 80, fonts: 7 };
 const FONTS = [
   ['sans', 'Noto 黑体', '清晰通用', 'NotoSansSC.ttf', 'OFL.txt'],
   ['serif', 'Noto 宋体', '细节衬线', 'NotoSerifSC.ttf', 'NotoSerifSC-OFL.txt'],

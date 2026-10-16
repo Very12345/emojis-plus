@@ -1,3 +1,7 @@
+import AgentBridge from './AgentBridge'
+import ProcessTimeline from './ProcessTimeline'
+import {subscribeJob} from './local/service'
+import {appendProcessEvent,type ProcessEvent} from './local/process'
 import ThemeWorkbench from './ThemeWorkbench'
 import {reconcileBindings} from './themes/plans'
 import {characterLabel} from './library'
@@ -45,6 +49,7 @@ export default function App(){
   const [prompt,setPrompt]=useState(()=>localStorage.getItem('ep-intent')||'')
   const [character,setCharacter]=useState(''), [outputFormat,setOutputFormat]=useState<'jpg'|'gif'>('jpg')
   const [candidates,setCandidates]=useState<Candidate[]>([]), [generation,setGeneration]=useState<Generation|null>(null)
+  const [processEvents,setProcessEvents]=useState<ProcessEvent[]>([]),generationAbort=useRef<AbortController|null>(null)
   const [generating,setGenerating]=useState(false), [genStatus,setGenStatus]=useState('')
   const [plan,setPlan]=useState<Plan|null>(null), [rendered,setRendered]=useState<Rendered|null>(null)
   const [canvasGesture,setCanvasGesture]=useState(false)
@@ -148,12 +153,14 @@ export default function App(){
   }
   async function generate(){
     if(!prompt.trim()){setNotice('先写下你想表达的意思吧。');return}
+    const controller=new AbortController();generationAbort.current=controller;let unsubscribe=()=>{};setProcessEvents([])
     setGenerating(true);setGenStatus('analyzing');setNotice('')
     try {
-      const {job_id}=await api<{job_id:string}>('/generations',{method:'POST',body:JSON.stringify({prompt,format:outputFormat,character:character||null})})
-      const result=await waitJob<Generation>(job_id,setGenStatus)
+      const {job_id}=await api<{job_id:string}>('/generations',{method:'POST',body:JSON.stringify({prompt,format:outputFormat,character:character||null}),signal:controller.signal})
+      unsubscribe=subscribeJob(job_id,event=>setProcessEvents(old=>appendProcessEvent(old,event)))
+      const result=await waitJob<Generation>(job_id,setGenStatus,controller.signal)
       setCandidates(result.candidates);setGeneration(result);setPlan(result.candidates[0].plan);setRendered(result.candidates[0])
-    }catch(e){setNotice(errorText(e)+'；也可以在预览下方选择主题，继续手动制作。')}finally{setGenerating(false);setGenStatus('')}
+    }catch(e){setNotice(controller.signal.aborted?'制作已取消，输入和当前编辑内容已保留。':errorText(e)+'；也可以在预览下方选择主题，继续手动制作。')}finally{unsubscribe();generationAbort.current=null;setGenerating(false);setGenStatus('')}
   }
   if(loading)return <div className="loading-page"><Brand/><LoaderCircle className="spin" size={26}/></div>
   const inspirationAssets=balancedAssets(subjects.filter(a=>!character||a.character===character))
@@ -174,6 +181,7 @@ export default function App(){
       </section>
       {notice&&<div className="notice dismissible" role="alert"><CircleHelp size={17}/><span>{notice}</span><button className="icon-button" aria-label="关闭提示" onClick={()=>setNotice('')}><X size={16}/></button></div>}
       {assets.length===0&&<div className="empty-state"><ImagePlus size={36}/><h2>素材库还是空的</h2><p>可以在浏览器设置中导入图片，再开始创作。</p><button className="button primary" onClick={()=>setAdminOpen(true)}>管理素材</button></div>}
+      <AgentBridge onPlan={p=>{setPlan(p);setView('workbench');setRenderError('')}}/>
       {view==='workbench'&&assets.length>0&&<div className="workbench">
         <aside className="intent-column"><section className="panel intent-panel">
           <div className="section-heading"><span className="step">01</span><h2>先说说你的意思</h2><span className="tiny-label">IDEA</span></div>
@@ -186,6 +194,8 @@ export default function App(){
           <div className="field-label">生成什么格式？</div><div className="segmented">{(['jpg','gif']as const).map(f=><button key={f} className={outputFormat===f?'selected':''} onClick={()=>setOutputFormat(f)}>{f.toUpperCase()}<small>{f==='jpg'?'静态图片':'动态表情'}</small></button>)}</div>
           <button className="button primary generate-button" disabled={generating} onClick={generate}>{generating?<LoaderCircle className="spin" size={18}/>:<WandSparkles size={18}/>}
             {generating?(genStatus==='rendering'?'正在绘制表情…':'正在寻找灵感…'):'帮我做个表情'}{!generating&&<span>↗</span>}</button>
+          {generating&&<button className="manual-button" onClick={()=>generationAbort.current?.abort()}>取消本次制作</button>}
+          <ProcessTimeline events={processEvents} running={generating}/>
           <p className="under-button">一次给你直白、情境、反差三种完整构图</p>
           {!status?.model_configured&&<div className="model-note"><span className="small-dot"/>AI 尚未配置，手动制作已就绪。<button onClick={()=>setAdminOpen(true)}>去设置<ChevronRight size={12}/></button></div>}
           <button className="manual-button" onClick={()=>{if(selected)chooseAsset(selected,true);setNotice('已进入手动制作。你可以直接修改右侧文案。')}}>我自己来，直接编辑<ArrowRight size={14}/></button>

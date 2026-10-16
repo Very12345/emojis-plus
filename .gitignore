@@ -18,3 +18,5 @@ evals/
 examples/
 assets/programmatic-test/
 assets/seed/**
+
+public/integrations/

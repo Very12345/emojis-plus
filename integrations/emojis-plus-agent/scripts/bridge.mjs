@@ -1,0 +1,63 @@
+#!/usr/bin/env node
+// Optional local relay: no image synthesis, model credentials, filesystem API or code execution.
+import http from 'node:http'
+import crypto from 'node:crypto'
+import os from 'node:os'
+import fs from 'node:fs/promises'
+import path from 'node:path'
+import {pathToFileURL} from 'node:url'
+export const VERSION='1.0'
+const privateHost=host=>{if(['localhost','127.0.0.1','[::1]'].includes(host))return true;if(!/^(?:\d{1,3}\.){3}\d{1,3}$/.test(host))return false;const n=host.split('.').map(Number);return n.every(v=>v<=255)&&(n[0]===10||n[0]===192&&n[1]===168||n[0]===172&&n[1]>=16&&n[1]<=31)}
+const terminal=new Set(['completed','failed','cancelled']),id=()=>crypto.randomUUID(),now=()=>Date.now()
+export function createBridge({token=crypto.randomBytes(32).toString('hex'),maxBytes=128*1024*1024}={}){
+ const browsers=new Map(),jobs=new Map(),waiters=new Map(),validOrigin=value=>{try{const u=new URL(value);return u.origin==='https://very12345.github.io'||privateHost(u.hostname)}catch{return false}}
+ const publicBrowser=b=>({id:b.id,name:b.name,online:now()-b.seen<45000,busy:!!b.active,connected_at:b.created})
+ const view=j=>({id:j.id,browser_id:j.browser_id,operation:j.operation,status:j.status,created_at:j.created,events:j.events,result:j.result,error:j.error,files:[...j.files].map(([name,v])=>({name,mime:v.mime,bytes:v.data.length,download_path:'/api/v1/jobs/'+j.id+'/files/'+name}))})
+ const update=(j,stage,message,extra={})=>{j.status=stage;j.updated=now();const previous=j.events.at(-1),event={seq:(previous?.seq||0)+1,at:now(),stage,message,...extra};if(previous?.stage===stage&&(stage==='receiving'||stage==='rendering'&&previous.candidate===extra.candidate&&previous.message===message))j.events[j.events.length-1]=event;else j.events.push(event);if(j.events.length>120)j.events.splice(1,1)}
+ const finish=(j,status,error)=>{update(j,status,error||'制作完成。');j.error=error;const b=browsers.get(j.browser_id);if(b?.active===j.id)b.active=null;wake(j.browser_id)}
+ const sweep=()=>{for(const j of jobs.values()){if(!terminal.has(j.status)&&(!browsers.has(j.browser_id)||now()-browsers.get(j.browser_id).seen>45000))finish(j,'failed','浏览器已断开连接，请重新连接后重试。');if(!terminal.has(j.status)&&now()-j.created>15*60*1000)finish(j,'failed','任务超过15分钟，请重试。');if(terminal.has(j.status)&&now()-j.updated>60*60*1000)jobs.delete(j.id)}for(const [key,b]of browsers)if(now()-b.seen>3600000)browsers.delete(key)}
+ const command=b=>{const cancel=[...jobs.values()].find(j=>j.browser_id===b.id&&j.cancelPending);if(cancel){cancel.cancelPending=false;return {type:'cancel',job_id:cancel.id}}if(b.active)return null;const j=[...jobs.values()].find(j=>j.browser_id===b.id&&j.status==='queued');if(!j)return null;b.active=j.id;update(j,'working','浏览器已接收任务。');return {type:'job',job:{id:j.id,operation:j.operation,payload:j.payload}}}
+ const wake=browser=>{const pending=waiters.get(browser),b=browsers.get(browser);if(!pending||!b||now()-b.seen>45000)return;const value=command(b);if(value){waiters.delete(browser);clearTimeout(pending.timer);pending.send({command:value})}}
+ const failure=(status,message)=>Object.assign(Error(message),{status})
+ const read=async(req,limit=2*1024*1024)=>{const chunks=[];let size=0;for await(const c of req){size+=c.length;if(size>limit)throw failure(413,'请求内容过大。');chunks.push(c)}return Buffer.concat(chunks)}
+ const jsonBody=async(req,limit)=>{try{return JSON.parse((await read(req,limit)).toString()||'{}')}catch(e){if(e.status)throw e;throw failure(400,'请求须为有效 JSON。')}}
+ const server=http.createServer(async(req,res)=>{
+  const send=(data,status=200)=>{if(res.writableEnded)return;res.writeHead(status,{'Content-Type':'application/json; charset=utf-8','Cache-Control':'no-store'});res.end(JSON.stringify(data))}
+  try{
+   res.setHeader('X-Content-Type-Options','nosniff');const origin=req.headers.origin
+   if(origin){if(!validOrigin(origin))throw failure(403,'此网页来源不允许连接。');res.setHeader('Access-Control-Allow-Origin',origin);res.setHeader('Vary','Origin');res.setHeader('Access-Control-Allow-Headers','Authorization, Content-Type, X-EP-Browser-Key');res.setHeader('Access-Control-Allow-Methods','GET, POST, OPTIONS');res.setHeader('Access-Control-Allow-Private-Network','true')}
+   if(req.method==='OPTIONS'){res.writeHead(204);res.end();return}
+   const url=new URL(req.url,'http://bridge.local'),route=url.pathname
+   if(route==='/health'){send({name:'Emojis Plus local bridge',version:VERSION});return}
+   const supplied=String(req.headers.authorization||'').replace(/^Bearer /,'');if(Buffer.byteLength(supplied)!==Buffer.byteLength(token)||!crypto.timingSafeEqual(Buffer.from(supplied),Buffer.from(token)))throw failure(401,'缺少或无效的工作台配对码。')
+   sweep()
+   if(route==='/api/v1/browsers'&&req.method==='GET'){send({browsers:[...browsers.values()].map(publicBrowser)});return}
+   if(route==='/api/v1/catalog'&&req.method==='GET'){const b=chooseBrowser(url.searchParams.get('browser_id'));send(b.catalog);return}
+   if(route==='/bridge/register'&&req.method==='POST'){const data=await jsonBody(req,10*1024*1024);if(!data.catalog?.assets||!Array.isArray(data.catalog.assets))throw failure(400,'缺少浏览器素材目录。');for(const [key,old]of browsers)if(now()-old.seen>45000)browsers.delete(key);if(browsers.size>=8)throw failure(429,'最多连接8个浏览器。');const b={id:id(),key:id(),name:String(data.name||'浏览器工作台').slice(0,100),catalog:data.catalog,seen:now(),created:now(),active:null};browsers.set(b.id,b);send({browser_id:b.id,browser_key:b.key,version:VERSION});return}
+   const poll=route.match(/^\/bridge\/poll\/([\w-]+)$/)
+   if(poll&&req.method==='GET'){const b=browserAuth(poll[1],req);b.seen=now();const value=command(b);if(value){send({command:value});return}const previous=waiters.get(b.id);if(previous){clearTimeout(previous.timer);previous.send({command:null})}const timer=setTimeout(()=>{waiters.delete(b.id);send({command:null})},20000);waiters.set(b.id,{send,timer});res.on('close',()=>{if(waiters.get(b.id)?.timer===timer){clearTimeout(timer);waiters.delete(b.id)}});return}
+   if(route==='/bridge/disconnect'&&req.method==='POST'){const data=await jsonBody(req),b=browserAuth(data.browser_id,req);b.seen=0;sweep();wake(b.id);send({ok:true});return}
+   if(route==='/api/v1/jobs'&&req.method==='POST'){const data=await jsonBody(req),b=chooseBrowser(data.browser_id);if(!['generate','compose','render'].includes(data.operation))throw failure(400,'operation 支持 generate、compose、render。');if(data.operation==='generate'&&(typeof data.prompt!=='string'||!data.prompt.trim()||data.prompt.length>1000))throw failure(400,'意图须为1—1000字。');if(data.format!==undefined&&!['jpg','gif'].includes(data.format)||data.size!==undefined&&![256,512].includes(data.size)||data.character!==undefined&&data.character!==null&&(typeof data.character!=='string'||data.character.length>100))throw failure(400,'格式、尺寸或角色参数无效。');if(data.operation==='render'&&(!data.plan||typeof data.plan!=='object'||Array.isArray(data.plan)))throw failure(400,'render 操作需要完整 plan。');if([...jobs.values()].filter(j=>!terminal.has(j.status)).length>=32)throw failure(429,'等待任务已达32个，请稍后重试。');for(const old of [...jobs.values()])if(jobs.size>=64&&terminal.has(old.status))jobs.delete(old.id);const j={id:id(),browser_id:b.id,operation:data.operation,payload:data,status:'queued',created:now(),updated:now(),events:[],files:new Map(),result:null,error:null};jobs.set(j.id,j);update(j,'queued','等待已连接浏览器制作。');wake(b.id);send(view(j),202);return}
+   const matched=route.match(/^\/(api\/v1|bridge)\/jobs\/([\w-]+)(?:\/(.*))?$/)
+   if(matched){const [,scope,key,action='']=matched,j=jobs.get(key);if(!j)throw failure(404,'任务不存在或已过期。');if(scope==='bridge'){browserAuth(j.browser_id,req)}
+    if(scope==='api/v1'&&req.method==='GET'&&!action){send(view(j));return}
+    if(scope==='api/v1'&&req.method==='POST'&&action==='cancel'){if(!terminal.has(j.status)){j.cancelPending=true;finish(j,'cancelled','Agent 已取消任务。');wake(j.browser_id)}send(view(j));return}
+    if(scope==='bridge'&&req.method==='POST'&&action==='events'){if(terminal.has(j.status)){send({ignored:true});return}const data=await jsonBody(req);if(!['analyzing','receiving','planning','validating','rendering','working'].includes(data.stage)||typeof data.message!=='string')throw failure(400,'过程事件格式无效。');update(j,data.stage,data.message.slice(0,600),{...(Number.isFinite(data.percent)?{percent:Math.max(0,Math.min(100,data.percent))}:{}),...(Number.isFinite(data.candidate)?{candidate:data.candidate}:{})});send({ok:true});return}
+    if(scope==='bridge'&&req.method==='POST'&&action==='complete'){if(!terminal.has(j.status)){const data=await jsonBody(req);j.result=data.result;finish(j,data.error?'failed':'completed',data.error?String(data.error).slice(0,600):undefined)}send(view(j));return}
+    const file=action.match(/^files\/([a-zA-Z0-9][a-zA-Z0-9._-]{0,79}\.(?:jpg|gif|png))$/)
+    if(file&&req.method==='POST'&&scope==='bridge'){if(terminal.has(j.status))throw failure(409,'任务已结束，不能继续写入。');const data=await read(req,24*1024*1024),mime=data[0]===255&&data[1]===216?'image/jpeg':data.subarray(0,3).toString()==='GIF'?'image/gif':data.subarray(1,4).toString()==='PNG'?'image/png':null;if(!mime)throw failure(400,'成品不是 JPG、GIF 或 PNG。');let bytes=0;for(const v of jobs.values())for(const f of v.files.values())bytes+=f.data.length;if(bytes+data.length>maxBytes)throw failure(507,'通信桥成品缓存已满，请下载后重启通信桥。');j.files.set(file[1],{data,mime});send({name:file[1],bytes:data.length});return}
+    if(file&&req.method==='GET'&&scope==='api/v1'){const f=j.files.get(file[1]);if(!f)throw failure(404,'成品文件不存在或已过期。');res.writeHead(200,{'Content-Type':f.mime,'Content-Length':f.data.length,'Content-Disposition':'attachment; filename="'+file[1]+'"','Cache-Control':'no-store'});res.end(f.data);return}
+   }
+   throw failure(404,'此接口不存在。')
+  }catch(e){send({error:e.message||'通信桥请求失败。'},e.status||500)}
+ })
+ function browserAuth(key,req){const b=browsers.get(key);if(!b||req.headers['x-ep-browser-key']!==b.key)throw failure(403,'浏览器连接已失效，请重新连接。');return b}
+ function chooseBrowser(key){const candidates=[...browsers.values()].filter(b=>now()-b.seen<45000);if(key){const found=candidates.find(b=>b.id===key);if(!found)throw failure(409,'指定浏览器未连接。');return found}if(candidates.length!==1)throw failure(409,candidates.length?'有多个浏览器，请传 browser_id。':'还没有连接的浏览器，请打开工作台的 Agent 接入面板。');return candidates[0]}
+ const sweepTimer=setInterval(sweep,10000);sweepTimer.unref();server.on('close',()=>{clearInterval(sweepTimer);for(const w of waiters.values()){clearTimeout(w.timer);w.send({command:null})}waiters.clear()})
+ return {server,token,close:()=>new Promise(resolve=>{server.close(resolve);server.closeAllConnections()})}
+}
+if(process.argv[1]&&import.meta.url===pathToFileURL(path.resolve(process.argv[1])).href){
+ const args=process.argv.slice(2),arg=(key,fallback)=>args.includes(key)?args[args.indexOf(key)+1]:fallback,port=Number(arg('--port','8766')),host=args.includes('--lan')?'0.0.0.0':'127.0.0.1',config=path.resolve(arg('--config',path.join(os.homedir(),'.emojis-plus','bridge.json'))),bridge=createBridge()
+ bridge.server.on('error',e=>{console.error('通信桥启动失败：'+e.message);process.exitCode=1})
+ bridge.server.listen(port,host,async()=>{const actual=bridge.server.address().port,url='http://127.0.0.1:'+actual,lan_urls=host==='0.0.0.0'?[...new Set(Object.values(os.networkInterfaces()).flat().filter(n=>n&&n.family==='IPv4'&&!n.internal&&privateHost(n.address)).map(n=>'http://'+n.address+':'+actual))]:[];await fs.mkdir(path.dirname(config),{recursive:true});await fs.writeFile(config,JSON.stringify({url,token:bridge.token,pid:process.pid,lan:host==='0.0.0.0',lan_urls},null,2),{mode:0o600});console.log('Emojis Plus 通信桥已启动：'+url+'；模式：'+(host==='0.0.0.0'?'局域网':'仅本机'));console.log('本机连接配置：'+config);if(args.includes('--show-pairing'))for(const endpoint of [url,...lan_urls])console.log('打开并点击连接：https://very12345.github.io/emojis-plus/#bridge_url='+encodeURIComponent(endpoint)+'&bridge_token='+encodeURIComponent(bridge.token));})
+}

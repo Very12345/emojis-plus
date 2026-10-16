@@ -11,7 +11,7 @@ export function slots(count:number){
 }
 export function chooseSubject(assets:Asset[],character='',preferred='',used:string[]=[]){
  const group=assets.filter(a=>a.enabled&&a.metadata.role!=='background'&&(!character||a.character===character))
- return group.find(a=>a.id===preferred)||group.find(a=>!used.includes(a.character)&&a.character!=='北京大学'&&a.info.has_transparency)||group.find(a=>a.info.has_transparency)||group[0]
+ return group.find(a=>a.id===preferred)||group.find(a=>!used.includes(a.character)&&!['北京大学','清华大学'].includes(a.character)&&a.info.has_transparency)||group.find(a=>a.info.has_transparency)||group[0]
 }
 export function applyTemplatePlan(catalog:Catalog,id:string,base:Plan,count?:number,additional:string[]=[],defaults=false):Plan{
  const template=catalog.templates.find(t=>t.id===id&&t.enabled);if(!template)throw Error('模板不存在或已停用。')
@@ -69,6 +69,7 @@ export function validatePlan(plan:Plan,catalog:Catalog){
  for(const [key,values]of Object.entries(enums))if(!values.includes((plan as any)[key]))throw Error('不支持的参数：'+key)
  if(![1,-1].includes(plan.template_direction)||!Number.isInteger(plan.copies)||!Number.isInteger(plan.petals))throw Error('方向或复制数量无效。')
  const number=(v:unknown,min:number,max:number)=>typeof v==='number'&&Number.isFinite(v)&&v>=min&&v<=max
+ if(plan.primary_motion&&(!effects.has(plan.primary_motion.effect)||['typewriter','wave_copy'].includes(catalog.effects.find(e=>e.id===plan.primary_motion!.effect)?.handler||'')||!number(plan.primary_motion.strength,0,1)||!number(plan.primary_motion.speed,.25,2)))throw Error('主角色个人动作参数无效。')
  const validBox=(b:any)=>b&&number(b.x,0,1)&&number(b.y,0,1)&&number(b.width,.01,1)&&number(b.height,.01,1)&&b.x+b.width<=1.001&&b.y+b.height<=1.001&&(b.font_size===undefined||number(b.font_size,8,160))&&(b.rotation===undefined||number(b.rotation,-180,180))&&(b.fit===undefined||['fixed','shrink'].includes(b.fit))
  for(const [key,b]of Object.entries(plan.text_boxes||{}))if(!['text','secondary_text'].includes(key)||!validBox(b))throw Error('文字框位置或字号无效。')
  if(plan.text_fit!==undefined&&!['fixed','shrink'].includes(plan.text_fit))throw Error('文字适应模式无效。')
