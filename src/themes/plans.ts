@@ -1,6 +1,7 @@
 import {makePlan,type Plan} from '../api'
 import type {Catalog} from '../local/types'
 import type {Composition,PropLayer} from './types'
+import {preferredMaterial} from '../materials'
 export const actorIds=(p:Plan)=>[p.primary_actor_id||'primary',...p.characters.map((a,i)=>a.id||'actor-'+(i+1))]
 export const environmentHandlers=new Set(['classroom','exam','desk','library','dorm','meeting','canteen','notice','phone-room','office','station','living','party','rain-window','cinema','doorway'])
 export const propHandlers=new Set(['laptop','book','paper','notice','error','phone','cup','tray','clock','question','sweat','heart','confetti','speech','thought'])
@@ -21,7 +22,7 @@ export function applyComposition(catalog:Catalog,id:string,base:Plan,full=false)
  p.prop_layers=[...(p.prop_layers||[]).filter(l=>l.origin!=='theme'),...props]
  return p
 }
-export function sampleAsset(catalog:Catalog,character:string,moods:string[]=[]){const available=catalog.assets.filter(a=>a.enabled&&a.info.has_transparency&&a.metadata.role==='subject'&&a.character===character),cutouts=available.filter(a=>a.metadata.is_cutout),group=cutouts.length?cutouts:available,score=(a:typeof group[number])=>moods.reduce((n,m)=>n+(a.metadata.emotion.includes(m)?10:a.metadata.action.includes(m)?5:0),a.metadata.is_cutout?1:0);return group.sort((a,b)=>score(b)-score(a))[0]}
+export function sampleAsset(catalog:Catalog,character:string,moods:string[]=[]){const available=catalog.assets.filter(a=>preferredMaterial(a)&&a.info.has_transparency&&a.metadata.role==='subject'&&a.character===character),cutouts=available.filter(a=>a.metadata.is_cutout),group=cutouts.length?cutouts:available,score=(a:typeof group[number])=>moods.reduce((n,m)=>n+(a.metadata.emotion.includes(m)?10:a.metadata.action.includes(m)?5:0),a.metadata.is_cutout?1:0);return group.sort((a,b)=>score(b)-score(a))[0]}
 
 export function resolveCompositions(catalog:Catalog){return (catalog.compositions||[]).filter(c=>c.enabled&&catalog.themes?.some(t=>t.id===c.theme_id&&t.enabled)).map(c=>{const a=sampleAsset(catalog,c.sample.character)||catalog.assets.find(a=>a.enabled&&a.info.has_transparency&&!['北京大学','清华大学'].includes(a.character))!;return {...c,plan:applyComposition(catalog,c.id,makePlan(a),true)}})}
 export function reconcileBindings(p:Plan):Plan {const ids=new Set(actorIds(p));return {...p,prop_layers:p.prop_layers?.map(l=>({...l,...(l.actor_id&&!ids.has(l.actor_id)?{actor_id:undefined,x:.5,y:.5}:{}),...(l.text_id&&!['text','secondary_text',...(p.text_layers||[]).map(t=>'layer:'+t.id)].includes(l.text_id)?{text_id:undefined}:{})}))}}

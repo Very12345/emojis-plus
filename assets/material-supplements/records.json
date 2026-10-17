@@ -1,0 +1,325 @@
+{
+  "tool": "image_gen",
+  "records": [
+    {
+      "id": "supplement-meowl-angry",
+      "character": "Meowl",
+      "mood": "生气",
+      "reference": "meowl-cutout",
+      "master": "assets/material-supplements/masters/supplement-meowl-angry.png",
+      "tool": "image_gen",
+      "review": "通过：独立生成；角色及情绪人工检查；主体完整；实际透明 RGBA；512 工作图等比适配并留安全边距。",
+      "prompt": "Create one independent transparent Meowl angry variant using meowl-cutout as identity reference: photorealistic brown and white cat face with compact owl feather body, white chest, folded brown feather wings and furry paw-like feet. Squinting eyes and naturally lowered brows, annoyed mouth, firm posture. Preserve identity and colors, complete head/ears and feet, center subject at about 85% image height, genuine transparent RGBA, clean edges, no text, props, watermark, borders, scenery or human limbs. AI derived expression.",
+      "master_sha256": "2fb542fa2a541853bdc777a09a1d2945f54037f103e9ad72ff1e4401c7610178",
+      "master_size": [
+        1145,
+        1374
+      ],
+      "working_size": [
+        512,
+        512
+      ],
+      "source_classification": "AI派生，非原作者亲绘"
+    },
+    {
+      "id": "supplement-meowl-sad",
+      "character": "Meowl",
+      "mood": "委屈",
+      "reference": "meowl-cutout",
+      "prompt": "Create exactly ONE independent transparent meme asset, NOT a sheet. Identity/style reference: the same Meowl creature in the reference, photorealistic brown tabby cat face attached to a plump compact owl-feather body, white chest, folded brown feather wings, two furry paw-like feet. Preserve its identity, colors and natural fur/feather texture. Requested emotion: sad, about to cry: glossy tearful eyes, a small downturned mouth, lowered head and compact dejected posture. One tiny tear only, no floating symbols. Restore the complete head, small cat ears and all feet; do not clip the subject. Single subject centered, 84% image height with 7% safety space. Genuine transparent RGBA background. Clean alpha edges without colored fringe. No text, watermark, human limbs, other characters, scenery, drop shadow, border or checkerboard. AI-derived expression variant.",
+      "tool": "image_gen",
+      "master": "assets/material-supplements/masters/supplement-meowl-sad.png",
+      "master_sha256": "4a89f9a7ca99dfdfef4485c1f6810203b2034bf7a318bebf108f2e4749db82c2",
+      "master_size": [
+        1145,
+        1374
+      ],
+      "working_size": [
+        512,
+        512
+      ],
+      "review": "通过：独立生成；角色及情绪人工检查；主体完整；实际透明 RGBA；512 工作图等比适配并留安全边距。",
+      "source_classification": "AI派生，非原作者亲绘"
+    },
+    {
+      "id": "supplement-meowl-surprised",
+      "character": "Meowl",
+      "mood": "惊讶",
+      "reference": "meowl-cutout",
+      "prompt": "Create exactly ONE independent transparent meme asset, NOT a sheet. Identity/style reference: the same Meowl creature in the reference, photorealistic brown tabby cat face attached to a plump compact owl-feather body, white chest, folded brown feather wings, two furry paw-like feet. Preserve its identity, colors and natural fur/feather texture. Requested emotion: surprised: both eyes very wide, small open O-shaped cat mouth and an alert upright body, without changing its anatomy. Restore the complete head, small cat ears and all feet; do not clip the subject. Single subject centered, 84% image height with 7% safety space. Genuine transparent RGBA background. Clean alpha edges without colored fringe. No text, watermark, human limbs, other characters, scenery, drop shadow, border or checkerboard. AI-derived expression variant.",
+      "tool": "image_gen",
+      "master": "assets/material-supplements/masters/supplement-meowl-surprised.png",
+      "master_sha256": "5458a91e416b1ba6991149bcc448c49ae3e7c7d2c031121bca0d50979616ff94",
+      "master_size": [
+        1145,
+        1374
+      ],
+      "working_size": [
+        512,
+        512
+      ],
+      "review": "通过：独立生成；角色及情绪人工检查；主体完整；实际透明 RGBA；512 工作图等比适配并留安全边距。",
+      "source_classification": "AI派生，非原作者亲绘"
+    },
+    {
+      "id": "supplement-meowl-tired",
+      "character": "Meowl",
+      "mood": "疲惫",
+      "reference": "meowl-cutout",
+      "prompt": "Create exactly ONE independent transparent meme asset, NOT a sheet. Identity/style reference: the same Meowl creature in the reference, photorealistic brown tabby cat face attached to a plump compact owl-feather body, white chest, folded brown feather wings, two furry paw-like feet. Preserve its identity, colors and natural fur/feather texture. Requested emotion: exhausted and sleepy: heavily drooping eyelids, a subtle small yawn, head slightly nodded, folded feather wings, sleepy stance without a bed or letters. Restore the complete head, small cat ears and all feet; do not clip the subject. Single subject centered, 84% image height with 7% safety space. Genuine transparent RGBA background. Clean alpha edges without colored fringe. No text, watermark, human limbs, other characters, scenery, drop shadow, border or checkerboard. AI-derived expression variant.",
+      "tool": "image_gen",
+      "master": "assets/material-supplements/masters/supplement-meowl-tired.png",
+      "master_sha256": "912ad8188dc59c0a05d56459f055e1b5e3fd4c8cb4bb6d7bfbb4a1e9479471a6",
+      "master_size": [
+        1145,
+        1374
+      ],
+      "working_size": [
+        512,
+        512
+      ],
+      "review": "通过：独立生成；角色及情绪人工检查；主体完整；实际透明 RGBA；512 工作图等比适配并留安全边距。",
+      "source_classification": "AI派生，非原作者亲绘"
+    },
+    {
+      "id": "supplement-batiao-happy",
+      "character": "呆猫八条",
+      "mood": "开心",
+      "reference": "batiao-cutout-v2",
+      "prompt": "Generate ONE clean independent sticker of 呆猫八条 based on the provided identity reference. Preserve its very large rounded slightly squared white head, small cat ears, short white body and paws, thick smooth dark outline, black eyes with pale yellow irises/highlights and soft pink cheek blush, simple flat 2D cartoon style. New expression and gesture: big delighted closed-eye smile, open smiling mouth, tiny front paws lifted in celebration, no props. Keep the same character and coherent eye design; do not replace it with a generic different cat. Whole head, ears, body and all paws visible. Centered single subject occupying 83% of height, safe transparent margin on all sides. Actual transparent RGBA, no background or fake checkerboard. No text, caption, watermark, border, ground shadow, human body, other characters or unrequested objects. Clearly different expression from the original skeptical thinking pose. AI-derived new state.",
+      "tool": "image_gen",
+      "master": "assets/material-supplements/masters/supplement-batiao-happy.png",
+      "master_sha256": "dc1d30a5c8782d09d4e1f44df279d6710563a36e33c0deca56a30c95f9212431",
+      "master_size": [
+        1254,
+        1254
+      ],
+      "working_size": [
+        512,
+        512
+      ],
+      "review": "通过：独立生成；角色及情绪人工检查；主体完整；实际透明 RGBA；512 工作图等比适配并留安全边距。",
+      "source_classification": "AI派生，非原作者亲绘"
+    },
+    {
+      "id": "supplement-batiao-sad",
+      "character": "呆猫八条",
+      "mood": "委屈",
+      "reference": "batiao-cutout-v2",
+      "prompt": "Generate ONE clean independent sticker of 呆猫八条 based on the provided identity reference. Preserve its very large rounded slightly squared white head, small cat ears, short white body and paws, thick smooth dark outline, black eyes with pale yellow irises/highlights and soft pink cheek blush, simple flat 2D cartoon style. New expression and gesture: teary glossy eyes retaining pale yellow irises and black pupils, downturned mouth, shoulders/paws drooping, one small tear. Keep the same character and coherent eye design; do not replace it with a generic different cat. Whole head, ears, body and all paws visible. Centered single subject occupying 83% of height, safe transparent margin on all sides. Actual transparent RGBA, no background or fake checkerboard. No text, caption, watermark, border, ground shadow, human body, other characters or unrequested objects. Clearly different expression from the original skeptical thinking pose. AI-derived new state.",
+      "tool": "image_gen",
+      "master": "assets/material-supplements/masters/supplement-batiao-sad.png",
+      "master_sha256": "a89b3114b7f1fec3ffa0a1bbf3dca5bbd765fa23351c5b07c2467cbf92b3e6fb",
+      "master_size": [
+        1254,
+        1254
+      ],
+      "working_size": [
+        512,
+        512
+      ],
+      "review": "通过：独立生成；角色及情绪人工检查；主体完整；实际透明 RGBA；512 工作图等比适配并留安全边距。",
+      "source_classification": "AI派生，非原作者亲绘"
+    },
+    {
+      "id": "supplement-batiao-angry",
+      "character": "呆猫八条",
+      "mood": "生气",
+      "reference": "batiao-cutout-v2",
+      "prompt": "Generate ONE clean independent sticker of 呆猫八条 based on the provided identity reference. Preserve its very large rounded slightly squared white head, small cat ears, short white body and paws, thick smooth dark outline, black eyes with pale yellow irises/highlights and soft pink cheek blush, simple flat 2D cartoon style. New expression and gesture: strongly furrowed brows, puffed rosy cheeks, small angry frown and both little paws crossed firmly on the chest, front facing, not a back view. Keep the same character and coherent eye design; do not replace it with a generic different cat. Whole head, ears, body and all paws visible. Centered single subject occupying 83% of height, safe transparent margin on all sides. Actual transparent RGBA, no background or fake checkerboard. No text, caption, watermark, border, ground shadow, human body, other characters or unrequested objects. Clearly different expression from the original skeptical thinking pose. AI-derived new state.",
+      "tool": "image_gen",
+      "master": "assets/material-supplements/masters/supplement-batiao-angry.png",
+      "master_sha256": "2fb276da166f6648aace0691deddf7e9d24e69f70917ff81cb88fe13f6575ffc",
+      "master_size": [
+        1254,
+        1254
+      ],
+      "working_size": [
+        512,
+        512
+      ],
+      "review": "通过：独立生成；角色及情绪人工检查；主体完整；实际透明 RGBA；512 工作图等比适配并留安全边距。",
+      "source_classification": "AI派生，非原作者亲绘"
+    },
+    {
+      "id": "supplement-batiao-tired",
+      "character": "呆猫八条",
+      "mood": "困倦",
+      "reference": "batiao-cutout-v2",
+      "prompt": "Generate ONE clean independent sticker of 呆猫八条 based on the provided identity reference. Preserve its very large rounded slightly squared white head, small cat ears, short white body and paws, thick smooth dark outline, black eyes with pale yellow irises/highlights and soft pink cheek blush, simple flat 2D cartoon style. New expression and gesture: sleepy half-closed eyes, a subtle yawn, relaxed drooping pose with tiny paws close to the body, no bed or letters. Keep the same character and coherent eye design; do not replace it with a generic different cat. Whole head, ears, body and all paws visible. Centered single subject occupying 83% of height, safe transparent margin on all sides. Actual transparent RGBA, no background or fake checkerboard. No text, caption, watermark, border, ground shadow, human body, other characters or unrequested objects. Clearly different expression from the original skeptical thinking pose. AI-derived new state.",
+      "tool": "image_gen",
+      "master": "assets/material-supplements/masters/supplement-batiao-tired.png",
+      "master_sha256": "36623fe851b13e8c5e7d7540d26a0906bd5b4d556a5949591922e0d1525b3d1c",
+      "master_size": [
+        1254,
+        1254
+      ],
+      "working_size": [
+        512,
+        512
+      ],
+      "review": "通过：独立生成；角色及情绪人工检查；主体完整；实际透明 RGBA；512 工作图等比适配并留安全边距。",
+      "source_classification": "AI派生，非原作者亲绘"
+    },
+    {
+      "id": "supplement-shark-angry",
+      "character": "小鲨鱼",
+      "mood": "生气",
+      "reference": "web-shark-04-cutout",
+      "prompt": "Make exactly ONE independent transparent sticker of the same rounded blue-and-white cartoon baby shark shown in the reference. Keep its blue rounded back/head, white belly, small fins, short shark tail, thick dark gray smooth outline, tiny triangular shark teeth and pink blush. Simple 2D flat cartoon, coherent with the reference, never a different species or a humanoid. Expression and pose: furrowed brows, firm annoyed mouth, cheeks puffed, tiny fins pressed on its sides. This must be clearly recognizable as 生气, not the original laughter. Full body and tail visible, centered and filling about 84% of a square with generous clear edge margin. Genuine transparent RGBA background, no white backdrop or checkerboard, no ground shadow. No text, punctuation, letters, watermark, border, scenery, extra characters or objects. AI-derived facial-expression variant.",
+      "tool": "image_gen",
+      "master": "assets/material-supplements/masters/supplement-shark-angry.png",
+      "master_sha256": "9a0c90ef03eb82ff0a67e283077e3c737ac8fca20063777a459f556609b38e86",
+      "master_size": [
+        1254,
+        1254
+      ],
+      "working_size": [
+        512,
+        512
+      ],
+      "review": "通过：独立生成；角色及情绪人工检查；主体完整；实际透明 RGBA；512 工作图等比适配并留安全边距。",
+      "source_classification": "AI派生，非原作者亲绘"
+    },
+    {
+      "id": "supplement-shark-confused",
+      "character": "小鲨鱼",
+      "mood": "疑惑",
+      "reference": "web-shark-04-cutout",
+      "prompt": "Make exactly ONE independent transparent sticker of the same rounded blue-and-white cartoon baby shark shown in the reference. Keep its blue rounded back/head, white belly, small fins, short shark tail, thick dark gray smooth outline, tiny triangular shark teeth and pink blush. Simple 2D flat cartoon, coherent with the reference, never a different species or a humanoid. Expression and pose: one eyebrow raised, small uncertain mouth, one fin touching the chin, inquisitive eyes. This must be clearly recognizable as 疑惑, not the original laughter. Full body and tail visible, centered and filling about 84% of a square with generous clear edge margin. Genuine transparent RGBA background, no white backdrop or checkerboard, no ground shadow. No text, punctuation, letters, watermark, border, scenery, extra characters or objects. AI-derived facial-expression variant.",
+      "tool": "image_gen",
+      "master": "assets/material-supplements/masters/supplement-shark-confused.png",
+      "master_sha256": "18e8bde24b34601827a5f61501c9d3f9432187657ec4a73da1ca012e51cf3d1a",
+      "master_size": [
+        1254,
+        1254
+      ],
+      "working_size": [
+        512,
+        512
+      ],
+      "review": "通过：独立生成；角色及情绪人工检查；主体完整；实际透明 RGBA；512 工作图等比适配并留安全边距。",
+      "source_classification": "AI派生，非原作者亲绘"
+    },
+    {
+      "id": "supplement-shark-surprised",
+      "character": "小鲨鱼",
+      "mood": "惊讶",
+      "reference": "web-shark-04-cutout",
+      "prompt": "Make exactly ONE independent transparent sticker of the same rounded blue-and-white cartoon baby shark shown in the reference. Keep its blue rounded back/head, white belly, small fins, short shark tail, thick dark gray smooth outline, tiny triangular shark teeth and pink blush. Simple 2D flat cartoon, coherent with the reference, never a different species or a humanoid. Expression and pose: very wide black eyes and a small open O-shaped mouth, fins spread in sudden surprise. This must be clearly recognizable as 惊讶, not the original laughter. Full body and tail visible, centered and filling about 84% of a square with generous clear edge margin. Genuine transparent RGBA background, no white backdrop or checkerboard, no ground shadow. No text, punctuation, letters, watermark, border, scenery, extra characters or objects. AI-derived facial-expression variant.",
+      "tool": "image_gen",
+      "master": "assets/material-supplements/masters/supplement-shark-surprised.png",
+      "master_sha256": "28fedce5ea4ef4ba7d5bf8aa55ec606526ef225bc85c9e6cb64ec96c723e58c6",
+      "master_size": [
+        1254,
+        1254
+      ],
+      "working_size": [
+        512,
+        512
+      ],
+      "review": "通过：独立生成；角色及情绪人工检查；主体完整；实际透明 RGBA；512 工作图等比适配并留安全边距。",
+      "source_classification": "AI派生，非原作者亲绘"
+    },
+    {
+      "id": "supplement-shark-scared",
+      "character": "小鲨鱼",
+      "mood": "害怕",
+      "reference": "web-shark-04-cutout",
+      "prompt": "Make exactly ONE independent transparent sticker of the same rounded blue-and-white cartoon baby shark shown in the reference. Keep its blue rounded back/head, white belly, small fins, short shark tail, thick dark gray smooth outline, tiny triangular shark teeth and pink blush. Simple 2D flat cartoon, coherent with the reference, never a different species or a humanoid. Expression and pose: worried raised brows, frightened wide eyes, small tense mouth, fins pulled close, a single small sweat drop. This must be clearly recognizable as 害怕, not the original laughter. Full body and tail visible, centered and filling about 84% of a square with generous clear edge margin. Genuine transparent RGBA background, no white backdrop or checkerboard, no ground shadow. No text, punctuation, letters, watermark, border, scenery, extra characters or objects. AI-derived facial-expression variant.",
+      "tool": "image_gen",
+      "master": "assets/material-supplements/masters/supplement-shark-scared.png",
+      "master_sha256": "9e70a471bc416ddcab5ff5e4c23c9d88d3e9763ee0cc19ee249201216ae2121d",
+      "master_size": [
+        1254,
+        1254
+      ],
+      "working_size": [
+        512,
+        512
+      ],
+      "review": "通过：独立生成；角色及情绪人工检查；主体完整；实际透明 RGBA；512 工作图等比适配并留安全边距。",
+      "source_classification": "AI派生，非原作者亲绘"
+    },
+    {
+      "id": "supplement-feidudu-tired",
+      "character": "肥嘟嘟",
+      "mood": "疲惫",
+      "reference": "web-feidudu-09-cutout",
+      "prompt": "Generate exactly ONE independent transparent meme asset, not a sheet. Use the attached image ONLY as the identity and visual style reference. The SAME plump golden-yellow cartoon kangaroo, long rabbit-like ears, round brown-red nose, warm brown eyes, cream belly, short paws and curved long tail. Preserve the shiny soft 3D/cartoon material. New state is exhausted and sleepy, NOT crying: half-closed heavy eyelids, small yawn, a slouched seated full-body pose and slightly drooping ears; one little paw supports the cheek, the other rests weakly. Single complete subject including head, all limbs and tail if present, centered with at least 7% safety padding and about 84% overall subject height. Keep identity, colors and rendering style consistent. Genuine transparent RGBA background, clean alpha boundary, no background, floor or checkerboard, no shadow plane. No text, symbols, watermark, border, extra figures, props or human anatomy. AI-derived new facial-expression and pose variant.",
+      "tool": "image_gen",
+      "master": "assets/material-supplements/masters/supplement-feidudu-tired.png",
+      "master_sha256": "d5feea631893fc37fa0f7d3b602eddf2d74053b4649564dad94c979f08eb31d7",
+      "master_size": [
+        1254,
+        1254
+      ],
+      "working_size": [
+        512,
+        512
+      ],
+      "review": "通过：独立生成；角色及情绪人工检查；主体完整；实际透明 RGBA；512 工作图等比适配并留安全边距。",
+      "source_classification": "AI派生，非原作者亲绘"
+    },
+    {
+      "id": "supplement-naidan-angry",
+      "character": "奶蛋",
+      "mood": "生气",
+      "reference": "naidan-cutout-v2",
+      "prompt": "Generate exactly ONE independent transparent meme asset, not a sheet. Use the attached image ONLY as the identity and visual style reference. The SAME smooth golden-yellow oval egg-shaped character from the reference, high-set round green eyes with black pupils, small slit-like mouth, no separate neck and no cream belly patch. Preserve its simple plump egg silhouette. New state is visibly angry: lowered brows over green eyes, firm annoyed small mouth, slightly puffed cheeks and a huffy forward body tilt. Do NOT add arms, legs, human hands, ears, horns or accessories. Single complete subject including head, all limbs and tail if present, centered with at least 7% safety padding and about 84% overall subject height. Keep identity, colors and rendering style consistent. Genuine transparent RGBA background, clean alpha boundary, no background, floor or checkerboard, no shadow plane. No text, symbols, watermark, border, extra figures, props or human anatomy. AI-derived new facial-expression and pose variant.",
+      "tool": "image_gen",
+      "master": "assets/material-supplements/masters/supplement-naidan-angry.png",
+      "master_sha256": "3ab9d77bad464de60012220847b565b0b1dda378f451cc3cef5c45ba3f26f86c",
+      "master_size": [
+        1254,
+        1254
+      ],
+      "working_size": [
+        512,
+        512
+      ],
+      "review": "通过：独立生成；角色及情绪人工检查；主体完整；实际透明 RGBA；512 工作图等比适配并留安全边距。",
+      "source_classification": "AI派生，非原作者亲绘"
+    },
+    {
+      "id": "supplement-nailong-angry",
+      "character": "奶龙（原版）",
+      "mood": "生气",
+      "reference": "original-nailong-gif-003",
+      "prompt": "Generate exactly ONE independent transparent meme asset, not a sheet. Use the attached image ONLY as the identity and visual style reference. The SAME original cute yellow baby-dinosaur character: smooth bright golden skin, large green eyes, rounded head, huge pale cream belly, short dinosaur arms and short three-toed feet, a small thick tail, and NO ears or horns. Preserve the original compact 3D cartoon proportions, not the lanky milk-frog variant. New expression is clearly angry: furrowed brows, tight annoyed mouth, short arms crossed over the belly, firm planted feet. Single complete subject including head, all limbs and tail if present, centered with at least 7% safety padding and about 84% overall subject height. Keep identity, colors and rendering style consistent. Genuine transparent RGBA background, clean alpha boundary, no background, floor or checkerboard, no shadow plane. No text, symbols, watermark, border, extra figures, props or human anatomy. AI-derived new facial-expression and pose variant.",
+      "tool": "image_gen",
+      "master": "assets/material-supplements/masters/supplement-nailong-angry.png",
+      "master_sha256": "1bc469efdd74e37a6dc365bf43adee0840ec20e40ea912083ce83030e89f8ad9",
+      "master_size": [
+        1393,
+        1129
+      ],
+      "working_size": [
+        512,
+        512
+      ],
+      "review": "通过：独立生成；角色及情绪人工检查；主体完整；实际透明 RGBA；512 工作图等比适配并留安全边距。",
+      "source_classification": "AI派生，非原作者亲绘"
+    },
+    {
+      "id": "supplement-naiwa-comfort",
+      "character": "奶蛙",
+      "mood": "温柔",
+      "reference": "bulk-nailong-085-program-cutout",
+      "prompt": "Generate exactly ONE independent transparent meme asset, not a sheet. Use the attached image ONLY as the identity and visual style reference. The SAME milk-frog variant from the reference, golden yellow pear-shaped matte body with a large pale cream belly, a narrow elongated rounded head continuous with the body, prominent round bright-green ring-shaped eyes and tiny slit mouth, short dark-brown mitten hands and dark feet. Do not replace it with the original round baby dinosaur, an egg, or a green literal frog. New expression/pose is gentle comforting companionship: relaxed friendly eyes, a small warm closed smile, sitting with both short arms open in an inviting reassuring gesture. Single complete subject including head, all limbs and tail if present, centered with at least 7% safety padding and about 84% overall subject height. Keep identity, colors and rendering style consistent. Genuine transparent RGBA background, clean alpha boundary, no background, floor or checkerboard, no shadow plane. No text, symbols, watermark, border, extra figures, props or human anatomy. AI-derived new facial-expression and pose variant.",
+      "tool": "image_gen",
+      "master": "assets/material-supplements/masters/supplement-naiwa-comfort.png",
+      "master_sha256": "183ebe3923e8be3a28ccc9939a185c66f918791fceec705c1c2fb7fc6d69ec76",
+      "master_size": [
+        1146,
+        1372
+      ],
+      "working_size": [
+        512,
+        512
+      ],
+      "review": "通过：独立生成；角色及情绪人工检查；主体完整；实际透明 RGBA；512 工作图等比适配并留安全边距。",
+      "source_classification": "AI派生，非原作者亲绘"
+    }
+  ]
+}

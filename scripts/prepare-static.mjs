@@ -6,12 +6,14 @@ import crypto from 'node:crypto';
 import { fileURLToPath } from 'node:url';
 import sharp from 'sharp';
 import wawoff2 from 'wawoff2';
+import {measureMaterial,materialPipeline} from './material-metrics.mjs';
 
 const ROOT = path.resolve(path.dirname(fileURLToPath(import.meta.url)), '..');
 const SEED = path.join(ROOT, 'assets', 'seed');
 const OUT = path.join(ROOT, 'public', 'library');
-const VERSION = 'static-library-v1-webp-q90-1024';
-const EXPECTED = { assets: 805, templates: 98, presets: 192, captions: 80, fonts: 7 };
+const VERSION = 'static-library-v2-alpha-envelope-1024';
+const NORMALIZATION = 'alpha-envelope-v1';
+const EXPECTED = { assets: 821, templates: 98, presets: 192, captions: 80, fonts: 7 };
 const FONTS = [
   ['sans', 'Noto 黑体', '清晰通用', 'NotoSansSC.ttf', 'OFL.txt'],
   ['serif', 'Noto 宋体', '细节衬线', 'NotoSerifSC.ttf', 'NotoSerifSC-OFL.txt'],
@@ -123,6 +125,7 @@ function normalizeMetadata(item, templateIds) {
     emotion: [], scenes: [], examples: [], action: '', intensity: 2, existing_text: '',
     source_type: 'reference', author: '', source_url: '', source_note: '', role: 'subject',
     is_cutout: false, allow_flip: true, derived_from: '', text_safe_area: null, templates: templateIds,
+    library_status: 'preferred', review_note: '', subject_count: 1,
   };
   for (const key of Object.keys(metadata)) if (item[key] !== undefined) metadata[key] = item[key];
   // Previous complete template lists represented unrestricted compatibility. Preserve explicit subsets.
@@ -156,6 +159,9 @@ export async function prepareStatic() {
   const curationBytes = await fs.readFile(curationPath), curation = JSON.parse(curationBytes.toString());
   sourceFiles.set(relative(curationPath), digest(curationBytes));
   const archived = new Map(curation.archived.map(item => [item.id, item]));
+  const reviewPath=path.join(ROOT,'assets','registry','materials.json');
+  const reviewBytes=await fs.readFile(reviewPath),review=JSON.parse(reviewBytes.toString('utf8'));
+  sourceFiles.set(relative(reviewPath),digest(reviewBytes));
   const templateIds = registries.templates.map(item => item.id);
   const sources = new Map();
   for (const name of ['catalog.json', ...(await fs.readdir(SEED)).filter(name => name.endsWith('-catalog.json')).sort()]) {
@@ -187,7 +193,8 @@ export async function prepareStatic() {
   }
 
   const assets = [];
-  for (const { item, manifest } of sources.values()) {
+  for (const { item:original, manifest } of sources.values()) {
+    const item={...original,...review.annotations?.[original.id]};
     if (item.enabled === false || archived.has(item.id)) {
       omissions.push({ id: item.id, reason: archived.get(item.id)?.reason || 'Disabled in canonical seed catalog.' });
       continue;
@@ -196,7 +203,11 @@ export async function prepareStatic() {
     sourceFiles.set(relative(source), hash);
     const animated = path.extname(source).toLowerCase() === '.gif';
     const fingerprint = digest(Buffer.from(VERSION + hash));
-    const url = `library/assets/${item.id}-${hash.slice(0, 12)}.${animated ? 'gif' : 'webp'}`;
+    const previous=old.files.find(f=>f.kind==='asset'&&f.id===item.id&&f.source_sha256===hash&&f.normalization_version===NORMALIZATION);
+    const metrics=previous?.metrics||await measureMaterial(bytes,{animated});
+    if(metrics.empty)throw new Error(`Empty alpha subject: ${item.id}`);
+    const cropped=!animated&&metrics.has_transparency&&(metrics.bounds.x||metrics.bounds.y||metrics.bounds.width!==metrics.source_width||metrics.bounds.height!==metrics.source_height);
+    const url = `library/assets/${item.id}-${(cropped?fingerprint:hash).slice(0, 12)}.${animated ? 'gif' : 'webp'}`;
     let info = prior.get(url)?.fingerprint === fingerprint ? prior.get(url).info : null;
     if (!info) {
       const meta = await sharp(bytes, { animated }).metadata();
@@ -204,13 +215,16 @@ export async function prepareStatic() {
       const frames = meta.pages || 1;
       const delays = Array.from({ length: frames }, (_, i) => Math.max(20, meta.delay?.[i] || 100));
       const width = meta.width, height = meta.pageHeight || meta.height;
-      const factor = animated ? 1 : Math.min(1, 1024 / width, 1024 / height);
-      info = { width: Math.round(width * factor), height: Math.round(height * factor), frames, duration_ms: frames > 1 ? delays.reduce((a, b) => a + b, 0) : 0, format: animated ? 'gif' : 'webp', has_transparency: !!meta.hasAlpha, loop: animated ? gifLoop(bytes) : null, delays: frames > 1 ? delays : [], source_width: width, source_height: height };
+      const actualWidth=cropped?metrics.bounds.width:width,actualHeight=cropped?metrics.bounds.height:height;
+      const factor = animated ? 1 : Math.min(1, 1024 / actualWidth, 1024 / actualHeight);
+      info = { width: Math.round(actualWidth * factor), height: Math.round(actualHeight * factor), frames, duration_ms: frames > 1 ? delays.reduce((a, b) => a + b, 0) : 0, format: animated ? 'gif' : 'webp', has_transparency: metrics.has_transparency, loop: animated ? gifLoop(bytes) : null, delays: frames > 1 ? delays : [], source_width: width, source_height: height };
     }
     if (animated) info = { ...info, loop: gifLoop(bytes) };
-    await publish(url, fingerprint, async () => animated ? bytes : sharp(bytes).rotate().resize({ width: 1024, height: 1024, fit: 'inside', withoutEnlargement: true }).webp({ quality: 90, alphaQuality: 100, effort: 5 }).toBuffer(), { kind: 'asset', id: item.id, source: relative(source), source_sha256: hash, info });
-    const poster_url = `library/posters/${item.id}-${hash.slice(0, 12)}.webp`;
-    await publish(poster_url, digest(Buffer.from('poster-v1-384-q84' + hash)), () => sharp(bytes).rotate().resize({ width: 384, height: 384, fit: 'inside', withoutEnlargement: true }).webp({ quality: 84, alphaQuality: 100, effort: 4 }).toBuffer(), { kind: 'poster', id: item.id });
+    info={...info,content_bounds:animated?metrics.bounds:{x:0,y:0,width:info.width,height:info.height},source_subject_bounds:metrics.bounds,effective_width:metrics.bounds.width,effective_height:metrics.bounds.height,poster_frame:metrics.poster_frame};
+    await publish(url, fingerprint, async () => animated ? bytes : materialPipeline(bytes,metrics).toBuffer(), { kind: 'asset', id: item.id, source: relative(source), source_sha256: hash, info,metrics,normalization_version:NORMALIZATION });
+    const posterHash=digest(Buffer.from('poster-v2-normalized-384'+hash));
+    const poster_url = `library/posters/${item.id}-${posterHash.slice(0, 12)}.webp`;
+    await publish(poster_url,posterHash,()=>materialPipeline(bytes,metrics,{poster:true,animated}).toBuffer(), { kind: 'poster', id: item.id });
     assets.push({ id: item.id, name: item.name, character: item.character, enabled: true, metadata: normalizeMetadata(item, templateIds), info, url, poster_url, source_manifest: manifest });
   }
 
@@ -257,6 +271,9 @@ export async function prepareStatic() {
   await publish('library/catalog.json', digest(catalogBytes), () => catalogBytes, { kind: 'catalog' });
   const report = { schema_version: 1, version: VERSION, counts, total_bytes: files.reduce((sum, file) => sum + file.bytes, 0), source_sha256: digest(serialize([...sourceFiles].sort(([a], [b]) => a < b ? -1 : a > b ? 1 : 0))), omitted_assets: omissions, identical_duplicates: duplicates, excluded_sources: ['data/**', '.env', 'generated personal works', 'high-resolution AI masters', 'AI reference sheets', 'server registry overrides'], files };
   await atomic(path.join(OUT, 'build-report.json'), serialize(report));
+  // Remove only previous generated outputs, never original/source material files.
+  const currentUrls=new Set(files.map(f=>f.url));
+  for(const previous of old.files||[])if(!currentUrls.has(previous.url)&&/^library\/(assets|posters)\/[a-zA-Z0-9_-]+\.(webp|gif)$/.test(previous.url))await fs.unlink(within(OUT,previous.url.replace(/^library\//,''))).catch(error=>{if(error.code!=='ENOENT')throw error});
   console.log(`Static library ready: ${assets.length} assets, ${templates.length} templates, ${presets.length} presets, ${fonts.length} fonts; ${(report.total_bytes / 1024 / 1024).toFixed(1)} MiB.`);
   return report;
 }

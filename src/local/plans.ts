@@ -2,6 +2,7 @@ import {actorIds,eventHandlers,reconcileBindings} from '../themes/plans'
 import type {Asset,Plan} from '../api'
 import {makePlan} from '../api'
 import {assetSupportsTemplate} from '../library'
+import {preferredMaterial} from '../materials'
 import type {Catalog,RuntimeTemplate} from './types'
 
 export function slots(count:number){
@@ -10,7 +11,7 @@ export function slots(count:number){
  return positions.map(([x,y])=>({x,y,scale,rotation:0}))
 }
 export function chooseSubject(assets:Asset[],character='',preferred='',used:string[]=[]){
- const group=assets.filter(a=>a.enabled&&a.metadata.role!=='background'&&(!character||a.character===character))
+ const group=assets.filter(a=>preferredMaterial(a)&&a.metadata.role!=='background'&&(!character||a.character===character))
  return group.find(a=>a.id===preferred)||group.find(a=>!used.includes(a.character)&&!['北京大学','清华大学'].includes(a.character)&&a.info.has_transparency)||group.find(a=>a.info.has_transparency)||group[0]
 }
 export function applyTemplatePlan(catalog:Catalog,id:string,base:Plan,count?:number,additional:string[]=[],defaults=false):Plan{

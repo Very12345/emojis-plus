@@ -1,0 +1,1354 @@
+{
+  "schema_version": 1,
+  "reviewed_on": "2026-10-18",
+  "policy": "默认精选与备选分开；备选仍保留原文件、原ID、来源和旧作品渲染能力。不按白色比例删除素材。",
+  "annotations": {
+    "bulk-feidudu-v1-004": {
+      "library_status": "alternate",
+      "review_note": "同源舞蹈序列的备选帧；默认只精选清晰正面及有区别的动作，并非认定这些帧完全相同。原文件和旧方案保留。",
+      "reviewed_on": "2026-10-18"
+    },
+    "bulk-feidudu-v1-011": {
+      "library_status": "alternate",
+      "review_note": "同源舞蹈序列的备选帧；默认只精选清晰正面及有区别的动作，并非认定这些帧完全相同。原文件和旧方案保留。",
+      "reviewed_on": "2026-10-18"
+    },
+    "bulk-feidudu-v1-018": {
+      "library_status": "alternate",
+      "review_note": "同源舞蹈序列的备选帧；默认只精选清晰正面及有区别的动作，并非认定这些帧完全相同。原文件和旧方案保留。",
+      "reviewed_on": "2026-10-18"
+    },
+    "bulk-feidudu-v1-025": {
+      "library_status": "alternate",
+      "review_note": "同源舞蹈序列的备选帧；默认只精选清晰正面及有区别的动作，并非认定这些帧完全相同。原文件和旧方案保留。",
+      "reviewed_on": "2026-10-18"
+    },
+    "bulk-feidudu-v1-032": {
+      "library_status": "alternate",
+      "review_note": "同源舞蹈序列的备选帧；默认只精选清晰正面及有区别的动作，并非认定这些帧完全相同。原文件和旧方案保留。",
+      "reviewed_on": "2026-10-18"
+    },
+    "bulk-feidudu-v1-039": {
+      "library_status": "alternate",
+      "review_note": "同源舞蹈序列的备选帧；默认只精选清晰正面及有区别的动作，并非认定这些帧完全相同。原文件和旧方案保留。",
+      "reviewed_on": "2026-10-18"
+    },
+    "bulk-feidudu-v1-046": {
+      "library_status": "alternate",
+      "review_note": "同源舞蹈序列的备选帧；默认只精选清晰正面及有区别的动作，并非认定这些帧完全相同。原文件和旧方案保留。",
+      "reviewed_on": "2026-10-18"
+    },
+    "bulk-feidudu-v1-053": {
+      "library_status": "alternate",
+      "review_note": "同源舞蹈序列的备选帧；默认只精选清晰正面及有区别的动作，并非认定这些帧完全相同。原文件和旧方案保留。",
+      "reviewed_on": "2026-10-18"
+    },
+    "bulk-feidudu-v1-060": {
+      "library_status": "alternate",
+      "review_note": "同源舞蹈序列的备选帧；默认只精选清晰正面及有区别的动作，并非认定这些帧完全相同。原文件和旧方案保留。",
+      "reviewed_on": "2026-10-18"
+    },
+    "bulk-feidudu-v1-081": {
+      "library_status": "alternate",
+      "review_note": "同源舞蹈序列的备选帧；默认只精选清晰正面及有区别的动作，并非认定这些帧完全相同。原文件和旧方案保留。",
+      "reviewed_on": "2026-10-18"
+    },
+    "bulk-feidudu-v1-088": {
+      "library_status": "alternate",
+      "review_note": "同源舞蹈序列的备选帧；默认只精选清晰正面及有区别的动作，并非认定这些帧完全相同。原文件和旧方案保留。",
+      "reviewed_on": "2026-10-18"
+    },
+    "bulk-feidudu-v1-095": {
+      "library_status": "alternate",
+      "review_note": "同源舞蹈序列的备选帧；默认只精选清晰正面及有区别的动作，并非认定这些帧完全相同。原文件和旧方案保留。",
+      "reviewed_on": "2026-10-18"
+    },
+    "bulk-feidudu-v1-102": {
+      "library_status": "alternate",
+      "review_note": "同源舞蹈序列的备选帧；默认只精选清晰正面及有区别的动作，并非认定这些帧完全相同。原文件和旧方案保留。",
+      "reviewed_on": "2026-10-18"
+    },
+    "bulk-feidudu-v1-109": {
+      "library_status": "alternate",
+      "review_note": "同源舞蹈序列的备选帧；默认只精选清晰正面及有区别的动作，并非认定这些帧完全相同。原文件和旧方案保留。",
+      "reviewed_on": "2026-10-18"
+    },
+    "bulk-feidudu-v1-116": {
+      "library_status": "alternate",
+      "review_note": "同源舞蹈序列的备选帧；默认只精选清晰正面及有区别的动作，并非认定这些帧完全相同。原文件和旧方案保留。",
+      "reviewed_on": "2026-10-18"
+    },
+    "bulk-feidudu-v1-130": {
+      "library_status": "alternate",
+      "review_note": "同源舞蹈序列的备选帧；默认只精选清晰正面及有区别的动作，并非认定这些帧完全相同。原文件和旧方案保留。",
+      "reviewed_on": "2026-10-18"
+    },
+    "bulk-feidudu-v1-137": {
+      "library_status": "alternate",
+      "review_note": "同源舞蹈序列的备选帧；默认只精选清晰正面及有区别的动作，并非认定这些帧完全相同。原文件和旧方案保留。",
+      "reviewed_on": "2026-10-18"
+    },
+    "bulk-feidudu-v1-144": {
+      "library_status": "alternate",
+      "review_note": "同源舞蹈序列的备选帧；默认只精选清晰正面及有区别的动作，并非认定这些帧完全相同。原文件和旧方案保留。",
+      "reviewed_on": "2026-10-18"
+    },
+    "bulk-feidudu-v2-004": {
+      "library_status": "alternate",
+      "review_note": "同源舞蹈序列的备选帧；默认只精选清晰正面及有区别的动作，并非认定这些帧完全相同。原文件和旧方案保留。",
+      "reviewed_on": "2026-10-18"
+    },
+    "bulk-feidudu-v2-018": {
+      "library_status": "alternate",
+      "review_note": "同源舞蹈序列的备选帧；默认只精选清晰正面及有区别的动作，并非认定这些帧完全相同。原文件和旧方案保留。",
+      "reviewed_on": "2026-10-18"
+    },
+    "bulk-feidudu-v2-025": {
+      "library_status": "alternate",
+      "review_note": "同源舞蹈序列的备选帧；默认只精选清晰正面及有区别的动作，并非认定这些帧完全相同。原文件和旧方案保留。",
+      "reviewed_on": "2026-10-18"
+    },
+    "bulk-feidudu-v2-032": {
+      "library_status": "alternate",
+      "review_note": "同源舞蹈序列的备选帧；默认只精选清晰正面及有区别的动作，并非认定这些帧完全相同。原文件和旧方案保留。",
+      "reviewed_on": "2026-10-18"
+    },
+    "bulk-feidudu-v2-039": {
+      "library_status": "alternate",
+      "review_note": "同源舞蹈序列的备选帧；默认只精选清晰正面及有区别的动作，并非认定这些帧完全相同。原文件和旧方案保留。",
+      "reviewed_on": "2026-10-18"
+    },
+    "bulk-feidudu-v2-053": {
+      "library_status": "alternate",
+      "review_note": "同源舞蹈序列的备选帧；默认只精选清晰正面及有区别的动作，并非认定这些帧完全相同。原文件和旧方案保留。",
+      "reviewed_on": "2026-10-18"
+    },
+    "bulk-feidudu-v2-060": {
+      "library_status": "alternate",
+      "review_note": "同源舞蹈序列的备选帧；默认只精选清晰正面及有区别的动作，并非认定这些帧完全相同。原文件和旧方案保留。",
+      "reviewed_on": "2026-10-18"
+    },
+    "bulk-feidudu-v2-067": {
+      "library_status": "alternate",
+      "review_note": "同源舞蹈序列的备选帧；默认只精选清晰正面及有区别的动作，并非认定这些帧完全相同。原文件和旧方案保留。",
+      "reviewed_on": "2026-10-18"
+    },
+    "bulk-feidudu-v2-074": {
+      "library_status": "alternate",
+      "review_note": "同源舞蹈序列的备选帧；默认只精选清晰正面及有区别的动作，并非认定这些帧完全相同。原文件和旧方案保留。",
+      "reviewed_on": "2026-10-18"
+    },
+    "bulk-feidudu-v2-081": {
+      "library_status": "alternate",
+      "review_note": "同源舞蹈序列的备选帧；默认只精选清晰正面及有区别的动作，并非认定这些帧完全相同。原文件和旧方案保留。",
+      "reviewed_on": "2026-10-18"
+    },
+    "bulk-feidudu-v2-088": {
+      "library_status": "alternate",
+      "review_note": "同源舞蹈序列的备选帧；默认只精选清晰正面及有区别的动作，并非认定这些帧完全相同。原文件和旧方案保留。",
+      "reviewed_on": "2026-10-18"
+    },
+    "bulk-feidudu-v2-095": {
+      "library_status": "alternate",
+      "review_note": "同源舞蹈序列的备选帧；默认只精选清晰正面及有区别的动作，并非认定这些帧完全相同。原文件和旧方案保留。",
+      "reviewed_on": "2026-10-18"
+    },
+    "bulk-feidudu-v3-018": {
+      "library_status": "alternate",
+      "review_note": "同源舞蹈序列的备选帧；默认只精选清晰正面及有区别的动作，并非认定这些帧完全相同。原文件和旧方案保留。",
+      "reviewed_on": "2026-10-18"
+    },
+    "bulk-feidudu-v3-025": {
+      "library_status": "alternate",
+      "review_note": "同源舞蹈序列的备选帧；默认只精选清晰正面及有区别的动作，并非认定这些帧完全相同。原文件和旧方案保留。",
+      "reviewed_on": "2026-10-18"
+    },
+    "bulk-feidudu-v3-032": {
+      "library_status": "alternate",
+      "review_note": "同源舞蹈序列的备选帧；默认只精选清晰正面及有区别的动作，并非认定这些帧完全相同。原文件和旧方案保留。",
+      "reviewed_on": "2026-10-18"
+    },
+    "bulk-feidudu-v3-039": {
+      "library_status": "alternate",
+      "review_note": "同源舞蹈序列的备选帧；默认只精选清晰正面及有区别的动作，并非认定这些帧完全相同。原文件和旧方案保留。",
+      "reviewed_on": "2026-10-18"
+    },
+    "bulk-feidudu-v3-046": {
+      "library_status": "alternate",
+      "review_note": "同源舞蹈序列的备选帧；默认只精选清晰正面及有区别的动作，并非认定这些帧完全相同。原文件和旧方案保留。",
+      "reviewed_on": "2026-10-18"
+    },
+    "bulk-feidudu-v3-053": {
+      "library_status": "alternate",
+      "review_note": "同源舞蹈序列的备选帧；默认只精选清晰正面及有区别的动作，并非认定这些帧完全相同。原文件和旧方案保留。",
+      "reviewed_on": "2026-10-18"
+    },
+    "bulk-feidudu-v3-060": {
+      "library_status": "alternate",
+      "review_note": "同源舞蹈序列的备选帧；默认只精选清晰正面及有区别的动作，并非认定这些帧完全相同。原文件和旧方案保留。",
+      "reviewed_on": "2026-10-18"
+    },
+    "bulk-feidudu-v3-067": {
+      "library_status": "alternate",
+      "review_note": "同源舞蹈序列的备选帧；默认只精选清晰正面及有区别的动作，并非认定这些帧完全相同。原文件和旧方案保留。",
+      "reviewed_on": "2026-10-18"
+    },
+    "bulk-feidudu-v4-060": {
+      "library_status": "alternate",
+      "review_note": "同源舞蹈序列的备选帧；默认只精选清晰正面及有区别的动作，并非认定这些帧完全相同。原文件和旧方案保留。",
+      "reviewed_on": "2026-10-18"
+    },
+    "bulk-feidudu-v4-074": {
+      "library_status": "alternate",
+      "review_note": "同源舞蹈序列的备选帧；默认只精选清晰正面及有区别的动作，并非认定这些帧完全相同。原文件和旧方案保留。",
+      "reviewed_on": "2026-10-18"
+    },
+    "bulk-feidudu-v4-088": {
+      "library_status": "alternate",
+      "review_note": "同源舞蹈序列的备选帧；默认只精选清晰正面及有区别的动作，并非认定这些帧完全相同。原文件和旧方案保留。",
+      "reviewed_on": "2026-10-18"
+    },
+    "bulk-feidudu-v4-095": {
+      "library_status": "alternate",
+      "review_note": "同源舞蹈序列的备选帧；默认只精选清晰正面及有区别的动作，并非认定这些帧完全相同。原文件和旧方案保留。",
+      "reviewed_on": "2026-10-18"
+    },
+    "bulk-feidudu-v4-102": {
+      "library_status": "alternate",
+      "review_note": "同源舞蹈序列的备选帧；默认只精选清晰正面及有区别的动作，并非认定这些帧完全相同。原文件和旧方案保留。",
+      "reviewed_on": "2026-10-18"
+    },
+    "bulk-feidudu-v4-109": {
+      "library_status": "alternate",
+      "review_note": "同源舞蹈序列的备选帧；默认只精选清晰正面及有区别的动作，并非认定这些帧完全相同。原文件和旧方案保留。",
+      "reviewed_on": "2026-10-18"
+    },
+    "bulk-feidudu-v4-116": {
+      "library_status": "alternate",
+      "review_note": "同源舞蹈序列的备选帧；默认只精选清晰正面及有区别的动作，并非认定这些帧完全相同。原文件和旧方案保留。",
+      "reviewed_on": "2026-10-18"
+    },
+    "bulk-feidudu-v4-123": {
+      "library_status": "alternate",
+      "review_note": "同源舞蹈序列的备选帧；默认只精选清晰正面及有区别的动作，并非认定这些帧完全相同。原文件和旧方案保留。",
+      "reviewed_on": "2026-10-18"
+    },
+    "bulk-feidudu-v4-130": {
+      "library_status": "alternate",
+      "review_note": "同源舞蹈序列的备选帧；默认只精选清晰正面及有区别的动作，并非认定这些帧完全相同。原文件和旧方案保留。",
+      "reviewed_on": "2026-10-18"
+    },
+    "bulk-feidudu-v4-144": {
+      "library_status": "alternate",
+      "review_note": "同源舞蹈序列的备选帧；默认只精选清晰正面及有区别的动作，并非认定这些帧完全相同。原文件和旧方案保留。",
+      "reviewed_on": "2026-10-18"
+    },
+    "bulk-feidudu-v5-018": {
+      "library_status": "alternate",
+      "review_note": "同源舞蹈序列的备选帧；默认只精选清晰正面及有区别的动作，并非认定这些帧完全相同。原文件和旧方案保留。",
+      "reviewed_on": "2026-10-18"
+    },
+    "bulk-feidudu-v5-025": {
+      "library_status": "alternate",
+      "review_note": "同源舞蹈序列的备选帧；默认只精选清晰正面及有区别的动作，并非认定这些帧完全相同。原文件和旧方案保留。",
+      "reviewed_on": "2026-10-18"
+    },
+    "bulk-feidudu-v5-032": {
+      "library_status": "alternate",
+      "review_note": "同源舞蹈序列的备选帧；默认只精选清晰正面及有区别的动作，并非认定这些帧完全相同。原文件和旧方案保留。",
+      "reviewed_on": "2026-10-18"
+    },
+    "bulk-feidudu-v5-039": {
+      "library_status": "alternate",
+      "review_note": "同源舞蹈序列的备选帧；默认只精选清晰正面及有区别的动作，并非认定这些帧完全相同。原文件和旧方案保留。",
+      "reviewed_on": "2026-10-18"
+    },
+    "bulk-feidudu-v5-046": {
+      "library_status": "alternate",
+      "review_note": "同源舞蹈序列的备选帧；默认只精选清晰正面及有区别的动作，并非认定这些帧完全相同。原文件和旧方案保留。",
+      "reviewed_on": "2026-10-18"
+    },
+    "bulk-feidudu-v5-053": {
+      "library_status": "alternate",
+      "review_note": "同源舞蹈序列的备选帧；默认只精选清晰正面及有区别的动作，并非认定这些帧完全相同。原文件和旧方案保留。",
+      "reviewed_on": "2026-10-18"
+    },
+    "bulk-feidudu-v5-060": {
+      "library_status": "alternate",
+      "review_note": "同源舞蹈序列的备选帧；默认只精选清晰正面及有区别的动作，并非认定这些帧完全相同。原文件和旧方案保留。",
+      "reviewed_on": "2026-10-18"
+    },
+    "bulk-feidudu-v5-067": {
+      "library_status": "alternate",
+      "review_note": "同源舞蹈序列的备选帧；默认只精选清晰正面及有区别的动作，并非认定这些帧完全相同。原文件和旧方案保留。",
+      "reviewed_on": "2026-10-18"
+    },
+    "bulk-feidudu-v1-018-program-cutout": {
+      "library_status": "alternate",
+      "review_note": "同源舞蹈序列的备选帧；默认只精选清晰正面及有区别的动作，并非认定这些帧完全相同。原文件和旧方案保留。",
+      "reviewed_on": "2026-10-18"
+    },
+    "bulk-feidudu-v1-025-program-cutout": {
+      "library_status": "alternate",
+      "review_note": "同源舞蹈序列的备选帧；默认只精选清晰正面及有区别的动作，并非认定这些帧完全相同。原文件和旧方案保留。",
+      "reviewed_on": "2026-10-18"
+    },
+    "bulk-feidudu-v1-032-program-cutout": {
+      "library_status": "alternate",
+      "review_note": "同源舞蹈序列的备选帧；默认只精选清晰正面及有区别的动作，并非认定这些帧完全相同。原文件和旧方案保留。",
+      "reviewed_on": "2026-10-18"
+    },
+    "bulk-feidudu-v1-039-program-cutout": {
+      "library_status": "alternate",
+      "review_note": "同源舞蹈序列的备选帧；默认只精选清晰正面及有区别的动作，并非认定这些帧完全相同。原文件和旧方案保留。",
+      "reviewed_on": "2026-10-18"
+    },
+    "bulk-feidudu-v1-053-program-cutout": {
+      "library_status": "alternate",
+      "review_note": "同源舞蹈序列的备选帧；默认只精选清晰正面及有区别的动作，并非认定这些帧完全相同。原文件和旧方案保留。",
+      "reviewed_on": "2026-10-18"
+    },
+    "bulk-feidudu-v1-081-program-cutout": {
+      "library_status": "alternate",
+      "review_note": "同源舞蹈序列的备选帧；默认只精选清晰正面及有区别的动作，并非认定这些帧完全相同。原文件和旧方案保留。",
+      "reviewed_on": "2026-10-18"
+    },
+    "bulk-feidudu-v1-088-program-cutout": {
+      "library_status": "alternate",
+      "review_note": "同源舞蹈序列的备选帧；默认只精选清晰正面及有区别的动作，并非认定这些帧完全相同。原文件和旧方案保留。",
+      "reviewed_on": "2026-10-18"
+    },
+    "bulk-feidudu-v1-095-program-cutout": {
+      "library_status": "alternate",
+      "review_note": "同源舞蹈序列的备选帧；默认只精选清晰正面及有区别的动作，并非认定这些帧完全相同。原文件和旧方案保留。",
+      "reviewed_on": "2026-10-18"
+    },
+    "bulk-feidudu-v1-102-program-cutout": {
+      "library_status": "alternate",
+      "review_note": "同源舞蹈序列的备选帧；默认只精选清晰正面及有区别的动作，并非认定这些帧完全相同。原文件和旧方案保留。",
+      "reviewed_on": "2026-10-18"
+    },
+    "bulk-feidudu-v1-116-program-cutout": {
+      "library_status": "alternate",
+      "review_note": "同源舞蹈序列的备选帧；默认只精选清晰正面及有区别的动作，并非认定这些帧完全相同。原文件和旧方案保留。",
+      "reviewed_on": "2026-10-18"
+    },
+    "bulk-feidudu-v1-144-program-cutout": {
+      "library_status": "alternate",
+      "review_note": "同源舞蹈序列的备选帧；默认只精选清晰正面及有区别的动作，并非认定这些帧完全相同。原文件和旧方案保留。",
+      "reviewed_on": "2026-10-18"
+    },
+    "bulk-feidudu-v2-004-program-cutout": {
+      "library_status": "alternate",
+      "review_note": "同源舞蹈序列的备选帧；默认只精选清晰正面及有区别的动作，并非认定这些帧完全相同。原文件和旧方案保留。",
+      "reviewed_on": "2026-10-18"
+    },
+    "bulk-feidudu-v2-025-program-cutout": {
+      "library_status": "alternate",
+      "review_note": "同源舞蹈序列的备选帧；默认只精选清晰正面及有区别的动作，并非认定这些帧完全相同。原文件和旧方案保留。",
+      "reviewed_on": "2026-10-18"
+    },
+    "bulk-feidudu-v2-032-program-cutout": {
+      "library_status": "alternate",
+      "review_note": "同源舞蹈序列的备选帧；默认只精选清晰正面及有区别的动作，并非认定这些帧完全相同。原文件和旧方案保留。",
+      "reviewed_on": "2026-10-18"
+    },
+    "bulk-feidudu-v2-039-program-cutout": {
+      "library_status": "alternate",
+      "review_note": "同源舞蹈序列的备选帧；默认只精选清晰正面及有区别的动作，并非认定这些帧完全相同。原文件和旧方案保留。",
+      "reviewed_on": "2026-10-18"
+    },
+    "bulk-feidudu-v2-053-program-cutout": {
+      "library_status": "alternate",
+      "review_note": "同源舞蹈序列的备选帧；默认只精选清晰正面及有区别的动作，并非认定这些帧完全相同。原文件和旧方案保留。",
+      "reviewed_on": "2026-10-18"
+    },
+    "bulk-feidudu-v2-060-program-cutout": {
+      "library_status": "alternate",
+      "review_note": "同源舞蹈序列的备选帧；默认只精选清晰正面及有区别的动作，并非认定这些帧完全相同。原文件和旧方案保留。",
+      "reviewed_on": "2026-10-18"
+    },
+    "bulk-feidudu-v2-067-program-cutout": {
+      "library_status": "alternate",
+      "review_note": "同源舞蹈序列的备选帧；默认只精选清晰正面及有区别的动作，并非认定这些帧完全相同。原文件和旧方案保留。",
+      "reviewed_on": "2026-10-18"
+    },
+    "bulk-feidudu-v2-074-program-cutout": {
+      "library_status": "alternate",
+      "review_note": "同源舞蹈序列的备选帧；默认只精选清晰正面及有区别的动作，并非认定这些帧完全相同。原文件和旧方案保留。",
+      "reviewed_on": "2026-10-18"
+    },
+    "bulk-feidudu-v2-088-program-cutout": {
+      "library_status": "alternate",
+      "review_note": "同源舞蹈序列的备选帧；默认只精选清晰正面及有区别的动作，并非认定这些帧完全相同。原文件和旧方案保留。",
+      "reviewed_on": "2026-10-18"
+    },
+    "bulk-feidudu-v3-032-program-cutout": {
+      "library_status": "alternate",
+      "review_note": "同源舞蹈序列的备选帧；默认只精选清晰正面及有区别的动作，并非认定这些帧完全相同。原文件和旧方案保留。",
+      "reviewed_on": "2026-10-18"
+    },
+    "bulk-feidudu-v3-039-program-cutout": {
+      "library_status": "alternate",
+      "review_note": "同源舞蹈序列的备选帧；默认只精选清晰正面及有区别的动作，并非认定这些帧完全相同。原文件和旧方案保留。",
+      "reviewed_on": "2026-10-18"
+    },
+    "bulk-feidudu-v3-046-program-cutout": {
+      "library_status": "alternate",
+      "review_note": "同源舞蹈序列的备选帧；默认只精选清晰正面及有区别的动作，并非认定这些帧完全相同。原文件和旧方案保留。",
+      "reviewed_on": "2026-10-18"
+    },
+    "bulk-feidudu-v3-053-program-cutout": {
+      "library_status": "alternate",
+      "review_note": "同源舞蹈序列的备选帧；默认只精选清晰正面及有区别的动作，并非认定这些帧完全相同。原文件和旧方案保留。",
+      "reviewed_on": "2026-10-18"
+    },
+    "bulk-feidudu-v3-060-program-cutout": {
+      "library_status": "alternate",
+      "review_note": "同源舞蹈序列的备选帧；默认只精选清晰正面及有区别的动作，并非认定这些帧完全相同。原文件和旧方案保留。",
+      "reviewed_on": "2026-10-18"
+    },
+    "bulk-feidudu-v3-067-program-cutout": {
+      "library_status": "alternate",
+      "review_note": "同源舞蹈序列的备选帧；默认只精选清晰正面及有区别的动作，并非认定这些帧完全相同。原文件和旧方案保留。",
+      "reviewed_on": "2026-10-18"
+    },
+    "bulk-feidudu-v5-018-program-cutout": {
+      "library_status": "alternate",
+      "review_note": "同源舞蹈序列的备选帧；默认只精选清晰正面及有区别的动作，并非认定这些帧完全相同。原文件和旧方案保留。",
+      "reviewed_on": "2026-10-18"
+    },
+    "bulk-feidudu-v5-025-program-cutout": {
+      "library_status": "alternate",
+      "review_note": "同源舞蹈序列的备选帧；默认只精选清晰正面及有区别的动作，并非认定这些帧完全相同。原文件和旧方案保留。",
+      "reviewed_on": "2026-10-18"
+    },
+    "bulk-feidudu-v5-032-program-cutout": {
+      "library_status": "alternate",
+      "review_note": "同源舞蹈序列的备选帧；默认只精选清晰正面及有区别的动作，并非认定这些帧完全相同。原文件和旧方案保留。",
+      "reviewed_on": "2026-10-18"
+    },
+    "bulk-feidudu-v5-039-program-cutout": {
+      "library_status": "alternate",
+      "review_note": "同源舞蹈序列的备选帧；默认只精选清晰正面及有区别的动作，并非认定这些帧完全相同。原文件和旧方案保留。",
+      "reviewed_on": "2026-10-18"
+    },
+    "bulk-feidudu-v5-046-program-cutout": {
+      "library_status": "alternate",
+      "review_note": "同源舞蹈序列的备选帧；默认只精选清晰正面及有区别的动作，并非认定这些帧完全相同。原文件和旧方案保留。",
+      "reviewed_on": "2026-10-18"
+    },
+    "bulk-feidudu-v5-053-program-cutout": {
+      "library_status": "alternate",
+      "review_note": "同源舞蹈序列的备选帧；默认只精选清晰正面及有区别的动作，并非认定这些帧完全相同。原文件和旧方案保留。",
+      "reviewed_on": "2026-10-18"
+    },
+    "bulk-feidudu-v5-060-program-cutout": {
+      "library_status": "alternate",
+      "review_note": "同源舞蹈序列的备选帧；默认只精选清晰正面及有区别的动作，并非认定这些帧完全相同。原文件和旧方案保留。",
+      "reviewed_on": "2026-10-18"
+    },
+    "bulk-feidudu-v5-067-program-cutout": {
+      "library_status": "alternate",
+      "review_note": "同源舞蹈序列的备选帧；默认只精选清晰正面及有区别的动作，并非认定这些帧完全相同。原文件和旧方案保留。",
+      "reviewed_on": "2026-10-18"
+    },
+    "bulk-naidan-game-idle": {
+      "library_status": "alternate",
+      "review_note": "游戏皮肤或桌面图标变体，保留作备选；默认展示更接近奶蛋主形象的素材。",
+      "reviewed_on": "2026-10-18"
+    },
+    "bulk-naidan-game-blink": {
+      "library_status": "alternate",
+      "review_note": "游戏皮肤或桌面图标变体，保留作备选；默认展示更接近奶蛋主形象的素材。",
+      "reviewed_on": "2026-10-18"
+    },
+    "bulk-naidan-game-turn": {
+      "library_status": "alternate",
+      "review_note": "游戏皮肤或桌面图标变体，保留作备选；默认展示更接近奶蛋主形象的素材。",
+      "reviewed_on": "2026-10-18"
+    },
+    "bulk-naidan-game-back": {
+      "library_status": "alternate",
+      "review_note": "游戏皮肤或桌面图标变体，保留作备选；默认展示更接近奶蛋主形象的素材。",
+      "reviewed_on": "2026-10-18"
+    },
+    "bulk-naidan-game-bomb": {
+      "library_status": "alternate",
+      "review_note": "游戏皮肤或桌面图标变体，保留作备选；默认展示更接近奶蛋主形象的素材。",
+      "reviewed_on": "2026-10-18"
+    },
+    "bulk-naidan-game-dash": {
+      "library_status": "alternate",
+      "review_note": "游戏皮肤或桌面图标变体，保留作备选；默认展示更接近奶蛋主形象的素材。",
+      "reviewed_on": "2026-10-18"
+    },
+    "bulk-naidan-game-heavy": {
+      "library_status": "alternate",
+      "review_note": "游戏皮肤或桌面图标变体，保留作备选；默认展示更接近奶蛋主形象的素材。",
+      "reviewed_on": "2026-10-18"
+    },
+    "bulk-naidan-game-milk": {
+      "library_status": "alternate",
+      "review_note": "游戏皮肤或桌面图标变体，保留作备选；默认展示更接近奶蛋主形象的素材。",
+      "reviewed_on": "2026-10-18"
+    },
+    "bulk-naidan-game-seek": {
+      "library_status": "alternate",
+      "review_note": "游戏皮肤或桌面图标变体，保留作备选；默认展示更接近奶蛋主形象的素材。",
+      "reviewed_on": "2026-10-18"
+    },
+    "bulk-naidan-game-split": {
+      "library_status": "alternate",
+      "review_note": "游戏皮肤或桌面图标变体，保留作备选；默认展示更接近奶蛋主形象的素材。",
+      "reviewed_on": "2026-10-18"
+    },
+    "bulk-naidan-desktop-icon": {
+      "library_status": "alternate",
+      "review_note": "游戏皮肤或桌面图标变体，保留作备选；默认展示更接近奶蛋主形象的素材。",
+      "reviewed_on": "2026-10-18"
+    },
+    "bulk-naidan-desktop-bounce": {
+      "library_status": "alternate",
+      "review_note": "游戏皮肤或桌面图标变体，保留作备选；默认展示更接近奶蛋主形象的素材。",
+      "reviewed_on": "2026-10-18"
+    },
+    "meowl-user-program-cutout": {
+      "library_status": "alternate",
+      "review_note": "有效主体原始分辨率偏低；保留原文件和编辑兼容性，默认推荐更清晰素材。",
+      "reviewed_on": "2026-10-18"
+    },
+    "batiao": {
+      "library_status": "alternate",
+      "review_note": "已有对应透明主体；该原版保留作备选，不重复占用默认状态列表。",
+      "reviewed_on": "2026-10-18"
+    },
+    "bulk-feidudu-web-37": {
+      "library_status": "alternate",
+      "review_note": "已有对应透明主体；该原版保留作备选，不重复占用默认状态列表。",
+      "reviewed_on": "2026-10-18"
+    },
+    "naiwa-cutout": {
+      "library_status": "alternate",
+      "review_note": "旧版基础形象，体态与当前奶蛙精选形象有明显差别；保留但不作默认封面。",
+      "reviewed_on": "2026-10-18"
+    },
+    "bulk-cow-BV1fBgg6pEDv-t0243-program-cutout": {
+      "library_status": "alternate",
+      "review_note": "前者头部被原帧裁切，后者是普通四足牛形象；不作为默认牛来单人表情。",
+      "reviewed_on": "2026-10-18"
+    },
+    "bulk-cow-BV1fBgg6pEDv-t0249-program-cutout": {
+      "library_status": "alternate",
+      "review_note": "前者头部被原帧裁切，后者是普通四足牛形象；不作为默认牛来单人表情。",
+      "reviewed_on": "2026-10-18"
+    },
+    "original-nailong-gif-000": {
+      "emotion": [
+        "友好",
+        "开心"
+      ],
+      "review_note": "依据现有逐项动作标注和图像复核，替换泛化的“疑惑/可爱”标签。",
+      "reviewed_on": "2026-10-18"
+    },
+    "original-nailong-gif-001": {
+      "emotion": [
+        "疑惑",
+        "思考"
+      ],
+      "review_note": "依据现有逐项动作标注和图像复核，替换泛化的“疑惑/可爱”标签。",
+      "reviewed_on": "2026-10-18"
+    },
+    "original-nailong-gif-002": {
+      "emotion": [
+        "开心",
+        "友好"
+      ],
+      "review_note": "依据现有逐项动作标注和图像复核，替换泛化的“疑惑/可爱”标签。",
+      "reviewed_on": "2026-10-18"
+    },
+    "original-nailong-gif-003": {
+      "emotion": [
+        "得意",
+        "不满"
+      ],
+      "review_note": "依据现有逐项动作标注和图像复核，替换泛化的“疑惑/可爱”标签。",
+      "reviewed_on": "2026-10-18"
+    },
+    "original-nailong-gif-004": {
+      "emotion": [
+        "期待",
+        "开心"
+      ],
+      "review_note": "依据现有逐项动作标注和图像复核，替换泛化的“疑惑/可爱”标签。",
+      "reviewed_on": "2026-10-18"
+    },
+    "original-nailong-gif-005": {
+      "emotion": [
+        "开心",
+        "友好"
+      ],
+      "review_note": "依据现有逐项动作标注和图像复核，替换泛化的“疑惑/可爱”标签。",
+      "reviewed_on": "2026-10-18"
+    },
+    "original-nailong-gif-006": {
+      "emotion": [
+        "得意",
+        "开心"
+      ],
+      "review_note": "依据现有逐项动作标注和图像复核，替换泛化的“疑惑/可爱”标签。",
+      "reviewed_on": "2026-10-18"
+    },
+    "original-nailong-gif-007": {
+      "emotion": [
+        "困倦",
+        "平静"
+      ],
+      "review_note": "依据现有逐项动作标注和图像复核，替换泛化的“疑惑/可爱”标签。",
+      "reviewed_on": "2026-10-18"
+    },
+    "original-nailong-gif-008": {
+      "emotion": [
+        "开心",
+        "亲近"
+      ],
+      "review_note": "依据现有逐项动作标注和图像复核，替换泛化的“疑惑/可爱”标签。",
+      "subject_count": 2,
+      "reviewed_on": "2026-10-18"
+    },
+    "original-nailong-gif-009": {
+      "emotion": [
+        "大笑",
+        "开心"
+      ],
+      "review_note": "依据现有逐项动作标注和图像复核，替换泛化的“疑惑/可爱”标签。",
+      "reviewed_on": "2026-10-18"
+    },
+    "original-nailong-gif-010": {
+      "emotion": [
+        "期待",
+        "兴奋"
+      ],
+      "review_note": "依据现有逐项动作标注和图像复核，替换泛化的“疑惑/可爱”标签。",
+      "reviewed_on": "2026-10-18"
+    },
+    "original-nailong-gif-011": {
+      "emotion": [
+        "友好",
+        "开心"
+      ],
+      "review_note": "依据现有逐项动作标注和图像复核，替换泛化的“疑惑/可爱”标签。",
+      "reviewed_on": "2026-10-18"
+    },
+    "original-nailong-gif-012": {
+      "emotion": [
+        "开心",
+        "期待"
+      ],
+      "review_note": "依据现有逐项动作标注和图像复核，替换泛化的“疑惑/可爱”标签。",
+      "reviewed_on": "2026-10-18"
+    },
+    "original-nailong-gif-013": {
+      "emotion": [
+        "满足",
+        "开心"
+      ],
+      "review_note": "依据现有逐项动作标注和图像复核，替换泛化的“疑惑/可爱”标签。",
+      "reviewed_on": "2026-10-18"
+    },
+    "original-nailong-gif-014": {
+      "emotion": [
+        "平静",
+        "友好"
+      ],
+      "review_note": "依据现有逐项动作标注和图像复核，替换泛化的“疑惑/可爱”标签。",
+      "reviewed_on": "2026-10-18"
+    },
+    "original-nailong-gif-015": {
+      "emotion": [
+        "感谢",
+        "友好"
+      ],
+      "review_note": "依据现有逐项动作标注和图像复核，替换泛化的“疑惑/可爱”标签。",
+      "reviewed_on": "2026-10-18"
+    },
+    "original-nailong-gif-016": {
+      "emotion": [
+        "哭泣",
+        "委屈",
+        "难过"
+      ],
+      "review_note": "依据现有逐项动作标注和图像复核，替换泛化的“疑惑/可爱”标签。",
+      "reviewed_on": "2026-10-18"
+    },
+    "original-nailong-gif-017": {
+      "emotion": [
+        "搞怪",
+        "开心"
+      ],
+      "review_note": "依据现有逐项动作标注和图像复核，替换泛化的“疑惑/可爱”标签。",
+      "reviewed_on": "2026-10-18"
+    },
+    "original-nailong-gif-018": {
+      "emotion": [
+        "感谢",
+        "友好"
+      ],
+      "review_note": "依据现有逐项动作标注和图像复核，替换泛化的“疑惑/可爱”标签。",
+      "reviewed_on": "2026-10-18"
+    },
+    "original-nailong-gif-019": {
+      "emotion": [
+        "大笑",
+        "开心"
+      ],
+      "review_note": "依据现有逐项动作标注和图像复核，替换泛化的“疑惑/可爱”标签。",
+      "reviewed_on": "2026-10-18"
+    },
+    "original-nailong-gif-020": {
+      "emotion": [
+        "开心",
+        "期待"
+      ],
+      "review_note": "依据现有逐项动作标注和图像复核，替换泛化的“疑惑/可爱”标签。",
+      "reviewed_on": "2026-10-18"
+    },
+    "original-nailong-gif-021": {
+      "emotion": [
+        "开心",
+        "期待"
+      ],
+      "review_note": "依据现有逐项动作标注和图像复核，替换泛化的“疑惑/可爱”标签。",
+      "reviewed_on": "2026-10-18"
+    },
+    "original-nailong-gif-022": {
+      "emotion": [
+        "开心",
+        "期待"
+      ],
+      "review_note": "依据现有逐项动作标注和图像复核，替换泛化的“疑惑/可爱”标签。",
+      "reviewed_on": "2026-10-18"
+    },
+    "original-nailong-static-000": {
+      "emotion": [
+        "嫌弃",
+        "得意"
+      ],
+      "review_note": "依据现有逐项动作标注和图像复核，替换泛化的“疑惑/可爱”标签。",
+      "reviewed_on": "2026-10-18"
+    },
+    "original-nailong-static-001": {
+      "emotion": [
+        "自信",
+        "得意"
+      ],
+      "review_note": "依据现有逐项动作标注和图像复核，替换泛化的“疑惑/可爱”标签。",
+      "reviewed_on": "2026-10-18"
+    },
+    "original-nailong-static-002": {
+      "emotion": [
+        "搞怪",
+        "开心"
+      ],
+      "review_note": "依据现有逐项动作标注和图像复核，替换泛化的“疑惑/可爱”标签。",
+      "reviewed_on": "2026-10-18"
+    },
+    "original-nailong-static-003": {
+      "emotion": [
+        "偷笑",
+        "得意"
+      ],
+      "review_note": "依据现有逐项动作标注和图像复核，替换泛化的“疑惑/可爱”标签。",
+      "reviewed_on": "2026-10-18"
+    },
+    "original-nailong-static-004": {
+      "emotion": [
+        "害羞",
+        "心虚"
+      ],
+      "review_note": "依据现有逐项动作标注和图像复核，替换泛化的“疑惑/可爱”标签。",
+      "reviewed_on": "2026-10-18"
+    },
+    "original-nailong-static-005": {
+      "emotion": [
+        "委屈",
+        "难过"
+      ],
+      "review_note": "依据现有逐项动作标注和图像复核，替换泛化的“疑惑/可爱”标签。",
+      "reviewed_on": "2026-10-18"
+    },
+    "original-nailong-static-006": {
+      "emotion": [
+        "惊讶",
+        "不满"
+      ],
+      "review_note": "依据现有逐项动作标注和图像复核，替换泛化的“疑惑/可爱”标签。",
+      "reviewed_on": "2026-10-18"
+    },
+    "original-nailong-static-007": {
+      "emotion": [
+        "得意",
+        "自信"
+      ],
+      "review_note": "依据现有逐项动作标注和图像复核，替换泛化的“疑惑/可爱”标签。",
+      "reviewed_on": "2026-10-18"
+    },
+    "original-nailong-static-008": {
+      "emotion": [
+        "惊讶",
+        "紧张"
+      ],
+      "review_note": "依据现有逐项动作标注和图像复核，替换泛化的“疑惑/可爱”标签。",
+      "reviewed_on": "2026-10-18"
+    },
+    "original-nailong-static-009": {
+      "emotion": [
+        "亲近",
+        "期待"
+      ],
+      "review_note": "依据现有逐项动作标注和图像复核，替换泛化的“疑惑/可爱”标签。",
+      "reviewed_on": "2026-10-18"
+    },
+    "original-nailong-static-010": {
+      "emotion": [
+        "疑惑",
+        "无语"
+      ],
+      "review_note": "依据现有逐项动作标注和图像复核，替换泛化的“疑惑/可爱”标签。",
+      "reviewed_on": "2026-10-18"
+    },
+    "original-nailong-static-011": {
+      "emotion": [
+        "得意",
+        "嫌弃"
+      ],
+      "review_note": "依据现有逐项动作标注和图像复核，替换泛化的“疑惑/可爱”标签。",
+      "reviewed_on": "2026-10-18"
+    },
+    "original-nailong-static-012": {
+      "emotion": [
+        "疑惑",
+        "平静"
+      ],
+      "review_note": "依据现有逐项动作标注和图像复核，替换泛化的“疑惑/可爱”标签。",
+      "reviewed_on": "2026-10-18"
+    },
+    "original-nailong-static-013": {
+      "emotion": [
+        "疑惑",
+        "好奇"
+      ],
+      "review_note": "依据现有逐项动作标注和图像复核，替换泛化的“疑惑/可爱”标签。",
+      "reviewed_on": "2026-10-18"
+    },
+    "bulk-nailong-085-program-cutout": {
+      "emotion": [
+        "平静",
+        "放松"
+      ],
+      "review_note": "透明主体联系表逐项复核，按可见表情和动作标注，避免统一归为“平静/无语”。",
+      "reviewed_on": "2026-10-18"
+    },
+    "bulk-nailong-087-program-cutout": {
+      "emotion": [
+        "专注",
+        "思考"
+      ],
+      "review_note": "透明主体联系表逐项复核，按可见表情和动作标注，避免统一归为“平静/无语”。",
+      "reviewed_on": "2026-10-18"
+    },
+    "bulk-nailong-089-program-cutout": {
+      "emotion": [
+        "坚定",
+        "期待"
+      ],
+      "review_note": "透明主体联系表逐项复核，按可见表情和动作标注，避免统一归为“平静/无语”。",
+      "reviewed_on": "2026-10-18"
+    },
+    "bulk-nailong-090-program-cutout": {
+      "emotion": [
+        "开心",
+        "亲近"
+      ],
+      "review_note": "透明主体联系表逐项复核，按可见表情和动作标注，避免统一归为“平静/无语”。",
+      "subject_count": 2,
+      "reviewed_on": "2026-10-18"
+    },
+    "bulk-nailong-091-program-cutout": {
+      "emotion": [
+        "无语",
+        "尴尬"
+      ],
+      "review_note": "透明主体联系表逐项复核，按可见表情和动作标注，避免统一归为“平静/无语”。",
+      "reviewed_on": "2026-10-18"
+    },
+    "bulk-nailong-092-program-cutout": {
+      "emotion": [
+        "开心",
+        "平静"
+      ],
+      "review_note": "透明主体联系表逐项复核，按可见表情和动作标注，避免统一归为“平静/无语”。",
+      "reviewed_on": "2026-10-18"
+    },
+    "bulk-nailong-093-program-cutout": {
+      "emotion": [
+        "得意",
+        "自信"
+      ],
+      "review_note": "透明主体联系表逐项复核，按可见表情和动作标注，避免统一归为“平静/无语”。",
+      "reviewed_on": "2026-10-18"
+    },
+    "bulk-nailong-094-program-cutout": {
+      "emotion": [
+        "搞怪",
+        "开心"
+      ],
+      "review_note": "透明主体联系表逐项复核，按可见表情和动作标注，避免统一归为“平静/无语”。",
+      "reviewed_on": "2026-10-18"
+    },
+    "bulk-nailong-095-program-cutout": {
+      "emotion": [
+        "期待",
+        "专注"
+      ],
+      "review_note": "透明主体联系表逐项复核，按可见表情和动作标注，避免统一归为“平静/无语”。",
+      "reviewed_on": "2026-10-18"
+    },
+    "bulk-nailong-096-program-cutout": {
+      "emotion": [
+        "自信",
+        "得意"
+      ],
+      "review_note": "透明主体联系表逐项复核，按可见表情和动作标注，避免统一归为“平静/无语”。",
+      "reviewed_on": "2026-10-18"
+    },
+    "bulk-nailong-097-program-cutout": {
+      "emotion": [
+        "自信",
+        "平静"
+      ],
+      "review_note": "透明主体联系表逐项复核，按可见表情和动作标注，避免统一归为“平静/无语”。",
+      "reviewed_on": "2026-10-18"
+    },
+    "bulk-nailong-100-program-cutout": {
+      "emotion": [
+        "大笑",
+        "开心"
+      ],
+      "review_note": "透明主体联系表逐项复核，按可见表情和动作标注，避免统一归为“平静/无语”。",
+      "reviewed_on": "2026-10-18"
+    },
+    "bulk-nailong-102-program-cutout": {
+      "emotion": [
+        "自信",
+        "得意"
+      ],
+      "review_note": "透明主体联系表逐项复核，按可见表情和动作标注，避免统一归为“平静/无语”。",
+      "reviewed_on": "2026-10-18"
+    },
+    "bulk-nailong-103-program-cutout": {
+      "emotion": [
+        "大笑",
+        "开心"
+      ],
+      "review_note": "透明主体联系表逐项复核，按可见表情和动作标注，避免统一归为“平静/无语”。",
+      "reviewed_on": "2026-10-18"
+    },
+    "bulk-nailong-105-program-cutout": {
+      "emotion": [
+        "低落",
+        "难过"
+      ],
+      "review_note": "透明主体联系表逐项复核，按可见表情和动作标注，避免统一归为“平静/无语”。",
+      "reviewed_on": "2026-10-18"
+    },
+    "bulk-nailong-107-program-cutout": {
+      "emotion": [
+        "开心",
+        "自信"
+      ],
+      "review_note": "透明主体联系表逐项复核，按可见表情和动作标注，避免统一归为“平静/无语”。",
+      "reviewed_on": "2026-10-18"
+    },
+    "bulk-nailong-108-program-cutout": {
+      "emotion": [
+        "平静"
+      ],
+      "review_note": "透明主体联系表逐项复核，按可见表情和动作标注，避免统一归为“平静/无语”。",
+      "reviewed_on": "2026-10-18"
+    },
+    "bulk-nailong-109-program-cutout": {
+      "emotion": [
+        "平静",
+        "放松"
+      ],
+      "review_note": "透明主体联系表逐项复核，按可见表情和动作标注，避免统一归为“平静/无语”。",
+      "reviewed_on": "2026-10-18"
+    },
+    "bulk-nailong-110-program-cutout": {
+      "emotion": [
+        "平静",
+        "感谢"
+      ],
+      "review_note": "透明主体联系表逐项复核，按可见表情和动作标注，避免统一归为“平静/无语”。",
+      "reviewed_on": "2026-10-18"
+    },
+    "bulk-nailong-111-program-cutout": {
+      "emotion": [
+        "期待",
+        "祈求"
+      ],
+      "review_note": "透明主体联系表逐项复核，按可见表情和动作标注，避免统一归为“平静/无语”。",
+      "reviewed_on": "2026-10-18"
+    },
+    "bulk-nailong-113-program-cutout": {
+      "emotion": [
+        "平静",
+        "认真"
+      ],
+      "review_note": "透明主体联系表逐项复核，按可见表情和动作标注，避免统一归为“平静/无语”。",
+      "reviewed_on": "2026-10-18"
+    },
+    "bulk-nailong-114-program-cutout": {
+      "emotion": [
+        "疲惫",
+        "无聊"
+      ],
+      "review_note": "透明主体联系表逐项复核，按可见表情和动作标注，避免统一归为“平静/无语”。",
+      "reviewed_on": "2026-10-18"
+    },
+    "bulk-nailong-115-program-cutout": {
+      "emotion": [
+        "委屈",
+        "难过"
+      ],
+      "review_note": "透明主体联系表逐项复核，按可见表情和动作标注，避免统一归为“平静/无语”。",
+      "reviewed_on": "2026-10-18"
+    },
+    "bulk-nailong-116-program-cutout": {
+      "emotion": [
+        "惊讶"
+      ],
+      "review_note": "透明主体联系表逐项复核，按可见表情和动作标注，避免统一归为“平静/无语”。",
+      "reviewed_on": "2026-10-18"
+    },
+    "bulk-nailong-118-program-cutout": {
+      "emotion": [
+        "震惊",
+        "害怕"
+      ],
+      "review_note": "透明主体联系表逐项复核，按可见表情和动作标注，避免统一归为“平静/无语”。",
+      "reviewed_on": "2026-10-18"
+    },
+    "bulk-nailong-119-program-cutout": {
+      "emotion": [
+        "疑惑",
+        "思考"
+      ],
+      "review_note": "透明主体联系表逐项复核，按可见表情和动作标注，避免统一归为“平静/无语”。",
+      "reviewed_on": "2026-10-18"
+    },
+    "bulk-nailong-122-program-cutout": {
+      "emotion": [
+        "大笑",
+        "得意"
+      ],
+      "review_note": "透明主体联系表逐项复核，按可见表情和动作标注，避免统一归为“平静/无语”。",
+      "reviewed_on": "2026-10-18"
+    },
+    "bulk-nailong-124-program-cutout": {
+      "emotion": [
+        "期待",
+        "兴奋"
+      ],
+      "review_note": "透明主体联系表逐项复核，按可见表情和动作标注，避免统一归为“平静/无语”。",
+      "reviewed_on": "2026-10-18"
+    },
+    "bulk-nailong-125-program-cutout": {
+      "emotion": [
+        "疲惫",
+        "无语"
+      ],
+      "review_note": "透明主体联系表逐项复核，按可见表情和动作标注，避免统一归为“平静/无语”。",
+      "reviewed_on": "2026-10-18"
+    },
+    "bulk-nailong-129-program-cutout": {
+      "emotion": [
+        "开心",
+        "感谢"
+      ],
+      "review_note": "透明主体联系表逐项复核，按可见表情和动作标注，避免统一归为“平静/无语”。",
+      "reviewed_on": "2026-10-18"
+    },
+    "bulk-nailong-131-program-cutout": {
+      "emotion": [
+        "得意",
+        "满足"
+      ],
+      "review_note": "透明主体联系表逐项复核，按可见表情和动作标注，避免统一归为“平静/无语”。",
+      "reviewed_on": "2026-10-18"
+    },
+    "bulk-nailong-133-program-cutout": {
+      "emotion": [
+        "难过",
+        "疲惫"
+      ],
+      "review_note": "透明主体联系表逐项复核，按可见表情和动作标注，避免统一归为“平静/无语”。",
+      "reviewed_on": "2026-10-18"
+    },
+    "ai-nun-15": {
+      "emotion": [
+        "期待",
+        "祈求"
+      ],
+      "review_note": "将动作与心情分开：动作继续保留在 action，心情使用可检索的表达标签。",
+      "reviewed_on": "2026-10-18"
+    },
+    "ai-nun-16": {
+      "emotion": [
+        "无语",
+        "无奈"
+      ],
+      "review_note": "将动作与心情分开：动作继续保留在 action，心情使用可检索的表达标签。",
+      "reviewed_on": "2026-10-18"
+    },
+    "ai-nun-17": {
+      "emotion": [
+        "开心",
+        "认可"
+      ],
+      "review_note": "将动作与心情分开：动作继续保留在 action，心情使用可检索的表达标签。",
+      "reviewed_on": "2026-10-18"
+    },
+    "ai-nun-18": {
+      "emotion": [
+        "友好",
+        "开心"
+      ],
+      "review_note": "将动作与心情分开：动作继续保留在 action，心情使用可检索的表达标签。",
+      "reviewed_on": "2026-10-18"
+    },
+    "ai-nun-19": {
+      "emotion": [
+        "亲近",
+        "开心"
+      ],
+      "review_note": "将动作与心情分开：动作继续保留在 action，心情使用可检索的表达标签。",
+      "reviewed_on": "2026-10-18"
+    },
+    "ai-nun-20": {
+      "emotion": [
+        "提醒"
+      ],
+      "review_note": "将动作与心情分开：动作继续保留在 action，心情使用可检索的表达标签。",
+      "reviewed_on": "2026-10-18"
+    },
+    "ai-nun-21": {
+      "emotion": [
+        "疑惑",
+        "期待"
+      ],
+      "review_note": "将动作与心情分开：动作继续保留在 action，心情使用可检索的表达标签。",
+      "reviewed_on": "2026-10-18"
+    },
+    "ai-nun-22": {
+      "emotion": [
+        "专注",
+        "思考"
+      ],
+      "review_note": "将动作与心情分开：动作继续保留在 action，心情使用可检索的表达标签。",
+      "reviewed_on": "2026-10-18"
+    },
+    "ai-nun-23": {
+      "emotion": [
+        "放松",
+        "平静"
+      ],
+      "review_note": "将动作与心情分开：动作继续保留在 action，心情使用可检索的表达标签。",
+      "reviewed_on": "2026-10-18"
+    },
+    "ai-nun-24": {
+      "emotion": [
+        "专注",
+        "平静"
+      ],
+      "review_note": "将动作与心情分开：动作继续保留在 action，心情使用可检索的表达标签。",
+      "reviewed_on": "2026-10-18"
+    },
+    "bulk-feidudu-v1-004-program-cutout": {
+      "emotion": [
+        "开心",
+        "自信"
+      ],
+      "library_status": "preferred",
+      "review_note": "舞蹈序列精选：清晰完整且姿态有区别；按可见表情补充标签。",
+      "reviewed_on": "2026-10-18"
+    },
+    "bulk-feidudu-v1-011-program-cutout": {
+      "emotion": [
+        "开心",
+        "得意"
+      ],
+      "library_status": "preferred",
+      "review_note": "舞蹈序列精选：清晰完整且姿态有区别；按可见表情补充标签。",
+      "reviewed_on": "2026-10-18"
+    },
+    "bulk-feidudu-v1-046-program-cutout": {
+      "emotion": [
+        "兴奋",
+        "大笑"
+      ],
+      "library_status": "preferred",
+      "review_note": "舞蹈序列精选：清晰完整且姿态有区别；按可见表情补充标签。",
+      "reviewed_on": "2026-10-18"
+    },
+    "bulk-feidudu-v1-060-program-cutout": {
+      "emotion": [
+        "开心",
+        "期待"
+      ],
+      "library_status": "preferred",
+      "review_note": "舞蹈序列精选：清晰完整且姿态有区别；按可见表情补充标签。",
+      "reviewed_on": "2026-10-18"
+    },
+    "bulk-feidudu-v1-109-program-cutout": {
+      "emotion": [
+        "兴奋",
+        "调皮"
+      ],
+      "library_status": "preferred",
+      "review_note": "舞蹈序列精选：清晰完整且姿态有区别；按可见表情补充标签。",
+      "reviewed_on": "2026-10-18"
+    },
+    "bulk-feidudu-v1-130-program-cutout": {
+      "emotion": [
+        "得意",
+        "自信"
+      ],
+      "library_status": "preferred",
+      "review_note": "舞蹈序列精选：清晰完整且姿态有区别；按可见表情补充标签。",
+      "reviewed_on": "2026-10-18"
+    },
+    "bulk-feidudu-v1-137-program-cutout": {
+      "emotion": [
+        "兴奋",
+        "开心"
+      ],
+      "library_status": "preferred",
+      "review_note": "舞蹈序列精选：清晰完整且姿态有区别；按可见表情补充标签。",
+      "reviewed_on": "2026-10-18"
+    },
+    "bulk-feidudu-v2-018-program-cutout": {
+      "emotion": [
+        "疑惑",
+        "紧张"
+      ],
+      "library_status": "preferred",
+      "review_note": "舞蹈序列精选：清晰完整且姿态有区别；按可见表情补充标签。",
+      "reviewed_on": "2026-10-18"
+    },
+    "bulk-feidudu-v2-081-program-cutout": {
+      "emotion": [
+        "兴奋",
+        "搞怪"
+      ],
+      "library_status": "preferred",
+      "review_note": "舞蹈序列精选：清晰完整且姿态有区别；按可见表情补充标签。",
+      "reviewed_on": "2026-10-18"
+    },
+    "bulk-feidudu-v2-095-program-cutout": {
+      "emotion": [
+        "开心",
+        "自信"
+      ],
+      "library_status": "preferred",
+      "review_note": "舞蹈序列精选：清晰完整且姿态有区别；按可见表情补充标签。",
+      "reviewed_on": "2026-10-18"
+    },
+    "bulk-feidudu-v3-025-program-cutout": {
+      "emotion": [
+        "害羞",
+        "开心"
+      ],
+      "library_status": "preferred",
+      "review_note": "舞蹈序列精选：清晰完整且姿态有区别；按可见表情补充标签。",
+      "reviewed_on": "2026-10-18"
+    },
+    "bulk-cow-pet-r07c01": {
+      "emotion": [
+        "平静",
+        "得意"
+      ],
+      "review_note": "根据手势和可见表情复核，移除泛化的“友好/开心”。",
+      "reviewed_on": "2026-10-18"
+    },
+    "bulk-cow-pet-r07c02": {
+      "emotion": [
+        "疑惑",
+        "思考"
+      ],
+      "review_note": "根据手势和可见表情复核，移除泛化的“友好/开心”。",
+      "reviewed_on": "2026-10-18"
+    },
+    "bulk-cow-pet-r07c03": {
+      "emotion": [
+        "平静",
+        "认真"
+      ],
+      "review_note": "根据手势和可见表情复核，移除泛化的“友好/开心”。",
+      "reviewed_on": "2026-10-18"
+    },
+    "bulk-cow-pet-r07c06": {
+      "emotion": [
+        "期待",
+        "祈求"
+      ],
+      "review_note": "根据手势和可见表情复核，移除泛化的“友好/开心”。",
+      "reviewed_on": "2026-10-18"
+    },
+    "bulk-cow-pet-r08c01": {
+      "emotion": [
+        "嫌弃",
+        "无语"
+      ],
+      "review_note": "根据手势和可见表情复核，移除泛化的“友好/开心”。",
+      "reviewed_on": "2026-10-18"
+    },
+    "bulk-cow-pet-r08c03": {
+      "emotion": [
+        "思考",
+        "怀疑"
+      ],
+      "review_note": "根据手势和可见表情复核，移除泛化的“友好/开心”。",
+      "reviewed_on": "2026-10-18"
+    },
+    "bulk-cow-pet-r08c06": {
+      "emotion": [
+        "思考",
+        "疑惑"
+      ],
+      "review_note": "根据手势和可见表情复核，移除泛化的“友好/开心”。",
+      "reviewed_on": "2026-10-18"
+    },
+    "web-meowl-scene-5": {
+      "subject_count": 3,
+      "review_note": "组合原图包含多个主体，不能将其中人物分开移动。",
+      "reviewed_on": "2026-10-18"
+    },
+    "bulk-naidan-bv1sohs6fedc-013": {
+      "subject_count": 2,
+      "review_note": "组合原图包含多个主体，不能将其中人物分开移动。",
+      "reviewed_on": "2026-10-18"
+    },
+    "bulk-naidan-bv1sohs6fedc-025": {
+      "subject_count": 2,
+      "review_note": "组合原图包含多个主体，不能将其中人物分开移动。",
+      "reviewed_on": "2026-10-18"
+    },
+    "bulk-naidan-bv1sohs6fedc-013-program-cutout": {
+      "subject_count": 2,
+      "review_note": "组合原图包含多个主体，不能将其中人物分开移动。",
+      "reviewed_on": "2026-10-18"
+    }
+  }
+}

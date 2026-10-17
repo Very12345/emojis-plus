@@ -7,7 +7,7 @@
     "dev": "vite --host 127.0.0.1",
     "build": "tsc -b && vite build",
     "preview": "vite preview --host 127.0.0.1",
-    "prebuild": "node scripts/prepare-static.mjs && tsx scripts/prepare-previews.ts && node scripts/package-agent-skill.mjs",
+    "prebuild": "node scripts/prepare-static.mjs && node scripts/audit-materials.mjs && tsx scripts/prepare-previews.ts && node scripts/package-agent-skill.mjs",
     "start": "node scripts/local-launcher.mjs",
     "serve": "node scripts/static-server.mjs",
     "test": "tsx --test tests/browser-*.test.ts",

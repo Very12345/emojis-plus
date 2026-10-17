@@ -10,6 +10,7 @@ export interface TextBox extends TextStyle {x:number;y:number;width:number;heigh
 export interface TextLayer extends TextBox {id:string;text:string;font_family?:FontFamily|null;text_color?:string}
 export interface ActorTransform {x:number;y:number;scale:number;rotation:number}
 export interface Metadata {
+  library_status?:'preferred'|'alternate';review_note?:string;subject_count?:number
   emotion: string[]; scenes: string[]; examples: string[]; action: string; intensity: number;
   existing_text: string; source_type: string; author: string; source_url: string; source_note: string;
   text_safe_area: {x: number; y: number; width: number; height: number} | null;
@@ -19,7 +20,7 @@ export interface Metadata {
 }
 export interface Asset {
   id: string; name: string; character: string; url: string; poster_url?:string; enabled: boolean; metadata: Metadata;
-  info: {width: number; height: number; frames: number; duration_ms: number; format: string; has_transparency: boolean}
+  info: {width: number; height: number; frames: number; duration_ms: number; format: string; has_transparency: boolean;content_bounds?:{x:number;y:number;width:number;height:number};source_width?:number;source_height?:number;effective_width?:number;effective_height?:number}
 }
 export interface Animation {handler:string;duration_ms:number;poster_time:number;parameters:('strength'|'copies'|'direction'|'prop_color')[]}
 export interface Template {id: TemplateId; name: string; description: string; enabled: boolean;layout_id?:string;requires_transparency?:boolean;supports_embedded?:boolean;defaults?:Partial<Plan>;motions?:{effect_id:string;target:string;speed:number}[];layout?:{captions:{field:string}[];subject_mode:string};cast?:{x:number;y:number;scale:number;rotation:number}[];min_characters?:number;max_characters?:number;category_id?:string;subcategory_id?:string;category_name?:string;subcategory_name?:string;tags?:string[];animation?:Animation|null;preview_version?:string;sample?:Partial<Plan>}

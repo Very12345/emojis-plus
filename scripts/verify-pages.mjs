@@ -5,6 +5,7 @@ const read=async p=>JSON.parse(await fs.readFile(path.join(out,p),'utf8'))
 const catalog=await read('library/catalog.json'),previews=await read('previews/report.json')
 const paths=new Set(['index.html','robots.txt','integrations/emojis-plus-agent.zip','library/catalog.json','previews/theme-contact.jpg','previews/school-characters-contact.jpg',...catalog.assets.flatMap(a=>[a.url,a.poster_url]),...catalog.fonts.flatMap(f=>[f.url,f.license_url]),catalog.emblem_url,...catalog.templates.map(t=>'previews/template-'+t.id+'.jpg'),...catalog.presets.map(p=>'previews/preset-'+p.id+'.jpg'),...(catalog.compositions||[]).flatMap(c=>['previews/composition-'+c.id+'.jpg','previews/composition-'+c.id+'.gif'])].filter(Boolean))
 const index=await fs.readFile(path.join(out,'index.html'),'utf8')
+paths.add('previews/material-supplements-contact.jpg');paths.add('previews/material-review.json');
 for(const match of index.matchAll(/(?:src|href)="([^"]+\.(?:js|css))"/g))paths.add(match[1].replace(/^\.\//,''))
 for(const file of await fs.readdir(path.join(out,'assets')))if(file.startsWith('worker-')&&file.endsWith('.js'))paths.add('assets/'+file)
 if(![...paths].some(p=>p.startsWith('assets/worker-')))throw Error('No bundled render Worker')

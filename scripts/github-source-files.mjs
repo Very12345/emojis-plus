@@ -5,7 +5,8 @@ const root=process.cwd(),read=async p=>JSON.parse(await fs.readFile(p,'utf8')),r
 for(const file of report.files)if(file.source)files.add(file.source)
 const walk=async(dir,accept)=>{for(const entry of await fs.readdir(dir,{withFileTypes:true})){const file=dir+'/'+entry.name;if(entry.isDirectory())await walk(file,accept);else if(accept(file))files.add(file)}}
 await walk('integrations',f=>/\.(?:md|mjs|py|ya?ml)$/.test(f));await walk('assets/school-characters',f=>/\.(?:svg|json)$/.test(f));await walk('src',()=>true);await walk('docs',f=>/\.(?:md|json)$/.test(f));await walk('.github',f=>/\.ya?ml$/.test(f));await walk('assets/registry',f=>f.endsWith('.json'))
-for(const name of ['prepare-static.mjs','prepare-previews.ts','prepare-themes.mjs','prepare-school-characters.mjs','package-agent-skill.mjs','theme-benchmark.html','verify-pages.mjs','github-source-files.mjs','static-server.mjs','local-launcher.mjs','stop-local.ps1','stop.ps1'])files.add('scripts/'+name)
+for(const name of ['prepare-static.mjs','material-metrics.mjs','prepare-material-supplements.mjs','audit-materials.mjs','prepare-previews.ts','prepare-themes.mjs','prepare-school-characters.mjs','package-agent-skill.mjs','theme-benchmark.html','verify-pages.mjs','github-source-files.mjs','static-server.mjs','local-launcher.mjs','stop-local.ps1','stop.ps1'])files.add('scripts/'+name)
+files.add('assets/material-supplements/records.json')
 for(const name of await fs.readdir('tests'))if(/^browser-.*\.test\.ts$/.test(name))files.add('tests/'+name)
 for(const name of await fs.readdir('assets/fonts'))if(/(?:OFL\.txt|-OFL\.txt|-sources\.json)$/.test(name))files.add('assets/fonts/'+name)
 const seen=new Map()

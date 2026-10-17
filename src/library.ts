@@ -1,5 +1,7 @@
 import type {Asset, Plan, Template, TemplateId} from './api'
+import {materialChoices} from './materials'
 export const schoolCoverIds:Record<string,string>={'北京大学':'pku-scholar-cat-cheer','清华大学':'thu-scholar-cat-cheer'}
+export const characterCoverIds:Record<string,string>={...schoolCoverIds,'奶蛙':'bulk-nailong-085-program-cutout'}
 export function characterLabel(name:string){return name==='猫耳修女'?'可爱大笨蛋（猫耳修女）':name}
 
 export function sortCharacters(names:string[]){
@@ -19,9 +21,10 @@ export function originalAssetKey(asset:Asset,all:Asset[]){
   }
   return current.id
 }
-export function balancedAssets(assets:Asset[]){
-  const characters=[...new Set(assets.map(a=>a.character))]
-  const buckets=characters.map(c=>assets.filter(a=>a.character===c).sort((a,b)=>Number(isCutout(b))-Number(isCutout(a))))
+export function balancedAssets(assets:Asset[],includeAlternates=false){
+  const eligible=includeAlternates?assets:materialChoices(assets)
+  const characters=[...new Set(eligible.map(a=>a.character))]
+  const buckets=characters.map(c=>eligible.filter(a=>a.character===c).sort((a,b)=>Number(isCutout(b))-Number(isCutout(a))))
   const result:Asset[]=[]
   for(let i=0;i<Math.max(0,...buckets.map(b=>b.length));i++)for(const bucket of buckets)if(bucket[i])result.push(bucket[i])
   return result
@@ -45,10 +48,10 @@ export function templateChoices(assets:Asset[],templates:Template[],plan:Plan|nu
 }
 
 export function preferredCharacterAsset(assets:Asset[],character:string,plan:Plan|null,remembered?:string,templates:Template[]=[]){
-  const group=assets.filter(a=>a.character===character&&a.metadata.role!=='background')
+  const group=materialChoices(assets.filter(a=>a.character===character&&a.metadata.role!=='background'),remembered)
   const template=templates.find(t=>t.id===plan?.template_id)
   const compatible=(a:Asset)=>!plan||(template?assetSupportsTemplate(a,template):(a.metadata.templates.includes(plan.template_id)&&(plan.template_id!=='flower'||isCutout(a))))
-  return group.find(a=>a.id===remembered&&compatible(a))||group.find(a=>a.id===schoolCoverIds[character]&&compatible(a))||group.find(a=>isCutout(a)&&compatible(a))||group.find(compatible)||group[0]
+  return group.find(a=>a.id===remembered&&compatible(a))||group.find(a=>a.id===characterCoverIds[character]&&compatible(a))||group.find(a=>isCutout(a)&&compatible(a))||group.find(compatible)||group[0]
 }
 
 export function replaceSubject(previous:Plan,asset:Asset,templates:Template[]=[]):Plan{

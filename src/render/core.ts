@@ -6,7 +6,7 @@ import type {Plan,Asset,TextField} from '../api'
 import type {CanvasElement} from '../editor/types'
 import type {RenderInput,DecodedSource} from '../local/types'
 import {buildScene,bounds,captionVisibility,clamp,matrix,multiply,type Matrix,type SurfaceFactory} from './scene'
-export const RENDER_VERSION='browser-canvas-v6-chat-composition'
+export const RENDER_VERSION='browser-canvas-v7-reviewed-materials'
 export type Rect=[number,number,number,number]
 export function regions(p:Plan,t:any):{image:Rect;captions:{field:string;rect:Rect}[]} {
  if(p.chat_layout){const r=chatRegions(p,true),s=p.size;return {image:r.image.map(v=>v*s)as Rect,captions:[{field:'text',rect:[r.text.x*s,r.text.y*s,r.text.width*s,r.text.height*s]},{field:'secondary_text',rect:[r.secondary.x*s,r.secondary.y*s,r.secondary.width*s,r.secondary.height*s]}]}}

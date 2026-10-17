@@ -1,0 +1,466 @@
+[
+  {
+    "id": "supplement-meowl-angry",
+    "name": "Meowl · 生气 · AI派生",
+    "character": "Meowl",
+    "filename": "material-supplements/supplement-meowl-angry.png",
+    "emotion": [
+      "生气"
+    ],
+    "action": "生气",
+    "intensity": 3,
+    "scenes": [
+      "日常聊天",
+      "校园"
+    ],
+    "examples": [
+      "我真的生气了！"
+    ],
+    "existing_text": "",
+    "source_type": "project_derivative",
+    "author": "Emojis Plus（AI派生）",
+    "source_note": "使用内置 image_gen 参考已注册素材 meowl-cutout 独立生成并审核；原参考来源保留于该素材。本图为 AI 派生，并非原作者亲绘。提示词与审核见 assets/material-supplements/records.json；高分辨率母版在本机保存。",
+    "role": "subject",
+    "is_cutout": true,
+    "allow_flip": true,
+    "derived_from": "",
+    "text_safe_area": null,
+    "library_status": "preferred",
+    "subject_count": 1
+  },
+  {
+    "id": "supplement-meowl-sad",
+    "name": "Meowl · 委屈 · AI派生",
+    "character": "Meowl",
+    "filename": "material-supplements/supplement-meowl-sad.png",
+    "emotion": [
+      "委屈"
+    ],
+    "action": "委屈",
+    "intensity": 2,
+    "scenes": [
+      "日常聊天",
+      "校园"
+    ],
+    "examples": [
+      "我也没做错什么呀。"
+    ],
+    "existing_text": "",
+    "source_type": "project_derivative",
+    "author": "Emojis Plus（AI派生）",
+    "source_note": "使用内置 image_gen 参考已注册素材 meowl-cutout 独立生成并审核；原参考来源保留于该素材。本图为 AI 派生，并非原作者亲绘。提示词与审核见 assets/material-supplements/records.json；高分辨率母版在本机保存。",
+    "role": "subject",
+    "is_cutout": true,
+    "allow_flip": true,
+    "derived_from": "",
+    "text_safe_area": null,
+    "library_status": "preferred",
+    "subject_count": 1
+  },
+  {
+    "id": "supplement-meowl-surprised",
+    "name": "Meowl · 惊讶 · AI派生",
+    "character": "Meowl",
+    "filename": "material-supplements/supplement-meowl-surprised.png",
+    "emotion": [
+      "惊讶"
+    ],
+    "action": "惊讶",
+    "intensity": 3,
+    "scenes": [
+      "日常聊天",
+      "校园"
+    ],
+    "examples": [
+      "这也可以？"
+    ],
+    "existing_text": "",
+    "source_type": "project_derivative",
+    "author": "Emojis Plus（AI派生）",
+    "source_note": "使用内置 image_gen 参考已注册素材 meowl-cutout 独立生成并审核；原参考来源保留于该素材。本图为 AI 派生，并非原作者亲绘。提示词与审核见 assets/material-supplements/records.json；高分辨率母版在本机保存。",
+    "role": "subject",
+    "is_cutout": true,
+    "allow_flip": true,
+    "derived_from": "",
+    "text_safe_area": null,
+    "library_status": "preferred",
+    "subject_count": 1
+  },
+  {
+    "id": "supplement-meowl-tired",
+    "name": "Meowl · 疲惫 · AI派生",
+    "character": "Meowl",
+    "filename": "material-supplements/supplement-meowl-tired.png",
+    "emotion": [
+      "疲惫"
+    ],
+    "action": "疲惫",
+    "intensity": 2,
+    "scenes": [
+      "日常聊天",
+      "校园"
+    ],
+    "examples": [
+      "今天的电量用完了。"
+    ],
+    "existing_text": "",
+    "source_type": "project_derivative",
+    "author": "Emojis Plus（AI派生）",
+    "source_note": "使用内置 image_gen 参考已注册素材 meowl-cutout 独立生成并审核；原参考来源保留于该素材。本图为 AI 派生，并非原作者亲绘。提示词与审核见 assets/material-supplements/records.json；高分辨率母版在本机保存。",
+    "role": "subject",
+    "is_cutout": true,
+    "allow_flip": true,
+    "derived_from": "",
+    "text_safe_area": null,
+    "library_status": "preferred",
+    "subject_count": 1
+  },
+  {
+    "id": "supplement-batiao-happy",
+    "name": "呆猫八条 · 开心 · AI派生",
+    "character": "呆猫八条",
+    "filename": "material-supplements/supplement-batiao-happy.png",
+    "emotion": [
+      "开心"
+    ],
+    "action": "开心",
+    "intensity": 2,
+    "scenes": [
+      "日常聊天",
+      "校园"
+    ],
+    "examples": [
+      "好耶！"
+    ],
+    "existing_text": "",
+    "source_type": "project_derivative",
+    "author": "Emojis Plus（AI派生）",
+    "source_note": "使用内置 image_gen 参考已注册素材 batiao-cutout-v2 独立生成并审核；原参考来源保留于该素材。本图为 AI 派生，并非原作者亲绘。提示词与审核见 assets/material-supplements/records.json；高分辨率母版在本机保存。",
+    "role": "subject",
+    "is_cutout": true,
+    "allow_flip": true,
+    "derived_from": "",
+    "text_safe_area": null,
+    "library_status": "preferred",
+    "subject_count": 1
+  },
+  {
+    "id": "supplement-batiao-sad",
+    "name": "呆猫八条 · 委屈 · AI派生",
+    "character": "呆猫八条",
+    "filename": "material-supplements/supplement-batiao-sad.png",
+    "emotion": [
+      "委屈"
+    ],
+    "action": "委屈",
+    "intensity": 2,
+    "scenes": [
+      "日常聊天",
+      "校园"
+    ],
+    "examples": [
+      "我也没做错什么呀。"
+    ],
+    "existing_text": "",
+    "source_type": "project_derivative",
+    "author": "Emojis Plus（AI派生）",
+    "source_note": "使用内置 image_gen 参考已注册素材 batiao-cutout-v2 独立生成并审核；原参考来源保留于该素材。本图为 AI 派生，并非原作者亲绘。提示词与审核见 assets/material-supplements/records.json；高分辨率母版在本机保存。",
+    "role": "subject",
+    "is_cutout": true,
+    "allow_flip": true,
+    "derived_from": "",
+    "text_safe_area": null,
+    "library_status": "preferred",
+    "subject_count": 1
+  },
+  {
+    "id": "supplement-batiao-angry",
+    "name": "呆猫八条 · 生气 · AI派生",
+    "character": "呆猫八条",
+    "filename": "material-supplements/supplement-batiao-angry.png",
+    "emotion": [
+      "生气"
+    ],
+    "action": "生气",
+    "intensity": 3,
+    "scenes": [
+      "日常聊天",
+      "校园"
+    ],
+    "examples": [
+      "我真的生气了！"
+    ],
+    "existing_text": "",
+    "source_type": "project_derivative",
+    "author": "Emojis Plus（AI派生）",
+    "source_note": "使用内置 image_gen 参考已注册素材 batiao-cutout-v2 独立生成并审核；原参考来源保留于该素材。本图为 AI 派生，并非原作者亲绘。提示词与审核见 assets/material-supplements/records.json；高分辨率母版在本机保存。",
+    "role": "subject",
+    "is_cutout": true,
+    "allow_flip": true,
+    "derived_from": "",
+    "text_safe_area": null,
+    "library_status": "preferred",
+    "subject_count": 1
+  },
+  {
+    "id": "supplement-batiao-tired",
+    "name": "呆猫八条 · 困倦 · AI派生",
+    "character": "呆猫八条",
+    "filename": "material-supplements/supplement-batiao-tired.png",
+    "emotion": [
+      "困倦"
+    ],
+    "action": "困倦",
+    "intensity": 2,
+    "scenes": [
+      "日常聊天",
+      "校园"
+    ],
+    "examples": [
+      "我先睡一会儿。"
+    ],
+    "existing_text": "",
+    "source_type": "project_derivative",
+    "author": "Emojis Plus（AI派生）",
+    "source_note": "使用内置 image_gen 参考已注册素材 batiao-cutout-v2 独立生成并审核；原参考来源保留于该素材。本图为 AI 派生，并非原作者亲绘。提示词与审核见 assets/material-supplements/records.json；高分辨率母版在本机保存。",
+    "role": "subject",
+    "is_cutout": true,
+    "allow_flip": true,
+    "derived_from": "",
+    "text_safe_area": null,
+    "library_status": "preferred",
+    "subject_count": 1
+  },
+  {
+    "id": "supplement-shark-angry",
+    "name": "小鲨鱼 · 生气 · AI派生",
+    "character": "小鲨鱼",
+    "filename": "material-supplements/supplement-shark-angry.png",
+    "emotion": [
+      "生气"
+    ],
+    "action": "生气",
+    "intensity": 3,
+    "scenes": [
+      "日常聊天",
+      "校园"
+    ],
+    "examples": [
+      "我真的生气了！"
+    ],
+    "existing_text": "",
+    "source_type": "project_derivative",
+    "author": "Emojis Plus（AI派生）",
+    "source_note": "使用内置 image_gen 参考已注册素材 web-shark-04-cutout 独立生成并审核；原参考来源保留于该素材。本图为 AI 派生，并非原作者亲绘。提示词与审核见 assets/material-supplements/records.json；高分辨率母版在本机保存。",
+    "role": "subject",
+    "is_cutout": true,
+    "allow_flip": true,
+    "derived_from": "",
+    "text_safe_area": null,
+    "library_status": "preferred",
+    "subject_count": 1
+  },
+  {
+    "id": "supplement-shark-confused",
+    "name": "小鲨鱼 · 疑惑 · AI派生",
+    "character": "小鲨鱼",
+    "filename": "material-supplements/supplement-shark-confused.png",
+    "emotion": [
+      "疑惑"
+    ],
+    "action": "疑惑",
+    "intensity": 2,
+    "scenes": [
+      "日常聊天",
+      "校园"
+    ],
+    "examples": [
+      "怎么回事？"
+    ],
+    "existing_text": "",
+    "source_type": "project_derivative",
+    "author": "Emojis Plus（AI派生）",
+    "source_note": "使用内置 image_gen 参考已注册素材 web-shark-04-cutout 独立生成并审核；原参考来源保留于该素材。本图为 AI 派生，并非原作者亲绘。提示词与审核见 assets/material-supplements/records.json；高分辨率母版在本机保存。",
+    "role": "subject",
+    "is_cutout": true,
+    "allow_flip": true,
+    "derived_from": "",
+    "text_safe_area": null,
+    "library_status": "preferred",
+    "subject_count": 1
+  },
+  {
+    "id": "supplement-shark-surprised",
+    "name": "小鲨鱼 · 惊讶 · AI派生",
+    "character": "小鲨鱼",
+    "filename": "material-supplements/supplement-shark-surprised.png",
+    "emotion": [
+      "惊讶"
+    ],
+    "action": "惊讶",
+    "intensity": 3,
+    "scenes": [
+      "日常聊天",
+      "校园"
+    ],
+    "examples": [
+      "这也可以？"
+    ],
+    "existing_text": "",
+    "source_type": "project_derivative",
+    "author": "Emojis Plus（AI派生）",
+    "source_note": "使用内置 image_gen 参考已注册素材 web-shark-04-cutout 独立生成并审核；原参考来源保留于该素材。本图为 AI 派生，并非原作者亲绘。提示词与审核见 assets/material-supplements/records.json；高分辨率母版在本机保存。",
+    "role": "subject",
+    "is_cutout": true,
+    "allow_flip": true,
+    "derived_from": "",
+    "text_safe_area": null,
+    "library_status": "preferred",
+    "subject_count": 1
+  },
+  {
+    "id": "supplement-shark-scared",
+    "name": "小鲨鱼 · 害怕 · AI派生",
+    "character": "小鲨鱼",
+    "filename": "material-supplements/supplement-shark-scared.png",
+    "emotion": [
+      "害怕"
+    ],
+    "action": "害怕",
+    "intensity": 3,
+    "scenes": [
+      "日常聊天",
+      "校园"
+    ],
+    "examples": [
+      "等一下，我害怕。"
+    ],
+    "existing_text": "",
+    "source_type": "project_derivative",
+    "author": "Emojis Plus（AI派生）",
+    "source_note": "使用内置 image_gen 参考已注册素材 web-shark-04-cutout 独立生成并审核；原参考来源保留于该素材。本图为 AI 派生，并非原作者亲绘。提示词与审核见 assets/material-supplements/records.json；高分辨率母版在本机保存。",
+    "role": "subject",
+    "is_cutout": true,
+    "allow_flip": true,
+    "derived_from": "",
+    "text_safe_area": null,
+    "library_status": "preferred",
+    "subject_count": 1
+  },
+  {
+    "id": "supplement-feidudu-tired",
+    "name": "肥嘟嘟 · 疲惫 · AI派生",
+    "character": "肥嘟嘟",
+    "filename": "material-supplements/supplement-feidudu-tired.png",
+    "emotion": [
+      "疲惫"
+    ],
+    "action": "疲惫",
+    "intensity": 2,
+    "scenes": [
+      "日常聊天",
+      "校园"
+    ],
+    "examples": [
+      "今天的电量用完了。"
+    ],
+    "existing_text": "",
+    "source_type": "project_derivative",
+    "author": "Emojis Plus（AI派生）",
+    "source_note": "使用内置 image_gen 参考已注册素材 web-feidudu-09-cutout 独立生成并审核；原参考来源保留于该素材。本图为 AI 派生，并非原作者亲绘。提示词与审核见 assets/material-supplements/records.json；高分辨率母版在本机保存。",
+    "role": "subject",
+    "is_cutout": true,
+    "allow_flip": true,
+    "derived_from": "",
+    "text_safe_area": null,
+    "library_status": "preferred",
+    "subject_count": 1
+  },
+  {
+    "id": "supplement-naidan-angry",
+    "name": "奶蛋 · 生气 · AI派生",
+    "character": "奶蛋",
+    "filename": "material-supplements/supplement-naidan-angry.png",
+    "emotion": [
+      "生气"
+    ],
+    "action": "生气",
+    "intensity": 3,
+    "scenes": [
+      "日常聊天",
+      "校园"
+    ],
+    "examples": [
+      "我真的生气了！"
+    ],
+    "existing_text": "",
+    "source_type": "project_derivative",
+    "author": "Emojis Plus（AI派生）",
+    "source_note": "使用内置 image_gen 参考已注册素材 naidan-cutout-v2 独立生成并审核；原参考来源保留于该素材。本图为 AI 派生，并非原作者亲绘。提示词与审核见 assets/material-supplements/records.json；高分辨率母版在本机保存。",
+    "role": "subject",
+    "is_cutout": true,
+    "allow_flip": true,
+    "derived_from": "",
+    "text_safe_area": null,
+    "library_status": "preferred",
+    "subject_count": 1
+  },
+  {
+    "id": "supplement-nailong-angry",
+    "name": "奶龙（原版） · 生气 · AI派生",
+    "character": "奶龙（原版）",
+    "filename": "material-supplements/supplement-nailong-angry.png",
+    "emotion": [
+      "生气"
+    ],
+    "action": "生气",
+    "intensity": 3,
+    "scenes": [
+      "日常聊天",
+      "校园"
+    ],
+    "examples": [
+      "我真的生气了！"
+    ],
+    "existing_text": "",
+    "source_type": "project_derivative",
+    "author": "Emojis Plus（AI派生）",
+    "source_note": "使用内置 image_gen 参考已注册素材 original-nailong-gif-003 独立生成并审核；原参考来源保留于该素材。本图为 AI 派生，并非原作者亲绘。提示词与审核见 assets/material-supplements/records.json；高分辨率母版在本机保存。",
+    "role": "subject",
+    "is_cutout": true,
+    "allow_flip": true,
+    "derived_from": "",
+    "text_safe_area": null,
+    "library_status": "preferred",
+    "subject_count": 1
+  },
+  {
+    "id": "supplement-naiwa-comfort",
+    "name": "奶蛙 · 温柔 · AI派生",
+    "character": "奶蛙",
+    "filename": "material-supplements/supplement-naiwa-comfort.png",
+    "emotion": [
+      "温柔"
+    ],
+    "action": "温柔",
+    "intensity": 2,
+    "scenes": [
+      "日常聊天",
+      "校园"
+    ],
+    "examples": [
+      "别难过，我在呢。"
+    ],
+    "existing_text": "",
+    "source_type": "project_derivative",
+    "author": "Emojis Plus（AI派生）",
+    "source_note": "使用内置 image_gen 参考已注册素材 bulk-nailong-085-program-cutout 独立生成并审核；原参考来源保留于该素材。本图为 AI 派生，并非原作者亲绘。提示词与审核见 assets/material-supplements/records.json；高分辨率母版在本机保存。",
+    "role": "subject",
+    "is_cutout": true,
+    "allow_flip": true,
+    "derived_from": "",
+    "text_safe_area": null,
+    "library_status": "preferred",
+    "subject_count": 1
+  }
+]
